@@ -1,0 +1,12 @@
+{
+  "python_executable": "",
+  "ipkiss_python_executable": "",
+  "pdk_module": "cornerstone",
+  "pdk_version": "",
+  "klayout_executable": "",
+  "drc_deck": "",
+  "drc_deck_sha256": "",
+  "wsl_distribution": "",
+  "meep_environment": "",
+  "note": "Fill with actual installation paths and versions; this file does not install or validate tools."
+}

@@ -1,0 +1,179 @@
+{
+ "rows": [
+  {
+   "kind": "光學輸入",
+   "port": "in0",
+   "signal": "x1",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "雷射分光＋調變器（資料）"
+  },
+  {
+   "kind": "光學輸入",
+   "port": "in1",
+   "signal": "x2",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "雷射分光＋調變器（資料）"
+  },
+  {
+   "kind": "光學輸入",
+   "port": "in2",
+   "signal": "x3",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "雷射分光＋調變器（資料）"
+  },
+  {
+   "kind": "光學輸入",
+   "port": "in3",
+   "signal": "x4",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "雷射分光＋調變器（資料）"
+  },
+  {
+   "kind": "光學輸入",
+   "port": "in4",
+   "signal": "R",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "雷射分光＋衰減／相位設定（參考光）"
+  },
+  {
+   "kind": "光學輸出",
+   "port": "out0",
+   "signal": "o1",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "監看光偵測器（除錯、校正）"
+  },
+  {
+   "kind": "光學輸出",
+   "port": "out1",
+   "signal": "o2",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "平衡光偵測器＋比較器"
+  },
+  {
+   "kind": "光學輸出",
+   "port": "out2",
+   "signal": "o3",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "監看光偵測器（除錯、校正）"
+  },
+  {
+   "kind": "光學輸出",
+   "port": "out3",
+   "signal": "o4",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "平衡光偵測器＋比較器"
+  },
+  {
+   "kind": "光學輸出",
+   "port": "out4",
+   "signal": "o5",
+   "on_chip": "邊緣耦合器（EC）",
+   "off_chip": "監看光偵測器（除錯、校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M1_phi",
+   "signal": "M1_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M1_theta",
+   "signal": "M1_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M2_phi",
+   "signal": "M2_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M2_theta",
+   "signal": "M2_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M3_phi",
+   "signal": "M3_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M3_theta",
+   "signal": "M3_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M4_phi",
+   "signal": "M4_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M4_theta",
+   "signal": "M4_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M5_phi",
+   "signal": "M5_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M5_theta",
+   "signal": "M5_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M6_phi",
+   "signal": "M6_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M6_theta",
+   "signal": "M6_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M7_phi",
+   "signal": "M7_phi",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（heater）",
+   "port": "PAD_M7_theta",
+   "signal": "M7_theta",
+   "on_chip": "TiN heater＋接墊",
+   "off_chip": "DAC／電流源（相位 → 驅動值需校正）"
+  },
+  {
+   "kind": "電氣（回流）",
+   "port": "PAD_GND",
+   "signal": "GND",
+   "on_chip": "共用回流接墊（數量於佈線時決定）",
+   "off_chip": "驅動器地線"
+  }
+ ]
+}

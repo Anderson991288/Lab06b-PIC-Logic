@@ -1,0 +1,15 @@
+﻿channel,heater_logical_id,x_um,y_um,A_x_um,A_y_um,B_x_um,B_y_um,probe_pad_id,voltage_calibration
+theta1,H_M1_theta,305.5,0.0,250.0,0.0,361.0,0.0,pending_M2_S5,pending
+theta2,H_M2_theta,305.5,-90.0,250.0,-90.0,361.0,-90.0,pending_M2_S5,pending
+theta3,H_M3_theta,794.5,-30.0,739.0,-30.0,850.0,-30.0,pending_M2_S5,pending
+theta4,H_M4_theta,1283.5,0.0,1228.0,0.0,1339.0,0.0,pending_M2_S5,pending
+theta5,H_M5_theta,1283.5,-60.0,1228.0,-60.0,1339.0,-60.0,pending_M2_S5,pending
+theta6,H_M6_theta,1772.5,-30.0,1717.0,-30.0,1828.0,-30.0,pending_M2_S5,pending
+theta7,H_M7_theta,1772.5,-90.0,1717.0,-90.0,1828.0,-90.0,pending_M2_S5,pending
+phi1,H_M1_phi,61.0,0.0,5.5,0.0,116.5,0.0,pending_M2_S5,pending
+phi2,H_M2_phi,61.0,-90.0,5.5,-90.0,116.5,-90.0,pending_M2_S5,pending
+phi3,H_M3_phi,550.0,-30.0,494.5,-30.0,605.5,-30.0,pending_M2_S5,pending
+phi4,H_M4_phi,1039.0,0.0,983.5,0.0,1094.5,0.0,pending_M2_S5,pending
+phi5,H_M5_phi,1039.0,-60.0,983.5,-60.0,1094.5,-60.0,pending_M2_S5,pending
+phi6,H_M6_phi,1528.0,-30.0,1472.5,-30.0,1583.5,-30.0,pending_M2_S5,pending
+phi7,H_M7_phi,1528.0,-90.0,1472.5,-90.0,1583.5,-90.0,pending_M2_S5,pending

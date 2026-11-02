@@ -1,0 +1,18 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>結果一致：80/80，裕量相同</h3>
+<table><tr><th>功能</th><th>主線</th><th>實作 B</th></tr>
+<tr><td>AND2</td><td>2.115</td><td>2.115379</td></tr><tr><td>OR2</td><td>2.121</td><td>2.120502</td></tr>
+<tr><td>XOR2</td><td>0.25</td><td>0.25</td></tr><tr><td>AND4</td><td>1.496</td><td>1.496028</td></tr>
+<tr><td>OR4</td><td>1.500</td><td>1.499855</td></tr></table>
+<p>兩套用同一組相位、各自寫模型，五個功能的最小裕量都一致；沒用到的輸入造成的 ΔP 變化兩邊都約 10<sup>−8</sup>。在新位置重跑實作 B 的這一步：18/18 測試通過，80/80。</p>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>有號裕量：</b>(2t−1)(ΔP−τ)，t 是正確答案（0 或 1）、τ 是門檻。全部答對時，它的最小值等於主線的 min|ΔP|；有答錯時會變成負數，一眼看出錯在哪一列。</li>
+<li><b>三種故障：</b>兩個讀取埠接反 → 0/80；拿掉參考光 → 40/80，其中 14 列落在邊界；θ 與 φ 對調 → 33/80。</li>
+<li><b>θ1 單一參數掃描：</b>只動一個 heater 時，各功能的裕量怎麼掉（圖 對照-2）。主線的蒙地卡羅則是所有相位一起抖動，兩者互補。</li>
+</ul>
+<figure><img src="figures_b/m1_s4/truth_and_margins.png" alt="五個功能的真值與有號裕量" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>五個功能 80 列的有號裕量，全部大於 0。由 <a href="../impl_b/work/m1_s4/run_logic.py"><code>run_logic.py</code></a> 產生。</figcaption></figure>
+<figure><img src="figures_b/m1_s4/theta1_sensitivity.png" alt="θ1 敏感度" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>只改變 θ1 時各功能的最小裕量。</figcaption></figure>

@@ -1,0 +1,567 @@
+\# Program start time:     UTC 2026.10.31 08:23:44.884
+\# Local time: GMT+08:00 (UTC+08:00) 2026.10.31 16:23:44.884
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/08/2025 22:36 (cpgbld17) $
+\o Hierarchy:		/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR15.37  (64-bit addresses)
+\# Command line:	/home/EDA/cadence/IC231_ISR15/tools/dfII/bin/64bit/virtuoso -replay /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/launch_controlled.il -log /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/virtuoso_controlled_CDS.log
+\# Host name (type):	eda.ic (x86_64)
+\# Operating system:	Linux 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:0 (3440x1440)
+\# Available geometry:			TL(0:0) BR(3439:1439)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12401012)
+\# X resource pool:	base 0x1c00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,717 MB
+\# Available memory:	     39,394 MB
+\# System memory:	     40,254 MB
+\# Maximum memory size:	     38,722 MB
+\# Max mem available:	     38,722 MB
+\# Initial memory used:	        185 MB
+\#        process size:	      1,721 MB
+\# Thread usage limits (effective/default):	maxthreads 128206/128206 maxload 16.00/16.00
+\# Qt version:		5.15.9
+\# Window Manager:	Weston WM
+\# User Name:		edauser
+\o Working Directory:	eda.ic:/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa_lower
+\# Process Id:		3161
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o INFO (DB-120008): oaSocket connection timeout value was set to 5 seconds.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is Virtuoso.
+\# [16:23:44.280481] Configured Lic search path (23.02-s006): 5280@eda.ic
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.00s.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+\# Memory report: using         325 MB, process size 1,995 MB at UTC 2026.10.31 08:23:47.204
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\o 2026/10/31 16:23:47 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+\o 2026/10/31 16:23:47 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+\i ; Native Linux Virtuoso SKILL automation. Commands and logs stay on C mount.
+\i load("/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/lib/calibre.skl")
+\# [16:23:47.429027] Periodic Lic check successful
+\# [16:23:47.429038] Feature usage summary:
+\# [16:23:47.429038] 111
+\# [16:23:47.429039] Virtuoso_Adv_Node_Framework
+\o //
+\o //  Calibre Skill Interface * (v2026.1_17.11) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\t t
+\p > 
+\i global(labCommandIndex)
+\e *Error* eval: undefined function - global
+\p > 
+\i labCommandIndex=0
+\t 0
+\p > 
+\i procedure(labPollCommands()
+\i   let((path)
+\i     path=sprintf(nil "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/commands/%03d.il" labCommandIndex)
+\i     when(isFile(path)
+\i       printf("LAB_COMMAND_START %d\n" labCommandIndex)
+\i       labCommandIndex=labCommandIndex+1
+\i       errset(load(path) t)
+\i       printf("LAB_COMMAND_END %d\n" labCommandIndex-1)
+\i     )
+\i     hiRegTimer("labPollCommands()" 10)
+\i   )
+\i )
+\t labPollCommands
+\p > 
+\i hiRegTimer("labPollCommands()" 10)
+\t t
+\p > 
+\i printf("LAB_NATIVE_SKILL_CONTROL_READY\n")
+\o LAB_NATIVE_SKILL_CONTROL_READY
+\t t
+\p > 
+\# Replay complete, returning to interactive mode at UTC 2026.10.31 08:23:48.042
+\o LAB_COMMAND_START 0
+\o CALLABLES (hiDBoxOK(t) (hiResizeWindow t) hiZoomIn(t) (hiZoomToFit nil) (hiZoomBox nil) (geFit nil) (geFitAll nil) hiSetCurrentWindow(t) geGetEditCellView(t) (deOpenCellView t) (leOpen nil) (hiGetCurrentWindow t) hiGetWindowList(t) hiFormDone(t) hiCloseWindow(t))
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+\o Loading cle.cxt 
+\o Loading lx.cxt 
+\o Loading pe.cxt 
+\o Loading lce.cxt 
+\o Loading drdEdit.cxt 
+\o Loading rte.cxt 
+\# Current Window: window(2)
+\o Loading wsp.cxt 
+\w *WARNING* (GE-2125): Failed to get the manufacturing grid (mfgGridResolution) for the technology tech.db associated to the cellview lab06b_current_20261031/lab06b_b7_ec_pad_chip/layout.
+\w *WARNING* (GE-2125): Failed to get the manufacturing grid (mfgGridResolution) for the technology tech.db associated to the cellview lab06b_current_20261031/lab06b_b7_ec_pad_chip/layout.
+\o Loading soi.cxt 
+\o Loading cph.cxt 
+\w *WARNING* (LX-2063): The technology library 'lab06b_current_20261031' contains no constraint groups that have
+\w a 'validLayers' or 'validVias' constraint defined. Thus the XL connectivity extractor is disabled.
+\w To enable it, add a 'validLayers' constraint to the appropriate constraint group, and ensure that
+\w this constraint group is specified by the 'setupConstraintGroup' environment variable.
+\# Displaying modal dbox "lxiDialogBox", title "Layout XL"
+\p > 
+\t 
+\p > 
+\o Loading vfoCmd.cxt 
+\o The Quantus UI context file was successfully loaded.
+\o Loading sna.cxt
+\o Loading ia.cxt 
+\o Loading ev20.cxt 
+\o Loading vfp.cxt 
+\o Loading asst.cxt 
+\o Loading mpt.cxt 
+\o Loading smd.cxt 
+\o Loading ncl.cxt 
+\o Loading atd.cxt 
+\o Loading vb.cxt 
+\o Loading see.cxt 
+\o Loading oi.cxt 
+\o Loading cfde.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading nt.cxt 
+\# Memory report: using         452 MB, process size 2,187 MB at UTC 2026.10.31 08:23:52.174
+\a _treeWidgetTreeWidgetItemClicked(_iaConfForm->_iaCfgTree "Generate Trunks" "0" "Unchecked")
+\r t
+\a _treeWidgetTreeWidgetItemClicked(_iaConfForm->_iaCfgTree "Generate Trunks" "0" "Unchecked")
+\r t
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\o Loading apInfra.cxt 
+\o Loading vca.cxt 
+\a swindow(1)->hiToolbars->leAlignToolbar_1->leAlignLayerTB->value = "P&R Boundary"
+\r "P&R Boundary"
+\a swindow(1)->hiToolbars->leAlignToolbar_1->leAlignLayerTB->value = "edgeLayer drawing"
+\r "edgeLayer drawing"
+\o Loading hsm.cxt 
+\o Loading dpt.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading vrfECO.cxt 
+\o Loading layerProc.cxt 
+\o LAB_COMMAND_END 0
+\a when(dwindow('ptePaletteAssistant1) hiMapWindow(dwindow('ptePaletteAssistant1)))
+\r t
+\# Available memory:         38,808 MB at UTC 2026.10.31 08:23:55.329
+\# Thread usage report: 10 active threads, active load 1.40 at UTC 2026.10.31 08:23:55.329
+\a hiResizeWindow(swindow(1) list(116:217 1016:907))
+\r t
+\o LAB_COMMAND_START 1
+\o LOADED_LAYOUT_FUNCTIONS (hiDBoxOK(t) (hiResizeWindow t) hiZoomIn(t) (hiZoomToFit nil) (hiZoomBox nil) (geFit nil) (geFitAll nil) hiSetCurrentWindow(t) geGetEditCellView(t) (deOpenCellView t) (leOpen nil) (hiGetCurrentWindow t) hiGetWindowList(t) hiFormDone(t) hiCloseWindow(t) (leHiDisplayOptions nil))
+\o NATIVE_WINDOWS (window:1 window:2)
+\w *WARNING* (GE-2067): geGetWindowCellView: There is no graphical edit environment assigned to window(1) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\o WINDOW window:1 TYPE=nil CV=(nil)
+\o WINDOW window:2 TYPE=nil CV=(db:0x6b8fe89a)
+\o LAB_COMMAND_END 1
+\o LAB_COMMAND_START 2
+\w *WARNING* (GE-2067): geGetWindowCellView: There is no graphical edit environment assigned to window(1) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\o CURRENT_LAYOUT_WINDOW window:2 CV=db:0x6b8fe89a
+\o LAYOUT_VIEW_BBOX ((-920.0 -1005.065) (2940.0 845.065))
+\o LAB_COMMAND_END 2
+\a hiResizeWindow(swindow(1) list(34:-27 1834:973))
+\r t
+\o LAB_COMMAND_START 3
+\o FIT_KEY "hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)"
+\o ENV_LAYOUT displayResolution="Medium"
+\w *WARNING* envGetVal: Could not find variable 'resolution'
+\w 	in tool[.partition] 'layout'.
+\o ENV_LAYOUT resolution=nil
+\w *WARNING* envGetVal: Could not find variable 'instanceMode'
+\w 	in tool[.partition] 'layout'.
+\o ENV_LAYOUT instanceMode=nil
+\o ENV_LAYOUT viewNameList=""
+\o CONTROLLED_READY_WINDOW window:2 BBOX=((-920.0 -1005.065) (2940.0 845.065))
+\o LAB_COMMAND_END 3
+\o LAB_COMMAND_START 4
+\o DISPLAY_SETTINGS resolution="Very High" start=0 stop=32
+\o CURRENT_VIEW ((-920.0 -1005.065) (2940.0 845.065))
+\o LAB_COMMAND_END 4
+\# Display rendering thread active load: 14
+\a hiResizeWindow(swindow(1) list(82:231 1882:1231))
+\r t
+\a hiResizeWindow(window(1) list(463:94 1258:287))
+\r t
+\o LAB_COMMAND_START 5
+\o FINAL_VIEW_BBOX ((-1040.0 -1062.582) (3060.0 902.582))
+\o BANNER_MENUS (maskLayoutTools leDesignMenuR2 leEditMenu2 leWindowMenu2 leCreateMenu2 leVerifyMenu2 leConnMenu2 leOptionsMenu2 leUtilToolsMenu2 leSessionWindowMenu2 qrcMenu lxFloorplanMenu2 lxPlacementMenu2 iaVirtuosoSpaceRouterMenu2 lxConcurrentMenu2 mgcCalibreMenuSymbol pvsPullDownMenu_layoutXL ciwvHelpMenu)
+\o MENU_FUNCTIONS (hiGetMenuItems(t) (hiGetMenuItem nil) (hiGetBannerMenu nil) hiGetBannerMenus(t) (hiOpenPulldownMenu nil) (hiGetCurrentForm t) (hiGetForms nil))
+\o LAB_COMMAND_END 5
+\o LAB_COMMAND_START 6
+\o CALIBRE_MENU_ITEMS (calibre_Run_nm_DRC____command__7053 calibre_Run_D_FM____command__2914 calibre_Run_nm_LVS____command__827 calibre_Run_PER_C____command__302 calibre_Run__PEX____command__3631 calibre_Run__xACT____command__785 calibre_Run__3DSTACK____command__230 calibre_Start__RVE____command__8011 calibre_separator__1567 calibre_Run__Jobs____command__2350 calibre_Clear__Highlights_command__5307 calibre___Setup_slider_90 calibre__About_command__440)
+\o CALIBRE_ITEM calibre_Run_nm_DRC____command__7053 VALUE=hiMenuItem@0x732751a0
+\o CALIBRE_ITEM calibre_Run_D_FM____command__2914 VALUE=hiMenuItem@0x732751b8
+\o CALIBRE_ITEM calibre_Run_nm_LVS____command__827 VALUE=hiMenuItem@0x732751d0
+\o CALIBRE_ITEM calibre_Run_PER_C____command__302 VALUE=hiMenuItem@0x732751e8
+\o CALIBRE_ITEM calibre_Run__PEX____command__3631 VALUE=hiMenuItem@0x73275200
+\o CALIBRE_ITEM calibre_Run__xACT____command__785 VALUE=hiMenuItem@0x73275218
+\o CALIBRE_ITEM calibre_Run__3DSTACK____command__230 VALUE=hiMenuItem@0x73275230
+\o CALIBRE_ITEM calibre_Start__RVE____command__8011 VALUE=hiMenuItem@0x73275248
+\o CALIBRE_ITEM calibre_separator__1567 VALUE=hiSeparatorItem@0x73275260
+\o CALIBRE_ITEM calibre_Run__Jobs____command__2350 VALUE=hiMenuItem@0x73275278
+\o CALIBRE_ITEM calibre_Clear__Highlights_command__5307 VALUE=hiMenuItem@0x73275290
+\o CALIBRE_ITEM calibre___Setup_slider_90 VALUE=hiSliderItem@0x73275338
+\o CALIBRE_ITEM calibre__About_command__440 VALUE=hiMenuItem@0x73275350
+\o LAB_COMMAND_END 6
+\o LAB_COMMAND_START 7
+\o DRC_CALLBACK callback=nil _callback=nil
+\o RVE_CALLBACK callback=nil _callback=nil
+\o LAB_COMMAND_END 7
+\o LAB_COMMAND_START 8
+\o MENU_CALLABLE calibre_Run_nm_DRC____command__7053 nil
+\o MENU_NATIVE_APIS ((hiExecuteMenuItem nil) (hiTriggerMenuItem nil) (hiShowMenu nil) (hiActivateMenuItem nil) (hiCallMenuItem nil) (hiExecuteCommand nil) (hiGetMenuItemCallback nil) (hiGetMenuItemProperty nil))
+\o ITEM_PROPERTIES (hiStatusTip "" _disabled nil _widgetInstanceList (calibre_Run_nm_DRC____command__7053) _itemCallback "mgc_custom_menus_run_menu_cmd(\"DRC\" \"::CalibreInterface::execCalibre DRC\" 'nil ?code \"\")" _itemIcon nil hiItemText "Run nm&DRC..." hiMenuItemSym calibre_Run_nm_DRC____command__7053)
+\o LAB_COMMAND_END 8
+\o LAB_COMMAND_START 9
+\o ACTUAL_DRC_CALLBACK "mgc_custom_menus_run_menu_cmd(\"DRC\" \"::CalibreInterface::execCalibre DRC\" 'nil ?code \"\")"
+\o ACTUAL_RVE_CALLBACK "mgc_custom_menus_run_menu_cmd(\"RVE\" \"::CalibreInterface::execCalibre RVE\" 'nil ?code \"\")"
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+\w *WARNING* (GE-2125): Failed to get the manufacturing grid (mfgGridResolution) for the technology tech.db associated to the cellview lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout.
+\w *WARNING* (GE-2125): Failed to get the manufacturing grid (mfgGridResolution) for the technology tech.db associated to the cellview lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout.
+\w *WARNING* (LX-2063): The technology library 'lab06b_crosscad_20261031' contains no constraint groups that have
+\w a 'validLayers' or 'validVias' constraint defined. Thus the XL connectivity extractor is disabled.
+\w To enable it, add a 'validLayers' constraint to the appropriate constraint group, and ensure that
+\w this constraint group is specified by the 'setupConstraintGroup' environment variable.
+\# Displaying modal dbox "lxiDialogBox", title "Layout XL"
+\p > 
+\t 
+\p > 
+\a _treeWidgetTreeWidgetItemClicked(_iaConfForm->_iaCfgTree "Generate Trunks" "0" "Unchecked")
+\r t
+\o LAB_COMMAND_END 9
+\o LAB_COMMAND_START 10
+\o FINAL_LAYOUT_OPEN CV=db:0x6b8f211a BBOX=((-920.0 -900.0) (2940.0 740.0)) INST=2
+\o INVOKING_NATIVE_DRC_MENU "mgc_custom_menus_run_menu_cmd(\"DRC\" \"::CalibreInterface::execCalibre DRC\" 'nil ?code \"\")"
+\o //  Calibre layout-server initialized successfully at socket 9189, host localhost.
+\o LAB_COMMAND_END 10
+\o //  Calibre v2026.1_17.11    Mon Jan 5 16:59:17 PST 2026
+\o //  Calibre Utility Library   v0-10_13-2017-1    Fri Sep 19 09:11:48 PDT 2025
+\o //  Litho Libraries v2026.1_17.11  Mon Jan 5 16:59:17 PST 2026
+\o //
+\o //                   Copyright Siemens 1996-2026
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //          WHICH IS THE PROPERTY OF SIEMENS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Siemens software executing under x86-64 Linux
+\o //
+\o //  Running on 1 CPU 
+\o //
+\o //
+\o //  mgc_s license acquired (calinteractive requested).
+\o //  Calibre Interactive authorized.
+\o LAB_COMMAND_START 11
+\o LAB_COMMAND_END 11
+\o 
+\o *** Calibre Interactive: Exporting layout for library "lab06b_crosscad_20261031", cell "lab06b_b7_ec_pad_chip", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o INFO (DB-120008): oaSocket connection timeout value was set to 5 seconds.
+\o 
+\o *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+\o 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+\o *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+\o 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+\o *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+\o 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+\o           : sub-version  IC23.1-64b.ISR15.37 
+\o Started at: 31-Oct-2026  16:45:50
+\o User Name : edauser
+\o Host Name : eda.ic
+\o Directory : /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa_lower
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+\o 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+\o 
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+\o 
+\o 
+\o Summary of Options :
+\o library                                 lab06b_crosscad_20261031
+\o strmFile                                /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/lab06b_b7_ec_pad_chip.calibre.db
+\o topCell                                 lab06b_b7_ec_pad_chip
+\o view                                    layout
+\o runDir                                  /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/
+\o logFile                                 PIPO.LOG.lab06b_b7_ec_pad_chip
+\o summaryFile                             PIPO.SUM.lab06b_b7_ec_pad_chip
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o 
+\o INFO (XSTRM-223): 1. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace.
+\o INFO (XSTRM-223): 2. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition1/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition1.
+\o INFO (XSTRM-223): 3. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition2/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition2.
+\o INFO (XSTRM-223): 4. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition3/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition3.
+\o INFO (XSTRM-223): 5. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition4/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition4.
+\o INFO (XSTRM-223): 6. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi.
+\o INFO (XSTRM-223): 7. Translating cellview lab06b_crosscad_20261031/mzi_wg0/layout as STRUCTURE mzi_wg0.
+\o INFO (XSTRM-223): 8. Translating cellview lab06b_crosscad_20261031/mzi_wg1/layout as STRUCTURE mzi_wg1.
+\o INFO (XSTRM-223): 9. Translating cellview lab06b_crosscad_20261031/mzi_wg2/layout as STRUCTURE mzi_wg2.
+\o INFO (XSTRM-223): 10. Translating cellview lab06b_crosscad_20261031/mzi_wg3/layout as STRUCTURE mzi_wg3.
+\o INFO (XSTRM-223): 11. Translating cellview lab06b_crosscad_20261031/mzi_wg4/layout as STRUCTURE mzi_wg4.
+\o INFO (XSTRM-223): 12. Translating cellview lab06b_crosscad_20261031/mzi_wg5/layout as STRUCTURE mzi_wg5.
+\o INFO (XSTRM-223): 13. Translating cellview lab06b_crosscad_20261031/lab06b_mzi_core/layout as STRUCTURE lab06b_mzi_core.
+\o INFO (XSTRM-223): 14. Translating cellview lab06b_crosscad_20261031/wg_byp_l0_r2/layout as STRUCTURE wg_byp_l0_r2.
+\o INFO (XSTRM-223): 15. Translating cellview lab06b_crosscad_20261031/wg_byp_l1_r0/layout as STRUCTURE wg_byp_l1_r0.
+\o INFO (XSTRM-223): 16. Translating cellview lab06b_crosscad_20261031/wg_byp_l1_r3/layout as STRUCTURE wg_byp_l1_r3.
+\o INFO (XSTRM-223): 17. Translating cellview lab06b_crosscad_20261031/wg_byp_l1_r4/layout as STRUCTURE wg_byp_l1_r4.
+\o INFO (XSTRM-223): 18. Translating cellview lab06b_crosscad_20261031/wg_byp_l2_r4/layout as STRUCTURE wg_byp_l2_r4.
+\o INFO (XSTRM-223): 19. Translating cellview lab06b_crosscad_20261031/wg_byp_l3_r0/layout as STRUCTURE wg_byp_l3_r0.
+\o INFO (XSTRM-223): 20. Translating cellview lab06b_crosscad_20261031/wg_in0/layout as STRUCTURE wg_in0.
+\o INFO (XSTRM-223): 21. Translating cellview lab06b_crosscad_20261031/wg_out0/layout as STRUCTURE wg_out0.
+\o INFO (XSTRM-223): 22. Translating cellview lab06b_crosscad_20261031/wg_in1/layout as STRUCTURE wg_in1.
+\o INFO (XSTRM-223): 23. Translating cellview lab06b_crosscad_20261031/wg_out1/layout as STRUCTURE wg_out1.
+\o INFO (XSTRM-223): 24. Translating cellview lab06b_crosscad_20261031/wg_in2/layout as STRUCTURE wg_in2.
+\o INFO (XSTRM-223): 25. Translating cellview lab06b_crosscad_20261031/wg_out2/layout as STRUCTURE wg_out2.
+\o INFO (XSTRM-223): 26. Translating cellview lab06b_crosscad_20261031/wg_in3/layout as STRUCTURE wg_in3.
+\o INFO (XSTRM-223): 27. Translating cellview lab06b_crosscad_20261031/wg_out3/layout as STRUCTURE wg_out3.
+\o INFO (XSTRM-223): 28. Translating cellview lab06b_crosscad_20261031/wg_in4/layout as STRUCTURE wg_in4.
+\o INFO (XSTRM-223): 29. Translating cellview lab06b_crosscad_20261031/wg_out4/layout as STRUCTURE wg_out4.
+\o INFO (XSTRM-223): 30. Translating cellview lab06b_crosscad_20261031/lab06b_b7_core/layout as STRUCTURE lab06b_b7_core.
+\o INFO (XSTRM-223): 31. Translating cellview lab06b_crosscad_20261031/lab06b_reference_ec/layout as STRUCTURE lab06b_reference_ec.
+\o INFO (XSTRM-223): 32. Translating cellview lab06b_crosscad_20261031/fan_in0/layout as STRUCTURE fan_in0.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-65001, -225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200,
+\o  defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 33. Translating cellview lab06b_crosscad_20261031/fan_out0/layout as STRUCTURE fan_out0.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2080000, -225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 34. Translating cellview lab06b_crosscad_20261031/fan_in1/layout as STRUCTURE fan_in1.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-65000, -30225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 35. Translating cellview lab06b_crosscad_20261031/fan_out1/layout as STRUCTURE fan_out1.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2080000, -30225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 36. Translating cellview lab06b_crosscad_20261031/fan_in2/layout as STRUCTURE fan_in2.
+\o INFO (XSTRM-223): 37. Translating cellview lab06b_crosscad_20261031/fan_out2/layout as STRUCTURE fan_out2.
+\o INFO (XSTRM-223): 38. Translating cellview lab06b_crosscad_20261031/fan_in3/layout as STRUCTURE fan_in3.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-660000, -310225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 39. Translating cellview lab06b_crosscad_20261031/fan_out3/layout as STRUCTURE fan_out3.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2675000, -310225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 40. Translating cellview lab06b_crosscad_20261031/fan_in4/layout as STRUCTURE fan_in4.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-660000, -560225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 41. Translating cellview lab06b_crosscad_20261031/fan_out4/layout as STRUCTURE fan_out4.
+\o INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2674999, -560225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+\o INFO (XSTRM-223): 42. Translating cellview lab06b_crosscad_20261031/lab06b_chip_interfaces/layout as STRUCTURE lab06b_chip_interfaces.
+\o INFO (XSTRM-223): 43. Translating cellview lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout as STRUCTURE lab06b_b7_ec_pad_chip.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       58
+\o 	Array Instances:                        0
+\o 	Polygons:                               117
+\o 	Paths:                                  0
+\o 	Rectangles:                             113
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:          
+\o                      0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Stitch:                                 0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   16
+\o 	TextDisplay:                            0
+\o 	Cells:                                  43
+\o 
+\o 
+\o Elapsed Time: 1.7s   User Time: 0.1s   CPU Time: 0.2s   Peak VM: 33300KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.
+\o 
+\o LAB_COMMAND_START 12
+\o LAB_COMMAND_END 12
+\a hiResizeWindow(swindow(1) list(34:-27 1834:623))
+\r t
+\o LAB_COMMAND_START 13
+\o LAB_COMMAND_END 13
+\a hiResizeWindow(swindow(1) list(34:-27 1834:973))
+\r t
+\o LAB_COMMAND_START 14
+\o USER_REQUESTED_VIRTUOSO_CLOSE
+\p > 
+\t 
+\p > 
+\# Memory report: using         751 MB, process size 3,062 MB at UTC 2026.10.31 09:31:47.259
+\o Signal SIGTERM received on Saturday 31 October 2026 at 05:31:45 PM (CST)
+\o The signal was sent by process id 18397 which corresponds to the command: /usr/bin/python3 -
+\o <<< C Stack Trace (begin) >>>
+\o libvirtuos_sh.so:voSigExitHandler.part.0+123()
+\o libpthread.so.0:__restore_rt+0()
+\o libc.so.6:ppoll+166()
+\o libcdsQt5Core.so.5:_Z12qt_safe_pollP6pollfdmPK8timespec+80()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherUNIX13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+579()
+\o libcdsQt5XcbQpa.so.5:+165169233()
+\o virtuoso:hiiFillCIWInPortCB+1571()
+\o libil_sh.so:iliBGetc+84()
+\o libil_sh.so:ilGetCharPort+106()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+196()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+18224()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2580()
+\o libil_sh.so:ilParserReent+48()
+\o libil_sh.so:ilReadport+556()
+\o libil_sh.so:iliTopLevel+329()
+\o virtuoso:_ZL16_hiSubEventShellPN2hi14TopLevelWidgetEc+384()
+\o virtuoso:hiiSubEventShell+41()
+\o virtuoso:_Z14hiiDisplayFormP10iltLispvalciic+2631()
+\o virtuoso:hifDisplayForm+316()
+\o libil_sh.so:iliVcodeEval2C+11788()
+\o libil_sh.so:iliVcodeEval2+69()
+\o libil_sh.so:ilApply+194()
+\o libil_sh.so:ilExit+154()
+\o libil_sh.so:ilfExit+54()
+\o libil_sh.so:iliVcodeEval2C+9245()
+\o libil_sh.so:iliVcodeEval2+69()
+\o libil_sh.so:ilxSkillEval2+225()
+\o libil_sh.so:iliLoadPort+867()
+\o libil_sh.so:iliVcodeEval2C+11788()
+\o libil_sh.so:iliVcodeEval2+69()
+\o libil_sh.so:ilApply+194()
+\o libil_sh.so:_ilErrSet+242()
+\o libil_sh.so:iliCallSyntaxHelper+376()
+\o libil_sh.so:iliVcodeEval2C+9289()
+\o libil_sh.so:iliVcodeEval2+69()
+\o libil_sh.so:ilxSkillEval2+225()
+\o libil_sh.so:iliEvalString+743()
+\o libil_sh.so:_ilErrSetString+132()
+\o virtuoso:_ZN11_HiQTimeOut8callbackEPvPm+36()
+\o virtuoso:_ZN9_HiQTimer10timerEventEP11QTimerEvent+264()
+\o libcdsQt5Core.so.5:_ZN7QObject5eventEP6QEvent+453()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+127()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+392()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+282()
+\o libcdsQt5Core.so.5:_ZN14QTimerInfoList14activateTimersEv+928()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherUNIX13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+927()
+\o libcdsQt5XcbQpa.so.5:+165169233()
+\o virtuoso:hiiFillCIWInPortCB+1571()
+\o libil_sh.so:iliBGetc+84()
+\o libil_sh.so:ilGetCharPort+106()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+196()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+18224()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2580()
+\o libil_sh.so:ilParserReent+48()
+\o libil_sh.so:ilReadport+556()
+\o libil_sh.so:iliTopLevel+329()
+\o virtuoso:hiMainLoop+895()
+\o virtuoso:_ZN3rde15startHiMainLoopEv+7550()
+\o virtuoso:Tcl_MainEx+1332()
+\o virtuoso:_ZN17TclCommandAdaptor8mainLoopEiPPcPKcRKSt6vectorI9ctuStringSaIS5_EEPFvvE+1665()
+\o virtuoso:_Z11finaleEntryiPPcPKcbP16finaleAppHarness+5449()
+\o virtuoso:_Z12rdeStartMainiPPc+43()
+\o virtuoso:main+1080()
+\o libc.so.6:__libc_start_main+229()
+\o virtuoso:_start+41()
+\o <<< C Stack Trace (end) >>>
+\o <<< Stack Trace >>>
+\o 	_insideilparser = t
+\o (... in geiCloseAllCellViews ...)
+\o 	form = formStruct@0x6f6d4b60
+\o 	retValue = nil
+\o geiCloseAllCellViews()
+\o exit()
+\o load(path)
+\o funobj@0x6b148368()
+\o errset(lambda(nil load(path)) t)
+\o when(isFile(path) printf("LAB_COMMAND_START %d\n" labCommandIndex) (labCommandIndex = (labCommandIndex + 1)) errset(lambda(nil load(path)) t) printf("LAB_COMMAND_END %d\n" (labCommandIndex - 1)))
+\o let((path) (path = sprintf(nil "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/commands/%03d.il" labCommandIndex)) when(isFile(path) printf("LAB_COMMAND_START %d\n" labCommandIndex) (labCommandIndex = (labCommandIndex + 1)) errset(lambda(nil &) t) printf("LAB_COMMAND_END %d\n" (labCommandIndex - 1))) hiRegTimer("labPollCommands()" 10))
+\o 	path = "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/commands/014.il"
+\o labPollCommands()
+\o 	_echo = nil
+\o 	_insideilparser = t
+\o <<< SKILL Stack Trace (end) >>>
+\o 
+\o Running command: /usr/bin/top -b -n 1 -c
+\o top - 17:31:47 up  1:26,  0 users,  load average: 0.01, 0.00, 0.00
+\o 
+\o Running command: /home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdsPstack 3161
+\o 
+\o Memory usage on exit: 751 MB, process size: 3062 MB

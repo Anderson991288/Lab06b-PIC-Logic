@@ -1,0 +1,10 @@
+{
+  "url": "https://www.klayout.org/downloads/Windows/klayout-0.30.12-win64.zip",
+  "official_download_page": "https://www.klayout.de/build.html",
+  "version": "0.30.12",
+  "md5": "e1faa8a419f85579daf187e23f39c71c",
+  "sha256": "1ccabcd8ef14e04bc1d3383e83d50747db845b4f9939d3b1901e20f444f9967b",
+  "bytes": 370182806,
+  "exe": "tools/KLayout/klayout-0.30.12-win64/klayout_app.exe",
+  "distribution": "official portable Windows x64 ZIP"
+}

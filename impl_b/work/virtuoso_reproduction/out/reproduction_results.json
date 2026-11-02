@@ -1,0 +1,1856 @@
+{
+  "schema": "lab06b.virtuoso_calibre_reproduction.v1",
+  "timestamp": "2026-10-31T16:54:10.035268+08:00",
+  "status": "passed",
+  "new_execution": true,
+  "D_writes": false,
+  "versions": {
+    "WSL": "EDA_Server, AlmaLinux 8.10",
+    "Virtuoso": "IC23.1-64b.ISR15.37",
+    "Calibre": "2026.1_17.11",
+    "KLayout": "0.30.12"
+  },
+  "native_GUI": {
+    "virtuoso_layout_opened": true,
+    "interactive": "Calibre 2026.1 classic Interactive, vendor-provided compatibility GUI",
+    "RVE": "16 green checks, No Results Found; actual final results.db loaded",
+    "capture": "Unedited native Linux X11 window pixels",
+    "automation": "Virtuoso SKILL menu callback + native Calibre Tcl widget invocations; no Windows input injection used"
+  },
+  "source": {
+    "path": "work/m2_s6/out/after/b7_ec_pad.gds",
+    "sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "adopted_S6_unchanged": true
+  },
+  "final": {
+    "path": "work/virtuoso_reproduction/out/exports_final/B7_crosscad_final.gds",
+    "sha256": "f6e09bad9fc25cd556772ecbb97cd602a9e3afed5a167a6a4f1d4c1711b247e0",
+    "top": "LAB06B_B7_EC_PAD_CHIP",
+    "cells": 43,
+    "instances": 58,
+    "texts1002": 16,
+    "bbox_um": [
+      -920,
+      -900,
+      2940,
+      740
+    ],
+    "maxVertices": 8191,
+    "annotation_revision": "19 GDS100 annotation clusters scaled 1.3; six physical masks XOR0; 16 GDS1002 texts unchanged",
+    "OA_library": "lab06b_crosscad_20261031",
+    "OA_top": "lab06b_b7_ec_pad_chip",
+    "OA_path": "work/virtuoso_reproduction/work/oa_crosscad/lab06b_crosscad_20261031"
+  },
+  "name_mapping": {
+    "count": 43,
+    "case_collision_count": 0,
+    "policy": "Explicit lower-case OA names on C NTFS; original case restored on GDS export; text case preserved"
+  },
+  "calibre": {
+    "source": {
+      "checks": 16,
+      "total": 27,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 27
+        }
+      ],
+      "summary": "work/virtuoso_reproduction/out/cli_accepted/summary.txt"
+    },
+    "negative": {
+      "checks": 16,
+      "total": 16,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 1
+        }
+      ],
+      "summary": "work/virtuoso_reproduction/out/cli_negative/summary.txt"
+    },
+    "labels_revised": {
+      "checks": 16,
+      "total": 0,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 0
+        }
+      ],
+      "summary": "work/virtuoso_reproduction/out/cli_crosscad/summary.txt"
+    },
+    "gui_auto": {
+      "checks": 16,
+      "total": 0,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 0
+        }
+      ],
+      "summary": "work/virtuoso_reproduction/out/gui_auto/drc.summary"
+    },
+    "gui_fixed": {
+      "checks": 16,
+      "total": 0,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 0
+        }
+      ],
+      "summary": "work/virtuoso_reproduction/out/gui_fixed/drc.summary"
+    }
+  },
+  "pre_DRC": [
+    {
+      "name": "oa_200",
+      "gds": "exports/B7_max200.gds",
+      "gds_sha256": "aa2bb6ca56b827d149b0d52b80b73d8ba9b15da4250935403f79f859ba2b85aa",
+      "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "categories": 31,
+      "records": 8,
+      "counts": {
+        "3/0 grid violations": 0,
+        "100/0 grid violations": 0,
+        "39/0 grid violations": 0,
+        "41/0 grid violations": 0,
+        "99/0 grid violations": 0,
+        "5/0 grid violations": 0,
+        "4/0 grid violations": 0,
+        "1002/0 grid violations": 0,
+        "Correct design area violation": 0,
+        "Minimum feature size vilation (GDS60<60 nm)": 0,
+        "Minimum feature size violation (GDS60 short than max feature length)": 0,
+        "Minimum gap violation (GDS60<60nm)": 0,
+        "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+        "Minimum feature size violation (GDS6< 200nm)": 0,
+        "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+        "Minimum gap violation (GDS6 < 250 nm)": 0,
+        "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+        "aviode overlapping GDS6 and GDS39": 0,
+        "aviode overlapping GDS6 and GDS41": 0,
+        "Minimum feature size violation (GDS3< 350nm)": 8,
+        "Minimum gap violation (GDS3<200nm)": 0,
+        "Minimum feature size violation (GDS4< 200nm)": 0,
+        "Minimum gap violation (GDS4<350nm)": 0,
+        "Minimum feature size violation (GDS5< 250nm)": 0,
+        "Minimum gap violation (GDS5<250nm)": 0,
+        "Minimum feature size violate (GDS39<600nm)": 0,
+        "Minimum gap violate (GDS39<10micro)": 0,
+        "Minimum feature size violate (GDS41<2micro)": 0,
+        "Minimum gap violate (GDS41<10micro)": 0,
+        "Minimum feature size violate (GDS100<250nm)": 0,
+        "Minimum gap violate (GDS100<250nm)": 0
+      },
+      "report": "work/virtuoso_reproduction/out/pre_drc_oa_200/pre_drc.lyrdb"
+    },
+    {
+      "name": "oa_8191",
+      "gds": "exports/B7_max8191.gds",
+      "gds_sha256": "9a44a063e969b057b7c8476d9fd35ffdb1faffe6c9678d18da27bfa4db96876f",
+      "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "categories": 31,
+      "records": 0,
+      "counts": {
+        "3/0 grid violations": 0,
+        "100/0 grid violations": 0,
+        "39/0 grid violations": 0,
+        "41/0 grid violations": 0,
+        "99/0 grid violations": 0,
+        "5/0 grid violations": 0,
+        "4/0 grid violations": 0,
+        "1002/0 grid violations": 0,
+        "Correct design area violation": 0,
+        "Minimum feature size vilation (GDS60<60 nm)": 0,
+        "Minimum feature size violation (GDS60 short than max feature length)": 0,
+        "Minimum gap violation (GDS60<60nm)": 0,
+        "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+        "Minimum feature size violation (GDS6< 200nm)": 0,
+        "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+        "Minimum gap violation (GDS6 < 250 nm)": 0,
+        "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+        "aviode overlapping GDS6 and GDS39": 0,
+        "aviode overlapping GDS6 and GDS41": 0,
+        "Minimum feature size violation (GDS3< 350nm)": 0,
+        "Minimum gap violation (GDS3<200nm)": 0,
+        "Minimum feature size violation (GDS4< 200nm)": 0,
+        "Minimum gap violation (GDS4<350nm)": 0,
+        "Minimum feature size violation (GDS5< 250nm)": 0,
+        "Minimum gap violation (GDS5<250nm)": 0,
+        "Minimum feature size violate (GDS39<600nm)": 0,
+        "Minimum gap violate (GDS39<10micro)": 0,
+        "Minimum feature size violate (GDS41<2micro)": 0,
+        "Minimum gap violate (GDS41<10micro)": 0,
+        "Minimum feature size violate (GDS100<250nm)": 0,
+        "Minimum gap violate (GDS100<250nm)": 0
+      },
+      "report": "work/virtuoso_reproduction/out/pre_drc_oa_8191/pre_drc.lyrdb"
+    },
+    {
+      "name": "crosscad",
+      "gds": "input/B7_crosscad_labels.gds",
+      "gds_sha256": "0f3d2627db7c3c4dc85cc82be4b734e6e5bca6218749152a6da0e2d7d13c89c3",
+      "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "categories": 31,
+      "records": 0,
+      "counts": {
+        "3/0 grid violations": 0,
+        "5/0 grid violations": 0,
+        "4/0 grid violations": 0,
+        "100/0 grid violations": 0,
+        "39/0 grid violations": 0,
+        "41/0 grid violations": 0,
+        "99/0 grid violations": 0,
+        "1002/0 grid violations": 0,
+        "Correct design area violation": 0,
+        "Minimum feature size vilation (GDS60<60 nm)": 0,
+        "Minimum feature size violation (GDS60 short than max feature length)": 0,
+        "Minimum gap violation (GDS60<60nm)": 0,
+        "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+        "Minimum feature size violation (GDS6< 200nm)": 0,
+        "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+        "Minimum gap violation (GDS6 < 250 nm)": 0,
+        "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+        "aviode overlapping GDS6 and GDS39": 0,
+        "aviode overlapping GDS6 and GDS41": 0,
+        "Minimum feature size violation (GDS3< 350nm)": 0,
+        "Minimum gap violation (GDS3<200nm)": 0,
+        "Minimum feature size violation (GDS4< 200nm)": 0,
+        "Minimum gap violation (GDS4<350nm)": 0,
+        "Minimum feature size violation (GDS5< 250nm)": 0,
+        "Minimum gap violation (GDS5<250nm)": 0,
+        "Minimum feature size violate (GDS39<600nm)": 0,
+        "Minimum gap violate (GDS39<10micro)": 0,
+        "Minimum feature size violate (GDS41<2micro)": 0,
+        "Minimum gap violate (GDS41<10micro)": 0,
+        "Minimum feature size violate (GDS100<250nm)": 0,
+        "Minimum gap violate (GDS100<250nm)": 0
+      },
+      "report": "work/virtuoso_reproduction/out/pre_drc_crosscad/pre_drc.lyrdb"
+    },
+    {
+      "name": "gui_auto",
+      "gds": "gui_auto/lab06b_b7_ec_pad_chip.calibre.db",
+      "gds_sha256": "de35c3d3bedd3b32714f03a8f7592f2c90ca41713d758882335383caec2ffcce",
+      "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "categories": 31,
+      "records": 8,
+      "counts": {
+        "3/0 grid violations": 0,
+        "100/0 grid violations": 0,
+        "39/0 grid violations": 0,
+        "41/0 grid violations": 0,
+        "99/0 grid violations": 0,
+        "5/0 grid violations": 0,
+        "4/0 grid violations": 0,
+        "1002/0 grid violations": 0,
+        "Correct design area violation": 0,
+        "Minimum feature size vilation (GDS60<60 nm)": 0,
+        "Minimum feature size violation (GDS60 short than max feature length)": 0,
+        "Minimum gap violation (GDS60<60nm)": 0,
+        "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+        "Minimum feature size violation (GDS6< 200nm)": 0,
+        "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+        "Minimum gap violation (GDS6 < 250 nm)": 0,
+        "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+        "aviode overlapping GDS6 and GDS39": 0,
+        "aviode overlapping GDS6 and GDS41": 0,
+        "Minimum feature size violation (GDS3< 350nm)": 8,
+        "Minimum gap violation (GDS3<200nm)": 0,
+        "Minimum feature size violation (GDS4< 200nm)": 0,
+        "Minimum gap violation (GDS4<350nm)": 0,
+        "Minimum feature size violation (GDS5< 250nm)": 0,
+        "Minimum gap violation (GDS5<250nm)": 0,
+        "Minimum feature size violate (GDS39<600nm)": 0,
+        "Minimum gap violate (GDS39<10micro)": 0,
+        "Minimum feature size violate (GDS41<2micro)": 0,
+        "Minimum gap violate (GDS41<10micro)": 0,
+        "Minimum feature size violate (GDS100<250nm)": 0,
+        "Minimum gap violate (GDS100<250nm)": 0
+      },
+      "report": "work/virtuoso_reproduction/out/pre_drc_gui_auto/pre_drc.lyrdb"
+    },
+    {
+      "name": "final",
+      "gds": "exports_final/B7_crosscad_final.gds",
+      "gds_sha256": "f6e09bad9fc25cd556772ecbb97cd602a9e3afed5a167a6a4f1d4c1711b247e0",
+      "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "categories": 31,
+      "records": 0,
+      "counts": {
+        "3/0 grid violations": 0,
+        "100/0 grid violations": 0,
+        "39/0 grid violations": 0,
+        "41/0 grid violations": 0,
+        "99/0 grid violations": 0,
+        "5/0 grid violations": 0,
+        "4/0 grid violations": 0,
+        "1002/0 grid violations": 0,
+        "Correct design area violation": 0,
+        "Minimum feature size vilation (GDS60<60 nm)": 0,
+        "Minimum feature size violation (GDS60 short than max feature length)": 0,
+        "Minimum gap violation (GDS60<60nm)": 0,
+        "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+        "Minimum feature size violation (GDS6< 200nm)": 0,
+        "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+        "Minimum gap violation (GDS6 < 250 nm)": 0,
+        "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+        "aviode overlapping GDS6 and GDS39": 0,
+        "aviode overlapping GDS6 and GDS41": 0,
+        "Minimum feature size violation (GDS3< 350nm)": 0,
+        "Minimum gap violation (GDS3<200nm)": 0,
+        "Minimum feature size violation (GDS4< 200nm)": 0,
+        "Minimum gap violation (GDS4<350nm)": 0,
+        "Minimum feature size violation (GDS5< 250nm)": 0,
+        "Minimum gap violation (GDS5<250nm)": 0,
+        "Minimum feature size violate (GDS39<600nm)": 0,
+        "Minimum gap violate (GDS39<10micro)": 0,
+        "Minimum feature size violate (GDS41<2micro)": 0,
+        "Minimum gap violate (GDS41<10micro)": 0,
+        "Minimum feature size violate (GDS100<250nm)": 0,
+        "Minimum gap violate (GDS100<250nm)": 0
+      },
+      "report": "work/virtuoso_reproduction/out/pre_drc_final/pre_drc.lyrdb"
+    }
+  ],
+  "original_roundtrip": [
+    {
+      "maxVertices": 200,
+      "gds_sha256": "aa2bb6ca56b827d149b0d52b80b73d8ba9b15da4250935403f79f859ba2b85aa",
+      "top": "LAB06B_B7_EC_PAD_CHIP",
+      "cells": 43,
+      "cell_names_identical": true,
+      "layers": [
+        {
+          "layer": 3,
+          "XOR_nm2": 25744,
+          "XOR_polygons": 80
+        },
+        {
+          "layer": 4,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 5,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 39,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 41,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 99,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 100,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        }
+      ],
+      "texts_identical": true,
+      "text_count": 16
+    },
+    {
+      "maxVertices": 8191,
+      "gds_sha256": "9a44a063e969b057b7c8476d9fd35ffdb1faffe6c9678d18da27bfa4db96876f",
+      "top": "LAB06B_B7_EC_PAD_CHIP",
+      "cells": 43,
+      "cell_names_identical": true,
+      "layers": [
+        {
+          "layer": 3,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 4,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 5,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 39,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 41,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 99,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        },
+        {
+          "layer": 100,
+          "XOR_nm2": 0,
+          "XOR_polygons": 0
+        }
+      ],
+      "texts_identical": true,
+      "text_count": 16
+    }
+  ],
+  "geometry": {
+    "source_to_final": {
+      "layers": [
+        {
+          "layer": 3,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 4,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 5,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 39,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 41,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 99,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 100,
+          "XOR_nm2": 1156935082
+        }
+      ],
+      "text_count": 16,
+      "texts_identical": true,
+      "cells": 43,
+      "cell_names_identical": true,
+      "bbox_um": "(-920,-900;2940,740)"
+    },
+    "candidate_to_final": {
+      "layers": [
+        {
+          "layer": 3,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 4,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 5,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 39,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 41,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 99,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 100,
+          "XOR_nm2": 0
+        }
+      ],
+      "text_count": 16,
+      "texts_identical": true,
+      "cells": 43,
+      "cell_names_identical": true,
+      "bbox_um": "(-920,-900;2940,740)"
+    },
+    "candidate_to_gui_auto": {
+      "layers": [
+        {
+          "layer": 3,
+          "XOR_nm2": 25744
+        },
+        {
+          "layer": 4,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 5,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 39,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 41,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 99,
+          "XOR_nm2": 0
+        },
+        {
+          "layer": 100,
+          "XOR_nm2": 0
+        }
+      ],
+      "text_count": 16,
+      "texts_identical": true,
+      "cells": 43,
+      "cell_names_identical": false,
+      "bbox_um": "(-920,-900;2940,740)"
+    },
+    "final_connectivity": {
+      "electrical": {
+        "metal_nets": 15,
+        "pad_components": {
+          "PAD_DRV00": [
+            7
+          ],
+          "PAD_DRV01": [
+            1
+          ],
+          "PAD_DRV02": [
+            9
+          ],
+          "PAD_DRV03": [
+            11
+          ],
+          "PAD_DRV04": [
+            5
+          ],
+          "PAD_DRV05": [
+            13
+          ],
+          "PAD_DRV06": [
+            3
+          ],
+          "PAD_DRV07": [
+            6
+          ],
+          "PAD_DRV08": [
+            0
+          ],
+          "PAD_DRV09": [
+            8
+          ],
+          "PAD_DRV10": [
+            10
+          ],
+          "PAD_DRV11": [
+            4
+          ],
+          "PAD_DRV12": [
+            12
+          ],
+          "PAD_DRV13": [
+            2
+          ],
+          "PAD_GND_W": [
+            14
+          ],
+          "PAD_GND_E": [
+            14
+          ]
+        },
+        "connections": [
+          {
+            "channel": "theta1",
+            "pad_id": "PAD_DRV00",
+            "pad_component": [
+              7
+            ],
+            "signal_A_components": [
+              7
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta2",
+            "pad_id": "PAD_DRV01",
+            "pad_component": [
+              1
+            ],
+            "signal_A_components": [
+              1
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta3",
+            "pad_id": "PAD_DRV02",
+            "pad_component": [
+              9
+            ],
+            "signal_A_components": [
+              9
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta4",
+            "pad_id": "PAD_DRV03",
+            "pad_component": [
+              11
+            ],
+            "signal_A_components": [
+              11
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta5",
+            "pad_id": "PAD_DRV04",
+            "pad_component": [
+              5
+            ],
+            "signal_A_components": [
+              5
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta6",
+            "pad_id": "PAD_DRV05",
+            "pad_component": [
+              13
+            ],
+            "signal_A_components": [
+              13
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta7",
+            "pad_id": "PAD_DRV06",
+            "pad_component": [
+              3
+            ],
+            "signal_A_components": [
+              3
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi1",
+            "pad_id": "PAD_DRV07",
+            "pad_component": [
+              6
+            ],
+            "signal_A_components": [
+              6
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi2",
+            "pad_id": "PAD_DRV08",
+            "pad_component": [
+              0
+            ],
+            "signal_A_components": [
+              0
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi3",
+            "pad_id": "PAD_DRV09",
+            "pad_component": [
+              8
+            ],
+            "signal_A_components": [
+              8
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi4",
+            "pad_id": "PAD_DRV10",
+            "pad_component": [
+              10
+            ],
+            "signal_A_components": [
+              10
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi5",
+            "pad_id": "PAD_DRV11",
+            "pad_component": [
+              4
+            ],
+            "signal_A_components": [
+              4
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi6",
+            "pad_id": "PAD_DRV12",
+            "pad_component": [
+              12
+            ],
+            "signal_A_components": [
+              12
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi7",
+            "pad_id": "PAD_DRV13",
+            "pad_component": [
+              2
+            ],
+            "signal_A_components": [
+              2
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "heater_contact_nets": [
+          {
+            "channel": "theta1",
+            "contacted_metal_components": [
+              7,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta2",
+            "contacted_metal_components": [
+              1,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta3",
+            "contacted_metal_components": [
+              9,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta4",
+            "contacted_metal_components": [
+              11,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta5",
+            "contacted_metal_components": [
+              5,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta6",
+            "contacted_metal_components": [
+              13,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta7",
+            "contacted_metal_components": [
+              3,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi1",
+            "contacted_metal_components": [
+              6,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi2",
+            "contacted_metal_components": [
+              0,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi3",
+            "contacted_metal_components": [
+              8,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi4",
+            "contacted_metal_components": [
+              10,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi5",
+            "contacted_metal_components": [
+              4,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi6",
+            "contacted_metal_components": [
+              12,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi7",
+            "contacted_metal_components": [
+              2,
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "checks": [
+          {
+            "name": "sixteen_pad_centers",
+            "passed": true
+          },
+          {
+            "name": "fourteen_independent_signal_nets",
+            "passed": true
+          },
+          {
+            "name": "one_shared_GND_two_pads",
+            "passed": true
+          },
+          {
+            "name": "fifteen_metal_nets",
+            "passed": true
+          },
+          {
+            "name": "all_PAD_A_and_B_GND",
+            "passed": true
+          },
+          {
+            "name": "each_heater_touches_two_correct_nets",
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "optical": {
+        "MZI_instances": 7,
+        "MMI_occurrences": 14,
+        "terminal_count": 66,
+        "route_components": 33,
+        "devices": [
+          {
+            "id": "M1:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M1:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M7:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M7:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M6:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M6:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M5:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M5:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M4:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M4:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M3:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M3:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M2:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M2:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          }
+        ],
+        "expected_pairs": [
+          [
+            "EC_IN0:facet",
+            "M1:MMI1:in2"
+          ],
+          [
+            "EC_IN1:facet",
+            "M1:MMI1:in1"
+          ],
+          [
+            "EC_IN2:facet",
+            "M3:MMI1:in1"
+          ],
+          [
+            "EC_IN3:facet",
+            "M2:MMI1:in2"
+          ],
+          [
+            "EC_IN4:facet",
+            "M2:MMI1:in1"
+          ],
+          [
+            "EC_OUT0:facet",
+            "M4:MMI2:out2"
+          ],
+          [
+            "EC_OUT1:facet",
+            "M6:MMI2:out2"
+          ],
+          [
+            "EC_OUT2:facet",
+            "M6:MMI2:out1"
+          ],
+          [
+            "EC_OUT3:facet",
+            "M7:MMI2:out2"
+          ],
+          [
+            "EC_OUT4:facet",
+            "M7:MMI2:out1"
+          ],
+          [
+            "M1:MMI1:out1",
+            "M1:MMI2:in1"
+          ],
+          [
+            "M1:MMI1:out2",
+            "M1:MMI2:in2"
+          ],
+          [
+            "M1:MMI2:out1",
+            "M3:MMI1:in2"
+          ],
+          [
+            "M1:MMI2:out2",
+            "M4:MMI1:in2"
+          ],
+          [
+            "M2:MMI1:out1",
+            "M2:MMI2:in1"
+          ],
+          [
+            "M2:MMI1:out2",
+            "M2:MMI2:in2"
+          ],
+          [
+            "M2:MMI2:out1",
+            "M7:MMI1:in1"
+          ],
+          [
+            "M2:MMI2:out2",
+            "M5:MMI1:in1"
+          ],
+          [
+            "M3:MMI1:out1",
+            "M3:MMI2:in1"
+          ],
+          [
+            "M3:MMI1:out2",
+            "M3:MMI2:in2"
+          ],
+          [
+            "M3:MMI2:out1",
+            "M5:MMI1:in2"
+          ],
+          [
+            "M3:MMI2:out2",
+            "M4:MMI1:in1"
+          ],
+          [
+            "M4:MMI1:out1",
+            "M4:MMI2:in1"
+          ],
+          [
+            "M4:MMI1:out2",
+            "M4:MMI2:in2"
+          ],
+          [
+            "M4:MMI2:out1",
+            "M6:MMI1:in2"
+          ],
+          [
+            "M5:MMI1:out1",
+            "M5:MMI2:in1"
+          ],
+          [
+            "M5:MMI1:out2",
+            "M5:MMI2:in2"
+          ],
+          [
+            "M5:MMI2:out1",
+            "M7:MMI1:in2"
+          ],
+          [
+            "M5:MMI2:out2",
+            "M6:MMI1:in1"
+          ],
+          [
+            "M6:MMI1:out1",
+            "M6:MMI2:in1"
+          ],
+          [
+            "M6:MMI1:out2",
+            "M6:MMI2:in2"
+          ],
+          [
+            "M7:MMI1:out1",
+            "M7:MMI2:in1"
+          ],
+          [
+            "M7:MMI1:out2",
+            "M7:MMI2:in2"
+          ]
+        ],
+        "observed_groups": [
+          [
+            "EC_IN0:facet",
+            "M1:MMI1:in2"
+          ],
+          [
+            "EC_IN1:facet",
+            "M1:MMI1:in1"
+          ],
+          [
+            "EC_IN2:facet",
+            "M3:MMI1:in1"
+          ],
+          [
+            "EC_IN3:facet",
+            "M2:MMI1:in2"
+          ],
+          [
+            "EC_IN4:facet",
+            "M2:MMI1:in1"
+          ],
+          [
+            "EC_OUT0:facet",
+            "M4:MMI2:out2"
+          ],
+          [
+            "EC_OUT1:facet",
+            "M6:MMI2:out2"
+          ],
+          [
+            "EC_OUT2:facet",
+            "M6:MMI2:out1"
+          ],
+          [
+            "EC_OUT3:facet",
+            "M7:MMI2:out2"
+          ],
+          [
+            "EC_OUT4:facet",
+            "M7:MMI2:out1"
+          ],
+          [
+            "M1:MMI1:out1",
+            "M1:MMI2:in1"
+          ],
+          [
+            "M1:MMI1:out2",
+            "M1:MMI2:in2"
+          ],
+          [
+            "M1:MMI2:out1",
+            "M3:MMI1:in2"
+          ],
+          [
+            "M1:MMI2:out2",
+            "M4:MMI1:in2"
+          ],
+          [
+            "M2:MMI1:out1",
+            "M2:MMI2:in1"
+          ],
+          [
+            "M2:MMI1:out2",
+            "M2:MMI2:in2"
+          ],
+          [
+            "M2:MMI2:out1",
+            "M7:MMI1:in1"
+          ],
+          [
+            "M2:MMI2:out2",
+            "M5:MMI1:in1"
+          ],
+          [
+            "M3:MMI1:out1",
+            "M3:MMI2:in1"
+          ],
+          [
+            "M3:MMI1:out2",
+            "M3:MMI2:in2"
+          ],
+          [
+            "M3:MMI2:out1",
+            "M5:MMI1:in2"
+          ],
+          [
+            "M3:MMI2:out2",
+            "M4:MMI1:in1"
+          ],
+          [
+            "M4:MMI1:out1",
+            "M4:MMI2:in1"
+          ],
+          [
+            "M4:MMI1:out2",
+            "M4:MMI2:in2"
+          ],
+          [
+            "M4:MMI2:out1",
+            "M6:MMI1:in2"
+          ],
+          [
+            "M5:MMI1:out1",
+            "M5:MMI2:in1"
+          ],
+          [
+            "M5:MMI1:out2",
+            "M5:MMI2:in2"
+          ],
+          [
+            "M5:MMI2:out1",
+            "M7:MMI1:in2"
+          ],
+          [
+            "M5:MMI2:out2",
+            "M6:MMI1:in1"
+          ],
+          [
+            "M6:MMI1:out1",
+            "M6:MMI2:in1"
+          ],
+          [
+            "M6:MMI1:out2",
+            "M6:MMI2:in2"
+          ],
+          [
+            "M7:MMI1:out1",
+            "M7:MMI2:in1"
+          ],
+          [
+            "M7:MMI1:out2",
+            "M7:MMI2:in2"
+          ]
+        ],
+        "missing_terminals": [],
+        "joint_issues": [],
+        "missing_pairs": [],
+        "unexpected_groups": [],
+        "passed": true,
+        "scope": "Actual GDS material graph with 14 MMI black boxes removed; 33 outside-device connections vs declared B7. Not optical field, phase/loss, EC mode validation or foundry-certified LVS."
+      },
+      "passed": true
+    }
+  },
+  "clean_replay": {
+    "status": "passed",
+    "fresh_OA": true,
+    "prepared_from": "Original immutable S6 GDS + annotation algorithm + unchanged rules; no existing OA or exported GDS carried into replay",
+    "stage": "clean_replay_20261031_165124",
+    "physical_and_label_geometry": "Final replay matches delivered candidate on all seven layers; original source 8191 XOR0; 200 XOR25744 nm2",
+    "pre_DRC": [
+      {
+        "file": "source_200.gds",
+        "records": 8
+      },
+      {
+        "file": "source_8191.gds",
+        "records": 0
+      },
+      {
+        "file": "final.gds",
+        "records": 0
+      }
+    ],
+    "calibre": [
+      {
+        "name": "source",
+        "checks": 16,
+        "total": 27,
+        "rules": [
+          {
+            "rule": "CS60_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS60_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS6_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS6_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS3_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS3_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS4_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS4_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS5_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS5_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS39_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS39_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS41_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS41_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS100_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS100_SPACE",
+            "count": 27
+          }
+        ]
+      },
+      {
+        "name": "final",
+        "checks": 16,
+        "total": 0,
+        "rules": [
+          {
+            "rule": "CS60_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS60_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS6_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS6_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS3_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS3_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS4_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS4_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS5_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS5_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS39_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS39_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS41_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS41_SPACE",
+            "count": 0
+          },
+          {
+            "rule": "CS100_WIDTH",
+            "count": 0
+          },
+          {
+            "rule": "CS100_SPACE",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "name": "negative",
+        "checks": 16,
+        "total": 16,
+        "rules": [
+          {
+            "rule": "CS60_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS60_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS6_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS6_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS3_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS3_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS4_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS4_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS5_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS5_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS39_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS39_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS41_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS41_SPACE",
+            "count": 1
+          },
+          {
+            "rule": "CS100_WIDTH",
+            "count": 1
+          },
+          {
+            "rule": "CS100_SPACE",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "connectivity": {
+      "passed": true,
+      "metal_nets": 15,
+      "heater_branches": 14,
+      "optical_connections": 33
+    },
+    "raw_SHA_equality_required": false,
+    "reason": "Native export/rebuild timestamps vary; geometry/cell-name/TEXT comparison used in addition to retained raw hashes",
+    "D_writes": false
+  },
+  "rules": {
+    "calibre_scope": "Unchanged locally authored 16-rule width/space draft; negative controls hit every rule once. Not qualified foundry DRC/LVS.",
+    "draft_sha256": "7773416db9b2aa46a9230ad52cc20f96e43ccf03af219323162ca5ad497904f1",
+    "KLayout_scope": "Unchanged installed CORNERSTONE Si220 passive pre-DRC, all 31 report categories",
+    "KLayout_deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2"
+  },
+  "preserved_bindings": {
+    "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+    "config/m2_current_chip.json": "2a0cd4fce48f8e3647e946fe20cfee900fd923cac9ffdc967c0f443a433e1f66",
+    "delivery/m1_handoff.zip": "5ec455817a4da7a46e6e08b834ee468a985461ca623e6cbe40bfabf1198505a6",
+    "delivery/Lab06b_M2_PIC_delivery.zip": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+    "work/m2_s6/out/after/b7_ec_pad.gds": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963"
+  },
+  "proofs": {
+    "out/input/B7_source.gds": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "out/input/B7_crosscad_labels.gds": "0f3d2627db7c3c4dc85cc82be4b734e6e5bca6218749152a6da0e2d7d13c89c3",
+    "out/exports_final/B7_crosscad_final.gds": "f6e09bad9fc25cd556772ecbb97cd602a9e3afed5a167a6a4f1d4c1711b247e0",
+    "out/exports/B7_max200.gds": "aa2bb6ca56b827d149b0d52b80b73d8ba9b15da4250935403f79f859ba2b85aa",
+    "out/exports/B7_max8191.gds": "9a44a063e969b057b7c8476d9fd35ffdb1faffe6c9678d18da27bfa4db96876f",
+    "out/gui_auto/lab06b_b7_ec_pad_chip.calibre.db": "de35c3d3bedd3b32714f03a8f7592f2c90ca41713d758882335383caec2ffcce",
+    "out/GUI_auto_saved.runset": "520e79f7aa4fc77b0a9178fe2f4d9144838cecaf2cd7beaea74ff0c50e2ce9f3",
+    "out/GUI_fixed_saved.runset": "219cb8643579605621b4722cc85dcca1e0b9323f149207f2827586c745e5163a",
+    "out/roundtrip_geometry.json": "6d1dacb94c2baba15d7abe36a5b8b0a71beabc941b948c5838ad16b513ef9354",
+    "out/final_geometry.json": "6fd287e9393f0f5216341e053252e39ea5875a01d82a8aea2d7c19e6cfcbc55a",
+    "out/label_revision.json": "4aa197446bcb213932be06a6a6454102884f93fc9cd0e6a47a177eea434625be",
+    "out/clean_replay.json": "c92c056a69260ce53bace4e5df070fbafe01c8405f271cfa80378c97f70fb677",
+    "out/oa_final_readback.txt": "b2bbe8076cf05b8863516e503d344353689d4e690d44e2719809bc29875d2054",
+    "out/screenshots/virtuoso_final.png": "3954e4155a22e9e3ed3ab0df824cffa578e6741d25ddd11c4e7b00fbe77ccf00",
+    "out/screenshots/virtuoso_core.png": "6a44f9bb9d77f25e924eb4437747b819db51017817431a419caa84c8466d9bb6",
+    "out/screenshots/calibre_auto_inputs.png": "6ffe8ca88da31f5e0721f09d8f0e7cf97ef4726440bb728a880418d017d0f2b9",
+    "out/screenshots/calibre_fixed_inputs_0.png": "dc932d5a7734d35f0018468e4ba5740125b2533aee37c49beaa7e11ae1e17b21",
+    "out/screenshots/rve_final.png": "6852b6b9cfa7eec6f69a07e39b70ca31e7146f846a860c0518d3736c51e3f71b"
+  },
+  "limitations": [
+    "OA technology is Stream-In auto technology, not a foundry-qualified Virtuoso PDK; Layout XL extraction disabled without validLayers/validVias constraint groups.",
+    "Calibre 16-rule draft and KLayout 31-category pre-DRC have different scope/angle semantics; the GUI-auto GDS illustrates why both are checked.",
+    "No fabricated silicon, measured optical function, thermal calibration, qualified LVS or signoff is claimed."
+  ]
+}

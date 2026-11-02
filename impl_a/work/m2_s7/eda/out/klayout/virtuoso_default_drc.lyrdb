@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC_SOI</description>
+ <original-file/>
+ <generator>drc: script='C:\\EDA_Claude\\work\\common\\drc\\cornerstone_Si220_passive.lydrc'</generator>
+ <top-cell>B7_CHIP</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>3/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>39/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>41/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>100/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>99/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Correct design area violation</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size vilation (GDS60&lt;60 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS60 short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS60&lt;60nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS60 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 350nm and short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS6 &lt; 250 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS6 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS39</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS41</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS3&lt; 350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS3&lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS4&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS4&lt;350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS5&lt; 250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS5&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS39&lt;600nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS39&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS41&lt;2micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS41&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>B7_CHIP</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>WG0001</name>
+   <variant/>
+   <layout-name>WG0001</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>WG0002</name>
+   <variant/>
+   <layout-name>WG0002</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>WG0004</name>
+   <variant/>
+   <layout-name>WG0004</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>WG0006</name>
+   <variant/>
+   <layout-name>WG0006</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>WG0009</name>
+   <variant/>
+   <layout-name>WG0009</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0001</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2256,219.605;2256,220.218)|(2256.349,220.108;2256,219.605)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0001</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2255.651,219.892;2256,220.395)|(2256,220.395;2256,219.782)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0002</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-760,293.74;-760,294.335)|(-759.651,294.222;-760,293.74)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0002</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-660,318.601;-660.349,318.976)|(-660,319.113;-660,318.601)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0002</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-760.349,294.026;-760,294.508)|(-760,294.508;-760,293.913)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0002</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-660,318.75;-660,319.262)|(-660,319.262;-659.651,318.887)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0004</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-660,100.554;-660,101.137)|(-660,101.137;-659.651,100.67)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0004</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-760,69.383;-760,70.078)|(-759.651,69.984;-760,69.383)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0004</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-660,100.386;-660.349,100.853)|(-660,100.969;-660,100.386)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0004</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-760.349,69.677;-760,70.279)|(-760,70.279;-760,69.584)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0006</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-760,-206.26;-760,-205.665)|(-759.651,-205.778;-760,-206.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0006</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-660,-181.399;-660.349,-181.024)|(-660,-180.887;-660,-181.399)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0006</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-760.349,-205.974;-760,-205.492)|(-760,-205.492;-760,-206.087)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0006</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-660,-181.25;-660,-180.738)|(-660,-180.738;-659.651,-181.113)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0009</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2256,-340.218;2256,-339.605)|(2256,-339.605;2256.349,-340.108)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>WG0009</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2256,-340.395;2255.651,-339.892)|(2256,-339.782;2256,-340.395)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

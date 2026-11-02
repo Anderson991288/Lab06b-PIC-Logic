@@ -1,0 +1,360 @@
+{
+  "change": "GDS100 annotation clusters scaled 1.3 about original centers; same 16-rule Calibre draft and original KLayout deck retained",
+  "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+  "candidate_sha256": "0f3d2627db7c3c4dc85cc82be4b734e6e5bca6218749152a6da0e2d7d13c89c3",
+  "changes": [
+    {
+      "cell": "LAB06B_MZI_CORE",
+      "cluster": 0,
+      "scale": 1.3,
+      "center_um": [
+        34.327,
+        5.8180000000000005
+      ],
+      "bbox_before_um": [
+        29.636,
+        3.7800000000000002,
+        39.018,
+        7.856
+      ],
+      "area_before_um2": 12.027274,
+      "area_after_um2": 20.327156
+    },
+    {
+      "cell": "LAB06B_MZI_CORE",
+      "cluster": 1,
+      "scale": 1.3,
+      "center_um": [
+        287.262,
+        5.8180000000000005
+      ],
+      "bbox_before_um": [
+        278.68,
+        3.7800000000000002,
+        295.845,
+        7.856
+      ],
+      "area_before_um2": 20.475887,
+      "area_after_um2": 34.608579
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 0,
+      "scale": 1.3,
+      "center_um": [
+        -57.159,
+        -119.72800000000001
+      ],
+      "bbox_before_um": [
+        -62.795,
+        -122.275,
+        -51.523,
+        -117.18
+      ],
+      "area_before_um2": 16.83686,
+      "area_after_um2": 28.456784
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 1,
+      "scale": 1.3,
+      "center_um": [
+        2059.476,
+        -119.72800000000001
+      ],
+      "bbox_before_um": [
+        2051.225,
+        -122.275,
+        2067.728,
+        -117.18
+      ],
+      "area_before_um2": 23.22703,
+      "area_after_um2": 39.25528500000001
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 2,
+      "scale": 1.3,
+      "center_um": [
+        252.023,
+        -109.72800000000001
+      ],
+      "bbox_before_um": [
+        248.04500000000002,
+        -112.275,
+        256.002,
+        -107.18
+      ],
+      "area_before_um2": 14.075885000000001,
+      "area_after_um2": 23.791827
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 3,
+      "scale": 1.3,
+      "center_um": [
+        1767.0230000000001,
+        -109.72800000000001
+      ],
+      "bbox_before_um": [
+        1763.045,
+        -112.275,
+        1771.002,
+        -107.18
+      ],
+      "area_before_um2": 12.656210000000002,
+      "area_after_um2": 21.389847000000003
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 4,
+      "scale": 1.3,
+      "center_um": [
+        -57.022,
+        -89.72800000000001
+      ],
+      "bbox_before_um": [
+        -62.795,
+        -92.275,
+        -51.248,
+        -87.18
+      ],
+      "area_before_um2": 18.023851,
+      "area_after_um2": 30.463850000000004
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 5,
+      "scale": 1.3,
+      "center_um": [
+        2059.614,
+        -89.72800000000001
+      ],
+      "bbox_before_um": [
+        2051.225,
+        -92.275,
+        2068.003,
+        -87.18
+      ],
+      "area_before_um2": 24.414202000000003,
+      "area_after_um2": 41.262081
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 6,
+      "scale": 1.3,
+      "center_um": [
+        1262.0230000000001,
+        -79.72800000000001
+      ],
+      "bbox_before_um": [
+        1258.045,
+        -82.275,
+        1266.002,
+        -77.18
+      ],
+      "area_before_um2": 14.660424,
+      "area_after_um2": 24.778941
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 7,
+      "scale": 1.3,
+      "center_um": [
+        -57.022,
+        -59.728
+      ],
+      "bbox_before_um": [
+        -62.795,
+        -62.275,
+        -51.248,
+        -57.18
+      ],
+      "area_before_um2": 18.370733,
+      "area_after_um2": 31.051661
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 8,
+      "scale": 1.3,
+      "center_um": [
+        2059.614,
+        -59.728
+      ],
+      "bbox_before_um": [
+        2051.225,
+        -62.275,
+        2068.003,
+        -57.18
+      ],
+      "area_before_um2": 24.76097,
+      "area_after_um2": 41.84934200000001
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 9,
+      "scale": 1.3,
+      "center_um": [
+        757.023,
+        -49.728
+      ],
+      "bbox_before_um": [
+        753.045,
+        -52.275,
+        761.0020000000001,
+        -47.18
+      ],
+      "area_before_um2": 13.728987000000002,
+      "area_after_um2": 23.204163
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 10,
+      "scale": 1.3,
+      "center_um": [
+        1767.0230000000001,
+        -49.728
+      ],
+      "bbox_before_um": [
+        1763.045,
+        -52.275,
+        1771.002,
+        -47.18
+      ],
+      "area_before_um2": 15.320632,
+      "area_after_um2": 25.893147000000003
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 11,
+      "scale": 1.3,
+      "center_um": [
+        -57.159,
+        -29.728
+      ],
+      "bbox_before_um": [
+        -62.795,
+        -32.275,
+        -51.523,
+        -27.18
+      ],
+      "area_before_um2": 16.169241,
+      "area_after_um2": 27.328184
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 12,
+      "scale": 1.3,
+      "center_um": [
+        2059.476,
+        -29.728
+      ],
+      "bbox_before_um": [
+        2051.225,
+        -32.275,
+        2067.728,
+        -27.18
+      ],
+      "area_before_um2": 22.558757000000004,
+      "area_after_um2": 38.12655
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 13,
+      "scale": 1.3,
+      "center_um": [
+        251.886,
+        -19.728
+      ],
+      "bbox_before_um": [
+        248.04500000000002,
+        -22.275000000000002,
+        255.727,
+        -17.18
+      ],
+      "area_before_um2": 11.875632,
+      "area_after_um2": 20.072532
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 14,
+      "scale": 1.3,
+      "center_um": [
+        1261.886,
+        -19.728
+      ],
+      "bbox_before_um": [
+        1258.045,
+        -22.275000000000002,
+        1265.727,
+        -17.18
+      ],
+      "area_before_um2": 12.543446,
+      "area_after_um2": 21.199955000000003
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 15,
+      "scale": 1.3,
+      "center_um": [
+        -57.022,
+        0.272
+      ],
+      "bbox_before_um": [
+        -62.795,
+        -2.275,
+        -51.248,
+        2.82
+      ],
+      "area_before_um2": 20.978747,
+      "area_after_um2": 35.460862999999996
+    },
+    {
+      "cell": "LAB06B_B7_CORE",
+      "cluster": 16,
+      "scale": 1.3,
+      "center_um": [
+        2059.614,
+        0.272
+      ],
+      "bbox_before_um": [
+        2051.225,
+        -2.275,
+        2068.003,
+        2.82
+      ],
+      "area_before_um2": 27.370377,
+      "area_after_um2": 46.258989
+    }
+  ],
+  "physical_mask_XOR": [
+    {
+      "layer": 3,
+      "XOR_nm2": 0
+    },
+    {
+      "layer": 4,
+      "XOR_nm2": 0
+    },
+    {
+      "layer": 5,
+      "XOR_nm2": 0
+    },
+    {
+      "layer": 39,
+      "XOR_nm2": 0
+    },
+    {
+      "layer": 41,
+      "XOR_nm2": 0
+    },
+    {
+      "layer": 99,
+      "XOR_nm2": 0
+    }
+  ],
+  "texts1002_unchanged": true,
+  "text_count": 16,
+  "labels100_XOR_nm2": 1156935082,
+  "source_adopted_chip_unchanged": true
+}

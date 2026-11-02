@@ -1,0 +1,487 @@
+*drcRulesFile: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/cornerstone_basic_draft.svrf
+*drcRulesFileLastLoad: 1793436311
+*drcRunDir: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto
+*drcLayoutPaths: lab06b_b7_ec_pad_chip.calibre.db
+*drcExtraLayoutPaths: 
+*drcGoldenLayoutPaths: 
+*drcLayoutSystem: GDSII
+*drcLayoutPrimary: lab06b_b7_ec_pad_chip
+*drcLayoutLibrary: lab06b_crosscad_20261031
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: drc.results
+*drcIncludeFiles: 
+*drcIncludeCmdsType: none
+*drcSVRFCmds: 
+*drcTVFCmds: 
+*drcEnvVars: 
+*drcEnvNamePatterns: MGC_* *CALIBRE* *DRC*
+*drcReconMode: 0
+*drcAnalyzeMode: 0
+*drcCreateXORRule: 0
+*drcLayoutPaths2: 
+*drcExtraLayoutPaths2: 
+*drcGoldenLayoutPaths2: 
+*drcLayoutSystem2: GDSII
+*drcLayoutPrimary2: 
+*drcLayoutLibrary2: 
+*drcLayoutView2: 
+*drcLayoutGetFromViewer2: 0
+*drcRunsetInfo: 
+*drcRunsetType: 
+*drcPreTriggers: 
+*drcPostTriggers: 
+*drcResultsFormat: ASCII
+*drcResultsCellSuffix: 
+*drcResultsCellPrefix: 
+*drcResultsPseudoCells: 0
+*drcResultsPseudoCellsValue: PSEUDO
+*drcResultsOasisCblock: 0
+*drcResultsOasisStrict: 0
+*drcResultsOasisAutomap: 0
+*drcResultsOasisIndex: 0
+*drcResultsOasisNoview: 0
+*drcResultsCheckText: 0
+*drcResultsCheckTextValue: COMMENTSRFI
+*drcResultsCheckTextUseFile: 0
+*drcResultsCheckTextFile: 
+*drcUseRHDB: 0
+*drcRHDBMode: SAVE
+*drcRHDBFile: 
+*drcCellName: 1
+*drcCellText: 0
+*drcDRCMaxResultsAll: 1
+*drcDRCMaxResultsCount: 1000
+*drcDRCMaxVertexAll: 0
+*drcDRCMaxVertexCount: 4096
+*drcAutoHalo: 1
+*drcHaloSize: 0.0
+*drcLayoutPrecision: 1000
+*drcStartRVE: 1
+*drcSideRDBOpenList: 
+*drcWriteSummary: 1
+*drcCreateCTOFile: 0
+*drcGroupCategory: 0
+*drcLayerCategory: 0
+*drcRecipeCategory: 0
+*drcWarnCTOOverwrite: 0
+*drcViewerLayermapFile: 
+*drcCreateDRCReport: 0
+*drcDRCReportDirectory: report
+*drcDRCReportConfigFile: 
+*drcDRCReportConfigTemplate: Check-Cell-SC
+*drcDRCReportFormat: HTML
+*drcViewDRCReport: 1
+*drcSummaryFile: drc.summary
+*drcAppendSummary: 0
+*drcViewSummary: 1
+*drcDRCCheckArea: 0
+*drcDRCAreaCoords: 
+*drcClipToArea: 1
+*drcScaleAreaCoords: 1
+*drcTemplate_RD: %l.drc.results
+*drcTemplate_SF: %l.drc.summary
+*drcTemplate_DD: %l.dfmDefaults.db
+*drcTemplate_RH: %l.rhdb
+*drcCAAInfo: 
+*drcDynamicRVE: 1
+*drcDontOpenEmptyMainRDB: 0
+*drcShowChecksAlpha: 0
+*drcShowGroupsAlpha: 0
+*drcShowGroupsHier: 0
+*drcShowGroupsTop: 0
+*drcActiveRecipe: 
+*drcUserRecipes: 
+*drcSpecifyUserRecipesFiles: 0
+*drcUserRecipesFiles: 
+*drcDRCCheckPrevFailedChecksErrType: 0
+*drcDRCRunIncrDRC: 0
+*drcPreviousResultsFile: 
+*drcDRCIncrPreviousResultsFileType: PR
+*drcDRCIncrRunType: INIT
+*drcDRCIncrBaseDesign: 
+*drcDRCIncrBaseCell: 
+*drcDRCIncrBaseView: 
+*drcDRCIncrCurDesign: 
+*drcDRCIncrCurCell: 
+*drcDRCIncrCurView: 
+*drcDRCIncrSelLayers: 0
+*drcIncrDRCNumTurbo: All
+*drcIncrDRCNumTurboLitho: All
+*drcIncrDRCTurboAll: 0
+*drcIncrDRCSyncCPUNum: 0
+*drcIncrDRCRemoteClusterQueueCmd: 
+*drcIncrDRCRemoteClusterSynch: 0
+*drcIncrDRCRemoteHostName: 
+*drcIncrDRCRunHostType: localhost
+*drcIncrDRCRunHyper: 0
+*drcIncrDRCRunMT: 0
+*drcIncrDRCUseMTFlexHostFile: 0
+*drcIncrDRCMTFlexHostFile: 
+*drcIncrDRCSlaveHosts: 
+*drcIncrDRCSlaveHostsViewDetails: 0
+*drcIncrDRCLSFStTbl: 
+*drcIncrDRCLSFMtTbl: 
+*drcIncrDRCLSFMasterTbl: 
+*drcIncrDRCLSFSlaveTbl: 
+*drcIncrDRCLSFMasterTblViewDetails: 0
+*drcIncrDRCGridStTbl: 
+*drcIncrDRCGridMtTbl: 
+*drcIncrDRCGridMasterTbl: 
+*drcIncrDRCGridSlaveTbl: 
+*drcIncrDRCGridMasterTblViewDetails: 0
+*drcIncrDRCUseDbdiffTemplate: 1
+*drcIncrDRCDbdiffTemplate: $MGC_HOME/shared/pkgs/fdi/templates/designdelta.template
+*drcIncrDRCDbdiffCompareByLayers: 1
+*drcIncrDRCAutoHalo: 1
+*drcIncrDRCHaloSize: 0.0
+*drcIncrDRCClipToArea: 1
+*drcIncrDRCDoubleHalo: 0
+*drcIncrDRCPrevResultsFailedOnly: 0
+*drcIncrDRCValRunsFixedOnly: 1
+*drcUseHCellsFile: 0
+*drcHCellsFile: 
+*drcUseHCellsWaiverFiles: 0
+*drcWaiverHCellFiles: 
+*drcAdditionalHCells: 
+*drcUseAdditionalHCells: 0
+*drcConfigureDFMDefaults: 0
+*drcDFMDefaultsResultsFile: 
+*drcDFMDefaultsResultsFormat: GDS
+*drcDFMDefaultsResultsCellSuffix: 
+*drcDFMDefaultsResultsCellPrefix: 
+*drcDFMDefaultsResultsPseudoCells: 0
+*cmnHostName: localhost
+*cmnHostPort: 9189
+*cmnLayoutServerType: 
+*cmnLayoutTmpFile: query_results
+*cmnSUseLayoutConn: 1
+*cmnSchematicServerType: 
+*cmnSHostName: localhost
+*cmnSHostPort: 9199
+*cmnShowToolTips: 1
+*cmnWarnLayoutOverwrite: 1
+*cmnWarnSourceOverwrite: 1
+*cmnWarnRunsetNotWritable: 1
+*cmnPromptSaveRunset: 1
+*cmnShowCustomDialog: 1
+*cmnWarnNoCustomization: 0
+*cmnDisableOptions: 0
+*cmnDisableWaivers: 0
+*cmnDisableSelectChecks: 0
+*cmnDisableEditRecipes: 0
+*cmnDisableERCChanges: 0
+*cmnDisableEnvEdit: 0
+*cmnDisableCustomEdit: 0
+*cmnDisableTranscriptOutput: 0
+*cmnDisableFastXORMaxDiffCount: 1
+*cmnDisableFastXOROptions: 1
+*cmnDisableFastXORRulesFileCustomName: 1
+*cmnDisableWXRLayerMapAndBaseLayersCombinedUsage: 1
+*cmnShowOptions: 0
+*cmnCheckForModifiedRules: 0
+*cmnShowModifiedRulesPrompt: 1
+*cmnEnableEditingForTextViewer: 0
+*cmnVerifyCheckSelected: 1
+*cmnProcessLocalLinks: 1
+*cmnReadIOFromRules: 1
+*cmnSaveRunsetChanges: 1
+*cmnSaveRunsetOnRun: 0
+*cmnSaveRunsetToCurDirOnRun: 0
+*cmnUsePrecision: 0
+*cmnPrecision: 1000
+*cmnOverrideLayoutPrecision: 0
+*cmnUseResolution: 0
+*cmnResolution: 1
+*cmnControlFile: 
+*cmnSpecifyControlFile: 0
+*cmnBatchModeCompatibleControlFile: 1
+*cmnPreTrigger: 
+*cmnPostTrigger: 
+*cmnRunPostTriggerInBG: 0
+*cmnRunPostTriggerOnAbort: 0
+*cmnRunPostTriggerInRemote: 0
+*cmnVConnectColon: 0
+*cmnVConnectReport: 0
+*cmnVConnectReportUnSatisfied: 0
+*cmnVConnectReportMaximumAll: 1
+*cmnVConnectReportMaximumCount: 0
+*cmnVConnectNamesState: NONE
+*cmnVConnectNames: 
+*cmnTranscriptFile: 
+*cmnErrorFile: 
+*cmnTranscriptFileAppend: 0
+*cmnTranscriptEchoToFile: 0
+*cmnTranscriptIncludedFiles: 0
+*cmnEnableLicenseModes: 1
+*cmnDontWaitForLicense: 1
+*cmnSpecifyLicenseWaitTime: 0
+*cmnLicenseWaitTime: 0
+*cmnSpecifyLicenseLoopTime: 0
+*cmnLicenseLoopTime: 180
+*cmnSpecifyLicenseLoopIntervalTime: 0
+*cmnLicenseLoopIntervalTime: 60
+*cmnSpecifyLicenseLoopRetryOnError: 0
+*cmnUseCBforRVE: 1
+*cmnReleaseLicense: 0
+*cmnLicenseReleaseTime: 3
+*cmnRunHier: 1
+*cmnRunRVEOnLocalHost: 1
+*cmnCloseRVEonExit: 1
+*cmnPromptCloseRVE: 0
+*cmnRunHostType: localhost
+*cmnLsfHostName: localhost
+*cmnNumTurbo: All
+*cmnNumTurboLitho: All
+*cmnTurboAll: 0
+*cmnSyncCPUNum: 0
+*cmnRunMT: 0
+*cmnRunHyper: 0
+*cmnRunHyperCompare: 0
+*cmnRunHyperPathChk: 0
+*cmnRunHyperYS: 0
+*cmnRunHyperSlave: 0
+*cmnUseRDS: 0
+*cmnRDSCount: 
+*cmnBackupRDS: 0
+*cmnUseMTFlexHostFile: 0
+*cmnMTFlexHostFile: 
+*cmnHDBFlex: 0
+*cmnHDBFlexMode: LATERHDB
+*cmnCloseRVEonRun: 1
+*cmnSaveTVFRulesToSVRF: 0
+*cmnCompileOnly: 0
+*cmnRunOnOpen: 0
+*cmnIgnoreExportInBatch: 1
+*cmnVerifySourceNetlist: 1
+*cmnStartRVEAfterBatch: 0
+*cmnWarnLayoutFormatsDiff: 0
+*cmnSelectedChecks: 
+*cmnUnselectedChecks: 
+*cmnSelectedCheckGroups: 
+*cmnUnselectedCheckGroups: 
+*cmnApplyTemplates: 1
+*cmnTemplate_LP: %l.calibre.db
+*cmnTemplate_IL: 1
+*cmnTemplate_RL: 
+*cmnTemplate_RN: 
+*cmnTemplate_TF: 
+*cmnTemplate_CF: 
+*cmnTemplate_LI: %L
+*cmnTemplate_VI: %V
+*cmnTemplate_DF: %l.def
+*cmnV2LVS_VLOGLibFiles: 
+*cmnV2LVS_SPICELibFiles: 
+*cmnV2LVS_SPICEIncFiles: 
+*cmnV2LVS_UseRangeMode: 0
+*cmnV2LVS_KeepBackSlash: 0
+*cmnV2LVS_UseCBLicense: 0
+*cmnV2LVS_WarningsAreErrors: 0
+*cmnV2LVS_WarningLevel: 2
+*cmnV2LVS_DontConnectPower: 0
+*cmnV2LVS_LastTranslation: 0
+*cmnV2LVS_TranslateAlways: 0
+*cmnV2LVS_GenerateTemplate: 0
+*cmnV2LVS_s0Net: 
+*cmnV2LVS_s1Net: 
+*cmnV2LVS_Pprefix: 
+*cmnV2LVS_Uprefix: 
+*cmnV2LVS_Achars: 
+*cmnV2LVS_Cchars: 
+*cmnV2LVS_AddPins: 0
+*cmnV2LVS_AddPinNames: 
+*cmnV2LVS_PositionalPins: 0
+*cmnV2LVS_ConnectUPins: 0
+*cmnV2LVS_UserOptions: 
+*cmnUseCustomFile: 0
+*cmnCustomFileName: 
+*cmnCustomFileOverrideValues: 
+*cmnRemoteUserIsCurrentUser: 1
+*cmnRemoteUserName: 
+*cmnRemoteShellDefault: 1
+*cmnRemoteShellName: 
+*cmnSshX11Forwarding: -Y
+*cmnSshOptions: -A -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes -o VerifyHostKeyDNS=yes
+*cmnRemoteMGCHOMEUseCurrent: 1
+*cmnRemoteMGCHOME: 
+*cmnRemoteMGCLIBPATHUseCurrent: 1
+*cmnRemoteLICENSEFILEName: LM_LICENSE_FILE
+*cmnRemoteLICENSEFILEValue: 
+*cmnRemoteLICENSEFILEUseCurrent: 1
+*cmnRemoteHostName: 
+*cmnRemoteClusterQueueCmd: 
+*cmnRemoteClusterSynch: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnSlaveHostsViewDetails: 0
+*cmnLSFStTbl: 
+*cmnLSFMtTbl: 
+*cmnLSFMasterTbl: 
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnLSFMasterTblViewDetails: 0
+*cmnLSFInteractiveSub: 1
+*cmnGridStTbl: 
+*cmnGridMtTbl: 
+*cmnGridMasterTbl: 
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridMasterTblViewDetails: 0
+*cmnGridInteractiveSub: 1
+*cmnRemoteMGCHOME_ira: 
+*cmnRemoteMGCHOME_aoi: 
+*cmnRemoteMGCHOME_aoj: 
+*cmnRemoteMGCHOME_aok: 
+*cmnRemoteMGCHOME_soa: 
+*cmnRemoteMGCLIBPATH_ira: 
+*cmnRemoteMGCLIBPATH_aoi: 
+*cmnRemoteMGCLIBPATH_aoj: 
+*cmnRemoteMGCLIBPATH_aok: 
+*cmnRemoteMGCLIBPATH_soa: 
+*cmnFDILayoutLibraryPath: 
+*cmnFDILayoutLibraryPath2: 
+*cmnFDILayoutLibrary: 
+*cmnFDILayoutView: 
+*cmnFDILayoutLibrary2: 
+*cmnFDILayoutView2: 
+*cmnFDILEFLayoutPaths: 
+*cmnFDILEFLayoutPaths2: 
+*cmnFDIDEFLayoutPath: 
+*cmnFDIDEFLayoutPath2: 
+*cmnFDIDEFDirectories: 
+*cmnFDIDEFDirectories2: 
+*cmnFDILEFTechFile: 
+*cmnFDILEFTechFile2: 
+*cmnFDILEFDirectories: 
+*cmnFDILEFDirectories2: 
+*cmnFDIUseReadNetsAsText: 0
+*cmnFDIReadNetsAsText: ALL
+*cmnFDIUseReadNetsAsProperty: 0
+*cmnFDIReadNetsAsPropVal: 
+*cmnFDIUseReadPinsAsText: 0
+*cmnFDIUseReadPinsAsProperty: 0
+*cmnFDIReadPinsAsPropVal: 
+*cmnFDIUseReadNetType: 0
+*cmnFDIReadNetTypeAsProp: 
+*cmnFDIUseReadInstName: 0
+*cmnFDIReadInstNameAsProp: 
+*cmnFDIReadText: 1
+*cmnFDIReadBlockages: 0
+*cmnFDIReadFills: 0
+*cmnFDIReadInstPinShapes: 0
+*cmnFDIReadPinShape: 1
+*cmnFDIUseViewListMW: 0
+*cmnFDIUseViewListOA: 0
+*cmnFDIViewListMW: CEL FRAM
+*cmnFDIViewListOA: 
+*cmnFDIUseLogFile: 0
+*cmnFDIWriteLogFile: 
+*cmnFDIUseMapInfo: 0
+*cmnFDIWriteMapInfoFile: 
+*cmnFDIUseLayerNames: 0
+*cmnFDIWriteLayerNamesFile: 
+*cmnFDIAbortOnPCellRead: 1
+*cmnFDIUseLayerMap: 0
+*cmnFDILayerMapFile: 
+*cmnFDIUseCellMap: 0
+*cmnFDICellMapFile: 
+*cmnFDIUseObjectMap: 0
+*cmnFDIObjectMapFile: 
+*cmnFDIUseNetProp: 0
+*cmnFDINetPropFile: 
+*cmnFDIUseInputException: 0
+*cmnFDIInputExceptionFile: 
+*cmnFDIUseCellGDS: 0
+*cmnFDICellGDSFiles: 
+*cmnFDICellGDSDirectories: 
+*cmnFDIUseWaiverGDS: 0
+*cmnFDIWaiverGDSFiles: 
+*cmnFDIWaiverGDSDirectories: 
+*cmnFDISetOaHome: 0
+*cmnFDISetOaLdl: 0
+*cmnFDISetOaPath: 0
+*cmnFDISetOaExpPcellDir: 0
+*cmnFDISetOaExpAllParams: 0
+*cmnFDISetEnableOaExpPcell: 0
+*cmnWXRRulesFile: rules.fxor
+*cmnWXRInternalFilePrefix: rules.fxor
+*cmnWXRResultFormatASCII: 1
+*cmnWXRResultFormatGDS: 1
+*cmnWXRResultFormatOASIS: 0
+*cmnWXREnhanced: 0
+*cmnWXRLayerMapOrBaseLayersUsage: 
+*cmnWXRLayerMapFile: 
+*cmnWXRBaseLayers: 
+*cmnWXRUseIncludeRulesFile: 0
+*cmnWXRIncludeRulesFile: 
+*cmnWXRIncludeLayersFile: 
+*cmnWXRExcludeLayersFile: 
+*cmnWXRLayersFileUsage: 
+*cmnWXRCommonOnly: 0
+*cmnXRMaxDiffCount: 
+*cmnXRTemplateFile: $MGC_HOME/shared/pkgs/fdi/templates/fastxor.template
+*cmnXRReportFile: 
+*cmnXRRDBFile: 
+*cmnXRCompareText: 0
+*cmnXRCompareAllPlacedCells: 0
+*cmnXREnablePassThroughLayers: 0
+*cmnWaiverDescriptionFile: waiver_desc
+*cmnWaiverCriteriaFile: 
+*cmnWaiverCellsFile: 
+*cmnWaiverLayerNumber: 1234
+*cmnWaiverDatatypeNumber: 5678
+*cmnWaiverMerge: 0
+*cmnWaiverDatabase: 
+*cmnWaiverCalibreWaiverNumber: 2000
+*cmnWaiverInternalLayerAuto: 0
+*cmnWaiverIgnoreOps: 
+*cmnWaiverNotIgnoreOps: 
+*cmnWaiverRunLayoutChecksum: 1
+*cmnWaiverRunRuleChecksum: 0
+*cmnWaiverRunCalibreVersionChecksum: 0
+*cmnWaiverRetainResultType: 0
+*cmnWaiverRunIPMatchChecksum: 1
+*cmnWaiverSetIPMatchForAllCells: 0
+*cmnWaiverPrecisionConversion: 1
+*cmnWaiverAddWaiverHierarchy: 0
+*cmnWaiverIgnoreDensity: 0
+*cmnWaiverOptimizeNoneWaiverStatistics: 0
+*cmnWaiverEnableDynamicResultsReporting: 0
+*cmnWaiverSummaryFile: 
+*cmnWaiverCriteriaTextLayer: 1234
+*cmnWaiverCriteriaTextType: 2
+*cmnWaiverChecksumTextLayer: 1234
+*cmnWaiverChecksumTextType: 1
+*cmnWaiverCommentTextLayer: 1234
+*cmnWaiverCommentTextType: 5
+*cmnWaiverUsernameTextLayer: 1234
+*cmnWaiverUsernameTextType: 3
+*cmnWaiverDateTextLayer: 1234
+*cmnWaiverDateTextType: 4
+*cmnWaiverCalibreVersionTextLayer: 1234
+*cmnWaiverCalibreVersionTextType: 7
+*cmnWaiverRuleChecksumTextLayer: 1234
+*cmnWaiverRuleChecksumTextType: 9
+*cmnWaiverIpmatchTextType: 6
+*cmnWaiverDescriptionMode: NONE
+*cmnWaiverTempDirectory: 
+*cmnWaiverRunDFMGlobal: 1
+*cmnRunOrCreateWaivers: 0
+*cmnWaiverSetupFile: 
+*cmnWaiverTextMagnification: .005
+*cmnWaiverMagnifyTextSpacing: 0
+*cmnSpecifyWaiverSetupFile: 0
+*cmnWaiverRDBOption: ALL
+*cmnWaiverUnusedRDBOption: ALL
+*cmnWaiverUsedRDBOption: ALL
+*cmnWaiverDensityRDBOption: YES
+*cmnWaiverEnableWaiverCellReporting: 0
+*cmnWaiverCombineResults: 0
+*cmnConfigureTPs: 0
+*cmnTraceProperties: 
+*cmnConfigureLVSBox: 0
+*cmnLVSBoxes: 
+*cmnLVSBlackBoxPorts: 
+*cmnLVSBlackBoxPortDepth: PRIMARY
+*cmnLVSBlackBoxPortDepthNumber: 0
+*cmnSpiceInstPrefix: X
+*cmnDisableSignatureCreation: 0
+*cmnIncludeRulesFilesAfterMain: 0
+*cmnLayoutTextFile: 

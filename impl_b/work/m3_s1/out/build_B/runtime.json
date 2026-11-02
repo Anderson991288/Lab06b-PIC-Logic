@@ -1,0 +1,15 @@
+{
+  "python": "3.14.3 | packaged by conda-forge | (main, Feb  9 2026, 21:56:48) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+  "numpy": "2.3.5",
+  "cornerstone_version": "2.6.luceda1",
+  "ipkiss_version": "2026.03.3",
+  "common_module": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\common\\core_layout.py",
+  "build_root": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B",
+  "baseline_passed": 80,
+  "external_module_sources": {
+    "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\cornerstone_components220.py": "48890a56d3a56da86097ccc1e8ce7d51e45f9c4ff4cf3bab4cb266c872ac88dc",
+    "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\waveguides\\strip.py": "8d85d6638d096fbd3db24ad689c17abcf410f45889192714767f66356fb839f4",
+    "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\__init__.py": "5c7159293843c6d68e0240f86327d1949991c1ee7e80796af96fe1153ae84b21"
+  }
+}

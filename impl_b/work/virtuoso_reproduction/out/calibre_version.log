@@ -1,0 +1,45 @@
+//  Calibre v2026.1_17.11    Mon Jan 5 16:59:16 PST 2026
+//  Calibre Utility Library   v0-10_13-2017-1    Fri Sep 19 09:11:48 PDT 2025
+//  Litho Libraries v2026.1_17.11  Mon Jan 5 16:59:16 PST 2026
+//
+//                   Copyright Siemens 1996-2026
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//          WHICH IS THE PROPERTY OF SIEMENS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Siemens software executing under x86-64 Linux
+//
+//  Running on Linux eda.ic (192.168.126.200) 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026 x86_64 glibc 2.28/NPTL 2.28
+//  OS: AlmaLinux release 8.10 (Cerulean Leopard)[6.6.114.1-microsoft-standard-WSL2]
+//  hypervisor detected
+//  Current active profile: virtual-guest
+//  net.netfilter.nf_conntrack_max: 262144
+//  vm.max_map_count: 65530
+//  vm.overcommit_memory: 0
+//  kernel.numa_balancing: 0
+//  kernel.pid_max: 32768
+//
+WARNING: Please increase descriptors limit for best performance (10240)
+//
+//  Processor AMD Ryzen 7 5800X3D 8-Core Processor            [25332] (4th generation)
+//  64 bit virtual addressing enabled
+//  Running aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre -version
+//  Process ID: 86
+//
+//  Starting time: Sat Oct 31 16:06:33 2026
+//
+
+--- CALIBRE_* ENVIRONMENT VARIABLES:
+
+CALIBRE_ATOMIC_LVHEAP=0
+CALIBRE_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre  -version'
+CALIBRE_HOME=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11
+CALIBRE_INITIAL_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/bin/calibre -version'
+CALIBRE_MTFLEX_LOGTAG=eda.ic.86.2026_1031_1606
+CALIBRE_READDB_LD_LIBRARY_PATH=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib/julia:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/shared/pkgs/icv/tools/calibre_client/lib/64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/calibre_base/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_lib/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_qt5_comp/plugins:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_oa/22.41p004/lib/linux_rhel68_gcc44x_64/opt
+CALIBRE_SKIP_OS_CHECKS=
+

@@ -1,0 +1,55 @@
+{
+ "method": "Meep 2D effective index, CW 1550 nm, 16 px/um, arm 20 um, theta via core dn / 1.07 empirical",
+ "cases": {
+  "t0": {
+   "p_out": [
+    0.0025,
+    0.7861
+   ],
+   "theta": 0.0,
+   "sha256": "704261cd0c097335"
+  },
+  "tpi": {
+   "p_out": [
+    0.7773,
+    0.0125
+   ],
+   "theta": 3.141592653589793,
+   "sha256": "2b9a5a0a03a6a662"
+  },
+  "tpi2": {
+   "p_out": [
+    0.3825,
+    0.3902
+   ],
+   "theta": 1.5707963267948966,
+   "sha256": "cd224113e7174c31"
+  },
+  "comb": {
+   "p_out": [
+    0.7705,
+    0.0019
+   ],
+   "theta": 1.5707963267948966,
+   "sha256": "718aeb4b94df9b1f"
+  }
+ },
+ "mmi2x2": {
+  "W_um": 6.0,
+  "L_um": 42.5,
+  "T": 0.966,
+  "bar": 0.5,
+  "cross": 0.5,
+  "source": "report figure caption"
+ },
+ "mmi1x2": {
+  "W_um": 6.0,
+  "L_um": 31.0,
+  "T": 0.988,
+  "split": [
+   0.5,
+   0.5
+  ],
+  "source": "report figure caption"
+ }
+}

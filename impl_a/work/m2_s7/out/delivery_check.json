@@ -1,0 +1,82 @@
+{
+ "step": "M2 s7",
+ "date": "2026-10-31",
+ "zip": "B7_PIC_delivery.zip",
+ "zip_kb": 570,
+ "zip_crc_ok": true,
+ "n_files": 53,
+ "final_sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8",
+ "leaks": [],
+ "check_delivery": {
+  "code": 0,
+  "result": {
+   "ok": true,
+   "checked": 52,
+   "problems": [],
+   "extra": []
+  },
+  "stderr": ""
+ },
+ "verify_gds": {
+  "code": 0,
+  "result": {
+   "ok": true,
+   "lvs": {
+    "ok": true,
+    "n_bodies": 14,
+    "n_wires": 33,
+    "n_marks": 80,
+    "n_mzi": 7,
+    "n_links": 9,
+    "n_ext": 10,
+    "n_heaters": 14,
+    "links_match": true,
+    "ext_match": true,
+    "heaters_match": true,
+    "problems": []
+   },
+   "electrical": {
+    "ok": true,
+    "n_nets": 16,
+    "n_pads": 16,
+    "problems": [],
+    "heater_squares": [
+     111.11,
+     111.11
+    ]
+   }
+  },
+  "stderr": ""
+ },
+ "rebuild_gds": {
+  "code": 0,
+  "result": {
+   "ok": true,
+   "polygons": 969,
+   "rebuilt": 969
+  },
+  "stderr": ""
+ },
+ "drc": {
+  "total": 0,
+  "outside": 0,
+  "n_rules": 30
+ },
+ "tamper": {
+  "detected": true,
+  "problems": [
+   "內容不符 layout/B7_final.gds"
+  ],
+  "restored_ok": true
+ },
+ "folders": {
+  "layout": 2,
+  "reports": 6,
+  "interfaces": 9,
+  "simulation": 3,
+  "figures": 4,
+  "source": 24
+ },
+ "runtime_s": 5.2,
+ "all_ok": true
+}

@@ -1,0 +1,17 @@
+test_exact_switch_and_split_matrices (optical_test_module.OpticalModels.test_exact_switch_and_split_matrices) ... FAIL
+
+======================================================================
+FAIL: test_exact_switch_and_split_matrices (optical_test_module.OpticalModels.test_exact_switch_and_split_matrices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\EDA_Codex\Lab06b\work\m0_s3\test_optical_models.py", line 28, in test_exact_switch_and_split_matrices
+    self.assertClose(mzi.T2(0,0),[[0,1j],[1j,0]])
+  File "C:\EDA_Codex\Lab06b\work\m0_s3\test_optical_models.py", line 20, in assertClose
+    self.assertTrue(np.allclose(a,b,rtol=0,atol=tol),f'{a!r} != {b!r}')
+AssertionError: False is not true : array([[1.+0.j, 0.+0.j],
+       [0.+0.j, 1.+0.j]]) != [[0, 1j], [1j, 0]]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

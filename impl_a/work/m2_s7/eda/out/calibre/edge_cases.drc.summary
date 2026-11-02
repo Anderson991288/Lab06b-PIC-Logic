@@ -1,0 +1,74 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sat Oct 31 23:59:46 2026
+Calibre Version:           v2026.1_17.11    Mon Jan 5 16:59:16 PST 2026
+Rule File Pathname:        edge_cases.runset
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            edge_cases.gds
+Layout Primary Cell:       EDGE_CASES
+Current Directory:         /home/edauser/claude_b7/calibre
+User Name:                 edauser
+Maximum Results/RuleCheck: ALL
+Maximum Result Vertices:   4096
+DRC Results Database:      edge_cases.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       edge_cases.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER G3 ..... TOTAL Original Geometry Count = 10 (10)
+LAYER G4 ..... TOTAL Original Geometry Count = 0  (0)
+LAYER G5 ..... TOTAL Original Geometry Count = 0  (0)
+LAYER G39 .... TOTAL Original Geometry Count = 2  (2)
+LAYER G41 .... TOTAL Original Geometry Count = 4  (4)
+LAYER G99 .... TOTAL Original Geometry Count = 0  (0)
+LAYER G100 ... TOTAL Original Geometry Count = 0  (0)
+LAYER G6 ..... TOTAL Original Geometry Count = 0  (0)
+LAYER G60 .... TOTAL Original Geometry Count = 0  (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK GRID_3 ..... TOTAL Result Count = 0 (0)
+RULECHECK GRID_4 ..... TOTAL Result Count = 0 (0)
+RULECHECK GRID_5 ..... TOTAL Result Count = 0 (0)
+RULECHECK GRID_39 .... TOTAL Result Count = 0 (0)
+RULECHECK GRID_41 .... TOTAL Result Count = 0 (0)
+RULECHECK GRID_99 .... TOTAL Result Count = 0 (0)
+RULECHECK GRID_100 ... TOTAL Result Count = 0 (0)
+RULECHECK AREA_99 .... TOTAL Result Count = 0 (0)
+RULECHECK W_3 ........ TOTAL Result Count = 3 (3)
+RULECHECK S_3 ........ TOTAL Result Count = 2 (2)
+RULECHECK W_4 ........ TOTAL Result Count = 0 (0)
+RULECHECK S_4 ........ TOTAL Result Count = 0 (0)
+RULECHECK W_5 ........ TOTAL Result Count = 0 (0)
+RULECHECK S_5 ........ TOTAL Result Count = 0 (0)
+RULECHECK W_39 ....... TOTAL Result Count = 0 (0)
+RULECHECK S_39 ....... TOTAL Result Count = 1 (1)
+RULECHECK W_41 ....... TOTAL Result Count = 0 (0)
+RULECHECK S_41 ....... TOTAL Result Count = 3 (3)
+RULECHECK W_100 ...... TOTAL Result Count = 0 (0)
+RULECHECK S_100 ...... TOTAL Result Count = 0 (0)
+RULECHECK USED_6 ..... TOTAL Result Count = 0 (0)
+RULECHECK USED_60 .... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 16 (16)
+TOTAL DRC RuleChecks Executed:   22
+TOTAL DRC Results Generated:     9 (9)

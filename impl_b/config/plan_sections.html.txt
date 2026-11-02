@@ -1,0 +1,32 @@
+<h2 id="plan">完整規劃</h2>
+<p>四個模組、17 步，建議約 18 小時（M0 3.5 h、M1 5 h、M2 8 h、M3 1.5 h）。每一步固定六段：<b>這一步要回答 → 白話範例 → 學員操作 → 檢查結果（由證據產生）→ 驗收條件 → 程式、檔案與歷史</b>。主作業固定單顆 B7；C01 的 B7×2 晶片只作講師參考。</p>
+
+<h3 id="m0">M0　環境與元件基礎（3.5 h）</h3>
+<table><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th><th>來源</th></tr>
+<tr><td>M0 s1<br>1 h</td><td>工具能否從一份路徑設定叫得到，且真的能執行？</td><td>填好 <code>EDA_paths.json</code>；執行 <code>check_toolchain.py</code>；建立 MZI 正常版／故障注入版 GDS 並跑 KLayout DRC。</td><td><code>toolchain_check.json</code>、MZI GDS、正常版 0 違規、故障版 F1–F8 全命中。</td><td>Lab06a M0 s1；<code>common/pdk.py</code>、<code>drc.py</code></td></tr>
+<tr><td>M0 s2<br>1.5 h</td><td>光在 MMI、MZI 裡怎麼走？θ 如何決定切換、分光、合光？</td><td>femwell 算 strip 波導模態；讀 Meep 光場圖並填判讀表；有 Meep 時用 B7 的 MZI 參數重跑一張 TBU 場圖。</td><td>模態圖、光場判讀表、穿透／分光比與 sin²(θ/2) 理論對照。</td><td>Lab01a §7.6、§7.6.1（見<a href="#lab01a">下方分析</a>）</td></tr>
+<tr><td>M0 s3<br>1 h</td><td>同一顆 MZI 怎麼寫成 2×2 矩陣 T(θ,φ)？</td><td>寫 <code>mzi.py</code>，單元測試：么正性、θ=0／π 切換、θ=π/2 分光，與 M0 s2 場圖數值互相對照。</td><td>測試報告 JSON、θ 掃描圖。</td><td>C01 M1 s3；Lab06a <code>common/mzi.py</code></td></tr></table>
+
+<h3 id="m1">M1　用一群 MZI 實現邏輯（5 h）</h3>
+<table><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th><th>來源</th></tr>
+<tr><td>M1 s1<br>0.5 h</td><td>位元怎麼變成光？輸入、混合、讀取各在哪裡？</td><td>在 B7 圖上標出 x1–x4、R、o2／o4；說明光場與光功率的差別。</td><td>標註圖、口述三步。</td><td>C01 M1 s1</td></tr>
+<tr><td>M1 s2<br>1 h</td><td>7 顆 MZI、5 條波導、4 層怎麼組成 B7？</td><td>依 <code>OPS</code> 逐層追蹤接線；寫出 <code>b7.py</code> 由 7 個 T 組成 5×5 的 U。</td><td>B7 接線圖、U 的么正性測試。</td><td>C01 M1 s2；Lab06a <code>macro4.py</code></td></tr>
+<tr><td>M1 s3<br>1 h</td><td>v → y=Uv → 功率 → ΔP → 0／1 怎麼算？</td><td>代入 1000、1100、R=3，手算 y2、y4 的加權和，再由程式核對。</td><td>逐步計算表（振幅加總 vs 功率讀取）。</td><td>C01 M1 s3</td></tr>
+<tr><td>M1 s4<br>1.5 h</td><td>同一組光路，換相位就能變 AND／OR／XOR？</td><td>載入已驗證的 14 相位，跑 五種函數各跑完整 16 組四路輸入，共 80 筆；AND2／OR2／XOR2 的未作用輸入也要測。</td><td>80 筆真值表、最小 |ΔP| 邊界餘裕。</td><td>C01 <code>evidence/m1_s4_logic.json</code></td></tr>
+<tr><td>M1 s5<br>1 h</td><td>功能設定怎麼和固定光路分開交給 M2？</td><td>產生 <code>pic_spec.json</code>（埠位、相位通道、讀取規則）與相位設定檔。</td><td>規格檔＋真值表，M2 共用。</td><td>C01 <code>pic_spec.json</code></td></tr></table>
+
+<h3 id="m2">M2　矽光子 PIC 實作（8 h）</h3>
+<table><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th><th>來源</th></tr>
+<tr><td>M2 s1<br>0.5 h</td><td>PIC 上做什麼、外部設備做什麼？</td><td>畫 PIC 邊界：雷射／調變、B7、接收比較、heater 驅動。</td><td>功能方塊圖、I/O 表。</td><td>C01 M2 s1</td></tr>
+<tr><td>M2 s2<br>1 h</td><td>用 PDK MMI 組的電路模型，真值表還對嗎？</td><td>IPKISS／Caphe 以 CORNERSTONE 2×2 MMI 建 B7 電路，重跑 80 筆。</td><td>電路模擬真值表；與 M1 模型差異。</td><td>C01 <code>m2_cornerstone_simulate.py</code></td></tr>
+<tr><td>M2 s3<br>1.5 h</td><td>電路連接怎麼變成實體幾何？</td><td>IPKISS 放置 7 顆 MZI、波導繞線、heater，輸出單 B7 GDS。</td><td><code>b7_core.gds</code>、埠位對照表。</td><td>C01 <code>m2_layout.py</code></td></tr>
+<tr><td>M2 s4<br>1 h</td><td>佈局哪裡有問題？</td><td>在 KLayout 依清單檢查埠序、彎道、間距、交叉；改 Python 參數重出。</td><td>Review 清單、修改前後圖。</td><td>C01 <code>m2_layout_review.py</code></td></tr>
+<tr><td>M2 s5<br>1.5 h</td><td>光纖和電線怎麼接上晶片？</td><td>配置 EC 光學 I/O（左右）、heater PAD 與 GND（上下），建 PAD↔heater↔θ／φ 表。</td><td>晶片 GDS、光學 I/O 表、PAD 表。</td><td>C01 <code>m2_chip_layout.py</code>；Lab01a EC</td></tr>
+<tr><td>M2 s6<br>1.5 h</td><td>幾何、光路、電路連接都對嗎？</td><td>KLayout DRC；Shapely 光路連通、電氣短路／開路、PAD 名稱檢查；修正重跑。</td><td>DRC 報告、連接檢查 JSON。</td><td>C01 <code>m2_drc.py</code>；Lab06a <code>verify.py</code></td></tr>
+<tr><td>M2 s7<br>1 h</td><td>交付包是否一致、可重現？</td><td>回填佈局路徑重跑功能檢查；打包 GDS、規格、表格、報告與 SHA-256。</td><td>PIC 設計資料包。</td><td>C01 <code>package_pic.py</code></td></tr></table>
+
+<h3 id="m3">M3　驗收與延伸（1.5 h）</h3>
+<table><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th></tr>
+<tr><td>M3 s1<br>1 h</td><td>別人能從零重做出同一顆晶片嗎？</td><td>一鍵重建 <code>rebuild_all.py</code>；比對 GDS 雜湊與 80 筆真值表。</td><td>重建紀錄、驗收清單。</td></tr>
+<tr><td>M3 s2<br>0.5 h</td><td>換一種方法檢查，結論一樣嗎？</td><td>用 Python／Shapely 回讀最終 GDS，獨立量測波導最小線寬與間距、heater 間距，與 KLayout DRC 結果逐項對照。</td><td>兩種檢查的差異說明。</td></tr></table>
+

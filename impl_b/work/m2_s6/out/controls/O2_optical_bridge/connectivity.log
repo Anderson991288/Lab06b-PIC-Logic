@@ -1,0 +1,2 @@
+Connectivity: False electrical nets 15 optical routes 32 missing pairs [['EC_IN0:facet', 'M1:MMI1:in2'], ['EC_IN1:facet', 'M1:MMI1:in1']] unexpected [['EC_IN0:facet', 'EC_IN1:facet', 'M1:MMI1:in1', 'M1:MMI1:in2']]
+

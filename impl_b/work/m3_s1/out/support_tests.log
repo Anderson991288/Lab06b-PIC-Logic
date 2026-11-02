@@ -1,0 +1,15 @@
+test_cell_name_change_remains_visible (support_tests.RebuildSupportTests.test_cell_name_change_remains_visible) ... ok
+test_coordinate_change_remains_visible (support_tests.RebuildSupportTests.test_coordinate_change_remains_visible) ... ok
+test_existing_target_refused (support_tests.RebuildSupportTests.test_existing_target_refused) ... ok
+test_generated_seed_and_traversal_rejected (support_tests.RebuildSupportTests.test_generated_seed_and_traversal_rejected) ... ok
+test_invalid_record_length_rejected (support_tests.RebuildSupportTests.test_invalid_record_length_rejected) ... ok
+test_malformed_date_record_rejected (support_tests.RebuildSupportTests.test_malformed_date_record_rejected) ... ok
+test_only_dates_normalize (support_tests.RebuildSupportTests.test_only_dates_normalize) ... ok
+test_target_escape_refused (support_tests.RebuildSupportTests.test_target_escape_refused) ... ok
+test_trailing_bytes_rejected (support_tests.RebuildSupportTests.test_trailing_bytes_rejected) ... ok
+test_truncated_record_rejected (support_tests.RebuildSupportTests.test_truncated_record_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.011s
+
+OK

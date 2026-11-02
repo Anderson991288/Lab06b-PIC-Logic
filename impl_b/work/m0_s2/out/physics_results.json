@@ -1,0 +1,308 @@
+{
+  "timestamp": "2026-10-31T10:20:13.764574+08:00",
+  "step": "M0 S2",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "root_matches_plan": true,
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "femwell": "0.1.12",
+    "scikit-fem": "12.0.2",
+    "matplotlib": "3.10.8"
+  },
+  "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+  "parameters": {
+    "wavelength_um": 1.55,
+    "n_si": 3.476,
+    "n_oxide": 1.444,
+    "strip_width_um": 0.45,
+    "strip_height_um": 0.22,
+    "cladding": "homogeneous SiO2, finite PEC calculation boundary; no substrate, air, heater, dispersion or leakage model"
+  },
+  "fem": {
+    "convergence": [
+      {
+        "label": "coarse",
+        "width_um": 0.45,
+        "height_um": 0.22,
+        "domain_half_um": [
+          1.5,
+          1.0
+        ],
+        "core_divisions": [
+          6,
+          4
+        ],
+        "triangles": 1440,
+        "field_dofs": 10297,
+        "neff": 2.3530985757878837,
+        "neff_imag": 0.0,
+        "te_fraction": 0.9761822221416125,
+        "electric_energy_core_fraction": 0.8949608215646301,
+        "runtime_s": 0.841
+      },
+      {
+        "label": "medium",
+        "width_um": 0.45,
+        "height_um": 0.22,
+        "domain_half_um": [
+          1.5,
+          1.0
+        ],
+        "core_divisions": [
+          10,
+          7
+        ],
+        "triangles": 1836,
+        "field_dofs": 13097,
+        "neff": 2.353464122579958,
+        "neff_imag": 0.0,
+        "te_fraction": 0.9763835896825659,
+        "electric_energy_core_fraction": 0.8952292182722656,
+        "runtime_s": 1.101
+      },
+      {
+        "label": "fine",
+        "width_um": 0.45,
+        "height_um": 0.22,
+        "domain_half_um": [
+          1.5,
+          1.0
+        ],
+        "core_divisions": [
+          16,
+          10
+        ],
+        "triangles": 2400,
+        "field_dofs": 17081,
+        "neff": 2.353499831254645,
+        "neff_imag": 0.0,
+        "te_fraction": 0.976414787341961,
+        "electric_energy_core_fraction": 0.8952814018458205,
+        "runtime_s": 1.557
+      }
+    ],
+    "expanded_domain": {
+      "label": "expanded_domain",
+      "width_um": 0.45,
+      "height_um": 0.22,
+      "domain_half_um": [
+        2.0,
+        1.5
+      ],
+      "core_divisions": [
+        16,
+        10
+      ],
+      "triangles": 4000,
+      "field_dofs": 28361,
+      "neff": 2.3534796327919563,
+      "neff_imag": 0.0,
+      "te_fraction": 0.9764420373847275,
+      "electric_energy_core_fraction": 0.8952671771053745,
+      "runtime_s": 3.165
+    },
+    "width_sweep": [
+      {
+        "label": "width_0.35",
+        "width_um": 0.35,
+        "height_um": 0.22,
+        "domain_half_um": [
+          1.5,
+          1.0
+        ],
+        "core_divisions": [
+          16,
+          10
+        ],
+        "triangles": 2400,
+        "field_dofs": 17081,
+        "neff": 2.054098586844055,
+        "neff_imag": 0.0,
+        "te_fraction": 0.9516904701057937,
+        "electric_energy_core_fraction": 0.8039893424861532,
+        "runtime_s": 1.506
+      },
+      {
+        "label": "fine",
+        "width_um": 0.45,
+        "height_um": 0.22,
+        "domain_half_um": [
+          1.5,
+          1.0
+        ],
+        "core_divisions": [
+          16,
+          10
+        ],
+        "triangles": 2400,
+        "field_dofs": 17081,
+        "neff": 2.353499831254645,
+        "neff_imag": 0.0,
+        "te_fraction": 0.976414787341961,
+        "electric_energy_core_fraction": 0.8952814018458205,
+        "runtime_s": 1.557
+      },
+      {
+        "label": "width_0.55",
+        "width_um": 0.55,
+        "height_um": 0.22,
+        "domain_half_um": [
+          1.5,
+          1.0
+        ],
+        "core_divisions": [
+          16,
+          10
+        ],
+        "triangles": 2400,
+        "field_dofs": 17081,
+        "neff": 2.5144074294712833,
+        "neff_imag": 0.0,
+        "te_fraction": 0.9880071454580385,
+        "electric_energy_core_fraction": 0.9268491693752224,
+        "runtime_s": 1.5
+      }
+    ],
+    "mesh_neff_delta": 3.570867468694061e-05,
+    "domain_neff_delta": 2.0198462688636454e-05
+  },
+  "new_scalar_propagation": {
+    "scope": "Lossless scalar Helmholtz guided-mode expansion in uniform 6um MMI body, n_core_EIM=2.85; no taper, ports or reflection model; not FDTD",
+    "grids": [
+      {
+        "dy_um": 0.040000000000000036,
+        "guided_modes": 20,
+        "projected_input_norm": 0.9996387237300572,
+        "longitudinal_norm_max_error": 1.1324274851176597e-14,
+        "at_z_um": 42.5,
+        "upper_half_fraction": 0.44668556023453193,
+        "lower_half_fraction": 0.5533144397654681,
+        "metric_scope": "Transverse half-plane integral, not output waveguide port coupling or PDK split ratio"
+      },
+      {
+        "dy_um": 0.03000000000000025,
+        "guided_modes": 20,
+        "projected_input_norm": 0.9996521728435348,
+        "longitudinal_norm_max_error": 6.328271240363392e-15,
+        "at_z_um": 42.5,
+        "upper_half_fraction": 0.4458267215297959,
+        "lower_half_fraction": 0.554173278470204,
+        "metric_scope": "Transverse half-plane integral, not output waveguide port coupling or PDK split ratio"
+      },
+      {
+        "dy_um": 0.019999999999999574,
+        "guided_modes": 20,
+        "projected_input_norm": 0.999631229705632,
+        "longitudinal_norm_max_error": 2.3314683517128287e-15,
+        "at_z_um": 42.5,
+        "upper_half_fraction": 0.44671918960958895,
+        "lower_half_fraction": 0.553280810390411,
+        "metric_scope": "Transverse half-plane integral, not output waveguide port coupling or PDK split ratio"
+      }
+    ]
+  },
+  "ideal_mzi": [
+    {
+      "case": "cross",
+      "theta_rad": 0,
+      "power": [
+        0.0,
+        1.0
+      ],
+      "passed": true
+    },
+    {
+      "case": "split",
+      "theta_rad": 1.5707963267948966,
+      "power": [
+        0.5000000000000001,
+        0.5000000000000001
+      ],
+      "passed": true
+    },
+    {
+      "case": "bar",
+      "theta_rad": 3.141592653589793,
+      "power": [
+        1.0,
+        3.749399456654644e-33
+      ],
+      "passed": true
+    },
+    {
+      "case": "combine_pi",
+      "theta_rad": 1.5707963267948966,
+      "power": [
+        0.9999999999999996,
+        3.0814879110195774e-33
+      ],
+      "passed": true
+    },
+    {
+      "case": "combine_0",
+      "theta_rad": 1.5707963267948966,
+      "power": [
+        3.0814879110195774e-33,
+        0.9999999999999996
+      ],
+      "passed": true
+    }
+  ],
+  "inherited_fdtd": [
+    {
+      "case": "in1_t0",
+      "power": [
+        0.0024884053811137963,
+        0.7861294302313687
+      ],
+      "T": 0.7886178356124826,
+      "out1_fraction": 0.0031554008402322887,
+      "ER_dB": 24.995729233869838,
+      "source_sha256": "704261cd0c097335c0cd8236407945d83568b610fc6686d325afda0bf40375a6",
+      "scope": "Inherited Lab01a FDTD; arithmetic recomputed, no FDTD rerun"
+    },
+    {
+      "case": "in1_tpi2",
+      "power": [
+        0.38247540476434577,
+        0.39019126538317506
+      ],
+      "T": 0.7726666701475209,
+      "out1_fraction": 0.4950069927195409,
+      "ER_dB": 0.0867403037386929,
+      "source_sha256": "cd224113e7174c31774ebc00b78f4fb41b228f650441cb561c1715423cc23e93",
+      "scope": "Inherited Lab01a FDTD; arithmetic recomputed, no FDTD rerun"
+    },
+    {
+      "case": "in12_tpi2",
+      "power": [
+        0.7705489346585128,
+        0.001869266766818563
+      ],
+      "T": 0.7724182014253314,
+      "out1_fraction": 0.9975799809437825,
+      "ER_dB": 26.1512893949534,
+      "source_sha256": "718aeb4b94df9b1f894c0a9d8ed8be20417b9e235256b17b2628283054a18da5",
+      "scope": "Inherited Lab01a FDTD; arithmetic recomputed, no FDTD rerun"
+    }
+  ],
+  "checks": {
+    "guided_quasi_TE": true,
+    "neff_mesh_delta_below_1e_3": true,
+    "neff_domain_delta_below_1e_3": true,
+    "width_neff_monotonic": true,
+    "scalar_norm_error_below_1e_10": true,
+    "scalar_halfplane_grid_delta_below_2e_3": true,
+    "ideal_cases_5_of_5": true,
+    "inherited_data_finite": true
+  },
+  "core_passed": true,
+  "fdtd_rerun": {
+    "status": "not_run",
+    "reason": "WSL inventory returned Wsl/E_ACCESSDENIED through this execution interface; Meep installation state is unverified"
+  },
+  "config_sha256": "bcb843e38eaa6867a895b1925798960a873777eb995bad97ba7bd1b5bc5c6331",
+  "script_sha256": "8d4d1c89a627655b684e4ad6ff03006be1870fb17cdf3bad34b8fb8a29735128",
+  "runtime_s": 10.95
+}

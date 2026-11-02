@@ -1,0 +1,1288 @@
+[
+  {
+    "id": "accepted",
+    "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11761.147272,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          2710.0,
+          440.225
+        ],
+        "merged_components": 1,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true,
+            "lower_bound_um": 0.35000000000000003,
+            "upper_bound_um": 0.35100000000000003,
+            "witness_edges_um": [
+              [
+                [
+                  [
+                    -689.7,
+                    -560.176
+                  ],
+                  [
+                    -690.0,
+                    -560.1750000000001
+                  ]
+                ],
+                [
+                  [
+                    -690.0,
+                    -559.825
+                  ],
+                  [
+                    -689.7,
+                    -559.824
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2709.7000000000003,
+                    -559.824
+                  ],
+                  [
+                    2710.0,
+                    -559.825
+                  ]
+                ],
+                [
+                  [
+                    2710.0,
+                    -560.1750000000001
+                  ],
+                  [
+                    2709.7000000000003,
+                    -560.176
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -690.0,
+                    -309.825
+                  ],
+                  [
+                    -689.7,
+                    -309.824
+                  ]
+                ],
+                [
+                  [
+                    -689.7,
+                    -310.176
+                  ],
+                  [
+                    -690.0,
+                    -310.175
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2710.0,
+                    -310.175
+                  ],
+                  [
+                    2709.7000000000003,
+                    -310.176
+                  ]
+                ],
+                [
+                  [
+                    2709.7000000000003,
+                    -309.824
+                  ],
+                  [
+                    2710.0,
+                    -309.825
+                  ]
+                ]
+              ]
+            ]
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true,
+            "lower_bound_um": 0.53,
+            "upper_bound_um": 0.531,
+            "witness_edges_um": [
+              [
+                [
+                  [
+                    418.47700000000003,
+                    -105.266
+                  ],
+                  [
+                    418.5,
+                    -105.265
+                  ]
+                ],
+                [
+                  [
+                    418.5,
+                    -104.735
+                  ],
+                  [
+                    418.47700000000003,
+                    -104.73400000000001
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    208.523,
+                    -14.734
+                  ],
+                  [
+                    208.5,
+                    -14.735
+                  ]
+                ],
+                [
+                  [
+                    208.5,
+                    -15.265
+                  ],
+                  [
+                    208.523,
+                    -15.266
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    208.5,
+                    -105.265
+                  ],
+                  [
+                    208.523,
+                    -105.266
+                  ]
+                ],
+                [
+                  [
+                    208.523,
+                    -104.73400000000001
+                  ],
+                  [
+                    208.5,
+                    -104.735
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    923.477,
+                    -45.266
+                  ],
+                  [
+                    923.5,
+                    -45.265
+                  ]
+                ],
+                [
+                  [
+                    923.5,
+                    -44.735
+                  ],
+                  [
+                    923.477,
+                    -44.734
+                  ]
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true,
+            "lower_bound_um": 0.9,
+            "upper_bound_um": 0.901,
+            "witness_edges_um": [
+              [
+                [
+                  [
+                    11.0,
+                    -89.55
+                  ],
+                  [
+                    111.0,
+                    -89.55
+                  ]
+                ],
+                [
+                  [
+                    111.0,
+                    -90.45
+                  ],
+                  [
+                    11.0,
+                    -90.45
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    263.5,
+                    -89.55
+                  ],
+                  [
+                    363.5,
+                    -89.55
+                  ]
+                ],
+                [
+                  [
+                    363.5,
+                    -90.45
+                  ],
+                  [
+                    263.5,
+                    -90.45
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1526.0,
+                    -89.55
+                  ],
+                  [
+                    1626.0,
+                    -89.55
+                  ]
+                ],
+                [
+                  [
+                    1626.0,
+                    -90.45
+                  ],
+                  [
+                    1526.0,
+                    -90.45
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1778.5,
+                    -89.55
+                  ],
+                  [
+                    1878.5,
+                    -89.55
+                  ]
+                ],
+                [
+                  [
+                    1878.5,
+                    -90.45
+                  ],
+                  [
+                    1778.5,
+                    -90.45
+                  ]
+                ]
+              ]
+            ]
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true,
+            "lower_bound_um": 50.0,
+            "upper_bound_um": 50.001,
+            "witness_edges_um": [
+              [
+                [
+                  [
+                    1011.0,
+                    -55.0
+                  ],
+                  [
+                    1021.0,
+                    -55.0
+                  ]
+                ],
+                [
+                  [
+                    1021.0,
+                    -5.0
+                  ],
+                  [
+                    1011.0,
+                    -5.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1768.5,
+                    -85.0
+                  ],
+                  [
+                    1778.5,
+                    -85.0
+                  ]
+                ],
+                [
+                  [
+                    1778.5,
+                    -35.0
+                  ],
+                  [
+                    1768.5,
+                    -35.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1121.0,
+                    -55.0
+                  ],
+                  [
+                    1131.0,
+                    -55.0
+                  ]
+                ],
+                [
+                  [
+                    1131.0,
+                    -5.0
+                  ],
+                  [
+                    1121.0,
+                    -5.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1878.5,
+                    -85.0
+                  ],
+                  [
+                    1888.5,
+                    -85.0
+                  ]
+                ],
+                [
+                  [
+                    1888.5,
+                    -35.0
+                  ],
+                  [
+                    1878.5,
+                    -35.0
+                  ]
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true,
+            "lower_bound_um": 8.0,
+            "upper_bound_um": 8.001,
+            "witness_edges_um": [
+              [
+                [
+                  [
+                    -44.0,
+                    -760.0
+                  ],
+                  [
+                    -44.0,
+                    -93.874
+                  ]
+                ],
+                [
+                  [
+                    -36.0,
+                    -94.0
+                  ],
+                  [
+                    -36.0,
+                    -760.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -36.126,
+                    -86.0
+                  ],
+                  [
+                    0.0,
+                    -86.0
+                  ]
+                ],
+                [
+                  [
+                    0.0,
+                    -94.0
+                  ],
+                  [
+                    -36.0,
+                    -94.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    186.0,
+                    -760.0
+                  ],
+                  [
+                    186.0,
+                    -93.874
+                  ]
+                ],
+                [
+                  [
+                    194.0,
+                    -94.0
+                  ],
+                  [
+                    194.0,
+                    -760.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    193.874,
+                    -86.0
+                  ],
+                  [
+                    252.5,
+                    -86.0
+                  ]
+                ],
+                [
+                  [
+                    252.5,
+                    -94.0
+                  ],
+                  [
+                    194.0,
+                    -94.0
+                  ]
+                ]
+              ]
+            ]
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true,
+            "lower_bound_um": 13.5,
+            "upper_bound_um": 13.501,
+            "witness_edges_um": [
+              [
+                [
+                  [
+                    1446.0,
+                    -64.0
+                  ],
+                  [
+                    1446.0,
+                    -34.0
+                  ]
+                ],
+                [
+                  [
+                    1432.5,
+                    -34.0
+                  ],
+                  [
+                    1432.5,
+                    -64.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    941.0,
+                    -56.0
+                  ],
+                  [
+                    941.0,
+                    -26.0
+                  ]
+                ],
+                [
+                  [
+                    927.5,
+                    -26.0
+                  ],
+                  [
+                    927.5,
+                    -56.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    436.0,
+                    -64.0
+                  ],
+                  [
+                    436.0,
+                    -49.0
+                  ]
+                ],
+                [
+                  [
+                    422.5,
+                    -49.0
+                  ],
+                  [
+                    422.5,
+                    -64.164
+                  ]
+                ]
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_narrow",
+    "gds_sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11763.158926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          3310.0,
+          440.225
+        ],
+        "merged_components": 2,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 1,
+            "rule_passed": false
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_gap",
+    "gds_sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 12561.158926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          3340.15,
+          440.225
+        ],
+        "merged_components": 3,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 1,
+            "rule_passed": false
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "HT_narrow",
+    "gds_sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11761.158926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          2710.0,
+          440.225
+        ],
+        "merged_components": 1,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4064.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          3310.0,
+          5.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 1,
+            "rule_passed": false
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "HT_gap",
+    "gds_sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11761.158926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          2710.0,
+          440.225
+        ],
+        "merged_components": 1,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4860.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          3345.0,
+          20.0
+        ],
+        "merged_components": 16,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 1,
+            "rule_passed": false
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "PAD_narrow",
+    "gds_sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11761.158926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          2710.0,
+          440.225
+        ],
+        "merged_components": 1,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223046.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          3310.0,
+          690.0
+        ],
+        "merged_components": 16,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 1,
+            "rule_passed": false
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "PAD_gap",
+    "gds_sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11761.158926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          2710.0,
+          440.225
+        ],
+        "merged_components": 1,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223836.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          3345.0,
+          690.0
+        ],
+        "merged_components": 17,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 1,
+            "rule_passed": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_margin_equal",
+    "gds_sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11764.648926000002,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          3310.0,
+          440.225
+        ],
+        "merged_components": 2,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_below_margin",
+    "gds_sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186",
+    "engine": "KLayout KLayout 0.30.12",
+    "dbu_um": 0.001,
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "layers": [
+      {
+        "layer": 3,
+        "area_um2": 11764.638926000001,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          3310.0,
+          440.225
+        ],
+        "merged_components": 2,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.35,
+            "effective_limit_um": 0.349,
+            "violations": 1,
+            "rule_passed": false
+          },
+          "space": {
+            "nominal_um": 0.2,
+            "effective_limit_um": 0.199,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 39,
+        "area_um2": 4060.0,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "metrics": {
+          "width": {
+            "nominal_um": 0.6,
+            "effective_limit_um": 0.599,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      },
+      {
+        "layer": 41,
+        "area_um2": 223036.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "metrics": {
+          "width": {
+            "nominal_um": 2,
+            "effective_limit_um": 1.999,
+            "violations": 0,
+            "rule_passed": true
+          },
+          "space": {
+            "nominal_um": 10,
+            "effective_limit_um": 9.999,
+            "violations": 0,
+            "rule_passed": true
+          }
+        }
+      }
+    ]
+  }
+]

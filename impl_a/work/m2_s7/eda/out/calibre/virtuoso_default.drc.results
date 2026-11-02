@@ -1,0 +1,89 @@
+B7_CHIP 1000
+GRID_3
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+3/0 grid violations
+GRID_4
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+4/0 grid violations
+GRID_5
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+5/0 grid violations
+GRID_39
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+39/0 grid violations
+GRID_41
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+41/0 grid violations
+GRID_99
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+99/0 grid violations
+GRID_100
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+100/0 grid violations
+AREA_99
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Correct design area violation
+W_3
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum feature size violation (GDS3< 350nm)
+S_3
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum gap violation (GDS3<200nm)
+W_4
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum feature size violation (GDS4< 200nm)
+S_4
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum gap violation (GDS4<350nm)
+W_5
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum feature size violation (GDS5< 250nm)
+S_5
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum gap violation (GDS5<250nm)
+W_39
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum feature size violate (GDS39<600nm)
+S_39
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum gap violate (GDS39<10micro)
+W_41
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum feature size violate (GDS41<2micro)
+S_41
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum gap violate (GDS41<10micro)
+W_100
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum feature size violate (GDS100<250nm)
+S_100
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+Minimum gap violate (GDS100<250nm)
+USED_6
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+GDS6 present (its rules are not translated)
+USED_60
+0 0 2 Oct 31 23:59:43 2026                     
+Rule File Pathname: virtuoso_default.runset
+GDS60 present (its rules are not translated)

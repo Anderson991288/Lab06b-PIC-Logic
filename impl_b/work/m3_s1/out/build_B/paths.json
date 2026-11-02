@@ -1,0 +1,1432 @@
+{
+  "schema": "lab06b.paths.v1",
+  "gds_sha256": "81d50696363f59af0614033b31f74c8df486f576288dbc94c2e5932c30f565c4",
+  "core_geometry_sha256": "2ad44087ab81b102f5e75de7fc7c57f610c7ec96b1c2b97375e95c6caee3e023",
+  "paths": [
+    {
+      "id": "M1:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 31,
+      "midpoint_um": [
+        75.28891277937952,
+        0.0
+      ],
+      "instance": "M1",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M1:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 29,
+      "midpoint_um": [
+        75.28891277937952,
+        -30.0
+      ],
+      "instance": "M1",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M1:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 26,
+      "midpoint_um": [
+        313.50000000000006,
+        0.0
+      ],
+      "instance": "M1",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M1:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 21,
+      "midpoint_um": [
+        313.5,
+        -30.0
+      ],
+      "instance": "M1",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M1:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 27,
+      "midpoint_um": [
+        493.0002496135226,
+        -6.992761673349721
+      ],
+      "instance": "M1",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M1:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 22,
+      "midpoint_um": [
+        492.9997503864774,
+        -23.00776167334972
+      ],
+      "instance": "M1",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "M2:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 5,
+      "midpoint_um": [
+        75.2889127793795,
+        -90.0
+      ],
+      "instance": "M2",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M2:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 0,
+      "midpoint_um": [
+        75.2889127793795,
+        -120.0
+      ],
+      "instance": "M2",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M2:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 6,
+      "midpoint_um": [
+        313.50000000000006,
+        -90.0
+      ],
+      "instance": "M2",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M2:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 1,
+      "midpoint_um": [
+        313.5,
+        -120.0
+      ],
+      "instance": "M2",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M2:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 9,
+      "midpoint_um": [
+        493.0002496135226,
+        -96.99276167334972
+      ],
+      "instance": "M2",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M2:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 2,
+      "midpoint_um": [
+        492.9997503864774,
+        -113.00776167334972
+      ],
+      "instance": "M2",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "M3:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 22,
+      "midpoint_um": [
+        580.2889127793795,
+        -30.0
+      ],
+      "instance": "M3",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M3:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 13,
+      "midpoint_um": [
+        580.2889127793795,
+        -60.0
+      ],
+      "instance": "M3",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M3:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 19,
+      "midpoint_um": [
+        818.5,
+        -30.0
+      ],
+      "instance": "M3",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M3:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 14,
+      "midpoint_um": [
+        818.5,
+        -60.0
+      ],
+      "instance": "M3",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M3:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 23,
+      "midpoint_um": [
+        998.0002496135226,
+        -36.99276167334972
+      ],
+      "instance": "M3",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M3:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 15,
+      "midpoint_um": [
+        997.9997503864774,
+        -53.00776167334972
+      ],
+      "instance": "M3",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "M4:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 27,
+      "midpoint_um": [
+        1085.2889127793794,
+        0.0
+      ],
+      "instance": "M4",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M4:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 23,
+      "midpoint_um": [
+        1085.2889127793794,
+        -30.0
+      ],
+      "instance": "M4",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M4:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 28,
+      "midpoint_um": [
+        1323.5,
+        0.0
+      ],
+      "instance": "M4",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M4:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 24,
+      "midpoint_um": [
+        1323.5,
+        -30.0
+      ],
+      "instance": "M4",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M4:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 32,
+      "midpoint_um": [
+        1503.0002496135226,
+        -6.9927616733497215
+      ],
+      "instance": "M4",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M4:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 25,
+      "midpoint_um": [
+        1502.9997503864774,
+        -23.007761673349716
+      ],
+      "instance": "M4",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "M5:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 15,
+      "midpoint_um": [
+        1085.2889127793794,
+        -60.0
+      ],
+      "instance": "M5",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M5:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 9,
+      "midpoint_um": [
+        1085.2889127793794,
+        -90.0
+      ],
+      "instance": "M5",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M5:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 12,
+      "midpoint_um": [
+        1323.5,
+        -60.0
+      ],
+      "instance": "M5",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M5:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 10,
+      "midpoint_um": [
+        1323.5,
+        -90.0
+      ],
+      "instance": "M5",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M5:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 16,
+      "midpoint_um": [
+        1503.0002496135226,
+        -66.99276167334972
+      ],
+      "instance": "M5",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M5:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 11,
+      "midpoint_um": [
+        1502.9997503864774,
+        -83.00776167334972
+      ],
+      "instance": "M5",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "M6:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 25,
+      "midpoint_um": [
+        1590.2889127793794,
+        -30.0
+      ],
+      "instance": "M6",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M6:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 16,
+      "midpoint_um": [
+        1590.2889127793794,
+        -60.0
+      ],
+      "instance": "M6",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M6:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 20,
+      "midpoint_um": [
+        1828.5,
+        -30.0
+      ],
+      "instance": "M6",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M6:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 17,
+      "midpoint_um": [
+        1828.5,
+        -60.0
+      ],
+      "instance": "M6",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M6:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 30,
+      "midpoint_um": [
+        2008.0002496135226,
+        -36.99276167334972
+      ],
+      "instance": "M6",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M6:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 18,
+      "midpoint_um": [
+        2007.9997503864774,
+        -53.00776167334972
+      ],
+      "instance": "M6",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "M7:WG0",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 11,
+      "midpoint_um": [
+        1590.2889127793794,
+        -90.0
+      ],
+      "instance": "M7",
+      "stage": "input_phi",
+      "arm": "upper"
+    },
+    {
+      "id": "M7:WG1",
+      "kind": "MZI_waveguide",
+      "length_um": 150.57782555875906,
+      "source_class": "core",
+      "gds_route_component": 2,
+      "midpoint_um": [
+        1590.2889127793794,
+        -120.0
+      ],
+      "instance": "M7",
+      "stage": "input_phi",
+      "arm": "lower"
+    },
+    {
+      "id": "M7:WG2",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 7,
+      "midpoint_um": [
+        1828.5,
+        -90.0
+      ],
+      "instance": "M7",
+      "stage": "inter_mmi_theta",
+      "arm": "upper"
+    },
+    {
+      "id": "M7:WG3",
+      "kind": "MZI_waveguide",
+      "length_um": 179.1556511175181,
+      "source_class": "core",
+      "gds_route_component": 3,
+      "midpoint_um": [
+        1828.5,
+        -120.0
+      ],
+      "instance": "M7",
+      "stage": "inter_mmi_theta",
+      "arm": "lower"
+    },
+    {
+      "id": "M7:WG4",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 8,
+      "midpoint_um": [
+        2008.0002496135226,
+        -96.99276167334972
+      ],
+      "instance": "M7",
+      "stage": "output",
+      "arm": "upper"
+    },
+    {
+      "id": "M7:WG5",
+      "kind": "MZI_waveguide",
+      "length_um": 28.57782555875905,
+      "source_class": "core",
+      "gds_route_component": 4,
+      "midpoint_um": [
+        2007.9997503864774,
+        -113.00776167334972
+      ],
+      "instance": "M7",
+      "stage": "output",
+      "arm": "lower"
+    },
+    {
+      "id": "WG_BYP_L0_R2",
+      "kind": "bypass",
+      "length_um": 505.0,
+      "source_class": "core",
+      "gds_route_component": 13,
+      "midpoint_um": [
+        252.5,
+        -60.0
+      ],
+      "layer": 0,
+      "mode": 2
+    },
+    {
+      "id": "WG_BYP_L1_R0",
+      "kind": "bypass",
+      "length_um": 505.0,
+      "source_class": "core",
+      "gds_route_component": 27,
+      "midpoint_um": [
+        757.5,
+        0.0
+      ],
+      "layer": 1,
+      "mode": 0
+    },
+    {
+      "id": "WG_BYP_L1_R3",
+      "kind": "bypass",
+      "length_um": 505.0,
+      "source_class": "core",
+      "gds_route_component": 9,
+      "midpoint_um": [
+        757.5,
+        -90.0
+      ],
+      "layer": 1,
+      "mode": 3
+    },
+    {
+      "id": "WG_BYP_L1_R4",
+      "kind": "bypass",
+      "length_um": 505.0,
+      "source_class": "core",
+      "gds_route_component": 2,
+      "midpoint_um": [
+        757.5,
+        -120.0
+      ],
+      "layer": 1,
+      "mode": 4
+    },
+    {
+      "id": "WG_BYP_L2_R4",
+      "kind": "bypass",
+      "length_um": 505.0,
+      "source_class": "core",
+      "gds_route_component": 2,
+      "midpoint_um": [
+        1262.5,
+        -120.0
+      ],
+      "layer": 2,
+      "mode": 4
+    },
+    {
+      "id": "WG_BYP_L3_R0",
+      "kind": "bypass",
+      "length_um": 505.0,
+      "source_class": "core",
+      "gds_route_component": 32,
+      "midpoint_um": [
+        1767.5,
+        0.0
+      ],
+      "layer": 3,
+      "mode": 0
+    },
+    {
+      "id": "WG_in0",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 31,
+      "midpoint_um": [
+        -30.0,
+        0.0
+      ],
+      "mode": 0
+    },
+    {
+      "id": "WG_out0",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 32,
+      "midpoint_um": [
+        2050.0,
+        0.0
+      ],
+      "mode": 0
+    },
+    {
+      "id": "WG_in1",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 29,
+      "midpoint_um": [
+        -30.0,
+        -30.0
+      ],
+      "mode": 1
+    },
+    {
+      "id": "WG_out1",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 30,
+      "midpoint_um": [
+        2050.0,
+        -30.0
+      ],
+      "mode": 1
+    },
+    {
+      "id": "WG_in2",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 13,
+      "midpoint_um": [
+        -30.0,
+        -60.0
+      ],
+      "mode": 2
+    },
+    {
+      "id": "WG_out2",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 18,
+      "midpoint_um": [
+        2050.0,
+        -60.0
+      ],
+      "mode": 2
+    },
+    {
+      "id": "WG_in3",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 5,
+      "midpoint_um": [
+        -30.0,
+        -90.0
+      ],
+      "mode": 3
+    },
+    {
+      "id": "WG_out3",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 8,
+      "midpoint_um": [
+        2050.0,
+        -90.0
+      ],
+      "mode": 3
+    },
+    {
+      "id": "WG_in4",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 0,
+      "midpoint_um": [
+        -30.0,
+        -120.0
+      ],
+      "mode": 4
+    },
+    {
+      "id": "WG_out4",
+      "kind": "lead",
+      "length_um": 60.0,
+      "source_class": "core",
+      "gds_route_component": 4,
+      "midpoint_um": [
+        2050.0,
+        -120.0
+      ],
+      "mode": 4
+    },
+    {
+      "id": "FAN_in0",
+      "kind": "fan",
+      "length_um": 767.8609456509892,
+      "source_class": "fan",
+      "gds_route_component": 31,
+      "midpoint_um": [
+        -359.9999999999998,
+        219.99999999999974
+      ],
+      "mode": 0,
+      "direction": "in"
+    },
+    {
+      "id": "FAN_out0",
+      "kind": "fan",
+      "length_um": 767.8609456509892,
+      "source_class": "fan",
+      "gds_route_component": 32,
+      "midpoint_um": [
+        2380.0,
+        220.0000000000001
+      ],
+      "mode": 0,
+      "direction": "out"
+    },
+    {
+      "id": "FAN_in1",
+      "kind": "fan",
+      "length_um": 647.7406689975331,
+      "source_class": "fan",
+      "gds_route_component": 29,
+      "midpoint_um": [
+        -360.00000000000006,
+        80.00000000000004
+      ],
+      "mode": 1,
+      "direction": "in"
+    },
+    {
+      "id": "FAN_out1",
+      "kind": "fan",
+      "length_um": 647.7406689975331,
+      "source_class": "fan",
+      "gds_route_component": 30,
+      "midpoint_um": [
+        2380.0000000000005,
+        80.00000000000017
+      ],
+      "mode": 1,
+      "direction": "out"
+    },
+    {
+      "id": "FAN_in2",
+      "kind": "fan",
+      "length_um": 600.0,
+      "source_class": "fan",
+      "gds_route_component": 13,
+      "midpoint_um": [
+        -359.9999999999985,
+        -60.0
+      ],
+      "mode": 2,
+      "direction": "in"
+    },
+    {
+      "id": "FAN_out2",
+      "kind": "fan",
+      "length_um": 600.0,
+      "source_class": "fan",
+      "gds_route_component": 18,
+      "midpoint_um": [
+        2380.0,
+        -60.0
+      ],
+      "mode": 2,
+      "direction": "out"
+    },
+    {
+      "id": "FAN_in3",
+      "kind": "fan",
+      "length_um": 647.7406689975331,
+      "source_class": "fan",
+      "gds_route_component": 5,
+      "midpoint_um": [
+        -360.0000000000001,
+        -200.00000000000006
+      ],
+      "mode": 3,
+      "direction": "in"
+    },
+    {
+      "id": "FAN_out3",
+      "kind": "fan",
+      "length_um": 647.7406689975331,
+      "source_class": "fan",
+      "gds_route_component": 8,
+      "midpoint_um": [
+        2380.0,
+        -200.0000000000001
+      ],
+      "mode": 3,
+      "direction": "out"
+    },
+    {
+      "id": "FAN_in4",
+      "kind": "fan",
+      "length_um": 767.8609456509892,
+      "source_class": "fan",
+      "gds_route_component": 0,
+      "midpoint_um": [
+        -359.99999999999994,
+        -339.9999999999999
+      ],
+      "mode": 4,
+      "direction": "in"
+    },
+    {
+      "id": "FAN_out4",
+      "kind": "fan",
+      "length_um": 767.8609456509892,
+      "source_class": "fan",
+      "gds_route_component": 4,
+      "midpoint_um": [
+        2380.0,
+        -339.99999999999994
+      ],
+      "mode": 4,
+      "direction": "out"
+    }
+  ],
+  "routes": [
+    {
+      "component": 0,
+      "terminals": [
+        "EC_IN4:facet",
+        "M2:MMI1:in1"
+      ],
+      "path_ids": [
+        "M2:WG1",
+        "WG_in4",
+        "FAN_in4"
+      ],
+      "centerline_length_um": 978.4387712097482,
+      "core_length_um": 210.57782555875906,
+      "fan_length_um": 767.8609456509892,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 1,
+      "terminals": [
+        "M2:MMI1:out1",
+        "M2:MMI2:in1"
+      ],
+      "path_ids": [
+        "M2:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 2,
+      "terminals": [
+        "M2:MMI2:out1",
+        "M7:MMI1:in1"
+      ],
+      "path_ids": [
+        "M2:WG5",
+        "M7:WG1",
+        "WG_BYP_L1_R4",
+        "WG_BYP_L2_R4"
+      ],
+      "centerline_length_um": 1189.1556511175181,
+      "core_length_um": 1189.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 3,
+      "terminals": [
+        "M7:MMI1:out1",
+        "M7:MMI2:in1"
+      ],
+      "path_ids": [
+        "M7:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 4,
+      "terminals": [
+        "EC_OUT4:facet",
+        "M7:MMI2:out1"
+      ],
+      "path_ids": [
+        "M7:WG5",
+        "WG_out4",
+        "FAN_out4"
+      ],
+      "centerline_length_um": 856.4387712097482,
+      "core_length_um": 88.57782555875905,
+      "fan_length_um": 767.8609456509892,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 5,
+      "terminals": [
+        "EC_IN3:facet",
+        "M2:MMI1:in2"
+      ],
+      "path_ids": [
+        "M2:WG0",
+        "WG_in3",
+        "FAN_in3"
+      ],
+      "centerline_length_um": 858.3184945562922,
+      "core_length_um": 210.57782555875906,
+      "fan_length_um": 647.7406689975331,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 6,
+      "terminals": [
+        "M2:MMI1:out2",
+        "M2:MMI2:in2"
+      ],
+      "path_ids": [
+        "M2:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 7,
+      "terminals": [
+        "M7:MMI1:out2",
+        "M7:MMI2:in2"
+      ],
+      "path_ids": [
+        "M7:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 8,
+      "terminals": [
+        "EC_OUT3:facet",
+        "M7:MMI2:out2"
+      ],
+      "path_ids": [
+        "M7:WG4",
+        "WG_out3",
+        "FAN_out3"
+      ],
+      "centerline_length_um": 736.3184945562922,
+      "core_length_um": 88.57782555875905,
+      "fan_length_um": 647.7406689975331,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 9,
+      "terminals": [
+        "M2:MMI2:out2",
+        "M5:MMI1:in1"
+      ],
+      "path_ids": [
+        "M2:WG4",
+        "M5:WG1",
+        "WG_BYP_L1_R3"
+      ],
+      "centerline_length_um": 684.1556511175181,
+      "core_length_um": 684.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 10,
+      "terminals": [
+        "M5:MMI1:out1",
+        "M5:MMI2:in1"
+      ],
+      "path_ids": [
+        "M5:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 11,
+      "terminals": [
+        "M5:MMI2:out1",
+        "M7:MMI1:in2"
+      ],
+      "path_ids": [
+        "M5:WG5",
+        "M7:WG0"
+      ],
+      "centerline_length_um": 179.15565111751812,
+      "core_length_um": 179.15565111751812,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 12,
+      "terminals": [
+        "M5:MMI1:out2",
+        "M5:MMI2:in2"
+      ],
+      "path_ids": [
+        "M5:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 13,
+      "terminals": [
+        "EC_IN2:facet",
+        "M3:MMI1:in1"
+      ],
+      "path_ids": [
+        "M3:WG1",
+        "WG_BYP_L0_R2",
+        "WG_in2",
+        "FAN_in2"
+      ],
+      "centerline_length_um": 1315.577825558759,
+      "core_length_um": 715.5778255587591,
+      "fan_length_um": 600.0,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 14,
+      "terminals": [
+        "M3:MMI1:out1",
+        "M3:MMI2:in1"
+      ],
+      "path_ids": [
+        "M3:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 15,
+      "terminals": [
+        "M3:MMI2:out1",
+        "M5:MMI1:in2"
+      ],
+      "path_ids": [
+        "M3:WG5",
+        "M5:WG0"
+      ],
+      "centerline_length_um": 179.15565111751812,
+      "core_length_um": 179.15565111751812,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 16,
+      "terminals": [
+        "M5:MMI2:out2",
+        "M6:MMI1:in1"
+      ],
+      "path_ids": [
+        "M5:WG4",
+        "M6:WG1"
+      ],
+      "centerline_length_um": 179.15565111751812,
+      "core_length_um": 179.15565111751812,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 17,
+      "terminals": [
+        "M6:MMI1:out1",
+        "M6:MMI2:in1"
+      ],
+      "path_ids": [
+        "M6:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 18,
+      "terminals": [
+        "EC_OUT2:facet",
+        "M6:MMI2:out1"
+      ],
+      "path_ids": [
+        "M6:WG5",
+        "WG_out2",
+        "FAN_out2"
+      ],
+      "centerline_length_um": 688.5778255587591,
+      "core_length_um": 88.57782555875905,
+      "fan_length_um": 600.0,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 19,
+      "terminals": [
+        "M3:MMI1:out2",
+        "M3:MMI2:in2"
+      ],
+      "path_ids": [
+        "M3:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 20,
+      "terminals": [
+        "M6:MMI1:out2",
+        "M6:MMI2:in2"
+      ],
+      "path_ids": [
+        "M6:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 21,
+      "terminals": [
+        "M1:MMI1:out1",
+        "M1:MMI2:in1"
+      ],
+      "path_ids": [
+        "M1:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 22,
+      "terminals": [
+        "M1:MMI2:out1",
+        "M3:MMI1:in2"
+      ],
+      "path_ids": [
+        "M1:WG5",
+        "M3:WG0"
+      ],
+      "centerline_length_um": 179.15565111751812,
+      "core_length_um": 179.15565111751812,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 23,
+      "terminals": [
+        "M3:MMI2:out2",
+        "M4:MMI1:in1"
+      ],
+      "path_ids": [
+        "M3:WG4",
+        "M4:WG1"
+      ],
+      "centerline_length_um": 179.15565111751812,
+      "core_length_um": 179.15565111751812,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 24,
+      "terminals": [
+        "M4:MMI1:out1",
+        "M4:MMI2:in1"
+      ],
+      "path_ids": [
+        "M4:WG3"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 25,
+      "terminals": [
+        "M4:MMI2:out1",
+        "M6:MMI1:in2"
+      ],
+      "path_ids": [
+        "M4:WG5",
+        "M6:WG0"
+      ],
+      "centerline_length_um": 179.15565111751812,
+      "core_length_um": 179.15565111751812,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 26,
+      "terminals": [
+        "M1:MMI1:out2",
+        "M1:MMI2:in2"
+      ],
+      "path_ids": [
+        "M1:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 27,
+      "terminals": [
+        "M1:MMI2:out2",
+        "M4:MMI1:in2"
+      ],
+      "path_ids": [
+        "M1:WG4",
+        "M4:WG0",
+        "WG_BYP_L1_R0"
+      ],
+      "centerline_length_um": 684.1556511175181,
+      "core_length_um": 684.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 28,
+      "terminals": [
+        "M4:MMI1:out2",
+        "M4:MMI2:in2"
+      ],
+      "path_ids": [
+        "M4:WG2"
+      ],
+      "centerline_length_um": 179.1556511175181,
+      "core_length_um": 179.1556511175181,
+      "fan_length_um": 0,
+      "EC_response_unknown": false
+    },
+    {
+      "component": 29,
+      "terminals": [
+        "EC_IN1:facet",
+        "M1:MMI1:in1"
+      ],
+      "path_ids": [
+        "M1:WG1",
+        "WG_in1",
+        "FAN_in1"
+      ],
+      "centerline_length_um": 858.3184945562922,
+      "core_length_um": 210.57782555875906,
+      "fan_length_um": 647.7406689975331,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 30,
+      "terminals": [
+        "EC_OUT1:facet",
+        "M6:MMI2:out2"
+      ],
+      "path_ids": [
+        "M6:WG4",
+        "WG_out1",
+        "FAN_out1"
+      ],
+      "centerline_length_um": 736.3184945562922,
+      "core_length_um": 88.57782555875905,
+      "fan_length_um": 647.7406689975331,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 31,
+      "terminals": [
+        "EC_IN0:facet",
+        "M1:MMI1:in2"
+      ],
+      "path_ids": [
+        "M1:WG0",
+        "WG_in0",
+        "FAN_in0"
+      ],
+      "centerline_length_um": 978.4387712097482,
+      "core_length_um": 210.57782555875906,
+      "fan_length_um": 767.8609456509892,
+      "EC_response_unknown": true
+    },
+    {
+      "component": 32,
+      "terminals": [
+        "EC_OUT0:facet",
+        "M4:MMI2:out2"
+      ],
+      "path_ids": [
+        "M4:WG4",
+        "WG_BYP_L3_R0",
+        "WG_out0",
+        "FAN_out0"
+      ],
+      "centerline_length_um": 1361.4387712097482,
+      "core_length_um": 593.5778255587591,
+      "fan_length_um": 767.8609456509892,
+      "EC_response_unknown": true
+    }
+  ],
+  "counts": {
+    "core_paths": 58,
+    "fan_paths": 10,
+    "all_paths": 68,
+    "gds_route_components": 33,
+    "MMI_occurrences": 14,
+    "EC_unknown_routes": 10
+  },
+  "provenance": "Centerline polyline lengths from immutable S4/S5 source data, recomputed and assigned to actual S6 GDS components. No MMI body length or EC taper optical length added.",
+  "optical_PEX_or_calibrated_lengths": false
+}

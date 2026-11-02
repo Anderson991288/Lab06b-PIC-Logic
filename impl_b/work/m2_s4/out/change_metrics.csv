@@ -1,0 +1,8 @@
+﻿metric,before,after,delta,unit
+S_bend_horizontal,20.0,24.0,4.0,um
+continuous_min_radius,5.230882702164311,7.6651993059416075,2.4343166037772965,um
+column_length,489.0,505.0,16.0,um
+core_optical_span_x,2076.0,2140.0,64.0,um
+upper_singlemode_waveguide_per_MZI,345.1329183700088,358.3113022350362,13.1783838650274,um
+inter_MMI_upper,172.5664591850044,179.1556511175181,6.5891919325137,um
+design_frame_x,2200.0,2200.0,0.0,um

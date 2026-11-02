@@ -1,0 +1,30 @@
+{
+  "schema": "C:\\LAB\\Lab06b\\impl_a path scheme v4 (2026-10-31)",
+  "rule": "C:\\LAB\\Lab06b\\impl_a holds only files written by Claude (no links) and is where all of Claude's course work happens. The D: drive is read only. Tools are referenced at their real install paths. Values may contain %VAR% (expanded at run time).",
+  "root": "C:\\LAB\\Lab06b\\impl_a",
+  "windows": {
+    "ipkiss_python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+    "conda": "C:\\luceda\\luceda_2026033\\condabin\\conda.bat",
+    "device_sim_env": "C:\\luceda\\luceda_2026033\\envs\\device_sim",
+    "klayout_exe": "%APPDATA%\\KLayout\\klayout_app.exe",
+    "pdk_cornerstone": "%USERPROFILE%\\luceda\\libraries\\cornerstone_2.6.luceda1",
+    "drc_deck": "C:\\LAB\\Lab06b\\impl_a\\work\\common\\drc\\cornerstone_Si220_passive.lydrc"
+  },
+  "wsl": {
+    "note": "Only the Ubuntu distro is used. Never call EDA_Server (even read-only commands start it and reset its license server and network).",
+    "meep": {
+      "distro": "Ubuntu",
+      "user": "yangpc",
+      "conda": "~/miniforge3/bin/conda",
+      "env": "meep",
+      "installed": "2026-10-31: Miniforge 26.9.4-1 (SHA-256 verified) + pymeep 1.35.0 from conda-forge"
+    }
+  },
+  "course": {"path": "C:\\LAB\\Lab06b\\impl_a", "wsl": "/mnt/c/LAB/Lab06b/impl_a", "index": "Lab06b_index.html"},
+  "sources_read_only": {
+    "C01": {"path": "D:\\LAB\\Lab06b\\C01", "role": "original course (outline, study, pic_spec)"},
+    "Lab06a": {"path": "D:\\LAB\\Lab06a", "role": "B7 models, layout, DRC deck"},
+    "lab01a": {"path": "D:\\LAB\\lab01a", "role": "Meep field maps (section 7.6)"},
+    "Lab06b_codex": {"path": "D:\\LAB\\Lab06b", "role": "the other tool's version of this course; never modify"}
+  }
+}

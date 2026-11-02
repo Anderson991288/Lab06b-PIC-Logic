@@ -1,0 +1,130 @@
+{
+ "tests": [
+  {
+   "name": "test_all_bar_identity",
+   "passed": true,
+   "doc": "θ 全 π（每顆全直通）時，|U| = I：光留在原波導。"
+  },
+  {
+   "name": "test_all_cross_permutation",
+   "passed": true,
+   "doc": "黃金值：θ 全 0（每顆全交叉）時，|U|² 是手動追蹤得到的排列。"
+  },
+  {
+   "name": "test_path_sum",
+   "passed": true,
+   "doc": "每個 U[j, i] = 輸入 i 到輸出 j 所有路徑係數乘積的總和（第三種獨立算法）。"
+  },
+  {
+   "name": "test_reachability",
+   "passed": true,
+   "doc": "沒有路徑的 (i, j) 在任何相位下 U[j, i] 都是 0；有路徑的一般不為 0。"
+  },
+  {
+   "name": "test_reference_matrix",
+   "passed": true,
+   "doc": "黃金值：θ 全 π/2、φ 全 0 的 U 與原版課程逐項相同；1000、1100 的五路功率與 ΔP 也相同。"
+  },
+  {
+   "name": "test_reference_paths",
+   "passed": true,
+   "doc": "黃金值：x4→o2 只有 1 條路徑、x4→o4 有 2 條，經過的 MZI 與係數和原版相同。"
+  },
+  {
+   "name": "test_same_layer_commute",
+   "passed": true,
+   "doc": "同一層的 MZI 作用在不重疊的波導上，先後順序不影響結果；相鄰層共用波導則一般會影響。"
+  },
+  {
+   "name": "test_trace_energy_each_layer",
+   "passed": true,
+   "doc": "每一層之後的總功率都等於輸入總功率。"
+  },
+  {
+   "name": "test_trace_matches_matrix",
+   "passed": true,
+   "doc": "逐層追蹤的最後一層 = U·v（兩種獨立算法）。"
+  },
+  {
+   "name": "test_unitary",
+   "passed": true,
+   "doc": "任意 14 個相位，U 都么正：U†U = I（無損耗時總功率守恆）。"
+  }
+ ],
+ "n_pass": 10,
+ "n_total": 10,
+ "mutants": [
+  {
+   "id": "F1",
+   "fault": "矩陣相乘順序反了（U = U·Ek，等於光由右往左走）",
+   "caught_by": [
+    "test_all_cross_permutation",
+    "test_path_sum",
+    "test_reachability",
+    "test_reference_matrix",
+    "test_trace_matches_matrix"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F2",
+   "fault": "MZI 嵌入時上下顛倒（局部索引 0、1 對調）",
+   "caught_by": [
+    "test_path_sum",
+    "test_reference_matrix",
+    "test_trace_matches_matrix"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F3",
+   "fault": "組 U 時漏了 φ（只用 θ）",
+   "caught_by": [
+    "test_path_sum",
+    "test_trace_matches_matrix"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F4",
+   "fault": "OPS 抄錯：M5 寫成跨 rail 1–2（應為 2–3）",
+   "caught_by": [
+    "test_all_cross_permutation",
+    "test_path_sum",
+    "test_reachability",
+    "test_reference_matrix",
+    "test_reference_paths",
+    "test_same_layer_commute"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F5",
+   "fault": "OPS 層號標錯：M3 寫成第 1 層（應為第 2 層）",
+   "caught_by": [
+    "test_path_sum",
+    "test_reachability",
+    "test_same_layer_commute"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F6",
+   "fault": "逐層追蹤時層的順序倒過來",
+   "caught_by": [
+    "test_trace_matches_matrix"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F7",
+   "fault": "路徑係數取成 T[入, 出]（行列對調）",
+   "caught_by": [
+    "test_path_sum"
+   ],
+   "detected": true
+  }
+ ],
+ "n_detected": 7,
+ "n_mutants": 7
+}

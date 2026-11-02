@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-10-31T10:25:06.564621+08:00",
+  "status": "passed",
+  "canonical_root": "C:\\EDA_Codex\\Lab06b",
+  "root_entry": "C:\\EDA_Codex\\Lab06b_index.html",
+  "independent_physical_directory": true,
+  "policy": {
+    "work_only": "C:/EDA_Codex",
+    "D_drive": "read-only"
+  },
+  "steps": {
+    "M0_S1": {
+      "result": "work/m0_s1/out/toolchain_check.json",
+      "root": "C:\\EDA_Codex\\Lab06b",
+      "core_passed": true,
+      "timestamp": "2026-10-31T10:20:00.583743+08:00"
+    },
+    "M0_S2": {
+      "result": "work/m0_s2/out/physics_results.json",
+      "root": "C:\\EDA_Codex\\Lab06b",
+      "core_passed": true,
+      "timestamp": "2026-10-31T10:20:13.764574+08:00"
+    },
+    "M0_S3": {
+      "result": "work/m0_s3/out/model_results.json",
+      "root": "C:\\EDA_Codex\\Lab06b",
+      "core_passed": true,
+      "timestamp": "2026-10-31T10:21:15.520750+08:00"
+    },
+    "M1_S1": {
+      "result": "work/m1_s1/out/encoding_results.json",
+      "root": "C:\\EDA_Codex\\Lab06b",
+      "core_passed": true,
+      "timestamp": "2026-10-31T10:21:18.253762+08:00"
+    },
+    "M1_S2": {
+      "result": "work/m1_s2/out/b7_results.json",
+      "root": "C:\\EDA_Codex\\Lab06b",
+      "core_passed": true,
+      "timestamp": "2026-10-31T10:21:20.474333+08:00"
+    },
+    "M1_S3": {
+      "result": "work/m1_s3/out/readout_results.json",
+      "root": "C:\\EDA_Codex\\Lab06b",
+      "core_passed": true,
+      "timestamp": "2026-10-31T10:21:23.281776+08:00"
+    }
+  },
+  "D_restore": {
+    "status": "passed",
+    "timestamp": "2026-10-31T10:24:48.1565085+08:00",
+    "archived_new_files_removed": 16232,
+    "D_drive_policy": "read-only after this authorized one-time restore",
+    "restored_original_files": 12,
+    "original_C01_files_verified": 463
+  },
+  "C_previous_backup": "C:\\EDA_Codex\\history\\before_course_migration_20261031_101835",
+  "browser_checks": "evidence/browser_checks.json",
+  "klayout_project_local": true,
+  "scope": "Actual C-root toolchain, FEM, shared optical models and lessons through M1 S3; no new FDTD or chip manufacture.",
+  "report_checks": {
+    "status": "passed",
+    "html_files": 13,
+    "local_links_checked": 610,
+    "errors": [],
+    "note": "Static UTF-8/document/nesting/ID/caption/local-link/fragment checks. Historical results are not revalidated EDA."
+  }
+}

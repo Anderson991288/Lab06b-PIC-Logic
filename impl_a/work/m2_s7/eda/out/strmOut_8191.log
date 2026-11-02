@@ -1,0 +1,123 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  23:59:40
+User Name : edauser
+Host Name : eda.ic
+Directory : /home/edauser/claude_b7/virtuoso
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+
+Summary of Options :
+library                                 B7_CHIP
+strmFile                                out_8191.gds
+topCell                                 B7_CHIP
+view                                    layout
+logFile                                 strmOut_8191.log
+maxVertices                             8191
+dbuPerUU                                1000
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellview B7_CHIP/WG0036/layout as STRUCTURE WG0036.
+INFO (XSTRM-223): 2. Translating cellview B7_CHIP/PS_M1_phi/layout as STRUCTURE PS_M1_phi.
+INFO (XSTRM-223): 3. Translating cellview B7_CHIP/PS_M1_theta/layout as STRUCTURE PS_M1_theta.
+INFO (XSTRM-223): 4. Translating cellview B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace.
+INFO (XSTRM-223): 5. Translating cellview B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1.
+INFO (XSTRM-223): 6. Translating cellview B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2.
+INFO (XSTRM-223): 7. Translating cellview B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3.
+INFO (XSTRM-223): 8. Translating cellview B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4.
+INFO (XSTRM-223): 9. Translating cellview B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI.
+INFO (XSTRM-223): 10. Translating cellview B7_CHIP/MMI_2_3532_4_1467/layout as STRUCTURE MMI_2_3532_4_1467.
+INFO (XSTRM-223): 11. Translating cellview B7_CHIP/WG0026/layout as STRUCTURE WG0026.
+INFO (XSTRM-223): 12. Translating cellview B7_CHIP/WG0027/layout as STRUCTURE WG0027.
+INFO (XSTRM-223): 13. Translating cellview B7_CHIP/WG0028/layout as STRUCTURE WG0028.
+INFO (XSTRM-223): 14. Translating cellview B7_CHIP/WG0029/layout as STRUCTURE WG0029.
+INFO (XSTRM-223): 15. Translating cellview B7_CHIP/WG0030/layout as STRUCTURE WG0030.
+INFO (XSTRM-223): 16. Translating cellview B7_CHIP/WG0031/layout as STRUCTURE WG0031.
+INFO (XSTRM-223): 17. Translating cellview B7_CHIP/WG0032/layout as STRUCTURE WG0032.
+INFO (XSTRM-223): 18. Translating cellview B7_CHIP/WG0033/layout as STRUCTURE WG0033.
+INFO (XSTRM-223): 19. Translating cellview B7_CHIP/WG0034/layout as STRUCTURE WG0034.
+INFO (XSTRM-223): 20. Translating cellview B7_CHIP/WG0035/layout as STRUCTURE WG0035.
+INFO (XSTRM-223): 21. Translating cellview B7_CHIP/MZI_M1/layout as STRUCTURE MZI_M1.
+INFO (XSTRM-223): 22. Translating cellview B7_CHIP/PS_M2_phi/layout as STRUCTURE PS_M2_phi.
+INFO (XSTRM-223): 23. Translating cellview B7_CHIP/PS_M2_theta/layout as STRUCTURE PS_M2_theta.
+INFO (XSTRM-223): 24. Translating cellview B7_CHIP/MZI_M2/layout as STRUCTURE MZI_M2.
+INFO (XSTRM-223): 25. Translating cellview B7_CHIP/PS_M3_phi/layout as STRUCTURE PS_M3_phi.
+INFO (XSTRM-223): 26. Translating cellview B7_CHIP/PS_M3_theta/layout as STRUCTURE PS_M3_theta.
+INFO (XSTRM-223): 27. Translating cellview B7_CHIP/MZI_M3/layout as STRUCTURE MZI_M3.
+INFO (XSTRM-223): 28. Translating cellview B7_CHIP/PS_M4_phi/layout as STRUCTURE PS_M4_phi.
+INFO (XSTRM-223): 29. Translating cellview B7_CHIP/PS_M4_theta/layout as STRUCTURE PS_M4_theta.
+INFO (XSTRM-223): 30. Translating cellview B7_CHIP/MZI_M4/layout as STRUCTURE MZI_M4.
+INFO (XSTRM-223): 31. Translating cellview B7_CHIP/PS_M5_phi/layout as STRUCTURE PS_M5_phi.
+INFO (XSTRM-223): 32. Translating cellview B7_CHIP/PS_M5_theta/layout as STRUCTURE PS_M5_theta.
+INFO (XSTRM-223): 33. Translating cellview B7_CHIP/MZI_M5/layout as STRUCTURE MZI_M5.
+INFO (XSTRM-223): 34. Translating cellview B7_CHIP/PS_M6_phi/layout as STRUCTURE PS_M6_phi.
+INFO (XSTRM-223): 35. Translating cellview B7_CHIP/PS_M6_theta/layout as STRUCTURE PS_M6_theta.
+INFO (XSTRM-223): 36. Translating cellview B7_CHIP/MZI_M6/layout as STRUCTURE MZI_M6.
+INFO (XSTRM-223): 37. Translating cellview B7_CHIP/PS_M7_phi/layout as STRUCTURE PS_M7_phi.
+INFO (XSTRM-223): 38. Translating cellview B7_CHIP/PS_M7_theta/layout as STRUCTURE PS_M7_theta.
+INFO (XSTRM-223): 39. Translating cellview B7_CHIP/MZI_M7/layout as STRUCTURE MZI_M7.
+INFO (XSTRM-223): 40. Translating cellview B7_CHIP/WG0010/layout as STRUCTURE WG0010.
+INFO (XSTRM-223): 41. Translating cellview B7_CHIP/WG0011/layout as STRUCTURE WG0011.
+INFO (XSTRM-223): 42. Translating cellview B7_CHIP/WG0012/layout as STRUCTURE WG0012.
+INFO (XSTRM-223): 43. Translating cellview B7_CHIP/WG0013/layout as STRUCTURE WG0013.
+INFO (XSTRM-223): 44. Translating cellview B7_CHIP/WG0014/layout as STRUCTURE WG0014.
+INFO (XSTRM-223): 45. Translating cellview B7_CHIP/WG0015/layout as STRUCTURE WG0015.
+INFO (XSTRM-223): 46. Translating cellview B7_CHIP/WG0016/layout as STRUCTURE WG0016.
+INFO (XSTRM-223): 47. Translating cellview B7_CHIP/WG0017/layout as STRUCTURE WG0017.
+INFO (XSTRM-223): 48. Translating cellview B7_CHIP/WG0018/layout as STRUCTURE WG0018.
+INFO (XSTRM-223): 49. Translating cellview B7_CHIP/WG0019/layout as STRUCTURE WG0019.
+INFO (XSTRM-223): 50. Translating cellview B7_CHIP/WG0020/layout as STRUCTURE WG0020.
+INFO (XSTRM-223): 51. Translating cellview B7_CHIP/WG0021/layout as STRUCTURE WG0021.
+INFO (XSTRM-223): 52. Translating cellview B7_CHIP/WG0022/layout as STRUCTURE WG0022.
+INFO (XSTRM-223): 53. Translating cellview B7_CHIP/WG0023/layout as STRUCTURE WG0023.
+INFO (XSTRM-223): 54. Translating cellview B7_CHIP/WG0024/layout as STRUCTURE WG0024.
+INFO (XSTRM-223): 55. Translating cellview B7_CHIP/WG0025/layout as STRUCTURE WG0025.
+INFO (XSTRM-223): 56. Translating cellview B7_CHIP/B7_CORE/layout as STRUCTURE B7_CORE.
+INFO (XSTRM-223): 57. Translating cellview B7_CHIP/EC_THIN_SI_1_0000/layout as STRUCTURE EC_THIN_SI_1_0000.
+INFO (XSTRM-223): 58. Translating cellview B7_CHIP/WG0000/layout as STRUCTURE WG0000.
+INFO (XSTRM-223): 59. Translating cellview B7_CHIP/WG0001/layout as STRUCTURE WG0001.
+INFO (XSTRM-223): 60. Translating cellview B7_CHIP/WG0002/layout as STRUCTURE WG0002.
+INFO (XSTRM-223): 61. Translating cellview B7_CHIP/WG0003/layout as STRUCTURE WG0003.
+INFO (XSTRM-223): 62. Translating cellview B7_CHIP/WG0004/layout as STRUCTURE WG0004.
+INFO (XSTRM-223): 63. Translating cellview B7_CHIP/WG0005/layout as STRUCTURE WG0005.
+INFO (XSTRM-223): 64. Translating cellview B7_CHIP/WG0006/layout as STRUCTURE WG0006.
+INFO (XSTRM-223): 65. Translating cellview B7_CHIP/WG0007/layout as STRUCTURE WG0007.
+INFO (XSTRM-223): 66. Translating cellview B7_CHIP/WG0008/layout as STRUCTURE WG0008.
+INFO (XSTRM-223): 67. Translating cellview B7_CHIP/WG0009/layout as STRUCTURE WG0009.
+INFO (XSTRM-223): 68. Translating cellview B7_CHIP/B7_CHIP/layout as STRUCTURE B7_CHIP.
+
+Summary of Objects Translated:
+	Scalar Instances:                       162
+	Array Instances:                        0
+	Polygons:                               178
+	Paths:                                  0
+	Rectangles:                             554
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  68
+
+Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33104KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

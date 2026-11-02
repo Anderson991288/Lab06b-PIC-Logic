@@ -1,0 +1,352 @@
+{
+  "timestamp": "2026-10-31T15:19:47.238265+08:00",
+  "status": "passed",
+  "change": "Remove learner acceptance/submission sections and worksheets from all reader pages",
+  "changed_pages": [
+    {
+      "path": "course/m0_s1.html",
+      "before_sha256": "87e7b7617872830720da237c71b5ef958df94bf6003d4bf6da5b89ad738f1954",
+      "after_sha256": "497df1fc690d60c3e1eeacd0be58d8be6bac0b2e14ce862561b585355937af41"
+    },
+    {
+      "path": "course/m0_s1_foundation.html",
+      "before_sha256": "6e63e628bc126496d8912b74857a681d96d21d6004c9c079a33b664eba226769",
+      "after_sha256": "c37a941354d5bfa95b4ee73a6327607099b3771495863a581a6ea84879dc7799"
+    },
+    {
+      "path": "course/m0_s2.html",
+      "before_sha256": "41702dfd110f1903302fce57f31e3372bb3093e1cad67e23bfd5b76d8f74581e",
+      "after_sha256": "5446f0d42a06d07b82618a6eaeb48aad496069d1481e12f00582e5af6486dc62"
+    },
+    {
+      "path": "course/m0_s3.html",
+      "before_sha256": "b65e4db4f6a3084a44a20e4e415564e33ae0b0a025bb8ee47141b28ea910c115",
+      "after_sha256": "c8a2e206a739bfc4b22cd86c21a58c456557bad1a7b925100b6ccb2651eae74c"
+    },
+    {
+      "path": "course/m1_s1.html",
+      "before_sha256": "fa7412cfd743cd791a471f4e4b01b83f4fe6b61e1397aaec6419a84b9f6d7956",
+      "after_sha256": "bd1a5377c0954e14cdf6e63eea445d1c6a9873c9cb308e7416039d66a18988a6"
+    },
+    {
+      "path": "course/m1_s2.html",
+      "before_sha256": "9abe72550f42707ed99252af61c61df6b8dacaf2dbd58e78cd8408454d7adefa",
+      "after_sha256": "adb9e926e0a0bf2ec0cbb1b6be0685a672c0e67e59ff664da4fdddd0164c5942"
+    },
+    {
+      "path": "course/m1_s3.html",
+      "before_sha256": "c5d12223d1bb2137d0baa9d2ce3be8cec4788a670af508053c3f8dd01f1c108b",
+      "after_sha256": "fb6f95faf252c2519278c19266e7bab8455241b1cea9f7588fa8b93672f28e76"
+    },
+    {
+      "path": "course/m1_s4.html",
+      "before_sha256": "1383c527e54d2b3e76c5eac4baa30b1ba182b9144ad3a8758c84da1b9870df9d",
+      "after_sha256": "038a6e4be2287f014ffaf151314d118ff8a88f2381bb6ad94ff3c4037482c533"
+    },
+    {
+      "path": "course/m1_s5.html",
+      "before_sha256": "54f50bedd5819913ccd02293a09d1af1c8805ba83f99e2e652ad718440731830",
+      "after_sha256": "1720e0cd82a52b78bc873163f938355d2747ed4348664b45ae4b7a82824a46af"
+    },
+    {
+      "path": "course/m2_s1.html",
+      "before_sha256": "64b8ba2aa3d6d7fdd201b149cd6728877c568ae57f8282f8396b9c853ee1a505",
+      "after_sha256": "7cb42ab1e8a99a8c037ef95299ca88287ba91d11cc7fc73d3a9f8f4d4d262946"
+    },
+    {
+      "path": "course/m2_s2.html",
+      "before_sha256": "4cd0458b8bbdd80254bef901a7a80d01824db61c46e1a35bcef82215eecfb617",
+      "after_sha256": "69bac33729159556fcf622a368a35e466d66059efe52bfbd5b106a5a8d71dc98"
+    },
+    {
+      "path": "course/m2_s3.html",
+      "before_sha256": "0a21d0951a5e2ebc91318217b10143aec176d7083a035517a261e77578e12255",
+      "after_sha256": "1644430d2d3d4a41ecc4123d933fb63237813342a976bcd16148a69f99a9bc83"
+    },
+    {
+      "path": "course/m2_s4.html",
+      "before_sha256": "b451d6d90332c4ddfea15eccbb47bab3b56def6866713b793e6808cf468370f4",
+      "after_sha256": "75adf2f8e80622ff41eec700a1526fa35e6302186513e44971b73f396b0933c8"
+    },
+    {
+      "path": "course/m2_s5.html",
+      "before_sha256": "c0c092b6a779bda479934b4cffdefd95e02b55e823951b1e613a67926931679c",
+      "after_sha256": "8ba5264918ad34c2ee88a5a662d85bf448ec0a71b58abaa192ca8998a272da69"
+    },
+    {
+      "path": "course/m2_s6.html",
+      "before_sha256": "bab9a919915c41ec46a0bf3a184e0e1974d11b8b4d72c11e02d48342545efac3",
+      "after_sha256": "2033451051b16d1412b06cef04c0d4f2e1d93c9d1e195fb400ad78bfe85b12f3"
+    },
+    {
+      "path": "course/m2_s7.html",
+      "before_sha256": "37366fcf6ff08640df1a9b446e7b9c1849072088aead85c86a6916b1d6a22fca",
+      "after_sha256": "9ea9922c4854c1fe7d07fb40f0f8e98472f21db2bd9242a663ae3d41a4cf7139"
+    },
+    {
+      "path": "course/m3_s1.html",
+      "before_sha256": "e75cb408a6e62a5ff08f027b36df71f9750f4aaf813bb8c50bb2c06b6f1724a7",
+      "after_sha256": "b78e789500c1691320049b0d0e030be752b84a06a8f23808c886ac5a8f0d6d6e"
+    },
+    {
+      "path": "course/m3_s2.html",
+      "before_sha256": "2d7a92d248d6ef00f3c88efe7b893b0b3d349296f839ae6ae77f56364d46e1c1",
+      "after_sha256": "e3e27b5e195b3f463b9943fdbe9d3e9df433a4f7c6fdc04daeeea9bb17fcd0f4"
+    }
+  ],
+  "policy": "scripts/report_policy.py",
+  "changed_renderers": [
+    "scripts/render_course.py",
+    "scripts/render_m0_s2.py",
+    "scripts/render_m0_s3.py",
+    "scripts/render_m1_s1.py",
+    "scripts/render_m1_s2.py",
+    "scripts/render_m1_s3.py",
+    "scripts/render_m1_s4.py",
+    "scripts/render_m1_s5.py",
+    "scripts/render_m2_s1.py",
+    "scripts/render_m2_s2.py",
+    "scripts/render_m2_s3.py",
+    "scripts/render_m2_s4.py",
+    "scripts/render_m2_s5.py",
+    "scripts/render_m2_s6.py",
+    "scripts/render_m2_s7.py",
+    "scripts/render_m3_s1.py",
+    "scripts/render_m3_s2.py"
+  ],
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_remove_learner_sections_20261031_151707",
+  "technical_files_unchanged": 589,
+  "D_writes": false,
+  "html_files": 24,
+  "local_links": 1163,
+  "browser": {
+    "status": "passed",
+    "scope": "Reader pages after learner acceptance/submission removal; all remaining select options exercised, desktop/mobile layout, images, JS errors",
+    "pages": 22,
+    "select_option_changes": 394,
+    "checks": [
+      {
+        "file": "Lab06b_index.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 0
+      },
+      {
+        "file": "course/m0_s1.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 0
+      },
+      {
+        "file": "course/m0_s1_foundation.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 1
+      },
+      {
+        "file": "course/m0_s2.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 0
+      },
+      {
+        "file": "course/m0_s3.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 1
+      },
+      {
+        "file": "course/m1_s1.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 2
+      },
+      {
+        "file": "course/m1_s2.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 2
+      },
+      {
+        "file": "course/m1_s3.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 1
+      },
+      {
+        "file": "course/m1_s4.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 2
+      },
+      {
+        "file": "course/m1_s5.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 3
+      },
+      {
+        "file": "course/m2_s1.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 3
+      },
+      {
+        "file": "course/m2_s2.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 2
+      },
+      {
+        "file": "course/m2_s3.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 3
+      },
+      {
+        "file": "course/m2_s4.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 3
+      },
+      {
+        "file": "course/m2_s5.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 3
+      },
+      {
+        "file": "course/m2_s6.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 2
+      },
+      {
+        "file": "course/m2_s7.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 4
+      },
+      {
+        "file": "course/m3_s1.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 5
+      },
+      {
+        "file": "course/m3_s2.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 4
+      },
+      {
+        "file": "course/plan.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 0
+      },
+      {
+        "file": "analysis/lab01a_7_6.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 0
+      },
+      {
+        "file": "reference/source_context.html",
+        "forms": 0,
+        "submit": false,
+        "headings": [],
+        "badImages": 0,
+        "overflow": false,
+        "mobile_overflow": false,
+        "selects": 0
+      }
+    ],
+    "errors": []
+  },
+  "scope": "Presentation change only; technical content, model outputs, GDS and original delivery packages retained; archived source/evidence snapshots remain historical."
+}

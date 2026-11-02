@@ -1,0 +1,11 @@
+Obtained license for ipkiss version '2026.03'.
+SOI 220 selected 
+
+
+
+WARNING: Please import a specific technology variant.
+
+Chip readback True metal nets 15 heater regions 14 rules [{'layer': 3, 'width_limit_um': 0.35, 'width_warnings': 0, 'space_limit_um': 0.2, 'space_warnings': 0}, {'layer': 39, 'width_limit_um': 0.6, 'width_warnings': 0, 'space_limit_um': 10, 'space_warnings': 0}, {'layer': 41, 'width_limit_um': 2, 'width_warnings': 0, 'space_limit_um': 10, 'space_warnings': 0}]
+
+Chip size [3860.0, 1640.0] counts {'EC': 10, 'signal_pads': 14, 'ground_pads': 2, 'physical_pads': 16, 'logical_return_nets': 1}
+

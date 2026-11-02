@@ -1,0 +1,56 @@
+{
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "M2_S5": {
+      "run": 8,
+      "passed": 8,
+      "successful": true
+    }
+  },
+  "M1_sources_and_zip_unchanged": true,
+  "M1_baseline_replay_passed": 80
+}

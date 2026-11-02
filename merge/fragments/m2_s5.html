@@ -1,0 +1,20 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。兩套的核心佈局從 M2 s3 起就不同，這一步的數字不能混用。</p></div>
+
+<h3>同樣的元件，不同的整合</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>晶片尺寸</td><td>3876 × 1200 µm</td><td>3860 × 1640 µm</td></tr>
+<tr><td>邊緣耦合器</td><td colspan="2">兩套幾乎相同：長 260 µm、0.25 µm 薄矽尖端、250 µm 間距。扇出 S 彎：主線 480 µm、實作 B 600 µm。</td></tr>
+<tr><td>輸入扇入長度</td><td>全部 1253.4134 µm，最大差 1.9×10<sup>−5</sup> µm</td><td>767.861／647.741／600.000 µm，差 <b>167.861 µm</b></td></tr>
+<tr><td>接地</td><td>上下兩條回流（GND_T 接 8 個 heater、GND_B 接 6 個），共 16 個金屬網路</td><td>兩個 GND 接墊同一網路，回流走在核心欄位之間，共 15 個網路</td></tr>
+<tr><td>接墊</td><td colspan="2">兩套都是 80 × 80 µm 接墊、8 µm 金屬線。</td></tr>
+<tr><td>驗證</td><td>DRC 0；1530–1570 nm 80/80（不重新校正）；24 處金屬跨過波導</td><td>局部 6 項線寬／間距篩檢 0；扇出取樣 8030 點；8/8 新測試、136/136 回歸測試</td></tr></table>
+<p><b>扇入不等長的影響：</b>四路資料光和參考光在進入核心前就有不同的相位延遲。主線的故障注入「拿掉扇入的補長」得到 27/80 錯；實作 B 把扇入放在參考面之外，沒有計入回放。若要用實作 B 的佈局，必須在晶片外補償各路相位，或在扇入補長。</p>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>為什麼是 15 個網路而不是短路：</b>heater 是電阻，接地端共用不會讓不同通道短路；網路數只反映「哪些金屬連在一起」。</li>
+<li>KLayout 原生畫面與加註圖；接墊、驅動器與相位的對照表（依 θ1–7／φ1–7 順序）。</li>
+</ul>
+<figure><img src="figures_b/m2_s5/chip_annotated.png" alt="實作 B 的晶片加註圖" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>實作 B 的整顆晶片：上下兩排接墊、左右邊緣耦合器、不等長的扇入。由 <a href="../impl_b/work/m2_s5/plot_chip.py"><code>plot_chip.py</code></a> 產生。</figcaption></figure>
+<figure><img src="figures_b/m2_s5/drive_return.svg" alt="驅動與回流" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>驅動與回流：每個 heater 是一條電阻支路，共用接地不等於短路。</figcaption></figure>

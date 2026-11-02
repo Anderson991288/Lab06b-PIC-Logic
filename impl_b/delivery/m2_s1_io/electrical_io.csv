@@ -1,0 +1,16 @@
+﻿interface_id,kind,phase_channel,instance,heater_logical_id,driver_channel,drive_endpoint,return_net,pad_id,drive_value,drive_unit,calibration
+CTRL_theta1,phase_drive,theta1,M1,H_M1_theta,DRV00,H_M1_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_theta2,phase_drive,theta2,M2,H_M2_theta,DRV01,H_M2_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_theta3,phase_drive,theta3,M3,H_M3_theta,DRV02,H_M3_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_theta4,phase_drive,theta4,M4,H_M4_theta,DRV03,H_M4_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_theta5,phase_drive,theta5,M5,H_M5_theta,DRV04,H_M5_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_theta6,phase_drive,theta6,M6,H_M6_theta,DRV05,H_M6_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_theta7,phase_drive,theta7,M7,H_M7_theta,DRV06,H_M7_theta.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi1,phase_drive,phi1,M1,H_M1_phi,DRV07,H_M1_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi2,phase_drive,phi2,M2,H_M2_phi,DRV08,H_M2_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi3,phase_drive,phi3,M3,H_M3_phi,DRV09,H_M3_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi4,phase_drive,phi4,M4,H_M4_phi,DRV10,H_M4_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi5,phase_drive,phi5,M5,H_M5_phi,DRV11,H_M5_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi6,phase_drive,phi6,M6,H_M6_phi,DRV12,H_M6_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+CTRL_phi7,phase_drive,phi7,M7,H_M7_phi,DRV13,H_M7_phi.A,GND,pending_M2,pending_M2,pending_M2,pending_M2
+GND,common_return,not_applicable,not_applicable,not_applicable,DRV_RETURN,GND,GND,pending_M2,not_applicable,not_applicable,not_applicable

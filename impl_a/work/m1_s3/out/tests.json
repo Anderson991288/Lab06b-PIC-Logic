@@ -1,0 +1,36 @@
+{
+ "tests": [
+  {
+   "name": "test_dark_input",
+   "passed": true,
+   "doc": "輸入 0000 時只剩 R：ΔP = R²(|u25|² − |u45|²) = c0。"
+  },
+  {
+   "name": "test_power_sum_conserved",
+   "passed": true,
+   "doc": "五路輸出功率總和 = 輸入總功率（資料位元數 + R²）；只看 o2＋o4 不會守恆。"
+  },
+  {
+   "name": "test_quadratic_form",
+   "passed": true,
+   "doc": "ΔP = c0 + a·x + xᵀQx 對 16 組輸入與任意相位都精確成立。"
+  },
+  {
+   "name": "test_r_scaling",
+   "passed": true,
+   "doc": "R 加倍：只有 R 的項 ×4、R×資料 的交叉項 ×2、資料彼此的交叉項不變。"
+  },
+  {
+   "name": "test_reference_cases",
+   "passed": true,
+   "doc": "黃金值：θ 全 π/2、φ 全 0 時，1000、1100 的 ΔP 與判定和原版相同。"
+  },
+  {
+   "name": "test_weighted_sum",
+   "passed": true,
+   "doc": "o2、o4 = U 第 2、4 列與 v 的加權和（逐項相加）＝矩陣乘法的結果。"
+  }
+ ],
+ "n_pass": 6,
+ "n_total": 6
+}

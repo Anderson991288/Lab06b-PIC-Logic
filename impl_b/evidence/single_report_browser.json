@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "scope": "All 19 embedded source sections: live output parity vs original pages for every select option and sampled numerical inputs; desktop/mobile/print and alias",
+  "structure": {
+    "report": "lab06b-single-page",
+    "articles": 19,
+    "duplicateIds": [],
+    "images": 50,
+    "badImages": [],
+    "overflow": false,
+    "learnerForms": 0,
+    "hasIframe": false,
+    "height": 124674
+  },
+  "source_sections": 19,
+  "select_option_changes": 394,
+  "numeric_input_changes": 42,
+  "steps": [
+    {
+      "page": "course/m0_s1.html",
+      "prefix": "m0-s1",
+      "selects": 0,
+      "numeric_inputs": 0,
+      "answer_panels": 0
+    },
+    {
+      "page": "course/m0_s2.html",
+      "prefix": "m0-s2",
+      "selects": 0,
+      "numeric_inputs": 0,
+      "answer_panels": 0
+    },
+    {
+      "page": "course/m0_s3.html",
+      "prefix": "m0-s3",
+      "selects": 1,
+      "numeric_inputs": 2,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m1_s1.html",
+      "prefix": "m1-s1",
+      "selects": 2,
+      "numeric_inputs": 2,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m1_s2.html",
+      "prefix": "m1-s2",
+      "selects": 2,
+      "numeric_inputs": 2,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m1_s3.html",
+      "prefix": "m1-s3",
+      "selects": 1,
+      "numeric_inputs": 4,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m1_s4.html",
+      "prefix": "m1-s4",
+      "selects": 2,
+      "numeric_inputs": 3,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m1_s5.html",
+      "prefix": "m1-s5",
+      "selects": 3,
+      "numeric_inputs": 0,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m2_s1.html",
+      "prefix": "m2-s1",
+      "selects": 3,
+      "numeric_inputs": 0,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m2_s2.html",
+      "prefix": "m2-s2",
+      "selects": 2,
+      "numeric_inputs": 0,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m2_s3.html",
+      "prefix": "m2-s3",
+      "selects": 3,
+      "numeric_inputs": 0,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m2_s4.html",
+      "prefix": "m2-s4",
+      "selects": 3,
+      "numeric_inputs": 0,
+      "answer_panels": 1
+    },
+    {
+      "page": "course/m2_s5.html",
+      "prefix": "m2-s5",
+      "selects": 3,
+      "numeric_inputs": 0,
+      "answer_panels": 2
+    },
+    {
+      "page": "course/m2_s6.html",
+      "prefix": "m2-s6",
+      "selects": 2,
+      "numeric_inputs": 0,
+      "answer_panels": 2
+    },
+    {
+      "page": "course/m2_s7.html",
+      "prefix": "m2-s7",
+      "selects": 4,
+      "numeric_inputs": 0,
+      "answer_panels": 2
+    },
+    {
+      "page": "course/m3_s1.html",
+      "prefix": "m3-s1",
+      "selects": 5,
+      "numeric_inputs": 0,
+      "answer_panels": 2
+    },
+    {
+      "page": "course/m3_s2.html",
+      "prefix": "m3-s2",
+      "selects": 4,
+      "numeric_inputs": 0,
+      "answer_panels": 2
+    },
+    {
+      "page": "analysis/lab01a_7_6.html",
+      "prefix": "field-analysis",
+      "selects": 0,
+      "numeric_inputs": 0,
+      "answer_panels": 0
+    },
+    {
+      "page": "course/m0_s1_foundation.html",
+      "prefix": "foundation",
+      "selects": 1,
+      "numeric_inputs": 1,
+      "answer_panels": 1
+    }
+  ],
+  "mobile_overflow": false,
+  "print_navigation_hidden": true,
+  "study_alias": true,
+  "errors": []
+}

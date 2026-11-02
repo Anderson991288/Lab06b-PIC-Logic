@@ -1,0 +1,965 @@
+INFO: Using secure-shell ssh for remote execution. 
+
+MGC_HOME = /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11
+$MGC_HOME/bin/calibre -drc -hier -nowait /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_
+
+//  Calibre v2026.1_17.11    Mon Jan 5 16:59:16 PST 2026
+//  Calibre Utility Library   v0-10_13-2017-1    Fri Sep 19 09:11:48 PDT 2025
+//  Litho Libraries v2026.1_17.11  Mon Jan 5 16:59:16 PST 2026
+//
+//                   Copyright Siemens 1996-2026
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//          WHICH IS THE PROPERTY OF SIEMENS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Siemens software executing under x86-64 Linux
+//
+//  Running on Linux eda.ic (192.168.126.200) 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026 x86_64 glibc 2.28/NPTL 2.28
+//  OS: AlmaLinux release 8.10 (Cerulean Leopard)[6.6.114.1-microsoft-standard-WSL2]
+//  hypervisor detected
+//
+//  Entries in /proc/meminfo:
+//
+//  MemTotal:       32831344 kB
+//  MemFree:        29796316 kB
+//  MemAvailable:   30552708 kB
+//  Buffers:           22400 kB
+//  Cached:          1092920 kB
+//  SwapCached:            0 kB
+//  Active:           595872 kB
+//  Inactive:        1948832 kB
+//  Active(anon):       3608 kB
+//  Inactive(anon):  1496176 kB
+//  Active(file):     592264 kB
+//  Inactive(file):   452656 kB
+//  Unevictable:           0 kB
+//  Mlocked:               0 kB
+//  SwapTotal:       8388608 kB
+//  SwapFree:        8388608 kB
+//  Dirty:                52 kB
+//  Writeback:             0 kB
+//  AnonPages:       1429432 kB
+//  Mapped:           973328 kB
+//  Shmem:             70368 kB
+//  KReclaimable:      25596 kB
+//  Slab:             111972 kB
+//  SReclaimable:      25596 kB
+//  SUnreclaim:        86376 kB
+//  KernelStack:        6560 kB
+//  PageTables:        28480 kB
+//  SecPageTables:         0 kB
+//  NFS_Unstable:          0 kB
+//  Bounce:                0 kB
+//  WritebackTmp:          0 kB
+//  CommitLimit:    24804280 kB
+//  Committed_AS:    3835320 kB
+//  VmallocTotal:   34359738367 kB
+//  VmallocUsed:       86436 kB
+//  VmallocChunk:          0 kB
+//  Percpu:             4992 kB
+//  HardwareCorrupted:     0 kB
+//  AnonHugePages:         0 kB
+//  ShmemHugePages:        0 kB
+//  ShmemPmdMapped:        0 kB
+//  FileHugePages:         0 kB
+//  FilePmdMapped:         0 kB
+//  Unaccepted:            0 kB
+//  HugePages_Total:       0
+//  HugePages_Free:        0
+//  HugePages_Rsvd:        0
+//  HugePages_Surp:        0
+//  Hugepagesize:       2048 kB
+//  Hugetlb:               0 kB
+//  DirectMap4k:       19456 kB
+//  DirectMap2M:     4132864 kB
+//  DirectMap1G:    38797312 kB
+//
+//  User limits:
+//
+//  Data size: unlimited
+//  RSS: unlimited
+//  Stack size: 8192 kB
+//  Max user processes: 128206
+//  VM: unlimited
+//  Current active profile: virtual-guest
+//  net.netfilter.nf_conntrack_max: 262144
+//  vm.max_map_count: 65530
+//  vm.overcommit_memory: 0
+//  kernel.numa_balancing: 0
+//  kernel.pid_max: 32768
+//
+WARNING: Please increase descriptors limit for best performance (10240)
+//
+//  Processor AMD Ryzen 7 5800X3D 8-Core Processor            [25332] (4th generation)
+//  CPU Info: Cores = 8, SMT enabled with 8 additional virtual processors, affinity = (16/16/16)
+//  Max file descriptors: 10240
+//  64 bit virtual addressing enabled
+//  Running aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre -drc -hier -nowait /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_
+//  Process ID: 10772
+//
+//  Starting time: Sat Oct 31 16:45:52 2026
+//
+
+--- CALIBRE_* ENVIRONMENT VARIABLES:
+
+CALIBRE_ATOMIC_LVHEAP=0
+CALIBRE_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre  -drc -hier -nowait /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_'
+CALIBRE_ENABLE_CLASSIC_CI_DRC=1
+CALIBRE_HOME=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11
+CALIBRE_INITIAL_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/bin/calibre -drc -hier -nowait /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_'
+CALIBRE_MTFLEX_LOGTAG=eda.ic.10772.2026_1031_1645
+CALIBRE_READDB_LD_LIBRARY_PATH=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib/julia:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/shared/pkgs/icv/tools/calibre_client/lib/64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/calibre_base/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_lib/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_qt5_comp/plugins:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_oa/22.41p004/lib/linux_rhel68_gcc44x_64/opt
+CALIBRE_SKIP_OS_CHECKS=
+//  Running on 1 CPU (pending licensing) 
+//
+//
+
+--- CALIBRE::DRC-H - Sat Oct 31 16:45:53 2026
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----          STANDARD VERIFICATION RULE FILE COMPILATION MODULE          -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- RULE FILE = /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_
+
+//
+//  Rule file generated on Sat Oct 31 16:45:52 CST 2026
+//     by Calibre Interactive - DRC (v2026.1_17.11)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "lab06b_b7_ec_pad_chip.calibre.db"
+LAYOUT PRIMARY "lab06b_b7_ec_pad_chip"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "drc.results" ASCII 
+DRC MAXIMUM RESULTS ALL
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/cornerstone_basic_draft.svrf"
+
+
+
+--- STANDARD VERIFICATION RULE FILE COMPILATION MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+--- CALIBRE_* ENVIRONMENT VARIABLES:
+
+CALIBRE_ATOMIC_LVHEAP=0
+CALIBRE_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre  -drc -hier -nowait /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_'
+CALIBRE_ENABLE_CLASSIC_CI_DRC=1
+CALIBRE_HOME=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11
+CALIBRE_INITIAL_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/bin/calibre -drc -hier -nowait /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_'
+CALIBRE_MTFLEX_LOGTAG=eda.ic.10772.2026_1031_1645
+CALIBRE_READDB_LD_LIBRARY_PATH=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib/julia:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/shared/pkgs/icv/tools/calibre_client/lib/64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/calibre_base/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_lib/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_qt5_comp/plugins:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_oa/22.41p004/lib/linux_rhel68_gcc44x_64/opt
+CALIBRE_SKIP_OS_CHECKS=
+
+
+--- VARIABLES:
+
+--- DEFINES:
+
+--- SELECTED RULE CHECKS:
+    CS60_WIDTH
+    CS60_SPACE
+    CS6_WIDTH
+    CS6_SPACE
+    CS3_WIDTH
+    CS3_SPACE
+    CS4_WIDTH
+    CS4_SPACE
+    CS5_WIDTH
+    CS5_SPACE
+    CS39_WIDTH
+    CS39_SPACE
+    CS41_WIDTH
+    CS41_SPACE
+    CS100_WIDTH
+    CS100_SPACE
+
+--- UNSELECTED RULE CHECKS (IMPLICIT):
+
+--- UNSELECTED RULE CHECKS (EXPLICIT):
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                  CALIBRE::DRC-H - LICENSING MODULE                   -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+//  Applying licensing policy...
+//  mgc_s license acquired (calibrehdrc requested).
+//  mgc_s license acquired (calibredrc requested).
+
+//  Licensed Products
+//  -----------------
+//  Base products running on 1 core:
+//  - DRC (Hierarchical)
+
+--- CALIBRE::DRC-H LICENSING MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                   CALIBRE LAYOUT DATA INPUT MODULE                   -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- LAYOUT SYSTEM = GDS
+--- LAYOUT MAGNIFICATION = 1
+
+--------------------------------------------------------------------------------
+-----                     GDS FILE SUMMARY INFORMATION                     -----
+--------------------------------------------------------------------------------
+
+GDS FILENAME:        lab06b_b7_ec_pad_chip.calibre.db
+GDS VERSION:         5
+LIBRARY NAME:        lab06b_crosscad_20261031
+LAST MODIFIED:       ON 2026/10/31 AT 16:34:45
+LAST ACCESSED:       ON 2026/10/31 AT 16:45:50
+DATABASE PRECISION:  0.001 user units per database unit
+PHYSICAL PRECISION:  1e-09 meters per database unit
+MAGNIFICATION:       1
+SIZE:                83968
+
+--------------------------------------------------------------------------------
+-----                 GDS INPUT DATA FOR INDIVIDUAL CELLS                  -----
+--------------------------------------------------------------------------------
+     CELL NAME                  PLACEMENTS   ARRAYS   POLYGONS    PATHS    TEXTS
+--------------------------------------------------------------------------------
+soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace
+                                         0        0          1        0        0
+soi220nm_1550nm_te_strip_2x2_mmi_transition1
+                                         0        0          1        0        0
+soi220nm_1550nm_te_strip_2x2_mmi_transition2
+                                         0        0          1        0        0
+soi220nm_1550nm_te_strip_2x2_mmi_transition3
+                                         0        0          1        0        0
+soi220nm_1550nm_te_strip_2x2_mmi_transition4
+                                         0        0          1        0        0
+soi220nm_1550nm_te_strip_2x2_mmi         5        0          0        0        0
+mzi_wg0                                  0        0          1        0        0
+mzi_wg1                                  0        0          1        0        0
+mzi_wg2                                  0        0          1        0        0
+mzi_wg3                                  0        0          1        0        0
+mzi_wg4                                  0        0          1        0        0
+mzi_wg5                                  0        0          1        0        0
+lab06b_mzi_core                          8        0         18        0        0
+wg_byp_l0_r2                             0        0          1        0        0
+wg_byp_l1_r0                             0        0          1        0        0
+wg_byp_l1_r3                             0        0          1        0        0
+wg_byp_l1_r4                             0        0          1        0        0
+wg_byp_l2_r4                             0        0          1        0        0
+wg_byp_l3_r0                             0        0          1        0        0
+wg_in0                                   0        0          1        0        0
+wg_out0                                  0        0          1        0        0
+wg_in1                                   0        0          1        0        0
+wg_out1                                  0        0          1        0        0
+wg_in2                                   0        0          1        0        0
+wg_out2                                  0        0          1        0        0
+wg_in3                                   0        0          1        0        0
+wg_out3                                  0        0          1        0        0
+wg_in4                                   0        0          1        0        0
+wg_out4                                  0        0          1        0        0
+lab06b_b7_core                          23        0         50        0        0
+lab06b_reference_ec                      0        0          3        0        0
+fan_in0                                  0        0          6        0        0
+fan_out0                                 0        0          6        0        0
+fan_in1                                  0        0          6        0        0
+fan_out1                                 0        0          6        0        0
+fan_in2                                  0        0          1        0        0
+fan_out2                                 0        0          1        0        0
+fan_in3                                  0        0          6        0        0
+fan_out3                                 0        0          6        0        0
+fan_in4                                  0        0          6        0        0
+fan_out4                                 0        0          6        0        0
+lab06b_chip_interfaces                  20        0         82        0       16
+lab06b_b7_ec_pad_chip                    2        0          0        0        0
+
+--------------------------------------------------------------------------------
+-----                LAYOUT DATABASE CONSTRUCTOR CONCLUSION                -----
+--------------------------------------------------------------------------------
+
+DATABASE PREP:                      CPU TIME = 0  REAL TIME = 0
+DATABASE READ:                      CPU TIME = 0  REAL TIME = 0
+TEXT UPDATE:                        CPU TIME = 0  REAL TIME = 0
+MISC:                               CPU TIME = 0  REAL TIME = 0
+RECURSIVE REFERENCE CHECK:          CPU TIME = 0  REAL TIME = 0
+EXTENT UPDATE:                      CPU TIME = 0  REAL TIME = 0
+
+NOTE: UNUSED geometric data is present on the following layer/datatype pairs:
+    LAYER = 99 DATATYPE = 0
+
+NOTE: USED geometric data is present on the following layer/datatype pairs:
+    SIMPLE LAYER = 3
+        LAYER = 3 DATATYPE = 0
+    SIMPLE LAYER = 4
+        LAYER = 4 DATATYPE = 0
+    SIMPLE LAYER = 5
+        LAYER = 5 DATATYPE = 0
+    SIMPLE LAYER = 39
+        LAYER = 39 DATATYPE = 0
+    SIMPLE LAYER = 41
+        LAYER = 41 DATATYPE = 0
+    SIMPLE LAYER = 100
+        LAYER = 100 DATATYPE = 0
+
+NOTE: The following required simple layers are EMPTY:
+    6
+    60
+
+WRAPUP:                             CPU TIME = 0  REAL TIME = 0
+
+--- LAYOUT DATABASE CONSTRUCTOR COMPLETED.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/4/4
+
+CONSTRUCTING HIERARCHICAL DATABASE
+    COPYING LAYOUT DATABASE
+    COPY COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    (P=58 A=0(0) AX=0(0) AY=0(0) AD=0(0) D=0)
+    RULE FILE INFO  A:0 C:0 F:0 L:0 M:0
+    CLONE STATE: LCTP(Y/N/U) = U LCRP(Y/N/U) = U LCXP(Y/N/U) = U LCYP(Y/N/U) = U LITHO(0/1/2) = 0 DFM(0/1/2) = 0 MAGXY(0/1) = 0
+    PROCESSING TEXT
+    ELIMINATING DUPLICATE TEXT
+    DUPLICATE TEXT ELIMINATION COMPLETE (0 -> 0 = 0). CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    ELIMINATING EMPTY CELLS
+    EMPTY CELL ELIMINATION COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    COMPUTING RECTANGULAR EXTENTS
+    RECTANGULAR EXTENTS COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    IDENTIFYING TOP LAYER CELLS
+    TOP LAYER CELL IDENTIFICATION COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    IDENTIFYING VERY SMALL CELLS
+    VERY SMALL CELL IDENTIFICATION COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    DETECTING FILL PATTERNS
+    CHECKING ACUTE/SKEW/ANGLED/OFFGRID
+    ELIMINATING DUPLICATE PLACEMENTS
+    DUPLICATE PLACEMENT ELIMINATION COMPLETE (58 -> 58 = 0). CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    FLATTENING VERY SMALL CELL PLACEMENTS
+    FLATTENING SELECTED TOP LAYER CELL PLACEMENTS
+    PACKING GEOMETRY HEADERS
+    PACKING COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    FLATTENING SELECTED LAYERS
+    EXPANDING UNIQUE ICV PLACEMENTS
+    MERGING TOP/MP LAYER CELLS
+    EXPANDING LARGE TOP LAYER CELL PLACEMENTS
+    MERGING CURVILINEAR GEOMETRY
+    CURVILINEAR MERGE COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    COMPUTING RECTILINEAR EXTENTS
+    RECTILINEAR EXTENTS COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    SORTING PLACEMENTS VERTICALLY
+    SORT COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    ELIMINATING DUPLICATE PLACEMENTS
+    DUPLICATE PLACEMENT ELIMINATION COMPLETE (58 -> 58 = 0). CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PACKING PLACEMENTS
+    PACKING COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PACKING GEOMETRY HEADERS
+    PACKING COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING UNIQUE TRANSPARENT CELL PLACEMENTS
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING UNIQUE LIGHT-WEIGHT CELL PLACEMENTS
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+        fan_out0 in lab06b_chip_interfaces at (2080,-0.225)
+        fan_out1 in lab06b_chip_interfaces at (2080,-30.225)
+        fan_out2 in lab06b_chip_interfaces at (2080,-60.225)
+        fan_out3 in lab06b_chip_interfaces at (2080,-310.225)
+        fan_out4 in lab06b_chip_interfaces at (2080,-560.225)
+        fan_in0 in lab06b_chip_interfaces at (-660,-0.225)
+        fan_in1 in lab06b_chip_interfaces at (-660,-30.225)
+        fan_in2 in lab06b_chip_interfaces at (-660,-60.225)
+        fan_in3 in lab06b_chip_interfaces at (-660,-310.225)
+        fan_in4 in lab06b_chip_interfaces at (-660,-560.225)
+        soi220nm_1550nm_te_strip_2x2_mmi_transition4 in soi220nm_1550nm_te_strip_2x2_mmi at (42.5,0.265)
+        soi220nm_1550nm_te_strip_2x2_mmi_transition3 in soi220nm_1550nm_te_strip_2x2_mmi at (42.5,-1.765)
+        soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace in soi220nm_1550nm_te_strip_2x2_mmi at (0,-3)
+        soi220nm_1550nm_te_strip_2x2_mmi_transition2 in soi220nm_1550nm_te_strip_2x2_mmi at (-20,0.265)
+        soi220nm_1550nm_te_strip_2x2_mmi_transition1 in soi220nm_1550nm_te_strip_2x2_mmi at (-20,-1.765)
+        mzi_wg4 in lab06b_mzi_core at (481,-14.21)
+        mzi_wg5 in lab06b_mzi_core at (481,-30.225)
+        mzi_wg2 in lab06b_mzi_core at (228.5,-14.21)
+        mzi_wg3 in lab06b_mzi_core at (228.5,-30.225)
+        mzi_wg0 in lab06b_mzi_core at (0,-14.21)
+        mzi_wg1 in lab06b_mzi_core at (0,-30.225)
+        wg_out0 in lab06b_b7_core at (2020,-0.225)
+        wg_out1 in lab06b_b7_core at (2020,-30.225)
+        wg_out2 in lab06b_b7_core at (2020,-60.225)
+        wg_out3 in lab06b_b7_core at (2020,-90.225)
+        wg_out4 in lab06b_b7_core at (2020,-120.225)
+        wg_byp_l3_r0 in lab06b_b7_core at (1515,-0.225)
+        wg_byp_l2_r4 in lab06b_b7_core at (1010,-120.225)
+        wg_byp_l1_r0 in lab06b_b7_core at (505,-0.225)
+        wg_byp_l1_r3 in lab06b_b7_core at (505,-90.225)
+        wg_byp_l1_r4 in lab06b_b7_core at (505,-120.225)
+        wg_byp_l0_r2 in lab06b_b7_core at (0,-60.225)
+        wg_in0 in lab06b_b7_core at (-60,-0.225)
+        wg_in1 in lab06b_b7_core at (-60,-30.225)
+        wg_in2 in lab06b_b7_core at (-60,-60.225)
+        wg_in3 in lab06b_b7_core at (-60,-90.225)
+        wg_in4 in lab06b_b7_core at (-60,-120.225)
+        lab06b_b7_core in lab06b_b7_ec_pad_chip at (-64.527,-123.04)
+    EXPAND COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING TRIVIAL CELL PLACEMENTS
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+        lab06b_reference_ec (simple=10 array=0 total=10)
+        soi220nm_1550nm_te_strip_2x2_mmi (simple=2 array=0 total=2)
+    EXPAND COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING VERY SPARSE ARRAY PLACEMENTS
+    EXPANDING LARGE CELL ARRAY PLACEMENTS
+    EXPANDING VERY SPARSE CELL PLACEMENTS
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    ELIMINATING DUPLICATE SUPER-HIERARCHICAL PLACEMENTS
+    DUPLICATE SUPER-HIERARCHICAL PLACEMENT ELIMINATION COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PROCESSING LAYOUT BLOAT LAYERS (auto-detected)
+    PROCESSING COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PACKING GEOMETRY HEADERS
+    PACKING COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PROCESSING LARGE CELL EXTENT-BLOATING LAYERS
+    PROCESSING COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING DENSE OVERLAPS
+      THRESHOLDS = 296272.931983 2962729.31983 4924848.30688
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING UNIQUE META-CELL PLACEMENTS
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+        lab06b_chip_interfaces in lab06b_b7_ec_pad_chip at (-920,-840)
+    EXPAND COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    EXPANDING DENSE OVERLAPS
+      THRESHOLDS = 1955.083926 19550.83926 4434318.56012
+      PRE-EXPAND COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    ANALYZING HIERARCHY FOR AUTOMATIC TURBO FLEX
+    ANALYSIS COMPLETE (TA=5905907.8004). CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    IDENTIFYING MULTI-CORE CELLS
+    INJECTING HIERARCHY
+      INJECTION PREP COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+      PRIORITY INJECTION COMPLETE CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+      INJECTION POST COMPLETE (0 0). CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    INJECTION COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    COMPUTING RECTANGULAR EXTENTS
+    RECTANGULAR EXTENTS COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    SORTING PLACEMENTS VERTICALLY
+    SORT COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PUSHING VERY SMALL CELL PLACEMENTS
+    PUSHING TOP LAYER CELL PLACEMENTS
+    FLATTENING VERY SMALL CELL PLACEMENTS
+    FLATTENING SMALL TOP LAYER CELL PLACEMENTS
+    COMPUTING CELL-TO-WORLD TRANSFORMS
+    COMPUTE COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    SORTING PLACEMENTS BY CELL
+    SORT COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    PACKING HIERARCHY. (C=1 CN=1 P1=1 P2=0 P3=0 XF=0) LVHEAP = 1/3/4
+    PACKING COMPLETE. (C=1 CN=1 P=1 XF=0) CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+    COMPUTING PLACEMENT OVERLAPS
+    COMPUTE COMPLETE (OC=2 V1=0 V2=0 SC=0 FC=2). CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5
+    COMPUTING CELL OVERLAP AREAS
+    COMPUTE COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5
+    COMPUTING PLACEMENT / OVERLAP AREA INTERSECTIONS
+    COMPUTE COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5
+HIERARCHICAL DATABASE CONSTRUCTOR COMPLETE. CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5
+(C=1 CN=1 P=1 G=12 GH=1 D=0 TXT=0 XF=0 PO=1)
+
+--------------------------------------------------------------------------------
+-----                           VPC REQUIREMENTS                           -----
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+-----               TEXT OBJECTS FOR CONNECTIVITY EXTRACTION               -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                TEXT OBJECTS FOR WITH TEXT OPERATIONS                 -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----               TEXT OBJECTS FOR EXPAND TEXT OPERATIONS                -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                  TEXT OBJECTS FOR CAPI OPERATIONS                    -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----             LAYER READ SUMMARY (SIMPLE LAYER GEOMETRIES)             -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER      GEOMETRIES                                                    
+--------------------------------------------------------------------------------
+
+  3                     78
+  4                      1
+  5                      1
+  6                      0
+  39                     6
+  41                    85
+  60                     0
+  100                   57
+
+--------------------------------------------------------------------------------
+-----            LAYER READ SUMMARY (ORIGINAL LAYER GEOMETRIES)            -----
+--------------------------------------------------------------------------------
+ORIGINAL LAYER       INITIAL GEOMETRIES                 FINAL GEOMETRIES        
+--------------------------------------------------------------------------------
+
+CS60                       0 (0)                            0 (0)               
+CS6                        0 (0)                            0 (0)               
+CS3                       78 (188)                         92 (188)             
+CS4                        1 (10)                          10 (10)              
+CS5                        1 (10)                          10 (10)              
+CS39                       6 (42)                           6 (42)              
+CS41                      85 (109)                         85 (109)             
+CS100                     57 (105)                         57 (105)             
+
+--------------------------------------------------------------------------------
+-----         LAYER READ SUMMARY (TEXT FOR CONNECTIVITY EXTRACTION)        -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----          LAYER READ SUMMARY (TEXT FOR WITH TEXT OPERATIONS)          -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----         LAYER READ SUMMARY (TEXT FOR EXPAND TEXT OPERATIONS)         -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----            LAYER READ SUMMARY (TEXT FOR CAPI OPERATIONS)             -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+-----               LAYOUT INPUT EXCEPTION SEVERITY SUMMARY                -----
+--------------------------------------------------------------------------------
+EXCEPTION                           SEVERITY  DEFAULT  COUNT        RDB         
+--------------------------------------------------------------------------------
+
+AREF_ANGLED                            0         Y       0         
+AREF_DIAGONAL                          0         Y       0         
+AREF_PLACEMENT                         0         Y       0         
+AREF_UNPLACED                          0         Y       0         
+ARRAY_PITCH_ZERO                       0         Y       0         
+REPETITION_TYPE_8_9_10_11              0         Y       0         
+DUPLICATE_CELL                         2         Y       0         
+EXCLUDE_CELL_NAME                      1         Y       0         
+EXPAND_CELL                            1         Y       0         
+EXTENT_CELL                            1         Y       0         
+INSIDE_CELL                            1         Y       0         
+MISSING_REFERENCE                      2         Y       0         
+RENAME_CELL                            0         Y       0         
+TOP_CELL_CHOSEN                        1         Y       0         
+TOP_CELL_MULTIPLE                      0         Y       0         
+LAYER_DIRECTORY                        2         Y       0         
+DATATYPE_MAP_SOURCE                    1         Y       0         
+DATATYPE_MAP_TARGET                    1         Y       0         
+EMPTY_BASE_LAYER                       1         Y       0         
+EMPTY_LAYER                            1         Y       2         
+LAYER_OVER_BUMP                        1         Y       0         
+LAYER_BUMP_DUPLICATE                   0         Y       0         
+UNUSED_DATA                            1         Y       1         
+MAGNIFICATION_AUTO                     0         Y       0         
+BOX_RECORD                             0         Y       43        
+CIRCLE                                 2         Y       0         
+CIRCLE_RADIUS_ZERO                     1         Y       0         
+CTRAPEZOID_AREA_ZERO                   1         Y       0         
+CTRAPEZOID_DEGENERATE                  2         Y       0         
+TRAPEZOID_AREA_ZERO                    1         Y       0         
+TRAPEZOID_DEGENERATE                   2         Y       0         
+XGEOMETRY_UNSUPPORTED                  2         Y       0         
+NODE_RECORD                            0         Y       43        
+XELEMENT_UNSUPPORTED                   2         Y       0         
+XNAME_UNSUPPORTED                      2         Y       0         
+END_RECORD_BEFORE_END_OF_FILE          0         Y       0         
+PATH_ACUTE                             1         Y       0         
+PATH_ANGLED                            1         Y       0         
+PATH_SKEW                              1         Y       0         
+PATH_BIG                               0         Y       0         
+PATH_CIRCULAR                          1         Y       0         
+PATH_COINCIDENT                        1         Y       0         
+PATH_DEGENERATE                        2         Y       0         
+PATH_ENDSEGMENT_SHORT                  1         Y       0         
+PATH_EXTENSION                         2         Y       0         
+PATH_EXTENSION_MULTIPLE                1         Y       0         
+PATH_NEGATIVE                          1         Y       0         
+PATH_NONORIENTABLE                     2         Y       0         
+PATH_NONSIMPLE                         0         Y       0         
+PATH_SPIKE                             2         Y       0         
+PATH_VARIABLE                          1         Y       0         
+PATH_WIDTH_ABSOLUTE                    2         Y       0         
+PATH_WIDTH_MULTIPLE                    1         Y       0         
+PATH_WIDTH_ODD                         0         Y       0         
+PATH_WIDTH_ZERO                        1         Y       0         
+LAYOUT_PATH_LAYER_GDS                  1         Y       0         
+PLACEMENT_ANGLE_ABSOLUTE               2         Y       0         
+PLACEMENT_MAGNIFICATION_ABSOLUTE       2         Y       0         
+PLACEMENT_MAGNIFICATION_NONPOSITIVE    2         Y       0         
+PLACEMENT_MAGNIFIED                    0         Y       0         
+PLACEMENT_MULTIPLE                     0         Y       0         
+LAYOUT_POLYGON                         1         Y       0         
+POLYGON_ACUTE                          0         Y       0         
+POLYGON_AREA_ZERO                      1         Y       0         
+POLYGON_DEGENERATE                     2         Y       0         
+POLYGON_IS_RECTANGLE                   0         Y       0         
+POLYGON_NONORIENTABLE                  2         Y       0         
+POLYGON_NONSIMPLE                      0         Y       0         
+POLYGON_NOT_CLOSED                     0         Y       0         
+POLYGON_SPIKE                          0         Y       0         
+RECTANGLE_SIDE_ZERO                    1         Y       0         
+CELLNAME_NSTRING                       2         Y       0         
+PROPNAME_NSTRING                       2         Y       0         
+TEXT_LENGTH                            1         Y       0         
+TEXTSTRING_ASTRING                     2         Y       0         
+LAYOUT_TEXT                            1         Y       0         
+TEXT_BIG                               2         Y       0         
+TEXT_DEGENERATE                        2         Y       0         
+METRIC_INPUT_FILE                      2         Y       0         
+METRIC_RULE_FILE                       1         Y       0         
+PRECISION_LAYOUT                       2         Y       0         
+PRECISION_INPUT_FILE                   2         Y       0         
+PRECISION_RULE_FILE                    2         Y       0         
+
+
+--------------------------------------------------------------------------------
+-----                      CELL AND PLACEMENT SUMMARY                      -----
+--------------------------------------------------------------------------------
+CELL TYPE                 CELLS           PLACEMENTS       FLAT PLACEMENTS      
+--------------------------------------------------------------------------------
+
+USER                          2                    7                     7
+ VERY SMALL                   0                    0                     0
+ TOP LAYER                    0                    0                     0
+  VERY SMALL                  0                    0                     0
+PSEUDO                        0                    0                     0
+TOTAL                         2                    7                     7
+
+--------------------------------------------------------------------------------
+-----                   LAYOUT DATA INPUT MODULE SUMMARY                   -----
+--------------------------------------------------------------------------------
+
+--- TOTAL GEOMETRIES READ FROM SIMPLE LAYERS = 228
+--- TOTAL GEOMETRIES READ FROM ORIGINAL LAYERS = 228 (464)
+--- TOTAL GEOMETRIES WRITTEN TO ORIGINAL LAYERS = 260 (464)
+--- LVHEAP = 1/5/5
+--- DATABASE EXTENT = [ -920 , -840 ] -> [ 2940 , 690 ]
+--- GEOMETRIC DEPTH = ALL
+--- TEXT DEPTH FOR CONNECTIVITY EXTRACTION = PRIMARY
+--- TOTAL TEXT OBJECTS FOR CONNECTIVITY EXTRACTION = 0 (0)
+--- TOTAL TEXT OBJECTS FOR WITH TEXT OPERATIONS = 0 (0)
+--- TOTAL TEXT OBJECTS FOR EXPAND TEXT OPERATIONS = 0 (0)
+--- TOTAL TEXT OBJECTS FOR CAPI OPERATIONS = 0 (0)
+--- GEOMETRY FLAGGING = ACUTE (NO)  SKEW (NO)  ANGLED (NO)  OFFGRID (NO)
+                        NONSIMPLE POLYGON (NO)  NONSIMPLE PATH (NO)
+--- PRIMARY CELL = lab06b_b7_ec_pad_chip
+--- EXCLUDED CELLS =
+--- LAYOUT BASE LAYER = (NOT SPECIFIED)
+--- LAYOUT TOP LAYER = (NOT SPECIFIED)
+--- LAYOUT IGNORE LAYER [INVERSE] = (NOT SPECIFIED)
+
+--- CALIBRE LAYOUT DATA INPUT MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----        CALIBRE::DRC-H - RESULTS DATABASE INITIALIZATION MODULE       -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- GLOBAL DRC RESULTS DATABASE FILE = drc.results (ASCII)
+--- GLOBAL MAXIMUM RESULTS PER RULECHECK = ALL
+--- GLOBAL MAXIMUM VERTICES PER RESULT POLYGON = 4096
+--- CHECK TEXT MAPPING = COMMENTS + RULE FILE INFORMATION
+--- KEEP EMPTY RULE CHECKS = YES
+--- DRC RESULTS MAGNIFICATION = 1
+--- DRC RESULTS DATABASE PRECISION = 1000
+
+--------------------------------------------------------------------------------
+-----              DRC RULECHECK -> RESULTS DATABASE MAPPING               -----
+--------------------------------------------------------------------------------
+                                                          DATA        MAX    MAX
+RULECHECK            RESULTS DATABASE         TYPE LAYER  TYPE     RESULT VERTEX
+--------------------------------------------------------------------------------
+CS60_WIDTH           drc.results             ASCII   N/A   N/A        ALL   4096
+CS60_SPACE           drc.results             ASCII   N/A   N/A        ALL   4096
+CS6_WIDTH            drc.results             ASCII   N/A   N/A        ALL   4096
+CS6_SPACE            drc.results             ASCII   N/A   N/A        ALL   4096
+CS3_WIDTH            drc.results             ASCII   N/A   N/A        ALL   4096
+CS3_SPACE            drc.results             ASCII   N/A   N/A        ALL   4096
+CS4_WIDTH            drc.results             ASCII   N/A   N/A        ALL   4096
+CS4_SPACE            drc.results             ASCII   N/A   N/A        ALL   4096
+CS5_WIDTH            drc.results             ASCII   N/A   N/A        ALL   4096
+CS5_SPACE            drc.results             ASCII   N/A   N/A        ALL   4096
+CS39_WIDTH           drc.results             ASCII   N/A   N/A        ALL   4096
+CS39_SPACE           drc.results             ASCII   N/A   N/A        ALL   4096
+CS41_WIDTH           drc.results             ASCII   N/A   N/A        ALL   4096
+CS41_SPACE           drc.results             ASCII   N/A   N/A        ALL   4096
+CS100_WIDTH          drc.results             ASCII   N/A   N/A        ALL   4096
+CS100_SPACE          drc.results             ASCII   N/A   N/A        ALL   4096
+
+--- CALIBRE::DRC-H RESULTS DATABASE INITIALIZATION MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--- CALIBRE::DRC-H LAYER READ SUMMARY SETUP COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                   CALIBRE::DRC-H - EXECUTIVE MODULE                  -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+CS60 = OR CS60
+--------------
+CS60 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 1 OF 24  ELAPSED TIME = 1
+
+Original Layer CS60 DELETED -- LVHEAP = 1/5/5
+
+CS60_SPACE::<1> = EXT CS60 < 0.059 ABUT < 45
+CS60_WIDTH::<1> = INT CS60 < 0.059 ABUT < 45
+--------------------------------------------
+CS60_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS60_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 3 OF 24  ELAPSED TIME = 1
+
+Layer CS60 DELETED -- LVHEAP = 2/5/5
+
+Layer CS60_WIDTH::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck CS60_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS60_SPACE::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck CS60_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS6 = OR CS6
+------------
+CS6 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 4 OF 24  ELAPSED TIME = 1
+
+Original Layer CS6 DELETED -- LVHEAP = 2/5/5
+
+CS6_SPACE::<1> = EXT CS6 < 0.249 ABUT < 45
+CS6_WIDTH::<1> = INT CS6 < 0.199 ABUT < 45
+------------------------------------------
+CS6_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS6_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 6 OF 24  ELAPSED TIME = 1
+
+Layer CS6 DELETED -- LVHEAP = 2/5/5
+
+Layer CS6_WIDTH::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck CS6_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS6_SPACE::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck CS6_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS3 = OR CS3
+------------
+CS3 (HIER TYP=1 CFG=1 HGC=14 FGC=20 HEC=7033 FEC=11263 IGC=4 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 7 OF 24  ELAPSED TIME = 1
+
+Original Layer CS3 DELETED -- LVHEAP = 1/5/5
+
+CS3_SPACE::<1> = EXT CS3 < 0.199 ABUT < 45
+CS3_WIDTH::<1> = INT CS3 < 0.349 ABUT < 45
+------------------------------------------
+CS3_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS3_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 9 OF 24  ELAPSED TIME = 1
+
+Layer CS3 DELETED -- LVHEAP = 2/5/5
+
+Layer CS3_WIDTH::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck CS3_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS3_SPACE::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck CS3_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS4 = OR CS4
+------------
+CS4 (HIER TYP=1 CFG=1 HGC=10 FGC=10 HEC=40 FEC=40 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 10 OF 24  ELAPSED TIME = 1
+
+Original Layer CS4 DELETED -- LVHEAP = 2/5/5
+
+CS4_SPACE::<1> = EXT CS4 < 0.349 ABUT < 45
+CS4_WIDTH::<1> = INT CS4 < 0.199 ABUT < 45
+------------------------------------------
+CS4_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS4_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 12 OF 24  ELAPSED TIME = 1
+
+Layer CS4 DELETED -- LVHEAP = 1/5/5
+
+Layer CS4_WIDTH::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS4_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS4_SPACE::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS4_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS5 = OR CS5
+------------
+CS5 (HIER TYP=1 CFG=1 HGC=10 FGC=10 HEC=80 FEC=80 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 13 OF 24  ELAPSED TIME = 1
+
+Original Layer CS5 DELETED -- LVHEAP = 1/5/5
+
+CS5_SPACE::<1> = EXT CS5 < 0.249 ABUT < 45
+CS5_WIDTH::<1> = INT CS5 < 0.249 ABUT < 45
+------------------------------------------
+CS5_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS5_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 15 OF 24  ELAPSED TIME = 1
+
+Layer CS5 DELETED -- LVHEAP = 1/5/5
+
+Layer CS5_WIDTH::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS5_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS5_SPACE::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS5_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS39 = OR CS39
+--------------
+CS39 (HIER TYP=1 CFG=1 HGC=2 FGC=14 HEC=24 FEC=168 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 16 OF 24  ELAPSED TIME = 1
+
+Original Layer CS39 DELETED -- LVHEAP = 1/5/5
+
+CS39_SPACE::<1> = EXT CS39 < 9.999 ABUT < 45
+CS39_WIDTH::<1> = INT CS39 < 0.599 ABUT < 45
+--------------------------------------------
+CS39_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS39_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 18 OF 24  ELAPSED TIME = 1
+
+Layer CS39 DELETED -- LVHEAP = 1/5/5
+
+Layer CS39_WIDTH::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS39_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS39_SPACE::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS39_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS41 = OR CS41
+--------------
+CS41 (HIER TYP=1 CFG=1 HGC=19 FGC=43 HEC=268 FEC=364 IGC=13 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 19 OF 24  ELAPSED TIME = 1
+
+Original Layer CS41 DELETED -- LVHEAP = 1/5/5
+
+CS41_SPACE::<1> = EXT CS41 < 9.999 ABUT < 45
+CS41_WIDTH::<1> = INT CS41 < 1.999 ABUT < 45
+--------------------------------------------
+CS41_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS41_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 21 OF 24  ELAPSED TIME = 1
+
+Layer CS41 DELETED -- LVHEAP = 1/5/5
+
+Layer CS41_WIDTH::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS41_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS41_SPACE::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS41_SPACE COMPLETED. Number of Results = 0 (0)
+
+CS100 = OR CS100
+----------------
+CS100 (HIER TYP=1 CFG=1 HGC=57 FGC=105 HEC=1151 FEC=2147 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 22 OF 24  ELAPSED TIME = 1
+
+Original Layer CS100 DELETED -- LVHEAP = 1/5/5
+
+CS100_SPACE::<1> = EXT CS100 < 0.249 ABUT < 45
+CS100_WIDTH::<1> = INT CS100 < 0.249 ABUT < 45
+----------------------------------------------
+CS100_SPACE::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CS100_WIDTH::<1> (HIER TYP=3 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 24 OF 24  ELAPSED TIME = 1
+
+Layer CS100 DELETED -- LVHEAP = 1/5/5
+
+Layer CS100_WIDTH::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck CS100_WIDTH COMPLETED. Number of Results = 0 (0)
+
+Layer CS100_SPACE::<1> DELETED -- LVHEAP = 1/5/5
+
+WRITE to ASCII DRC Results Database drc.results COMPLETED
+
+DRC RuleCheck CS100_SPACE COMPLETED. Number of Results = 0 (0)
+
+Cumulative ONE-LAYER BOOLEAN Time: CPU = 0  REAL = 0
+Cumulative ONE-LAYER DRC Time: CPU = 0  REAL = 0
+Cumulative RDB Time: CPU = 0  REAL = 0
+
+--- CALIBRE::DRC-H EXECUTIVE MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+--- TOTAL RULECHECKS EXECUTED = 16
+--- TOTAL RESULTS GENERATED = 0 (0)
+--- TOTAL NAR RDB RESULTS GENERATED = 0
+--- TOTAL DENSITY RDB RESULTS GENERATED = 0
+--- DRC RESULTS DATABASE FILE = drc.results (ASCII)
+
+--- CALIBRE::DRC-H COMPLETED - Sat Oct 31 16:45:53 2026
+--- TOTAL CPU TIME = 0  REAL TIME = 1
+--- PROCESSOR COUNT = 1
+--- SUMMARY REPORT FILE = drc.summary
+
+//  Calibre v2026.1_17.11    Mon Jan 5 16:59:17 PST 2026  
+//  Calibre Utility Library   v0-10_13-2017-1    Fri Sep 19 09:11:48 PDT 2025  
+//  Litho Libraries v2026.1_17.11  Mon Jan 5 16:59:17 PST 2026  
+//  
+//                   Copyright Siemens 1996-2026  
+//                       All Rights Reserved.  
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION  
+//          WHICH IS THE PROPERTY OF SIEMENS CORPORATION  
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.  
+//  
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the  
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.  
+//  
+//  Siemens software executing under x86-64 Linux  
+//  
+//  Running on 1 CPU   
+//  
+//  
+//  Graphical User-Interface startup.... Complete.  
+//  
+//  mgc_s license acquired (calibreqdb requested).  
+//  RVE authorized.  
+//  Loaded ASCII database /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/drc.results (size=3.4 KB) in 0.007 seconds  
+//  
+
+

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "wsl.exe",
+    "--list",
+    "--quiet"
+  ],
+  "returncode": 4294967295,
+  "stdout": "存取被拒。 \r\n錯誤碼： Wsl/E_ACCESSDENIED\r\n如果這是未預期的錯誤，請考慮搜尋現有的問題，或在 https://github.com/microsoft/WSL/issues 提交新問題。\r\n",
+  "stderr": "",
+  "scope": "inventory only; no distro started or modified"
+}

@@ -1,0 +1,88 @@
+2026/10/31 16:06:33 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+Usage: strmout
+	-library		<Input Library>
+	-strmFile		<Output Stream File>
+	[-strmVersion]		<Stream Version Number>
+	[-runDir]		<Run Directory>
+	[-topCell]		<Toplevel Cells to Translate>
+	[-view]			<Toplevel Cell View Name>
+	[-logFile]		<Output Log File Name>
+	[-summaryFile]		<Output Summary File>
+	[-techLib]		<Technology Library>
+	[-hierDepth]		<Hierarchical Depth to Translate to>
+	[-layerMap]		<Quoted List of Layer Map Files>
+	[-translateUnmappedLPP]	<Allow undefined LPP to be translated by incrementally mapping LPP using layerMap file, SKILL hook poLayerMap, and automatic layer mapping>
+	[-labelMap]		<Input Label Map File>
+	[-labelDepth]		<Hierarchical Depth to Add Labels to>
+	[-replaceBusBitChar]	<Replace "<>" With "[]">
+	[-cellMap]		<Input Cell Map File>
+	[-fontMap]		<Input Font Map File>
+	[-propMap]		<Input Property Map File>
+	[-objectMap]		<Quoted List of Object Mapping Files>
+	[-viaMap]		<Via Mapping File>
+	[-viaCutArefThreshold]	<Threshold Value For Creating AREF For Cut Geometries For Via>
+	[-userSkillFile]	<User Skill File>
+	[-refLibList]		<Name of The File Containing Refliblist >
+	[-arrayInstToScalar]
+	[-cellNamePrefix]	<Cell Name Prefix>
+	[-cellNameSuffix]	<Cell Name Suffix>
+	[-ignoreTopCellPrefixSuffix]	<Ignores cellName Prefix and Suffix for topCell>
+	[-case]			<upper | lower | preserve >
+	[-labelCase]		<upper | lower | preserve >
+	[-ignoreLines]
+	[-noOutputTextDisplays]
+	[-noOutputUnplacedInst]	<Do not Output Unplaced Instances>
+	[-convertDot]		<node | polygon | ignore >
+	[-convertPin]		<geometry | text | geometryAndText | ignore >
+	[-pinAttNum]		<Stream Attribute Num (1-127) For Preserving Pins>
+	[-noPinNameCheck]	<all | exceptTopCellview | exceptTopLib >
+	[-pinLabelPurp]		<oaPurpose corresponding to which pin labels will be exported>
+	[-pathToPolygon]	<Convert Paths to Polygons>
+	[-diagonalPathToPolygon]<Convert Paths with non-orthogonal segments to polygons>
+	[-propValueOnly]	<Output Property Values Only>
+	[-rectToBox]
+	[-respectGDSIINameLimit]
+	[-gdsCellNameLength]	<Truncate GDS Cell/STRUCT name length to specified value (>=10)>
+	[-flattenOverflowCells]	<Flattens the overflow cell instances, which are created by the -detectOverflow option during XStream In>
+	[-flattenPcells]
+	[-flattenPcellsExclusionFile]	<A file specifying list of Pcells to exclude from flattening>
+	[-enableWildCardForExcludedPcells]	<Enable the wildcard support for Pcells in the Pcell exclusion file specified using the ' -flattenPcellsExclusionFile' option>
+	[-flattenVias]
+	[-outputViaShapesToViaPurp]	<Output Shapes of Via to Via Purpose>
+	[-doNotPreservePcellPins]
+	[-snapToGrid]
+	[-dbuPerUU]		<DB Units per user units>
+	[-reportPrecisionLoss]	<Report Precision Loss Because of dbuPerUU Value>
+	[-scale]		<Design Scaling Factor>
+	[-noObjectProp]
+	[-ignorePcellEvalFail]
+	[-mergePathSegsToPath]	<Merging pathSegs into a single PATH>
+	[-noConvertHalfWidthPath]	<Do not Convert The Half Width Path to Boundary>
+	[-checkPolygon]		<Report Bad Polygons And Paths>
+	[-backupGdsLogFiles]	<Backup GDSII and LOG files, if they already exist>
+	[-maxVertices]		<Maximum Limit of Vertices (5-8191) Allowed in Stream File>
+	[-strmTextNS]		<NameSpace of The TEXT Records in The Stream File>
+	[-templateFile]		<Name of The File Containing Option Names And Values>
+	[-cellListFile]		<Name of the file containing cellList>
+	[-outputDir]		<output directory>
+	[-noInfo]		<Quoted List of Info Message Ids>
+	[-noWarn]		<Quoted List of Warning Message Ids>
+	[-warnToErr]		<Quoted List of warning Message Ids>
+	[-infoToWarn]		<Quoted List of Info Message Ids>
+	[-donutNumSides]	<Number of sides (4-131072) for the BOUNDARY of donut>
+	[-ellipseNumSides]	<Number of sides (4-131072) for the BOUNDAR of ellipse>
+	[-wildCardInCellMap]	<Wild Card in cell map file>
+	[-ignoreMissingCells]	<Ignores Missing cellViews During Translation and Continue Translation>
+	[-ignoreMissingVias]	<Ignores Missing standard/custom vias During Translation and Continue Translation>
+	[-subMasterSeparator]	<Separator to used for sub-master naming (default: "_CDNS_")>
+	[-convertPcellPin]	<geometry | text | geometryAndText | ignore (default: convertPin value)>
+	[-guiHistory]		<Use options of last successful translation from the XStream Out GUI>
+	[-ignoreZeroWidthPathSeg]	<Ignores zero width PathSeg during translation>
+	[-ignoreObjectMapFromTech]	<Ignores object map file from technology>
+	[-ignoreCurrentTimestamp]	<Ignores current timestamp>
+	[-verbose]	<Generate detailed information in the log and summary files>
+	[-enableColoring]	<Enable Coloring Support>
+	[-mapAllColorToLocked]	<Map all the Colored Shapes to Locked DataType>
+
+# For detailed help on these generic options, use:
+    /home/EDA/cadence/IC231_ISR15/tools/dfII/bin/strmout -help3264

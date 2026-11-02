@@ -1,0 +1,21 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>約定一致</h3>
+<p>兩套都採用 T(θ,φ)＝H·diag(e<sup>iθ</sup>,1)·H·diag(e<sup>iφ</sup>,1)，索引 0＝上臂（θ、φ 所在的一側，PDK 的 in2）。兩套是各自寫出來的，約定卻一致，這代表從原始教材讀出的定義沒有歧義。實作 B 另外提供轉換函式 <code>to_lower_first</code>（T<sub>下方優先</sub>＝P·T·P），給習慣「索引 0＝下方」的程式使用。</p>
+
+<h3>結果對照</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>單元測試</td><td>13/13</td><td>18/18</td></tr>
+<tr><td>故意寫錯的版本</td><td>7/7 被抓到（含少了 √2、用 sin²θ、φ 放在輸出端、嵌入時轉置）</td><td>5/5 被抓到，改回後重測通過</td></tr>
+<tr><td>和 FDTD 比</td><td>最大差 0.019，並擬合出非理想參數（偏移 +2.24°）</td><td>沒有（M0 s2 沒有自己的 FDTD）</td></tr>
+<tr><td>B7 舊相位回放</td><td>在 M1 才做</td><td>先做：80/80，最小裕量 XOR2 0.25、AND2 2.115379</td></tr></table>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>逐步追光場：</b>輸入 → 經過 φ → 第一個 MMI → 經過 θ → 第二個 MMI → 損耗，每一步的複數振幅都列出來，手算時可以逐格對答案。</li>
+<li><b>平手的讀取：</b>|ΔP| ≤ ε 時回傳「無法判定」，而不是硬判成 0 或 1。</li>
+<li><b>相位換算長度：</b>π 相位差相當於臂長差 ΔL＝λ/(2n<sub>eff</sub>)＝0.329297 µm。版圖上不到 0.33 µm 的長度差就讓 MZI 從全交叉變成全直通，這是 M2 要求兩臂等長的原因。</li>
+</ul>
+<figure><img src="figures_b/m0_s3/mzi_convention.svg" alt="MZI 埠與索引約定" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>實作 B 的 MZI 埠與索引約定圖：上臂是 θ、φ 所在的一側，對應 PDK 的 in2／out2。</figcaption></figure>
+<figure><img src="figures_b/m0_s3/mzi_response.png" alt="MZI 對 θ 與 φ 的輸出功率圖" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>單一 MZI 的輸出功率對 θ、φ 的分布。單一輸入時 φ 不影響功率，兩路同調輸入時才影響。由 <a href="../impl_b/work/m0_s3/run_models.py"><code>run_models.py</code></a> 產生。</figcaption></figure>

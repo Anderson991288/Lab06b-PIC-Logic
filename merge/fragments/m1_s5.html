@@ -1,0 +1,19 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>兩份規格都對，但不能直接互換</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>檔案</td><td><code>spec/pic_spec.json</code>＋<code>sources/b7_phases.json</code></td><td><code>pic_spec.json</code>＋<code>phase_settings.json</code>＋可攜 ZIP</td></tr>
+<tr><td>誰綁定誰</td><td>規格記錄相位檔的 SHA-256</td><td>相位檔記錄規格的 SHA-256（方向相反）</td></tr>
+<tr><td>heater 通道順序</td><td>每顆 MZI 先 φ 後 θ：M1_phi、M1_theta、M2_phi…</td><td>依向量順序：theta1…theta7，再 phi1…phi7</td></tr>
+<tr><td>相位精度規格</td><td>0.02 rad</td><td>沒有</td></tr>
+<tr><td>檢查</td><td>獨立檢查器 10 項（不呼叫 b7.py），7 種規格錯誤都被抓到</td><td>15 項測試；直接回放與在隔離資料夾回放都是 80/80；4 份竄改過的副本都被拒絕</td></tr></table>
+<div class="notice"><p><b>交接時最容易出錯的地方：</b>通道順序。同樣 14 個數字，若依主線的順序寫入實作 B 的驅動器，θ 和 φ 會對調，M1 s4 已經示範過這會讓結果剩 33/80。規格裡要寫明順序，接收端要逐通道核對名稱，不能只核對個數。</p></div>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li>10 個埠的對照表：從 0 起算的 in0–in4／out0–out4，對應從 1 起算的 o1–o5。</li>
+<li>邏輯 heater 編號（例如 H_M1_theta），接墊與校正值先留空，等 M2 填入。</li>
+<li>交接包用 manifest 記錄每個檔案的 SHA-256，解壓到別的資料夾也能回放。</li>
+</ul>
+<figure><img src="figures_b/m1_s5/handoff_flow.svg" alt="規格交接流程" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>實作 B 的交接流程：規格與相位打包、在隔離資料夾回放、竄改副本被拒絕。</figcaption></figure>

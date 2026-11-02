@@ -1,0 +1,554 @@
+{
+  "step": "M1 S5",
+  "timestamp": "2026-10-31T10:56:43.171028+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "root_matches_plan": true,
+  "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+  "unit_tests": {
+    "run": 15,
+    "passed": 15,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "spec_and_crossrefs_valid",
+      "passed": true
+    },
+    {
+      "name": "ten_core_ports",
+      "passed": true
+    },
+    {
+      "name": "fourteen_named_channels",
+      "passed": true
+    },
+    {
+      "name": "six_bypass_segments",
+      "passed": true
+    },
+    {
+      "name": "phase_precision_preserved",
+      "passed": true
+    },
+    {
+      "name": "eighty_replayed_truths",
+      "passed": true
+    },
+    {
+      "name": "M1S4_csv_matches",
+      "passed": true
+    },
+    {
+      "name": "direct_standalone_replay",
+      "passed": true
+    },
+    {
+      "name": "isolated_replay",
+      "passed": true
+    },
+    {
+      "name": "isolated_uses_bundled_model",
+      "passed": true
+    },
+    {
+      "name": "physical_assignments_pending",
+      "passed": true
+    },
+    {
+      "name": "all_controlled_copies_rejected",
+      "passed": true
+    },
+    {
+      "name": "zip_payload_matches",
+      "passed": true
+    }
+  ],
+  "spec_schema": "lab06b.pic_spec.v1",
+  "phase_schema": "lab06b.phase_settings.v1",
+  "spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+  "package_manifest": {
+    "schema": "lab06b.handoff_manifest.v1",
+    "package_kind": "M1 logical core handoff to M2",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "f120c44e3a5cdaeee9fc0c5db2c61f057e919593ffeeadbaa70a216c02d579c4"
+      },
+      {
+        "path": "acceptance_truth.csv",
+        "sha256": "5ef36c830865aa3311042266e72dc1ca1b076794e68537df00ad34ea8ec900f4"
+      },
+      {
+        "path": "model/common/__init__.py",
+        "sha256": "5c22e854a84f60f8db840deab9f0967b8531e8ac0da49a91af36aa1b6f207e1b"
+      },
+      {
+        "path": "model/common/b7.py",
+        "sha256": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028"
+      },
+      {
+        "path": "model/common/encoding.py",
+        "sha256": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87"
+      },
+      {
+        "path": "model/common/handoff.py",
+        "sha256": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5"
+      },
+      {
+        "path": "model/common/linear_network.py",
+        "sha256": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058"
+      },
+      {
+        "path": "model/common/logic_validation.py",
+        "sha256": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f"
+      },
+      {
+        "path": "model/common/mzi.py",
+        "sha256": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a"
+      },
+      {
+        "path": "optical_ports.csv",
+        "sha256": "b6596284457f6d1ff09e9be0aa32a4e31ca60a050e36956b1ea48cddb3890e9f"
+      },
+      {
+        "path": "phase_channels.csv",
+        "sha256": "a037f40e5509accc135e601b158f15326e8ac6acd78687d61fd92dce1373715c"
+      },
+      {
+        "path": "phase_settings.json",
+        "sha256": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6"
+      },
+      {
+        "path": "pic_spec.json",
+        "sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d"
+      },
+      {
+        "path": "replay_handoff.py",
+        "sha256": "3821b8dac5fea945f1a841f260758b57e3d54f00e7b0a0171f32661d7b09bf95"
+      }
+    ]
+  },
+  "bundle": "delivery/m1_handoff",
+  "zip": "delivery/m1_handoff.zip",
+  "zip_sha256": "5ec455817a4da7a46e6e08b834ee468a985461ca623e6cbe40bfabf1198505a6",
+  "function_summaries": {
+    "AND2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 2.11537918265,
+      "minimum_clearance": 2.11537918255,
+      "minimum_abs_delta": 2.11537918265,
+      "worst_pattern": "1010",
+      "confusion_actual_by_predicted": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "accepted": true
+    },
+    "OR2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 2.120502406246193,
+      "minimum_clearance": 2.120502406146193,
+      "minimum_abs_delta": 2.120502406246193,
+      "worst_pattern": "0100",
+      "confusion_actual_by_predicted": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "accepted": true
+    },
+    "XOR2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 0.24999999999994915,
+      "minimum_clearance": 0.24999999989994914,
+      "minimum_abs_delta": 0.24999999999994915,
+      "worst_pattern": "1111",
+      "confusion_actual_by_predicted": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "accepted": true
+    },
+    "AND4": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 1.496028200858654,
+      "minimum_clearance": 1.496028200758654,
+      "minimum_abs_delta": 1.496028200858654,
+      "worst_pattern": "1101",
+      "confusion_actual_by_predicted": [
+        [
+          15,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "accepted": true
+    },
+    "OR4": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 1.4998553450018055,
+      "minimum_clearance": 1.4998553449018055,
+      "minimum_abs_delta": 1.4998553450018055,
+      "worst_pattern": "0100",
+      "confusion_actual_by_predicted": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          15
+        ]
+      ],
+      "accepted": true
+    }
+  },
+  "csv_max_error": 0.0,
+  "direct_replay": {
+    "status": "passed",
+    "bundle": "C:\\EDA_Codex\\Lab06b\\delivery\\m1_handoff",
+    "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+    "loaded_model": "C:\\EDA_Codex\\Lab06b\\delivery\\m1_handoff\\model\\common\\handoff.py",
+    "files_verified": true,
+    "csv_max_error": 0.0,
+    "truth_passed": 80,
+    "truth_total": 80,
+    "summaries": {
+      "AND2": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 2.11537918265,
+        "minimum_clearance": 2.11537918255,
+        "minimum_abs_delta": 2.11537918265,
+        "worst_pattern": "1010",
+        "confusion_actual_by_predicted": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "accepted": true
+      },
+      "OR2": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 2.120502406246193,
+        "minimum_clearance": 2.120502406146193,
+        "minimum_abs_delta": 2.120502406246193,
+        "worst_pattern": "0100",
+        "confusion_actual_by_predicted": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "accepted": true
+      },
+      "XOR2": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 0.24999999999994915,
+        "minimum_clearance": 0.24999999989994914,
+        "minimum_abs_delta": 0.24999999999994915,
+        "worst_pattern": "1111",
+        "confusion_actual_by_predicted": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            8
+          ]
+        ],
+        "accepted": true
+      },
+      "AND4": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 1.496028200858654,
+        "minimum_clearance": 1.496028200758654,
+        "minimum_abs_delta": 1.496028200858654,
+        "worst_pattern": "1101",
+        "confusion_actual_by_predicted": [
+          [
+            15,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "accepted": true
+      },
+      "OR4": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 1.4998553450018055,
+        "minimum_clearance": 1.4998553449018055,
+        "minimum_abs_delta": 1.4998553450018055,
+        "worst_pattern": "0100",
+        "confusion_actual_by_predicted": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        "accepted": true
+      }
+    },
+    "example": {
+      "gate": "AND2",
+      "pattern": "1100",
+      "positive_power": 6.557689591325027,
+      "negative_power": 4.442310408674985,
+      "delta": 2.1153791826500417,
+      "bit": 1,
+      "expected": 1
+    }
+  },
+  "isolated_replay": {
+    "status": "passed",
+    "bundle": "C:\\EDA_Codex\\validation\\m1_s5_20261031_105638_360909",
+    "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+    "loaded_model": "C:\\EDA_Codex\\validation\\m1_s5_20261031_105638_360909\\model\\common\\handoff.py",
+    "files_verified": true,
+    "csv_max_error": 0.0,
+    "truth_passed": 80,
+    "truth_total": 80,
+    "summaries": {
+      "AND2": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 2.11537918265,
+        "minimum_clearance": 2.11537918255,
+        "minimum_abs_delta": 2.11537918265,
+        "worst_pattern": "1010",
+        "confusion_actual_by_predicted": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "accepted": true
+      },
+      "OR2": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 2.120502406246193,
+        "minimum_clearance": 2.120502406146193,
+        "minimum_abs_delta": 2.120502406246193,
+        "worst_pattern": "0100",
+        "confusion_actual_by_predicted": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "accepted": true
+      },
+      "XOR2": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 0.24999999999994915,
+        "minimum_clearance": 0.24999999989994914,
+        "minimum_abs_delta": 0.24999999999994915,
+        "worst_pattern": "1111",
+        "confusion_actual_by_predicted": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            8
+          ]
+        ],
+        "accepted": true
+      },
+      "AND4": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 1.496028200858654,
+        "minimum_clearance": 1.496028200758654,
+        "minimum_abs_delta": 1.496028200858654,
+        "worst_pattern": "1101",
+        "confusion_actual_by_predicted": [
+          [
+            15,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "accepted": true
+      },
+      "OR4": {
+        "total": 16,
+        "passed": 16,
+        "boundaries": 0,
+        "minimum_signed_margin": 1.4998553450018055,
+        "minimum_clearance": 1.4998553449018055,
+        "minimum_abs_delta": 1.4998553450018055,
+        "worst_pattern": "0100",
+        "confusion_actual_by_predicted": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        "accepted": true
+      }
+    },
+    "example": {
+      "gate": "XOR2",
+      "pattern": "1010",
+      "positive_power": 0.5000000000000261,
+      "negative_power": 0.25000000000000044,
+      "delta": 0.25000000000002565,
+      "bit": 1,
+      "expected": 1
+    }
+  },
+  "rejection_examples": [
+    {
+      "name": "phase_digest_change",
+      "rejected": true,
+      "reason": "manifest.sha256: file digest mismatch: phase_settings.json"
+    },
+    {
+      "name": "semantic_wrong_unit",
+      "rejected": true,
+      "reason": "units: expected rad / um / normalized"
+    },
+    {
+      "name": "csv_channel_mismatch",
+      "rejected": true,
+      "reason": "phase_channels.csv: CSV does not match specification"
+    },
+    {
+      "name": "wrong_spec_binding",
+      "rejected": true,
+      "reason": "phase.spec_sha256: phase settings belong to a different specification"
+    }
+  ],
+  "source_hashes": {
+    "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+    "work/common/handoff.py": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5",
+    "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+    "work/common/logic_validation.py": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f",
+    "work/m1_s5/run_handoff.py": "6dc580e9a7eb1031962569a80c768ec8d7c715e5f187d33ca38c6a1de5e9a7c7",
+    "work/m1_s5/package_tools.py": "eeb95c440d17de19257e7462e6bda178458c311fc5c919c1464de4aa5d654880",
+    "work/m1_s5/replay_handoff.py": "3821b8dac5fea945f1a841f260758b57e3d54f00e7b0a0171f32661d7b09bf95",
+    "work/m1_s5/test_handoff.py": "fb9017f5281eb57b4e991a74a1c53a20ee6ed61a48d7e75b19000cbe6e787e03",
+    "config/m1_s4_phase_programs.json": "a295abdcebb147e3af1570970b67896e937079032eece37cd1fd1e431694231a"
+  },
+  "core_passed": true,
+  "scope": "M1 logical core specification, named phase mapping and portable ideal replay; M2 PDK, geometry, optical packaging, heater/PAD calibration and physical verification remain pending."
+}

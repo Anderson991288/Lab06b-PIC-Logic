@@ -1,0 +1,9 @@
+{
+  "target": "C:\\EDA_Codex",
+  "physical_target": "C:\\EDA_Codex",
+  "independent_directory": true,
+  "files": 495,
+  "bytes": 64393541,
+  "action": "add independent physical files; never alter source materials or other project roots",
+  "conflicts": []
+}

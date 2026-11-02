@@ -1,0 +1,25 @@
+﻿prepared C:\EDA_Claude\work\m3_s1\out\rebuild 12 archived Meep files
+M0 s2  m0_s2/collect_reference.py       rc=0     0.3s 
+M0 s2  m0_s2/waveguide_modes.py         rc=0   245.5s 
+M0 s2  m0_s2/export_mmi.py              rc=0     1.5s 
+M0 s2  m0_s2/analyze_fields.py          rc=0     3.3s 
+M0 s3  m0_s3/run_tests.py               rc=0     1.1s 
+M1 s1  m1_s1/encode_logic.py            rc=0     1.6s 
+M1 s2  m1_s2/collect_reference.py       rc=0     0.2s 
+M1 s2  m1_s2/build_b7.py                rc=0     1.1s 
+M1 s3  m1_s3/readout_calc.py            rc=0     1.2s 
+M1 s4  m1_s4/collect_phases.py          rc=0     0.2s 
+M1 s4  m1_s4/logic_gates.py             rc=0    49.6s 
+M1 s5  m1_s5/make_spec.py               rc=0     0.7s 
+M1 s5  m1_s5/check_spec.py              rc=0     0.3s 
+M2 s1  m2_s1/pic_boundary.py            rc=0     5.3s 
+M2 s2  m2_s2/simulate.py                rc=0    22.9s 
+M2 s3  m2_s3/build_layout.py            rc=0    25.6s 
+M2 s4  m2_s4/review_layout.py           rc=0     1.8s 
+M2 s5  m2_s5/build_chip.py              rc=0    22.9s 
+M2 s6  m2_s6/verify_chip.py             rc=0     9.4s 
+M2 s7  m2_s7/package.py                 rc=0     5.8s 
+compare {'identical': 70, 'different': 3, 'equivalent': 53} [('course/figures/m2_s2/arm_mismatch.png', '像素不同'), ('work/m2_s3/out/b7_core_wrong_rail_drc.lyrdb', '文字不同'), ('work/m2_s7/out/PIC_delivery/manifest.json', '/files[18]/size（4755 vs 4782）；/files[19]/size（16022 vs 16016）；/files[44]/size（6392 vs 6391）')]
+key {'phase_sha_same': True, 'truth_rows': 80, 'truth_max_dp_diff': 0.0, 'truth_bits_same': True, 'chip_rows_ok': 80, 'chip_all_wl': True, 'gds_same': True, 'signoff_ok': True, 'delivery_ok': True, 'new_gds_sha': '0c3a581b9ac77c8547584ca2117271873fdbc2c8928facba82ac20d6da2c6279', 'n_eff': 2.35320532602548, 'n_g': 4.146745052102531}
+tamper {'phase_file': {'stopped': True, 'message': 'AssertionError: 相位檔與規格的 SHA-256 不符'}, 'comparator': {'found': ['/rows[37]/delta（0.25000000000002465 vs 0.2500010000000246）']}}
+all_ok False total 402.7 s

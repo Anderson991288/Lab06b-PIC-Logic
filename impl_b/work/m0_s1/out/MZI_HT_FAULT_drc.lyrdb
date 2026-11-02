@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC_SOI</description>
+ <original-file/>
+ <generator>drc: script='C:\\EDA_Codex\\Lab06b\\work\\common\\drc\\cornerstone_Si220_passive.lydrc'</generator>
+ <top-cell>MZI_HT_FAULT</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>39/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>41/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>100/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>3/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>99/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Correct design area violation</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size vilation (GDS60&lt;60 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS60 short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS60&lt;60nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS60 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 350nm and short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS6 &lt; 250 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS6 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS39</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS41</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS3&lt; 350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS3&lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS4&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS4&lt;350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS5&lt; 250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS5&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS39&lt;600nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS39&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS41&lt;2micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS41&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>MZI_HT_FAULT</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'Correct design area violation'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-58,-145;-58,205;522,205;522,-145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (200,-100.55;190,-100.55)|(190,-100.25;200,-100.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum gap violation (GDS3&lt;200nm)'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (350,-100.05;360,-100.05)|(360,-99.9;350,-99.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violate (GDS39&lt;600nm)'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (20,-100.55;0,-100.55)|(0,-100.05;20,-100.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum gap violate (GDS39&lt;10micro)'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (260,-98.55;290,-98.55)|(290,-93.55;260,-93.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violate (GDS41&lt;2micro)'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (440,-100.55;420,-100.55)|(420,-99.05;440,-99.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum gap violate (GDS41&lt;10micro)'</category>
+   <cell>MZI_HT_FAULT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (106,-100.55;106,-80.55)|(100,-80.55;100,-100.55)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

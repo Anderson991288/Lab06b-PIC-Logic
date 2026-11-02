@@ -1,0 +1,23 @@
+[
+  {
+    "name": "shifted_port",
+    "detected": true,
+    "failed_checks": [
+      "ten_port_covers"
+    ]
+  },
+  {
+    "name": "shifted_mzi",
+    "detected": true,
+    "failed_checks": [
+      "mzi_placements_match"
+    ]
+  },
+  {
+    "name": "shifted_joint",
+    "detected": true,
+    "failed_checks": [
+      "all_joint_corridors_covered"
+    ]
+  }
+]

@@ -1,0 +1,329 @@
+Reading C:\EDA_Codex\Lab06b\work\m2_s6\out\after\b7_ec_pad.gds ..
+"polygons" in: cornerstone_Si220_passive.lydrc:49
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 352.00M
+"input" in: cornerstone_Si220_passive.lydrc:50
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 352.00M
+"polygons" in: cornerstone_Si220_passive.lydrc:51
+    Polygons (raw): 148 (flat)  38 (hierarchical)
+    Elapsed: 0.002s  Memory: 352.00M
+"input" in: cornerstone_Si220_passive.lydrc:52
+    Polygons (raw): 10 (flat)  1 (hierarchical)
+    Elapsed: 0.001s  Memory: 352.00M
+"input" in: cornerstone_Si220_passive.lydrc:53
+    Polygons (raw): 10 (flat)  1 (hierarchical)
+    Elapsed: 0.001s  Memory: 352.00M
+"input" in: cornerstone_Si220_passive.lydrc:54
+    Polygons (raw): 42 (flat)  6 (hierarchical)
+    Elapsed: 0.000s  Memory: 353.00M
+"input" in: cornerstone_Si220_passive.lydrc:55
+    Polygons (raw): 109 (flat)  85 (hierarchical)
+    Elapsed: 0.000s  Memory: 353.00M
+"input" in: cornerstone_Si220_passive.lydrc:56
+    Polygons (raw): 301 (flat)  103 (hierarchical)
+    Elapsed: 0.002s  Memory: 353.00M
+"input" in: cornerstone_Si220_passive.lydrc:57
+    Polygons (raw): 2 (flat)  2 (hierarchical)
+    Elapsed: 0.001s  Memory: 353.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 148 (flat)  38 (hierarchical)
+    Elapsed: 0.002s  Memory: 353.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.030s  Memory: 355.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 355.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 301 (flat)  103 (hierarchical)
+    Elapsed: 0.001s  Memory: 355.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 355.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 355.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 42 (flat)  6 (hierarchical)
+    Elapsed: 0.000s  Memory: 355.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 355.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 355.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 109 (flat)  85 (hierarchical)
+    Elapsed: 0.000s  Memory: 355.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.003s  Memory: 355.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 355.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 10 (flat)  1 (hierarchical)
+    Elapsed: 0.001s  Memory: 355.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 355.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 355.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 10 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 355.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 356.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 2 (flat)  2 (hierarchical)
+    Elapsed: 0.000s  Memory: 356.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 356.00M
+"input" in: cornerstone_Si220_passive.lydrc:61
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+"ongrid" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+"output" in: cornerstone_Si220_passive.lydrc:61
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:62
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+"output" in: cornerstone_Si220_passive.lydrc:62
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 356.00M
+DRC section
+"width" in: cornerstone_Si220_passive.lydrc:95
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 357.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:95
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"output" in: cornerstone_Si220_passive.lydrc:95
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 357.00M
+"width" in: cornerstone_Si220_passive.lydrc:68
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 357.00M
+"polygons" in: cornerstone_Si220_passive.lydrc:68
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"with_area" in: cornerstone_Si220_passive.lydrc:68
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"width" in: cornerstone_Si220_passive.lydrc:69
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"polygons" in: cornerstone_Si220_passive.lydrc:69
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"with_perimeter" in: cornerstone_Si220_passive.lydrc:69
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"or" in: cornerstone_Si220_passive.lydrc:70
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 357.00M
+"output" in: cornerstone_Si220_passive.lydrc:97
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 358.00M
+"space" in: cornerstone_Si220_passive.lydrc:98
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 358.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:98
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 358.00M
+"output" in: cornerstone_Si220_passive.lydrc:98
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 358.00M
+"sized" in: cornerstone_Si220_passive.lydrc:99
+    Polygons (raw): 1670 (flat)  948 (hierarchical)
+    Elapsed: 0.026s  Memory: 358.00M
+"inside" in: cornerstone_Si220_passive.lydrc:99
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 358.00M
+"output" in: cornerstone_Si220_passive.lydrc:99
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 358.00M
+"width" in: cornerstone_Si220_passive.lydrc:102
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 358.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:102
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 358.00M
+"output" in: cornerstone_Si220_passive.lydrc:102
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 358.00M
+"space" in: cornerstone_Si220_passive.lydrc:74
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 359.00M
+"polygons" in: cornerstone_Si220_passive.lydrc:74
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 359.00M
+"with_area" in: cornerstone_Si220_passive.lydrc:74
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 359.00M
+"space" in: cornerstone_Si220_passive.lydrc:75
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 359.00M
+"polygons" in: cornerstone_Si220_passive.lydrc:75
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 359.00M
+"with_perimeter" in: cornerstone_Si220_passive.lydrc:75
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 359.00M
+"&" in: cornerstone_Si220_passive.lydrc:76
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 359.00M
+"output" in: cornerstone_Si220_passive.lydrc:104
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 359.00M
+"space" in: cornerstone_Si220_passive.lydrc:105
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 359.00M
+"output" in: cornerstone_Si220_passive.lydrc:105
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 359.00M
+"not_outside" in: cornerstone_Si220_passive.lydrc:106
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 359.00M
+"sized" in: cornerstone_Si220_passive.lydrc:106
+    Polygons (raw): 1670 (flat)  948 (hierarchical)
+    Elapsed: 0.016s  Memory: 360.00M
+"inside" in: cornerstone_Si220_passive.lydrc:106
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 360.00M
+"output" in: cornerstone_Si220_passive.lydrc:106
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 360.00M
+"overlapping" in: cornerstone_Si220_passive.lydrc:107
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 360.00M
+"output" in: cornerstone_Si220_passive.lydrc:107
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 360.00M
+"overlapping" in: cornerstone_Si220_passive.lydrc:108
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 360.00M
+"output" in: cornerstone_Si220_passive.lydrc:108
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 360.00M
+"width" in: cornerstone_Si220_passive.lydrc:112
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.004s  Memory: 360.00M
+"output" in: cornerstone_Si220_passive.lydrc:112
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 360.00M
+"space" in: cornerstone_Si220_passive.lydrc:113
+    Edge pairs: 314 (flat)  77 (hierarchical)
+    Elapsed: 0.017s  Memory: 361.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:113
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 361.00M
+"output" in: cornerstone_Si220_passive.lydrc:113
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 362.00M
+"width" in: cornerstone_Si220_passive.lydrc:117
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 362.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:117
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 362.00M
+"output" in: cornerstone_Si220_passive.lydrc:117
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 362.00M
+"space" in: cornerstone_Si220_passive.lydrc:118
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.004s  Memory: 362.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:118
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 362.00M
+"output" in: cornerstone_Si220_passive.lydrc:118
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 362.00M
+"width" in: cornerstone_Si220_passive.lydrc:121
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 362.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:121
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 362.00M
+"output" in: cornerstone_Si220_passive.lydrc:121
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 362.00M
+"space" in: cornerstone_Si220_passive.lydrc:122
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.004s  Memory: 363.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:122
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 363.00M
+"output" in: cornerstone_Si220_passive.lydrc:122
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 363.00M
+"width" in: cornerstone_Si220_passive.lydrc:125
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 363.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:125
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 363.00M
+"output" in: cornerstone_Si220_passive.lydrc:125
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 363.00M
+"space" in: cornerstone_Si220_passive.lydrc:126
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.004s  Memory: 363.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:126
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 363.00M
+"output" in: cornerstone_Si220_passive.lydrc:126
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 363.00M
+"width" in: cornerstone_Si220_passive.lydrc:129
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.002s  Memory: 363.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:129
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 364.00M
+"output" in: cornerstone_Si220_passive.lydrc:129
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 364.00M
+"space" in: cornerstone_Si220_passive.lydrc:130
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.007s  Memory: 364.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:130
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 364.00M
+"output" in: cornerstone_Si220_passive.lydrc:130
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 364.00M
+"width" in: cornerstone_Si220_passive.lydrc:133
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.006s  Memory: 364.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:133
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 364.00M
+"output" in: cornerstone_Si220_passive.lydrc:133
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 364.00M
+"space" in: cornerstone_Si220_passive.lydrc:134
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.008s  Memory: 364.00M
+"without_area" in: cornerstone_Si220_passive.lydrc:134
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 364.00M
+"output" in: cornerstone_Si220_passive.lydrc:134
+    Edge pairs: 0 (flat)  0 (hierarchical)
+    Elapsed: 0.001s  Memory: 365.00M
+Writing report database: C:/EDA_Codex/Lab06b/work/m2_s6/out/after/pre_drc.lyrdb ..
+Total elapsed: 0.414s  Memory: 365.00M
+

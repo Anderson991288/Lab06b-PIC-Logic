@@ -1,0 +1,17 @@
+test_adjacent_contact_gap (CoreLayoutTests.CoreLayoutTests.test_adjacent_contact_gap) ... ok
+test_bound_spec (CoreLayoutTests.CoreLayoutTests.test_bound_spec) ... ok
+test_empty_curved_span (CoreLayoutTests.CoreLayoutTests.test_empty_curved_span) ... ok
+test_finite_dimensions (CoreLayoutTests.CoreLayoutTests.test_finite_dimensions) ... ok
+test_grid_all_centerlines (CoreLayoutTests.CoreLayoutTests.test_grid_all_centerlines) ... ok
+test_local_arm_balance (CoreLayoutTests.CoreLayoutTests.test_local_arm_balance) ... ok
+test_local_port_alignment (CoreLayoutTests.CoreLayoutTests.test_local_port_alignment) ... ok
+test_lower_rails_and_direction (CoreLayoutTests.CoreLayoutTests.test_lower_rails_and_direction) ... ok
+test_phase_straight_reserves_contacts (CoreLayoutTests.CoreLayoutTests.test_phase_straight_reserves_contacts) ... ok
+test_sample_count (CoreLayoutTests.CoreLayoutTests.test_sample_count) ... ok
+test_unique_phase_endpoints (CoreLayoutTests.CoreLayoutTests.test_unique_phase_endpoints) ... ok
+test_upper_theta_region_inside_inter_mmi (CoreLayoutTests.CoreLayoutTests.test_upper_theta_region_inside_inter_mmi) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.005s
+
+OK

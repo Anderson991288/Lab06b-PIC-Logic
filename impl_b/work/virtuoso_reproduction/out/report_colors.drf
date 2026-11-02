@@ -1,0 +1,9 @@
+drDefineColor(
+(display rptBlue 47 111 181)
+(display rptGreen 57 153 75)
+(display rptOrange 231 138 34)
+(display rptYellow 245 219 130)
+(display rptPink 204 91 175)
+(display rptBrown 137 88 76)
+(display rptLabel 220 225 235)
+)

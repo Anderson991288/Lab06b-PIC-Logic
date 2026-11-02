@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "controls": [
+    {
+      "id": "timestamp_only",
+      "raw_sha_different": true,
+      "normalized_sha_equal": true,
+      "passed": true
+    },
+    {
+      "id": "actual_Si_geometry_change",
+      "XOR_polygons": 1,
+      "normalized_sha_different": true,
+      "passed": true
+    },
+    {
+      "id": "reuse_nonempty_target",
+      "rejected": true,
+      "reason": "Build target already exists; refuse stale output reuse",
+      "passed": true
+    },
+    {
+      "id": "missing_source_inventory",
+      "rejected": true,
+      "passed": true,
+      "scope": "Seed inventory audit; no licensed build launched"
+    }
+  ],
+  "seed_files_after_build": [
+    {
+      "build": "A",
+      "files": 33,
+      "unchanged": true
+    },
+    {
+      "build": "B",
+      "files": 33,
+      "unchanged": true
+    }
+  ],
+  "tests": {
+    "run": 10,
+    "passed": 10,
+    "successful": true
+  },
+  "source_hashes": {
+    "work/m3_s1/rebuild_support.py": "3667ac9fa7ba16884aa8bd791c435ab5d365349f60faa42b2a36073774ab61c4",
+    "work/m3_s1/test_rebuild_support.py": "53c66fe8f41154eaf199282247c27819244c147d7ff77e4131a89dc375ab75d8",
+    "work/m3_s1/run_acceptance_controls.py": "5f68f3e3e0933e77e0b869c587176dd46dc181973d9f845b419d19f6852c920f",
+    "work/m3_s1/make_geometry_fault.py": "f0e6a00258ec8fb3acd1ca35c1d9aaa51ecd04d36560b43871498a81945ca32e"
+  }
+}

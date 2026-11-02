@@ -1,0 +1,11 @@
+﻿id,direction,mode_index,alias,role,physical_interface
+in0,in,0,i1,x1,pending_M2
+in1,in,1,i2,x2,pending_M2
+in2,in,2,i3,x3,pending_M2
+in3,in,3,i4,x4,pending_M2
+in4,in,4,i5,R,pending_M2
+out0,out,0,o1,unread_output,pending_M2
+out1,out,1,o2,positive_readout,pending_M2
+out2,out,2,o3,unread_output,pending_M2
+out3,out,3,o4,negative_readout,pending_M2
+out4,out,4,o5,unread_output,pending_M2

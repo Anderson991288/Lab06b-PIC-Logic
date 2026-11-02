@@ -1,0 +1,15 @@
+﻿channel,heater,before_x_um,after_x_um,y_um,dx_um,A_x_um,B_x_um,external_pad
+phi1,H_M1_phi,61.0,61.0,0.0,0.0,5.5,116.5,pending_M2_S5
+theta1,H_M1_theta,305.5,313.5,0.0,8.0,258.0,369.0,pending_M2_S5
+phi2,H_M2_phi,61.0,61.0,-90.0,0.0,5.5,116.5,pending_M2_S5
+theta2,H_M2_theta,305.5,313.5,-90.0,8.0,258.0,369.0,pending_M2_S5
+phi3,H_M3_phi,550.0,566.0,-30.0,16.0,510.5,621.5,pending_M2_S5
+theta3,H_M3_theta,794.5,818.5,-30.0,24.0,763.0,874.0,pending_M2_S5
+phi4,H_M4_phi,1039.0,1071.0,0.0,32.0,1015.5,1126.5,pending_M2_S5
+theta4,H_M4_theta,1283.5,1323.5,0.0,40.0,1268.0,1379.0,pending_M2_S5
+phi5,H_M5_phi,1039.0,1071.0,-60.0,32.0,1015.5,1126.5,pending_M2_S5
+theta5,H_M5_theta,1283.5,1323.5,-60.0,40.0,1268.0,1379.0,pending_M2_S5
+phi6,H_M6_phi,1528.0,1576.0,-30.0,48.0,1520.5,1631.5,pending_M2_S5
+theta6,H_M6_theta,1772.5,1828.5,-30.0,56.0,1773.0,1884.0,pending_M2_S5
+phi7,H_M7_phi,1528.0,1576.0,-90.0,48.0,1520.5,1631.5,pending_M2_S5
+theta7,H_M7_theta,1772.5,1828.5,-90.0,56.0,1773.0,1884.0,pending_M2_S5

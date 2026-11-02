@@ -1,0 +1,6 @@
+Library=lab06b_crosscad_20261031
+Cell=lab06b_b7_ec_pad_chip
+View=layout
+BBox=((-920.0 -900.0) (2940.0 740.0))
+TopInstances=2
+CellCount=43

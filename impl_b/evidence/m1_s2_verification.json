@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-10-31T09:53:34.749196+08:00",
+  "root": "D:\\LAB\\Lab06b",
+  "step": "M1 S2",
+  "status": "passed",
+  "core_result": "work/m1_s2/out/b7_results.json",
+  "unit_tests": {
+    "run": 17,
+    "passed": 17,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    }
+  },
+  "model_checks": [
+    {
+      "name": "unitarity",
+      "passed": true
+    },
+    {
+      "name": "layer_product",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_replay",
+      "passed": true
+    },
+    {
+      "name": "five_basis_columns",
+      "passed": true
+    },
+    {
+      "name": "all_layer_powers",
+      "passed": true
+    },
+    {
+      "name": "directed_structural_zeros",
+      "passed": true
+    },
+    {
+      "name": "six_bypass_segments",
+      "passed": true
+    },
+    {
+      "name": "five_saved_complex_matrices",
+      "passed": true
+    },
+    {
+      "name": "loss_is_passive",
+      "passed": true
+    },
+    {
+      "name": "reverse_order_rejected",
+      "passed": true
+    },
+    {
+      "name": "omit_M3_rejected",
+      "passed": true
+    },
+    {
+      "name": "erase_bypass_rejected",
+      "passed": true
+    }
+  ],
+  "diagnostics": {
+    "unitarity_error": 1.7763568394002505e-15,
+    "layer_product_error": 0.0,
+    "independent_scalar_error": 4.742874840267547e-16,
+    "maximum_singular_value": 1.0000000000000009,
+    "structural_possible": [
+      [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "bypass_ports": [
+      [
+        2
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        4
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  "inherited_matrix_compatibility": [
+    {
+      "gate": "AND2",
+      "max_complex_error": 1.2412670766236366e-15,
+      "passed": true
+    },
+    {
+      "gate": "OR2",
+      "max_complex_error": 1.3911054626160788e-15,
+      "passed": true
+    },
+    {
+      "gate": "XOR2",
+      "max_complex_error": 1.1157603309187458e-15,
+      "passed": true
+    },
+    {
+      "gate": "AND4",
+      "max_complex_error": 9.155133597044475e-16,
+      "passed": true
+    },
+    {
+      "gate": "OR4",
+      "max_complex_error": 8.252325904466732e-16,
+      "passed": true
+    }
+  ],
+  "controlled_wiring_errors": [
+    {
+      "name": "reverse_order",
+      "unitarity_error": 1.7763568394002505e-15,
+      "reference_matrix_error": 1.1180339887498956,
+      "rejected": true
+    },
+    {
+      "name": "omit_M3",
+      "unitarity_error": 1.3322676295501878e-15,
+      "reference_matrix_error": 0.7905694150420955,
+      "rejected": true
+    },
+    {
+      "name": "erase_bypass",
+      "unitarity_error": 1.0,
+      "reference_matrix_error": 0.7905694150420955,
+      "rejected": true
+    }
+  ],
+  "local_html_files": 12,
+  "local_links": 567,
+  "interactive_cases": 105,
+  "worksheet_verified": true,
+  "source_C01_study_outline_unchanged": true,
+  "predecessor_shared_models_unchanged": true,
+  "source_hashes_verified": true,
+  "architecture_hash_verified": true,
+  "backup": "D:\\LAB\\Lab06b\\history\\before_m1_s2_20261031_095254",
+  "learner_submission": "pending",
+  "next_step": "M1 S3"
+}

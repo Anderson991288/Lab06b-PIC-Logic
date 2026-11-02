@@ -1,0 +1,17 @@
+﻿pad,center_x_um,center_y_um,side,role,mzi,phase,rail,heater_center_x_um,heater_center_y_um,tin_squares
+M1_phi,5.5,200.0,top,heater_signal,M1,phi,0,61.0,-0.0,111.11
+M1_theta,361.0,200.0,top,heater_signal,M1,theta,0,305.5,-0.0,111.11
+M2_phi,5.5,-320.0,bottom,heater_signal,M2,phi,3,61.0,-90.0,111.11
+M2_theta,361.0,-320.0,bottom,heater_signal,M2,theta,3,305.5,-90.0,111.11
+M3_phi,494.5,200.0,top,heater_signal,M3,phi,1,550.0,-30.0,111.11
+M3_theta,850.0,200.0,top,heater_signal,M3,theta,1,794.5,-30.0,111.11
+M4_phi,983.5,200.0,top,heater_signal,M4,phi,0,1039.0,-0.0,111.11
+M4_theta,1339.0,200.0,top,heater_signal,M4,theta,0,1283.5,-0.0,111.11
+M5_phi,983.5,-320.0,bottom,heater_signal,M5,phi,2,1039.0,-60.0,111.11
+M5_theta,1339.0,-320.0,bottom,heater_signal,M5,theta,2,1283.5,-60.0,111.11
+M6_phi,1472.5,200.0,top,heater_signal,M6,phi,1,1528.0,-30.0,111.11
+M6_theta,1828.0,200.0,top,heater_signal,M6,theta,1,1772.5,-30.0,111.11
+M7_phi,1472.5,-320.0,bottom,heater_signal,M7,phi,3,1528.0,-90.0,111.11
+M7_theta,1828.0,-320.0,bottom,heater_signal,M7,theta,3,1772.5,-90.0,111.11
+GND_T,916.75,340.0,top,return,,,,,,
+GND_B,916.75,-460.0,bottom,return,,,,,,

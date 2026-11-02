@@ -1,0 +1,8 @@
+﻿MZI,layer,upper_mode,lower_mode,theta_index,phi_index
+M1,0,0,1,0,0
+M2,0,3,4,1,1
+M3,1,1,2,2,2
+M4,2,0,1,3,3
+M5,2,2,3,4,4
+M6,3,1,2,5,5
+M7,3,3,4,6,6

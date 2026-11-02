@@ -1,0 +1,70 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sat Oct 31 16:45:53 2026
+Calibre Version:           v2026.1_17.11    Mon Jan 5 16:59:16 PST 2026
+Rule File Pathname:        /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/_cornerstone_basic_draft.svrf_
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            lab06b_b7_ec_pad_chip.calibre.db
+Layout Primary Cell:       lab06b_b7_ec_pad_chip
+Current Directory:         /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto
+User Name:                 edauser
+Maximum Results/RuleCheck: ALL
+Maximum Result Vertices:   4096
+DRC Results Database:      drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER CS60 .... TOTAL Original Geometry Count = 0  (0)
+LAYER CS6 ..... TOTAL Original Geometry Count = 0  (0)
+LAYER CS3 ..... TOTAL Original Geometry Count = 92 (188)
+LAYER CS4 ..... TOTAL Original Geometry Count = 10 (10)
+LAYER CS5 ..... TOTAL Original Geometry Count = 10 (10)
+LAYER CS39 .... TOTAL Original Geometry Count = 6  (42)
+LAYER CS41 .... TOTAL Original Geometry Count = 85 (109)
+LAYER CS100 ... TOTAL Original Geometry Count = 57 (105)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK CS60_WIDTH .... TOTAL Result Count = 0 (0)
+RULECHECK CS60_SPACE .... TOTAL Result Count = 0 (0)
+RULECHECK CS6_WIDTH ..... TOTAL Result Count = 0 (0)
+RULECHECK CS6_SPACE ..... TOTAL Result Count = 0 (0)
+RULECHECK CS3_WIDTH ..... TOTAL Result Count = 0 (0)
+RULECHECK CS3_SPACE ..... TOTAL Result Count = 0 (0)
+RULECHECK CS4_WIDTH ..... TOTAL Result Count = 0 (0)
+RULECHECK CS4_SPACE ..... TOTAL Result Count = 0 (0)
+RULECHECK CS5_WIDTH ..... TOTAL Result Count = 0 (0)
+RULECHECK CS5_SPACE ..... TOTAL Result Count = 0 (0)
+RULECHECK CS39_WIDTH .... TOTAL Result Count = 0 (0)
+RULECHECK CS39_SPACE .... TOTAL Result Count = 0 (0)
+RULECHECK CS41_WIDTH .... TOTAL Result Count = 0 (0)
+RULECHECK CS41_SPACE .... TOTAL Result Count = 0 (0)
+RULECHECK CS100_WIDTH ... TOTAL Result Count = 0 (0)
+RULECHECK CS100_SPACE ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 1
+TOTAL Original Layer Geometries: 260 (464)
+TOTAL DRC RuleChecks Executed:   16
+TOTAL DRC Results Generated:     0 (0)

@@ -1,0 +1,604 @@
+{
+  "timestamp": "2026-10-31T11:52:49.076078+08:00",
+  "step": "M2 S3",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "counts": {
+    "mzi": 7,
+    "pdk_mmi": 14,
+    "heater": 14,
+    "local_metal_contacts": 28,
+    "bypass": 6,
+    "leads": 10,
+    "optical_ports": 10
+  },
+  "dimensions": {
+    "optical_span_um": [
+      2076.0,
+      120.0
+    ],
+    "design_frame_um": [
+      2200.0,
+      220.0
+    ],
+    "column_um": 489.0
+  },
+  "unit_summary": {
+    "waveguide_upper_um": 345.1329183700088,
+    "waveguide_lower_um": 345.1329183700088,
+    "inter_mmi_upper_um": 172.5664591850044,
+    "inter_mmi_lower_um": 172.5664591850044,
+    "max_join_error_um": 3.552713678800501e-15,
+    "continuous_s_bend_min_radius_um": 5.230882702164311
+  },
+  "gds_files": {
+    "b7_core.gds": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+    "mzi_core.gds": "3125ffd7d0b5642f97f775d4434325ba8a1c009470faa5f5bad7f3ef8536a1d1"
+  },
+  "independent_GDS_readback": {
+    "engine": "KLayout independent GDS readback",
+    "version": "KLayout 0.30.12",
+    "gds": "C:\\EDA_Codex\\Lab06b\\work\\m2_s3\\out\\b7_core.gds",
+    "gds_sha256": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+    "top_cell": "LAB06B_B7_CORE",
+    "dbu_um": 0.001,
+    "cell_count": 30,
+    "actual_mzi_instances": 7,
+    "mmi_instances_per_mzi": 2,
+    "actual_pdk_mmi_occurrences": 14,
+    "actual_heater_regions": 14,
+    "actual_local_metal_regions": 28,
+    "silicon_connected_regions": 1,
+    "geometry_outside_frame": 0,
+    "ports": [
+      {
+        "port": "in0",
+        "covered": true
+      },
+      {
+        "port": "in1",
+        "covered": true
+      },
+      {
+        "port": "in2",
+        "covered": true
+      },
+      {
+        "port": "in3",
+        "covered": true
+      },
+      {
+        "port": "in4",
+        "covered": true
+      },
+      {
+        "port": "out0",
+        "covered": true
+      },
+      {
+        "port": "out1",
+        "covered": true
+      },
+      {
+        "port": "out2",
+        "covered": true
+      },
+      {
+        "port": "out3",
+        "covered": true
+      },
+      {
+        "port": "out4",
+        "covered": true
+      }
+    ],
+    "joints": [
+      {
+        "id": "M1:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M1:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M2:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M3:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M4:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M5:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M6:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI1:in2",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI1:out2",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI1:in1",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI1:out1",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI2:in2",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI2:out2",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI2:in1",
+        "covered": true
+      },
+      {
+        "id": "M7:MMI2:out1",
+        "covered": true
+      },
+      {
+        "id": "lead_in0",
+        "covered": true
+      },
+      {
+        "id": "lead_out0",
+        "covered": true
+      },
+      {
+        "id": "lead_in1",
+        "covered": true
+      },
+      {
+        "id": "lead_out1",
+        "covered": true
+      },
+      {
+        "id": "lead_in2",
+        "covered": true
+      },
+      {
+        "id": "lead_out2",
+        "covered": true
+      },
+      {
+        "id": "lead_in3",
+        "covered": true
+      },
+      {
+        "id": "lead_out3",
+        "covered": true
+      },
+      {
+        "id": "lead_in4",
+        "covered": true
+      },
+      {
+        "id": "lead_out4",
+        "covered": true
+      },
+      {
+        "id": "column1_rail0",
+        "covered": true
+      },
+      {
+        "id": "column1_rail1",
+        "covered": true
+      },
+      {
+        "id": "column1_rail2",
+        "covered": true
+      },
+      {
+        "id": "column1_rail3",
+        "covered": true
+      },
+      {
+        "id": "column1_rail4",
+        "covered": true
+      },
+      {
+        "id": "column2_rail0",
+        "covered": true
+      },
+      {
+        "id": "column2_rail1",
+        "covered": true
+      },
+      {
+        "id": "column2_rail2",
+        "covered": true
+      },
+      {
+        "id": "column2_rail3",
+        "covered": true
+      },
+      {
+        "id": "column2_rail4",
+        "covered": true
+      },
+      {
+        "id": "column3_rail0",
+        "covered": true
+      },
+      {
+        "id": "column3_rail1",
+        "covered": true
+      },
+      {
+        "id": "column3_rail2",
+        "covered": true
+      },
+      {
+        "id": "column3_rail3",
+        "covered": true
+      },
+      {
+        "id": "column3_rail4",
+        "covered": true
+      }
+    ],
+    "checks": [
+      {
+        "name": "top_cell",
+        "passed": true
+      },
+      {
+        "name": "one_nm_dbu",
+        "passed": true
+      },
+      {
+        "name": "seven_actual_mzi_refs",
+        "passed": true
+      },
+      {
+        "name": "two_mmis_per_unit",
+        "passed": true
+      },
+      {
+        "name": "mzi_placements_match",
+        "passed": true
+      },
+      {
+        "name": "six_actual_bypasses",
+        "passed": true
+      },
+      {
+        "name": "ten_actual_leads",
+        "passed": true
+      },
+      {
+        "name": "fourteen_heater_regions",
+        "passed": true
+      },
+      {
+        "name": "twentyeight_local_contacts",
+        "passed": true
+      },
+      {
+        "name": "ten_port_covers",
+        "passed": true
+      },
+      {
+        "name": "all_joint_corridors_covered",
+        "passed": true
+      },
+      {
+        "name": "inside_declared_frame",
+        "passed": true
+      },
+      {
+        "name": "frame_matches_declaration",
+        "passed": true
+      },
+      {
+        "name": "single_mzi_preview_geometry",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "scope": "Counts, placements and local geometry coverage only; not LVS, foundry DRC, global optical topology extraction or phase replay."
+  },
+  "unit_tests": {
+    "run": 12,
+    "passed": 12,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "independent_GDS_readback",
+      "passed": true
+    },
+    {
+      "name": "phase_channels_match_M1",
+      "passed": true
+    },
+    {
+      "name": "MMI_join_error",
+      "passed": true
+    },
+    {
+      "name": "balanced_local_waveguides",
+      "passed": true
+    },
+    {
+      "name": "continuous_bend_radius",
+      "passed": true
+    },
+    {
+      "name": "measured_path_counts",
+      "passed": true
+    },
+    {
+      "name": "CSV_round_trip",
+      "passed": true
+    },
+    {
+      "name": "three_bad_coordinate_copies_detected",
+      "passed": true
+    },
+    {
+      "name": "M1_sources_and_zip_unchanged",
+      "passed": true
+    },
+    {
+      "name": "M2S2_sources_unchanged",
+      "passed": true
+    },
+    {
+      "name": "M1_baseline_replay_80",
+      "passed": true
+    },
+    {
+      "name": "physical_calibration_pending",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "config/m2_core_layout.json": "fdad5e9ceab59d808a02e9171fc9d9a188e0f325ee7fa127d689e7cda8ef9c59",
+    "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+    "work/m2_s3/build_core.py": "27177e52ad77d0e64ef38179dd4770ddca696e6ce20ab909656ccd0a909af64f",
+    "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+    "work/m2_s3/test_core_layout.py": "f6ee53b85337d472d02252ef4b50f8e4828325e2c63339ba52ad0c3bd1532c09",
+    "scripts/run_m2_s3.ps1": "3eb4447fbe61d4437ff60004dc186f38894fb5e9db203e1e742433934bcb2cdf",
+    "scripts/render_m2_s3.py": "488b37062b2b5dd3d5a12e2f28fc020190b3a6b8e9bad5be656f535526cbbf2c",
+    "scripts/render_course.py": "f6a1823a3ddb9837bebf6dc90ba21d40ae91e1b4e75c735a90c5a8e061d01748",
+    "work/m2_s3/plot_layout.py": "05d39004a28a5cd3115d77eb9d2257982a5bb9e016266f584aa7150ba8023959",
+    "work/m2_s3/browser_qa.cjs": "b19cc7c5ccdd888cbbce297e17c74446402610a5096798db422a8977854a57b5"
+  },
+  "source_hashes_verified": true,
+  "M1_source_files_and_zip_unchanged": true,
+  "M2S2_files_verified_unchanged": 25,
+  "M1_baseline_replay_passed": 80,
+  "html_files": 18,
+  "local_links": 837,
+  "browser_phase_coordinate_cases": 70,
+  "learner_worksheet_verified": true,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s3_20261031_114138",
+  "learner_submission": "pending",
+  "scope": "Initial physical B7 core, actual PDK MMI geometry, custom local heaters and contacts. Scoped independent KLayout readback; no foundry DRC/LVS, EC, probe PADs, return routing, thermal calibration or layout-extracted truth replay. M1 replay is baseline only.",
+  "next_step": "M2 S4"
+}

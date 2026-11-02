@@ -1,0 +1,46 @@
+//  Calibre v2026.1_17.11    Mon Jan 5 16:59:17 PST 2026
+//  Calibre Utility Library   v0-10_13-2017-1    Fri Sep 19 09:11:48 PDT 2025
+//  Litho Libraries v2026.1_17.11  Mon Jan 5 16:59:17 PST 2026
+//
+//                   Copyright Siemens 1996-2026
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//          WHICH IS THE PROPERTY OF SIEMENS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Siemens software executing under x86-64 Linux
+//
+//  Running on 1 CPU 
+//
+//
+Usage: calibre [ -cb ] [ -nowait | -wait n ] -rve 
+ [ { [ -lvs ] || -perc || -pex <svdb_directory> [ <layout_primary> ]
+     || -drc <drc_error_database...>
+     || -drc { <drc_error_database...> || -input <db_to_layout_map_file> }
+        -report <report.ini> -outputdir <output_dir> [ -summaryfile <drc_summary_rpt> ] [ -display <display> ]
+     || -drc <drc_error_database...> -createcto [-ctotype CD] -rules <rule_file>
+         [-layermap <layer_map_file>] [-category [group][,layer]] [-comments] [-noshowlayers|-reduceshowlayers]
+         [-output <output_cto_file> | -outputdir <output_directory_for_cto> [-warnOverwrite] ]
+     || -drc <drc_error_database> -output_csv <csv_output_file> [ -write_check_text ] [ -write_top_coords ] [ -calculate_properties ]
+          [ -classify_shapes ] [ -include_cols <column list> | -exclude_cols <column list> ]
+     || -drc <drc_error_database> -output_file <output_file [ -checks <checks> ]
+         [ -cell <cell> ] [ -check_map_file <mapping_file ] [ -precision <precision> ] [ -offset <offset> ]
+         [ -side_rdb <YES|NO> ] [-min_feature <min_feature_size> ]
+     || -drc <drc_error_database> -filter <batch filter specifications> -output <output_file> ... 
+     || -drc <drc_error_database> -combine <batch combine specifications> -output <output_file> ... 
+     || -drc <drc_error_database> -sync_waiver
+     || -dfm <dfmdb_directory> [ -cmp ] [ -report <report.ini> -outputdir <output_dir> [ -display <display> ]]
+     || -dfm <dfmdb_directory> [ -cmp ] [ -rdb <rdbFile...> ]
+     || -lvs <svdb_directory> [ <layout_primary> ]  -rdb <rdbFile...> 
+     || -pex <svdb_directory> [ <layout_primary> ]  -rdb <rdbFile...> 
+     || -perc <svdb_directory> [ <layout_primary> ] -rdb <rdbFile...> 
+     || -perc <svdb_directory> [ <layout_primary> ] [-output_csv <csv_output_file> [-info_results] [-include_cols <column list> | -exclude_cols <column list>]]
+     || -perc <svdb_directory> -input <db_to_layout_map_file> }
+        -report <report.ini> -outputdir <output_dir> [ -display <display> ]
+     || -spice <spice_file> [-top <topcell>] [-script <tcl_script>]
+     || -help
+   } ] [ -turbo [ <number_of_processors> ] ] [ -win_title <main_window_title> ]
+

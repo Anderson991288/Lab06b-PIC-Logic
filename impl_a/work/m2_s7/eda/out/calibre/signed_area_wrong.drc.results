@@ -1,0 +1,94 @@
+B7_CHIP 1000
+GRID_3
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+3/0 grid violations
+GRID_4
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+4/0 grid violations
+GRID_5
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+5/0 grid violations
+GRID_39
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+39/0 grid violations
+GRID_41
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+41/0 grid violations
+GRID_99
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+99/0 grid violations
+GRID_100
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+100/0 grid violations
+AREA_99
+1 1 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Correct design area violation
+p 1 4
+-1120000 -650000
+2756000 -650000
+2756000 550000
+-1120000 550000
+W_3
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum feature size violation (GDS3< 350nm)
+S_3
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum gap violation (GDS3<200nm)
+W_4
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum feature size violation (GDS4< 200nm)
+S_4
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum gap violation (GDS4<350nm)
+W_5
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum feature size violation (GDS5< 250nm)
+S_5
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum gap violation (GDS5<250nm)
+W_39
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum feature size violate (GDS39<600nm)
+S_39
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum gap violate (GDS39<10micro)
+W_41
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum feature size violate (GDS41<2micro)
+S_41
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum gap violate (GDS41<10micro)
+W_100
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum feature size violate (GDS100<250nm)
+S_100
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+Minimum gap violate (GDS100<250nm)
+USED_6
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+GDS6 present (its rules are not translated)
+USED_60
+0 0 2 Oct 31 23:59:48 2026                     
+Rule File Pathname: signed_area_wrong.runset
+GDS60 present (its rules are not translated)

@@ -1,0 +1,378 @@
+[
+  {
+    "build": "A",
+    "target": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A",
+    "raw_sha256": "d4e21e3eea8676866712f66728daa8391919efb9eced241f8d707b7838b91391",
+    "raw_sha_identical": false,
+    "normalized": {
+      "sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+      "date_records": 44,
+      "policy": "Only BGNLIB/BGNSTR date payloads normalized to 2000-01-01; all other bytes retained"
+    },
+    "reference_normalized": {
+      "sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+      "date_records": 44,
+      "policy": "Only BGNLIB/BGNSTR date payloads normalized to 2000-01-01; all other bytes retained"
+    },
+    "geometry": {
+      "reference_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "rebuilt_sha256": "d4e21e3eea8676866712f66728daa8391919efb9eced241f8d707b7838b91391",
+      "dbu_um": 0.001,
+      "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+      "layers": [
+        {
+          "layer": 3,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 4,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 5,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 39,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 41,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 99,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 100,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 1002,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "tables": [
+      {
+        "file": "pad_heater_map.csv",
+        "sha256": "50d9da3a13de8e5b7a68cc1148f0d17aec9c99f39b7b4fc141f24785a9ea58d2",
+        "identical": true
+      },
+      {
+        "file": "optical_io.csv",
+        "sha256": "5585124b8be0c268da467b288cb8aa4b890c5ec15f726d18c10a54539449d39e",
+        "identical": true
+      },
+      {
+        "file": "ground_pads.csv",
+        "sha256": "0410fd9b21776131d6a6133f1b81e3910778a9dca1701d9f22adb936d5a35268",
+        "identical": true
+      }
+    ],
+    "pre_DRC_before": 2,
+    "pre_DRC_after": 0,
+    "pre_DRC_categories": 31,
+    "metal_nets": 15,
+    "optical_connections": 33,
+    "replay_counts": {
+      "ideal_baseline": 80,
+      "length_original": 53,
+      "length_compensated": 80,
+      "loss_original": 53,
+      "loss_compensated": 80
+    },
+    "max_abs_numeric_error": 0.0,
+    "candidate_max_abs_rad_error": 0.0,
+    "model_tests": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "checks": [
+      {
+        "name": "zero_generated_seed",
+        "passed": true
+      },
+      {
+        "name": "independent_staged_common",
+        "passed": true
+      },
+      {
+        "name": "core_readback",
+        "passed": true
+      },
+      {
+        "name": "core_geometry_sidecar_exact",
+        "passed": true
+      },
+      {
+        "name": "all_layer_XOR_and_text",
+        "passed": true
+      },
+      {
+        "name": "timestamp_only_normalized_sha_exact",
+        "passed": true
+      },
+      {
+        "name": "three_interface_csv_exact",
+        "passed": true
+      },
+      {
+        "name": "original_pre_DRC_2_to_0",
+        "passed": true
+      },
+      {
+        "name": "geometric_netlist",
+        "passed": true
+      },
+      {
+        "name": "68_paths_and_33_assignments_exact",
+        "passed": true
+      },
+      {
+        "name": "400_case_comparison",
+        "passed": true
+      },
+      {
+        "name": "candidate_radians_exact",
+        "passed": true
+      },
+      {
+        "name": "12_model_tests",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "seconds": 111.812,
+    "runtime": {
+      "python": "3.14.3 | packaged by conda-forge | (main, Feb  9 2026, 21:56:48) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "numpy": "2.3.5",
+      "cornerstone_version": "2.6.luceda1",
+      "ipkiss_version": "2026.03.3",
+      "common_module": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\common\\core_layout.py",
+      "build_root": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A",
+      "baseline_passed": 80,
+      "external_module_sources": {
+        "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\cornerstone_components220.py": "48890a56d3a56da86097ccc1e8ce7d51e45f9c4ff4cf3bab4cb266c872ac88dc",
+        "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\waveguides\\strip.py": "8d85d6638d096fbd3db24ad689c17abcf410f45889192714767f66356fb839f4",
+        "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\__init__.py": "5c7159293843c6d68e0240f86327d1949991c1ee7e80796af96fe1153ae84b21"
+      }
+    }
+  },
+  {
+    "build": "B",
+    "target": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B",
+    "raw_sha256": "81d50696363f59af0614033b31f74c8df486f576288dbc94c2e5932c30f565c4",
+    "raw_sha_identical": false,
+    "normalized": {
+      "sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+      "date_records": 44,
+      "policy": "Only BGNLIB/BGNSTR date payloads normalized to 2000-01-01; all other bytes retained"
+    },
+    "reference_normalized": {
+      "sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+      "date_records": 44,
+      "policy": "Only BGNLIB/BGNSTR date payloads normalized to 2000-01-01; all other bytes retained"
+    },
+    "geometry": {
+      "reference_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "rebuilt_sha256": "81d50696363f59af0614033b31f74c8df486f576288dbc94c2e5932c30f565c4",
+      "dbu_um": 0.001,
+      "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+      "layers": [
+        {
+          "layer": 3,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 4,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 5,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 39,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 41,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 99,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 100,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        },
+        {
+          "layer": 1002,
+          "datatype": 0,
+          "XOR_polygons": 0,
+          "text_identical": true,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "tables": [
+      {
+        "file": "pad_heater_map.csv",
+        "sha256": "50d9da3a13de8e5b7a68cc1148f0d17aec9c99f39b7b4fc141f24785a9ea58d2",
+        "identical": true
+      },
+      {
+        "file": "optical_io.csv",
+        "sha256": "5585124b8be0c268da467b288cb8aa4b890c5ec15f726d18c10a54539449d39e",
+        "identical": true
+      },
+      {
+        "file": "ground_pads.csv",
+        "sha256": "0410fd9b21776131d6a6133f1b81e3910778a9dca1701d9f22adb936d5a35268",
+        "identical": true
+      }
+    ],
+    "pre_DRC_before": 2,
+    "pre_DRC_after": 0,
+    "pre_DRC_categories": 31,
+    "metal_nets": 15,
+    "optical_connections": 33,
+    "replay_counts": {
+      "ideal_baseline": 80,
+      "length_original": 53,
+      "length_compensated": 80,
+      "loss_original": 53,
+      "loss_compensated": 80
+    },
+    "max_abs_numeric_error": 0.0,
+    "candidate_max_abs_rad_error": 0.0,
+    "model_tests": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "checks": [
+      {
+        "name": "zero_generated_seed",
+        "passed": true
+      },
+      {
+        "name": "independent_staged_common",
+        "passed": true
+      },
+      {
+        "name": "core_readback",
+        "passed": true
+      },
+      {
+        "name": "core_geometry_sidecar_exact",
+        "passed": true
+      },
+      {
+        "name": "all_layer_XOR_and_text",
+        "passed": true
+      },
+      {
+        "name": "timestamp_only_normalized_sha_exact",
+        "passed": true
+      },
+      {
+        "name": "three_interface_csv_exact",
+        "passed": true
+      },
+      {
+        "name": "original_pre_DRC_2_to_0",
+        "passed": true
+      },
+      {
+        "name": "geometric_netlist",
+        "passed": true
+      },
+      {
+        "name": "68_paths_and_33_assignments_exact",
+        "passed": true
+      },
+      {
+        "name": "400_case_comparison",
+        "passed": true
+      },
+      {
+        "name": "candidate_radians_exact",
+        "passed": true
+      },
+      {
+        "name": "12_model_tests",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "seconds": 111.142,
+    "runtime": {
+      "python": "3.14.3 | packaged by conda-forge | (main, Feb  9 2026, 21:56:48) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "numpy": "2.3.5",
+      "cornerstone_version": "2.6.luceda1",
+      "ipkiss_version": "2026.03.3",
+      "common_module": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\common\\core_layout.py",
+      "build_root": "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B",
+      "baseline_passed": 80,
+      "external_module_sources": {
+        "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\cornerstone_components220.py": "48890a56d3a56da86097ccc1e8ce7d51e45f9c4ff4cf3bab4cb266c872ac88dc",
+        "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\waveguides\\strip.py": "8d85d6638d096fbd3db24ad689c17abcf410f45889192714767f66356fb839f4",
+        "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\__init__.py": "5c7159293843c6d68e0240f86327d1949991c1ee7e80796af96fe1153ae84b21"
+      }
+    }
+  }
+]

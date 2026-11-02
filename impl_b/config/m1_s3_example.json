@@ -1,0 +1,9 @@
+{
+  "phase_setting": "AND2",
+  "bits": [1, 1, 0, 0],
+  "data_phases_pi": [0.0, 0.0, 0.0, 0.0],
+  "reference_amplitude": 3.0,
+  "reference_phase_pi": 0.0,
+  "threshold": 0.0,
+  "epsilon": 1e-10
+}

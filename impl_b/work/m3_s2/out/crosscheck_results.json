@@ -1,0 +1,550 @@
+{
+  "step": "M3 S2",
+  "timestamp": "2026-11-01T10:09:21.195791+08:00",
+  "status": "passed",
+  "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+  "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+  "config": {
+    "schema": "lab06b.independent_geometry.v1",
+    "source_chip_index": "config/m2_current_chip.json",
+    "source_step": "M2 S6",
+    "units": "um",
+    "angle_limit_deg": 45,
+    "deck_feature_margin_um": -0.001,
+    "comparison_tolerance_um": 0.002,
+    "area_tolerance_um2": 1e-05,
+    "boundary_limit_shift_um": 1e-06,
+    "visibility_numeric_tolerance_um": 1e-09,
+    "layers": [
+      {
+        "layer": 3,
+        "name": "Si / WG",
+        "width_um": 0.35,
+        "space_um": 0.2,
+        "width_search_cap_um": 0.8,
+        "space_search_cap_um": 4
+      },
+      {
+        "layer": 39,
+        "name": "HT",
+        "width_um": 0.6,
+        "space_um": 10,
+        "width_search_cap_um": 2,
+        "space_search_cap_um": 80
+      },
+      {
+        "layer": 41,
+        "name": "PAD / metal",
+        "width_um": 2,
+        "space_um": 10,
+        "width_search_cap_um": 12,
+        "space_search_cap_um": 80
+      }
+    ],
+    "scope": "Six width/space facing-edge measurements on GDS 3/39/41, independent gdstk/Shapely vs KLayout Euclidian/45-degree measurements and selected original pre-DRC outcomes. Not all 31 categories, connectivity, calibrated optical response or foundry signoff.",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false
+  },
+  "comparison": [
+    {
+      "case": "accepted",
+      "layer": 3,
+      "kind": "width",
+      "nominal_um": 0.35,
+      "effective_limit_um": 0.349,
+      "independent_um": 0.34999999999990905,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "KLayout_violations": 0,
+      "rule_agreement": true,
+      "KLayout_lower_um": 0.35000000000000003,
+      "KLayout_upper_um": 0.35100000000000003,
+      "interval_distance_um": 9.098277686803158e-14,
+      "numeric_agreement": true,
+      "area_error_um2": 6.421032594516873e-10,
+      "witness": {
+        "value_um": 0.34999999999990905,
+        "point_A_um": [
+          -690.0,
+          -559.825
+        ],
+        "point_B_um": [
+          -690.0,
+          -560.175
+        ],
+        "edge_A_um": [
+          [
+            -660.0,
+            -559.775
+          ],
+          [
+            -690.0,
+            -559.825
+          ]
+        ],
+        "edge_B_um": [
+          [
+            -690.0,
+            -560.175
+          ],
+          [
+            -660.0,
+            -560.225
+          ]
+        ],
+        "directed_angle_deg": 179.80901424513033,
+        "visibility": "open_connector"
+      }
+    },
+    {
+      "case": "accepted",
+      "layer": 3,
+      "kind": "space",
+      "nominal_um": 0.2,
+      "effective_limit_um": 0.199,
+      "independent_um": 0.5300000000000011,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "KLayout_violations": 0,
+      "rule_agreement": true,
+      "KLayout_lower_um": 0.53,
+      "KLayout_upper_um": 0.531,
+      "interval_distance_um": 0,
+      "numeric_agreement": true,
+      "area_error_um2": 6.421032594516873e-10,
+      "witness": {
+        "value_um": 0.5300000000000011,
+        "point_A_um": [
+          1976.0,
+          -105.265
+        ],
+        "point_B_um": [
+          1976.0,
+          -104.735
+        ],
+        "edge_A_um": [
+          [
+            1996.0,
+            -105.78999999999999
+          ],
+          [
+            1976.0,
+            -105.265
+          ]
+        ],
+        "edge_B_um": [
+          [
+            1976.0,
+            -104.735
+          ],
+          [
+            1996.0,
+            -104.21000000000001
+          ]
+        ],
+        "directed_angle_deg": 176.99266219658568,
+        "visibility": "one_sided_boundary_limit"
+      }
+    },
+    {
+      "case": "accepted",
+      "layer": 39,
+      "kind": "width",
+      "nominal_um": 0.6,
+      "effective_limit_um": 0.599,
+      "independent_um": 0.8999999999999986,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "KLayout_violations": 0,
+      "rule_agreement": true,
+      "KLayout_lower_um": 0.9,
+      "KLayout_upper_um": 0.901,
+      "interval_distance_um": 1.4432899320127035e-15,
+      "numeric_agreement": true,
+      "area_error_um2": 2.7284841053187847e-12,
+      "witness": {
+        "value_um": 0.8999999999999986,
+        "point_A_um": [
+          516.0,
+          -29.55
+        ],
+        "point_B_um": [
+          516.0,
+          -30.45
+        ],
+        "edge_A_um": [
+          [
+            616.0,
+            -29.55
+          ],
+          [
+            516.0,
+            -29.55
+          ]
+        ],
+        "edge_B_um": [
+          [
+            516.0,
+            -30.45
+          ],
+          [
+            616.0,
+            -30.45
+          ]
+        ],
+        "directed_angle_deg": 180.0,
+        "visibility": "open_connector"
+      }
+    },
+    {
+      "case": "accepted",
+      "layer": 39,
+      "kind": "space",
+      "nominal_um": 10,
+      "effective_limit_um": 9.999,
+      "independent_um": 50.0,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "KLayout_violations": 0,
+      "rule_agreement": true,
+      "KLayout_lower_um": 50.0,
+      "KLayout_upper_um": 50.001,
+      "interval_distance_um": 0.0,
+      "numeric_agreement": true,
+      "area_error_um2": 2.7284841053187847e-12,
+      "witness": {
+        "value_um": 50.0,
+        "point_A_um": [
+          1121.0,
+          -55.0
+        ],
+        "point_B_um": [
+          1121.0,
+          -5.0
+        ],
+        "edge_A_um": [
+          [
+            1131.0,
+            -55.0
+          ],
+          [
+            1121.0,
+            -55.0
+          ]
+        ],
+        "edge_B_um": [
+          [
+            1121.0,
+            -5.0
+          ],
+          [
+            1131.0,
+            -5.0
+          ]
+        ],
+        "directed_angle_deg": 180.0,
+        "visibility": "open_connector"
+      }
+    },
+    {
+      "case": "accepted",
+      "layer": 41,
+      "kind": "width",
+      "nominal_um": 2,
+      "effective_limit_um": 1.999,
+      "independent_um": 8.0,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "KLayout_violations": 0,
+      "rule_agreement": true,
+      "KLayout_lower_um": 8.0,
+      "KLayout_upper_um": 8.001,
+      "interval_distance_um": 0.0,
+      "numeric_agreement": true,
+      "area_error_um2": 0.0,
+      "witness": {
+        "value_um": 8.0,
+        "point_A_um": [
+          -36.0,
+          -86.0
+        ],
+        "point_B_um": [
+          -36.0,
+          -94.0
+        ],
+        "edge_A_um": [
+          [
+            0.0,
+            -86.0
+          ],
+          [
+            -36.0,
+            -86.0
+          ]
+        ],
+        "edge_B_um": [
+          [
+            -36.0,
+            -94.0
+          ],
+          [
+            0.0,
+            -94.0
+          ]
+        ],
+        "directed_angle_deg": 180.0,
+        "visibility": "open_connector"
+      }
+    },
+    {
+      "case": "accepted",
+      "layer": 41,
+      "kind": "space",
+      "nominal_um": 10,
+      "effective_limit_um": 9.999,
+      "independent_um": 13.5,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "KLayout_violations": 0,
+      "rule_agreement": true,
+      "KLayout_lower_um": 13.5,
+      "KLayout_upper_um": 13.501,
+      "interval_distance_um": 0.0,
+      "numeric_agreement": true,
+      "area_error_um2": 0.0,
+      "witness": {
+        "value_um": 13.5,
+        "point_A_um": [
+          422.5,
+          -56.0
+        ],
+        "point_B_um": [
+          436.0,
+          -56.0
+        ],
+        "edge_A_um": [
+          [
+            422.5,
+            -86.0
+          ],
+          [
+            422.5,
+            -49.0
+          ]
+        ],
+        "edge_B_um": [
+          [
+            436.0,
+            -56.0
+          ],
+          [
+            436.0,
+            -64.0
+          ]
+        ],
+        "directed_angle_deg": 180.0,
+        "visibility": "open_connector"
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "Si_narrow",
+      "layer": 3,
+      "kind": "width",
+      "inserted_dimension_um": 0.2,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 0.2,
+      "passed": true,
+      "gds_sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb"
+    },
+    {
+      "id": "Si_gap",
+      "layer": 3,
+      "kind": "space",
+      "inserted_dimension_um": 0.15,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 0.15000000000009095,
+      "passed": true,
+      "gds_sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20"
+    },
+    {
+      "id": "HT_narrow",
+      "layer": 39,
+      "kind": "width",
+      "inserted_dimension_um": 0.4,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 0.4,
+      "passed": true,
+      "gds_sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb"
+    },
+    {
+      "id": "HT_gap",
+      "layer": 39,
+      "kind": "space",
+      "inserted_dimension_um": 5,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 5.0,
+      "passed": true,
+      "gds_sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc"
+    },
+    {
+      "id": "PAD_narrow",
+      "layer": 41,
+      "kind": "width",
+      "inserted_dimension_um": 1,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 1.0,
+      "passed": true,
+      "gds_sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d"
+    },
+    {
+      "id": "PAD_gap",
+      "layer": 41,
+      "kind": "space",
+      "inserted_dimension_um": 5,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 5.0,
+      "passed": true,
+      "gds_sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c"
+    },
+    {
+      "id": "Si_margin_equal",
+      "layer": 3,
+      "kind": "width",
+      "inserted_dimension_um": 0.349,
+      "expected_rule_passed": true,
+      "independent_rule_passed": true,
+      "KLayout_rule_passed": true,
+      "independent_um": 0.34900000000000003,
+      "passed": true,
+      "gds_sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed"
+    },
+    {
+      "id": "Si_below_margin",
+      "layer": 3,
+      "kind": "width",
+      "inserted_dimension_um": 0.348,
+      "expected_rule_passed": false,
+      "independent_rule_passed": false,
+      "KLayout_rule_passed": false,
+      "independent_um": 0.34800000000000003,
+      "passed": true,
+      "gds_sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186"
+    }
+  ],
+  "method_difference": {
+    "issue": "Closed-notch cap is a one-sided open-space limit; strict disjoint connector alone misses it",
+    "strict_connector_only_um": 1.579455921786767,
+    "corrected_um": 0.5300000000000011,
+    "witness": {
+      "value_um": 0.5300000000000011,
+      "point_A_um": [
+        1976.0,
+        -105.265
+      ],
+      "point_B_um": [
+        1976.0,
+        -104.735
+      ],
+      "edge_A_um": [
+        [
+          1996.0,
+          -105.78999999999999
+        ],
+        [
+          1976.0,
+          -105.265
+        ]
+      ],
+      "edge_B_um": [
+        [
+          1976.0,
+          -104.735
+        ],
+        [
+          1996.0,
+          -104.21000000000001
+        ]
+      ],
+      "directed_angle_deg": 176.99266219658568,
+      "visibility": "one_sided_boundary_limit"
+    },
+    "correction": "Test both 1e-6 um perpendicular shifts when the trimmed connector is entirely on boundary; no change to measured distance or GDS"
+  },
+  "pre_DRC_records": 0,
+  "pre_DRC_categories": 31,
+  "tests": {
+    "run": 12,
+    "passed": 12,
+    "successful": true
+  },
+  "checks": [
+    {
+      "name": "accepted_six_numeric_agreements",
+      "passed": true
+    },
+    {
+      "name": "54_rule_comparisons",
+      "passed": true
+    },
+    {
+      "name": "eight_real_GDS_controls",
+      "passed": true
+    },
+    {
+      "name": "original_full_pre_DRC_zero",
+      "passed": true
+    },
+    {
+      "name": "notch_correction_exercised",
+      "passed": true
+    },
+    {
+      "name": "independent_reader_imports",
+      "passed": true
+    },
+    {
+      "name": "geometry_tests",
+      "passed": true
+    }
+  ],
+  "rule_comparisons": 54,
+  "source_hashes": {
+    "config/m3_crosscheck.json": "31f013e1170024230f63136e9f80935cf9508fc42f4fcc857d2158ecce6f59d3",
+    "work/m3_s2/independent_geometry.py": "ba081278671a514ea4fa8260507f729cf1d467de6b9acdf34d17e0277ce76d53",
+    "work/m3_s2/generate_controls.py": "96a2ba4d1b876170eeadeddf683de5bae43310dd3c57378daabe4289bbedd183",
+    "work/m3_s2/klayout_measure.py": "5fd0b539c9d3619161acb0658d06eef6a76ecc6f8110d0f6cf978fcb87d021c7",
+    "work/m3_s2/run_crosscheck.py": "d93a5afd4f9e17ee81a68f4b36efa73ef3179f030b848c940634aa3487a6f134",
+    "work/m3_s2/test_independent_geometry.py": "c759f59ea0b9c760714a6c3c7df88be3b57be26f25b5e9d17d7ad1af96a4424f"
+  },
+  "independent_imports": [
+    "pathlib",
+    "math",
+    "hashlib",
+    "numpy",
+    "gdstk",
+    "shapely",
+    "shapely.geometry",
+    "shapely"
+  ],
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "D_writes": false,
+  "scope": "Six width/space facing-edge measurements on GDS 3/39/41, independent gdstk/Shapely vs KLayout Euclidian/45-degree measurements and selected original pre-DRC outcomes. Not all 31 categories, connectivity, calibrated optical response or foundry signoff.",
+  "course_core_steps_implemented": 17,
+  "learner_submission": "pending",
+  "next_step": "learner independent submission and instructor review"
+}

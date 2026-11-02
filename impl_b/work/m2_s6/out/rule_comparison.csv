@@ -1,0 +1,32 @@
+﻿category,before,after
+100/0 grid violations,0,0
+1002/0 grid violations,0,0
+3/0 grid violations,0,0
+39/0 grid violations,0,0
+4/0 grid violations,0,0
+41/0 grid violations,0,0
+5/0 grid violations,0,0
+99/0 grid violations,0,0
+Correct design area violation,0,0
+Minimum feature size vilation (GDS60<60 nm),0,0
+Minimum feature size violate (GDS100<250nm),0,0
+Minimum feature size violate (GDS39<600nm),0,0
+Minimum feature size violate (GDS41<2micro),0,0
+Minimum feature size violation (GDS3< 350nm),0,0
+Minimum feature size violation (GDS4< 200nm),0,0
+Minimum feature size violation (GDS5< 250nm),0,0
+Minimum feature size violation (GDS60 short than max feature length),0,0
+Minimum feature size violation (GDS6< 200nm),0,0
+Minimum feature size violation (GDS6< 350nm and short than max feature length),0,0
+Minimum gap violate (GDS100<250nm),2,0
+Minimum gap violate (GDS39<10micro),0,0
+Minimum gap violate (GDS41<10micro),0,0
+Minimum gap violation (GDS3<200nm),0,0
+Minimum gap violation (GDS4<350nm),0,0
+Minimum gap violation (GDS5<250nm),0,0
+Minimum gap violation (GDS6 < 250 nm),0,0
+Minimum gap violation (GDS60<60nm),0,0
+Minimum overlap violation (GDS6 in GDS3 <200nm),0,0
+Minimum overlap violation (GDS60 in GDS3 <200nm),0,0
+aviode overlapping GDS6 and GDS39,0,0
+aviode overlapping GDS6 and GDS41,0,0

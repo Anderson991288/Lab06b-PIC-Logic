@@ -1,0 +1,81 @@
+// CORNERSTONE Si220 被動平台 pre-DRC（KLayout 規則檔 3.1 版）改寫成 Calibre SVRF。
+// 只改寫本設計會出現的圖層（GDS 3、4、5、39、41、99、100）的規則；GDS 6、60 的規則沒有改寫，
+// 改成「該層只要有圖形就報錯」，保證不會因為沒改寫而漏掉。
+// 數值與 KLayout 版相同：門檻 = 規則值 + feature_margin（−0.001 µm）；夾角限制 45°（ABUT < 45）。
+// 由執行時的外層 runset 提供 LAYOUT PATH、結果檔名與 VARIABLE DESIGN_AREA（µm²）。
+
+PRECISION 1000
+RESOLUTION 1
+DRC MAXIMUM RESULTS ALL
+DRC MAXIMUM VERTEX 4096
+
+LAYER MAP 3   DATATYPE 0 1003
+LAYER MAP 4   DATATYPE 0 1004
+LAYER MAP 5   DATATYPE 0 1005
+LAYER MAP 6   DATATYPE 0 1006
+LAYER MAP 39  DATATYPE 0 1039
+LAYER MAP 41  DATATYPE 0 1041
+LAYER MAP 60  DATATYPE 0 1060
+LAYER MAP 99  DATATYPE 0 1099
+LAYER MAP 100 DATATYPE 0 1100
+LAYER G3      1003    // SOI Etch 2 light field
+LAYER G4    1004    // SOI Etch 2 dark field
+LAYER G5    1005    // SOI Etch 3 light field
+LAYER G6   1006    // SOI Etch 1 dark field（本設計不用）
+LAYER G39      1039    // heater filament
+LAYER G41     1041    // heater contact pad
+LAYER G60   1060    // e-beam etch（本設計不用）
+LAYER G99 1099    // cell outline（design area）
+LAYER G100   1100    // label
+
+// ---- 格點（1 nm）：PRECISION 1000 下 1 dbu = 1 nm
+GRID_3   { @ 3/0 grid violations
+  OFFGRID G3 1 }
+GRID_4   { @ 4/0 grid violations
+  OFFGRID G4 1 }
+GRID_5   { @ 5/0 grid violations
+  OFFGRID G5 1 }
+GRID_39  { @ 39/0 grid violations
+  OFFGRID G39 1 }
+GRID_41  { @ 41/0 grid violations
+  OFFGRID G41 1 }
+GRID_99  { @ 99/0 grid violations
+  OFFGRID G99 1 }
+GRID_100 { @ 100/0 grid violations
+  OFFGRID G100 1 }
+
+// ---- 設計區：GDS 99 的面積必須等於宣告值
+AREA_99 { @ Correct design area violation
+  AREA G99 != DESIGN_AREA }
+
+// ---- 線寬（INT）與間距（EXT）
+W_3   { @ Minimum feature size violation (GDS3< 350nm)
+  INT G3 < 0.349 ABUT < 45 SINGULAR }
+S_3   { @ Minimum gap violation (GDS3<200nm)
+  EXT G3 < 0.199 ABUT < 45 SINGULAR }
+W_4   { @ Minimum feature size violation (GDS4< 200nm)
+  INT G4 < 0.199 ABUT < 45 SINGULAR }
+S_4   { @ Minimum gap violation (GDS4<350nm)
+  EXT G4 < 0.349 ABUT < 45 SINGULAR }
+W_5   { @ Minimum feature size violation (GDS5< 250nm)
+  INT G5 < 0.249 ABUT < 45 SINGULAR }
+S_5   { @ Minimum gap violation (GDS5<250nm)
+  EXT G5 < 0.249 ABUT < 45 SINGULAR }
+W_39  { @ Minimum feature size violate (GDS39<600nm)
+  INT G39 < 0.599 ABUT < 45 SINGULAR }
+S_39  { @ Minimum gap violate (GDS39<10micro)
+  EXT G39 < 9.999 ABUT < 45 SINGULAR }
+W_41  { @ Minimum feature size violate (GDS41<2micro)
+  INT G41 < 1.999 ABUT < 45 SINGULAR }
+S_41  { @ Minimum gap violate (GDS41<10micro)
+  EXT G41 < 9.999 ABUT < 45 SINGULAR }
+W_100 { @ Minimum feature size violate (GDS100<250nm)
+  INT G100 < 0.249 ABUT < 45 SINGULAR }
+S_100 { @ Minimum gap violate (GDS100<250nm)
+  EXT G100 < 0.249 ABUT < 45 SINGULAR }
+
+// ---- 沒有改寫的圖層：出現任何圖形就報
+USED_6  { @ GDS6 present (its rules are not translated)
+  COPY G6 }
+USED_60 { @ GDS60 present (its rules are not translated)
+  COPY G60 }

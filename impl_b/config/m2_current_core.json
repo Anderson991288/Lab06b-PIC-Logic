@@ -1,0 +1,19 @@
+{
+  "schema": "lab06b.current_core.v1",
+  "accepted_at_step": "M2 S4",
+  "m1_spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+  "layout_config": "config/m2_review_layout.json",
+  "layout_config_sha256": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+  "files": {
+    "work/m2_s4/out/after/b7_core.gds": "efe916411cc3cd5378090d0dc17fca4a053569fa0029cf96d0e0cb3b406e4385",
+    "work/m2_s4/out/after/mzi_core.gds": "3d17ed0ead602d279d77969a6c368c8739a93b870bce150ab7fe18b63eb82c46",
+    "work/m2_s4/out/after/layout_info.json": "2ad44087ab81b102f5e75de7fc7c57f610c7ec96b1c2b97375e95c6caee3e023"
+  },
+  "review_result": "work/m2_s4/out/review_results.json",
+  "pending": [
+    "EC/PAD/GND",
+    "full DRC and connectivity",
+    "thermal calibration",
+    "layout phase backannotation and replay"
+  ]
+}

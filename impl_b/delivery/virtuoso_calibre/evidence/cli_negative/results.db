@@ -1,0 +1,113 @@
+LAB06B_NEGATIVE_16 1000
+CS60_WIDTH
+1 1 2 Oct 31 16:09:53 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.059 um; draft mapping
+e 1 2
+0 0 10000 0
+0 29 10000 29
+CS60_SPACE
+1 1 2 Oct 31 16:09:53 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 0.059 um; draft mapping
+e 1 2
+20000 100000 20000 120000
+20029 100000 20029 120000
+CS6_WIDTH
+1 1 2 Oct 31 16:09:53 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.199 um; draft mapping
+e 1 2
+100000 0 110000 0
+100000 100 110000 100
+CS6_SPACE
+1 1 2 Oct 31 16:09:53 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 0.249 um; draft mapping
+e 1 2
+120000 100000 120000 120000
+120124 100000 120124 120000
+CS3_WIDTH
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.349 um; draft mapping
+e 1 2
+200000 0 210000 0
+200000 174 210000 174
+CS3_SPACE
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 0.199 um; draft mapping
+e 1 2
+220000 100000 220000 120000
+220100 100000 220100 120000
+CS4_WIDTH
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.199 um; draft mapping
+e 1 2
+300000 0 310000 0
+300000 100 310000 100
+CS4_SPACE
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 0.349 um; draft mapping
+e 1 2
+320000 100000 320000 120000
+320174 100000 320174 120000
+CS5_WIDTH
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.249 um; draft mapping
+e 1 2
+400000 0 410000 0
+400000 124 410000 124
+CS5_SPACE
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 0.249 um; draft mapping
+e 1 2
+420000 100000 420000 120000
+420124 100000 420124 120000
+CS39_WIDTH
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.599 um; draft mapping
+e 1 2
+500000 0 510000 0
+500000 299 510000 299
+CS39_SPACE
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 9.999 um; draft mapping
+e 1 2
+520000 100000 520000 120000
+525000 100000 525000 120000
+CS41_WIDTH
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 1.999 um; draft mapping
+e 1 2
+600000 0 610000 0
+600000 1000 610000 1000
+CS41_SPACE
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 9.999 um; draft mapping
+e 1 2
+620000 100000 620000 120000
+625000 100000 625000 120000
+CS100_WIDTH
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic width < 0.249 um; draft mapping
+e 1 2
+700000 0 710000 0
+700000 124 710000 124
+CS100_SPACE
+1 1 2 Oct 31 16:09:54 2026                     
+Rule File Pathname: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/negative.svrf
+Basic spacing < 0.249 um; draft mapping
+e 1 2
+720000 100000 720000 120000
+720124 100000 720124 120000

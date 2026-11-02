@@ -1,0 +1,9 @@
+{
+  "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+  "gds_sha256": "9f54fff96d2ea9eba08ef341cc4edc71f24c06c1ebdf977f0f20b8d1864f81aa",
+  "rules": 31,
+  "violations": 2,
+  "counts": {
+    "'Minimum gap violate (GDS100<250nm)'": 2
+  }
+}

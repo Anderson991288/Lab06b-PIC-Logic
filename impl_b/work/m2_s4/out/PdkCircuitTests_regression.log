@@ -1,0 +1,15 @@
+test_all_external_names (PdkCircuitTests.PdkCircuitTests.test_all_external_names) ... ok
+test_bypass_roles (PdkCircuitTests.PdkCircuitTests.test_bypass_roles) ... ok
+test_every_internal_port_once (PdkCircuitTests.PdkCircuitTests.test_every_internal_port_once) ... ok
+test_external_endpoints_once (PdkCircuitTests.PdkCircuitTests.test_external_endpoints_once) ... ok
+test_first_input_is_upper_m1 (PdkCircuitTests.PdkCircuitTests.test_first_input_is_upper_m1) ... ok
+test_layer_direction (PdkCircuitTests.PdkCircuitTests.test_layer_direction) ... ok
+test_nine_inter_mzi_links (PdkCircuitTests.PdkCircuitTests.test_nine_inter_mzi_links) ... ok
+test_phase_input_rejection (PdkCircuitTests.PdkCircuitTests.test_phase_input_rejection) ... ok
+test_readout_ends (PdkCircuitTests.PdkCircuitTests.test_readout_ends) ... ok
+test_reference_path_starts_lower_m2 (PdkCircuitTests.PdkCircuitTests.test_reference_path_starts_lower_m2) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.022s
+
+OK

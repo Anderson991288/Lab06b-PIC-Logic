@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-10-31T09:42:42.329734+08:00",
+  "root": "D:\\LAB\\Lab06b",
+  "step": "M1 S1",
+  "status": "passed",
+  "core_result": "work/m1_s1/out/encoding_results.json",
+  "unit_tests": {
+    "run": 16,
+    "passed": 16,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "m0_s3_regression": {
+    "run": 18,
+    "passed": 18,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "experiment_checks": [
+    {
+      "name": "AND2_fixed_truth",
+      "passed": true
+    },
+    {
+      "name": "NAND2_fixed_truth",
+      "passed": true
+    },
+    {
+      "name": "all_outputs_conserve_power",
+      "passed": true
+    },
+    {
+      "name": "B7_16_input_encodings",
+      "passed": true
+    },
+    {
+      "name": "incoherent_phase_average",
+      "passed": true
+    },
+    {
+      "name": "reference_off_exposes_zero_input_limit",
+      "passed": true
+    },
+    {
+      "name": "relative_phase_error_exposed",
+      "passed": true
+    },
+    {
+      "name": "reference_phase_error_exposed",
+      "passed": true
+    }
+  ],
+  "baseline_truth_correct": 8,
+  "baseline_truth_total": 8,
+  "b7_input_encodings": 16,
+  "local_html_files": 11,
+  "local_links": 525,
+  "interactive_cases": 10,
+  "worksheet_verified": true,
+  "source_C01_study_outline_unchanged": true,
+  "source_hashes_verified": true,
+  "predecessor_mzi_network_unchanged": true,
+  "backup": "D:\\LAB\\Lab06b\\history\\before_m1_s1_20261031_094157",
+  "learner_submission": "pending",
+  "next_step": "M1 S2"
+}

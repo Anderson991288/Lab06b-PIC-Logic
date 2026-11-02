@@ -1,0 +1,20 @@
+{
+  "schema": "lab06b.independent_geometry.v1",
+  "source_chip_index": "config/m2_current_chip.json",
+  "source_step": "M2 S6",
+  "units": "um",
+  "angle_limit_deg": 45,
+  "deck_feature_margin_um": -0.001,
+  "comparison_tolerance_um": 0.002,
+  "area_tolerance_um2": 0.00001,
+  "boundary_limit_shift_um": 0.000001,
+  "visibility_numeric_tolerance_um": 0.000000001,
+  "layers": [
+    {"layer": 3, "name": "Si / WG", "width_um": 0.35, "space_um": 0.2, "width_search_cap_um": 0.8, "space_search_cap_um": 4},
+    {"layer": 39, "name": "HT", "width_um": 0.6, "space_um": 10, "width_search_cap_um": 2, "space_search_cap_um": 80},
+    {"layer": 41, "name": "PAD / metal", "width_um": 2, "space_um": 10, "width_search_cap_um": 12, "space_search_cap_um": 80}
+  ],
+  "scope": "Six width/space facing-edge measurements on GDS 3/39/41, independent gdstk/Shapely vs KLayout Euclidian/45-degree measurements and selected original pre-DRC outcomes. Not all 31 categories, connectivity, calibrated optical response or foundry signoff.",
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false
+}

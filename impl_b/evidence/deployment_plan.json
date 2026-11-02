@@ -1,0 +1,19 @@
+{
+  "target": "D:\\LAB\\Lab06b",
+  "files": 16032,
+  "bytes": 781501314,
+  "existing_files_to_backup": [
+    "Lab06b_index.html",
+    "course/m0_s1.html",
+    "work/common/drc.py",
+    "work/common/runtime.py",
+    "work/m0_s1/check_toolchain.py",
+    "work/m0_s1/out/mzi_drc_result.json",
+    "work/m0_s1/out/MZI_HT.gds",
+    "work/m0_s1/out/MZI_HT_drc.lyrdb",
+    "work/m0_s1/out/MZI_HT_FAULT.gds",
+    "work/m0_s1/out/MZI_HT_FAULT_drc.lyrdb",
+    "work/m0_s1/out/toolchain_check.json"
+  ],
+  "original_C01_preserved": true
+}

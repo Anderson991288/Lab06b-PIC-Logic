@@ -1,0 +1,146 @@
+LAB06B_B7_EC_PAD_CHIP 1000
+CS60_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.059 um; draft mapping
+CS60_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 0.059 um; draft mapping
+CS6_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.199 um; draft mapping
+CS6_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 0.249 um; draft mapping
+CS3_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.349 um; draft mapping
+CS3_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 0.199 um; draft mapping
+CS4_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.199 um; draft mapping
+CS4_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 0.349 um; draft mapping
+CS5_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.249 um; draft mapping
+CS5_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 0.249 um; draft mapping
+CS39_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.599 um; draft mapping
+CS39_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 9.999 um; draft mapping
+CS41_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 1.999 um; draft mapping
+CS41_SPACE
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic spacing < 9.999 um; draft mapping
+CS100_WIDTH
+0 0 2 Oct 31 16:51:37 2026                     
+Rule File Pathname: run.svrf
+Basic width < 0.249 um; draft mapping
+CS100_SPACE
+27 27 2 Oct 31 16:51:37 2026                   
+Rule File Pathname: run.svrf
+Basic spacing < 0.249 um; draft mapping
+e 1 2
+-58475 -117876 -58475 -117730
+-58273 -117730 -58226 -117777
+e 2 2
+-58475 -87876 -58475 -87730
+-58273 -87730 -58226 -87777
+e 3 2
+-58475 -57876 -58475 -57730
+-58273 -57730 -58226 -57777
+e 4 2
+-58475 -27876 -58475 -27730
+-58273 -27730 -58226 -27777
+e 5 2
+-58475 2124 -58475 2270
+-58273 2270 -58226 2223
+e 6 2
+-56547 -118678 -56500 -118725
+-56298 -118725 -56298 -118579
+e 7 2
+-56547 -88678 -56500 -88725
+-56298 -88725 -56298 -88579
+e 8 2
+-56547 -58678 -56500 -58725
+-56298 -58725 -56298 -58579
+e 9 2
+-56547 -28678 -56500 -28725
+-56298 -28725 -56298 -28579
+e 10 2
+-56547 1322 -56500 1275
+-56298 1275 -56298 1421
+e 11 2
+-52502 -27778 -52454 -27730
+-52253 -27877 -52253 -27730
+e 12 2
+248775 -107876 248775 -107730
+248977 -107730 249024 -107777
+e 13 2
+248775 -17876 248775 -17730
+248977 -17730 249024 -17777
+e 14 2
+250703 -107777 250750 -107730
+250952 -107876 250952 -107730
+e 15 2
+250703 -17777 250750 -17730
+250952 -17876 250952 -17730
+e 16 2
+254749 -17777 254796 -17730
+254998 -17876 254998 -17730
+e 17 2
+753775 -47876 753775 -47730
+753977 -47730 754024 -47777
+e 18 2
+755703 -47777 755750 -47730
+755952 -47876 755952 -47730
+e 19 2
+1258775 -77876 1258775 -77730
+1258977 -77730 1259024 -77777
+e 20 2
+1258775 -17876 1258775 -17730
+1258977 -17730 1259024 -17777
+e 21 2
+1260703 -77777 1260750 -77730
+1260952 -77876 1260952 -77730
+e 22 2
+1260703 -17777 1260750 -17730
+1260952 -17876 1260952 -17730
+e 23 2
+1763775 -107876 1763775 -107730
+1763977 -107730 1764024 -107777
+e 24 2
+1763775 -47876 1763775 -47730
+1763977 -47730 1764024 -47777
+e 25 2
+1765703 -107777 1765750 -107730
+1765952 -107876 1765952 -107730
+e 26 2
+1765703 -47777 1765750 -47730
+1765952 -47876 1765952 -47730
+e 27 2
+2066749 -27777 2066796 -27730
+2066998 -27876 2066998 -27730

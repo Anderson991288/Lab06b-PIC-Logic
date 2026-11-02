@@ -1,0 +1,71 @@
+2026/10/31 16:06:33 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+Usage: strmin
+    -library			<Destination Library>
+    -strmFile			<Comma Seperated Quoted List of Input Stream Files>
+    -strmTechGen		<Stream Tech File to be generated>
+    [-runDir]			<Run Directory>
+    [-logFile]			<Output Log File Name>
+    [-topCell]			<Toplevel Cell to Translate>
+    [-view]			<Destination View Name>
+    [-hierDepth]		<Hierarchical Depth to Translate to>
+    [-summaryFile]		<Summary File Name>
+    [-cellMap]			<Input Cell Map File>
+    [-case]			<upper | lower | preserve >
+    [-labelCase]		<upper | lower | preserve >
+    [-replaceBusBitChar]	<Replace "[]" With "<>">
+    [-layerMap]			<Quoted List of Layer Map Files>
+    [-fontMap]			<Input Font Map File>
+    [-propMap]			<Input Property Map File>
+    [-objectMap]		<Object Mapping File>
+    [-viaMap]			<Via Mapping File>
+    [-userSkillFile]		<User Skill File>
+    [-propSeparator]		<Property Separator Character>
+    [-pinAttNum]		<Stream Attribute Number 0-127>
+    [-ignoreBoxes]
+    [-refLibList]		<Name of The File Containing Refliblist>
+    [-dbuPerUU]			<DB Units per user units>
+    [-scale]			<Design Scaling Factor>
+    [-reportPrecisionLoss]	<Report Precision Loss Because of dbuPerUU Value>
+    [-keepStreamCells]		<Keep Stream Cells>
+    [-arrayInstToScalar]	<Convert AREF to Scalar Instances>
+    [-attachTechFileOfLib]	<Attach This Tech Lib With Target Lib>
+    [-loadTechFile]		<ASCII Tech File>
+    [-techRefs]			<Ordered List of Reference Tech Libs>
+    [-skipUndefinedLPP]		<Donot Create Undefined LPPs in The Techfile>
+    [-skipUnusedCells]		<Skip translation of unused cells when -topCell and -refLibList>
+    [-translateNode]		<Convert Node to Dot>
+    [-ignoreZeroWidthPath]	<Convert Zero With Path to Line>
+    [-convertPathToPathSeg]	<Convert 2-Point Path to PathSeg>
+    [-snapToGrid]		<Snap to Grid>
+    [-scaleTextHeight]		<Scale Text Height (Positive Scaling Value)>
+    [-enableLocking]		<Enable File Locking>
+    [-maxCellsInTargetLib]	<Maximum Cells in Target Library>
+    [-mergeUndefPurposToDrawing]	<Merges Undefined Purposes to Drawing>
+    [-templateFile]		<Name of The File Containing Option Names And Values>
+    [-noDetectVias]		<Do Not Detect The Via Defs>
+    [-excludeMapToVia]		<Via exclusion Data file>
+    [-enableNegativeViaExt]	<Enable Negative Extension for Via Detection>
+    [-useExistingViaDefsForDetection]	<Enable the usage of standard viaDefs from technology database for via detection>
+    [-checkPolygon]		<Report Bad Polygons And Paths>
+    [-strmTextNS]		<NameSpace of The TEXT Records in The Stream File>
+    [-noInfo]			<Quoted List of Info Message Ids>
+    [-noWarn]			<Quoted List of Warning Message Ids>
+    [-infoToWarn]		<Quoted List of Info Message Ids>
+    [-warnToErr]		<Quoted List of Warning Message Ids>
+    [-wildCardInCellMap]	<Wild Card in cell map file>
+    [-compress]			<Allow libraries to be compressed>
+    [-compressLevel]		<Defines the compression level to use (default: 1)>
+    [-enableIncrementalImport]	<Enable incremental import of multiple Stream Files>
+    [-writeMode]		<Write Mode (overwrite|noOverwrite|append|rename) for Existing Cells (default: overwrite)>
+    [-overwriteRootCells]	<Overwrite the root/top Cells in case writeMode is rename>
+    [-translateUnmappedLPP]	<Allow undefined LPP to be translated by incrementally mapping LPP using layerMap file, SKILL hook piLayerMap, and automatic layer mapping>
+    [-guiHistory]		<Use options of last successful translation from the XStream In GUI>
+    [-ignoreObjectProp]		<Ignore Special OA Object Properties.>
+    [-verbose]			<Generate detailed information in the log and summary files>
+    [-detectOverflow]		<Enable overflow cellview creation on reaching maximum limit of shapes in a cellview>
+    [-overflowCellNameSuffix]	<Cell name suffix of overflow cellviews>
+    [-overflowViewName]		<View name of overflow cellviews>
+    [-enableColoring]		<Enable Coloring Support>
+
+# For detailed help on these generic options, use:
+    /home/EDA/cadence/IC231_ISR15/tools/dfII/bin/strmin -help3264

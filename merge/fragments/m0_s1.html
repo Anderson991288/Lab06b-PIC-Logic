@@ -1,0 +1,18 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套由同一份原始教材出發，各自寫程式、各自跑結果，不共用數字。結果一致就多一次獨立驗證；結果不一致的地方，正好是值得學的判斷點。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>做法差異</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>工具檢查</td><td>15 項，另外確認 femwell 0.1.12 與 Meep 1.35.0 真的能解題</td><td>11 項，沒有檢查 femwell 與 Meep</td></tr>
+<tr><td>KLayout 位置</td><td>使用者安裝位置</td><td>放在專案內 <code>tools/KLayout/</code>，換電腦時跟著專案走</td></tr>
+<tr><td>暖身</td><td>無</td><td>只用 Python 標準函式庫的理想 MZI 實驗（約 60 分鐘），先建立相位與分光的直覺</td></tr></table>
+
+<h3>結果一致</h3>
+<p>MZI 測試件兩邊幾何相同：總長 509.0 µm、兩臂在 MMI 之間各 172.566 µm；正常版 DRC 0 筆、0 個圖形超出外框；8 個故障（F1–F8）各被抓到 1 次；設計區 580 × 260 µm。兩套程式寫法不同，產生的 GDS 雜湊不同，但幾何一致。</p>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>外部埠與 PDK 埠的對照：</b>測試件的 in0（上）接 MMI 的 in2，in1 接 in1；out0 接 out2，out1 接 out1。後面每一步都會用到「上臂＝PDK in2」這個約定，在這裡先對清楚。</li>
+<li><b>理想 MZI 五個情境：</b>全交叉、均分、全直通、π 相位合光、0 相位合光，以 1e-12 的容差比對解析解，5/5 通過。程式：<a href="../impl_b/scripts/smoke_mzi.py"><code>smoke_mzi.py</code></a>，結果：<a href="../impl_b/evidence/m0_s1/smoke_mzi.json"><code>smoke_mzi.json</code></a>。</li>
+</ul>
+<div class="notice"><p><b>注意埠序約定：</b>實作 B 的暖身頁把索引 0 當作<b>下方</b>的埠，但它在 M0 s3 之後改成和主線一樣，索引 0＝<b>上方</b>（PDK in2）。兩套程式交換資料時一定要先確認這一點。</p></div>

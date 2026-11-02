@@ -1,0 +1,22 @@
+{
+  "schema": "lab06b.current_chip.v1",
+  "accepted_at_step": "M2 S6",
+  "qualification": "installed_pre_DRC_zero_and_geometric_netlist_compare_only",
+  "m1_spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+  "core_index": "config/m2_current_core.json",
+  "files": {
+    "work/m2_s6/out/after/b7_ec_pad.gds": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "work/m2_s6/out/after/chip_info.json": "16e71ea1ec0641ba0f419b3ce02b20cc97169fdb640a23f3dc13ab9f682b1b48",
+    "work/m2_s6/out/after/pad_heater_map.csv": "50d9da3a13de8e5b7a68cc1148f0d17aec9c99f39b7b4fc141f24785a9ea58d2",
+    "work/m2_s6/out/after/optical_io.csv": "5585124b8be0c268da467b288cb8aa4b890c5ec15f726d18c10a54539449d39e",
+    "work/m2_s6/out/after/ground_pads.csv": "0410fd9b21776131d6a6133f1b81e3910778a9dca1701d9f22adb936d5a35268"
+  },
+  "results": "work/m2_s6/out/verification_results.json",
+  "label_revision": "port labels only; physical masks identical to S5",
+  "pending": [
+    "foundry full signoff and process-qualified LVS",
+    "qualified EC/mode/response",
+    "thermal/common-ground calibration",
+    "layout path backannotation and replay"
+  ]
+}

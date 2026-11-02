@@ -1,0 +1,12 @@
+# KLayout DRC 腳本：兩個 GDS 逐層做 XOR（互斥或），寫出每層的差異面積與多邊形數。
+# 用法：klayout_app -b -r xor.drc -rd a=<GDS> -rd b=<GDS> -rd out=<txt>
+la = layout($a)
+lb = layout($b)
+File.open($out, "w") do |f|
+  [3, 4, 5, 39, 41, 99, 100].each do |n|
+    pa = la.input(n, 0)
+    pb = lb.input(n, 0)
+    x = pa ^ pb
+    f.puts "#{n} #{x.area} #{x.count} #{pa.count} #{pb.count} #{pa.merged.count} #{pb.merged.count} #{pa.area} #{pb.area}"
+  end
+end

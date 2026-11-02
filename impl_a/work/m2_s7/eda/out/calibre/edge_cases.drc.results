@@ -1,0 +1,116 @@
+EDGE_CASES 1000
+GRID_3
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+3/0 grid violations
+GRID_4
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+4/0 grid violations
+GRID_5
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+5/0 grid violations
+GRID_39
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+39/0 grid violations
+GRID_41
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+41/0 grid violations
+GRID_99
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+99/0 grid violations
+GRID_100
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+100/0 grid violations
+AREA_99
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Correct design area violation
+W_3
+3 3 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum feature size violation (GDS3< 350nm)
+e 1 2
+0 0 10000 0
+0 300 10000 300
+e 2 2
+160000 0 170000 0
+160000 348 170000 348
+e 3 2
+404995 -177 406000 0
+404995 177 406000 0
+S_3
+2 2 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum gap violation (GDS3<200nm)
+e 1 2
+325000 0 325000 1000
+325150 0 325150 1000
+e 2 2
+562925 1000 562925 3000
+563075 1000 563075 3000
+W_4
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum feature size violation (GDS4< 200nm)
+S_4
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum gap violation (GDS4<350nm)
+W_5
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum feature size violation (GDS5< 250nm)
+S_5
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum gap violation (GDS5<250nm)
+W_39
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum feature size violate (GDS39<600nm)
+S_39
+1 1 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum gap violate (GDS39<10micro)
+e 1 2
+800000 1000 830000 1000
+800000 10500 830000 10500
+W_41
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum feature size violate (GDS41<2micro)
+S_41
+3 3 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum gap violate (GDS41<10micro)
+e 1 2
+658001 20000 660000 20000
+666000 26000 667999 26000
+e 2 2
+660000 18001 660000 20000
+666000 26000 666000 27999
+e 3 2
+740000 13643 740000 20000
+749000 18000 749000 24357
+W_100
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum feature size violate (GDS100<250nm)
+S_100
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+Minimum gap violate (GDS100<250nm)
+USED_6
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+GDS6 present (its rules are not translated)
+USED_60
+0 0 2 Oct 31 23:59:47 2026                     
+Rule File Pathname: edge_cases.runset
+GDS60 present (its rules are not translated)

@@ -1,0 +1,12 @@
+{
+  "installed_at": "2026-10-30T23:14:40.259199+08:00",
+  "root": "C:\\EDA_Codex",
+  "course_root": "C:\\EDA_Codex\\Lab06b",
+  "physical_independent_directory": true,
+  "original_course_html_unchanged": true,
+  "baseline_passed": true,
+  "mzi_cases_passed": 5,
+  "local_links_checked": 403,
+  "eda_circuit_validation": "not yet performed; planned M0 S2",
+  "next_step": "M0 S2"
+}

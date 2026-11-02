@@ -1,0 +1,14 @@
+test_insertion_loss_is_power_db (optical_test_module.OpticalModels.test_insertion_loss_is_power_db) ... FAIL
+
+======================================================================
+FAIL: test_insertion_loss_is_power_db (optical_test_module.OpticalModels.test_insertion_loss_is_power_db)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\EDA_Codex\Lab06b\work\m0_s3\test_optical_models.py", line 58, in test_insertion_loss_is_power_db
+    self.assertAlmostEqual(float(mzi.powers(u@v).sum())/pin,10**(-loss/10),places=12)
+AssertionError: 0.25118864315095807 != 0.5011872336272722 within 12 places (0.24999859047631418 difference)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

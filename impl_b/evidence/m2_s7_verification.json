@@ -1,0 +1,269 @@
+{
+  "timestamp": "2026-10-31T13:52:56.357558+08:00",
+  "step": "M2 S7",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s7_20261031_133724",
+  "source_hashes": {
+    "config/m2_backannotation.json": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+    "work/common/backannotation.py": "5f17f7ba632fd58397fac3d37d77a608090a0c6109b26569f26bd6ca10b6e266",
+    "work/m2_s7/extract_lengths.py": "ac322a486797f2d26b94be035c2d4e59ec558999ba9f24bd159350754273d486",
+    "work/m2_s7/run_replay.py": "c4b4bce6cf77b5c4b4a3e0e70547ecb774878f47d11e4d8b133682e8cb56ef93",
+    "work/m2_s7/test_backannotation.py": "3824c5938d4f81b2da29e92060b3fd7071cc312349c1e7a8149682f94e1ccb18",
+    "work/m2_s7/build_delivery.py": "e85fab82b52ce4e8e8cf3481412b6e993e85805cb2e7824debf333ece8b4f0ba",
+    "work/m2_s7/verify_delivery.py": "d2dc50004ff2e70d75f1651f8df2bfbc171f981ad88041578c898833b4994bf4",
+    "work/m2_s7/replay_delivery.py": "4d2949b6ac070503a22f72cf4eb9b0c32cdc985bd480a4dfcb6220f1130b605f",
+    "work/m2_s7/recheck_geometry.py": "b868dfc5dc9389acae3ea6987c2f07c7075de2f77981115032192c56f0a2ade8",
+    "work/m2_s7/geometry_engine.py": "e3c3e86426e24495ac2d9c4a082bc391dadbf54f75b3f5bafb2173a60a3d8f60",
+    "scripts/run_m2_s7.ps1": "a6799f8d28911f0d7beb2ae3975a3ea604e4892313e50969670f1b1ee9d1ed76",
+    "scripts/render_m2_s7.py": "e0a427815a2927884a29d678d353a94d8e5818280be0436d82a97c94a85eb6bb",
+    "scripts/render_course.py": "e7cd715d8f9872008deb4f5db3f38cf232904e3a377880255d82b99d90942a5e",
+    "work/m2_s7/plot_delivery.py": "60127b664b5d9bf7f0390a7f182fea8b7a72434f77918ec5bed1453ccd2dbabf",
+    "work/m2_s7/render_final_gds.py": "f98314b947779d2581757ed5ef1f3ed429abe6d114ea75b677891ea88986c2c8",
+    "work/m2_s7/browser_qa.cjs": "f706c874d3e714804beba50e7453820da06263ba95aa441a4a0dd2502bb4b3b0",
+    "work/m2_s7/prepare_browser_qa.py": "3ac4013fa991ac7b37e18107fc72959d5b6af7c19e41e2f6df4813e3d1676635",
+    "work/m2_s7/finalize.py": "9f21dc71438509b1bc0106222a93e6ea627c0af164152aaa1821f18f1844d296"
+  },
+  "source_hashes_verified": true,
+  "prior_files_verified": 367,
+  "current_chip_unchanged": true,
+  "M1_sources_and_zip_unchanged": true,
+  "delivery_index": {
+    "schema": "lab06b.m2_delivery.v1",
+    "step": "M2 S7",
+    "kind": "teaching_design_review_and_model_replay",
+    "source_chip_index": "config/m2_current_chip.json",
+    "source_chip_step": "M2 S6",
+    "zip": "delivery/Lab06b_M2_PIC_delivery.zip",
+    "zip_sha256": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+    "manifest": "delivery/m2_pic_delivery/manifest.json",
+    "manifest_sha256": "e59f73524fa0190ae857ef91e4b234872a7063bbc9098f461c7c90797f249700",
+    "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "model": "config/m2_backannotation.json",
+    "model_sha256": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+    "candidate": "work/m2_s7/out/phase_settings_backannotated.json",
+    "candidate_sha256": "2e18ca66b4065bfebc7dc6aa39c516422c74fff266b6b29402bba24c4d70c5eb",
+    "reference_plane": "M1_core_ports",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false,
+    "limitations": [
+      "EC response and mode conversion",
+      "fanout propagation outside core plane",
+      "MMI calibrated absolute phase and dispersion",
+      "bend-specific loss/index",
+      "heater thermal/electrical calibration",
+      "packaging and foundry signoff"
+    ],
+    "next_step": "M3 S1"
+  },
+  "files": 50,
+  "zip_CRC_and_member_hashes_verified": true,
+  "integrity": {
+    "status": "passed",
+    "files": 50,
+    "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false
+  },
+  "portable_replay": {
+    "status": "passed",
+    "integrity": {
+      "status": "passed",
+      "files": 50,
+      "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "physical_function_qualified": false,
+      "foundry_full_signoff": false
+    },
+    "scenarios": {
+      "ideal_baseline": {
+        "passed": 80,
+        "total": 80
+      },
+      "length_original": {
+        "passed": 53,
+        "total": 80
+      },
+      "length_compensated": {
+        "passed": 80,
+        "total": 80
+      },
+      "loss_original": {
+        "passed": 53,
+        "total": 80
+      },
+      "loss_compensated": {
+        "passed": 80,
+        "total": 80
+      }
+    },
+    "max_abs_delta_error": 0.0,
+    "physical_function_qualified": false,
+    "scope": "Verified replay of packaged uniform-neff core-plane teaching model; not calibrated chip acceptance."
+  },
+  "portable_geometry": {
+    "status": "passed",
+    "pre_DRC_records": 0,
+    "metal_nets": 15,
+    "optical_connections": 33,
+    "foundry_full_signoff": false
+  },
+  "tamper_controls": [
+    {
+      "case": "changed_GDS",
+      "rejected": true,
+      "reason": "ValueError: SHA mismatch layout/B7_final.gds"
+    },
+    {
+      "case": "rehashed_wrong_model",
+      "rejected": true,
+      "reason": "ValueError: candidate model binding mismatch"
+    },
+    {
+      "case": "rehashed_missing_truth",
+      "rejected": true,
+      "reason": "ValueError: incomplete 400-case comparison"
+    },
+    {
+      "case": "unsafe_manifest_path",
+      "rejected": true,
+      "reason": "ValueError: unsafe manifest path"
+    }
+  ],
+  "model_tests": {
+    "run": 12,
+    "passed": 12,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "M2_S5": {
+      "run": 8,
+      "passed": 8,
+      "successful": true
+    }
+  },
+  "replay_counts": {
+    "ideal_baseline": 80,
+    "length_original": 53,
+    "length_compensated": 80,
+    "loss_original": 53,
+    "loss_compensated": 80
+  },
+  "core_paths": 58,
+  "fan_paths": 10,
+  "gds_connections": 33,
+  "complex_gauge_error": 4.831464095270225e-12,
+  "sensitivity": [
+    {
+      "neff_offset": -0.001,
+      "neff": 2.352499831254645,
+      "original_passed": 52,
+      "original_minimum_margin": -8.76125548331705,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.08345845781399805
+    },
+    {
+      "neff_offset": -0.0005,
+      "neff": 2.3529998312546447,
+      "original_passed": 53,
+      "original_minimum_margin": -7.126181848836003,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.19038240578881072
+    },
+    {
+      "neff_offset": -0.0001,
+      "neff": 2.3533998312546447,
+      "original_passed": 53,
+      "original_minimum_margin": -5.640868769348085,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.23858427620265743
+    },
+    {
+      "neff_offset": 0.0,
+      "neff": 2.353499831254645,
+      "original_passed": 53,
+      "original_minimum_margin": -5.255607546379915,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.24999999999963168
+    },
+    {
+      "neff_offset": 0.0001,
+      "neff": 2.353599831254645,
+      "original_passed": 53,
+      "original_minimum_margin": -4.867471452002542,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.2391064209587613
+    },
+    {
+      "neff_offset": 0.0005,
+      "neff": 2.353999831254645,
+      "original_passed": 56,
+      "original_minimum_margin": -3.3136683035873964,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.19904355014872904
+    },
+    {
+      "neff_offset": 0.001,
+      "neff": 2.354499831254645,
+      "original_passed": 63,
+      "original_minimum_margin": -1.4707618474319117,
+      "frozen_candidate_passed": 80,
+      "frozen_candidate_minimum_margin": 0.08219576091645933
+    }
+  ],
+  "browser_replay_cases": 400,
+  "browser_path_cases": 68,
+  "worksheet_verified": true,
+  "html_files": 22,
+  "local_links": 1063,
+  "learner_submission": "pending",
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "scope": "Core-plane uniform-neff teaching replay using bound centerline polyline lengths; model-only analytic compensation. No EC/fanout response, calibrated absolute MMI phase, bend loss/index, process or heater calibration.",
+  "next_step": "M3 S1"
+}

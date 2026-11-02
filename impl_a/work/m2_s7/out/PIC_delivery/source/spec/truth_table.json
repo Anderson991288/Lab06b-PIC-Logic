@@ -1,0 +1,566 @@
+{
+ "note": "理想模型（無損耗、R=3）的交接真值表；ΔP 依相位檔全精度計算",
+ "phase_sha256": "c511dc6b37c52e67614ca2f667be908fe6c627db873b664632f8b5f0416316ef",
+ "rows": [
+  {
+   "function": "AND2",
+   "bits": "0000",
+   "target": 0,
+   "delta": -5.711523793155035,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1000",
+   "target": 0,
+   "delta": -2.1153791826500004,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "0100",
+   "target": 0,
+   "delta": -2.1153791826500106,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1100",
+   "target": 1,
+   "delta": 2.115379182650032,
+   "bit": 1
+  },
+  {
+   "function": "AND2",
+   "bits": "0010",
+   "target": 0,
+   "delta": -5.7115237952203675,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1010",
+   "target": 0,
+   "delta": -2.1153791826500026,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "0110",
+   "target": 0,
+   "delta": -2.1153791826500075,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1110",
+   "target": 1,
+   "delta": 2.115379184715361,
+   "bit": 1
+  },
+  {
+   "function": "AND2",
+   "bits": "0001",
+   "target": 0,
+   "delta": -5.71152380439325,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1001",
+   "target": 0,
+   "delta": -2.115379184287035,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "0101",
+   "target": 0,
+   "delta": -2.1153791842870415,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1101",
+   "target": 1,
+   "delta": 2.1153791906141786,
+   "bit": 1
+  },
+  {
+   "function": "AND2",
+   "bits": "0011",
+   "target": 0,
+   "delta": -5.711523806458583,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1011",
+   "target": 0,
+   "delta": -2.1153791842870335,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "0111",
+   "target": 0,
+   "delta": -2.11537918428704,
+   "bit": 0
+  },
+  {
+   "function": "AND2",
+   "bits": "1111",
+   "target": 1,
+   "delta": 2.1153791926795096,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0000",
+   "target": 0,
+   "delta": -2.120502406246203,
+   "bit": 0
+  },
+  {
+   "function": "OR2",
+   "bits": "1000",
+   "target": 1,
+   "delta": 2.120502406246188,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0100",
+   "target": 1,
+   "delta": 2.120502406246185,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "1100",
+   "target": 1,
+   "delta": 6.597118597210374,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0010",
+   "target": 0,
+   "delta": -2.120502406246208,
+   "bit": 0
+  },
+  {
+   "function": "OR2",
+   "bits": "1010",
+   "target": 1,
+   "delta": 2.1205024089833278,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0110",
+   "target": 1,
+   "delta": 2.120502408983329,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "1110",
+   "target": 1,
+   "delta": 6.597118602684661,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0001",
+   "target": 0,
+   "delta": -2.12050241304597,
+   "bit": 0
+  },
+  {
+   "function": "OR2",
+   "bits": "1001",
+   "target": 1,
+   "delta": 2.1205024113498445,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0101",
+   "target": 1,
+   "delta": 2.1205024113498405,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "1101",
+   "target": 1,
+   "delta": 6.597118614217448,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0011",
+   "target": 0,
+   "delta": -2.1205024130459753,
+   "bit": 0
+  },
+  {
+   "function": "OR2",
+   "bits": "1011",
+   "target": 1,
+   "delta": 2.1205024140869844,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "0111",
+   "target": 1,
+   "delta": 2.1205024140869813,
+   "bit": 1
+  },
+  {
+   "function": "OR2",
+   "bits": "1111",
+   "target": 1,
+   "delta": 6.59711861969174,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "0000",
+   "target": 0,
+   "delta": -0.25,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "1000",
+   "target": 1,
+   "delta": 0.24999999999996841,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "0100",
+   "target": 1,
+   "delta": 0.24999999999998423,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "1100",
+   "target": 0,
+   "delta": -0.2499999999999998,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "0010",
+   "target": 0,
+   "delta": -0.24999999999995404,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "1010",
+   "target": 1,
+   "delta": 0.25000000000002465,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "0110",
+   "target": 1,
+   "delta": 0.25000000000002487,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "1110",
+   "target": 0,
+   "delta": -0.24999999999994887,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "0001",
+   "target": 0,
+   "delta": -0.2499999999999995,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "1001",
+   "target": 1,
+   "delta": 0.24999999999996886,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "0101",
+   "target": 1,
+   "delta": 0.24999999999998473,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "1101",
+   "target": 0,
+   "delta": -0.24999999999999936,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "0011",
+   "target": 0,
+   "delta": -0.24999999999995365,
+   "bit": 0
+  },
+  {
+   "function": "XOR2",
+   "bits": "1011",
+   "target": 1,
+   "delta": 0.25000000000002504,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "0111",
+   "target": 1,
+   "delta": 0.25000000000002537,
+   "bit": 1
+  },
+  {
+   "function": "XOR2",
+   "bits": "1111",
+   "target": 0,
+   "delta": -0.24999999999994843,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0000",
+   "target": 0,
+   "delta": -7.854148054507854,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1000",
+   "target": 0,
+   "delta": -6.171116420876856,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0100",
+   "target": 0,
+   "delta": -6.171116497037089,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1100",
+   "target": 0,
+   "delta": -4.051743174407101,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0010",
+   "target": 0,
+   "delta": -6.1711162478097945,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1010",
+   "target": 0,
+   "delta": -4.051743049793751,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0110",
+   "target": 0,
+   "delta": -4.051743087873884,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1110",
+   "target": 0,
+   "delta": -1.4960282008588512,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0001",
+   "target": 0,
+   "delta": -6.171116148444932,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1001",
+   "target": 0,
+   "delta": -4.051743000111241,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0101",
+   "target": 0,
+   "delta": -4.051743038191336,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1101",
+   "target": 0,
+   "delta": -1.496028200858654,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0011",
+   "target": 0,
+   "delta": -4.051742913577633,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1011",
+   "target": 0,
+   "delta": -1.496028200858893,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "0111",
+   "target": 0,
+   "delta": -1.496028200858893,
+   "bit": 0
+  },
+  {
+   "function": "AND4",
+   "bits": "1111",
+   "target": 1,
+   "delta": 1.4960282008588406,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0000",
+   "target": 0,
+   "delta": -1.4998553450018481,
+   "bit": 0
+  },
+  {
+   "function": "OR4",
+   "bits": "1000",
+   "target": 1,
+   "delta": 1.4998553450018313,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0100",
+   "target": 1,
+   "delta": 1.4998553450017993,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1100",
+   "target": 1,
+   "delta": 4.582891321776728,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0010",
+   "target": 1,
+   "delta": 1.499855345001809,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1010",
+   "target": 1,
+   "delta": 4.582891320442581,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0110",
+   "target": 1,
+   "delta": 4.5828913247246525,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1110",
+   "target": 1,
+   "delta": 7.749252586936674,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0001",
+   "target": 1,
+   "delta": 1.4998553450018117,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1001",
+   "target": 1,
+   "delta": 4.58289133917539,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0101",
+   "target": 1,
+   "delta": 4.582891343457463,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1101",
+   "target": 1,
+   "delta": 7.749252624402293,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0011",
+   "target": 1,
+   "delta": 4.582891342123316,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1011",
+   "target": 1,
+   "delta": 7.749252621733983,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "0111",
+   "target": 1,
+   "delta": 7.749252630298162,
+   "bit": 1
+  },
+  {
+   "function": "OR4",
+   "bits": "1111",
+   "target": 1,
+   "delta": 10.998939196680078,
+   "bit": 1
+  }
+ ]
+}

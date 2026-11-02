@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-10-30T23:59:43.219249+08:00",
+  "root": "D:\\LAB\\Lab06b",
+  "steps": 17,
+  "hours": 18,
+  "original_course_html_unchanged": true,
+  "core_toolchain": {
+    "pass": 11,
+    "blocked": 0
+  },
+  "clean_drc_markers": 0,
+  "fault_hits": {
+    "F1": 1,
+    "F2": 1,
+    "F3": 1,
+    "F4": 1,
+    "F5": 1,
+    "F7": 1,
+    "F8": 1,
+    "F6": 1
+  },
+  "backup": "D:\\LAB\\Lab06b\\history\\before_update_20261030_235202",
+  "actual_root_matches_plan": true,
+  "next_step": "M0 S2",
+  "learner_submission": "pending"
+}

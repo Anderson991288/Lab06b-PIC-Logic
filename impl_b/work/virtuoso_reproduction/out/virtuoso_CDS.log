@@ -1,0 +1,206 @@
+\# Program start time:     UTC 2026.10.31 08:12:23.365
+\# Local time: GMT+08:00 (UTC+08:00) 2026.10.31 16:12:23.365
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/08/2025 22:36 (cpgbld17) $
+\o Hierarchy:		/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR15.37  (64-bit addresses)
+\# Command line:	/home/EDA/cadence/IC231_ISR15/tools/dfII/bin/64bit/virtuoso -replay /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/open_current.il -log /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/virtuoso_CDS.log
+\# Host name (type):	eda.ic (x86_64)
+\# Operating system:	Linux 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:0 (3440x1440)
+\# Available geometry:			TL(0:0) BR(3439:1439)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12401012)
+\# X resource pool:	base 0x800000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,569 MB
+\# Available memory:	     39,748 MB
+\# System memory:	     40,254 MB
+\# Maximum memory size:	     38,871 MB
+\# Max mem available:	     38,871 MB
+\# Initial memory used:	        185 MB
+\#        process size:	      1,721 MB
+\# Thread usage limits (effective/default):	maxthreads 128206/128206 maxload 16.00/16.00
+\# Qt version:		5.15.9
+\# Window Manager:	Weston WM
+\# User Name:		edauser
+\o Working Directory:	eda.ic:/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa
+\# Process Id:		834
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o INFO (DB-120008): oaSocket connection timeout value was set to 5 seconds.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is Virtuoso.
+\# [16:12:37.280481] Configured Lic search path (23.02-s006): 5280@eda.ic
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.00s.
+\# Memory report: using         326 MB, process size 1,995 MB at UTC 2026.10.31 08:12:40.393
+\w *WARNING* LIB LAB06B_REPRO_20261031 from File /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa/cds.lib Line 2 redefines
+\w LIB LAB06B_REPRO_20261031 from the same file (defined earlier.)
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\o 2026/10/31 16:12:40 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+\o 2026/10/31 16:12:40 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+\i ; Current Lab06b GDS only. New C-backed OA library; no historical library edited.
+\i load("/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/lib/calibre.skl")
+\# [16:12:40.097986] Periodic Lic check successful
+\# [16:12:40.622292] Feature usage summary:
+\# [16:12:40.622292] 111
+\# [16:12:40.622293] Virtuoso_Adv_Node_Framework
+\o //
+\o //  Calibre Skill Interface * (v2026.1_17.11) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\t t
+\p > 
+\i envSetVal("layout" "stopLevel" 'int 32)
+\t t
+\p > 
+\i drLoadDrf("/mnt/c/EDA_Codex/Lab06b/reference/C01/outputs/m2_s7/virtuoso/report_colors.drf" nil)
+\t t
+\p > 
+\i tf=techGetTechFile(ddGetObj("LAB06B_REPRO_20261031"))
+\t db:0x6246ed1a
+\p > 
+\i foreach(pair list(list("L3" "rptBlue" "blank") list("L41" "rptGreen" "solid") list("L39" "rptOrange" "solid") list("L4" "rptYellow" "solid") list("L5" "rptPink" "solid") list("L99" "rptBrown" "blank") list("L100" "rptLabel" "solid") list("L1002" "rptLabel" "blank"))
+\i   lp=techGetLP(tf list(car(pair) "drawing"))
+\i   when(lp drSetPacket("display" techGetLPPacketName(lp) caddr(pair) "solid" cadr(pair) cadr(pair) if(equal(caddr(pair) "blank") then "outline" else "solid")))
+\i )
+\t (("L3" "rptBlue" "blank") 
+\t     ("L41" "rptGreen" "solid") 
+\t     ("L39" "rptOrange" "solid") 
+\t     ("L4" "rptYellow" "solid") 
+\t     ("L5" "rptPink" "solid")
+\t     ("L99" "rptBrown" "blank") 
+\t     ("L100" "rptLabel" "solid") 
+\t     ("L1002" "rptLabel" "blank")
+\t )
+\p > 
+\i cv=dbOpenCellViewByType("LAB06B_REPRO_20261031" "LAB06B_B7_EC_PAD_CHIP" "layout" "" "r")
+\w *WARNING* (DB-270212): dbOpenCellViewByType: Cannot open cellview 'LAB06B_REPRO_20261031/LAB06B_B7_EC_PAD_CHIP/layout' in 'r' mode because the cellview does not exist. Ensure that the cellview exists and then reopen it in 'r' mode.
+\t nil
+\p > 
+\i proof=outfile("/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/oa_readback.txt")
+\t port:"/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/oa_readback.txt"
+\p > 
+\i fprintf(proof "Library=LAB06B_REPRO_20261031\nCell=LAB06B_B7_EC_PAD_CHIP\nView=layout\n")
+\t t
+\p > 
+\i fprintf(proof "CellView=%L\nBBox=%L\nTopInstances=%d\n" cv cv~>bBox length(cv~>instances))
+\t t
+\p > 
+\i fprintf(proof "Cells=%L\n" ddGetObj("LAB06B_REPRO_20261031")~>cells~>name)
+\t t
+\p > 
+\i close(proof)
+\t t
+\p > 
+\i deOpenCellView("LAB06B_REPRO_20261031" "LAB06B_B7_EC_PAD_CHIP" "layout" "maskLayout" nil "r")
+\w *WARNING* LIB LAB06B_REPRO_20261031 from File /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa/cds.lib Line 2 redefines
+\w LIB LAB06B_REPRO_20261031 from the same file (defined earlier.)
+\o * Field is "deCellChoice" *
+\e *Error* hiCreateListBoxField: each value string/integer/range must be contained within the list of choices
+\e 
+\p > 
+\i hiZoomFit(hiGetCurrentWindow())
+\e *Error* eval: undefined function - hiZoomFit
+\p > 
+\i printf("LAB06B_REPRO_OPEN_COMPLETE\n")
+\o LAB06B_REPRO_OPEN_COMPLETE
+\t t
+\p > 
+\# Replay complete, returning to interactive mode at UTC 2026.10.31 08:12:41.359
+\# Available memory:         38,829 MB at UTC 2026.10.31 08:12:48.329
+\# Thread usage report: 10 active threads, active load 1.40 at UTC 2026.10.31 08:12:48.329
+\a hiResizeWindow(window(1) list(633:156 1428:349))
+\# [16:29:32.003272] periodic Lic check successful
+\# [16:29:32.003272] Feature usage summary:
+\# [16:29:32.016568]  Virtuoso_Adv_Node_Framework  
+\# [16:29:32.468895]   111  
+\r t
+\# Memory report: using         614 MB, process size 2,350 MB at UTC 2026.10.31 09:01:04.275
+\o Signal SIGTERM received on Saturday 31 October 2026 at 05:00:56 PM (CST)
+\o The signal was sent by process id 16946 which corresponds to the command: /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 -
+\o <<< C Stack Trace (begin) >>>
+\o libvirtuos_sh.so:voSigExitHandler.part.0+123()
+\o libpthread.so.0:__restore_rt+0()
+\o libc.so.6:ppoll+166()
+\o libcdsQt5Core.so.5:_Z12qt_safe_pollP6pollfdmPK8timespec+80()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherUNIX13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+579()
+\o libcdsQt5XcbQpa.so.5:+163686481()
+\o virtuoso:hiiFillCIWInPortCB+1571()
+\o libil_sh.so:iliBGetc+84()
+\o libil_sh.so:ilGetCharPort+106()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+196()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+18224()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2580()
+\o libil_sh.so:ilParserReent+48()
+\o libil_sh.so:ilReadport+556()
+\o libil_sh.so:iliTopLevel+329()
+\o virtuoso:hiMainLoop+895()
+\o virtuoso:_ZN3rde15startHiMainLoopEv+7550()
+\o virtuoso:Tcl_MainEx+1332()
+\o virtuoso:_ZN17TclCommandAdaptor8mainLoopEiPPcPKcRKSt6vectorI9ctuStringSaIS5_EEPFvvE+1665()
+\o virtuoso:_Z11finaleEntryiPPcPKcbP16finaleAppHarness+5449()
+\o virtuoso:_Z12rdeStartMainiPPc+43()
+\o virtuoso:main+1080()
+\o libc.so.6:__libc_start_main+229()
+\o virtuoso:_start+41()
+\o <<< C Stack Trace (end) >>>
+\o <<< Stack Trace >>>
+\o 	_insideilparser = t
+\o <<< SKILL Stack Trace (end) >>>
+\o 
+\o Running command: /usr/bin/top -b -n 1 -c
+\o top - 17:00:58 up 55 min,  0 users,  load average: 0.47, 0.18, 0.06
+\o 
+\o Running command: /home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdsPstack 834
+\o 
+\o Memory usage on exit: 614 MB, process size: 2350 MB

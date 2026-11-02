@@ -1,0 +1,225 @@
+{
+  "timestamp": "2026-10-31T11:23:33.949103+08:00",
+  "step": "M2 S1",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "summary": {
+    "optical_interfaces": 10,
+    "phase_drive_interfaces": 14,
+    "logical_return_nets": 1,
+    "electrical_interface_roles": 15,
+    "physical_pad_count": null,
+    "on_chip_blocks": 4,
+    "external_blocks": 8
+  },
+  "unit_tests": {
+    "run": 15,
+    "passed": 15,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "M1_spec_bound",
+      "passed": true
+    },
+    {
+      "name": "M1_sources_unchanged",
+      "passed": true
+    },
+    {
+      "name": "ten_core_optical_ports",
+      "passed": true
+    },
+    {
+      "name": "fourteen_drives_one_return",
+      "passed": true
+    },
+    {
+      "name": "all_heater_returns_mapped",
+      "passed": true
+    },
+    {
+      "name": "external_readout_polarity",
+      "passed": true
+    },
+    {
+      "name": "physical_pad_count_pending",
+      "passed": true
+    },
+    {
+      "name": "CSV_tables_match",
+      "passed": true
+    },
+    {
+      "name": "M1_truth_replay",
+      "passed": true
+    },
+    {
+      "name": "five_controlled_errors_rejected",
+      "passed": true
+    },
+    {
+      "name": "delivery_hashes",
+      "passed": true
+    }
+  ],
+  "source_hashes_verified": true,
+  "M1_source_files_and_zip_unchanged": true,
+  "M1_replay": {
+    "AND2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 2.11537918265,
+      "minimum_clearance": 2.11537918255,
+      "minimum_abs_delta": 2.11537918265,
+      "worst_pattern": "1010",
+      "confusion_actual_by_predicted": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "accepted": true
+    },
+    "OR2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 2.120502406246193,
+      "minimum_clearance": 2.120502406146193,
+      "minimum_abs_delta": 2.120502406246193,
+      "worst_pattern": "0100",
+      "confusion_actual_by_predicted": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "accepted": true
+    },
+    "XOR2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 0.24999999999994915,
+      "minimum_clearance": 0.24999999989994914,
+      "minimum_abs_delta": 0.24999999999994915,
+      "worst_pattern": "1111",
+      "confusion_actual_by_predicted": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "accepted": true
+    },
+    "AND4": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 1.496028200858654,
+      "minimum_clearance": 1.496028200758654,
+      "minimum_abs_delta": 1.496028200858654,
+      "worst_pattern": "1101",
+      "confusion_actual_by_predicted": [
+        [
+          15,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "accepted": true
+    },
+    "OR4": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 1.4998553450018055,
+      "minimum_clearance": 1.4998553449018055,
+      "minimum_abs_delta": 1.4998553450018055,
+      "worst_pattern": "0100",
+      "confusion_actual_by_predicted": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          15
+        ]
+      ],
+      "accepted": true
+    }
+  },
+  "html_files": 16,
+  "local_links": 744,
+  "browser_block_cases": 12,
+  "browser_interface_cases": 125,
+  "learner_worksheet_verified": true,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s1_20261031_111329",
+  "learner_submission": "pending",
+  "next_step": "M2 S2"
+}

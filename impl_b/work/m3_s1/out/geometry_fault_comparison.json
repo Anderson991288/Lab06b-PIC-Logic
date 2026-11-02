@@ -1,0 +1,65 @@
+{
+  "reference_sha256": "d4e21e3eea8676866712f66728daa8391919efb9eced241f8d707b7838b91391",
+  "rebuilt_sha256": "8eccaa5c4e16ad9309dbc26b155989a8e12865e62fddd10df475b0ef0de16ecb",
+  "dbu_um": 0.001,
+  "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+  "layers": [
+    {
+      "layer": 3,
+      "datatype": 0,
+      "XOR_polygons": 1,
+      "text_identical": true,
+      "passed": false
+    },
+    {
+      "layer": 4,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    },
+    {
+      "layer": 5,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    },
+    {
+      "layer": 39,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    },
+    {
+      "layer": 41,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    },
+    {
+      "layer": 99,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    },
+    {
+      "layer": 100,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    },
+    {
+      "layer": 1002,
+      "datatype": 0,
+      "XOR_polygons": 0,
+      "text_identical": true,
+      "passed": true
+    }
+  ],
+  "passed": false
+}

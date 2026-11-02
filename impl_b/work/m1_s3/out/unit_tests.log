@@ -1,0 +1,20 @@
+test_boundary_and_nonzero_threshold (WeightedReadoutTests.WeightedReadoutTests.test_boundary_and_nonzero_threshold) ... ok
+test_complex_terms_without_conjugating_row (WeightedReadoutTests.WeightedReadoutTests.test_complex_terms_without_conjugating_row) ... ok
+test_cumulative_sum_and_no_input_mutation (WeightedReadoutTests.WeightedReadoutTests.test_cumulative_sum_and_no_input_mutation) ... ok
+test_difference_operator_is_hermitian (WeightedReadoutTests.WeightedReadoutTests.test_difference_operator_is_hermitian) ... ok
+test_global_phase_invariance (WeightedReadoutTests.WeightedReadoutTests.test_global_phase_invariance) ... ok
+test_independent_phase_average_removes_all_cross_terms (WeightedReadoutTests.WeightedReadoutTests.test_independent_phase_average_removes_all_cross_terms) ... ok
+test_inherited_and2_two_worked_cases (WeightedReadoutTests.WeightedReadoutTests.test_inherited_and2_two_worked_cases) ... ok
+test_input_scale_squares_power_and_absolute_epsilon (WeightedReadoutTests.WeightedReadoutTests.test_input_scale_squares_power_and_absolute_epsilon) ... ok
+test_interference_expansion_and_signed_terms (WeightedReadoutTests.WeightedReadoutTests.test_interference_expansion_and_signed_terms) ... ok
+test_readout_port_swap_changes_sign (WeightedReadoutTests.WeightedReadoutTests.test_readout_port_swap_changes_sign) ... ok
+test_reference_phase_average_keeps_data_interference (WeightedReadoutTests.WeightedReadoutTests.test_reference_phase_average_keeps_data_interference) ... ok
+test_relative_phase_cannot_be_discarded (WeightedReadoutTests.WeightedReadoutTests.test_relative_phase_cannot_be_discarded) ... ok
+test_scalar_sum_matches_matrix (WeightedReadoutTests.WeightedReadoutTests.test_scalar_sum_matches_matrix) ... ok
+test_ten_pair_terms_complete_power (WeightedReadoutTests.WeightedReadoutTests.test_ten_pair_terms_complete_power) ... ok
+test_validation (WeightedReadoutTests.WeightedReadoutTests.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.312s
+
+OK

@@ -1,0 +1,35 @@
+{
+  "schema": "lab06b.m3_acceptance.v1",
+  "step": "M3 S1",
+  "status": "clean_source_rebuild_accepted",
+  "source_chip_index": "config/m2_current_chip.json",
+  "source_delivery_index": "config/m2_delivery.json",
+  "result": "work/m3_s1/out/rebuild_results.json",
+  "result_sha256": "6a0c616b34a48915095f8635a50bf50bed926f55b1d13605888dc4b761415260",
+  "controls": "work/m3_s1/out/acceptance_controls.json",
+  "controls_sha256": "b41723f6c9f600b523b43a797b85c8dafd6280e31d0b04477ca9ae7e7080f9e3",
+  "normalized_sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+  "date_records_per_file": 44,
+  "raw_byte_identical": false,
+  "geometry_and_text_identical": true,
+  "builds": [
+    {
+      "build": "A",
+      "gds": "work/m3_s1/out/build_A/b7_rebuilt.gds",
+      "sha256": "d4e21e3eea8676866712f66728daa8391919efb9eced241f8d707b7838b91391",
+      "checks": 13,
+      "replay_cases": 400
+    },
+    {
+      "build": "B",
+      "gds": "work/m3_s1/out/build_B/b7_rebuilt.gds",
+      "sha256": "81d50696363f59af0614033b31f74c8df486f576288dbc94c2e5932c30f565c4",
+      "checks": 13,
+      "replay_cases": 400
+    }
+  ],
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "learner_submission": "pending",
+  "next_step": "M3 S2"
+}

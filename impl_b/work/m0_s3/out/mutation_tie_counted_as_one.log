@@ -1,0 +1,14 @@
+test_readout_boundary_has_no_valid_bit (optical_test_module.OpticalModels.test_readout_boundary_has_no_valid_bit) ... FAIL
+
+======================================================================
+FAIL: test_readout_boundary_has_no_valid_bit (optical_test_module.OpticalModels.test_readout_boundary_has_no_valid_bit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\EDA_Codex\Lab06b\work\m0_s3\test_optical_models.py", line 119, in test_readout_boundary_has_no_valid_bit
+    self.assertIsNone(network.power_difference_readout([0,1,0,1])['bit'])
+AssertionError: 1 is not None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

@@ -1,0 +1,12 @@
+{
+  "bits": [1, 1],
+  "and_relative_phase_pi": 0.0,
+  "and_threshold": 1.0,
+  "and_loss_db": 0.0,
+  "nand_reference_amplitude": 2.0,
+  "nand_reference_phase_pi": 0.0,
+  "nand_threshold": 0.16666666666666666,
+  "power_unit_w": 0.000001,
+  "responsivity_a_per_w": 0.8,
+  "transimpedance_v_per_a": 10000.0
+}

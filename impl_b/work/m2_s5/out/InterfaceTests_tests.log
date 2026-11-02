@@ -1,0 +1,13 @@
+test_A_B_coordinates_from_accepted_core (InterfaceTests.InterfaceTests.test_A_B_coordinates_from_accepted_core) ... ok
+test_A_drive_B_return_contract (InterfaceTests.InterfaceTests.test_A_drive_B_return_contract) ... ok
+test_driver_interfaces_preserved (InterfaceTests.InterfaceTests.test_driver_interfaces_preserved) ... ok
+test_fans_keep_order (InterfaceTests.InterfaceTests.test_fans_keep_order) ... ok
+test_local_metal_min_width (InterfaceTests.InterfaceTests.test_local_metal_min_width) ... ok
+test_no_unvalidated_EC_loss_claim (InterfaceTests.InterfaceTests.test_no_unvalidated_EC_loss_claim) ... ok
+test_pad_rows_fit_frame (InterfaceTests.InterfaceTests.test_pad_rows_fit_frame) ... ok
+test_positive_fiber_pitch (InterfaceTests.InterfaceTests.test_positive_fiber_pitch) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "delivery": "delivery\\m2_pic_delivery",
+  "zip": "delivery\\Lab06b_M2_PIC_delivery.zip",
+  "zip_sha256": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+  "files": 50,
+  "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+  "manifest_sha256": "e59f73524fa0190ae857ef91e4b234872a7063bbc9098f461c7c90797f249700",
+  "portable_replay": {
+    "status": "passed",
+    "integrity": {
+      "status": "passed",
+      "files": 50,
+      "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "physical_function_qualified": false,
+      "foundry_full_signoff": false
+    },
+    "scenarios": {
+      "ideal_baseline": {
+        "passed": 80,
+        "total": 80
+      },
+      "length_original": {
+        "passed": 53,
+        "total": 80
+      },
+      "length_compensated": {
+        "passed": 80,
+        "total": 80
+      },
+      "loss_original": {
+        "passed": 53,
+        "total": 80
+      },
+      "loss_compensated": {
+        "passed": 80,
+        "total": 80
+      }
+    },
+    "max_abs_delta_error": 0.0,
+    "physical_function_qualified": false,
+    "scope": "Verified replay of packaged uniform-neff core-plane teaching model; not calibrated chip acceptance."
+  },
+  "portable_geometry": {
+    "status": "passed",
+    "pre_DRC_records": 0,
+    "metal_nets": 15,
+    "optical_connections": 33,
+    "foundry_full_signoff": false
+  },
+  "relocated_path": "C:\\EDA_Codex\\Lab06b\\work\\m2_s7\\work\\relocated package 測試",
+  "tamper_controls": [
+    {
+      "case": "changed_GDS",
+      "rejected": true,
+      "reason": "ValueError: SHA mismatch layout/B7_final.gds"
+    },
+    {
+      "case": "rehashed_wrong_model",
+      "rejected": true,
+      "reason": "ValueError: candidate model binding mismatch"
+    },
+    {
+      "case": "rehashed_missing_truth",
+      "rejected": true,
+      "reason": "ValueError: incomplete 400-case comparison"
+    },
+    {
+      "case": "unsafe_manifest_path",
+      "rejected": true,
+      "reason": "ValueError: unsafe manifest path"
+    }
+  ],
+  "source_hashes": {
+    "work/m2_s7/build_delivery.py": "e85fab82b52ce4e8e8cf3481412b6e993e85805cb2e7824debf333ece8b4f0ba",
+    "work/m2_s7/verify_delivery.py": "d2dc50004ff2e70d75f1651f8df2bfbc171f981ad88041578c898833b4994bf4",
+    "work/m2_s7/replay_delivery.py": "4d2949b6ac070503a22f72cf4eb9b0c32cdc985bd480a4dfcb6220f1130b605f",
+    "work/m2_s7/recheck_geometry.py": "b868dfc5dc9389acae3ea6987c2f07c7075de2f77981115032192c56f0a2ade8",
+    "work/m2_s7/geometry_engine.py": "e3c3e86426e24495ac2d9c4a082bc391dadbf54f75b3f5bafb2173a60a3d8f60"
+  },
+  "physical_function_qualified": false
+}

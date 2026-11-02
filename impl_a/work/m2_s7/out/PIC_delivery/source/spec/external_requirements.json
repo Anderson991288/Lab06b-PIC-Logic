@@ -1,0 +1,37 @@
+{
+ "note": "理想 B7、5 種功能、80 筆全對為準；每項單獨變化，其餘理想。實際系統多項同時存在，需保留餘量。",
+ "pd_responsivity_mismatch": {
+  "range": [
+   -0.20640525530581355,
+   0.3067525986339541
+  ],
+  "unit": "相對（o2 的 PD 響應度 ÷ o4 的 PD − 1）"
+ },
+ "r_amplitude_scale": {
+  "range": [
+   0.855,
+   1.135
+  ],
+  "unit": "倍率（1 = 振幅 3）"
+ },
+ "r_phase_rad": {
+  "range": [
+   -0.5759586531581288,
+   0.7243116395776468
+  ],
+  "unit": "rad"
+ },
+ "modulator_extinction_db_min": 18.25,
+ "data_phase_sigma_rad": 0.1,
+ "data_amp_sigma": 0.02,
+ "monte_carlo_n": 500,
+ "heater": {
+  "channels": 14,
+  "range_rad": [
+   0,
+   6.283185307179586
+  ],
+  "accuracy_rad": 0.02,
+  "drive": "需校正；PDK 公開資料未提供 heater 效率"
+ }
+}

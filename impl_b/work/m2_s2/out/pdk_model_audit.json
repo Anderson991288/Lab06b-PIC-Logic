@@ -1,0 +1,106 @@
+{
+  "pdk_version": "2.6.luceda1",
+  "ipkiss_version": "2026.03.3",
+  "python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+  "pdk_module": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\__init__.py",
+  "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+  "compact_model": "picazzo3.logical.coupler.cell.Coupler2x2Model",
+  "parameters": {
+    "back_coupling_in": [
+      0.0,
+      0.0
+    ],
+    "back_coupling_out": [
+      0.0,
+      0.0
+    ],
+    "reflection_in1": [
+      0.0,
+      0.0
+    ],
+    "reflection_in2": [
+      0.0,
+      0.0
+    ],
+    "reflection_out1": [
+      0.0,
+      0.0
+    ],
+    "reflection_out2": [
+      0.0,
+      0.0
+    ],
+    "straight_coupling1": [
+      0.7071067811865476,
+      0.0
+    ],
+    "straight_coupling2": [
+      0.7071067811865476,
+      0.0
+    ],
+    "cross_coupling1": [
+      0.0,
+      0.7071067811865476
+    ],
+    "cross_coupling2": [
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  "source_files": [
+    {
+      "path": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\cornerstone_components220.py",
+      "sha256": "48890a56d3a56da86097ccc1e8ce7d51e45f9c4ff4cf3bab4cb266c872ac88dc"
+    },
+    {
+      "path": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\Lib\\site-packages\\picazzo3\\logical\\coupler\\cell.py",
+      "sha256": "dbaea503a2615266ca0fe4675ec3a4aebdee2d49aac2ba10e34048fd103e117f"
+    }
+  ],
+  "ports": [
+    {
+      "name": "in1",
+      "x_um": -20.0,
+      "y_um": -1.0149999999999975
+    },
+    {
+      "name": "in2",
+      "x_um": -20.0,
+      "y_um": 1.0150000000000023
+    },
+    {
+      "name": "out1",
+      "x_um": 62.5,
+      "y_um": -1.015
+    },
+    {
+      "name": "out2",
+      "x_um": 62.5,
+      "y_um": 1.015
+    }
+  ],
+  "forward_upper_lower": [
+    [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        0.0
+      ]
+    ]
+  ],
+  "max_abs_H_error": 1.1102230246251565e-16,
+  "interpretation": "Installed PDK inherits default ideal Coupler2x2Model. Agreement validates circuit semantics, not measured loss, fabrication tolerance, bandwidth or thermal calibration."
+}

@@ -1,0 +1,726 @@
+{
+ "step": "M3 s1",
+ "date": "2026-10-31",
+ "dest": "work/m3_s1/out/rebuild",
+ "archived": {
+  "work/m0_s2/out/field_comb.json": "d7cfdaadd26939f04a53f8f0bf89ccacc3e8a2738c59a0fe02c2937c5513f109",
+  "work/m0_s2/out/field_comb.npz": "0dda5a83b88af6beaaca0399a7e1c3f4bea679265230372af633c01020ac01d6",
+  "work/m0_s2/out/field_mmi.json": "d86b9be34f65daa15b4a1fe3d6c0a3c50ff6b407c1de3209cbfb4476ea68da54",
+  "work/m0_s2/out/field_mmi.npz": "455c919d100132f0231bcb95abc1bf11386d1fc75dbed20401ed89106e121c5a",
+  "work/m0_s2/out/field_mmi_r16.json": "7b1fed65e27ba3f841727a7cee1a4efe759c5e5869b5f90dda92052ae6f3d648",
+  "work/m0_s2/out/field_mmi_r32.json": "4cfa7af04a182cabe8b93d896678fea6396ad4aca87ec2b651e17c084df103ae",
+  "work/m0_s2/out/field_t0.json": "8de8ac8a699f5993381a4ec7cabf5d6f4f52100681a26f81bd9db200dad135fc",
+  "work/m0_s2/out/field_t0.npz": "543778ba7ec8911bfba03775c544dc19f87c869f2ce8c5a89d7603aed5116dca",
+  "work/m0_s2/out/field_tpi.json": "f6df451fdc2c0d1997d50ff54b217ecb45e1a1a3777ce7a774fc80793b0f4b26",
+  "work/m0_s2/out/field_tpi.npz": "242fa93bc30e7d540060130949fd37aa295b1c41fd66a4c33561f7ae30311565",
+  "work/m0_s2/out/field_tpi2.json": "12f7bab953cb98528b7f1f0ae5f1c0aa03a664219e252eeaec6cce0fd6062b4f",
+  "work/m0_s2/out/field_tpi2.npz": "4c6fee72960d0a73c8720c75d69feea6c4ec16b36337b2b4f7c0ab48a3543aa7"
+ },
+ "runs": [
+  {
+   "script": "m0_s2/collect_reference.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 0.3,
+   "tail": "",
+   "step": "M0 s2"
+  },
+  {
+   "script": "m0_s2/waveguide_modes.py",
+   "kind": "femwell",
+   "rc": 0,
+   "seconds": 253.9,
+   "tail": "",
+   "step": "M0 s2"
+  },
+  {
+   "script": "m0_s2/export_mmi.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 1.5,
+   "tail": "",
+   "step": "M0 s2"
+  },
+  {
+   "script": "m0_s2/analyze_fields.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 3.4,
+   "tail": "",
+   "step": "M0 s2"
+  },
+  {
+   "script": "m0_s3/run_tests.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 1.2,
+   "tail": "",
+   "step": "M0 s3"
+  },
+  {
+   "script": "m1_s1/encode_logic.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 1.6,
+   "tail": "",
+   "step": "M1 s1"
+  },
+  {
+   "script": "m1_s2/collect_reference.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 0.2,
+   "tail": "",
+   "step": "M1 s2"
+  },
+  {
+   "script": "m1_s2/build_b7.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 1.2,
+   "tail": "",
+   "step": "M1 s2"
+  },
+  {
+   "script": "m1_s3/readout_calc.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 1.3,
+   "tail": "",
+   "step": "M1 s3"
+  },
+  {
+   "script": "m1_s4/collect_phases.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 0.2,
+   "tail": "",
+   "step": "M1 s4"
+  },
+  {
+   "script": "m1_s4/logic_gates.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 52.3,
+   "tail": "",
+   "step": "M1 s4"
+  },
+  {
+   "script": "m1_s5/make_spec.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 0.7,
+   "tail": "",
+   "step": "M1 s5"
+  },
+  {
+   "script": "m1_s5/check_spec.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 0.3,
+   "tail": "",
+   "step": "M1 s5"
+  },
+  {
+   "script": "m2_s1/pic_boundary.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 5.3,
+   "tail": "",
+   "step": "M2 s1"
+  },
+  {
+   "script": "m2_s2/simulate.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 23.9,
+   "tail": "",
+   "step": "M2 s2"
+  },
+  {
+   "script": "m2_s3/build_layout.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 27.3,
+   "tail": "",
+   "step": "M2 s3"
+  },
+  {
+   "script": "m2_s4/review_layout.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 1.8,
+   "tail": "",
+   "step": "M2 s4"
+  },
+  {
+   "script": "m2_s5/build_chip.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 23.6,
+   "tail": "",
+   "step": "M2 s5"
+  },
+  {
+   "script": "m2_s6/verify_chip.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 10.0,
+   "tail": "",
+   "step": "M2 s6"
+  },
+  {
+   "script": "m2_s7/package.py",
+   "kind": "ipk",
+   "rc": 0,
+   "seconds": 5.9,
+   "tail": "",
+   "step": "M2 s7"
+  }
+ ],
+ "ok_run": true,
+ "counts": {
+  "identical": 70,
+  "equivalent": 52,
+  "different": 4
+ },
+ "different": {
+  "work/m0_s2/out/m0_s2_result.json": "/date（2026-10-31 vs 2026-11-01）",
+  "work/m0_s2/out/modes.json": "/date（2026-10-31 vs 2026-11-01）",
+  "work/m2_s7/out/PIC_delivery/manifest.json": "/files[44]/sha256（8fea7302f260d112f4cd3e19346271b1f397b861 vs 49f3afbc407d79c28e948cc67c6759a694338306）；/files[44]/size（6392 vs 6394）",
+  "work/m2_s7/out/PIC_delivery/source/work/m0_s2/out/m0_s2_result.json": "/date（2026-10-31 vs 2026-11-01）"
+ },
+ "status": {
+  "course/figures/m0_s2/mmi_field.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m0_s2/mzi_fields.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m0_s2/wg_modes.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m0_s3/theta_sweep.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s1/b7_io.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s1/single_mzi_logic.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s2/b7_cross_trace.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s2/b7_u_layers.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s3/dp_terms.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s3/phasor_1100.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s4/robustness.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s4/truth_tables.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m1_s5/b7_spec.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s1/pic_boundary.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s1/tolerance.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s2/arm_mismatch.png": [
+   "equivalent",
+   "反鋸齒差 1 個灰階（數值在容差內的差異）"
+  ],
+  "course/figures/m2_s2/netlist.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s3/b7_core.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s3/mzi_core.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s3/path_match.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s4/review_overview.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s4/review_zoom.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s5/chip_overview.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s5/ec_detail.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s5/electrical.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s6/drc_faults.png": [
+   "identical",
+   ""
+  ],
+  "course/figures/m2_s6/lvs_extract.png": [
+   "identical",
+   ""
+  ],
+  "sources/b7_phases.json": [
+   "identical",
+   ""
+  ],
+  "sources/reference_b7.json": [
+   "identical",
+   ""
+  ],
+  "sources/reference_fields.json": [
+   "identical",
+   ""
+  ],
+  "spec/external_requirements.json": [
+   "identical",
+   ""
+  ],
+  "spec/io_table.json": [
+   "identical",
+   ""
+  ],
+  "spec/netlist.json": [
+   "identical",
+   ""
+  ],
+  "spec/pic_spec.json": [
+   "identical",
+   ""
+  ],
+  "spec/truth_table.json": [
+   "identical",
+   ""
+  ],
+  "work/m0_s2/out/_wg.msh": [
+   "identical",
+   ""
+  ],
+  "work/m0_s2/out/m0_s2_result.json": [
+   "different",
+   "/date（2026-10-31 vs 2026-11-01）"
+  ],
+  "work/m0_s2/out/MMI.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m0_s2/out/mmi_geometry.json": [
+   "identical",
+   ""
+  ],
+  "work/m0_s2/out/modes.json": [
+   "different",
+   "/date（2026-10-31 vs 2026-11-01）"
+  ],
+  "work/m0_s3/out/m0_s3_result.json": [
+   "identical",
+   ""
+  ],
+  "work/m0_s3/out/tests.json": [
+   "identical",
+   ""
+  ],
+  "work/m1_s1/out/m1_s1_result.json": [
+   "identical",
+   ""
+  ],
+  "work/m1_s2/out/m1_s2_result.json": [
+   "identical",
+   ""
+  ],
+  "work/m1_s2/out/tests.json": [
+   "identical",
+   ""
+  ],
+  "work/m1_s3/out/m1_s3_result.json": [
+   "identical",
+   ""
+  ],
+  "work/m1_s3/out/tests.json": [
+   "identical",
+   ""
+  ],
+  "work/m1_s4/out/m1_s4_result.json": [
+   "equivalent",
+   "只差執行時間或檔案大小"
+  ],
+  "work/m1_s5/out/spec_check.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s1/out/m2_s1_result.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s2/out/m2_s2_result.json": [
+   "equivalent",
+   "數值在容差內（最大相對差 3.8e-12）"
+  ],
+  "work/m2_s2/out/matrices.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s2/out/truth_tables.csv": [
+   "identical",
+   ""
+  ],
+  "work/m2_s3/out/b7_core.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/b7_core_arm.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/b7_core_arm_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s3/out/b7_core_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s3/out/b7_core_flip.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/b7_core_flip_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s3/out/b7_core_offset.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/b7_core_offset_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s3/out/b7_core_straight.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/b7_core_straight_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s3/out/b7_core_wrong_rail.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/b7_core_wrong_rail_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s3/out/layout_info.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s3/out/m2_s3_result.json": [
+   "equivalent",
+   "數值在容差內（最大相對差 2.0e-11）"
+  ],
+  "work/m2_s3/out/mzi_core.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s3/out/mzi_core_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s4/out/review_checks.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s5/out/b7_chip.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s5/out/b7_chip_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s5/out/b7_chip_open.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s5/out/b7_chip_open_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s5/out/b7_chip_pad_swap.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s5/out/b7_chip_pad_swap_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s5/out/b7_chip_short.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s5/out/b7_chip_short_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s5/out/b7_chip_unmatched.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s5/out/b7_chip_unmatched_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s5/out/chip_info.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s5/out/m2_s5_result.json": [
+   "equivalent",
+   "數值在容差內（最大相對差 2.5e-10）"
+  ],
+  "work/m2_s6/out/b7_chip_checked.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s6/out/connectivity.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s6/out/drc_result.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s6/out/drc_rules_fault.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s6/out/drc_rules_fault_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s6/out/lvs_fault_flip.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s6/out/lvs_fault_offset.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s6/out/lvs_fault_wrong_rail.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s6/out/signoff.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/delivery_check.json": [
+   "equivalent",
+   "只差執行時間或檔案大小"
+  ],
+  "work/m2_s7/out/PIC_delivery/figures/B7_core.png": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/figures/B7_final.png": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/figures/B7_lvs_extract.png": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/figures/B7_pads_nets.png": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/chip_info.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/core_layout_info.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/external_requirements.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/io_table.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/netlist.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/optical_ports.csv": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/pad_map.csv": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/pic_spec.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/interfaces/truth_table.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/layout/B7_core_reviewed.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s7/out/PIC_delivery/layout/B7_final.gds": [
+   "equivalent",
+   "GDS 多邊形相同（檔頭寫出時間不同）"
+  ],
+  "work/m2_s7/out/PIC_delivery/manifest.json": [
+   "different",
+   "/files[44]/sha256（8fea7302f260d112f4cd3e19346271b1f397b861 vs 49f3afbc407d79c28e948cc67c6759a694338306）；/files[44]/size（6392 vs 6394）"
+  ],
+  "work/m2_s7/out/PIC_delivery/README.md": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/PIC_delivery/reports/B7_final_drc.lyrdb": [
+   "equivalent",
+   "DRC 標記相同（排序後比對；路徑與標記順序不計）"
+  ],
+  "work/m2_s7/out/PIC_delivery/reports/chip_simulation.json": [
+   "equivalent",
+   "數值在容差內（最大相對差 2.5e-10）"
+  ],
+  "work/m2_s7/out/PIC_delivery/reports/connectivity.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/PIC_delivery/reports/core_review.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/PIC_delivery/reports/drc_result.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/PIC_delivery/reports/signoff.json": [
+   "equivalent",
+   "路徑或已等價檔案的雜湊不同"
+  ],
+  "work/m2_s7/out/PIC_delivery/simulation/pdk_matrices.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/simulation/pdk_truth_tables.csv": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/simulation/phase_settings.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/sources/b7_phases.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/spec/external_requirements.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/spec/io_table.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/spec/netlist.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/spec/pic_spec.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/spec/truth_table.json": [
+   "identical",
+   ""
+  ],
+  "work/m2_s7/out/PIC_delivery/source/work/m0_s2/out/m0_s2_result.json": [
+   "different",
+   "/date（2026-10-31 vs 2026-11-01）"
+  ],
+  "work/m2_s7/out/PIC_delivery/source/work/m2_s3/out/layout_info.json": [
+   "identical",
+   ""
+  ]
+ },
+ "key": {
+  "phase_sha_same": true,
+  "truth_rows": 80,
+  "truth_max_dp_diff": 0.0,
+  "truth_bits_same": true,
+  "chip_rows_ok": 80,
+  "chip_all_wl": true,
+  "gds_same": true,
+  "signoff_ok": true,
+  "delivery_ok": true,
+  "new_gds_sha": "36c0b399c55b9ebf4ae79f8ef486536ed6a5e830e0f777099f8590de7977b75a",
+  "n_eff": 2.353205326025475,
+  "n_g": 4.146745052102793
+ },
+ "tamper": {
+  "phase_file": {
+   "stopped": true,
+   "message": "AssertionError: 相位檔與規格的 SHA-256 不符"
+  },
+  "comparator": {
+   "found": [
+    "/rows[37]/delta（0.25000000000002465 vs 0.2500010000000246）"
+   ]
+  }
+ },
+ "total_s": 418.5,
+ "all_ok": false
+}

@@ -1,0 +1,7 @@
+LAYOUT SYSTEM GDSII
+LAYOUT PATH "virtuoso_default.gds"
+LAYOUT PRIMARY "*"
+DRC RESULTS DATABASE "virtuoso_default.drc.results" ASCII
+DRC SUMMARY REPORT "virtuoso_default.drc.summary"
+VARIABLE DESIGN_AREA 4651200
+INCLUDE "rules.svrf"

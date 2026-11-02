@@ -1,0 +1,79 @@
+[
+  {
+    "id": "accepted",
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m2_s6\\out\\after\\b7_ec_pad.gds",
+    "sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963"
+  },
+  {
+    "id": "Si_narrow",
+    "layer": 3,
+    "kind": "width",
+    "inserted_dimension_um": 0.2,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\Si_narrow.gds",
+    "sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb"
+  },
+  {
+    "id": "Si_gap",
+    "layer": 3,
+    "kind": "space",
+    "inserted_dimension_um": 0.15,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\Si_gap.gds",
+    "sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20"
+  },
+  {
+    "id": "HT_narrow",
+    "layer": 39,
+    "kind": "width",
+    "inserted_dimension_um": 0.4,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\HT_narrow.gds",
+    "sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb"
+  },
+  {
+    "id": "HT_gap",
+    "layer": 39,
+    "kind": "space",
+    "inserted_dimension_um": 5,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\HT_gap.gds",
+    "sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc"
+  },
+  {
+    "id": "PAD_narrow",
+    "layer": 41,
+    "kind": "width",
+    "inserted_dimension_um": 1,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\PAD_narrow.gds",
+    "sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d"
+  },
+  {
+    "id": "PAD_gap",
+    "layer": 41,
+    "kind": "space",
+    "inserted_dimension_um": 5,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\PAD_gap.gds",
+    "sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c"
+  },
+  {
+    "id": "Si_margin_equal",
+    "layer": 3,
+    "kind": "width",
+    "inserted_dimension_um": 0.349,
+    "expected_rule_passed": true,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\Si_margin_equal.gds",
+    "sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed"
+  },
+  {
+    "id": "Si_below_margin",
+    "layer": 3,
+    "kind": "width",
+    "inserted_dimension_um": 0.348,
+    "expected_rule_passed": false,
+    "gds": "C:\\LAB\\Lab06b\\impl_b\\work\\m3_s2\\work\\20261101_100911_105968\\controls\\Si_below_margin.gds",
+    "sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186"
+  }
+]

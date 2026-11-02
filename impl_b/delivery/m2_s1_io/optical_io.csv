@@ -1,0 +1,11 @@
+﻿interface_id,core_port,mode_index,direction,role,proposed_side,proposed_coupler_id,physical_cell,physical_position_um,external_endpoint,source_laser
+OPT_IN0,in0,0,in,x1,left,EC_IN0,pending_M2,pending_M2,EXT_DATA_X1,LASER_0
+OPT_IN1,in1,1,in,x2,left,EC_IN1,pending_M2,pending_M2,EXT_DATA_X2,LASER_0
+OPT_IN2,in2,2,in,x3,left,EC_IN2,pending_M2,pending_M2,EXT_DATA_X3,LASER_0
+OPT_IN3,in3,3,in,x4,left,EC_IN3,pending_M2,pending_M2,EXT_DATA_X4,LASER_0
+OPT_IN4,in4,4,in,R,left,EC_IN4,pending_M2,pending_M2,EXT_REFERENCE,LASER_0
+OPT_OUT0,out0,0,out,unread_output,right,EC_OUT0,pending_M2,pending_M2,EXT_LOAD0,not_applicable
+OPT_OUT1,out1,1,out,positive_readout,right,EC_OUT1,pending_M2,pending_M2,PD_PLUS,not_applicable
+OPT_OUT2,out2,2,out,unread_output,right,EC_OUT2,pending_M2,pending_M2,EXT_LOAD2,not_applicable
+OPT_OUT3,out3,3,out,negative_readout,right,EC_OUT3,pending_M2,pending_M2,PD_MINUS,not_applicable
+OPT_OUT4,out4,4,out,unread_output,right,EC_OUT4,pending_M2,pending_M2,EXT_LOAD4,not_applicable

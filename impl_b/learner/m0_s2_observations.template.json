@@ -1,0 +1,14 @@
+{
+  "step": "M0 S2",
+  "learner_name": "",
+  "predicted_width_trend": "",
+  "measured_neff": {},
+  "mesh_delta": null,
+  "domain_delta": null,
+  "material_modal_EIM_index_difference": "",
+  "halfplane_vs_port_power": "",
+  "phase_to_output_explanation": "",
+  "inherited_vs_new_data": "",
+  "fdtd_rerun": "not performed",
+  "instructor_review": "pending"
+}

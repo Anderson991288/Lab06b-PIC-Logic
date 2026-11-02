@@ -1,0 +1,711 @@
+{
+  "timestamp": "2026-10-31T12:33:37.930220+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "counts": {
+    "EC": 10,
+    "signal_pads": 14,
+    "ground_pads": 2,
+    "physical_pads": 16,
+    "logical_return_nets": 1
+  },
+  "chip_size_um": [
+    3860.0,
+    1640.0
+  ],
+  "readback": {
+    "engine": "KLayout 0.30.12",
+    "gds_sha256": "9f54fff96d2ea9eba08ef341cc4edc71f24c06c1ebdf977f0f20b8d1864f81aa",
+    "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+    "core_layer_comparison": [
+      {
+        "layer": 3,
+        "identical": true
+      },
+      {
+        "layer": 39,
+        "identical": true
+      },
+      {
+        "layer": 41,
+        "identical": true
+      },
+      {
+        "layer": 99,
+        "identical": true
+      },
+      {
+        "layer": 100,
+        "identical": true
+      }
+    ],
+    "metal_nets": 15,
+    "heater_regions": 14,
+    "pad_components": {
+      "PAD_DRV00": [
+        7
+      ],
+      "PAD_DRV01": [
+        1
+      ],
+      "PAD_DRV02": [
+        9
+      ],
+      "PAD_DRV03": [
+        11
+      ],
+      "PAD_DRV04": [
+        5
+      ],
+      "PAD_DRV05": [
+        13
+      ],
+      "PAD_DRV06": [
+        3
+      ],
+      "PAD_DRV07": [
+        6
+      ],
+      "PAD_DRV08": [
+        0
+      ],
+      "PAD_DRV09": [
+        8
+      ],
+      "PAD_DRV10": [
+        10
+      ],
+      "PAD_DRV11": [
+        4
+      ],
+      "PAD_DRV12": [
+        12
+      ],
+      "PAD_DRV13": [
+        2
+      ],
+      "PAD_GND_W": [
+        14
+      ],
+      "PAD_GND_E": [
+        14
+      ]
+    },
+    "connections": [
+      {
+        "channel": "theta1",
+        "pad_id": "PAD_DRV00",
+        "pad_component": [
+          7
+        ],
+        "signal_A_components": [
+          7
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta2",
+        "pad_id": "PAD_DRV01",
+        "pad_component": [
+          1
+        ],
+        "signal_A_components": [
+          1
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta3",
+        "pad_id": "PAD_DRV02",
+        "pad_component": [
+          9
+        ],
+        "signal_A_components": [
+          9
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta4",
+        "pad_id": "PAD_DRV03",
+        "pad_component": [
+          11
+        ],
+        "signal_A_components": [
+          11
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta5",
+        "pad_id": "PAD_DRV04",
+        "pad_component": [
+          5
+        ],
+        "signal_A_components": [
+          5
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta6",
+        "pad_id": "PAD_DRV05",
+        "pad_component": [
+          13
+        ],
+        "signal_A_components": [
+          13
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta7",
+        "pad_id": "PAD_DRV06",
+        "pad_component": [
+          3
+        ],
+        "signal_A_components": [
+          3
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi1",
+        "pad_id": "PAD_DRV07",
+        "pad_component": [
+          6
+        ],
+        "signal_A_components": [
+          6
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi2",
+        "pad_id": "PAD_DRV08",
+        "pad_component": [
+          0
+        ],
+        "signal_A_components": [
+          0
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi3",
+        "pad_id": "PAD_DRV09",
+        "pad_component": [
+          8
+        ],
+        "signal_A_components": [
+          8
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi4",
+        "pad_id": "PAD_DRV10",
+        "pad_component": [
+          10
+        ],
+        "signal_A_components": [
+          10
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi5",
+        "pad_id": "PAD_DRV11",
+        "pad_component": [
+          4
+        ],
+        "signal_A_components": [
+          4
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi6",
+        "pad_id": "PAD_DRV12",
+        "pad_component": [
+          12
+        ],
+        "signal_A_components": [
+          12
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi7",
+        "pad_id": "PAD_DRV13",
+        "pad_component": [
+          2
+        ],
+        "signal_A_components": [
+          2
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      }
+    ],
+    "heater_contact_nets": [
+      {
+        "channel": "theta1",
+        "contacted_metal_components": [
+          7,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta2",
+        "contacted_metal_components": [
+          1,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta3",
+        "contacted_metal_components": [
+          9,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta4",
+        "contacted_metal_components": [
+          11,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta5",
+        "contacted_metal_components": [
+          5,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta6",
+        "contacted_metal_components": [
+          13,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta7",
+        "contacted_metal_components": [
+          3,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi1",
+        "contacted_metal_components": [
+          6,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi2",
+        "contacted_metal_components": [
+          0,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi3",
+        "contacted_metal_components": [
+          8,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi4",
+        "contacted_metal_components": [
+          10,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi5",
+        "contacted_metal_components": [
+          4,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi6",
+        "contacted_metal_components": [
+          12,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi7",
+        "contacted_metal_components": [
+          2,
+          14
+        ],
+        "passed": true
+      }
+    ],
+    "optical_endpoint_probes": [
+      {
+        "interface": "OPT_IN0",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN0",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN0",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN1",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN1",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN1",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN2",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN2",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN2",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN3",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN3",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN3",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN4",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN4",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_IN4",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT0",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT0",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT0",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT1",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT1",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT1",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT2",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT2",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT2",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT3",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT3",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT3",
+        "probe": "core_join",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT4",
+        "probe": "facet_SLAB",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT4",
+        "probe": "EC_strip",
+        "passed": true
+      },
+      {
+        "interface": "OPT_OUT4",
+        "probe": "core_join",
+        "passed": true
+      }
+    ],
+    "fan_coverage": [
+      {
+        "route": "FAN_in0",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_out0",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_in1",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_out1",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_in2",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_out2",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_in3",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_out3",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_in4",
+        "samples": 803,
+        "uncovered": 0
+      },
+      {
+        "route": "FAN_out4",
+        "samples": 803,
+        "uncovered": 0
+      }
+    ],
+    "outside": {
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "39": 0,
+      "41": 0
+    },
+    "scoped_rules": [
+      {
+        "layer": 3,
+        "width_limit_um": 0.35,
+        "width_warnings": 0,
+        "space_limit_um": 0.2,
+        "space_warnings": 0
+      },
+      {
+        "layer": 39,
+        "width_limit_um": 0.6,
+        "width_warnings": 0,
+        "space_limit_um": 10,
+        "space_warnings": 0
+      },
+      {
+        "layer": 41,
+        "width_limit_um": 2,
+        "width_warnings": 0,
+        "space_limit_um": 10,
+        "space_warnings": 0
+      }
+    ],
+    "checks": [
+      {
+        "name": "core_geometry_unchanged",
+        "passed": true
+      },
+      {
+        "name": "sixteen_pad_centers",
+        "passed": true
+      },
+      {
+        "name": "fourteen_independent_signal_nets",
+        "passed": true
+      },
+      {
+        "name": "one_shared_GND_two_pads",
+        "passed": true
+      },
+      {
+        "name": "fifteen_metal_nets",
+        "passed": true
+      },
+      {
+        "name": "all_PAD_A_and_B_GND",
+        "passed": true
+      },
+      {
+        "name": "each_heater_touches_two_correct_nets",
+        "passed": true
+      },
+      {
+        "name": "thirty_optical_endpoint_probes",
+        "passed": true
+      },
+      {
+        "name": "fan_route_samples",
+        "passed": true
+      },
+      {
+        "name": "inside_chip_frame",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "scope": "Actual GDS metal components, heater contacts and selected optical geometry; not full LVS, fabrication/EC qualification, optical mode continuity or calibrated response."
+  },
+  "EC_audit": {
+    "pdk_version": "2.6.luceda1",
+    "EC_exported_names": [],
+    "EC_kind": "custom_reference_geometry; no qualified EC found in installed exported PDK namespace",
+    "layer_map": {
+      "3": "WG DRAWING",
+      "4": "WG HOLE partial etch window",
+      "5": "SLAB DRAWING",
+      "39": "HT DRAWING",
+      "41": "PAD DRAWING"
+    },
+    "reference": "reference/C01/m2_chip_layout.py EC recipe; PDK mapping audited locally",
+    "optical_calibration": null
+  },
+  "source_hashes": {
+    "config/m2_chip_interfaces.json": "6cd585fc8794bf792140b6c7a58576ef4a6e48dd24bf1021e597bdef4a5e0916",
+    "config/m2_current_core.json": "bf925a5e3c7130c8592efda965eda1c92c384efaa7a03826807e7d4a42538ccb",
+    "work/common/chip_interfaces.py": "e38b2991266b9528969b63a9662defd117a96ea7997f37ac11d4dd299a471ba8",
+    "work/m2_s5/build_chip.py": "47a958e9862aa0acd69dfba30527636ddb4d3faee66d26b24312bdfd1f8cb145",
+    "work/m2_s5/merge_verify.py": "8ae49805ed06be41a99e8b2b7606bcf6464c75f96e8ff369023ae977026a01d6",
+    "work/m2_s5/electrical_geometry.py": "67081b9ba60a22496b05c3dd70bd219448a6fb803e0f82e751c678077e990d5b"
+  },
+  "current_core_hashes": {
+    "work/m2_s4/out/after/b7_core.gds": "efe916411cc3cd5378090d0dc17fca4a053569fa0029cf96d0e0cb3b406e4385",
+    "work/m2_s4/out/after/mzi_core.gds": "3d17ed0ead602d279d77969a6c368c8739a93b870bce150ab7fe18b63eb82c46",
+    "work/m2_s4/out/after/layout_info.json": "2ad44087ab81b102f5e75de7fc7c57f610c7ec96b1c2b97375e95c6caee3e023"
+  }
+}

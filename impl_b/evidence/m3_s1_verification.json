@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-10-31T14:09:57.270898+08:00",
+  "step": "M3 S1",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m3_s1_20261031_135640",
+  "source_hashes": {
+    "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+    "config/m2_boundary.json": "2d6fa11906aaa6f66e57c53eb1cc2b659df925a2561848de745cd8481f3ef1f7",
+    "config/m2_review_layout.json": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+    "config/m2_chip_interfaces.json": "6cd585fc8794bf792140b6c7a58576ef4a6e48dd24bf1021e597bdef4a5e0916",
+    "config/m2_verification.json": "6801d163c2203686e54bb986df039a8620d630e882c4ad60aaa4a14abd32a261",
+    "config/m2_backannotation.json": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+    "work/common/__init__.py": "5c22e854a84f60f8db840deab9f0967b8531e8ac0da49a91af36aa1b6f207e1b",
+    "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+    "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+    "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+    "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+    "work/common/logic_validation.py": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f",
+    "work/common/handoff.py": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5",
+    "work/common/pdk.py": "0926360824dde8848c2abba14f5c0a309e9d0b4b7de68d89cc0371691ea2a48e",
+    "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+    "work/common/chip_interfaces.py": "e38b2991266b9528969b63a9662defd117a96ea7997f37ac11d4dd299a471ba8",
+    "work/common/backannotation.py": "5f17f7ba632fd58397fac3d37d77a608090a0c6109b26569f26bd6ca10b6e266",
+    "work/m1_s5/replay_handoff.py": "3821b8dac5fea945f1a841f260758b57e3d54f00e7b0a0171f32661d7b09bf95",
+    "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+    "work/m2_s5/build_chip.py": "47a958e9862aa0acd69dfba30527636ddb4d3faee66d26b24312bdfd1f8cb145",
+    "work/m2_s5/merge_verify.py": "8ae49805ed06be41a99e8b2b7606bcf6464c75f96e8ff369023ae977026a01d6",
+    "work/m2_s5/electrical_geometry.py": "67081b9ba60a22496b05c3dd70bd219448a6fb803e0f82e751c678077e990d5b",
+    "work/m2_s6/run_verification.py": "e67425a62d0c6f8779b664b31253aa4b0917d6b5b41aafc5b09037ced98b58cc",
+    "work/m2_s6/prepare_gds.py": "7acf55d7ccd9c5e1e9f14cd74b70e669a914741a342e7a7baef37d467d0d9380",
+    "work/m2_s6/connectivity.py": "0c3c64c5a9c7e20ab47fc3a76905bc1cd5bff5d3388bdda59bc6baf62c403f97",
+    "work/m2_s6/check_connectivity.py": "087228d587c3108396ed1920cb5abcaa8f72052ccdf742ff93b3685c59e15ba0",
+    "work/m2_s7/extract_lengths.py": "ac322a486797f2d26b94be035c2d4e59ec558999ba9f24bd159350754273d486",
+    "work/m2_s7/test_backannotation.py": "3824c5938d4f81b2da29e92060b3fd7071cc312349c1e7a8149682f94e1ccb18",
+    "work/m3_s1/build_core.py": "f69bdb51419a2e5047310f800ff87628951fe8d7ae0fdcc88dc7ecba9308c4cf",
+    "work/m3_s1/replay_rebuilt.py": "b4b23bfcc62b52fd81800630c53ab38993b7a1862599dab9eee97f7ba07b27af",
+    "work/m3_s1/compare_gds.py": "1e8a098ca4ad740d716323174cb934c72a455736db8ac9ee388c5dde8dbc7449",
+    "work/m3_s1/rebuild_support.py": "3667ac9fa7ba16884aa8bd791c435ab5d365349f60faa42b2a36073774ab61c4",
+    "work/m3_s1/test_rebuild_support.py": "53c66fe8f41154eaf199282247c27819244c147d7ff77e4131a89dc375ab75d8",
+    "work/m3_s1/run_acceptance_controls.py": "5f68f3e3e0933e77e0b869c587176dd46dc181973d9f845b419d19f6852c920f",
+    "work/m3_s1/make_geometry_fault.py": "f0e6a00258ec8fb3acd1ca35c1d9aaa51ecd04d36560b43871498a81945ca32e",
+    "scripts/rebuild_all.py": "fa2837b46fbae7ed72fd585da3b539d8b15270432a7ad52ac4f9351326853b80",
+    "scripts/run_m3_s1.ps1": "dc37d73a66253c40a3d01fc8ad6742b330365f34ee423917dbf2f24f5a6ea4ae",
+    "scripts/render_m3_s1.py": "b4eeb9fe727b2477ae663c5a46ec8b473398169724bd1ed5083caccd7353eb9c",
+    "scripts/render_course.py": "513bdeb95ed76658959671c8c42108408c6ce7eccba44356ff13a22542bc068b",
+    "work/m3_s1/plot_rebuild.py": "ebeb7e44def772ac245320cec2316a84fc95fc967dab6cc1a173b7126f5eb757",
+    "work/m3_s1/prepare_browser_qa.py": "f7437285941121e96186bc0822fb3f0e45e7d8de5e9573e55b21119fe8a2cea1",
+    "work/m3_s1/browser_qa.cjs": "922738f9df8a72ac10752d7b0444f3e4fd31a5ce1c190ee87f17bb8be2431f3e",
+    "work/m3_s1/finalize.py": "d5875572e758c38d9e2083eb3b39fd1893368e3f1d45fecd173d83b114ae0bae"
+  },
+  "source_hashes_verified": true,
+  "prior_files_verified": 853,
+  "acceptance_index": {
+    "schema": "lab06b.m3_acceptance.v1",
+    "step": "M3 S1",
+    "status": "clean_source_rebuild_accepted",
+    "source_chip_index": "config/m2_current_chip.json",
+    "source_delivery_index": "config/m2_delivery.json",
+    "result": "work/m3_s1/out/rebuild_results.json",
+    "result_sha256": "6a0c616b34a48915095f8635a50bf50bed926f55b1d13605888dc4b761415260",
+    "controls": "work/m3_s1/out/acceptance_controls.json",
+    "controls_sha256": "b41723f6c9f600b523b43a797b85c8dafd6280e31d0b04477ca9ae7e7080f9e3",
+    "normalized_sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+    "date_records_per_file": 44,
+    "raw_byte_identical": false,
+    "geometry_and_text_identical": true,
+    "builds": [
+      {
+        "build": "A",
+        "gds": "work/m3_s1/out/build_A/b7_rebuilt.gds",
+        "sha256": "d4e21e3eea8676866712f66728daa8391919efb9eced241f8d707b7838b91391",
+        "checks": 13,
+        "replay_cases": 400
+      },
+      {
+        "build": "B",
+        "gds": "work/m3_s1/out/build_B/b7_rebuilt.gds",
+        "sha256": "81d50696363f59af0614033b31f74c8df486f576288dbc94c2e5932c30f565c4",
+        "checks": 13,
+        "replay_cases": 400
+      }
+    ],
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false,
+    "learner_submission": "pending",
+    "next_step": "M3 S2"
+  },
+  "clean_builds": 2,
+  "generated_outputs_seeded": 0,
+  "accepted_checks": 26,
+  "model_tests_run": 24,
+  "support_tests": {
+    "run": 10,
+    "passed": 10,
+    "successful": true
+  },
+  "controls": [
+    {
+      "id": "timestamp_only",
+      "raw_sha_different": true,
+      "normalized_sha_equal": true,
+      "passed": true
+    },
+    {
+      "id": "actual_Si_geometry_change",
+      "XOR_polygons": 1,
+      "normalized_sha_different": true,
+      "passed": true
+    },
+    {
+      "id": "reuse_nonempty_target",
+      "rejected": true,
+      "reason": "Build target already exists; refuse stale output reuse",
+      "passed": true
+    },
+    {
+      "id": "missing_source_inventory",
+      "rejected": true,
+      "passed": true,
+      "scope": "Seed inventory audit; no licensed build launched"
+    }
+  ],
+  "seed_files_after_build": [
+    {
+      "build": "A",
+      "files": 33,
+      "unchanged": true
+    },
+    {
+      "build": "B",
+      "files": 33,
+      "unchanged": true
+    }
+  ],
+  "reference_hashes": {
+    "config/m2_current_chip.json": "2a0cd4fce48f8e3647e946fe20cfee900fd923cac9ffdc967c0f443a433e1f66",
+    "config/m2_current_core.json": "bf925a5e3c7130c8592efda965eda1c92c384efaa7a03826807e7d4a42538ccb",
+    "config/m2_delivery.json": "c9eed9ff744ee96d6ccd51f4cae68d5be5727740c03625f2267bdef81dec1ba9",
+    "work/m2_s6/out/after/b7_ec_pad.gds": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "work/m2_s7/out/replay_400.csv": "4b180f08e4d332b440d7b5bcc4229a7d084c4912da758f36453edda691fea380",
+    "work/m2_s7/out/paths.json": "0cbfa85f03b47d1fb6244c30a6c4044d3d416cfb4993c613a22f934d35911a1d",
+    "work/m2_s7/out/phase_settings_backannotated.json": "2e18ca66b4065bfebc7dc6aa39c516422c74fff266b6b29402bba24c4d70c5eb",
+    "delivery/Lab06b_M2_PIC_delivery.zip": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+    "delivery/m1_handoff.zip": "5ec455817a4da7a46e6e08b834ee468a985461ca623e6cbe40bfabf1198505a6"
+  },
+  "external_dependencies": {
+    "klayout": "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+    "klayout_sha256": "d3e8d8caf863d6a5b85cb44486c5658ff0293515a6840c546616552cda0060a3",
+    "deck": "C:\\EDA_Codex\\Lab06b\\work\\common\\drc\\cornerstone_Si220_passive.lydrc",
+    "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "ipkiss_python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+    "physics_python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe"
+  },
+  "pre_DRC_each": "2 -> 0, 31 categories",
+  "metal_nets_each": 15,
+  "optical_connections_each": 33,
+  "all_layer_XOR_polygons": 0,
+  "text_identical": true,
+  "raw_byte_identical": false,
+  "timestamp_only_normalized_sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+  "date_records_per_GDS": 44,
+  "case_comparisons_each": 400,
+  "maximum_numeric_error": 0,
+  "browser_acceptance_cases": 26,
+  "browser_truth_cases": 800,
+  "worksheet_verified": true,
+  "html_files": 23,
+  "local_links": 1130,
+  "old_chip_and_handoff_unchanged": true,
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "learner_submission": "pending",
+  "scope": "Two independent empty build trees, authored source and M1 design/phase/config inputs; licensed tools preinstalled. Regenerate core, interfaces, S6 label correction, full installed pre-DRC/graph, nominal paths and teaching replay. Timestamp-only digest plus all-layer XOR/text; raw byte hashes retained. No FEM/FDTD re-solve, environment installation, measured EC/MMI/heater calibration or foundry signoff.",
+  "next_step": "M3 S2"
+}

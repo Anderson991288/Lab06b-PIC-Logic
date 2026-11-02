@@ -1,0 +1,299 @@
+{
+ "title": "B7 光邏輯 PIC 功能與介面規格",
+ "version": 1,
+ "date": "2026-10-31",
+ "status": "M1 交給 M2 的固定規格；相位數值另存於相位檔",
+ "core": {
+  "name": "B7",
+  "n_modes": 5,
+  "n_mzi": 7,
+  "n_layers": 4,
+  "ops": [
+   [
+    0,
+    0
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "ops_meaning": "第 k 項 (p, layer)：MZI k+1 跨 rail p、p+1，位於第 layer+1 層",
+  "mzi_model": "T(θ, φ) = H·diag(e^{iθ},1)·H·diag(e^{iφ},1)，H = [[1,i],[i,1]]/√2；相位段在上臂（rail p，局部索引 0）"
+ },
+ "model": {
+  "loss_db_per_mzi": 0,
+  "R_amplitude": 3.0,
+  "input_bit_amplitude": [
+   0,
+   1
+  ],
+  "coherent_inputs": true,
+  "readout_ports": [
+   "out1",
+   "out3"
+  ],
+  "decision": "ΔP = |o2|² − |o4|²；> 0 判 1、< 0 判 0、= 0 為邊界"
+ },
+ "optical_inputs": [
+  {
+   "port": "in0",
+   "rail": 0,
+   "signal": "x1",
+   "amplitude": "0/1"
+  },
+  {
+   "port": "in1",
+   "rail": 1,
+   "signal": "x2",
+   "amplitude": "0/1"
+  },
+  {
+   "port": "in2",
+   "rail": 2,
+   "signal": "x3",
+   "amplitude": "0/1"
+  },
+  {
+   "port": "in3",
+   "rail": 3,
+   "signal": "x4",
+   "amplitude": "0/1"
+  },
+  {
+   "port": "in4",
+   "rail": 4,
+   "signal": "R",
+   "amplitude": 3.0
+  }
+ ],
+ "optical_outputs": [
+  {
+   "port": "out0",
+   "rail": 0,
+   "signal": "o1",
+   "role": "monitor"
+  },
+  {
+   "port": "out1",
+   "rail": 1,
+   "signal": "o2",
+   "role": "readout"
+  },
+  {
+   "port": "out2",
+   "rail": 2,
+   "signal": "o3",
+   "role": "monitor"
+  },
+  {
+   "port": "out3",
+   "rail": 3,
+   "signal": "o4",
+   "role": "readout"
+  },
+  {
+   "port": "out4",
+   "rail": 4,
+   "signal": "o5",
+   "role": "monitor"
+  }
+ ],
+ "phase_controls": [
+  {
+   "channel": "M1_phi",
+   "mzi": 1,
+   "phase": "phi",
+   "phase_index": 0,
+   "rail": 0,
+   "layer": 1,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M1_theta",
+   "mzi": 1,
+   "phase": "theta",
+   "phase_index": 0,
+   "rail": 0,
+   "layer": 1,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M2_phi",
+   "mzi": 2,
+   "phase": "phi",
+   "phase_index": 1,
+   "rail": 3,
+   "layer": 1,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M2_theta",
+   "mzi": 2,
+   "phase": "theta",
+   "phase_index": 1,
+   "rail": 3,
+   "layer": 1,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M3_phi",
+   "mzi": 3,
+   "phase": "phi",
+   "phase_index": 2,
+   "rail": 1,
+   "layer": 2,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M3_theta",
+   "mzi": 3,
+   "phase": "theta",
+   "phase_index": 2,
+   "rail": 1,
+   "layer": 2,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M4_phi",
+   "mzi": 4,
+   "phase": "phi",
+   "phase_index": 3,
+   "rail": 0,
+   "layer": 3,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M4_theta",
+   "mzi": 4,
+   "phase": "theta",
+   "phase_index": 3,
+   "rail": 0,
+   "layer": 3,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M5_phi",
+   "mzi": 5,
+   "phase": "phi",
+   "phase_index": 4,
+   "rail": 2,
+   "layer": 3,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M5_theta",
+   "mzi": 5,
+   "phase": "theta",
+   "phase_index": 4,
+   "rail": 2,
+   "layer": 3,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M6_phi",
+   "mzi": 6,
+   "phase": "phi",
+   "phase_index": 5,
+   "rail": 1,
+   "layer": 4,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M6_theta",
+   "mzi": 6,
+   "phase": "theta",
+   "phase_index": 5,
+   "rail": 1,
+   "layer": 4,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M7_phi",
+   "mzi": 7,
+   "phase": "phi",
+   "phase_index": 6,
+   "rail": 3,
+   "layer": 4,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  },
+  {
+   "channel": "M7_theta",
+   "mzi": 7,
+   "phase": "theta",
+   "phase_index": 6,
+   "rail": 3,
+   "layer": 4,
+   "electrical": "heater 訊號端＋回流端",
+   "drive": "需校正（相位 → 電壓）"
+  }
+ ],
+ "functions": [
+  "AND2",
+  "OR2",
+  "XOR2",
+  "AND4",
+  "OR4"
+ ],
+ "phase_settings": {
+  "file": "sources/b7_phases.json",
+  "sha256": "c511dc6b37c52e67614ca2f667be908fe6c627db873b664632f8b5f0416316ef",
+  "note": "功能＝相位檔中的一組 θ1–θ7、φ1–φ7；換功能只換相位，不改光路與讀取"
+ },
+ "truth_table": {
+  "file": "spec/truth_table.json",
+  "rows": 80
+ },
+ "acceptance": {
+  "functional": "每種功能 16 組全對，5 種共 80 筆",
+  "ideal_margin": {
+   "AND2": 2.1154,
+   "OR2": 2.1205,
+   "XOR2": 0.25,
+   "AND4": 1.496,
+   "OR4": 1.4999
+  },
+  "phase_accuracy_rad": 0.02,
+  "phase_accuracy_note": "M1 s4 Monte Carlo：14 個相位各自誤差 σ ≤ 0.02 rad 時 5 種功能全對；XOR2 最敏感",
+  "layout": "模型與佈局共用 OPS、埠名與通道名；佈局後重跑 80 筆"
+ },
+ "tools": {
+  "circuit": "IPKISS／Caphe（CORNERSTONE SOI220 2×2 MMI）",
+  "layout": "IPKISS＋Python",
+  "review": "KLayout",
+  "drc": "CORNERSTONE 規則檔＋光路連接與電氣連接檢查"
+ }
+}

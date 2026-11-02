@@ -1,0 +1,3053 @@
+[
+  {
+    "id": "accepted",
+    "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 148,
+          "raw_vertices": 11360,
+          "area_um2": 11761.147272000642,
+          "perimeter_um": 35135.80269209992,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            2710.0,
+            440.225
+          ],
+          "merged_components": 1,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34999999999990905,
+              "point_A_um": [
+                -690.0,
+                -559.825
+              ],
+              "point_B_um": [
+                -690.0,
+                -560.175
+              ],
+              "edge_A_um": [
+                [
+                  -660.0,
+                  -559.775
+                ],
+                [
+                  -690.0,
+                  -559.825
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -690.0,
+                  -560.175
+                ],
+                [
+                  -660.0,
+                  -560.225
+                ]
+              ],
+              "directed_angle_deg": 179.80901424513033,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18420,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11158,
+          "opposed_pairs": 54776
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_narrow",
+    "gds_sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 173,
+          "raw_vertices": 11436,
+          "area_um2": 11763.15892600088,
+          "perimeter_um": 35156.20269536423,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            3310.0,
+            440.225
+          ],
+          "merged_components": 2,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.2,
+              "point_A_um": [
+                3300.0,
+                0.2
+              ],
+              "point_B_um": [
+                3300.0,
+                0.0
+              ],
+              "edge_A_um": [
+                [
+                  3310.0,
+                  0.2
+                ],
+                [
+                  3300.0,
+                  0.2
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3300.0,
+                  0.0
+                ],
+                [
+                  3310.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18469,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": false
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11186,
+          "opposed_pairs": 54889
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "6b9f2237415fdf22c80f5b62cce66e616ad6803f00abad557bb8af69d6ae28fb",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_gap",
+    "gds_sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 174,
+          "raw_vertices": 11440,
+          "area_um2": 12561.158926000884,
+          "perimeter_um": 35295.802695364226,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            3340.15,
+            440.225
+          ],
+          "merged_components": 3,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34999999999990905,
+              "point_A_um": [
+                -690.0,
+                -559.825
+              ],
+              "point_B_um": [
+                -690.0,
+                -560.175
+              ],
+              "edge_A_um": [
+                [
+                  -660.0,
+                  -559.775
+                ],
+                [
+                  -690.0,
+                  -559.825
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -690.0,
+                  -560.175
+                ],
+                [
+                  -660.0,
+                  -560.225
+                ]
+              ],
+              "directed_angle_deg": 179.80901424513033,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18468,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.15000000000009095,
+              "point_A_um": [
+                3320.0,
+                20.0
+              ],
+              "point_B_um": [
+                3320.15,
+                20.0
+              ],
+              "edge_A_um": [
+                [
+                  3320.0,
+                  0.0
+                ],
+                [
+                  3320.0,
+                  20.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3320.15,
+                  20.0
+                ],
+                [
+                  3320.15,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2129,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": false
+          },
+          "boundary_edges": 11190,
+          "opposed_pairs": 54889
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "6462dd44344456dcaa9ee5b3fd54b9899b4117ff30d6247f8c0cc67bedd0ca20",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  },
+  {
+    "id": "HT_narrow",
+    "gds_sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 172,
+          "raw_vertices": 11432,
+          "area_um2": 11761.15892600088,
+          "perimeter_um": 35135.802695364226,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            2710.0,
+            440.225
+          ],
+          "merged_components": 1,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34999999999990905,
+              "point_A_um": [
+                -690.0,
+                -559.825
+              ],
+              "point_B_um": [
+                -690.0,
+                -560.175
+              ],
+              "edge_A_um": [
+                [
+                  -660.0,
+                  -559.775
+                ],
+                [
+                  -690.0,
+                  -559.825
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -690.0,
+                  -560.175
+                ],
+                [
+                  -660.0,
+                  -560.225
+                ]
+              ],
+              "directed_angle_deg": 179.80901424513033,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18468,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11182,
+          "opposed_pairs": 54888
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 43,
+          "raw_vertices": 172,
+          "area_um2": 4064.0000000000027,
+          "perimeter_um": 3915.5999999999995,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            3310.0,
+            5.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.4,
+              "point_A_um": [
+                3300.0,
+                0.4
+              ],
+              "point_B_um": [
+                3300.0,
+                0.0
+              ],
+              "edge_A_um": [
+                [
+                  3310.0,
+                  0.4
+                ],
+                [
+                  3300.0,
+                  0.4
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3300.0,
+                  0.0
+                ],
+                [
+                  3310.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 15,
+            "visibility_tested": 15,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": false
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1011.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1011.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1021.0,
+                  -55.0
+                ],
+                [
+                  1011.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1011.0,
+                  -5.0
+                ],
+                [
+                  1021.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 228,
+          "opposed_pairs": 424
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "f829686b0ac9faee1f6904042938972801c9d06cb9ecc51dc99e914590d2e5cb",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  },
+  {
+    "id": "HT_gap",
+    "gds_sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 172,
+          "raw_vertices": 11432,
+          "area_um2": 11761.15892600088,
+          "perimeter_um": 35135.802695364226,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            2710.0,
+            440.225
+          ],
+          "merged_components": 1,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34999999999990905,
+              "point_A_um": [
+                -690.0,
+                -559.825
+              ],
+              "point_B_um": [
+                -690.0,
+                -560.175
+              ],
+              "edge_A_um": [
+                [
+                  -660.0,
+                  -559.775
+                ],
+                [
+                  -690.0,
+                  -559.825
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -690.0,
+                  -560.175
+                ],
+                [
+                  -660.0,
+                  -560.225
+                ]
+              ],
+              "directed_angle_deg": 179.80901424513033,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18468,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11182,
+          "opposed_pairs": 54888
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 44,
+          "raw_vertices": 176,
+          "area_um2": 4860.000000000004,
+          "perimeter_um": 4054.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            3345.0,
+            20.0
+          ],
+          "merged_components": 16,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 5.0,
+              "point_A_um": [
+                3320.0,
+                20.0
+              ],
+              "point_B_um": [
+                3325.0,
+                20.0
+              ],
+              "edge_A_um": [
+                [
+                  3320.0,
+                  0.0
+                ],
+                [
+                  3320.0,
+                  20.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3325.0,
+                  20.0
+                ],
+                [
+                  3325.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 33,
+            "visibility_tested": 33,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": false
+          },
+          "boundary_edges": 232,
+          "opposed_pairs": 430
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "8b935896ba60400e6eee8964095e11d9f9176a9a9f8578a83a14406e67ae78dc",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  },
+  {
+    "id": "PAD_narrow",
+    "gds_sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 172,
+          "raw_vertices": 11432,
+          "area_um2": 11761.15892600088,
+          "perimeter_um": 35135.802695364226,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            2710.0,
+            440.225
+          ],
+          "merged_components": 1,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34999999999990905,
+              "point_A_um": [
+                -690.0,
+                -559.825
+              ],
+              "point_B_um": [
+                -690.0,
+                -560.175
+              ],
+              "edge_A_um": [
+                [
+                  -660.0,
+                  -559.775
+                ],
+                [
+                  -690.0,
+                  -559.825
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -690.0,
+                  -560.175
+                ],
+                [
+                  -660.0,
+                  -560.225
+                ]
+              ],
+              "directed_angle_deg": 179.80901424513033,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18468,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11182,
+          "opposed_pairs": 54888
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "3f46fd030054f82230d521c2c00284cd9cd7090b41afa3d8a43253b66c882d4d",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 110,
+          "raw_vertices": 440,
+          "area_um2": 223046.0,
+          "perimeter_um": 35201.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            3310.0,
+            690.0
+          ],
+          "merged_components": 16,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 1.0,
+              "point_A_um": [
+                3300.0,
+                1.0
+              ],
+              "point_B_um": [
+                3300.0,
+                0.0
+              ],
+              "edge_A_um": [
+                [
+                  3310.0,
+                  1.0
+                ],
+                [
+                  3300.0,
+                  1.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3300.0,
+                  0.0
+                ],
+                [
+                  3310.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 320,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": false
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 444,
+          "opposed_pairs": 1472
+        }
+      }
+    ]
+  },
+  {
+    "id": "PAD_gap",
+    "gds_sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 172,
+          "raw_vertices": 11432,
+          "area_um2": 11761.15892600088,
+          "perimeter_um": 35135.802695364226,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            2710.0,
+            440.225
+          ],
+          "merged_components": 1,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34999999999990905,
+              "point_A_um": [
+                -690.0,
+                -559.825
+              ],
+              "point_B_um": [
+                -690.0,
+                -560.175
+              ],
+              "edge_A_um": [
+                [
+                  -660.0,
+                  -559.775
+                ],
+                [
+                  -690.0,
+                  -559.825
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -690.0,
+                  -560.175
+                ],
+                [
+                  -660.0,
+                  -560.225
+                ]
+              ],
+              "directed_angle_deg": 179.80901424513033,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18468,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11182,
+          "opposed_pairs": 54888
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "1d6854f5a11408ebb3d16581a1928f1b28752136b6d010f1e077ecac30ebda8c",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 111,
+          "raw_vertices": 444,
+          "area_um2": 223836.0,
+          "perimeter_um": 35339.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            3345.0,
+            690.0
+          ],
+          "merged_components": 17,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 5.0,
+              "point_A_um": [
+                3320.0,
+                20.0
+              ],
+              "point_B_um": [
+                3325.0,
+                20.0
+              ],
+              "edge_A_um": [
+                [
+                  3320.0,
+                  0.0
+                ],
+                [
+                  3320.0,
+                  20.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3325.0,
+                  20.0
+                ],
+                [
+                  3325.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 509,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": false
+          },
+          "boundary_edges": 448,
+          "opposed_pairs": 1478
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_margin_equal",
+    "gds_sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 173,
+          "raw_vertices": 11436,
+          "area_um2": 11764.64892600088,
+          "perimeter_um": 35156.50069536422,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            3310.0,
+            440.225
+          ],
+          "merged_components": 2,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34900000000000003,
+              "point_A_um": [
+                3300.0,
+                0.34900000000000003
+              ],
+              "point_B_um": [
+                3300.0,
+                0.0
+              ],
+              "edge_A_um": [
+                [
+                  3310.0,
+                  0.34900000000000003
+                ],
+                [
+                  3300.0,
+                  0.34900000000000003
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3300.0,
+                  0.0
+                ],
+                [
+                  3310.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18469,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11186,
+          "opposed_pairs": 54889
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "fd8e27f657259a651b4e079f8084b6bee5e01f025ec2fdb0aa08459eba3901ed",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  },
+  {
+    "id": "Si_below_margin",
+    "gds_sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186",
+    "layers": [
+      {
+        "layer": 3,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 3,
+          "datatype": 0,
+          "raw_polygons": 173,
+          "raw_vertices": 11436,
+          "area_um2": 11764.63892600088,
+          "perimeter_um": 35156.49869536423,
+          "bbox_um": [
+            -690.0,
+            -560.225,
+            3310.0,
+            440.225
+          ],
+          "merged_components": 2,
+          "holes": 10
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.34800000000000003,
+              "point_A_um": [
+                3300.0,
+                0.34800000000000003
+              ],
+              "point_B_um": [
+                3300.0,
+                0.0
+              ],
+              "edge_A_um": [
+                [
+                  3310.0,
+                  0.34800000000000003
+                ],
+                [
+                  3300.0,
+                  0.34800000000000003
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  3300.0,
+                  0.0
+                ],
+                [
+                  3310.0,
+                  0.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 0.8,
+            "candidate_pairs": 18469,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.349,
+            "rule_passed": false
+          },
+          "space": {
+            "minimum": {
+              "value_um": 0.5300000000000011,
+              "point_A_um": [
+                1976.0,
+                -105.265
+              ],
+              "point_B_um": [
+                1976.0,
+                -104.735
+              ],
+              "edge_A_um": [
+                [
+                  1996.0,
+                  -105.78999999999999
+                ],
+                [
+                  1976.0,
+                  -105.265
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1976.0,
+                  -104.735
+                ],
+                [
+                  1996.0,
+                  -104.21000000000001
+                ]
+              ],
+              "directed_angle_deg": 176.99266219658568,
+              "visibility": "one_sided_boundary_limit"
+            },
+            "search_cap_um": 4,
+            "candidate_pairs": 2128,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.199,
+            "rule_passed": true
+          },
+          "boundary_edges": 11186,
+          "opposed_pairs": 54889
+        }
+      },
+      {
+        "layer": 39,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 39,
+          "datatype": 0,
+          "raw_polygons": 42,
+          "raw_vertices": 168,
+          "area_um2": 4060.0000000000027,
+          "perimeter_um": 3894.7999999999993,
+          "bbox_um": [
+            1.0,
+            -95.0,
+            1888.5,
+            5.0
+          ],
+          "merged_components": 14,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 0.8999999999999986,
+              "point_A_um": [
+                516.0,
+                -29.55
+              ],
+              "point_B_um": [
+                516.0,
+                -30.45
+              ],
+              "edge_A_um": [
+                [
+                  616.0,
+                  -29.55
+                ],
+                [
+                  516.0,
+                  -29.55
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  516.0,
+                  -30.45
+                ],
+                [
+                  616.0,
+                  -30.45
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 2,
+            "candidate_pairs": 14,
+            "visibility_tested": 14,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 0.599,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 50.0,
+              "point_A_um": [
+                1121.0,
+                -55.0
+              ],
+              "point_B_um": [
+                1121.0,
+                -5.0
+              ],
+              "edge_A_um": [
+                [
+                  1131.0,
+                  -55.0
+                ],
+                [
+                  1121.0,
+                  -55.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  1121.0,
+                  -5.0
+                ],
+                [
+                  1131.0,
+                  -5.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 32,
+            "visibility_tested": 32,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 224,
+          "opposed_pairs": 422
+        }
+      },
+      {
+        "layer": 41,
+        "metadata": {
+          "reader": "gdstk 1.0.2",
+          "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+          "source_sha256": "ebd72d9b44a30f599c65000e0b7428a8f5a8719784bc18fa8a28988fd72e5186",
+          "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+          "library_unit_m": 1e-06,
+          "precision_um": 0.001,
+          "layer": 41,
+          "datatype": 0,
+          "raw_polygons": 109,
+          "raw_vertices": 436,
+          "area_um2": 223036.0,
+          "perimeter_um": 35179.0,
+          "bbox_um": [
+            -220.0,
+            -840.0,
+            2240.0,
+            690.0
+          ],
+          "merged_components": 15,
+          "holes": 0
+        },
+        "measurements": {
+          "width": {
+            "minimum": {
+              "value_um": 8.0,
+              "point_A_um": [
+                -36.0,
+                -86.0
+              ],
+              "point_B_um": [
+                -36.0,
+                -94.0
+              ],
+              "edge_A_um": [
+                [
+                  0.0,
+                  -86.0
+                ],
+                [
+                  -36.0,
+                  -86.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  -36.0,
+                  -94.0
+                ],
+                [
+                  0.0,
+                  -94.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 12,
+            "candidate_pairs": 318,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 1.999,
+            "rule_passed": true
+          },
+          "space": {
+            "minimum": {
+              "value_um": 13.5,
+              "point_A_um": [
+                422.5,
+                -56.0
+              ],
+              "point_B_um": [
+                436.0,
+                -56.0
+              ],
+              "edge_A_um": [
+                [
+                  422.5,
+                  -86.0
+                ],
+                [
+                  422.5,
+                  -49.0
+                ]
+              ],
+              "edge_B_um": [
+                [
+                  436.0,
+                  -56.0
+                ],
+                [
+                  436.0,
+                  -64.0
+                ]
+              ],
+              "directed_angle_deg": 180.0,
+              "visibility": "open_connector"
+            },
+            "search_cap_um": 80,
+            "candidate_pairs": 508,
+            "visibility_tested": 128,
+            "scope": "Minimum positive visible opposing-edge separation in declared search cap; adjacent edges excluded, >135-degree directed edge angle for angle_limit=45; not complete process DRC",
+            "effective_limit_um": 9.999,
+            "rule_passed": true
+          },
+          "boundary_edges": 440,
+          "opposed_pairs": 1470
+        }
+      }
+    ]
+  }
+]

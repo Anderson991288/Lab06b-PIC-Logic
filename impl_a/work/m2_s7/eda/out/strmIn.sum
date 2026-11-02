@@ -1,0 +1,119 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  23:59:35
+User Name : edauser
+Host Name : eda.ic
+Directory : /home/edauser/claude_b7/virtuoso
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics 
+---------------------------------------------------------------------------------------------------------------
+Library/Cell/View                                  Instance Array    Polygon  Rect     Path     Text     Node    
+---------------------------------------------------------------------------------------------------------------
+ B7_CHIP/B7_CHIP/layout                             21       0        125      419      0        0        0       
+ B7_CHIP/WG0009/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0008/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0007/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0004/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0003/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0002/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0035/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0033/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/MZI_M1/layout                              14       0        2        5        0        0        0       
+ B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2/layout                                          0        0        1        0        0        0        0       
+ B7_CHIP/WG0032/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0031/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/WG0029/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/B7_CORE/layout                             23       0        8        9        0        0        0       
+ B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI/layout    5        0        0        0        0        0        0       
+ B7_CHIP/WG0034/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0005/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4/layout                                          0        0        1        0        0        0        0       
+ B7_CHIP/PS_M4_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/MZI_M7/layout                              14       0        2        5        0        0        0       
+ B7_CHIP/PS_M4_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/MZI_M4/layout                              14       0        2        6        0        0        0       
+ B7_CHIP/WG0030/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/PS_M3_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1/layout                                          0        0        1        0        0        0        0       
+ B7_CHIP/MZI_M3/layout                              14       0        3        4        0        0        0       
+ B7_CHIP/WG0019/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3/layout                                          0        0        1        0        0        0        0       
+ B7_CHIP/MZI_M2/layout                              14       0        2        4        0        0        0       
+ B7_CHIP/WG0028/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0026/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/WG0006/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/MMI_2_3532_4_1467/layout                   1        0        0        0        0        0        0       
+ B7_CHIP/WG0018/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/PS_M1_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/PS_M3_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace/layout                                        0        0        0        1        0        0        0       
+ B7_CHIP/PS_M2_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/WG0023/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/PS_M5_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/EC_THIN_SI_1_0000/layout                   0        0        2        9        0        0        0       
+ B7_CHIP/PS_M5_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/WG0027/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0012/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/MZI_M5/layout                              14       0        2        4        0        0        0       
+ B7_CHIP/WG0000/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/PS_M6_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/PS_M6_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/WG0022/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/MZI_M6/layout                              14       0        3        4        0        0        0       
+ B7_CHIP/WG0016/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/WG0001/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/PS_M7_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/WG0011/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0013/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0014/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/PS_M7_phi/layout                           1        0        0        5        0        0        0       
+ B7_CHIP/WG0015/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0017/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/PS_M2_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/WG0020/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/WG0036/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/WG0021/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/WG0024/layout                              0        0        0        1        0        0        0       
+ B7_CHIP/PS_M1_theta/layout                         1        0        0        5        0        0        0       
+ B7_CHIP/WG0010/layout                              0        0        1        0        0        0        0       
+ B7_CHIP/WG0025/layout                              0        0        0        1        0        0        0       
+---------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+-------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     PathSeg  Text     Node    
+-------------------------------------------------------------------------------------------------------------
+L3              drawing         3       0         28       23       0        0        0        0   
+L39             drawing         39      0         0        42       0        0        0        0   
+L41             drawing         41      0         0        74       0        0        0        0   
+L100            drawing         100     0         149      413      0        0        0        0   
+L5              drawing         5       0         1        0        0        0        0        0   
+L4              drawing         4       0         0        1        0        0        0        0   
+L99             drawing         99      0         0        1        0        0        0        0   
+-------------------------------------------------------------------------------------------------------------
+
+
+Summary of Objects Translated:
+
+	Instances:	162
+	Arrays:		0
+	Polygons:	178
+	Paths:		0
+	PathSegs:	0
+	Rectangles:	554
+	Text:		0
+	Node:		0
+	Line:		0
+	Cells:		68
+
+
+Design Libraries: 
+
+DEFINE B7_CHIP       B7_CHIP

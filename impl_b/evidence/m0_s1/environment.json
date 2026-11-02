@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-10-31T10:19:42.642785+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "planned_root": "C:/EDA_Codex/Lab06b",
+  "root_matches_plan": true,
+  "python": {
+    "executable": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+    "version": "3.14.3"
+  },
+  "system": "Windows-11-10.0.26200-SP0",
+  "baseline_passed": true,
+  "checks": [
+    {
+      "name": "python_3_10_or_newer",
+      "passed": true
+    },
+    {
+      "name": "file:Lab06b_index.html",
+      "passed": true
+    },
+    {
+      "name": "file:course/plan.html",
+      "passed": true
+    },
+    {
+      "name": "file:course/m0_s1.html",
+      "passed": true
+    },
+    {
+      "name": "file:analysis/lab01a_7_6.html",
+      "passed": true
+    },
+    {
+      "name": "file:config/course.json",
+      "passed": true
+    },
+    {
+      "name": "file:scripts/smoke_mzi.py",
+      "passed": true
+    },
+    {
+      "name": "evidence_write",
+      "passed": true
+    }
+  ],
+  "packages": {
+    "numpy": {
+      "available": true,
+      "version": "2.3.5",
+      "module_origin": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\Lib\\site-packages\\numpy\\__init__.py"
+    },
+    "matplotlib": {
+      "available": true,
+      "version": "3.10.8",
+      "module_origin": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\Lib\\site-packages\\matplotlib\\__init__.py"
+    },
+    "ipkiss3": {
+      "available": true,
+      "version": "unknown (module discoverable)",
+      "module_origin": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\Lib\\site-packages\\ipkiss3\\__init__.py"
+    },
+    "cornerstone": {
+      "available": true,
+      "version": "unknown (module discoverable)",
+      "module_origin": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\__init__.py"
+    },
+    "meep": {
+      "available": false,
+      "version": null
+    },
+    "klayout": {
+      "available": false,
+      "version": null
+    }
+  },
+  "executables": {
+    "wsl": "C:\\WINDOWS\\system32\\wsl.EXE",
+    "klayout": null,
+    "calibre": null
+  },
+  "path_config": "C:\\EDA_Codex\\Lab06b\\EDA_paths.json",
+  "configured_tools": {
+    "ipkiss_python": {
+      "path": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "exists": true
+    },
+    "python_executable": {
+      "path": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "exists": true
+    },
+    "pdk_cornerstone": {
+      "path": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1",
+      "exists": true
+    },
+    "klayout_exe": {
+      "path": "tools/KLayout/klayout-0.30.12-win64/klayout_app.exe",
+      "exists": true
+    },
+    "drc_deck": {
+      "path": "work/common/drc/cornerstone_Si220_passive.lydrc",
+      "exists": true
+    },
+    "physics_python": {
+      "path": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+      "exists": true
+    }
+  },
+  "eda_probes": {},
+  "eda_ready": false,
+  "note": "Module discovery is not a license check. No EDA simulation, DRC or FDTD has been executed by this audit."
+}

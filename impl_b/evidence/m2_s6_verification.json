@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-10-31T13:00:18.035622+08:00",
+  "step": "M2 S6",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "original_pre_DRC_categories": 31,
+  "violations_before": 2,
+  "violations_after": 0,
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "M2_S5": {
+      "run": 8,
+      "passed": 8,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "same_original_deck",
+      "passed": true
+    },
+    {
+      "name": "all_original_categories_executed",
+      "passed": true
+    },
+    {
+      "name": "real_initial_violations_recorded",
+      "passed": true
+    },
+    {
+      "name": "after_pre_DRC_zero",
+      "passed": true
+    },
+    {
+      "name": "physical_layers_unchanged",
+      "passed": true
+    },
+    {
+      "name": "only_port_label_windows_changed",
+      "passed": true
+    },
+    {
+      "name": "both_geometric_connectivity_compared",
+      "passed": true
+    },
+    {
+      "name": "eight_real_GDS_faults_detected",
+      "passed": true
+    },
+    {
+      "name": "DRC_insufficient_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "existing_regression",
+      "passed": true
+    },
+    {
+      "name": "M1_immutable_baseline_only",
+      "passed": true
+    }
+  ],
+  "metal_nets": 15,
+  "heater_branches": 14,
+  "optical_route_pairs": 33,
+  "optical_terminals": 66,
+  "negative_controls_detected": 8,
+  "DRC_zero_but_wrong_connectivity_controls": 4,
+  "current_chip": {
+    "schema": "lab06b.current_chip.v1",
+    "accepted_at_step": "M2 S6",
+    "qualification": "installed_pre_DRC_zero_and_geometric_netlist_compare_only",
+    "m1_spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "core_index": "config/m2_current_core.json",
+    "files": {
+      "work/m2_s6/out/after/b7_ec_pad.gds": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "work/m2_s6/out/after/chip_info.json": "16e71ea1ec0641ba0f419b3ce02b20cc97169fdb640a23f3dc13ab9f682b1b48",
+      "work/m2_s6/out/after/pad_heater_map.csv": "50d9da3a13de8e5b7a68cc1148f0d17aec9c99f39b7b4fc141f24785a9ea58d2",
+      "work/m2_s6/out/after/optical_io.csv": "5585124b8be0c268da467b288cb8aa4b890c5ec15f726d18c10a54539449d39e",
+      "work/m2_s6/out/after/ground_pads.csv": "0410fd9b21776131d6a6133f1b81e3910778a9dca1701d9f22adb936d5a35268"
+    },
+    "results": "work/m2_s6/out/verification_results.json",
+    "label_revision": "port labels only; physical masks identical to S5",
+    "pending": [
+      "foundry full signoff and process-qualified LVS",
+      "qualified EC/mode/response",
+      "thermal/common-ground calibration",
+      "layout path backannotation and replay"
+    ]
+  },
+  "source_hashes": {
+    "config/m2_verification.json": "6801d163c2203686e54bb986df039a8620d630e882c4ad60aaa4a14abd32a261",
+    "work/m2_s6/run_verification.py": "e67425a62d0c6f8779b664b31253aa4b0917d6b5b41aafc5b09037ced98b58cc",
+    "work/m2_s6/prepare_gds.py": "7acf55d7ccd9c5e1e9f14cd74b70e669a914741a342e7a7baef37d467d0d9380",
+    "work/m2_s6/connectivity.py": "0c3c64c5a9c7e20ab47fc3a76905bc1cd5bff5d3388bdda59bc6baf62c403f97",
+    "work/m2_s6/check_connectivity.py": "087228d587c3108396ed1920cb5abcaa8f72052ccdf742ff93b3685c59e15ba0",
+    "work/common/drc/cornerstone_Si220_passive.lydrc": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "work/m2_s6/generate_faults.py": "19442a2b3f69f8d7659dc4b0356579ca76a863fbece74f6117699bb943afa527",
+    "work/m2_s6/run_controls.py": "1245adcddbf1b10628b4ca2d329ce32309600f7da519840467cc22c9d2aae37a",
+    "work/m2_s6/regression.py": "d4169611f79d37a3be1cb851b61c50aa6af65144bdfd48c3280a579f8b5a0a8f",
+    "work/m2_s6/summarize.py": "53f198d0a97d822f75cb2114a7c1daed59f31f3316e46a67463b0af85daa74d4",
+    "scripts/run_m2_s6.ps1": "623e3523eb9946cc220937520a426a7d4fdcd96c9daad687cce2babc133dd264",
+    "scripts/render_m2_s6.py": "4f9322ebf01e5a4e74247d9d8365df72d1339e323cbaeefe1e3574028343d20a",
+    "scripts/render_course.py": "d60ad579787a86a948cb33151b951f0391bbdc0999c57cd833aa62b73d743e61",
+    "work/m2_s6/render_evidence.py": "e4259f0696625008442464bcee4efa378d4c293a5e738798fa86724e19dc4854",
+    "work/m2_s6/plot_verification.py": "4704e39e0408557a045964a7a52d1d0edb1af5e2e08ff3b9ea06a0fc26f37f92",
+    "work/m2_s6/browser_qa.cjs": "1a0f5f492b74658118df55149cde6e0c9e359557be0d344165c581f7b7afc1b0"
+  },
+  "source_hashes_verified": true,
+  "prior_files_verified": 140,
+  "M1_sources_and_zip_unchanged": true,
+  "M1_baseline_replay_passed": 80,
+  "physical_layers_unchanged": true,
+  "browser_route_cases": 33,
+  "browser_control_cases": 10,
+  "worksheet_verified": true,
+  "html_files": 21,
+  "local_links": 1010,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s6_20261031_124204",
+  "learner_submission": "pending",
+  "foundry_full_signoff": false,
+  "formal_foundry_LVS": false,
+  "optical_mode_phase_verified": false,
+  "scope": "All installed original v3.1 pre-DRC categories at declared custom design size; geometric metal/HT and photonic black-box netlist comparison; not foundry full DRC/LVS, EC response, thermal calibration or layout-extracted truth replay.",
+  "next_step": "M2 S7"
+}

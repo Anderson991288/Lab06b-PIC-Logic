@@ -1,0 +1,22 @@
+test_all_bar_retains_complex_phase (B7Tests.B7Tests.test_all_bar_retains_complex_phase) ... ok
+test_all_cross_known_permutation (B7Tests.B7Tests.test_all_cross_known_permutation) ... ok
+test_basis_probes_are_columns_not_rows (B7Tests.B7Tests.test_basis_probes_are_columns_not_rows) ... ok
+test_bypass_ports_and_layer_population (B7Tests.B7Tests.test_bypass_ports_and_layer_population) ... ok
+test_change_one_phase_changes_matrix (B7Tests.B7Tests.test_change_one_phase_changes_matrix) ... ok
+test_course_contract_and_phase_order (B7Tests.B7Tests.test_course_contract_and_phase_order) ... ok
+test_elements_and_layers_agree (B7Tests.B7Tests.test_elements_and_layers_agree) ... ok
+test_identity_state_keeps_bypass_phase (B7Tests.B7Tests.test_identity_state_keeps_bypass_phase) ... ok
+test_independent_pairwise_scalar_replay (B7Tests.B7Tests.test_independent_pairwise_scalar_replay) ... ok
+test_inherited_complex_matrices (B7Tests.B7Tests.test_inherited_complex_matrices) ... ok
+test_parameter_and_trace_guards (B7Tests.B7Tests.test_parameter_and_trace_guards) ... ok
+test_passive_loss_and_bypass_not_global_attenuation (B7Tests.B7Tests.test_passive_loss_and_bypass_not_global_attenuation) ... ok
+test_random_unitarity_and_power (B7Tests.B7Tests.test_random_unitarity_and_power) ... ok
+test_same_layer_commutes_but_cross_layer_not (B7Tests.B7Tests.test_same_layer_commutes_but_cross_layer_not) ... ok
+test_structural_zeros_follow_directed_paths (B7Tests.B7Tests.test_structural_zeros_follow_directed_paths) ... ok
+test_topology_guards (B7Tests.B7Tests.test_topology_guards) ... ok
+test_trace_boundary_and_input_copy (B7Tests.B7Tests.test_trace_boundary_and_input_copy) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.254s
+
+OK

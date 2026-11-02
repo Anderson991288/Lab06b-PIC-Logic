@@ -1,0 +1,21 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>兩種獨立量法</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>讀檔</td><td>自寫的 GDS 解析；無效多邊形以 buffer(0) 修補</td><td>第三方 gdstk；無效多邊形直接拒絕，不修補</td></tr>
+<tr><td>圖層</td><td>6 層（3、4、5、39、41、100）</td><td>3 層（Si、heater、接墊），6 項量測</td></tr>
+<tr><td>KLayout 端</td><td>平台規則檔的標記</td><td>以 1 nm 二分搜尋給出上下界</td></tr>
+<tr><td>案例</td><td>12 個規則故障、11 個邊界案例（含拿掉 45° 夾角限制的對照）</td><td>8 個控制 GDS、54 項判讀；12 項單元測試（旋轉 37°、階層與鏡像、單位、孔洞）</td></tr>
+<tr><td>結論</td><td>最終 GDS 兩種方法都是 0；故障與邊界案例全部一致</td><td>54 項全部一致；平台規則檔完整重跑 31 類 0 筆</td></tr></table>
+<p>在新位置重跑實作 B 的這一步：6 項量測、54 項判讀、8 個控制 GDS、12 項測試，全部通過。</p>
+
+<h3>量到的最小值</h3>
+<table><tr><th>量</th><th>主線</th><th>實作 B</th><th>判讀</th></tr>
+<tr><td>Si 線寬／間距</td><td>0.350／0.530 µm</td><td>0.350／0.530 µm</td><td>一致。</td></tr>
+<tr><td>heater 線寬／間距</td><td>0.9／50 µm</td><td>0.900／50.000 µm</td><td>一致。</td></tr>
+<tr><td>金屬間距</td><td>48 µm</td><td>13.500 µm</td><td>兩套的接地佈線不同（M2 s5），量的是不同設計，不是方法差異。</td></tr></table>
+
+<h3>值得一起看：量測方法自己的錯</h3>
+<p>實作 B 第一版量到 Si 間距 1.579 µm，比正確值 0.530 µm 大很多。原因是同一塊多邊形上的凹口（notch）被排除在「間距」之外，漏掉了最近的那一對邊。修正後才得到 0.530 µm。獨立檢查本身也可能寫錯，所以要像本頁主線一樣，用已知答案的邊界案例先驗證檢查程式。</p>
+<figure><img src="figures_b/m3_s2/witnesses.svg" alt="最小值見證線" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>實作 B 的 6 條「見證線」：每個最小值都標出量到的那一對邊的端點座標，讓別人可以在 KLayout 裡找到同一個位置複查。由 <a href="../impl_b/work/m3_s2/plot_crosscheck.py"><code>plot_crosscheck.py</code></a> 產生。</figcaption></figure>

@@ -1,0 +1,268 @@
+{
+ "package": "B7_PIC_delivery",
+ "date": "2026-10-31",
+ "final_gds": "layout/B7_final.gds",
+ "final_sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8",
+ "files": [
+  {
+   "path": "check_delivery.py",
+   "size": 1123,
+   "sha256": "c2edca4bd7e197085a7fd2f8c9af35197e34ce51c02c98e6bd62d7d6a0f72b12"
+  },
+  {
+   "path": "figures/B7_core.png",
+   "size": 132847,
+   "sha256": "c7c48cfa2f8ef4ec0e2fe9b210708fd8bcb7f50a57e5687f56ed6758df867321"
+  },
+  {
+   "path": "figures/B7_final.png",
+   "size": 134218,
+   "sha256": "d3f4ec5d65cea74001dee3fdf3fb9ed81bf80c76b49c4987e1af4a3d20f80ad7"
+  },
+  {
+   "path": "figures/B7_lvs_extract.png",
+   "size": 93803,
+   "sha256": "bfa141c0b8df0e7f3cb96fa4530312e319cb375b9d1c98ef71f2e66c25fab7ab"
+  },
+  {
+   "path": "figures/B7_pads_nets.png",
+   "size": 65590,
+   "sha256": "42e75a036326fba76a2b2e5e08689e92805757e8cfa5756fd97ef0c863e12e6c"
+  },
+  {
+   "path": "interfaces/chip_info.json",
+   "size": 4704,
+   "sha256": "4aa0d157d2feecb6df11a2789788ed26a127713770a5d917736fa4c146c39441"
+  },
+  {
+   "path": "interfaces/core_layout_info.json",
+   "size": 4526,
+   "sha256": "7c777e7b47944511434adb805dbf942b22981e7c4c9887a4fed83ba736f1df00"
+  },
+  {
+   "path": "interfaces/external_requirements.json",
+   "size": 842,
+   "sha256": "d0ec25106f09a5db2d039cb6be2fc1f1fb9750b0cf72ad96af85c9c80a4575a7"
+  },
+  {
+   "path": "interfaces/io_table.json",
+   "size": 4831,
+   "sha256": "f40777889b4554b3b5b0c46af84b8708ee43b8fc321653297ef73bee459971a4"
+  },
+  {
+   "path": "interfaces/netlist.json",
+   "size": 1707,
+   "sha256": "a714547974896ce0b2eb5d045bd7ad1e6d05ce309e4bca5345405dec64a65f2d"
+  },
+  {
+   "path": "interfaces/optical_ports.csv",
+   "size": 522,
+   "sha256": "c7fdec833869dc5cdf378ddd045d94edc259167f09e15765e9d7744e4d6bde0e"
+  },
+  {
+   "path": "interfaces/pad_map.csv",
+   "size": 1182,
+   "sha256": "b6cc34009dc45db84fe52528ee01f0c7747ed5818082106acec1c88afc46af7d"
+  },
+  {
+   "path": "interfaces/pic_spec.json",
+   "size": 6129,
+   "sha256": "044215e04b49d3342ea710c5c71428e66d29d3dc2aa7c2c4f5de1e125ec64de1"
+  },
+  {
+   "path": "interfaces/truth_table.json",
+   "size": 9606,
+   "sha256": "eb3618091dd8dac7842d10dffa4095b45d4f2729b3ee6998d4ba175e44784396"
+  },
+  {
+   "path": "layout/B7_core_reviewed.gds",
+   "size": 49614,
+   "sha256": "903a096106af476963c9e2d38dd8d0935ae9cedf83bcfdde1bfb96fceed6f563"
+  },
+  {
+   "path": "layout/B7_final.gds",
+   "size": 127892,
+   "sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8"
+  },
+  {
+   "path": "README.md",
+   "size": 3808,
+   "sha256": "a8ead4e20e7db11c635e5d0084a68de4f1d7a898a242f252cfe7da89b65b3357"
+  },
+  {
+   "path": "rebuild_gds.py",
+   "size": 1898,
+   "sha256": "9a4d1deda049adc7f7aad7ddef8b0fcc43b87f3595b7e36bb5e79a5f2b15ee79"
+  },
+  {
+   "path": "reports/B7_final_drc.lyrdb",
+   "size": 4755,
+   "sha256": "acf671a95960da8b7d0cb2cb168ab3dd7bbd0efce8a8936afbedd5ffd2e70968"
+  },
+  {
+   "path": "reports/chip_simulation.json",
+   "size": 16022,
+   "sha256": "bb31baa1ad596c459b204014ad74b36c9ae5f796405bd7a6bcbb0333b773d96a"
+  },
+  {
+   "path": "reports/connectivity.json",
+   "size": 4721,
+   "sha256": "a8c0e2c6bee18c5362569a130dd4fbc809be7d8993e6225e21b03cca60cbd2b5"
+  },
+  {
+   "path": "reports/core_review.json",
+   "size": 19465,
+   "sha256": "28371fe332440da2bff2431330f1479653c1d3850c273bfc2f59a993fe8d8a2f"
+  },
+  {
+   "path": "reports/drc_result.json",
+   "size": 2030,
+   "sha256": "39927cc52f7caf6a27a13f31382a74dd1ec0e53634ad313e2ca351f50626b551"
+  },
+  {
+   "path": "reports/signoff.json",
+   "size": 1436,
+   "sha256": "65ae098948853000097aa266a4015fa7e97b148eafd06a9f9f006970bc461c32"
+  },
+  {
+   "path": "simulation/pdk_matrices.json",
+   "size": 9006,
+   "sha256": "d6b4649fa125129bf08ff2aa0154cea764d28b5b5fbb0d60ee27bef0648ea784"
+  },
+  {
+   "path": "simulation/pdk_truth_tables.csv",
+   "size": 9437,
+   "sha256": "55cc65a9a77c8e2962477dbf57c3732a8d09706e28b28c063cb046be74258ac3"
+  },
+  {
+   "path": "simulation/phase_settings.json",
+   "size": 9751,
+   "sha256": "c511dc6b37c52e67614ca2f667be908fe6c627db873b664632f8b5f0416316ef"
+  },
+  {
+   "path": "source/sources/b7_phases.json",
+   "size": 9751,
+   "sha256": "c511dc6b37c52e67614ca2f667be908fe6c627db873b664632f8b5f0416316ef"
+  },
+  {
+   "path": "source/spec/external_requirements.json",
+   "size": 842,
+   "sha256": "d0ec25106f09a5db2d039cb6be2fc1f1fb9750b0cf72ad96af85c9c80a4575a7"
+  },
+  {
+   "path": "source/spec/io_table.json",
+   "size": 4831,
+   "sha256": "f40777889b4554b3b5b0c46af84b8708ee43b8fc321653297ef73bee459971a4"
+  },
+  {
+   "path": "source/spec/netlist.json",
+   "size": 1707,
+   "sha256": "a714547974896ce0b2eb5d045bd7ad1e6d05ce309e4bca5345405dec64a65f2d"
+  },
+  {
+   "path": "source/spec/pic_spec.json",
+   "size": 6129,
+   "sha256": "044215e04b49d3342ea710c5c71428e66d29d3dc2aa7c2c4f5de1e125ec64de1"
+  },
+  {
+   "path": "source/spec/truth_table.json",
+   "size": 9606,
+   "sha256": "eb3618091dd8dac7842d10dffa4095b45d4f2729b3ee6998d4ba175e44784396"
+  },
+  {
+   "path": "source/work/common/b7.py",
+   "size": 7867,
+   "sha256": "aa4537540d160fa50ad3e2fa05f3c5ca3ac449096a5694c40afbfa52266d29c8"
+  },
+  {
+   "path": "source/work/common/b7_chip.py",
+   "size": 12510,
+   "sha256": "5f283f70f996815db6da6bf493946a64c659257b40505a26faf79f48fb94a60d"
+  },
+  {
+   "path": "source/work/common/b7_circuit.py",
+   "size": 6435,
+   "sha256": "1e23e0684df54d5e80caa6114e4d93fb992d240d9ea9022962b0cba508590a1e"
+  },
+  {
+   "path": "source/work/common/b7_layout.py",
+   "size": 20878,
+   "sha256": "4946e98f0596c5b894b8084a3d520dabb1d2c44f231e26c81402cf3b1c7519b1"
+  },
+  {
+   "path": "source/work/common/b7plot.py",
+   "size": 1808,
+   "sha256": "9d142e95d9ddfad6f4deba93bd6f0ddf2b76c53b46f31041d8000a22a09ca1ab"
+  },
+  {
+   "path": "source/work/common/drc.py",
+   "size": 4459,
+   "sha256": "70d28e07e820ca7a085934ed0dc68b818909cc7ac9483503aab325620e86bd28"
+  },
+  {
+   "path": "source/work/common/gds2png.py",
+   "size": 6716,
+   "sha256": "8073e1d13968ad171dbdf627919d0d3831cceb712aa84add3403c2d7856a7f79"
+  },
+  {
+   "path": "source/work/common/gds_verify.py",
+   "size": 9796,
+   "sha256": "884e7b5bdcb86a2fafa5271dadd0b5fef900272aaf66c683384aad711158f5f4"
+  },
+  {
+   "path": "source/work/common/mzi.py",
+   "size": 3261,
+   "sha256": "83ebcd73a0f62930918841fd28f1f993c09e6f882640963738f09528a63469a3"
+  },
+  {
+   "path": "source/work/common/pdk.py",
+   "size": 2030,
+   "sha256": "4ea0b416273ab70b148eda8a0c30492cf2e75f78b52980d58ad06dfa170ab72a"
+  },
+  {
+   "path": "source/work/common/runtime.py",
+   "size": 3045,
+   "sha256": "5d5f875f1ffe4bf0c341edff6d07f93718ad5c8bcff6100e97b6c9ed35a68b0b"
+  },
+  {
+   "path": "source/work/m0_s2/out/m0_s2_result.json",
+   "size": 6392,
+   "sha256": "8fea7302f260d112f4cd3e19346271b1f397b86176146c95eee4e2ffd1e5f036"
+  },
+  {
+   "path": "source/work/m2_s2/simulate.py",
+   "size": 15778,
+   "sha256": "dec2fb978c786a5a01781f3445cc1c27efe8b79036230375a1b7df1db534ae46"
+  },
+  {
+   "path": "source/work/m2_s3/build_layout.py",
+   "size": 16693,
+   "sha256": "794f5fd6000bd9d78937b373de7a768b9e681a412f77dc693df36b4de092abfc"
+  },
+  {
+   "path": "source/work/m2_s3/out/layout_info.json",
+   "size": 4526,
+   "sha256": "7c777e7b47944511434adb805dbf942b22981e7c4c9887a4fed83ba736f1df00"
+  },
+  {
+   "path": "source/work/m2_s4/review_layout.py",
+   "size": 15911,
+   "sha256": "f619bb2a74adfc4688d71bc05bc37766ee505ddfe4832930d61eda13fc4fca78"
+  },
+  {
+   "path": "source/work/m2_s5/build_chip.py",
+   "size": 19530,
+   "sha256": "b5d37dea55d16b714cbf779399e2d7e00e69fce4668a653477983f01570cc545"
+  },
+  {
+   "path": "source/work/m2_s6/verify_chip.py",
+   "size": 13166,
+   "sha256": "3a4314afe0e507daad4d68b10106e283b75ac406496aed82a1221f6637b85517"
+  },
+  {
+   "path": "verify_gds.py",
+   "size": 1038,
+   "sha256": "553b9df64e7ccd511db125f9956aeba85fda9c1d85de6974c37a42d9f9541ba5"
+  }
+ ]
+}

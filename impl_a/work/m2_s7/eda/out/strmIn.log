@@ -1,0 +1,120 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  23:59:35
+User Name : edauser
+Host Name : eda.ic
+Directory : /home/edauser/claude_b7/virtuoso
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-289): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option.
+
+Summary of Options:
+	library				B7_CHIP
+	strmFile			in.gds
+	logFile				strmIn.log
+	view				layout
+	case				Preserve
+	summaryFile			strmIn.sum
+	propSeparator			,
+
+INFO (XSTRM-220): 1. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace as cellView B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace/layout.
+INFO (XSTRM-61): Creating a new layer L3 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L3:drawing' in the technology file.
+INFO (XSTRM-220): 2. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1 as cellView B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2 as cellView B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3 as cellView B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4 as cellView B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI as cellView B7_CHIP/SOI220nm_1550nm_TE_STRIP_2x2_MMI/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE MMI_2_3532_4_1467 as cellView B7_CHIP/MMI_2_3532_4_1467/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE WG0036 as cellView B7_CHIP/WG0036/layout.
+INFO (XSTRM-220): 9. Translating STRUCTURE PS_M1_phi as cellView B7_CHIP/PS_M1_phi/layout.
+INFO (XSTRM-61): Creating a new layer L39 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L39:drawing' in the technology file.
+INFO (XSTRM-61): Creating a new layer L41 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L41:drawing' in the technology file.
+INFO (XSTRM-220): 10. Translating STRUCTURE PS_M1_theta as cellView B7_CHIP/PS_M1_theta/layout.
+INFO (XSTRM-220): 11. Translating STRUCTURE WG0026 as cellView B7_CHIP/WG0026/layout.
+INFO (XSTRM-220): 12. Translating STRUCTURE WG0027 as cellView B7_CHIP/WG0027/layout.
+INFO (XSTRM-220): 13. Translating STRUCTURE WG0028 as cellView B7_CHIP/WG0028/layout.
+INFO (XSTRM-220): 14. Translating STRUCTURE WG0029 as cellView B7_CHIP/WG0029/layout.
+INFO (XSTRM-220): 15. Translating STRUCTURE WG0030 as cellView B7_CHIP/WG0030/layout.
+INFO (XSTRM-220): 16. Translating STRUCTURE WG0031 as cellView B7_CHIP/WG0031/layout.
+INFO (XSTRM-220): 17. Translating STRUCTURE WG0032 as cellView B7_CHIP/WG0032/layout.
+INFO (XSTRM-220): 18. Translating STRUCTURE WG0033 as cellView B7_CHIP/WG0033/layout.
+INFO (XSTRM-220): 19. Translating STRUCTURE WG0034 as cellView B7_CHIP/WG0034/layout.
+INFO (XSTRM-220): 20. Translating STRUCTURE WG0035 as cellView B7_CHIP/WG0035/layout.
+INFO (XSTRM-220): 21. Translating STRUCTURE MZI_M1 as cellView B7_CHIP/MZI_M1/layout.
+INFO (XSTRM-61): Creating a new layer L100 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L100:drawing' in the technology file.
+INFO (XSTRM-220): 22. Translating STRUCTURE PS_M2_phi as cellView B7_CHIP/PS_M2_phi/layout.
+INFO (XSTRM-220): 23. Translating STRUCTURE PS_M2_theta as cellView B7_CHIP/PS_M2_theta/layout.
+INFO (XSTRM-220): 24. Translating STRUCTURE MZI_M2 as cellView B7_CHIP/MZI_M2/layout.
+INFO (XSTRM-220): 25. Translating STRUCTURE PS_M3_phi as cellView B7_CHIP/PS_M3_phi/layout.
+INFO (XSTRM-220): 26. Translating STRUCTURE PS_M3_theta as cellView B7_CHIP/PS_M3_theta/layout.
+INFO (XSTRM-220): 27. Translating STRUCTURE MZI_M3 as cellView B7_CHIP/MZI_M3/layout.
+INFO (XSTRM-220): 28. Translating STRUCTURE PS_M4_phi as cellView B7_CHIP/PS_M4_phi/layout.
+INFO (XSTRM-220): 29. Translating STRUCTURE PS_M4_theta as cellView B7_CHIP/PS_M4_theta/layout.
+INFO (XSTRM-220): 30. Translating STRUCTURE MZI_M4 as cellView B7_CHIP/MZI_M4/layout.
+INFO (XSTRM-220): 31. Translating STRUCTURE PS_M5_phi as cellView B7_CHIP/PS_M5_phi/layout.
+INFO (XSTRM-220): 32. Translating STRUCTURE PS_M5_theta as cellView B7_CHIP/PS_M5_theta/layout.
+INFO (XSTRM-220): 33. Translating STRUCTURE MZI_M5 as cellView B7_CHIP/MZI_M5/layout.
+INFO (XSTRM-220): 34. Translating STRUCTURE PS_M6_phi as cellView B7_CHIP/PS_M6_phi/layout.
+INFO (XSTRM-220): 35. Translating STRUCTURE PS_M6_theta as cellView B7_CHIP/PS_M6_theta/layout.
+INFO (XSTRM-220): 36. Translating STRUCTURE MZI_M6 as cellView B7_CHIP/MZI_M6/layout.
+INFO (XSTRM-220): 37. Translating STRUCTURE PS_M7_phi as cellView B7_CHIP/PS_M7_phi/layout.
+INFO (XSTRM-220): 38. Translating STRUCTURE PS_M7_theta as cellView B7_CHIP/PS_M7_theta/layout.
+INFO (XSTRM-220): 39. Translating STRUCTURE MZI_M7 as cellView B7_CHIP/MZI_M7/layout.
+INFO (XSTRM-220): 40. Translating STRUCTURE WG0010 as cellView B7_CHIP/WG0010/layout.
+INFO (XSTRM-220): 41. Translating STRUCTURE WG0011 as cellView B7_CHIP/WG0011/layout.
+INFO (XSTRM-220): 42. Translating STRUCTURE WG0012 as cellView B7_CHIP/WG0012/layout.
+INFO (XSTRM-220): 43. Translating STRUCTURE WG0013 as cellView B7_CHIP/WG0013/layout.
+INFO (XSTRM-220): 44. Translating STRUCTURE WG0014 as cellView B7_CHIP/WG0014/layout.
+INFO (XSTRM-220): 45. Translating STRUCTURE WG0015 as cellView B7_CHIP/WG0015/layout.
+INFO (XSTRM-220): 46. Translating STRUCTURE WG0016 as cellView B7_CHIP/WG0016/layout.
+INFO (XSTRM-220): 47. Translating STRUCTURE WG0017 as cellView B7_CHIP/WG0017/layout.
+INFO (XSTRM-220): 48. Translating STRUCTURE WG0018 as cellView B7_CHIP/WG0018/layout.
+INFO (XSTRM-220): 49. Translating STRUCTURE WG0019 as cellView B7_CHIP/WG0019/layout.
+INFO (XSTRM-220): 50. Translating STRUCTURE WG0020 as cellView B7_CHIP/WG0020/layout.
+INFO (XSTRM-220): 51. Translating STRUCTURE WG0021 as cellView B7_CHIP/WG0021/layout.
+INFO (XSTRM-220): 52. Translating STRUCTURE WG0022 as cellView B7_CHIP/WG0022/layout.
+INFO (XSTRM-220): 53. Translating STRUCTURE WG0023 as cellView B7_CHIP/WG0023/layout.
+INFO (XSTRM-220): 54. Translating STRUCTURE WG0024 as cellView B7_CHIP/WG0024/layout.
+INFO (XSTRM-220): 55. Translating STRUCTURE WG0025 as cellView B7_CHIP/WG0025/layout.
+INFO (XSTRM-220): 56. Translating STRUCTURE B7_CORE as cellView B7_CHIP/B7_CORE/layout.
+INFO (XSTRM-220): 57. Translating STRUCTURE EC_THIN_SI_1_0000 as cellView B7_CHIP/EC_THIN_SI_1_0000/layout.
+INFO (XSTRM-61): Creating a new layer L5 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L5:drawing' in the technology file.
+INFO (XSTRM-61): Creating a new layer L4 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L4:drawing' in the technology file.
+INFO (XSTRM-220): 58. Translating STRUCTURE WG0000 as cellView B7_CHIP/WG0000/layout.
+INFO (XSTRM-220): 59. Translating STRUCTURE WG0001 as cellView B7_CHIP/WG0001/layout.
+INFO (XSTRM-220): 60. Translating STRUCTURE WG0002 as cellView B7_CHIP/WG0002/layout.
+INFO (XSTRM-220): 61. Translating STRUCTURE WG0003 as cellView B7_CHIP/WG0003/layout.
+INFO (XSTRM-220): 62. Translating STRUCTURE WG0004 as cellView B7_CHIP/WG0004/layout.
+INFO (XSTRM-220): 63. Translating STRUCTURE WG0005 as cellView B7_CHIP/WG0005/layout.
+INFO (XSTRM-220): 64. Translating STRUCTURE WG0006 as cellView B7_CHIP/WG0006/layout.
+INFO (XSTRM-220): 65. Translating STRUCTURE WG0007 as cellView B7_CHIP/WG0007/layout.
+INFO (XSTRM-220): 66. Translating STRUCTURE WG0008 as cellView B7_CHIP/WG0008/layout.
+INFO (XSTRM-220): 67. Translating STRUCTURE WG0009 as cellView B7_CHIP/WG0009/layout.
+INFO (XSTRM-220): 68. Translating STRUCTURE B7_CHIP as cellView B7_CHIP/B7_CHIP/layout.
+INFO (XSTRM-61): Creating a new layer L99 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L99:drawing' in the technology file.
+
+Summary of Objects Translated:
+	Instances:                              162
+	Arrays:                                 0
+	Polygons:                               178
+	Paths:                                  0
+	PathSegs:                               0
+	Rectangles:                             554
+	Text:                                   0
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  68
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 11180KB  CPUs Used: 2
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

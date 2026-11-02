@@ -1,0 +1,7 @@
+Library=LAB06B_REPRO_20261031
+Cell=LAB06B_B7_EC_PAD_CHIP
+View=layout
+CellView=nil
+BBox=nil
+TopInstances=0
+Cells=("wg_out4" "wg_out3" "wg_out2" "wg_out1" "wg_out0" "wg_in4" "wg_in3" "wg_in2" "wg_in1" "wg_in0" "wg_byp_l3_r0" "wg_byp_l2_r4" "wg_byp_l1_r4" "wg_byp_l1_r3" "wg_byp_l1_r0" "wg_byp_l0_r2" "soi220nm_1550nm_te_strip_2x2_mmi_transition4" "soi220nm_1550nm_te_strip_2x2_mmi_transition3" "soi220nm_1550nm_te_strip_2x2_mmi_transition2" "soi220nm_1550nm_te_strip_2x2_mmi_transition1" "soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace" "soi220nm_1550nm_te_strip_2x2_mmi" "mzi_wg5" "mzi_wg4" "mzi_wg3" "mzi_wg2" "mzi_wg1" "mzi_wg0" "lab06b_reference_ec" "lab06b_mzi_core" "lab06b_chip_interfaces" "lab06b_b7_ec_pad_chip" "lab06b_b7_core" "fan_out4" "fan_out3" "fan_out2" "fan_out1" "fan_out0" "fan_in4" "fan_in3" "fan_in2" "fan_in1" "fan_in0")

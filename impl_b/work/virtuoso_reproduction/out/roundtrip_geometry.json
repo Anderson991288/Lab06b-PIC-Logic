@@ -1,0 +1,94 @@
+[
+  {
+    "maxVertices": 200,
+    "gds_sha256": "aa2bb6ca56b827d149b0d52b80b73d8ba9b15da4250935403f79f859ba2b85aa",
+    "top": "LAB06B_B7_EC_PAD_CHIP",
+    "cells": 43,
+    "cell_names_identical": true,
+    "layers": [
+      {
+        "layer": 3,
+        "XOR_nm2": 25744,
+        "XOR_polygons": 80
+      },
+      {
+        "layer": 4,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 5,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 39,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 41,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 99,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 100,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      }
+    ],
+    "texts_identical": true,
+    "text_count": 16
+  },
+  {
+    "maxVertices": 8191,
+    "gds_sha256": "9a44a063e969b057b7c8476d9fd35ffdb1faffe6c9678d18da27bfa4db96876f",
+    "top": "LAB06B_B7_EC_PAD_CHIP",
+    "cells": 43,
+    "cell_names_identical": true,
+    "layers": [
+      {
+        "layer": 3,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 4,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 5,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 39,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 41,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 99,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      },
+      {
+        "layer": 100,
+        "XOR_nm2": 0,
+        "XOR_polygons": 0
+      }
+    ],
+    "texts_identical": true,
+    "text_count": 16
+  }
+]

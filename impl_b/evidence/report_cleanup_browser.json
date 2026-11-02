@@ -1,0 +1,229 @@
+{
+  "status": "passed",
+  "scope": "Reader pages after learner acceptance/submission removal; all remaining select options exercised, desktop/mobile layout, images, JS errors",
+  "pages": 22,
+  "select_option_changes": 394,
+  "checks": [
+    {
+      "file": "Lab06b_index.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 0
+    },
+    {
+      "file": "course/m0_s1.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 0
+    },
+    {
+      "file": "course/m0_s1_foundation.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 1
+    },
+    {
+      "file": "course/m0_s2.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 0
+    },
+    {
+      "file": "course/m0_s3.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 1
+    },
+    {
+      "file": "course/m1_s1.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 2
+    },
+    {
+      "file": "course/m1_s2.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 2
+    },
+    {
+      "file": "course/m1_s3.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 1
+    },
+    {
+      "file": "course/m1_s4.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 2
+    },
+    {
+      "file": "course/m1_s5.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 3
+    },
+    {
+      "file": "course/m2_s1.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 3
+    },
+    {
+      "file": "course/m2_s2.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 2
+    },
+    {
+      "file": "course/m2_s3.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 3
+    },
+    {
+      "file": "course/m2_s4.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 3
+    },
+    {
+      "file": "course/m2_s5.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 3
+    },
+    {
+      "file": "course/m2_s6.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 2
+    },
+    {
+      "file": "course/m2_s7.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 4
+    },
+    {
+      "file": "course/m3_s1.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 5
+    },
+    {
+      "file": "course/m3_s2.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 4
+    },
+    {
+      "file": "course/plan.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 0
+    },
+    {
+      "file": "analysis/lab01a_7_6.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 0
+    },
+    {
+      "file": "reference/source_context.html",
+      "forms": 0,
+      "submit": false,
+      "headings": [],
+      "badImages": 0,
+      "overflow": false,
+      "mobile_overflow": false,
+      "selects": 0
+    }
+  ],
+  "errors": []
+}

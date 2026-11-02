@@ -1,0 +1,13 @@
+{
+  "wavelength_um": 1.55,
+  "n_si": 3.476,
+  "n_oxide": 1.444,
+  "strip_width_um": 0.45,
+  "strip_height_um": 0.22,
+  "width_sweep_um": [
+    0.35,
+    0.45,
+    0.55
+  ],
+  "scope": "Homogeneous oxide baseline, no substrate/air/heater/dispersion model; scalar MMI is a separate EIM teaching model."
+}

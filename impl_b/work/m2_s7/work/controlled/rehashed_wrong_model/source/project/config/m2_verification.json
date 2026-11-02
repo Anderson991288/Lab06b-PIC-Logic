@@ -1,0 +1,15 @@
+{
+  "schema": "lab06b.m2_verification.v1",
+  "source_chip_index": "config/m2_current_chip.json",
+  "deck": "work/common/drc/cornerstone_Si220_passive.lydrc",
+  "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+  "deck_policy": "Run all existing categories unchanged; pre-DRC only, not foundry full signoff",
+  "label_layer": 100,
+  "port_label_scale": 1.25,
+  "port_label_height_before_um": 4.0,
+  "port_label_height_after_um": 5.0,
+  "physical_layers_to_preserve": [3, 4, 5, 39, 41, 99],
+  "optical_device_model": "14 MMI geometric black boxes; extract outside-device material connections against declared B7 graph",
+  "foundry_full_signoff": false,
+  "optical_mode_or_phase_validation": false
+}

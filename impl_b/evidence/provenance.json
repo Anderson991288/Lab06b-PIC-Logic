@@ -1,0 +1,1739 @@
+{
+  "date": "2026-10-30",
+  "source_course": "D:\\LAB\\Lab06b\\C01",
+  "source_study_sha256": "e602f60bfb701c3badf9406282913f6186b80764028bc71e95a1d237f6edc629",
+  "source_outline_sha256": "4441c34af46f1d06b24cb084f43ba8984e51d02ea19429160312dc6b736d4fab",
+  "original_files_modified": false,
+  "archive": "sources/C01_original.zip",
+  "readable_adaptation": "reference/C01/reader.html",
+  "readable_changes": [
+    "Added historical-result banner",
+    "Rebound cross-lab links to portable source context page",
+    "Linked adapted outline",
+    "Added captions to original outline tables"
+  ],
+  "field_figures": [
+    {
+      "original": "D:\\LAB\\Lab01a\\figures\\meep_tbu_field.png",
+      "sha256": "00e18b0ebb86044eaaf60e751ebfe8fa871f0ea87b0de4e876f06d702fe6dc80",
+      "copied_to": "assets/field/meep_tbu_field.png"
+    },
+    {
+      "original": "D:\\LAB\\Lab01a\\figures\\edge_coupler_side.svg",
+      "sha256": "d9ff4bd095f1390f6d0dca5a52eb801077e927f86f37aab393f885fb91fd07e6",
+      "copied_to": "assets/field/edge_coupler_side.svg"
+    },
+    {
+      "original": "D:\\LAB\\Lab01a\\figures\\ec_tip_modes.png",
+      "sha256": "06c060d6ba56714c9b0248d28194b7b5ad1101f12e900542448097b4265f8d86",
+      "copied_to": "assets/field/ec_tip_modes.png"
+    },
+    {
+      "original": "D:\\LAB\\Lab01a\\figures\\meep_mmi_paper_a.png",
+      "sha256": "c4d62faf03d26b1218c7b5341ca8a6bb212c68427b21dad070d8a9e2b97cfed2",
+      "copied_to": "assets/field/meep_mmi_paper_a.png"
+    },
+    {
+      "original": "D:\\LAB\\Lab01a\\figures\\meep_mmi_paper_b.png",
+      "sha256": "5e18b00c680b5ea337f0b7caa5cde6aa1d9cbcc13999498c765c134a8a94bf54",
+      "copied_to": "assets/field/meep_mmi_paper_b.png"
+    }
+  ],
+  "raw_field_data": [
+    {
+      "original": "D:\\LAB\\Lab01a\\out\\tbu_field_in1_t0.npz",
+      "sha256": "704261cd0c097335c0cd8236407945d83568b610fc6686d325afda0bf40375a6",
+      "included": true,
+      "note": "Physical copy included; existing simulation data, no new FDTD run.",
+      "copied_to": "sources/Lab01a/out/tbu_field_in1_t0.npz"
+    },
+    {
+      "original": "D:\\LAB\\Lab01a\\out\\tbu_field_in1_tpi2.npz",
+      "sha256": "cd224113e7174c31774ebc00b78f4fb41b228f650441cb561c1715423cc23e93",
+      "included": true,
+      "note": "Physical copy included; existing simulation data, no new FDTD run.",
+      "copied_to": "sources/Lab01a/out/tbu_field_in1_tpi2.npz"
+    },
+    {
+      "original": "D:\\LAB\\Lab01a\\out\\tbu_field_in12_tpi2.npz",
+      "sha256": "718aeb4b94df9b1f894c0a9d8ed8be20417b9e235256b17b2628283054a18da5",
+      "included": true,
+      "note": "Physical copy included; existing simulation data, no new FDTD run.",
+      "copied_to": "sources/Lab01a/out/tbu_field_in12_tpi2.npz"
+    }
+  ],
+  "deployment_root": "C:\\EDA_Codex\\Lab06b",
+  "independent_project_files": true,
+  "current_execution_scope": "C:/EDA_Codex/Lab06b: 17 teaching steps implemented through M3 S2. Independent gdstk/Shapely directly reads accepted S6 GDS, six facing-edge width/space minima agree with native KLayout 1 nm brackets, 54 rule outcomes / 8 real GDS controls / 12 tests passed. Closed-notch boundary-limit omission corrected and retained. Original unchanged full installed pre-DRC 31 categories zero. Learner/instructor review and physical/foundry qualification pending; M0 FDTD not rerun. D read-only.",
+  "m0_s2": {
+    "new_runs": [
+      "full-vector FEM strip modes and convergence",
+      "scalar MMI modal expansion",
+      "ideal MZI phase cases",
+      "inherited NPZ metric replay"
+    ],
+    "new_FDTD_run": false,
+    "result": "work/m0_s2/out/physics_results.json",
+    "limitations": "homogeneous-oxide FEM baseline and uniform-body scalar MMI; not calibrated PDK performance or complete chip simulation",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "current_rerun_timestamp": "2026-10-31T10:20:13.764574+08:00"
+  },
+  "m0_s3": {
+    "timestamp": "2026-10-31T01:08:06.660704+08:00",
+    "result": "work/m0_s3/out/model_results.json",
+    "unit_tests_passed": 18,
+    "controlled_mutations_detected": 5,
+    "inherited_B7_replay_cases": 80,
+    "phase_reference": {
+      "source": "D:\\LAB\\Lab06b\\reference\\C01\\evidence\\m1_s4_logic.json",
+      "sha256": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e",
+      "scope": "Inherited ideal B7 phase settings for compatibility replay, not new phase synthesis"
+    },
+    "limitations": "Ideal forward lumped models; no new phase synthesis, FDTD, B7 layout or chip validation.",
+    "source_hashes": {
+      "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+      "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+      "work/m0_s3/test_optical_models.py": "3ddcf989d85c6d403b3ca3b243f3869fe74ecea3b598b9c9a5427226639751d6",
+      "work/m0_s3/run_models.py": "b5001c52d63c1e45b76c4ce7c24361af401ded986b1d30593f89932ca93e4b44",
+      "config/m0_s3_reference_phases.json": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e",
+      "config/m0_s3_example.json": "529b4c08ae0f384dc4f134eb9eccdfd925e89390e3da2e793f308526d4f346d0"
+    },
+    "learner_submission": "pending",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "current_rerun_timestamp": "2026-10-31T10:21:15.520750+08:00"
+  },
+  "m1_s1": {
+    "timestamp": "2026-10-31T09:42:42.329734+08:00",
+    "result": "work/m1_s1/out/encoding_results.json",
+    "unit_tests_passed": 16,
+    "m0_s3_regression_passed": 18,
+    "experiment_checks_passed": 8,
+    "new_runs": [
+      "16 five-mode input encodings, R amplitude 3",
+      "AND2 two-mode fixed-threshold truth",
+      "NAND2 three-mode two-MZI network, R amplitude 2",
+      "phase/reference/loss perturbations",
+      "ideal PD/TIA unit conversion and interactive verification"
+    ],
+    "source_hashes": {
+      "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+      "work/common/photodetection.py": "372ff14c2e7aeac66a8362f8b8e36aa0a65fccc4806ee2652aedfcb55e20626b",
+      "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+      "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+      "work/m1_s1/experiments.py": "2188f0f1c9c4c8b491330e6aa04a6908560f6b5f8eca3f94ee120ddd479830d2",
+      "work/m1_s1/test_encoding_readout.py": "3f177a5cdd7fd98f92ae87995ec164dc4d2f067fb29c9bcd795c53c16b1124e4",
+      "work/m1_s1/run_experiments.py": "a00488a797021c213c74af8b1ec24692de776e508ccb27856a6d25fc2e5a7211",
+      "config/m1_s1_example.json": "da62ed701f22e79e6a584beba120ecf57718030e3f3e72134dae67fb78fd4819"
+    },
+    "learner_submission": "pending",
+    "limitations": "New ideal optical encoding and two/three-mode experiments; no B7 phase synthesis, PDK, dynamic receiver or chip validation.",
+    "physics_references": [
+      {
+        "title": "Hamamatsu photodetector guide",
+        "url": "https://hub.hamamatsu.com/us/en/technical-notes/detector-selection/the-wits-guide-to-selecting-a-photodetector.html"
+      },
+      {
+        "title": "Thorlabs balanced photodetectors",
+        "url": "https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=5201&pn=PDB835C"
+      },
+      {
+        "title": "TU Delft interference and coherence",
+        "url": "https://interactivetextbooks.tudelft.nl/tn2421/content/Chap5_Interference/InterferenceCoherence_2022_01Clean.html"
+      }
+    ],
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "current_rerun_timestamp": "2026-10-31T10:21:18.253762+08:00"
+  },
+  "m1_s2": {
+    "timestamp": "2026-10-31T09:53:34.749196+08:00",
+    "result": "work/m1_s2/out/b7_results.json",
+    "unit_tests_passed": 17,
+    "earlier_regression_passed": 34,
+    "model_checks_passed": 12,
+    "new_runs": [
+      "seven-MZI and four-layer matrix products",
+      "independent scalar field replay and five basis probes",
+      "six bypass segments and directed reachability",
+      "three controlled wiring-error matrices",
+      "five inherited complex matrices compared for compatibility only"
+    ],
+    "architecture_sha256": "9b5a2b60bd8a16638d590d7aeeae12f1b3ed5c6b17e2846b07dd1b6c64134d96",
+    "source_hashes": {
+      "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+      "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+      "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+      "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+      "work/m1_s2/run_b7.py": "d095c72eed1581b143cfd57a205167911975fc2db52eae6a64d1e6879d507580",
+      "work/m1_s2/test_b7.py": "94527f4caf63cbb2a3aa71997dd613de67fbf201f1641ddf5b451db6d5fc2b71",
+      "config/m1_s2_example.json": "3d1933d415ac3da3a298179fbe7d2ea8fb8bbdee241f67753312815eb8979c70",
+      "config/m0_s3_reference_phases.json": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e"
+    },
+    "limitations": "New shared ideal B7 topology and 5x5 U; saved complex matrices replayed for compatibility only. No new phase synthesis, PDK, waveguide geometry, heater or chip validation.",
+    "learner_submission": "pending",
+    "background_reference": "https://arxiv.org/abs/1603.08788",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "current_rerun_timestamp": "2026-10-31T10:21:20.474333+08:00"
+  },
+  "m1_s3": {
+    "timestamp": "2026-10-31T10:10:22.816000+08:00",
+    "result": "work/m1_s3/out/readout_results.json",
+    "unit_tests_passed": 15,
+    "earlier_regression_passed": 51,
+    "readout_checks_passed": 11,
+    "new_runs": [
+      "1000/1100, inherited AND2 phases, R amplitude 3",
+      "20 complex contributions and 40 pair interference terms",
+      "Hermitian quadratic-form cross-check",
+      "reference phase sweep and exact/near-boundary readout"
+    ],
+    "architecture_sha256": "9b5a2b60bd8a16638d590d7aeeae12f1b3ed5c6b17e2846b07dd1b6c64134d96",
+    "phase_source": {
+      "source": "D:\\LAB\\Lab06b\\reference\\C01\\evidence\\m1_s4_logic.json",
+      "sha256": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e",
+      "scope": "Inherited ideal B7 phase settings for compatibility replay, not new phase synthesis"
+    },
+    "source_hashes": {
+      "work/common/weighted_readout.py": "6b975259337fe59244b45dc9ab804e946b05b0bbddb61f76584528310e964930",
+      "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+      "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+      "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+      "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+      "work/m1_s3/run_readout.py": "1a4b4f99ade2d94aed0282b1d5c4630b551cc6615c55f61f5f61a339862f78a4",
+      "work/m1_s3/test_weighted_readout.py": "27314d332dddb24b99203eb745ce1c0ed0026ebc52f958c763feb5881e4f6948",
+      "config/m1_s3_example.json": "aec5f089f62f574a01abea58f3c3949261ffd447009ae0b5a7f092fc0f78952e",
+      "config/m0_s3_reference_phases.json": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e"
+    },
+    "limitations": "New weighted-field/power/readout explanations for two cases using inherited AND2 phases and current B7; no new synthesis, full five-function acceptance, PDK, dynamic receiver or chip validation.",
+    "learner_submission": "pending",
+    "background_reference": "https://interactivetextbooks.tudelft.nl/tn2421/content/Chap5_Interference/InterferenceCoherence_2022_01Clean.html",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "current_rerun_timestamp": "2026-10-31T10:21:23.281776+08:00"
+  },
+  "migration_from_D": {
+    "original_execution_root": "D:/LAB/Lab06b",
+    "restoration": "C:\\EDA_Codex\\migration_archive\\d_restore_result.json",
+    "policy": "D is read-only after the authorized one-time restore; all further work in C:/EDA_Codex"
+  },
+  "m1_s4": {
+    "timestamp": "2026-10-31T10:39:36.871692+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m1_s4/out/logic_results.json",
+    "phase_source": {
+      "local_snapshot": "config/m0_s3_reference_phases.json",
+      "source_sha256": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e",
+      "catalog": "config/m1_s4_phase_programs.json",
+      "catalog_sha256": "a295abdcebb147e3af1570970b67896e937079032eece37cd1fd1e431694231a",
+      "scope": "Extracted full-precision theta/phi only. No new phase synthesis; historical truth rows/U are not the new truth oracle."
+    },
+    "unit_tests_passed": 18,
+    "regression_passed": 66,
+    "truth_passed": 80,
+    "unused_groups_passed": 12,
+    "minimum_margin_gate": "XOR2",
+    "minimum_signed_margin": 0.24999999999994915,
+    "source_hashes": {
+      "work/common/logic_validation.py": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f",
+      "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+      "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+      "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+      "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+      "work/m1_s4/run_logic.py": "6c11b74c593c002a3eca5b2505011dc90a6822342d1e1195e5d88849321377f0",
+      "work/m1_s4/test_logic_validation.py": "9f594a78d55b6a90c1c93475116a5016fce193a752ad3bd638f166919b272273",
+      "config/m1_s4_phase_programs.json": "a295abdcebb147e3af1570970b67896e937079032eece37cd1fd1e431694231a",
+      "config/m1_s4_phase_provenance.json": "9c8420d4746a4859f083aeaea65cd6c76f9e68f910fd0537d05b6738f35165f1",
+      "config/m1_s4_lab.json": "453d0fe953308829a6f9cfeb8a2a4cee046c9685e1ee804f19ac07a4247d2875"
+    },
+    "limitations": "New full 80-case acceptance using inherited phase programs and current ideal B7; no new optimization, PDK, dynamic receiver, fabrication or measured chip validation.",
+    "learner_submission": "pending"
+  },
+  "m1_s5": {
+    "timestamp": "2026-10-31T11:02:42.156097+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m1_s5/out/handoff_results.json",
+    "spec": "pic_spec.json",
+    "phase_settings": "phase_settings.json",
+    "bundle": "delivery/m1_handoff",
+    "zip": "delivery/m1_handoff.zip",
+    "zip_sha256": "5ec455817a4da7a46e6e08b834ee468a985461ca623e6cbe40bfabf1198505a6",
+    "spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "unit_tests_passed": 15,
+    "regression_passed": 84,
+    "standalone_truths_passed": 80,
+    "source_hashes": {
+      "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+      "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+      "work/common/handoff.py": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5",
+      "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+      "work/common/logic_validation.py": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f",
+      "work/m1_s5/run_handoff.py": "6dc580e9a7eb1031962569a80c768ec8d7c715e5f187d33ca38c6a1de5e9a7c7",
+      "work/m1_s5/package_tools.py": "eeb95c440d17de19257e7462e6bda178458c311fc5c919c1464de4aa5d654880",
+      "work/m1_s5/replay_handoff.py": "3821b8dac5fea945f1a841f260758b57e3d54f00e7b0a0171f32661d7b09bf95",
+      "work/m1_s5/test_handoff.py": "fb9017f5281eb57b4e991a74a1c53a20ee6ed61a48d7e75b19000cbe6e787e03",
+      "config/m1_s4_phase_programs.json": "a295abdcebb147e3af1570970b67896e937079032eece37cd1fd1e431694231a"
+    },
+    "limitations": "M1 logical core specification, named phase mapping and portable ideal replay; M2 PDK, geometry, optical packaging, heater/PAD calibration and physical verification remain pending.",
+    "learner_submission": "pending"
+  },
+  "m2_s1": {
+    "timestamp": "2026-10-31T11:23:33.949103+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m2_s1/out/boundary_results.json",
+    "boundary_plan": "config/m2_boundary.json",
+    "delivery": "delivery/m2_s1_io",
+    "summary": {
+      "optical_interfaces": 10,
+      "phase_drive_interfaces": 14,
+      "logical_return_nets": 1,
+      "electrical_interface_roles": 15,
+      "physical_pad_count": null,
+      "on_chip_blocks": 4,
+      "external_blocks": 8
+    },
+    "unit_tests_passed": 15,
+    "regression_passed": 99,
+    "M1_replay_passed": 80,
+    "M1_sources_unchanged": true,
+    "source_hashes": {
+      "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+      "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+      "config/m2_boundary.json": "2d6fa11906aaa6f66e57c53eb1cc2b659df925a2561848de745cd8481f3ef1f7",
+      "work/common/boundary.py": "f171d325a48fa9c124524fd959979a206b985f4c37748f86ac42efbf05ecdf16",
+      "work/common/handoff.py": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5",
+      "work/m2_s1/test_boundary.py": "9936317decee80ba9ef4babb3ab5c2d324352c88e10451d0df06bfafaf7bb239",
+      "work/m2_s1/run_boundary.py": "0f0aec2d3f7809ceecbdb1e64fed04b7940fa6e4bcccd526b771725f591cf60c"
+    },
+    "limitations": "Logical PIC/external-system boundary and proposed optical/electrical interfaces; no new PDK circuit, GDS, physical PAD count, heater voltage calibration or fabrication verification.",
+    "learner_submission": "pending",
+    "physics_references": [
+      "https://interactivetextbooks.tudelft.nl/tn2421/content/Chap5_Interference/InterferenceCoherence_2022_01Clean.html",
+      "https://hub.hamamatsu.com/us/en/technical-notes/detector-selection/the-wits-guide-to-selecting-a-photodetector.html"
+    ]
+  },
+  "m2_s2": {
+    "timestamp": "2026-10-31T11:36:12.105535+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m2_s2/out/pdk_results.json",
+    "pdk_audit": "work/m2_s2/out/pdk_model_audit.json",
+    "comparison_csv": "work/m2_s2/out/comparison_80.csv",
+    "engine": "IPKISS CircuitModel / Caphe get_smatrix(validate_netlist=True)",
+    "passed": 80,
+    "total": 80,
+    "unit_tests_passed": 10,
+    "regression_passed": 114,
+    "M1_sources_and_zip_unchanged": true,
+    "source_hashes": {
+      "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+      "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+      "work/common/pdk_circuit.py": "ff237fc9a2b6b5d84b84ec8253427c5e1fabff9dc471a13226eb0c2b8c5b4428",
+      "work/m2_s2/run_pdk.py": "1759bebd71dd9a6a55f9f68c922d83567a7d74d8e3170f4695574aadfae20b9a",
+      "work/m2_s2/test_pdk_circuit.py": "bf660aeefe1656d299c0175b35bdd4d370e54d0f0c71723a1b3993499a4ecee5",
+      "scripts/run_m2_s2.ps1": "cb4f4a001d0fc473e9d9dbbba374b584fa6faec604886cbaff3773258168a526",
+      "scripts/render_m2_s2.py": "7d1ae9d5cfe2ff842bd62ab87bec68048c1e451930d3608a1001c3c28d9b0783",
+      "scripts/render_course.py": "8ec1090975a010185a0ad77433070f2b7b6c54193542093eb88941fca1738822",
+      "work/m2_s2/plot_comparison.py": "dbd600b0b2b94009b9dcf28ce8e8f0e8f2febb83d1f2f07ff0645919438c0098",
+      "work/m2_s2/browser_qa.cjs": "27f074a12e376ce1bd709d98004de116b0910eeadcc79d38c78df55cff530332"
+    },
+    "limitations": "14 actual CORNERSTONE MMI instances, 14 custom ideal phase cells, zero-length ideal links; default ideal MMI model. No layout propagation, EC, electrical heater calibration, fabrication tolerances, bandwidth or DRC verification.",
+    "learner_submission": "pending",
+    "api_reference": "https://academy.lucedaphotonics.com/tutorials/circuitmodels/"
+  },
+  "m2_s3": {
+    "timestamp": "2026-10-31T11:52:49.076078+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m2_s3/out/layout_results.json",
+    "core_gds": "work/m2_s3/out/b7_core.gds",
+    "single_unit_gds": "work/m2_s3/out/mzi_core.gds",
+    "counts": {
+      "mzi": 7,
+      "pdk_mmi": 14,
+      "heater": 14,
+      "local_metal_contacts": 28,
+      "bypass": 6,
+      "leads": 10,
+      "optical_ports": 10
+    },
+    "dimensions": {
+      "optical_span_um": [
+        2076.0,
+        120.0
+      ],
+      "design_frame_um": [
+        2200.0,
+        220.0
+      ],
+      "column_um": 489.0
+    },
+    "gds_hashes": {
+      "b7_core.gds": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+      "mzi_core.gds": "3125ffd7d0b5642f97f775d4434325ba8a1c009470faa5f5bad7f3ef8536a1d1"
+    },
+    "unit_tests_passed": 12,
+    "regression_passed": 124,
+    "M1_sources_and_zip_unchanged": true,
+    "M2S2_sources_and_results_unchanged": true,
+    "source_hashes": {
+      "config/m2_core_layout.json": "fdad5e9ceab59d808a02e9171fc9d9a188e0f325ee7fa127d689e7cda8ef9c59",
+      "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+      "work/m2_s3/build_core.py": "27177e52ad77d0e64ef38179dd4770ddca696e6ce20ab909656ccd0a909af64f",
+      "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+      "work/m2_s3/test_core_layout.py": "f6ee53b85337d472d02252ef4b50f8e4828325e2c63339ba52ad0c3bd1532c09",
+      "scripts/run_m2_s3.ps1": "3eb4447fbe61d4437ff60004dc186f38894fb5e9db203e1e742433934bcb2cdf",
+      "scripts/render_m2_s3.py": "488b37062b2b5dd3d5a12e2f28fc020190b3a6b8e9bad5be656f535526cbbf2c",
+      "scripts/render_course.py": "f6a1823a3ddb9837bebf6dc90ba21d40ae91e1b4e75c735a90c5a8e061d01748",
+      "work/m2_s3/plot_layout.py": "05d39004a28a5cd3115d77eb9d2257982a5bb9e016266f584aa7150ba8023959",
+      "work/m2_s3/browser_qa.cjs": "b19cc7c5ccdd888cbbce297e17c74446402610a5096798db422a8977854a57b5"
+    },
+    "limitations": "Initial physical B7 core, actual PDK MMI geometry, custom local heaters and contacts. Scoped independent KLayout readback; no foundry DRC/LVS, EC, probe PADs, return routing, thermal calibration or layout-extracted truth replay. M1 replay is baseline only.",
+    "learner_submission": "pending",
+    "api_reference": "https://academy.lucedaphotonics.com/training/getting_started/5_component_layout/1_tutorials"
+  },
+  "m2_s4": {
+    "timestamp": "2026-10-31T12:05:57.446647+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m2_s4/out/review_results.json",
+    "decision": "accept_margin_improved_core",
+    "metrics": [
+      {
+        "metric": "S_bend_horizontal",
+        "before": 20.0,
+        "after": 24.0,
+        "delta": 4.0,
+        "unit": "um"
+      },
+      {
+        "metric": "continuous_min_radius",
+        "before": 5.230882702164311,
+        "after": 7.6651993059416075,
+        "delta": 2.4343166037772965,
+        "unit": "um"
+      },
+      {
+        "metric": "column_length",
+        "before": 489.0,
+        "after": 505.0,
+        "delta": 16.0,
+        "unit": "um"
+      },
+      {
+        "metric": "core_optical_span_x",
+        "before": 2076.0,
+        "after": 2140.0,
+        "delta": 64.0,
+        "unit": "um"
+      },
+      {
+        "metric": "upper_singlemode_waveguide_per_MZI",
+        "before": 345.1329183700088,
+        "after": 358.3113022350362,
+        "delta": 13.1783838650274,
+        "unit": "um"
+      },
+      {
+        "metric": "inter_MMI_upper",
+        "before": 172.5664591850044,
+        "after": 179.1556511175181,
+        "delta": 6.5891919325137,
+        "unit": "um"
+      },
+      {
+        "metric": "design_frame_x",
+        "before": 2200.0,
+        "after": 2200.0,
+        "delta": 0.0,
+        "unit": "um"
+      }
+    ],
+    "accepted_core_index": "config/m2_current_core.json",
+    "native_view_engine": "KLayout 0.30.12 LayoutView.save_image",
+    "native_views": 24,
+    "regression_passed": 136,
+    "S3_originals_unchanged": true,
+    "M1_sources_and_zip_unchanged": true,
+    "source_hashes": {
+      "config/m2_review_layout.json": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+      "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+      "work/m2_s4/run_review.py": "d07b05a310cc45d7f67e0b34a8db2a9a61161a7a9a8e4b0362e377109efc4d94",
+      "work/m2_s4/klayout_review.py": "1da1a4d55dd384c6fac8d42b8a0de683bdb25212842b5b34673537763312f4e5",
+      "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+      "work/m2_s4/analyze_paths.py": "72f338fce111e5c4897cdc83c0bd68d3112d83a25a46490dca74b6850e5c6e9a",
+      "work/m2_s4/summarize_review.py": "320c2f075c0885455631f1366f60ea4b048718e0ef071f333135e45ff2ad6652",
+      "scripts/run_m2_s4.ps1": "96e2aaf3e03e37e087c10d3679d4112894a5d5622c8b7f802ac594f89b12fecf",
+      "scripts/render_m2_s4.py": "3c0c4a7a15c5ca641c0706ab9783ae24a97ea54e325c1d0b8847c5aee1b2c2fb",
+      "scripts/render_course.py": "abf7c3710abf2992fc908c5725d89295b17d68079b705b1de8f5cc86d779e6aa",
+      "work/m2_s4/plot_review.py": "dff43e43a0e9e0500cf6f843c4b874fd6d3cbf4b4f7bc031bc58b1ccbc4c8d04",
+      "work/m2_s4/browser_qa.cjs": "0c9f98aebd5d6af0c6e3869a02be0ec1752954746ec9bf2fa3fd8bfb50b6adbd"
+    },
+    "limitations": "Scoped KLayout visual/geometry review, design-margin improvement and revision evidence. No full foundry DRC/LVS, EC/PAD/GND fanout, thermal calibration, measured bend loss or layout-extracted truth acceptance.",
+    "learner_submission": "pending",
+    "api_references": [
+      "https://www.klayout.org/downloads/master/doc-qt5/code/class_LayoutView.html",
+      "https://www.klayout.org/downloads/master/doc-qt5/code/class_Region.html"
+    ]
+  },
+  "m2_s5": {
+    "timestamp": "2026-10-31T12:39:06.638845+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m2_s5/out/interface_results.json",
+    "current_chip_index": "config/m2_current_chip.json",
+    "counts": {
+      "EC": 10,
+      "signal_pads": 14,
+      "ground_pads": 2,
+      "physical_pads": 16,
+      "logical_return_nets": 1
+    },
+    "chip_size_um": [
+      3860.0,
+      1640.0
+    ],
+    "EC": "custom_reference_geometry; no validated compact model",
+    "core_geometry_unchanged": true,
+    "signal_terminal": "A",
+    "return_terminal": "B",
+    "unit_tests_passed": 8,
+    "regression_passed": 136,
+    "M1_sources_and_zip_unchanged": true,
+    "source_hashes": {
+      "config/m2_chip_interfaces.json": "6cd585fc8794bf792140b6c7a58576ef4a6e48dd24bf1021e597bdef4a5e0916",
+      "config/m2_current_core.json": "bf925a5e3c7130c8592efda965eda1c92c384efaa7a03826807e7d4a42538ccb",
+      "work/common/chip_interfaces.py": "e38b2991266b9528969b63a9662defd117a96ea7997f37ac11d4dd299a471ba8",
+      "work/m2_s5/build_chip.py": "47a958e9862aa0acd69dfba30527636ddb4d3faee66d26b24312bdfd1f8cb145",
+      "work/m2_s5/merge_verify.py": "8ae49805ed06be41a99e8b2b7606bcf6464c75f96e8ff369023ae977026a01d6",
+      "work/m2_s5/electrical_geometry.py": "67081b9ba60a22496b05c3dd70bd219448a6fb803e0f82e751c678077e990d5b",
+      "work/m2_s5/test_interfaces.py": "9d9db376a5e61b91cdb4f12d8b56de6591ff7725b4f174f469df113b6c8d2505",
+      "work/m2_s5/validate_interfaces.py": "640f46aac55ba8539ab6fbc845c8eb818e5595e23b2e7d37f8ede818913e443a",
+      "work/m2_s5/connectivity_faults.py": "d5e74092d19a5e2ad961475c292e905128958e2c77435ad7e780bb1369511b0d",
+      "scripts/run_m2_s5.ps1": "82181399e180cbb6e598a4ce064b428fa1765efe572ecb4cf5dbb8a5add37f43",
+      "scripts/render_m2_s5.py": "05b64588d5384d2b592f6e6732c6e057eb613ec9bb49fef00d4e5326c9b2e6a9",
+      "scripts/render_course.py": "c56d68664200691df20fe9fee7d13807496fd583e4714ecba13760e4844b46f8",
+      "work/m2_s5/plot_chip.py": "de45b34a7cf39316f6994c494d1922b455e397f62fc2c6aece318df3affb962f",
+      "work/m2_s5/browser_qa.cjs": "bf4520f5e9c295a674bc0084100fac3d31402b37af48c2954ba915da569fe94d"
+    },
+    "limitations": "Initial reference EC/fanout and PAD/GND geometry around exact accepted core. Selected GDS connectivity and local rule screens passed; no qualified EC, full process DRC/LVS, packaging, heater/common-ground calibration or layout-extracted truth replay.",
+    "learner_submission": "pending",
+    "references": [
+      "https://cornerstone.sotonfab.co.uk/mpw/technology-platforms/",
+      "https://www.klayout.de/doc/code/class_Cell.html"
+    ]
+  },
+  "m2_s6": {
+    "timestamp": "2026-10-31T13:00:18.035622+08:00",
+    "current_execution_root": "C:\\EDA_Codex\\Lab06b",
+    "result": "work/m2_s6/out/verification_results.json",
+    "current_chip_index": "config/m2_current_chip.json",
+    "original_deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "categories": 31,
+    "declared_size_um": [
+      3860.0,
+      1640.0
+    ],
+    "records_before": 2,
+    "records_after": 0,
+    "physical_layers_unchanged": true,
+    "geometric_metal_nets": 15,
+    "heater_branches": 14,
+    "geometric_optical_routes": 33,
+    "negative_controls": 8,
+    "regression_passed": 144,
+    "M1_sources_and_zip_unchanged": true,
+    "source_hashes": {
+      "config/m2_verification.json": "6801d163c2203686e54bb986df039a8620d630e882c4ad60aaa4a14abd32a261",
+      "work/m2_s6/run_verification.py": "e67425a62d0c6f8779b664b31253aa4b0917d6b5b41aafc5b09037ced98b58cc",
+      "work/m2_s6/prepare_gds.py": "7acf55d7ccd9c5e1e9f14cd74b70e669a914741a342e7a7baef37d467d0d9380",
+      "work/m2_s6/connectivity.py": "0c3c64c5a9c7e20ab47fc3a76905bc1cd5bff5d3388bdda59bc6baf62c403f97",
+      "work/m2_s6/check_connectivity.py": "087228d587c3108396ed1920cb5abcaa8f72052ccdf742ff93b3685c59e15ba0",
+      "work/common/drc/cornerstone_Si220_passive.lydrc": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "work/m2_s6/generate_faults.py": "19442a2b3f69f8d7659dc4b0356579ca76a863fbece74f6117699bb943afa527",
+      "work/m2_s6/run_controls.py": "1245adcddbf1b10628b4ca2d329ce32309600f7da519840467cc22c9d2aae37a",
+      "work/m2_s6/regression.py": "d4169611f79d37a3be1cb851b61c50aa6af65144bdfd48c3280a579f8b5a0a8f",
+      "work/m2_s6/summarize.py": "53f198d0a97d822f75cb2114a7c1daed59f31f3316e46a67463b0af85daa74d4",
+      "scripts/run_m2_s6.ps1": "623e3523eb9946cc220937520a426a7d4fdcd96c9daad687cce2babc133dd264",
+      "scripts/render_m2_s6.py": "4f9322ebf01e5a4e74247d9d8365df72d1339e323cbaeefe1e3574028343d20a",
+      "scripts/render_course.py": "d60ad579787a86a948cb33151b951f0391bbdc0999c57cd833aa62b73d743e61",
+      "work/m2_s6/render_evidence.py": "e4259f0696625008442464bcee4efa378d4c293a5e738798fa86724e19dc4854",
+      "work/m2_s6/plot_verification.py": "4704e39e0408557a045964a7a52d1d0edb1af5e2e08ff3b9ea06a0fc26f37f92",
+      "work/m2_s6/browser_qa.cjs": "1a0f5f492b74658118df55149cde6e0c9e359557be0d344165c581f7b7afc1b0"
+    },
+    "limitations": "All installed original v3.1 pre-DRC categories at declared custom design size; geometric metal/HT and photonic black-box netlist comparison; not foundry full DRC/LVS, EC response, thermal calibration or layout-extracted truth replay.",
+    "learner_submission": "pending",
+    "references": [
+      "https://www.klayout.org/downloads/master/doc-qt5/manual/drc_basic.html",
+      "https://www.klayout.de/doc/manual/lvs_overview.html"
+    ]
+  },
+  "m2_s7": {
+    "timestamp": "2026-10-31T13:52:56.357558+08:00",
+    "step": "M2 S7",
+    "status": "passed",
+    "root": "C:\\EDA_Codex\\Lab06b",
+    "D_writes": false,
+    "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s7_20261031_133724",
+    "source_hashes": {
+      "config/m2_backannotation.json": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+      "work/common/backannotation.py": "5f17f7ba632fd58397fac3d37d77a608090a0c6109b26569f26bd6ca10b6e266",
+      "work/m2_s7/extract_lengths.py": "ac322a486797f2d26b94be035c2d4e59ec558999ba9f24bd159350754273d486",
+      "work/m2_s7/run_replay.py": "c4b4bce6cf77b5c4b4a3e0e70547ecb774878f47d11e4d8b133682e8cb56ef93",
+      "work/m2_s7/test_backannotation.py": "3824c5938d4f81b2da29e92060b3fd7071cc312349c1e7a8149682f94e1ccb18",
+      "work/m2_s7/build_delivery.py": "e85fab82b52ce4e8e8cf3481412b6e993e85805cb2e7824debf333ece8b4f0ba",
+      "work/m2_s7/verify_delivery.py": "d2dc50004ff2e70d75f1651f8df2bfbc171f981ad88041578c898833b4994bf4",
+      "work/m2_s7/replay_delivery.py": "4d2949b6ac070503a22f72cf4eb9b0c32cdc985bd480a4dfcb6220f1130b605f",
+      "work/m2_s7/recheck_geometry.py": "b868dfc5dc9389acae3ea6987c2f07c7075de2f77981115032192c56f0a2ade8",
+      "work/m2_s7/geometry_engine.py": "e3c3e86426e24495ac2d9c4a082bc391dadbf54f75b3f5bafb2173a60a3d8f60",
+      "scripts/run_m2_s7.ps1": "a6799f8d28911f0d7beb2ae3975a3ea604e4892313e50969670f1b1ee9d1ed76",
+      "scripts/render_m2_s7.py": "e0a427815a2927884a29d678d353a94d8e5818280be0436d82a97c94a85eb6bb",
+      "scripts/render_course.py": "e7cd715d8f9872008deb4f5db3f38cf232904e3a377880255d82b99d90942a5e",
+      "work/m2_s7/plot_delivery.py": "60127b664b5d9bf7f0390a7f182fea8b7a72434f77918ec5bed1453ccd2dbabf",
+      "work/m2_s7/render_final_gds.py": "f98314b947779d2581757ed5ef1f3ed429abe6d114ea75b677891ea88986c2c8",
+      "work/m2_s7/browser_qa.cjs": "f706c874d3e714804beba50e7453820da06263ba95aa441a4a0dd2502bb4b3b0",
+      "work/m2_s7/prepare_browser_qa.py": "3ac4013fa991ac7b37e18107fc72959d5b6af7c19e41e2f6df4813e3d1676635",
+      "work/m2_s7/finalize.py": "9f21dc71438509b1bc0106222a93e6ea627c0af164152aaa1821f18f1844d296"
+    },
+    "source_hashes_verified": true,
+    "prior_files_verified": 367,
+    "current_chip_unchanged": true,
+    "M1_sources_and_zip_unchanged": true,
+    "delivery_index": {
+      "schema": "lab06b.m2_delivery.v1",
+      "step": "M2 S7",
+      "kind": "teaching_design_review_and_model_replay",
+      "source_chip_index": "config/m2_current_chip.json",
+      "source_chip_step": "M2 S6",
+      "zip": "delivery/Lab06b_M2_PIC_delivery.zip",
+      "zip_sha256": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+      "manifest": "delivery/m2_pic_delivery/manifest.json",
+      "manifest_sha256": "e59f73524fa0190ae857ef91e4b234872a7063bbc9098f461c7c90797f249700",
+      "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "model": "config/m2_backannotation.json",
+      "model_sha256": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+      "candidate": "work/m2_s7/out/phase_settings_backannotated.json",
+      "candidate_sha256": "2e18ca66b4065bfebc7dc6aa39c516422c74fff266b6b29402bba24c4d70c5eb",
+      "reference_plane": "M1_core_ports",
+      "physical_function_qualified": false,
+      "foundry_full_signoff": false,
+      "limitations": [
+        "EC response and mode conversion",
+        "fanout propagation outside core plane",
+        "MMI calibrated absolute phase and dispersion",
+        "bend-specific loss/index",
+        "heater thermal/electrical calibration",
+        "packaging and foundry signoff"
+      ],
+      "next_step": "M3 S1"
+    },
+    "files": 50,
+    "zip_CRC_and_member_hashes_verified": true,
+    "integrity": {
+      "status": "passed",
+      "files": 50,
+      "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "physical_function_qualified": false,
+      "foundry_full_signoff": false
+    },
+    "portable_replay": {
+      "status": "passed",
+      "integrity": {
+        "status": "passed",
+        "files": 50,
+        "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+        "physical_function_qualified": false,
+        "foundry_full_signoff": false
+      },
+      "scenarios": {
+        "ideal_baseline": {
+          "passed": 80,
+          "total": 80
+        },
+        "length_original": {
+          "passed": 53,
+          "total": 80
+        },
+        "length_compensated": {
+          "passed": 80,
+          "total": 80
+        },
+        "loss_original": {
+          "passed": 53,
+          "total": 80
+        },
+        "loss_compensated": {
+          "passed": 80,
+          "total": 80
+        }
+      },
+      "max_abs_delta_error": 0.0,
+      "physical_function_qualified": false,
+      "scope": "Verified replay of packaged uniform-neff core-plane teaching model; not calibrated chip acceptance."
+    },
+    "portable_geometry": {
+      "status": "passed",
+      "pre_DRC_records": 0,
+      "metal_nets": 15,
+      "optical_connections": 33,
+      "foundry_full_signoff": false
+    },
+    "tamper_controls": [
+      {
+        "case": "changed_GDS",
+        "rejected": true,
+        "reason": "ValueError: SHA mismatch layout/B7_final.gds"
+      },
+      {
+        "case": "rehashed_wrong_model",
+        "rejected": true,
+        "reason": "ValueError: candidate model binding mismatch"
+      },
+      {
+        "case": "rehashed_missing_truth",
+        "rejected": true,
+        "reason": "ValueError: incomplete 400-case comparison"
+      },
+      {
+        "case": "unsafe_manifest_path",
+        "rejected": true,
+        "reason": "ValueError: unsafe manifest path"
+      }
+    ],
+    "model_tests": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "regression": {
+      "M0_S3": {
+        "run": 18,
+        "passed": 18,
+        "successful": true
+      },
+      "M1_S1": {
+        "run": 16,
+        "passed": 16,
+        "successful": true
+      },
+      "M1_S2": {
+        "run": 17,
+        "passed": 17,
+        "successful": true
+      },
+      "M1_S3": {
+        "run": 15,
+        "passed": 15,
+        "successful": true
+      },
+      "M1_S4": {
+        "run": 18,
+        "passed": 18,
+        "successful": true
+      },
+      "M1_S5": {
+        "run": 15,
+        "passed": 15,
+        "successful": true
+      },
+      "M2_S1": {
+        "run": 15,
+        "passed": 15,
+        "successful": true
+      },
+      "M2_S2": {
+        "run": 10,
+        "passed": 10,
+        "successful": true
+      },
+      "M2_S3": {
+        "run": 12,
+        "passed": 12,
+        "successful": true
+      },
+      "M2_S5": {
+        "run": 8,
+        "passed": 8,
+        "successful": true
+      }
+    },
+    "replay_counts": {
+      "ideal_baseline": 80,
+      "length_original": 53,
+      "length_compensated": 80,
+      "loss_original": 53,
+      "loss_compensated": 80
+    },
+    "core_paths": 58,
+    "fan_paths": 10,
+    "gds_connections": 33,
+    "complex_gauge_error": 4.831464095270225e-12,
+    "sensitivity": [
+      {
+        "neff_offset": -0.001,
+        "neff": 2.352499831254645,
+        "original_passed": 52,
+        "original_minimum_margin": -8.76125548331705,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.08345845781399805
+      },
+      {
+        "neff_offset": -0.0005,
+        "neff": 2.3529998312546447,
+        "original_passed": 53,
+        "original_minimum_margin": -7.126181848836003,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.19038240578881072
+      },
+      {
+        "neff_offset": -0.0001,
+        "neff": 2.3533998312546447,
+        "original_passed": 53,
+        "original_minimum_margin": -5.640868769348085,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.23858427620265743
+      },
+      {
+        "neff_offset": 0.0,
+        "neff": 2.353499831254645,
+        "original_passed": 53,
+        "original_minimum_margin": -5.255607546379915,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.24999999999963168
+      },
+      {
+        "neff_offset": 0.0001,
+        "neff": 2.353599831254645,
+        "original_passed": 53,
+        "original_minimum_margin": -4.867471452002542,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.2391064209587613
+      },
+      {
+        "neff_offset": 0.0005,
+        "neff": 2.353999831254645,
+        "original_passed": 56,
+        "original_minimum_margin": -3.3136683035873964,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.19904355014872904
+      },
+      {
+        "neff_offset": 0.001,
+        "neff": 2.354499831254645,
+        "original_passed": 63,
+        "original_minimum_margin": -1.4707618474319117,
+        "frozen_candidate_passed": 80,
+        "frozen_candidate_minimum_margin": 0.08219576091645933
+      }
+    ],
+    "browser_replay_cases": 400,
+    "browser_path_cases": 68,
+    "worksheet_verified": true,
+    "html_files": 22,
+    "local_links": 1063,
+    "learner_submission": "pending",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false,
+    "scope": "Core-plane uniform-neff teaching replay using bound centerline polyline lengths; model-only analytic compensation. No EC/fanout response, calibrated absolute MMI phase, bend loss/index, process or heater calibration.",
+    "next_step": "M3 S1"
+  },
+  "m3_s1": {
+    "timestamp": "2026-10-31T14:09:57.270898+08:00",
+    "step": "M3 S1",
+    "status": "passed",
+    "root": "C:\\EDA_Codex\\Lab06b",
+    "D_writes": false,
+    "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m3_s1_20261031_135640",
+    "source_hashes": {
+      "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+      "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+      "config/m2_boundary.json": "2d6fa11906aaa6f66e57c53eb1cc2b659df925a2561848de745cd8481f3ef1f7",
+      "config/m2_review_layout.json": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+      "config/m2_chip_interfaces.json": "6cd585fc8794bf792140b6c7a58576ef4a6e48dd24bf1021e597bdef4a5e0916",
+      "config/m2_verification.json": "6801d163c2203686e54bb986df039a8620d630e882c4ad60aaa4a14abd32a261",
+      "config/m2_backannotation.json": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+      "work/common/__init__.py": "5c22e854a84f60f8db840deab9f0967b8531e8ac0da49a91af36aa1b6f207e1b",
+      "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+      "work/common/b7.py": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028",
+      "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+      "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+      "work/common/logic_validation.py": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f",
+      "work/common/handoff.py": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5",
+      "work/common/pdk.py": "0926360824dde8848c2abba14f5c0a309e9d0b4b7de68d89cc0371691ea2a48e",
+      "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+      "work/common/chip_interfaces.py": "e38b2991266b9528969b63a9662defd117a96ea7997f37ac11d4dd299a471ba8",
+      "work/common/backannotation.py": "5f17f7ba632fd58397fac3d37d77a608090a0c6109b26569f26bd6ca10b6e266",
+      "work/m1_s5/replay_handoff.py": "3821b8dac5fea945f1a841f260758b57e3d54f00e7b0a0171f32661d7b09bf95",
+      "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+      "work/m2_s5/build_chip.py": "47a958e9862aa0acd69dfba30527636ddb4d3faee66d26b24312bdfd1f8cb145",
+      "work/m2_s5/merge_verify.py": "8ae49805ed06be41a99e8b2b7606bcf6464c75f96e8ff369023ae977026a01d6",
+      "work/m2_s5/electrical_geometry.py": "67081b9ba60a22496b05c3dd70bd219448a6fb803e0f82e751c678077e990d5b",
+      "work/m2_s6/run_verification.py": "e67425a62d0c6f8779b664b31253aa4b0917d6b5b41aafc5b09037ced98b58cc",
+      "work/m2_s6/prepare_gds.py": "7acf55d7ccd9c5e1e9f14cd74b70e669a914741a342e7a7baef37d467d0d9380",
+      "work/m2_s6/connectivity.py": "0c3c64c5a9c7e20ab47fc3a76905bc1cd5bff5d3388bdda59bc6baf62c403f97",
+      "work/m2_s6/check_connectivity.py": "087228d587c3108396ed1920cb5abcaa8f72052ccdf742ff93b3685c59e15ba0",
+      "work/m2_s7/extract_lengths.py": "ac322a486797f2d26b94be035c2d4e59ec558999ba9f24bd159350754273d486",
+      "work/m2_s7/test_backannotation.py": "3824c5938d4f81b2da29e92060b3fd7071cc312349c1e7a8149682f94e1ccb18",
+      "work/m3_s1/build_core.py": "f69bdb51419a2e5047310f800ff87628951fe8d7ae0fdcc88dc7ecba9308c4cf",
+      "work/m3_s1/replay_rebuilt.py": "b4b23bfcc62b52fd81800630c53ab38993b7a1862599dab9eee97f7ba07b27af",
+      "work/m3_s1/compare_gds.py": "1e8a098ca4ad740d716323174cb934c72a455736db8ac9ee388c5dde8dbc7449",
+      "work/m3_s1/rebuild_support.py": "3667ac9fa7ba16884aa8bd791c435ab5d365349f60faa42b2a36073774ab61c4",
+      "work/m3_s1/test_rebuild_support.py": "53c66fe8f41154eaf199282247c27819244c147d7ff77e4131a89dc375ab75d8",
+      "work/m3_s1/run_acceptance_controls.py": "5f68f3e3e0933e77e0b869c587176dd46dc181973d9f845b419d19f6852c920f",
+      "work/m3_s1/make_geometry_fault.py": "f0e6a00258ec8fb3acd1ca35c1d9aaa51ecd04d36560b43871498a81945ca32e",
+      "scripts/rebuild_all.py": "fa2837b46fbae7ed72fd585da3b539d8b15270432a7ad52ac4f9351326853b80",
+      "scripts/run_m3_s1.ps1": "dc37d73a66253c40a3d01fc8ad6742b330365f34ee423917dbf2f24f5a6ea4ae",
+      "scripts/render_m3_s1.py": "b4eeb9fe727b2477ae663c5a46ec8b473398169724bd1ed5083caccd7353eb9c",
+      "scripts/render_course.py": "513bdeb95ed76658959671c8c42108408c6ce7eccba44356ff13a22542bc068b",
+      "work/m3_s1/plot_rebuild.py": "ebeb7e44def772ac245320cec2316a84fc95fc967dab6cc1a173b7126f5eb757",
+      "work/m3_s1/prepare_browser_qa.py": "f7437285941121e96186bc0822fb3f0e45e7d8de5e9573e55b21119fe8a2cea1",
+      "work/m3_s1/browser_qa.cjs": "922738f9df8a72ac10752d7b0444f3e4fd31a5ce1c190ee87f17bb8be2431f3e",
+      "work/m3_s1/finalize.py": "d5875572e758c38d9e2083eb3b39fd1893368e3f1d45fecd173d83b114ae0bae"
+    },
+    "source_hashes_verified": true,
+    "prior_files_verified": 853,
+    "acceptance_index": {
+      "schema": "lab06b.m3_acceptance.v1",
+      "step": "M3 S1",
+      "status": "clean_source_rebuild_accepted",
+      "source_chip_index": "config/m2_current_chip.json",
+      "source_delivery_index": "config/m2_delivery.json",
+      "result": "work/m3_s1/out/rebuild_results.json",
+      "result_sha256": "6a0c616b34a48915095f8635a50bf50bed926f55b1d13605888dc4b761415260",
+      "controls": "work/m3_s1/out/acceptance_controls.json",
+      "controls_sha256": "b41723f6c9f600b523b43a797b85c8dafd6280e31d0b04477ca9ae7e7080f9e3",
+      "normalized_sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+      "date_records_per_file": 44,
+      "raw_byte_identical": false,
+      "geometry_and_text_identical": true,
+      "builds": [
+        {
+          "build": "A",
+          "gds": "work/m3_s1/out/build_A/b7_rebuilt.gds",
+          "sha256": "d4e21e3eea8676866712f66728daa8391919efb9eced241f8d707b7838b91391",
+          "checks": 13,
+          "replay_cases": 400
+        },
+        {
+          "build": "B",
+          "gds": "work/m3_s1/out/build_B/b7_rebuilt.gds",
+          "sha256": "81d50696363f59af0614033b31f74c8df486f576288dbc94c2e5932c30f565c4",
+          "checks": 13,
+          "replay_cases": 400
+        }
+      ],
+      "physical_function_qualified": false,
+      "foundry_full_signoff": false,
+      "learner_submission": "pending",
+      "next_step": "M3 S2"
+    },
+    "clean_builds": 2,
+    "generated_outputs_seeded": 0,
+    "accepted_checks": 26,
+    "model_tests_run": 24,
+    "support_tests": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "controls": [
+      {
+        "id": "timestamp_only",
+        "raw_sha_different": true,
+        "normalized_sha_equal": true,
+        "passed": true
+      },
+      {
+        "id": "actual_Si_geometry_change",
+        "XOR_polygons": 1,
+        "normalized_sha_different": true,
+        "passed": true
+      },
+      {
+        "id": "reuse_nonempty_target",
+        "rejected": true,
+        "reason": "Build target already exists; refuse stale output reuse",
+        "passed": true
+      },
+      {
+        "id": "missing_source_inventory",
+        "rejected": true,
+        "passed": true,
+        "scope": "Seed inventory audit; no licensed build launched"
+      }
+    ],
+    "seed_files_after_build": [
+      {
+        "build": "A",
+        "files": 33,
+        "unchanged": true
+      },
+      {
+        "build": "B",
+        "files": 33,
+        "unchanged": true
+      }
+    ],
+    "reference_hashes": {
+      "config/m2_current_chip.json": "2a0cd4fce48f8e3647e946fe20cfee900fd923cac9ffdc967c0f443a433e1f66",
+      "config/m2_current_core.json": "bf925a5e3c7130c8592efda965eda1c92c384efaa7a03826807e7d4a42538ccb",
+      "config/m2_delivery.json": "c9eed9ff744ee96d6ccd51f4cae68d5be5727740c03625f2267bdef81dec1ba9",
+      "work/m2_s6/out/after/b7_ec_pad.gds": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "work/m2_s7/out/replay_400.csv": "4b180f08e4d332b440d7b5bcc4229a7d084c4912da758f36453edda691fea380",
+      "work/m2_s7/out/paths.json": "0cbfa85f03b47d1fb6244c30a6c4044d3d416cfb4993c613a22f934d35911a1d",
+      "work/m2_s7/out/phase_settings_backannotated.json": "2e18ca66b4065bfebc7dc6aa39c516422c74fff266b6b29402bba24c4d70c5eb",
+      "delivery/Lab06b_M2_PIC_delivery.zip": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+      "delivery/m1_handoff.zip": "5ec455817a4da7a46e6e08b834ee468a985461ca623e6cbe40bfabf1198505a6"
+    },
+    "external_dependencies": {
+      "klayout": "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "klayout_sha256": "d3e8d8caf863d6a5b85cb44486c5658ff0293515a6840c546616552cda0060a3",
+      "deck": "C:\\EDA_Codex\\Lab06b\\work\\common\\drc\\cornerstone_Si220_passive.lydrc",
+      "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+      "ipkiss_python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "physics_python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe"
+    },
+    "pre_DRC_each": "2 -> 0, 31 categories",
+    "metal_nets_each": 15,
+    "optical_connections_each": 33,
+    "all_layer_XOR_polygons": 0,
+    "text_identical": true,
+    "raw_byte_identical": false,
+    "timestamp_only_normalized_sha256": "b93826f18d07f7e433ef63bd7fe02a83e71636a968fafe0df2685e483212e300",
+    "date_records_per_GDS": 44,
+    "case_comparisons_each": 400,
+    "maximum_numeric_error": 0,
+    "browser_acceptance_cases": 26,
+    "browser_truth_cases": 800,
+    "worksheet_verified": true,
+    "html_files": 23,
+    "local_links": 1130,
+    "old_chip_and_handoff_unchanged": true,
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false,
+    "learner_submission": "pending",
+    "scope": "Two independent empty build trees, authored source and M1 design/phase/config inputs; licensed tools preinstalled. Regenerate core, interfaces, S6 label correction, full installed pre-DRC/graph, nominal paths and teaching replay. Timestamp-only digest plus all-layer XOR/text; raw byte hashes retained. No FEM/FDTD re-solve, environment installation, measured EC/MMI/heater calibration or foundry signoff.",
+    "next_step": "M3 S2"
+  },
+  "m3_s2": {
+    "timestamp": "2026-10-31T15:11:09.122946+08:00",
+    "step": "M3 S2",
+    "status": "passed",
+    "root": "C:\\EDA_Codex\\Lab06b",
+    "D_writes": false,
+    "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m3_s2_20261031_145653",
+    "source_hashes": {
+      "config/m3_crosscheck.json": "31f013e1170024230f63136e9f80935cf9508fc42f4fcc857d2158ecce6f59d3",
+      "work/m3_s2/independent_geometry.py": "ba081278671a514ea4fa8260507f729cf1d467de6b9acdf34d17e0277ce76d53",
+      "work/m3_s2/generate_controls.py": "96a2ba4d1b876170eeadeddf683de5bae43310dd3c57378daabe4289bbedd183",
+      "work/m3_s2/klayout_measure.py": "5fd0b539c9d3619161acb0658d06eef6a76ecc6f8110d0f6cf978fcb87d021c7",
+      "work/m3_s2/run_crosscheck.py": "d93a5afd4f9e17ee81a68f4b36efa73ef3179f030b848c940634aa3487a6f134",
+      "work/m3_s2/test_independent_geometry.py": "c759f59ea0b9c760714a6c3c7df88be3b57be26f25b5e9d17d7ad1af96a4424f",
+      "scripts/run_m3_s2.ps1": "3b8f6d227a763b19849a7658aecb734ccc2aa883a11e1c90a6aacb847981072f",
+      "scripts/render_m3_s2.py": "47e880a6dffab8277b2527919833fb966a59eb2aba7f6cf417ff744e8210ec71",
+      "scripts/render_course.py": "9c6bf62873b9f564844b6192dd37a9606dec4baeb942cb942e6707fa5e65d460",
+      "work/m3_s2/plot_crosscheck.py": "380a091f9319f2bb745fcd9f5b8a3c1541083f0cda6120f919a234ae6e9b528e",
+      "work/m3_s2/prepare_browser_qa.py": "7d1623d8ebaaebe75f273efa017c3ac6773e91eac3f8674e8d93f091847c2932",
+      "work/m3_s2/browser_qa.cjs": "0a412afb09fb113f5fcdd5272f19963d87726fb2030dde926531334b5f0402f7",
+      "work/m3_s2/finalize.py": "a449296f889b38501acc5b55becca2507446e990aa9d5482b04ce2880f2f5119"
+    },
+    "source_hashes_verified": true,
+    "prior_files_verified": 922,
+    "old_chip_handoffs_and_M3S1_unchanged": true,
+    "acceptance_index": {
+      "schema": "lab06b.independent_geometry_result.v1",
+      "step": "M3 S2",
+      "status": "selected_independent_geometry_crosscheck_passed",
+      "source_chip_index": "config/m2_current_chip.json",
+      "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "result": "work/m3_s2/out/crosscheck_results.json",
+      "result_sha256": "2a999ebd0f8ad1e072ee738d7de832edfe8da5984d8b63a70634d68158b9931f",
+      "comparison": "delivery/m3_s2_crosscheck/comparison_54.csv",
+      "comparison_sha256": "37ce8081f170680f46a92c4a26b62f5c0e9926c5ee167e7f8226a9d05954e906",
+      "selected_measurements": 6,
+      "rule_comparisons": 54,
+      "GDS_controls": 8,
+      "tests": 12,
+      "original_pre_DRC_records": 0,
+      "original_pre_DRC_categories": 31,
+      "control_files": {
+        "delivery/m3_s2_crosscheck/controls/Si_narrow.gds": "a933b1137c3ba09e6d727fb79461e5a440a758bbb1353fb6bc94a27d45d0ae7e",
+        "delivery/m3_s2_crosscheck/controls/Si_gap.gds": "10ad5b4b63dc080e94eed18730135c45b8e526f11f4de883094f0297c8d224ec",
+        "delivery/m3_s2_crosscheck/controls/HT_narrow.gds": "864846276d8f31dad01a39c6ff3ff1747063fe9c21d110fdbbd30c9f8fb5f1fb",
+        "delivery/m3_s2_crosscheck/controls/HT_gap.gds": "04caa566f7473c5a2ca52d617dbf5f22f355614f34581bb3791c087b9002d580",
+        "delivery/m3_s2_crosscheck/controls/PAD_narrow.gds": "de75feb4c593eae6b91f73e608696f9687a5747d622bb8c47cf332a663a70a25",
+        "delivery/m3_s2_crosscheck/controls/PAD_gap.gds": "1bfcb4e8df5a62598f447409f3df1459f67caa62d01a2c24f2e82baaafb4f1dc",
+        "delivery/m3_s2_crosscheck/controls/Si_margin_equal.gds": "9f78ead34810de8cf591c787284570470be38c449ad5a385b03330f4a1ca9ca5",
+        "delivery/m3_s2_crosscheck/controls/Si_below_margin.gds": "cb009c170fc6b13a6e8773a6040da1dae2ede76bb678a1c859b54c43e65144b6"
+      },
+      "physical_function_qualified": false,
+      "foundry_full_signoff": false,
+      "learner_submission": "pending",
+      "scope": "Six width/space facing-edge measurements on GDS 3/39/41, independent gdstk/Shapely vs KLayout Euclidian/45-degree measurements and selected original pre-DRC outcomes. Not all 31 categories, connectivity, calibrated optical response or foundry signoff."
+    },
+    "comparison": [
+      {
+        "case": "accepted",
+        "layer": 3,
+        "kind": "width",
+        "nominal_um": 0.35,
+        "effective_limit_um": 0.349,
+        "independent_um": 0.34999999999990905,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "KLayout_violations": 0,
+        "rule_agreement": true,
+        "KLayout_lower_um": 0.35000000000000003,
+        "KLayout_upper_um": 0.35100000000000003,
+        "interval_distance_um": 9.098277686803158e-14,
+        "numeric_agreement": true,
+        "area_error_um2": 6.421032594516873e-10,
+        "witness": {
+          "value_um": 0.34999999999990905,
+          "point_A_um": [
+            -690.0,
+            -559.825
+          ],
+          "point_B_um": [
+            -690.0,
+            -560.175
+          ],
+          "edge_A_um": [
+            [
+              -660.0,
+              -559.775
+            ],
+            [
+              -690.0,
+              -559.825
+            ]
+          ],
+          "edge_B_um": [
+            [
+              -690.0,
+              -560.175
+            ],
+            [
+              -660.0,
+              -560.225
+            ]
+          ],
+          "directed_angle_deg": 179.80901424513033,
+          "visibility": "open_connector"
+        }
+      },
+      {
+        "case": "accepted",
+        "layer": 3,
+        "kind": "space",
+        "nominal_um": 0.2,
+        "effective_limit_um": 0.199,
+        "independent_um": 0.5300000000000011,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "KLayout_violations": 0,
+        "rule_agreement": true,
+        "KLayout_lower_um": 0.53,
+        "KLayout_upper_um": 0.531,
+        "interval_distance_um": 0,
+        "numeric_agreement": true,
+        "area_error_um2": 6.421032594516873e-10,
+        "witness": {
+          "value_um": 0.5300000000000011,
+          "point_A_um": [
+            1976.0,
+            -105.265
+          ],
+          "point_B_um": [
+            1976.0,
+            -104.735
+          ],
+          "edge_A_um": [
+            [
+              1996.0,
+              -105.78999999999999
+            ],
+            [
+              1976.0,
+              -105.265
+            ]
+          ],
+          "edge_B_um": [
+            [
+              1976.0,
+              -104.735
+            ],
+            [
+              1996.0,
+              -104.21000000000001
+            ]
+          ],
+          "directed_angle_deg": 176.99266219658568,
+          "visibility": "one_sided_boundary_limit"
+        }
+      },
+      {
+        "case": "accepted",
+        "layer": 39,
+        "kind": "width",
+        "nominal_um": 0.6,
+        "effective_limit_um": 0.599,
+        "independent_um": 0.8999999999999986,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "KLayout_violations": 0,
+        "rule_agreement": true,
+        "KLayout_lower_um": 0.9,
+        "KLayout_upper_um": 0.901,
+        "interval_distance_um": 1.4432899320127035e-15,
+        "numeric_agreement": true,
+        "area_error_um2": 2.7284841053187847e-12,
+        "witness": {
+          "value_um": 0.8999999999999986,
+          "point_A_um": [
+            516.0,
+            -29.55
+          ],
+          "point_B_um": [
+            516.0,
+            -30.45
+          ],
+          "edge_A_um": [
+            [
+              616.0,
+              -29.55
+            ],
+            [
+              516.0,
+              -29.55
+            ]
+          ],
+          "edge_B_um": [
+            [
+              516.0,
+              -30.45
+            ],
+            [
+              616.0,
+              -30.45
+            ]
+          ],
+          "directed_angle_deg": 180.0,
+          "visibility": "open_connector"
+        }
+      },
+      {
+        "case": "accepted",
+        "layer": 39,
+        "kind": "space",
+        "nominal_um": 10,
+        "effective_limit_um": 9.999,
+        "independent_um": 50.0,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "KLayout_violations": 0,
+        "rule_agreement": true,
+        "KLayout_lower_um": 50.0,
+        "KLayout_upper_um": 50.001,
+        "interval_distance_um": 0.0,
+        "numeric_agreement": true,
+        "area_error_um2": 2.7284841053187847e-12,
+        "witness": {
+          "value_um": 50.0,
+          "point_A_um": [
+            1121.0,
+            -55.0
+          ],
+          "point_B_um": [
+            1121.0,
+            -5.0
+          ],
+          "edge_A_um": [
+            [
+              1131.0,
+              -55.0
+            ],
+            [
+              1121.0,
+              -55.0
+            ]
+          ],
+          "edge_B_um": [
+            [
+              1121.0,
+              -5.0
+            ],
+            [
+              1131.0,
+              -5.0
+            ]
+          ],
+          "directed_angle_deg": 180.0,
+          "visibility": "open_connector"
+        }
+      },
+      {
+        "case": "accepted",
+        "layer": 41,
+        "kind": "width",
+        "nominal_um": 2,
+        "effective_limit_um": 1.999,
+        "independent_um": 8.0,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "KLayout_violations": 0,
+        "rule_agreement": true,
+        "KLayout_lower_um": 8.0,
+        "KLayout_upper_um": 8.001,
+        "interval_distance_um": 0.0,
+        "numeric_agreement": true,
+        "area_error_um2": 0.0,
+        "witness": {
+          "value_um": 8.0,
+          "point_A_um": [
+            -36.0,
+            -86.0
+          ],
+          "point_B_um": [
+            -36.0,
+            -94.0
+          ],
+          "edge_A_um": [
+            [
+              0.0,
+              -86.0
+            ],
+            [
+              -36.0,
+              -86.0
+            ]
+          ],
+          "edge_B_um": [
+            [
+              -36.0,
+              -94.0
+            ],
+            [
+              0.0,
+              -94.0
+            ]
+          ],
+          "directed_angle_deg": 180.0,
+          "visibility": "open_connector"
+        }
+      },
+      {
+        "case": "accepted",
+        "layer": 41,
+        "kind": "space",
+        "nominal_um": 10,
+        "effective_limit_um": 9.999,
+        "independent_um": 13.5,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "KLayout_violations": 0,
+        "rule_agreement": true,
+        "KLayout_lower_um": 13.5,
+        "KLayout_upper_um": 13.501,
+        "interval_distance_um": 0.0,
+        "numeric_agreement": true,
+        "area_error_um2": 0.0,
+        "witness": {
+          "value_um": 13.5,
+          "point_A_um": [
+            422.5,
+            -56.0
+          ],
+          "point_B_um": [
+            436.0,
+            -56.0
+          ],
+          "edge_A_um": [
+            [
+              422.5,
+              -86.0
+            ],
+            [
+              422.5,
+              -49.0
+            ]
+          ],
+          "edge_B_um": [
+            [
+              436.0,
+              -56.0
+            ],
+            [
+              436.0,
+              -64.0
+            ]
+          ],
+          "directed_angle_deg": 180.0,
+          "visibility": "open_connector"
+        }
+      }
+    ],
+    "controls": [
+      {
+        "id": "Si_narrow",
+        "layer": 3,
+        "kind": "width",
+        "inserted_dimension_um": 0.2,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 0.2,
+        "passed": true,
+        "gds_sha256": "a933b1137c3ba09e6d727fb79461e5a440a758bbb1353fb6bc94a27d45d0ae7e"
+      },
+      {
+        "id": "Si_gap",
+        "layer": 3,
+        "kind": "space",
+        "inserted_dimension_um": 0.15,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 0.15000000000009095,
+        "passed": true,
+        "gds_sha256": "10ad5b4b63dc080e94eed18730135c45b8e526f11f4de883094f0297c8d224ec"
+      },
+      {
+        "id": "HT_narrow",
+        "layer": 39,
+        "kind": "width",
+        "inserted_dimension_um": 0.4,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 0.4,
+        "passed": true,
+        "gds_sha256": "864846276d8f31dad01a39c6ff3ff1747063fe9c21d110fdbbd30c9f8fb5f1fb"
+      },
+      {
+        "id": "HT_gap",
+        "layer": 39,
+        "kind": "space",
+        "inserted_dimension_um": 5,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 5.0,
+        "passed": true,
+        "gds_sha256": "04caa566f7473c5a2ca52d617dbf5f22f355614f34581bb3791c087b9002d580"
+      },
+      {
+        "id": "PAD_narrow",
+        "layer": 41,
+        "kind": "width",
+        "inserted_dimension_um": 1,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 1.0,
+        "passed": true,
+        "gds_sha256": "de75feb4c593eae6b91f73e608696f9687a5747d622bb8c47cf332a663a70a25"
+      },
+      {
+        "id": "PAD_gap",
+        "layer": 41,
+        "kind": "space",
+        "inserted_dimension_um": 5,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 5.0,
+        "passed": true,
+        "gds_sha256": "1bfcb4e8df5a62598f447409f3df1459f67caa62d01a2c24f2e82baaafb4f1dc"
+      },
+      {
+        "id": "Si_margin_equal",
+        "layer": 3,
+        "kind": "width",
+        "inserted_dimension_um": 0.349,
+        "expected_rule_passed": true,
+        "independent_rule_passed": true,
+        "KLayout_rule_passed": true,
+        "independent_um": 0.34900000000000003,
+        "passed": true,
+        "gds_sha256": "9f78ead34810de8cf591c787284570470be38c449ad5a385b03330f4a1ca9ca5"
+      },
+      {
+        "id": "Si_below_margin",
+        "layer": 3,
+        "kind": "width",
+        "inserted_dimension_um": 0.348,
+        "expected_rule_passed": false,
+        "independent_rule_passed": false,
+        "KLayout_rule_passed": false,
+        "independent_um": 0.34800000000000003,
+        "passed": true,
+        "gds_sha256": "cb009c170fc6b13a6e8773a6040da1dae2ede76bb678a1c859b54c43e65144b6"
+      }
+    ],
+    "method_difference": {
+      "issue": "Closed-notch cap is a one-sided open-space limit; strict disjoint connector alone misses it",
+      "strict_connector_only_um": 1.579455921786767,
+      "corrected_um": 0.5300000000000011,
+      "witness": {
+        "value_um": 0.5300000000000011,
+        "point_A_um": [
+          1976.0,
+          -105.265
+        ],
+        "point_B_um": [
+          1976.0,
+          -104.735
+        ],
+        "edge_A_um": [
+          [
+            1996.0,
+            -105.78999999999999
+          ],
+          [
+            1976.0,
+            -105.265
+          ]
+        ],
+        "edge_B_um": [
+          [
+            1976.0,
+            -104.735
+          ],
+          [
+            1996.0,
+            -104.21000000000001
+          ]
+        ],
+        "directed_angle_deg": 176.99266219658568,
+        "visibility": "one_sided_boundary_limit"
+      },
+      "correction": "Test both 1e-6 um perpendicular shifts when the trimmed connector is entirely on boundary; no change to measured distance or GDS"
+    },
+    "tests": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "source_engines": [
+      {
+        "reader": "gdstk 1.0.2",
+        "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+        "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+        "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+        "library_unit_m": 1e-06,
+        "precision_um": 0.001,
+        "layer": 3,
+        "datatype": 0,
+        "raw_polygons": 148,
+        "raw_vertices": 11360,
+        "area_um2": 11761.147272000642,
+        "perimeter_um": 35135.80269209992,
+        "bbox_um": [
+          -690.0,
+          -560.225,
+          2710.0,
+          440.225
+        ],
+        "merged_components": 1,
+        "holes": 10
+      },
+      {
+        "reader": "gdstk 1.0.2",
+        "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+        "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+        "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+        "library_unit_m": 1e-06,
+        "precision_um": 0.001,
+        "layer": 39,
+        "datatype": 0,
+        "raw_polygons": 42,
+        "raw_vertices": 168,
+        "area_um2": 4060.0000000000027,
+        "perimeter_um": 3894.7999999999993,
+        "bbox_um": [
+          1.0,
+          -95.0,
+          1888.5,
+          5.0
+        ],
+        "merged_components": 14,
+        "holes": 0
+      },
+      {
+        "reader": "gdstk 1.0.2",
+        "geometry_engine": "Shapely 2.1.2 / GEOS 3.14.1",
+        "source_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+        "top_cell": "LAB06B_B7_EC_PAD_CHIP",
+        "library_unit_m": 1e-06,
+        "precision_um": 0.001,
+        "layer": 41,
+        "datatype": 0,
+        "raw_polygons": 109,
+        "raw_vertices": 436,
+        "area_um2": 223036.0,
+        "perimeter_um": 35179.0,
+        "bbox_um": [
+          -220.0,
+          -840.0,
+          2240.0,
+          690.0
+        ],
+        "merged_components": 15,
+        "holes": 0
+      }
+    ],
+    "original_pre_DRC_records": 0,
+    "original_pre_DRC_categories": 31,
+    "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "checks": [
+      {
+        "name": "accepted_six_numeric_agreements",
+        "passed": true
+      },
+      {
+        "name": "54_rule_comparisons",
+        "passed": true
+      },
+      {
+        "name": "eight_real_GDS_controls",
+        "passed": true
+      },
+      {
+        "name": "original_full_pre_DRC_zero",
+        "passed": true
+      },
+      {
+        "name": "notch_correction_exercised",
+        "passed": true
+      },
+      {
+        "name": "independent_reader_imports",
+        "passed": true
+      },
+      {
+        "name": "geometry_tests",
+        "passed": true
+      }
+    ],
+    "browser_cases": 54,
+    "browser_method_cases": 2,
+    "worksheet_verified": true,
+    "html_files": 24,
+    "local_links": 1195,
+    "course_core_steps_implemented": 17,
+    "learner_submission": "pending",
+    "instructor_review": "pending",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false,
+    "scope": "Six width/space facing-edge measurements on GDS 3/39/41, independent gdstk/Shapely vs KLayout Euclidian/45-degree measurements and selected original pre-DRC outcomes. Not all 31 categories, connectivity, calibrated optical response or foundry signoff."
+  },
+  "course_closeout": {
+    "schema": "lab06b.course_closeout.v1",
+    "status": "17_teaching_steps_implemented",
+    "timestamp": "2026-10-31T15:11:09.122946+08:00",
+    "steps": 17,
+    "hours": 18,
+    "progress": {
+      "M0_S1": "core toolchain passed; learner submission pending",
+      "M0_S2": "core physics passed; FDTD rerun not performed; learner submission pending",
+      "M0_S3": "shared models and unit tests passed; learner submission pending",
+      "M1_S1": "optical encoding and reference/readout experiments passed; learner submission pending",
+      "M1_S2": "B7 topology and 5x5 transfer matrix passed; learner submission pending",
+      "M1_S3": "weighted complex sums and differential readout passed; learner submission pending",
+      "M1_S4": "five-function 80-case acceptance and signed margins passed; learner submission pending",
+      "M1_S5": "logical spec, phase mapping and portable 80-case replay passed; learner submission pending",
+      "M2_S1": "logical PIC boundary and optical/electrical I/O passed; physical implementation pending; learner submission pending",
+      "M2_S2": "Caphe PDK circuit and all 80 comparisons passed; installed default ideal MMI; learner submission pending",
+      "M2_S3": "initial seven-MZI physical core GDS and independent readback passed; no full DRC or extracted replay; learner submission pending",
+      "M2_S4": "scoped KLayout review and margin-improved revision accepted; before/after retained; full DRC/LVS pending; learner submission pending",
+      "M2_S5": "initial reference EC/PAD/GND geometry and selected GDS connectivity passed; calibration and full validation pending; learner submission pending",
+      "M2_S6": "original full installed pre-DRC zero after label fix; geometric electrical/optical netlist compare passed; foundry qualification pending; learner submission pending",
+      "M2_S7": "teaching delivery packaged; relocated integrity, 400-case uniform-neff core replay and external pre-DRC/geometric recheck passed; physical function unqualified; learner submission pending",
+      "M3_S1": "two clean authored-source builds accepted: timestamp-only GDS digest and all-layer XOR/text exact; interface CSV exact; 400-case replay identical; 4 controls and 10 support tests passed; physical function unqualified; learner submission pending",
+      "M3_S2": "independent gdstk/Shapely six facing-edge minima agree with KLayout; 54 rule outcomes, eight GDS controls, 12 tests and unchanged full pre-DRC zero passed; physical qualification and learner review pending"
+    },
+    "final_lesson": "course/m3_s2.html",
+    "chip_index": "config/m2_current_chip.json",
+    "M2_delivery_index": "config/m2_delivery.json",
+    "rebuild_acceptance_index": "config/m3_acceptance.json",
+    "geometry_crosscheck_index": "config/m3_crosscheck_result.json",
+    "learner_submission": "pending",
+    "instructor_review": "pending",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false,
+    "remaining": [
+      "Learner independent observations, modifications, reruns and full delivery; instructor review",
+      "M0 Meep FDTD was not rerun",
+      "Calibrated EC/MMI/waveguide/bend response and heater electrical/thermal/common-ground calibration",
+      "Foundry full signoff, process-qualified LVS and packaging/measurement acceptance"
+    ]
+  },
+  "reader_revision_remove_learner_sections": {
+    "timestamp": "2026-10-31T15:19:47.238265+08:00",
+    "report": "evidence/report_cleanup.json",
+    "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_remove_learner_sections_20261031_151707",
+    "changed_pages": 18,
+    "technical_results_unchanged": true,
+    "policy": "scripts/report_policy.py",
+    "D_writes": false
+  },
+  "single_page_report": {
+    "timestamp": "2026-10-31T15:48:02.313293+08:00",
+    "status": "passed",
+    "report": "Lab06b_index.html",
+    "alias": "study.html",
+    "previous_overview": "course_overview.html",
+    "narrator": "Codex as learner/implementer",
+    "course_steps": 17,
+    "full_appendices": 2,
+    "content_source_sections": 19,
+    "source_hashes_verified": true,
+    "technical_files_unchanged": 1033,
+    "technical_reexecution": false,
+    "report_sha256": "e77a18b859dbac43aa460fcd29893053c14bd4afedfd760d511804bf5235e0cf",
+    "inputs": "work/single_report/out/report_sources.json",
+    "browser": "evidence/single_report_browser.json",
+    "select_parity_changes": 394,
+    "numeric_input_parity_changes": 42,
+    "images": 50,
+    "desktop_mobile_print_checked": true,
+    "html_files": 26,
+    "local_links": 1627,
+    "learner_acceptance_sections_removed": true,
+    "D_writes": false,
+    "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_single_report_20261031_153819",
+    "scope": "One continuous first-person report, full current technical content embedded with isolated scripts and namespaced IDs; original execution dates retained, archived outputs unchanged.",
+    "source_hashes": {
+      "scripts/render_study.py": "d5a4ef5fe2aa942ac02875d3e012885eb99b7a6206e8d2ceb0a622dd0279af6d",
+      "scripts/render_course.py": "7446374dc87a33819fa3184aa6f0da2c194a2c9bd60b7554f23b3d72d3585ac3",
+      "assets/study.css": "2ed1b2c2f34b5cd4b22b8ea4db2842a00b809d54809be7cbe024216708a6e001",
+      "work/single_report/check_browser.cjs": "2832bda1a1ea23df9f14c46ab0e442a073fcc4cbafe746251fe233731f17e13e",
+      "work/single_report/finalize.py": "2e5df3f42b0a078bb92ea06cbaeb978d7ac41417b863a376c67e560cb64603dd"
+    }
+  },
+  "native_CAD_reproduction": {
+    "schema": "lab06b.native_CAD_report_verification.v1",
+    "timestamp": "2026-10-31T17:02:29.823221+08:00",
+    "status": "passed",
+    "course_steps": 17,
+    "native_CAD_extension": 1,
+    "appendices": 2,
+    "source_sections": 20,
+    "images": 55,
+    "report_sha256": "5529b6a0a5a5180925cf4f3304454305754dd03d7b55b261f359b1d2d08e0993",
+    "report": "Lab06b_index.html",
+    "chapter": "course/virtuoso_calibre.html",
+    "proof": "work/virtuoso_reproduction/out/reproduction_results.json",
+    "browser": "evidence/virtuoso_report_browser.json",
+    "links": "evidence/report_checks.json",
+    "package": {
+      "archive": "delivery/Lab06b_Virtuoso_Calibre_reproduction.zip",
+      "sha256": "03c2a74af0a610d2543db7d1c7a810008ea5030f3e30f3b89caee740300d3b63",
+      "bytes": 1046346,
+      "manifest": "delivery/virtuoso_calibre/manifest.json",
+      "files": 138,
+      "verified": true
+    },
+    "previous_technical_files_unchanged": 1127,
+    "previous_19_source_pages_unchanged": true,
+    "original_S6_spec_phase_M1_M2_ZIP_unchanged": true,
+    "native_review_launcher_smoke": "opened read-only layout; no SKILL error; expected auto-tech/XL warnings retained in log",
+    "D_writes": false,
+    "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_virtuoso_report_20261031_165139"
+  },
+  "current_report_verification": "evidence/virtuoso_reproduction.json"
+}

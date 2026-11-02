@@ -1,0 +1,477 @@
+{
+  "engine": "KLayout KLayout 0.30.12",
+  "gds_sha256": "efe916411cc3cd5378090d0dc17fca4a053569fa0029cf96d0e0cb3b406e4385",
+  "rules": [
+    {
+      "layer": 3,
+      "kind": "width",
+      "limit_um": 0.35,
+      "violations": 0,
+      "boxes_um": []
+    },
+    {
+      "layer": 3,
+      "kind": "space",
+      "limit_um": 0.2,
+      "violations": 0,
+      "boxes_um": []
+    },
+    {
+      "layer": 39,
+      "kind": "width",
+      "limit_um": 0.6,
+      "violations": 0,
+      "boxes_um": []
+    },
+    {
+      "layer": 39,
+      "kind": "space",
+      "limit_um": 10,
+      "violations": 0,
+      "boxes_um": []
+    },
+    {
+      "layer": 41,
+      "kind": "width",
+      "limit_um": 2.0,
+      "violations": 0,
+      "boxes_um": []
+    },
+    {
+      "layer": 41,
+      "kind": "space",
+      "limit_um": 10.0,
+      "violations": 0,
+      "boxes_um": []
+    }
+  ],
+  "route_coverage": {
+    "samples": 4850,
+    "uncovered": 0,
+    "examples": [],
+    "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+  },
+  "isolated_gap_bounds": {
+    "HT": {
+      "lower_bound_um": 50.0,
+      "upper_bound_um": 50.001
+    },
+    "local_metal": {
+      "lower_bound_um": 48.0,
+      "upper_bound_um": 48.001
+    }
+  },
+  "controlled_faults": [
+    {
+      "name": "narrow_Si",
+      "expected": "layer3_width",
+      "detected": true,
+      "rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 1,
+          "boxes_um": [
+            [
+              10.0,
+              -145.0,
+              30.0,
+              -144.8
+            ]
+          ]
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 0,
+          "boxes_um": []
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 0,
+        "examples": [],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gds_sha256": "8796afcfd8fc86c181117c9e24222a5c323d760d5070d18b8d462824501f55e6"
+    },
+    {
+      "name": "close_metal",
+      "expected": "layer41_space",
+      "detected": true,
+      "rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 1,
+          "boxes_um": [
+            [
+              11.0,
+              -6.0,
+              13.0,
+              6.0
+            ]
+          ]
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 0,
+        "examples": [],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gds_sha256": "9f0857568cb34d56c0fff750ea6556a2429f151fcf480fc6b5f8d01e29ef5ee9"
+    },
+    {
+      "name": "gapped_input",
+      "expected": "route_coverage",
+      "detected": true,
+      "rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 0,
+          "boxes_um": []
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 1,
+        "examples": [
+          {
+            "path": "WG_in0",
+            "point_um": [
+              -30.0,
+              0.0
+            ]
+          }
+        ],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gds_sha256": "a0f59c75b66d5d3ce319a2053caaaa389a9484a49fe9fb727fc5ebc088d29781"
+    }
+  ],
+  "images": [
+    {
+      "version": "after",
+      "scene": "overview",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "after_overview_combined.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "after",
+      "scene": "overview",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "after_overview_optical.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "after",
+      "scene": "overview",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "after_overview_thermal.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "after",
+      "scene": "bend",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "after_bend_combined.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "after",
+      "scene": "bend",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "after_bend_optical.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "after",
+      "scene": "bend",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "after_bend_thermal.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "after",
+      "scene": "mmi",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "after_mmi_combined.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "mmi",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "after_mmi_optical.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "mmi",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "after_mmi_thermal.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "heater",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "after_heater_combined.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "heater",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "after_heater_optical.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "heater",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "after_heater_thermal.png",
+      "width_px": 1500,
+      "height_px": 400
+    }
+  ],
+  "all_scoped_rules_passed": true,
+  "route_samples_covered": true,
+  "scope": "Si/HT/local-metal width and spacing screening, sampled route coverage and native LayoutView images; not the full foundry deck, LVS, optical loss or layout phase replay."
+}

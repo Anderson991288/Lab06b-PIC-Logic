@@ -1,0 +1,125 @@
+DRC_RULE_FAULTS 1000
+GRID_3
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+3/0 grid violations
+GRID_4
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+4/0 grid violations
+GRID_5
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+5/0 grid violations
+GRID_39
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+39/0 grid violations
+GRID_41
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+41/0 grid violations
+GRID_99
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+99/0 grid violations
+GRID_100
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+100/0 grid violations
+AREA_99
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Correct design area violation
+W_3
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum feature size violation (GDS3< 350nm)
+e 1 2
+1240000 -620150 1260000 -620150
+1240000 -619850 1260000 -619850
+S_3
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum gap violation (GDS3<200nm)
+e 1 2
+1280000 -621500 1280000 -618500
+1280120 -621500 1280120 -618500
+W_4
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum feature size violation (GDS4< 200nm)
+e 1 2
+1300120 -620075 1320120 -620075
+1300120 -619925 1320120 -619925
+S_4
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum gap violation (GDS4<350nm)
+e 1 2
+1340120 -621500 1340120 -618500
+1340330 -621500 1340330 -618500
+W_5
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum feature size violation (GDS5< 250nm)
+e 1 2
+1360330 -620100 1380330 -620100
+1360330 -619900 1380330 -619900
+S_5
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum gap violation (GDS5<250nm)
+e 1 2
+1400330 -621500 1400330 -618500
+1400480 -621500 1400480 -618500
+W_39
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum feature size violate (GDS39<600nm)
+e 1 2
+1420480 -620275 1440480 -620275
+1420480 -619725 1440480 -619725
+S_39
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum gap violate (GDS39<10micro)
+e 1 2
+1470480 -621500 1470480 -618500
+1476480 -621500 1476480 -618500
+W_41
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum feature size violate (GDS41<2micro)
+e 1 2
+1516480 -620975 1536480 -620975
+1516480 -619025 1536480 -619025
+S_41
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum gap violate (GDS41<10micro)
+e 1 2
+1566480 -621500 1566480 -618500
+1572480 -621500 1572480 -618500
+W_100
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum feature size violate (GDS100<250nm)
+e 1 2
+1612480 -620100 1632480 -620100
+1612480 -619900 1632480 -619900
+S_100
+1 1 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+Minimum gap violate (GDS100<250nm)
+e 1 2
+1652480 -621500 1652480 -618500
+1652630 -621500 1652630 -618500
+USED_6
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+GDS6 present (its rules are not translated)
+USED_60
+0 0 2 Oct 31 23:59:46 2026                     
+Rule File Pathname: rule_faults.runset
+GDS60 present (its rules are not translated)

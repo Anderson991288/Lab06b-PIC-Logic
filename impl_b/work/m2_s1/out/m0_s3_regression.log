@@ -1,0 +1,23 @@
+test_b7_80_cases_against_boolean_truth_and_saved_complex_U (OpticalModels.OpticalModels.test_b7_80_cases_against_boolean_truth_and_saved_complex_U) ... ok
+test_closed_form_complex_regression (OpticalModels.OpticalModels.test_closed_form_complex_regression) ... ok
+test_complex_phase_periodicity (OpticalModels.OpticalModels.test_complex_phase_periodicity) ... ok
+test_effective_index_phase_and_units (OpticalModels.OpticalModels.test_effective_index_phase_and_units) ... ok
+test_exact_switch_and_split_matrices (OpticalModels.OpticalModels.test_exact_switch_and_split_matrices) ... ok
+test_global_phase_invariance (OpticalModels.OpticalModels.test_global_phase_invariance) ... ok
+test_insertion_loss_is_power_db (OpticalModels.OpticalModels.test_insertion_loss_is_power_db) ... ok
+test_inverse_bar_fraction (OpticalModels.OpticalModels.test_inverse_bar_fraction) ... ok
+test_lower_first_adapter_matches_s2_convention (OpticalModels.OpticalModels.test_lower_first_adapter_matches_s2_convention) ... ok
+test_mmi_quadrature_and_unitarity (OpticalModels.OpticalModels.test_mmi_quadrature_and_unitarity) ... ok
+test_no_input_or_constant_mutation (OpticalModels.OpticalModels.test_no_input_or_constant_mutation) ... ok
+test_nonadjacent_embedding_and_order (OpticalModels.OpticalModels.test_nonadjacent_embedding_and_order) ... ok
+test_parameter_guards (OpticalModels.OpticalModels.test_parameter_guards) ... ok
+test_phi_single_input_power_and_two_input_interference (OpticalModels.OpticalModels.test_phi_single_input_power_and_two_input_interference) ... ok
+test_readout_boundary_has_no_valid_bit (OpticalModels.OpticalModels.test_readout_boundary_has_no_valid_bit) ... ok
+test_scalar_path_replay_matches_matrix (OpticalModels.OpticalModels.test_scalar_path_replay_matches_matrix) ... ok
+test_trace_and_propagation_agree (OpticalModels.OpticalModels.test_trace_and_propagation_agree) ... ok
+test_unitarity_with_coupler_imbalance (OpticalModels.OpticalModels.test_unitarity_with_coupler_imbalance) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.183s
+
+OK

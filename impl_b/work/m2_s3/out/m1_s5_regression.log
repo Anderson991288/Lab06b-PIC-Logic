@@ -1,0 +1,20 @@
+test_boolean_numeric_and_unjustified_physical_values (HandoffTests.HandoffTests.test_boolean_numeric_and_unjustified_physical_values) ... ok
+test_contract_counts_and_pending_assignments (HandoffTests.HandoffTests.test_contract_counts_and_pending_assignments) ... ok
+test_csv_mapping_has_semantic_validation (HandoffTests.HandoffTests.test_csv_mapping_has_semantic_validation) ... ok
+test_digest_tampering_detected (HandoffTests.HandoffTests.test_digest_tampering_detected) ... ok
+test_duplicate_and_wrong_phase_mapping (HandoffTests.HandoffTests.test_duplicate_and_wrong_phase_mapping) ... ok
+test_named_channels_support_consistent_reordering (HandoffTests.HandoffTests.test_named_channels_support_consistent_reordering) ... ok
+test_ops_bypass_and_instance_crossrefs (HandoffTests.HandoffTests.test_ops_bypass_and_instance_crossrefs) ... ok
+test_phase_vectors_and_gate_coverage (HandoffTests.HandoffTests.test_phase_vectors_and_gate_coverage) ... ok
+test_phase_vectors_replay_all_80 (HandoffTests.HandoffTests.test_phase_vectors_replay_all_80) ... ok
+test_port_polarity_encoding_and_coverage_guards (HandoffTests.HandoffTests.test_port_polarity_encoding_and_coverage_guards) ... ok
+test_relative_manifest_paths_and_duplicates (HandoffTests.HandoffTests.test_relative_manifest_paths_and_duplicates) ... ok
+test_self_contained_bundle_and_csv (HandoffTests.HandoffTests.test_self_contained_bundle_and_csv) ... ok
+test_spec_phase_binding (HandoffTests.HandoffTests.test_spec_phase_binding) ... ok
+test_truth_csv_requires_exact_coverage (HandoffTests.HandoffTests.test_truth_csv_requires_exact_coverage) ... ok
+test_unsupported_version_and_units_rejected (HandoffTests.HandoffTests.test_unsupported_version_and_units_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.018s
+
+OK

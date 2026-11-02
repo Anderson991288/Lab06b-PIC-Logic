@@ -1,0 +1,139 @@
+{
+  "kind": "authored_sources_and_design_inputs_only",
+  "files": [
+    {
+      "path": "pic_spec.json",
+      "sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d"
+    },
+    {
+      "path": "phase_settings.json",
+      "sha256": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6"
+    },
+    {
+      "path": "config/m2_boundary.json",
+      "sha256": "2d6fa11906aaa6f66e57c53eb1cc2b659df925a2561848de745cd8481f3ef1f7"
+    },
+    {
+      "path": "config/m2_review_layout.json",
+      "sha256": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e"
+    },
+    {
+      "path": "config/m2_chip_interfaces.json",
+      "sha256": "6cd585fc8794bf792140b6c7a58576ef4a6e48dd24bf1021e597bdef4a5e0916"
+    },
+    {
+      "path": "config/m2_verification.json",
+      "sha256": "92815df1dad29270b9d7da508056a10738ba3bcc63c44e818c9fece0dcd4c61a"
+    },
+    {
+      "path": "config/m2_backannotation.json",
+      "sha256": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee"
+    },
+    {
+      "path": "work/common/__init__.py",
+      "sha256": "5c22e854a84f60f8db840deab9f0967b8531e8ac0da49a91af36aa1b6f207e1b"
+    },
+    {
+      "path": "work/common/mzi.py",
+      "sha256": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a"
+    },
+    {
+      "path": "work/common/b7.py",
+      "sha256": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028"
+    },
+    {
+      "path": "work/common/linear_network.py",
+      "sha256": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058"
+    },
+    {
+      "path": "work/common/encoding.py",
+      "sha256": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87"
+    },
+    {
+      "path": "work/common/logic_validation.py",
+      "sha256": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f"
+    },
+    {
+      "path": "work/common/handoff.py",
+      "sha256": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5"
+    },
+    {
+      "path": "work/common/pdk.py",
+      "sha256": "0926360824dde8848c2abba14f5c0a309e9d0b4b7de68d89cc0371691ea2a48e"
+    },
+    {
+      "path": "work/common/core_layout.py",
+      "sha256": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd"
+    },
+    {
+      "path": "work/common/chip_interfaces.py",
+      "sha256": "e38b2991266b9528969b63a9662defd117a96ea7997f37ac11d4dd299a471ba8"
+    },
+    {
+      "path": "work/common/backannotation.py",
+      "sha256": "5f17f7ba632fd58397fac3d37d77a608090a0c6109b26569f26bd6ca10b6e266"
+    },
+    {
+      "path": "work/m1_s5/replay_handoff.py",
+      "sha256": "3821b8dac5fea945f1a841f260758b57e3d54f00e7b0a0171f32661d7b09bf95"
+    },
+    {
+      "path": "work/m2_s3/verify_gds.py",
+      "sha256": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3"
+    },
+    {
+      "path": "work/m2_s5/build_chip.py",
+      "sha256": "47a958e9862aa0acd69dfba30527636ddb4d3faee66d26b24312bdfd1f8cb145"
+    },
+    {
+      "path": "work/m2_s5/merge_verify.py",
+      "sha256": "8ae49805ed06be41a99e8b2b7606bcf6464c75f96e8ff369023ae977026a01d6"
+    },
+    {
+      "path": "work/m2_s5/electrical_geometry.py",
+      "sha256": "67081b9ba60a22496b05c3dd70bd219448a6fb803e0f82e751c678077e990d5b"
+    },
+    {
+      "path": "work/m2_s6/run_verification.py",
+      "sha256": "e67425a62d0c6f8779b664b31253aa4b0917d6b5b41aafc5b09037ced98b58cc"
+    },
+    {
+      "path": "work/m2_s6/prepare_gds.py",
+      "sha256": "7acf55d7ccd9c5e1e9f14cd74b70e669a914741a342e7a7baef37d467d0d9380"
+    },
+    {
+      "path": "work/m2_s6/connectivity.py",
+      "sha256": "0c3c64c5a9c7e20ab47fc3a76905bc1cd5bff5d3388bdda59bc6baf62c403f97"
+    },
+    {
+      "path": "work/m2_s6/check_connectivity.py",
+      "sha256": "087228d587c3108396ed1920cb5abcaa8f72052ccdf742ff93b3685c59e15ba0"
+    },
+    {
+      "path": "work/m2_s7/extract_lengths.py",
+      "sha256": "ac322a486797f2d26b94be035c2d4e59ec558999ba9f24bd159350754273d486"
+    },
+    {
+      "path": "work/m2_s7/test_backannotation.py",
+      "sha256": "3824c5938d4f81b2da29e92060b3fd7071cc312349c1e7a8149682f94e1ccb18"
+    },
+    {
+      "path": "work/m3_s1/build_core.py",
+      "sha256": "f69bdb51419a2e5047310f800ff87628951fe8d7ae0fdcc88dc7ecba9308c4cf"
+    },
+    {
+      "path": "work/m3_s1/replay_rebuilt.py",
+      "sha256": "b4b23bfcc62b52fd81800630c53ab38993b7a1862599dab9eee97f7ba07b27af"
+    },
+    {
+      "path": "work/m3_s1/compare_gds.py",
+      "sha256": "1e8a098ca4ad740d716323174cb934c72a455736db8ac9ee388c5dde8dbc7449"
+    },
+    {
+      "path": "EDA_paths.json",
+      "sha256": "42e8011a11ab0ea6c7a37d02e78e9fd40bc3e792a126066017a9024061014741"
+    }
+  ],
+  "generated_outputs_seeded": 0,
+  "adaptation": "External tool and unchanged-deck locations only; design inputs unchanged"
+}

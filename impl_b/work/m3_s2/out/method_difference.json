@@ -1,0 +1,39 @@
+{
+  "issue": "Closed-notch cap is a one-sided open-space limit; strict disjoint connector alone misses it",
+  "strict_connector_only_um": 1.579455921786767,
+  "corrected_um": 0.5300000000000011,
+  "witness": {
+    "value_um": 0.5300000000000011,
+    "point_A_um": [
+      1976.0,
+      -105.265
+    ],
+    "point_B_um": [
+      1976.0,
+      -104.735
+    ],
+    "edge_A_um": [
+      [
+        1996.0,
+        -105.78999999999999
+      ],
+      [
+        1976.0,
+        -105.265
+      ]
+    ],
+    "edge_B_um": [
+      [
+        1976.0,
+        -104.735
+      ],
+      [
+        1996.0,
+        -104.21000000000001
+      ]
+    ],
+    "directed_angle_deg": 176.99266219658568,
+    "visibility": "one_sided_boundary_limit"
+  },
+  "correction": "Test both 1e-6 um perpendicular shifts when the trimmed connector is entirely on boundary; no change to measured distance or GDS"
+}

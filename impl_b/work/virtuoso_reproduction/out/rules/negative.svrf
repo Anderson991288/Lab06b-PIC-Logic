@@ -1,0 +1,6 @@
+LAYOUT SYSTEM GDSII
+LAYOUT PATH "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/input/negative_controls.gds"
+LAYOUT PRIMARY "LAB06B_NEGATIVE_16"
+DRC RESULTS DATABASE "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/cli_negative/results.db" ASCII
+DRC SUMMARY REPORT "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/cli_negative/summary.txt"
+INCLUDE "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/cornerstone_basic_draft.svrf"

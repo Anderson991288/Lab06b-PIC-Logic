@@ -1,0 +1,87 @@
+// Local teaching conversion draft; NOT a foundry-qualified or equivalent deck.
+// Source: local CORNERSTONE v3.1 KLayout pre-DRC, 2025-03-03.
+// Coverage: 16 basic width/spacing checks. See coverage.json for exclusions.
+// Acute-corner, zero-area marker and Euclidean semantics require validation.
+PRECISION 1000
+RESOLUTION 1
+DRC MAXIMUM RESULTS ALL
+LAYER MAP 60 DATATYPE 0 60
+LAYER CS60 60
+LAYER MAP 6 DATATYPE 0 6
+LAYER CS6 6
+LAYER MAP 3 DATATYPE 0 3
+LAYER CS3 3
+LAYER MAP 4 DATATYPE 0 4
+LAYER CS4 4
+LAYER MAP 5 DATATYPE 0 5
+LAYER CS5 5
+LAYER MAP 39 DATATYPE 0 39
+LAYER CS39 39
+LAYER MAP 41 DATATYPE 0 41
+LAYER CS41 41
+LAYER MAP 100 DATATYPE 0 100
+LAYER CS100 100
+CS60_WIDTH {
+  @ Basic width < 0.059 um; draft mapping
+  INTERNAL CS60 < 0.059 ABUT < 45
+}
+CS60_SPACE {
+  @ Basic spacing < 0.059 um; draft mapping
+  EXTERNAL CS60 < 0.059 ABUT < 45
+}
+CS6_WIDTH {
+  @ Basic width < 0.199 um; draft mapping
+  INTERNAL CS6 < 0.199 ABUT < 45
+}
+CS6_SPACE {
+  @ Basic spacing < 0.249 um; draft mapping
+  EXTERNAL CS6 < 0.249 ABUT < 45
+}
+CS3_WIDTH {
+  @ Basic width < 0.349 um; draft mapping
+  INTERNAL CS3 < 0.349 ABUT < 45
+}
+CS3_SPACE {
+  @ Basic spacing < 0.199 um; draft mapping
+  EXTERNAL CS3 < 0.199 ABUT < 45
+}
+CS4_WIDTH {
+  @ Basic width < 0.199 um; draft mapping
+  INTERNAL CS4 < 0.199 ABUT < 45
+}
+CS4_SPACE {
+  @ Basic spacing < 0.349 um; draft mapping
+  EXTERNAL CS4 < 0.349 ABUT < 45
+}
+CS5_WIDTH {
+  @ Basic width < 0.249 um; draft mapping
+  INTERNAL CS5 < 0.249 ABUT < 45
+}
+CS5_SPACE {
+  @ Basic spacing < 0.249 um; draft mapping
+  EXTERNAL CS5 < 0.249 ABUT < 45
+}
+CS39_WIDTH {
+  @ Basic width < 0.599 um; draft mapping
+  INTERNAL CS39 < 0.599 ABUT < 45
+}
+CS39_SPACE {
+  @ Basic spacing < 9.999 um; draft mapping
+  EXTERNAL CS39 < 9.999 ABUT < 45
+}
+CS41_WIDTH {
+  @ Basic width < 1.999 um; draft mapping
+  INTERNAL CS41 < 1.999 ABUT < 45
+}
+CS41_SPACE {
+  @ Basic spacing < 9.999 um; draft mapping
+  EXTERNAL CS41 < 9.999 ABUT < 45
+}
+CS100_WIDTH {
+  @ Basic width < 0.249 um; draft mapping
+  INTERNAL CS100 < 0.249 ABUT < 45
+}
+CS100_SPACE {
+  @ Basic spacing < 0.249 um; draft mapping
+  EXTERNAL CS100 < 0.249 ABUT < 45
+}

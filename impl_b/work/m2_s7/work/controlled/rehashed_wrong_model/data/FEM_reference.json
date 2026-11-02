@@ -1,0 +1,33 @@
+{
+  "source": "M0 S2 uniform-oxide fine-mesh FEM",
+  "original_sha256": "91530eb29df6451483ca0ab09b055f027a221c3b4350f55f5fb9b6447669018e",
+  "parameters": {
+    "wavelength_um": 1.55,
+    "n_si": 3.476,
+    "n_oxide": 1.444,
+    "strip_width_um": 0.45,
+    "strip_height_um": 0.22,
+    "cladding": "homogeneous SiO2, finite PEC calculation boundary; no substrate, air, heater, dispersion or leakage model"
+  },
+  "fine": {
+    "label": "fine",
+    "width_um": 0.45,
+    "height_um": 0.22,
+    "domain_half_um": [
+      1.5,
+      1.0
+    ],
+    "core_divisions": [
+      16,
+      10
+    ],
+    "triangles": 2400,
+    "field_dofs": 17081,
+    "neff": 2.353499831254645,
+    "neff_imag": 0.0,
+    "te_fraction": 0.976414787341961,
+    "electric_energy_core_fraction": 0.8952814018458205,
+    "runtime_s": 1.557
+  },
+  "physical_chip_calibration": false
+}

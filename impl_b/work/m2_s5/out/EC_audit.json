@@ -1,0 +1,14 @@
+{
+  "pdk_version": "2.6.luceda1",
+  "EC_exported_names": [],
+  "EC_kind": "custom_reference_geometry; no qualified EC found in installed exported PDK namespace",
+  "layer_map": {
+    "3": "WG DRAWING",
+    "4": "WG HOLE partial etch window",
+    "5": "SLAB DRAWING",
+    "39": "HT DRAWING",
+    "41": "PAD DRAWING"
+  },
+  "reference": "reference/C01/m2_chip_layout.py EC recipe; PDK mapping audited locally",
+  "optical_calibration": null
+}

@@ -1,0 +1,444 @@
+{
+  "engine": "KLayout independent GDS readback",
+  "version": "KLayout 0.30.12",
+  "gds": "C:\\EDA_Codex\\Lab06b\\work\\m2_s4\\out\\before\\b7_core.gds",
+  "gds_sha256": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+  "top_cell": "LAB06B_B7_CORE",
+  "dbu_um": 0.001,
+  "cell_count": 30,
+  "actual_mzi_instances": 7,
+  "mmi_instances_per_mzi": 2,
+  "actual_pdk_mmi_occurrences": 14,
+  "actual_heater_regions": 14,
+  "actual_local_metal_regions": 28,
+  "silicon_connected_regions": 1,
+  "geometry_outside_frame": 0,
+  "ports": [
+    {
+      "port": "in0",
+      "covered": true
+    },
+    {
+      "port": "in1",
+      "covered": true
+    },
+    {
+      "port": "in2",
+      "covered": true
+    },
+    {
+      "port": "in3",
+      "covered": true
+    },
+    {
+      "port": "in4",
+      "covered": true
+    },
+    {
+      "port": "out0",
+      "covered": true
+    },
+    {
+      "port": "out1",
+      "covered": true
+    },
+    {
+      "port": "out2",
+      "covered": true
+    },
+    {
+      "port": "out3",
+      "covered": true
+    },
+    {
+      "port": "out4",
+      "covered": true
+    }
+  ],
+  "joints": [
+    {
+      "id": "M1:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M1:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M2:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M3:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M4:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M5:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M6:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI1:in2",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI1:out2",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI1:in1",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI1:out1",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI2:in2",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI2:out2",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI2:in1",
+      "covered": true
+    },
+    {
+      "id": "M7:MMI2:out1",
+      "covered": true
+    },
+    {
+      "id": "lead_in0",
+      "covered": true
+    },
+    {
+      "id": "lead_out0",
+      "covered": true
+    },
+    {
+      "id": "lead_in1",
+      "covered": true
+    },
+    {
+      "id": "lead_out1",
+      "covered": true
+    },
+    {
+      "id": "lead_in2",
+      "covered": true
+    },
+    {
+      "id": "lead_out2",
+      "covered": true
+    },
+    {
+      "id": "lead_in3",
+      "covered": true
+    },
+    {
+      "id": "lead_out3",
+      "covered": true
+    },
+    {
+      "id": "lead_in4",
+      "covered": true
+    },
+    {
+      "id": "lead_out4",
+      "covered": true
+    },
+    {
+      "id": "column1_rail0",
+      "covered": true
+    },
+    {
+      "id": "column1_rail1",
+      "covered": true
+    },
+    {
+      "id": "column1_rail2",
+      "covered": true
+    },
+    {
+      "id": "column1_rail3",
+      "covered": true
+    },
+    {
+      "id": "column1_rail4",
+      "covered": true
+    },
+    {
+      "id": "column2_rail0",
+      "covered": true
+    },
+    {
+      "id": "column2_rail1",
+      "covered": true
+    },
+    {
+      "id": "column2_rail2",
+      "covered": true
+    },
+    {
+      "id": "column2_rail3",
+      "covered": true
+    },
+    {
+      "id": "column2_rail4",
+      "covered": true
+    },
+    {
+      "id": "column3_rail0",
+      "covered": true
+    },
+    {
+      "id": "column3_rail1",
+      "covered": true
+    },
+    {
+      "id": "column3_rail2",
+      "covered": true
+    },
+    {
+      "id": "column3_rail3",
+      "covered": true
+    },
+    {
+      "id": "column3_rail4",
+      "covered": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "top_cell",
+      "passed": true
+    },
+    {
+      "name": "one_nm_dbu",
+      "passed": true
+    },
+    {
+      "name": "seven_actual_mzi_refs",
+      "passed": true
+    },
+    {
+      "name": "two_mmis_per_unit",
+      "passed": true
+    },
+    {
+      "name": "mzi_placements_match",
+      "passed": true
+    },
+    {
+      "name": "six_actual_bypasses",
+      "passed": true
+    },
+    {
+      "name": "ten_actual_leads",
+      "passed": true
+    },
+    {
+      "name": "fourteen_heater_regions",
+      "passed": true
+    },
+    {
+      "name": "twentyeight_local_contacts",
+      "passed": true
+    },
+    {
+      "name": "ten_port_covers",
+      "passed": true
+    },
+    {
+      "name": "all_joint_corridors_covered",
+      "passed": true
+    },
+    {
+      "name": "inside_declared_frame",
+      "passed": true
+    },
+    {
+      "name": "frame_matches_declaration",
+      "passed": true
+    },
+    {
+      "name": "single_mzi_preview_geometry",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Counts, placements and local geometry coverage only; not LVS, foundry DRC, global optical topology extraction or phase replay."
+}

@@ -1,0 +1,2191 @@
+{
+  "step": "M2 S6",
+  "timestamp": "2026-10-31T12:55:01.232628+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "before": {
+    "gds_sha256": "9f54fff96d2ea9eba08ef341cc4edc71f24c06c1ebdf977f0f20b8d1864f81aa",
+    "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "report": "work\\m2_s6\\out\\before\\pre_drc.lyrdb",
+    "categories": [
+      "3/0 grid violations",
+      "5/0 grid violations",
+      "4/0 grid violations",
+      "100/0 grid violations",
+      "39/0 grid violations",
+      "41/0 grid violations",
+      "99/0 grid violations",
+      "1002/0 grid violations",
+      "Correct design area violation",
+      "Minimum feature size vilation (GDS60<60 nm)",
+      "Minimum feature size violation (GDS60 short than max feature length)",
+      "Minimum gap violation (GDS60<60nm)",
+      "Minimum overlap violation (GDS60 in GDS3 <200nm)",
+      "Minimum feature size violation (GDS6< 200nm)",
+      "Minimum feature size violation (GDS6< 350nm and short than max feature length)",
+      "Minimum gap violation (GDS6 < 250 nm)",
+      "Minimum overlap violation (GDS6 in GDS3 <200nm)",
+      "aviode overlapping GDS6 and GDS39",
+      "aviode overlapping GDS6 and GDS41",
+      "Minimum feature size violation (GDS3< 350nm)",
+      "Minimum gap violation (GDS3<200nm)",
+      "Minimum feature size violation (GDS4< 200nm)",
+      "Minimum gap violation (GDS4<350nm)",
+      "Minimum feature size violation (GDS5< 250nm)",
+      "Minimum gap violation (GDS5<250nm)",
+      "Minimum feature size violate (GDS39<600nm)",
+      "Minimum gap violate (GDS39<10micro)",
+      "Minimum feature size violate (GDS41<2micro)",
+      "Minimum gap violate (GDS41<10micro)",
+      "Minimum feature size violate (GDS100<250nm)",
+      "Minimum gap violate (GDS100<250nm)"
+    ],
+    "category_count": 31,
+    "items": [
+      {
+        "id": 1,
+        "category": "Minimum gap violate (GDS100<250nm)",
+        "cell": "LAB06B_B7_CORE",
+        "multiplicity": 1,
+        "values": [
+          "edge-pair: (-53.395,2.171;-53.293,2.272)|(-53.437,2.416;-53.501,2.416)"
+        ],
+        "bbox_um": [
+          -53.501,
+          2.171,
+          -53.293,
+          2.416
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Minimum gap violate (GDS100<250nm)",
+        "cell": "LAB06B_B7_CORE",
+        "multiplicity": 1,
+        "values": [
+          "edge-pair: (2065.405,2.171;2065.507,2.272)|(2065.363,2.416;2065.299,2.416)"
+        ],
+        "bbox_um": [
+          2065.299,
+          2.171,
+          2065.507,
+          2.416
+        ]
+      }
+    ],
+    "counts": {
+      "3/0 grid violations": 0,
+      "5/0 grid violations": 0,
+      "4/0 grid violations": 0,
+      "100/0 grid violations": 0,
+      "39/0 grid violations": 0,
+      "41/0 grid violations": 0,
+      "99/0 grid violations": 0,
+      "1002/0 grid violations": 0,
+      "Correct design area violation": 0,
+      "Minimum feature size vilation (GDS60<60 nm)": 0,
+      "Minimum feature size violation (GDS60 short than max feature length)": 0,
+      "Minimum gap violation (GDS60<60nm)": 0,
+      "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+      "Minimum feature size violation (GDS6< 200nm)": 0,
+      "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+      "Minimum gap violation (GDS6 < 250 nm)": 0,
+      "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+      "aviode overlapping GDS6 and GDS39": 0,
+      "aviode overlapping GDS6 and GDS41": 0,
+      "Minimum feature size violation (GDS3< 350nm)": 0,
+      "Minimum gap violation (GDS3<200nm)": 0,
+      "Minimum feature size violation (GDS4< 200nm)": 0,
+      "Minimum gap violation (GDS4<350nm)": 0,
+      "Minimum feature size violation (GDS5< 250nm)": 0,
+      "Minimum gap violation (GDS5<250nm)": 0,
+      "Minimum feature size violate (GDS39<600nm)": 0,
+      "Minimum gap violate (GDS39<10micro)": 0,
+      "Minimum feature size violate (GDS41<2micro)": 0,
+      "Minimum gap violate (GDS41<10micro)": 0,
+      "Minimum feature size violate (GDS100<250nm)": 0,
+      "Minimum gap violate (GDS100<250nm)": 2
+    },
+    "total_records": 2,
+    "total_occurrences": 2,
+    "declared_size_um": [
+      3860.0,
+      1640.0
+    ],
+    "deck_rules_changed": false,
+    "foundry_full_signoff": false,
+    "scope": "All categories of installed CORNERSTONE v3.1 pre-DRC; original deck explicitly excludes foundry full DRC signoff."
+  },
+  "after": {
+    "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "report": "work\\m2_s6\\out\\after\\pre_drc.lyrdb",
+    "categories": [
+      "3/0 grid violations",
+      "100/0 grid violations",
+      "39/0 grid violations",
+      "41/0 grid violations",
+      "5/0 grid violations",
+      "4/0 grid violations",
+      "99/0 grid violations",
+      "1002/0 grid violations",
+      "Correct design area violation",
+      "Minimum feature size vilation (GDS60<60 nm)",
+      "Minimum feature size violation (GDS60 short than max feature length)",
+      "Minimum gap violation (GDS60<60nm)",
+      "Minimum overlap violation (GDS60 in GDS3 <200nm)",
+      "Minimum feature size violation (GDS6< 200nm)",
+      "Minimum feature size violation (GDS6< 350nm and short than max feature length)",
+      "Minimum gap violation (GDS6 < 250 nm)",
+      "Minimum overlap violation (GDS6 in GDS3 <200nm)",
+      "aviode overlapping GDS6 and GDS39",
+      "aviode overlapping GDS6 and GDS41",
+      "Minimum feature size violation (GDS3< 350nm)",
+      "Minimum gap violation (GDS3<200nm)",
+      "Minimum feature size violation (GDS4< 200nm)",
+      "Minimum gap violation (GDS4<350nm)",
+      "Minimum feature size violation (GDS5< 250nm)",
+      "Minimum gap violation (GDS5<250nm)",
+      "Minimum feature size violate (GDS39<600nm)",
+      "Minimum gap violate (GDS39<10micro)",
+      "Minimum feature size violate (GDS41<2micro)",
+      "Minimum gap violate (GDS41<10micro)",
+      "Minimum feature size violate (GDS100<250nm)",
+      "Minimum gap violate (GDS100<250nm)"
+    ],
+    "category_count": 31,
+    "items": [],
+    "counts": {
+      "3/0 grid violations": 0,
+      "100/0 grid violations": 0,
+      "39/0 grid violations": 0,
+      "41/0 grid violations": 0,
+      "5/0 grid violations": 0,
+      "4/0 grid violations": 0,
+      "99/0 grid violations": 0,
+      "1002/0 grid violations": 0,
+      "Correct design area violation": 0,
+      "Minimum feature size vilation (GDS60<60 nm)": 0,
+      "Minimum feature size violation (GDS60 short than max feature length)": 0,
+      "Minimum gap violation (GDS60<60nm)": 0,
+      "Minimum overlap violation (GDS60 in GDS3 <200nm)": 0,
+      "Minimum feature size violation (GDS6< 200nm)": 0,
+      "Minimum feature size violation (GDS6< 350nm and short than max feature length)": 0,
+      "Minimum gap violation (GDS6 < 250 nm)": 0,
+      "Minimum overlap violation (GDS6 in GDS3 <200nm)": 0,
+      "aviode overlapping GDS6 and GDS39": 0,
+      "aviode overlapping GDS6 and GDS41": 0,
+      "Minimum feature size violation (GDS3< 350nm)": 0,
+      "Minimum gap violation (GDS3<200nm)": 0,
+      "Minimum feature size violation (GDS4< 200nm)": 0,
+      "Minimum gap violation (GDS4<350nm)": 0,
+      "Minimum feature size violation (GDS5< 250nm)": 0,
+      "Minimum gap violation (GDS5<250nm)": 0,
+      "Minimum feature size violate (GDS39<600nm)": 0,
+      "Minimum gap violate (GDS39<10micro)": 0,
+      "Minimum feature size violate (GDS41<2micro)": 0,
+      "Minimum gap violate (GDS41<10micro)": 0,
+      "Minimum feature size violate (GDS100<250nm)": 0,
+      "Minimum gap violate (GDS100<250nm)": 0
+    },
+    "total_records": 0,
+    "total_occurrences": 0,
+    "declared_size_um": [
+      3860.0,
+      1640.0
+    ],
+    "deck_rules_changed": false,
+    "foundry_full_signoff": false,
+    "scope": "All categories of installed CORNERSTONE v3.1 pre-DRC; original deck explicitly excludes foundry full DRC signoff."
+  },
+  "label_patch": {
+    "change": "Ten port labels scaled 1.25 about their original anchors, 4 to 5 um; no rule relaxation",
+    "ports": [
+      {
+        "port": "in0",
+        "anchor_um": [
+          -57.0,
+          3.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          -61.636,
+          -1.22,
+          -52.398,
+          2.856
+        ],
+        "new_bbox_um": [
+          -62.795,
+          -2.275,
+          -51.248,
+          2.82
+        ]
+      },
+      {
+        "port": "in1",
+        "anchor_um": [
+          -57.0,
+          -27.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          -61.636,
+          -31.220000000000002,
+          -52.618,
+          -27.144000000000002
+        ],
+        "new_bbox_um": [
+          -62.795,
+          -32.275,
+          -51.523,
+          -27.18
+        ]
+      },
+      {
+        "port": "in2",
+        "anchor_um": [
+          -57.0,
+          -57.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          -61.636,
+          -61.22,
+          -52.398,
+          -57.144
+        ],
+        "new_bbox_um": [
+          -62.795,
+          -62.275,
+          -51.248,
+          -57.18
+        ]
+      },
+      {
+        "port": "in3",
+        "anchor_um": [
+          -57.0,
+          -87.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          -61.636,
+          -91.22,
+          -52.398,
+          -87.144
+        ],
+        "new_bbox_um": [
+          -62.795,
+          -92.275,
+          -51.248,
+          -87.18
+        ]
+      },
+      {
+        "port": "in4",
+        "anchor_um": [
+          -57.0,
+          -117.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          -61.636,
+          -121.22,
+          -52.618,
+          -117.144
+        ],
+        "new_bbox_um": [
+          -62.795,
+          -122.275,
+          -51.523,
+          -117.18
+        ]
+      },
+      {
+        "port": "out0",
+        "anchor_um": [
+          2060.0,
+          3.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          2052.98,
+          -1.22,
+          2066.402,
+          2.856
+        ],
+        "new_bbox_um": [
+          2051.225,
+          -2.275,
+          2068.003,
+          2.82
+        ]
+      },
+      {
+        "port": "out1",
+        "anchor_um": [
+          2060.0,
+          -27.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          2052.98,
+          -31.220000000000002,
+          2066.1820000000002,
+          -27.144000000000002
+        ],
+        "new_bbox_um": [
+          2051.225,
+          -32.275,
+          2067.728,
+          -27.18
+        ]
+      },
+      {
+        "port": "out2",
+        "anchor_um": [
+          2060.0,
+          -57.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          2052.98,
+          -61.22,
+          2066.402,
+          -57.144
+        ],
+        "new_bbox_um": [
+          2051.225,
+          -62.275,
+          2068.003,
+          -57.18
+        ]
+      },
+      {
+        "port": "out3",
+        "anchor_um": [
+          2060.0,
+          -87.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          2052.98,
+          -91.22,
+          2066.402,
+          -87.144
+        ],
+        "new_bbox_um": [
+          2051.225,
+          -92.275,
+          2068.003,
+          -87.18
+        ]
+      },
+      {
+        "port": "out4",
+        "anchor_um": [
+          2060.0,
+          -117.0
+        ],
+        "scale": 1.25,
+        "old_bbox_um": [
+          2052.98,
+          -121.22,
+          2066.1820000000002,
+          -117.144
+        ],
+        "new_bbox_um": [
+          2051.225,
+          -122.275,
+          2067.728,
+          -117.18
+        ]
+      }
+    ],
+    "physical_mask_comparison": [
+      {
+        "layer": 3,
+        "identical": true
+      },
+      {
+        "layer": 4,
+        "identical": true
+      },
+      {
+        "layer": 5,
+        "identical": true
+      },
+      {
+        "layer": 39,
+        "identical": true
+      },
+      {
+        "layer": 41,
+        "identical": true
+      },
+      {
+        "layer": 99,
+        "identical": true
+      }
+    ],
+    "only_port_label_windows_changed": true,
+    "before_sha256": "9f54fff96d2ea9eba08ef341cc4edc71f24c06c1ebdf977f0f20b8d1864f81aa",
+    "after_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963"
+  },
+  "connectivity": {
+    "before": {
+      "electrical": {
+        "metal_nets": 15,
+        "pad_components": {
+          "PAD_DRV00": [
+            7
+          ],
+          "PAD_DRV01": [
+            1
+          ],
+          "PAD_DRV02": [
+            9
+          ],
+          "PAD_DRV03": [
+            11
+          ],
+          "PAD_DRV04": [
+            5
+          ],
+          "PAD_DRV05": [
+            13
+          ],
+          "PAD_DRV06": [
+            3
+          ],
+          "PAD_DRV07": [
+            6
+          ],
+          "PAD_DRV08": [
+            0
+          ],
+          "PAD_DRV09": [
+            8
+          ],
+          "PAD_DRV10": [
+            10
+          ],
+          "PAD_DRV11": [
+            4
+          ],
+          "PAD_DRV12": [
+            12
+          ],
+          "PAD_DRV13": [
+            2
+          ],
+          "PAD_GND_W": [
+            14
+          ],
+          "PAD_GND_E": [
+            14
+          ]
+        },
+        "connections": [
+          {
+            "channel": "theta1",
+            "pad_id": "PAD_DRV00",
+            "pad_component": [
+              7
+            ],
+            "signal_A_components": [
+              7
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta2",
+            "pad_id": "PAD_DRV01",
+            "pad_component": [
+              1
+            ],
+            "signal_A_components": [
+              1
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta3",
+            "pad_id": "PAD_DRV02",
+            "pad_component": [
+              9
+            ],
+            "signal_A_components": [
+              9
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta4",
+            "pad_id": "PAD_DRV03",
+            "pad_component": [
+              11
+            ],
+            "signal_A_components": [
+              11
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta5",
+            "pad_id": "PAD_DRV04",
+            "pad_component": [
+              5
+            ],
+            "signal_A_components": [
+              5
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta6",
+            "pad_id": "PAD_DRV05",
+            "pad_component": [
+              13
+            ],
+            "signal_A_components": [
+              13
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta7",
+            "pad_id": "PAD_DRV06",
+            "pad_component": [
+              3
+            ],
+            "signal_A_components": [
+              3
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi1",
+            "pad_id": "PAD_DRV07",
+            "pad_component": [
+              6
+            ],
+            "signal_A_components": [
+              6
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi2",
+            "pad_id": "PAD_DRV08",
+            "pad_component": [
+              0
+            ],
+            "signal_A_components": [
+              0
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi3",
+            "pad_id": "PAD_DRV09",
+            "pad_component": [
+              8
+            ],
+            "signal_A_components": [
+              8
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi4",
+            "pad_id": "PAD_DRV10",
+            "pad_component": [
+              10
+            ],
+            "signal_A_components": [
+              10
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi5",
+            "pad_id": "PAD_DRV11",
+            "pad_component": [
+              4
+            ],
+            "signal_A_components": [
+              4
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi6",
+            "pad_id": "PAD_DRV12",
+            "pad_component": [
+              12
+            ],
+            "signal_A_components": [
+              12
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi7",
+            "pad_id": "PAD_DRV13",
+            "pad_component": [
+              2
+            ],
+            "signal_A_components": [
+              2
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "heater_contact_nets": [
+          {
+            "channel": "theta1",
+            "contacted_metal_components": [
+              7,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta2",
+            "contacted_metal_components": [
+              1,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta3",
+            "contacted_metal_components": [
+              9,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta4",
+            "contacted_metal_components": [
+              11,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta5",
+            "contacted_metal_components": [
+              5,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta6",
+            "contacted_metal_components": [
+              13,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta7",
+            "contacted_metal_components": [
+              3,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi1",
+            "contacted_metal_components": [
+              6,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi2",
+            "contacted_metal_components": [
+              0,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi3",
+            "contacted_metal_components": [
+              8,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi4",
+            "contacted_metal_components": [
+              10,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi5",
+            "contacted_metal_components": [
+              4,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi6",
+            "contacted_metal_components": [
+              12,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi7",
+            "contacted_metal_components": [
+              2,
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "checks": [
+          {
+            "name": "sixteen_pad_centers",
+            "passed": true
+          },
+          {
+            "name": "fourteen_independent_signal_nets",
+            "passed": true
+          },
+          {
+            "name": "one_shared_GND_two_pads",
+            "passed": true
+          },
+          {
+            "name": "fifteen_metal_nets",
+            "passed": true
+          },
+          {
+            "name": "all_PAD_A_and_B_GND",
+            "passed": true
+          },
+          {
+            "name": "each_heater_touches_two_correct_nets",
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "optical": {
+        "MZI_instances": 7,
+        "MMI_occurrences": 14,
+        "terminal_count": 66,
+        "route_components": 33,
+        "devices": [
+          {
+            "id": "M2:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M2:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M3:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M3:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M4:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M4:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M5:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M5:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M6:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M6:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M7:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M7:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M1:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M1:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          }
+        ],
+        "expected_pairs": [
+          [
+            "EC_IN0:facet",
+            "M1:MMI1:in2"
+          ],
+          [
+            "EC_IN1:facet",
+            "M1:MMI1:in1"
+          ],
+          [
+            "EC_IN2:facet",
+            "M3:MMI1:in1"
+          ],
+          [
+            "EC_IN3:facet",
+            "M2:MMI1:in2"
+          ],
+          [
+            "EC_IN4:facet",
+            "M2:MMI1:in1"
+          ],
+          [
+            "EC_OUT0:facet",
+            "M4:MMI2:out2"
+          ],
+          [
+            "EC_OUT1:facet",
+            "M6:MMI2:out2"
+          ],
+          [
+            "EC_OUT2:facet",
+            "M6:MMI2:out1"
+          ],
+          [
+            "EC_OUT3:facet",
+            "M7:MMI2:out2"
+          ],
+          [
+            "EC_OUT4:facet",
+            "M7:MMI2:out1"
+          ],
+          [
+            "M1:MMI1:out1",
+            "M1:MMI2:in1"
+          ],
+          [
+            "M1:MMI1:out2",
+            "M1:MMI2:in2"
+          ],
+          [
+            "M1:MMI2:out1",
+            "M3:MMI1:in2"
+          ],
+          [
+            "M1:MMI2:out2",
+            "M4:MMI1:in2"
+          ],
+          [
+            "M2:MMI1:out1",
+            "M2:MMI2:in1"
+          ],
+          [
+            "M2:MMI1:out2",
+            "M2:MMI2:in2"
+          ],
+          [
+            "M2:MMI2:out1",
+            "M7:MMI1:in1"
+          ],
+          [
+            "M2:MMI2:out2",
+            "M5:MMI1:in1"
+          ],
+          [
+            "M3:MMI1:out1",
+            "M3:MMI2:in1"
+          ],
+          [
+            "M3:MMI1:out2",
+            "M3:MMI2:in2"
+          ],
+          [
+            "M3:MMI2:out1",
+            "M5:MMI1:in2"
+          ],
+          [
+            "M3:MMI2:out2",
+            "M4:MMI1:in1"
+          ],
+          [
+            "M4:MMI1:out1",
+            "M4:MMI2:in1"
+          ],
+          [
+            "M4:MMI1:out2",
+            "M4:MMI2:in2"
+          ],
+          [
+            "M4:MMI2:out1",
+            "M6:MMI1:in2"
+          ],
+          [
+            "M5:MMI1:out1",
+            "M5:MMI2:in1"
+          ],
+          [
+            "M5:MMI1:out2",
+            "M5:MMI2:in2"
+          ],
+          [
+            "M5:MMI2:out1",
+            "M7:MMI1:in2"
+          ],
+          [
+            "M5:MMI2:out2",
+            "M6:MMI1:in1"
+          ],
+          [
+            "M6:MMI1:out1",
+            "M6:MMI2:in1"
+          ],
+          [
+            "M6:MMI1:out2",
+            "M6:MMI2:in2"
+          ],
+          [
+            "M7:MMI1:out1",
+            "M7:MMI2:in1"
+          ],
+          [
+            "M7:MMI1:out2",
+            "M7:MMI2:in2"
+          ]
+        ],
+        "observed_groups": [
+          [
+            "EC_IN0:facet",
+            "M1:MMI1:in2"
+          ],
+          [
+            "EC_IN1:facet",
+            "M1:MMI1:in1"
+          ],
+          [
+            "EC_IN2:facet",
+            "M3:MMI1:in1"
+          ],
+          [
+            "EC_IN3:facet",
+            "M2:MMI1:in2"
+          ],
+          [
+            "EC_IN4:facet",
+            "M2:MMI1:in1"
+          ],
+          [
+            "EC_OUT0:facet",
+            "M4:MMI2:out2"
+          ],
+          [
+            "EC_OUT1:facet",
+            "M6:MMI2:out2"
+          ],
+          [
+            "EC_OUT2:facet",
+            "M6:MMI2:out1"
+          ],
+          [
+            "EC_OUT3:facet",
+            "M7:MMI2:out2"
+          ],
+          [
+            "EC_OUT4:facet",
+            "M7:MMI2:out1"
+          ],
+          [
+            "M1:MMI1:out1",
+            "M1:MMI2:in1"
+          ],
+          [
+            "M1:MMI1:out2",
+            "M1:MMI2:in2"
+          ],
+          [
+            "M1:MMI2:out1",
+            "M3:MMI1:in2"
+          ],
+          [
+            "M1:MMI2:out2",
+            "M4:MMI1:in2"
+          ],
+          [
+            "M2:MMI1:out1",
+            "M2:MMI2:in1"
+          ],
+          [
+            "M2:MMI1:out2",
+            "M2:MMI2:in2"
+          ],
+          [
+            "M2:MMI2:out1",
+            "M7:MMI1:in1"
+          ],
+          [
+            "M2:MMI2:out2",
+            "M5:MMI1:in1"
+          ],
+          [
+            "M3:MMI1:out1",
+            "M3:MMI2:in1"
+          ],
+          [
+            "M3:MMI1:out2",
+            "M3:MMI2:in2"
+          ],
+          [
+            "M3:MMI2:out1",
+            "M5:MMI1:in2"
+          ],
+          [
+            "M3:MMI2:out2",
+            "M4:MMI1:in1"
+          ],
+          [
+            "M4:MMI1:out1",
+            "M4:MMI2:in1"
+          ],
+          [
+            "M4:MMI1:out2",
+            "M4:MMI2:in2"
+          ],
+          [
+            "M4:MMI2:out1",
+            "M6:MMI1:in2"
+          ],
+          [
+            "M5:MMI1:out1",
+            "M5:MMI2:in1"
+          ],
+          [
+            "M5:MMI1:out2",
+            "M5:MMI2:in2"
+          ],
+          [
+            "M5:MMI2:out1",
+            "M7:MMI1:in2"
+          ],
+          [
+            "M5:MMI2:out2",
+            "M6:MMI1:in1"
+          ],
+          [
+            "M6:MMI1:out1",
+            "M6:MMI2:in1"
+          ],
+          [
+            "M6:MMI1:out2",
+            "M6:MMI2:in2"
+          ],
+          [
+            "M7:MMI1:out1",
+            "M7:MMI2:in1"
+          ],
+          [
+            "M7:MMI1:out2",
+            "M7:MMI2:in2"
+          ]
+        ],
+        "missing_terminals": [],
+        "joint_issues": [],
+        "missing_pairs": [],
+        "unexpected_groups": [],
+        "passed": true,
+        "scope": "Actual GDS material graph with 14 MMI black boxes removed; 33 outside-device connections vs declared B7. Not optical field, phase/loss, EC mode validation or foundry-certified LVS."
+      },
+      "passed": true,
+      "gds_sha256": "9f54fff96d2ea9eba08ef341cc4edc71f24c06c1ebdf977f0f20b8d1864f81aa",
+      "engine": "KLayout 0.30.12"
+    },
+    "after": {
+      "electrical": {
+        "metal_nets": 15,
+        "pad_components": {
+          "PAD_DRV00": [
+            7
+          ],
+          "PAD_DRV01": [
+            1
+          ],
+          "PAD_DRV02": [
+            9
+          ],
+          "PAD_DRV03": [
+            11
+          ],
+          "PAD_DRV04": [
+            5
+          ],
+          "PAD_DRV05": [
+            13
+          ],
+          "PAD_DRV06": [
+            3
+          ],
+          "PAD_DRV07": [
+            6
+          ],
+          "PAD_DRV08": [
+            0
+          ],
+          "PAD_DRV09": [
+            8
+          ],
+          "PAD_DRV10": [
+            10
+          ],
+          "PAD_DRV11": [
+            4
+          ],
+          "PAD_DRV12": [
+            12
+          ],
+          "PAD_DRV13": [
+            2
+          ],
+          "PAD_GND_W": [
+            14
+          ],
+          "PAD_GND_E": [
+            14
+          ]
+        },
+        "connections": [
+          {
+            "channel": "theta1",
+            "pad_id": "PAD_DRV00",
+            "pad_component": [
+              7
+            ],
+            "signal_A_components": [
+              7
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta2",
+            "pad_id": "PAD_DRV01",
+            "pad_component": [
+              1
+            ],
+            "signal_A_components": [
+              1
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta3",
+            "pad_id": "PAD_DRV02",
+            "pad_component": [
+              9
+            ],
+            "signal_A_components": [
+              9
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta4",
+            "pad_id": "PAD_DRV03",
+            "pad_component": [
+              11
+            ],
+            "signal_A_components": [
+              11
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta5",
+            "pad_id": "PAD_DRV04",
+            "pad_component": [
+              5
+            ],
+            "signal_A_components": [
+              5
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta6",
+            "pad_id": "PAD_DRV05",
+            "pad_component": [
+              13
+            ],
+            "signal_A_components": [
+              13
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta7",
+            "pad_id": "PAD_DRV06",
+            "pad_component": [
+              3
+            ],
+            "signal_A_components": [
+              3
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi1",
+            "pad_id": "PAD_DRV07",
+            "pad_component": [
+              6
+            ],
+            "signal_A_components": [
+              6
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi2",
+            "pad_id": "PAD_DRV08",
+            "pad_component": [
+              0
+            ],
+            "signal_A_components": [
+              0
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi3",
+            "pad_id": "PAD_DRV09",
+            "pad_component": [
+              8
+            ],
+            "signal_A_components": [
+              8
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi4",
+            "pad_id": "PAD_DRV10",
+            "pad_component": [
+              10
+            ],
+            "signal_A_components": [
+              10
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi5",
+            "pad_id": "PAD_DRV11",
+            "pad_component": [
+              4
+            ],
+            "signal_A_components": [
+              4
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi6",
+            "pad_id": "PAD_DRV12",
+            "pad_component": [
+              12
+            ],
+            "signal_A_components": [
+              12
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi7",
+            "pad_id": "PAD_DRV13",
+            "pad_component": [
+              2
+            ],
+            "signal_A_components": [
+              2
+            ],
+            "return_B_components": [
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "heater_contact_nets": [
+          {
+            "channel": "theta1",
+            "contacted_metal_components": [
+              7,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta2",
+            "contacted_metal_components": [
+              1,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta3",
+            "contacted_metal_components": [
+              9,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta4",
+            "contacted_metal_components": [
+              11,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta5",
+            "contacted_metal_components": [
+              5,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta6",
+            "contacted_metal_components": [
+              13,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "theta7",
+            "contacted_metal_components": [
+              3,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi1",
+            "contacted_metal_components": [
+              6,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi2",
+            "contacted_metal_components": [
+              0,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi3",
+            "contacted_metal_components": [
+              8,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi4",
+            "contacted_metal_components": [
+              10,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi5",
+            "contacted_metal_components": [
+              4,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi6",
+            "contacted_metal_components": [
+              12,
+              14
+            ],
+            "passed": true
+          },
+          {
+            "channel": "phi7",
+            "contacted_metal_components": [
+              2,
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "checks": [
+          {
+            "name": "sixteen_pad_centers",
+            "passed": true
+          },
+          {
+            "name": "fourteen_independent_signal_nets",
+            "passed": true
+          },
+          {
+            "name": "one_shared_GND_two_pads",
+            "passed": true
+          },
+          {
+            "name": "fifteen_metal_nets",
+            "passed": true
+          },
+          {
+            "name": "all_PAD_A_and_B_GND",
+            "passed": true
+          },
+          {
+            "name": "each_heater_touches_two_correct_nets",
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "optical": {
+        "MZI_instances": 7,
+        "MMI_occurrences": 14,
+        "terminal_count": 66,
+        "route_components": 33,
+        "devices": [
+          {
+            "id": "M2:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M2:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M3:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M3:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M4:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M4:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M5:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M5:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M6:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M6:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M7:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M7:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M1:MMI1",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          },
+          {
+            "id": "M1:MMI2",
+            "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+            "template_identical": true
+          }
+        ],
+        "expected_pairs": [
+          [
+            "EC_IN0:facet",
+            "M1:MMI1:in2"
+          ],
+          [
+            "EC_IN1:facet",
+            "M1:MMI1:in1"
+          ],
+          [
+            "EC_IN2:facet",
+            "M3:MMI1:in1"
+          ],
+          [
+            "EC_IN3:facet",
+            "M2:MMI1:in2"
+          ],
+          [
+            "EC_IN4:facet",
+            "M2:MMI1:in1"
+          ],
+          [
+            "EC_OUT0:facet",
+            "M4:MMI2:out2"
+          ],
+          [
+            "EC_OUT1:facet",
+            "M6:MMI2:out2"
+          ],
+          [
+            "EC_OUT2:facet",
+            "M6:MMI2:out1"
+          ],
+          [
+            "EC_OUT3:facet",
+            "M7:MMI2:out2"
+          ],
+          [
+            "EC_OUT4:facet",
+            "M7:MMI2:out1"
+          ],
+          [
+            "M1:MMI1:out1",
+            "M1:MMI2:in1"
+          ],
+          [
+            "M1:MMI1:out2",
+            "M1:MMI2:in2"
+          ],
+          [
+            "M1:MMI2:out1",
+            "M3:MMI1:in2"
+          ],
+          [
+            "M1:MMI2:out2",
+            "M4:MMI1:in2"
+          ],
+          [
+            "M2:MMI1:out1",
+            "M2:MMI2:in1"
+          ],
+          [
+            "M2:MMI1:out2",
+            "M2:MMI2:in2"
+          ],
+          [
+            "M2:MMI2:out1",
+            "M7:MMI1:in1"
+          ],
+          [
+            "M2:MMI2:out2",
+            "M5:MMI1:in1"
+          ],
+          [
+            "M3:MMI1:out1",
+            "M3:MMI2:in1"
+          ],
+          [
+            "M3:MMI1:out2",
+            "M3:MMI2:in2"
+          ],
+          [
+            "M3:MMI2:out1",
+            "M5:MMI1:in2"
+          ],
+          [
+            "M3:MMI2:out2",
+            "M4:MMI1:in1"
+          ],
+          [
+            "M4:MMI1:out1",
+            "M4:MMI2:in1"
+          ],
+          [
+            "M4:MMI1:out2",
+            "M4:MMI2:in2"
+          ],
+          [
+            "M4:MMI2:out1",
+            "M6:MMI1:in2"
+          ],
+          [
+            "M5:MMI1:out1",
+            "M5:MMI2:in1"
+          ],
+          [
+            "M5:MMI1:out2",
+            "M5:MMI2:in2"
+          ],
+          [
+            "M5:MMI2:out1",
+            "M7:MMI1:in2"
+          ],
+          [
+            "M5:MMI2:out2",
+            "M6:MMI1:in1"
+          ],
+          [
+            "M6:MMI1:out1",
+            "M6:MMI2:in1"
+          ],
+          [
+            "M6:MMI1:out2",
+            "M6:MMI2:in2"
+          ],
+          [
+            "M7:MMI1:out1",
+            "M7:MMI2:in1"
+          ],
+          [
+            "M7:MMI1:out2",
+            "M7:MMI2:in2"
+          ]
+        ],
+        "observed_groups": [
+          [
+            "EC_IN0:facet",
+            "M1:MMI1:in2"
+          ],
+          [
+            "EC_IN1:facet",
+            "M1:MMI1:in1"
+          ],
+          [
+            "EC_IN2:facet",
+            "M3:MMI1:in1"
+          ],
+          [
+            "EC_IN3:facet",
+            "M2:MMI1:in2"
+          ],
+          [
+            "EC_IN4:facet",
+            "M2:MMI1:in1"
+          ],
+          [
+            "EC_OUT0:facet",
+            "M4:MMI2:out2"
+          ],
+          [
+            "EC_OUT1:facet",
+            "M6:MMI2:out2"
+          ],
+          [
+            "EC_OUT2:facet",
+            "M6:MMI2:out1"
+          ],
+          [
+            "EC_OUT3:facet",
+            "M7:MMI2:out2"
+          ],
+          [
+            "EC_OUT4:facet",
+            "M7:MMI2:out1"
+          ],
+          [
+            "M1:MMI1:out1",
+            "M1:MMI2:in1"
+          ],
+          [
+            "M1:MMI1:out2",
+            "M1:MMI2:in2"
+          ],
+          [
+            "M1:MMI2:out1",
+            "M3:MMI1:in2"
+          ],
+          [
+            "M1:MMI2:out2",
+            "M4:MMI1:in2"
+          ],
+          [
+            "M2:MMI1:out1",
+            "M2:MMI2:in1"
+          ],
+          [
+            "M2:MMI1:out2",
+            "M2:MMI2:in2"
+          ],
+          [
+            "M2:MMI2:out1",
+            "M7:MMI1:in1"
+          ],
+          [
+            "M2:MMI2:out2",
+            "M5:MMI1:in1"
+          ],
+          [
+            "M3:MMI1:out1",
+            "M3:MMI2:in1"
+          ],
+          [
+            "M3:MMI1:out2",
+            "M3:MMI2:in2"
+          ],
+          [
+            "M3:MMI2:out1",
+            "M5:MMI1:in2"
+          ],
+          [
+            "M3:MMI2:out2",
+            "M4:MMI1:in1"
+          ],
+          [
+            "M4:MMI1:out1",
+            "M4:MMI2:in1"
+          ],
+          [
+            "M4:MMI1:out2",
+            "M4:MMI2:in2"
+          ],
+          [
+            "M4:MMI2:out1",
+            "M6:MMI1:in2"
+          ],
+          [
+            "M5:MMI1:out1",
+            "M5:MMI2:in1"
+          ],
+          [
+            "M5:MMI1:out2",
+            "M5:MMI2:in2"
+          ],
+          [
+            "M5:MMI2:out1",
+            "M7:MMI1:in2"
+          ],
+          [
+            "M5:MMI2:out2",
+            "M6:MMI1:in1"
+          ],
+          [
+            "M6:MMI1:out1",
+            "M6:MMI2:in1"
+          ],
+          [
+            "M6:MMI1:out2",
+            "M6:MMI2:in2"
+          ],
+          [
+            "M7:MMI1:out1",
+            "M7:MMI2:in1"
+          ],
+          [
+            "M7:MMI1:out2",
+            "M7:MMI2:in2"
+          ]
+        ],
+        "missing_terminals": [],
+        "joint_issues": [],
+        "missing_pairs": [],
+        "unexpected_groups": [],
+        "passed": true,
+        "scope": "Actual GDS material graph with 14 MMI black boxes removed; 33 outside-device connections vs declared B7. Not optical field, phase/loss, EC mode validation or foundry-certified LVS."
+      },
+      "passed": true,
+      "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+      "engine": "KLayout 0.30.12"
+    }
+  },
+  "negative_controls": [
+    {
+      "id": "D1_Si_width",
+      "target": "drc",
+      "expected_category_fragment": "GDS3< 350nm",
+      "path": "work\\m2_s6\\work\\faults\\D1_Si_width.gds",
+      "sha256": "ee0f3d0e053ae02ecf7e20ae9a8b975a4d1961f7245039bd12712a30243ca1e6",
+      "detected": true,
+      "drc_records": 1,
+      "drc_counts": {
+        "Minimum feature size violation (GDS3< 350nm)": 1
+      },
+      "electrical_passed": true,
+      "optical_passed": false,
+      "optical_route_count": 34,
+      "metal_net_count": 15,
+      "report": "work\\m2_s6\\out\\controls\\D1_Si_width\\pre_drc.lyrdb"
+    },
+    {
+      "id": "D2_grid",
+      "target": "drc",
+      "expected_category_fragment": "grid violations",
+      "path": "work\\m2_s6\\work\\faults\\D2_grid.gds",
+      "sha256": "a28dae2c80d7ebd7c46cd6c4e44c9d2433418063b21fffce2313c62c19b5cd23",
+      "detected": true,
+      "drc_records": 4,
+      "drc_counts": {
+        "3/0 grid violations": 4
+      },
+      "electrical_passed": true,
+      "optical_passed": false,
+      "optical_route_count": 34,
+      "metal_net_count": 15,
+      "report": "work\\m2_s6\\out\\controls\\D2_grid\\pre_drc.lyrdb"
+    },
+    {
+      "id": "D3_HT_gap",
+      "target": "drc",
+      "expected_category_fragment": "GDS39<10micro",
+      "path": "work\\m2_s6\\work\\faults\\D3_HT_gap.gds",
+      "sha256": "ca1bff63731e883f4c8e8f7ae4592946c5628e8d498e854695a090f65ac47828",
+      "detected": true,
+      "drc_records": 1,
+      "drc_counts": {
+        "Minimum gap violate (GDS39<10micro)": 1
+      },
+      "electrical_passed": false,
+      "optical_passed": true,
+      "optical_route_count": 33,
+      "metal_net_count": 15,
+      "report": "work\\m2_s6\\out\\controls\\D3_HT_gap\\pre_drc.lyrdb"
+    },
+    {
+      "id": "D4_PAD_width",
+      "target": "drc",
+      "expected_category_fragment": "GDS41<2micro",
+      "path": "work\\m2_s6\\work\\faults\\D4_PAD_width.gds",
+      "sha256": "89cc39de29d5522c956e86c863312fb2b7a9bb8433b0a3158a95c72faf7d8a14",
+      "detected": true,
+      "drc_records": 1,
+      "drc_counts": {
+        "Minimum feature size violate (GDS41<2micro)": 1
+      },
+      "electrical_passed": false,
+      "optical_passed": true,
+      "optical_route_count": 33,
+      "metal_net_count": 16,
+      "report": "work\\m2_s6\\out\\controls\\D4_PAD_width\\pre_drc.lyrdb"
+    },
+    {
+      "id": "E1_signal_ground_short",
+      "target": "electrical",
+      "expected_category_fragment": null,
+      "path": "work\\m2_s6\\work\\faults\\E1_signal_ground_short.gds",
+      "sha256": "15d3a876d2dc3df6bedca93162cf43142a719c3a5af17fd2b0dc2e06b3bb7583",
+      "detected": true,
+      "drc_records": 0,
+      "drc_counts": {},
+      "electrical_passed": false,
+      "optical_passed": true,
+      "optical_route_count": 33,
+      "metal_net_count": 14,
+      "report": "work\\m2_s6\\out\\controls\\E1_signal_ground_short\\pre_drc.lyrdb"
+    },
+    {
+      "id": "E2_return_open",
+      "target": "electrical",
+      "expected_category_fragment": null,
+      "path": "work\\m2_s6\\work\\faults\\E2_return_open.gds",
+      "sha256": "ef68e0014ba6b77673e13a91ef599f007499203e5ff6c4dc0927e8d89126363c",
+      "detected": true,
+      "drc_records": 0,
+      "drc_counts": {},
+      "electrical_passed": false,
+      "optical_passed": true,
+      "optical_route_count": 33,
+      "metal_net_count": 16,
+      "report": "work\\m2_s6\\out\\controls\\E2_return_open\\pre_drc.lyrdb"
+    },
+    {
+      "id": "O1_lead_open",
+      "target": "optical",
+      "expected_category_fragment": null,
+      "path": "work\\m2_s6\\work\\faults\\O1_lead_open.gds",
+      "sha256": "0a19f66b7cfa135ebbc83d17dd6a79f1a1bc97db090922bc43908c42b500899e",
+      "detected": true,
+      "drc_records": 0,
+      "drc_counts": {},
+      "electrical_passed": true,
+      "optical_passed": false,
+      "optical_route_count": 34,
+      "metal_net_count": 15,
+      "report": "work\\m2_s6\\out\\controls\\O1_lead_open\\pre_drc.lyrdb"
+    },
+    {
+      "id": "O2_optical_bridge",
+      "target": "optical",
+      "expected_category_fragment": null,
+      "path": "work\\m2_s6\\work\\faults\\O2_optical_bridge.gds",
+      "sha256": "e2a9e36172316907b14096f6588e71c2e7e57eaf824c1b54aa8fea1549b58e43",
+      "detected": true,
+      "drc_records": 0,
+      "drc_counts": {},
+      "electrical_passed": true,
+      "optical_passed": false,
+      "optical_route_count": 32,
+      "metal_net_count": 15,
+      "report": "work\\m2_s6\\out\\controls\\O2_optical_bridge\\pre_drc.lyrdb"
+    }
+  ],
+  "fix_log": [
+    {
+      "id": "S6-LABEL-01",
+      "trigger": "Two GDS100 gap markers at in0/out0 in original pre-DRC report",
+      "action": "Scale all ten port labels 4 to 5 um; keep original anchors and 1 nm output grid",
+      "verification": "Original deck unchanged; 2 records to 0; six physical layers XOR equal; optical/electrical graph pairs unchanged",
+      "status": "closed"
+    }
+  ],
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    },
+    "M2_S5": {
+      "run": 8,
+      "passed": 8,
+      "successful": true
+    }
+  },
+  "M1_sources_and_zip_unchanged": true,
+  "M1_baseline_replay_passed": 80,
+  "checks": [
+    {
+      "name": "same_original_deck",
+      "passed": true
+    },
+    {
+      "name": "all_original_categories_executed",
+      "passed": true
+    },
+    {
+      "name": "real_initial_violations_recorded",
+      "passed": true
+    },
+    {
+      "name": "after_pre_DRC_zero",
+      "passed": true
+    },
+    {
+      "name": "physical_layers_unchanged",
+      "passed": true
+    },
+    {
+      "name": "only_port_label_windows_changed",
+      "passed": true
+    },
+    {
+      "name": "both_geometric_connectivity_compared",
+      "passed": true
+    },
+    {
+      "name": "eight_real_GDS_faults_detected",
+      "passed": true
+    },
+    {
+      "name": "DRC_insufficient_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "existing_regression",
+      "passed": true
+    },
+    {
+      "name": "M1_immutable_baseline_only",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "config/m2_verification.json": "6801d163c2203686e54bb986df039a8620d630e882c4ad60aaa4a14abd32a261",
+    "work/m2_s6/run_verification.py": "e67425a62d0c6f8779b664b31253aa4b0917d6b5b41aafc5b09037ced98b58cc",
+    "work/m2_s6/prepare_gds.py": "7acf55d7ccd9c5e1e9f14cd74b70e669a914741a342e7a7baef37d467d0d9380",
+    "work/m2_s6/connectivity.py": "0c3c64c5a9c7e20ab47fc3a76905bc1cd5bff5d3388bdda59bc6baf62c403f97",
+    "work/m2_s6/check_connectivity.py": "087228d587c3108396ed1920cb5abcaa8f72052ccdf742ff93b3685c59e15ba0",
+    "work/common/drc/cornerstone_Si220_passive.lydrc": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+    "work/m2_s6/generate_faults.py": "19442a2b3f69f8d7659dc4b0356579ca76a863fbece74f6117699bb943afa527",
+    "work/m2_s6/run_controls.py": "1245adcddbf1b10628b4ca2d329ce32309600f7da519840467cc22c9d2aae37a",
+    "work/m2_s6/regression.py": "d4169611f79d37a3be1cb851b61c50aa6af65144bdfd48c3280a579f8b5a0a8f",
+    "work/m2_s6/summarize.py": "53f198d0a97d822f75cb2114a7c1daed59f31f3316e46a67463b0af85daa74d4"
+  },
+  "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+  "foundry_full_signoff": false,
+  "formal_foundry_LVS": false,
+  "optical_mode_phase_verified": false,
+  "scope": "All installed original v3.1 pre-DRC categories at declared custom design size; geometric metal/HT and photonic black-box netlist comparison; not foundry full DRC/LVS, EC response, thermal calibration or layout-extracted truth replay.",
+  "core_passed": true
+}

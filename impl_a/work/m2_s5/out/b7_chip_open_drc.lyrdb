@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC_SOI</description>
+ <original-file/>
+ <generator>drc: script='C:\\EDA_Claude\\work\\common\\drc\\cornerstone_Si220_passive.lydrc'</generator>
+ <top-cell>B7_CHIP_OPEN</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>41/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>100/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>99/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>3/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>39/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Correct design area violation</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size vilation (GDS60&lt;60 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS60 short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS60&lt;60nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS60 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 350nm and short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS6 &lt; 250 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS6 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS39</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS41</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS3&lt; 350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS3&lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS4&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS4&lt;350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS5&lt; 250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS5&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS39&lt;600nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS39&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS41&lt;2micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS41&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>B7_CHIP_OPEN</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>B7_CORE</name>
+   <variant/>
+   <layout-name>B7_CORE</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP_OPEN</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MZI_M4</name>
+   <variant/>
+   <layout-name>MZI_M4</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP_OPEN</parent>
+     <trans>r0 *1 978,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>PS_M4_theta</name>
+   <variant/>
+   <layout-name>PS_M4_theta</layout-name>
+   <references>
+    <ref>
+     <parent>B7_CHIP_OPEN</parent>
+     <trans>r0 *1 1222.5,0</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'Minimum gap violate (GDS41&lt;10micro)'</category>
+   <cell>B7_CHIP_OPEN</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1333.5,6;1344.5,6)|(1343,8;1335,8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum gap violate (GDS41&lt;10micro)'</category>
+   <cell>PS_M4_theta</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (111,6;122,6)|(120.5,8;112.5,8)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

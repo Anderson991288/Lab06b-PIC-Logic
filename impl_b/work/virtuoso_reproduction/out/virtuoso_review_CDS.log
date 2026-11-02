@@ -1,0 +1,266 @@
+\# Program start time:     UTC 2026.10.31 08:59:25.793
+\# Local time: GMT+08:00 (UTC+08:00) 2026.10.31 16:59:25.793
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/08/2025 22:36 (cpgbld17) $
+\o Hierarchy:		/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR15.37  (64-bit addresses)
+\# Command line:	/home/EDA/cadence/IC231_ISR15/tools/dfII/bin/64bit/virtuoso -replay /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/open_review.il -log /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/virtuoso_review_CDS.log
+\# Host name (type):	eda.ic (x86_64)
+\# Operating system:	Linux 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:0 (3440x1440)
+\# Available geometry:			TL(0:0) BR(3439:1439)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12401012)
+\# X resource pool:	base 0x2e00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,417 MB
+\# Available memory:	     39,223 MB
+\# System memory:	     40,254 MB
+\# Maximum memory size:	     39,022 MB
+\# Max mem available:	     39,022 MB
+\# Initial memory used:	        185 MB
+\#        process size:	      1,721 MB
+\# Thread usage limits (effective/default):	maxthreads 128206/128206 maxload 16.00/16.00
+\# Qt version:		5.15.9
+\# Window Manager:	Weston WM
+\# User Name:		edauser
+\o Working Directory:	eda.ic:/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa_crosscad
+\# Process Id:		15619
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o INFO (DB-120008): oaSocket connection timeout value was set to 5 seconds.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is Virtuoso.
+\# [16:59:25.280545] Configured Lic search path (23.02-s006): 5280@eda.ic
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.00s.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+\# Memory report: using         326 MB, process size 1,996 MB at UTC 2026.10.31 08:59:28.174
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\o 2026/10/31 16:59:28 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+\o 2026/10/31 16:59:28 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+\i load("/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/lib/calibre.skl")
+\o //
+\o //  Calibre Skill Interface * (v2026.1_17.11) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\t t
+\p > 
+\i drLoadDrf("/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/report_colors.drf" nil)
+\# [16:59:29.025171] Periodic Lic check successful
+\# [16:59:29.025183] Feature usage summary:
+\# [16:59:29.025183] 111
+\# [16:59:29.025188] Virtuoso_Adv_Node_Framework
+\t t
+\p > 
+\i labCV=dbOpenCellViewByType("lab06b_crosscad_20261031" "lab06b_b7_ec_pad_chip" "layout" "" "r")
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+\w *WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+\w 	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+\t db:0x58d5e89a
+\p > 
+\i unless(labCV error("Run native import_crosscad.sh in the canonical C project first."))
+\t nil
+\p > 
+\i tf=techGetTechFile(ddGetObj("lab06b_crosscad_20261031"))
+\t db:0x58d5e81a
+\p > 
+\i foreach(pair list(list("L3" "rptBlue" "blank") list("L41" "rptGreen" "solid") list("L39" "rptOrange" "solid") list("L4" "rptYellow" "solid") list("L5" "rptPink" "solid") list("L99" "rptBrown" "blank") list("L100" "rptLabel" "solid") list("L1002" "rptLabel" "blank"))
+\i  lp=techGetLP(tf list(car(pair) "drawing"))
+\i  when(lp drSetPacket("display" techGetLPPacketName(lp) caddr(pair) "solid" cadr(pair) cadr(pair) if(equal(caddr(pair) "blank") then "outline" else "solid"))))
+\t (("L3" "rptBlue" "blank") 
+\t     ("L41" "rptGreen" "solid") 
+\t     ("L39" "rptOrange" "solid") 
+\t     ("L4" "rptYellow" "solid") 
+\t     ("L5" "rptPink" "solid")
+\t     ("L99" "rptBrown" "blank") 
+\t     ("L100" "rptLabel" "solid") 
+\t     ("L1002" "rptLabel" "blank")
+\t )
+\p > 
+\i hiRegTimer("when(boundp('lxiDialogBox) hiDBoxOK(lxiDialogBox))" 20)
+\t t
+\p > 
+\i envSetVal("layout" "displayResolution" 'string "Very High")
+\t t
+\p > 
+\i deOpenCellView("lab06b_crosscad_20261031" "lab06b_b7_ec_pad_chip" "layout" "maskLayout" nil "r")
+\o Loading cle.cxt 
+\o Loading lx.cxt 
+\o Loading pe.cxt 
+\o Loading lce.cxt 
+\o Loading drdEdit.cxt 
+\o Loading rte.cxt 
+\# Current Window: window(2)
+\o Loading wsp.cxt 
+\w *WARNING* (GE-2125): Failed to get the manufacturing grid (mfgGridResolution) for the technology tech.db associated to the cellview lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout.
+\w *WARNING* (GE-2125): Failed to get the manufacturing grid (mfgGridResolution) for the technology tech.db associated to the cellview lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout.
+\o Loading soi.cxt 
+\o Loading cph.cxt 
+\w *WARNING* (LX-2063): The technology library 'lab06b_crosscad_20261031' contains no constraint groups that have
+\w a 'validLayers' or 'validVias' constraint defined. Thus the XL connectivity extractor is disabled.
+\w To enable it, add a 'validLayers' constraint to the appropriate constraint group, and ensure that
+\w this constraint group is specified by the 'setupConstraintGroup' environment variable.
+\# Displaying modal dbox "lxiDialogBox", title "Layout XL"
+\p > 
+\i procedure(labReviewFit()
+\i  foreach(win hiGetWindowList()
+\i   when(errset(geGetWindowCellView(win) nil) && geGetWindowCellView(win)==labCV
+\i    win~>displayResolution="Very High"
+\i    win~>stopLevel=32
+\i    hiResizeWindow(win list(0:0 1800:1000))
+\i    hiZoomIn(win list(-1040:-1000 3060:840)))))
+\t labReviewFit
+\p > 
+\i hiRegTimer("labReviewFit()" 35)
+\t t
+\p > 
+\# Replay complete, returning to interactive mode at UTC 2026.10.31 08:59:29.336
+\o Loading vfoCmd.cxt 
+\o The Quantus UI context file was successfully loaded.
+\o Loading sna.cxt
+\o Loading ia.cxt 
+\o Loading ev20.cxt 
+\o Loading vfp.cxt 
+\o Loading asst.cxt 
+\o Loading mpt.cxt 
+\o Loading smd.cxt 
+\o Loading ncl.cxt 
+\o Loading atd.cxt 
+\o Loading vb.cxt 
+\o Loading see.cxt 
+\o Loading oi.cxt 
+\o Loading cfde.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading nt.cxt 
+\# Memory report: using         434 MB, process size 2,103 MB at UTC 2026.10.31 08:59:32.185
+\a _treeWidgetTreeWidgetItemClicked(_iaConfForm->_iaCfgTree "Generate Trunks" "0" "Unchecked")
+\r t
+\a _treeWidgetTreeWidgetItemClicked(_iaConfForm->_iaCfgTree "Generate Trunks" "0" "Unchecked")
+\r t
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\o Loading apInfra.cxt 
+\o Loading vca.cxt 
+\a swindow(1)->hiToolbars->leAlignToolbar_1->leAlignLayerTB->value = "P&R Boundary"
+\r "P&R Boundary"
+\a swindow(1)->hiToolbars->leAlignToolbar_1->leAlignLayerTB->value = "edgeLayer drawing"
+\r "edgeLayer drawing"
+\o Loading hsm.cxt 
+\o Loading dpt.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading vrfECO.cxt 
+\o Loading layerProc.cxt 
+\t window:2
+\p > 
+\# Display rendering thread active load: 14
+\a when(dwindow('ptePaletteAssistant1) hiMapWindow(dwindow('ptePaletteAssistant1)))
+\r t
+\w *WARNING* (GE-2067): geGetWindowCellView: There is no graphical edit environment assigned to window(1) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): geGetWindowCellView: There is no graphical edit environment assigned to window(1) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\# Available memory:         38,635 MB at UTC 2026.10.31 08:59:36.329
+\# Thread usage report: 10 active threads, active load 1.40 at UTC 2026.10.31 08:59:36.330
+\# Memory report: using         740 MB, process size 3,308 MB at UTC 2026.10.31 09:01:04.336
+\o Signal SIGTERM received on Saturday 31 October 2026 at 05:00:56 PM (CST)
+\o The signal was sent by process id 16946 which corresponds to the command: /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 -
+\o <<< C Stack Trace (begin) >>>
+\o libvirtuos_sh.so:voSigExitHandler.part.0+123()
+\o libpthread.so.0:__restore_rt+0()
+\o libc.so.6:ppoll+166()
+\o libcdsQt5Core.so.5:_Z12qt_safe_pollP6pollfdmPK8timespec+80()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherUNIX13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+579()
+\o libcdsQt5XcbQpa.so.5:+159434833()
+\o virtuoso:hiiFillCIWInPortCB+1571()
+\o libil_sh.so:iliBGetc+84()
+\o libil_sh.so:ilGetCharPort+106()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+196()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+18224()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2580()
+\o libil_sh.so:ilParserReent+48()
+\o libil_sh.so:ilReadport+556()
+\o libil_sh.so:iliTopLevel+329()
+\o virtuoso:hiMainLoop+895()
+\o virtuoso:_ZN3rde15startHiMainLoopEv+7550()
+\o virtuoso:Tcl_MainEx+1332()
+\o virtuoso:_ZN17TclCommandAdaptor8mainLoopEiPPcPKcRKSt6vectorI9ctuStringSaIS5_EEPFvvE+1665()
+\o virtuoso:_Z11finaleEntryiPPcPKcbP16finaleAppHarness+5449()
+\o virtuoso:_Z12rdeStartMainiPPc+43()
+\o virtuoso:main+1080()
+\o libc.so.6:__libc_start_main+229()
+\o virtuoso:_start+41()
+\o <<< C Stack Trace (end) >>>
+\o <<< Stack Trace >>>
+\o 	_insideilparser = t
+\o <<< SKILL Stack Trace (end) >>>
+\o 
+\o Running command: /usr/bin/top -b -n 1 -c
+\o top - 17:00:58 up 55 min,  0 users,  load average: 0.47, 0.18, 0.06
+\o 
+\o Running command: /home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdsPstack 15619
+\o 
+\o Memory usage on exit: 740 MB, process size: 3308 MB

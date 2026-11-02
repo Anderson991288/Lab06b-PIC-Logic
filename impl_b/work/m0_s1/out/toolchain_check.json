@@ -1,0 +1,99 @@
+{
+  "step": "M0 S1",
+  "timestamp": "2026-10-31T10:20:00.583743+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "planned_root": "C:\\EDA_Codex\\Lab06b",
+  "root_matches_plan": true,
+  "config": "C:\\EDA_Codex\\Lab06b\\EDA_paths.json",
+  "python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+  "items": [
+    {
+      "id": "P_ipkiss_python",
+      "name": "ipkiss_python",
+      "status": "pass",
+      "detail": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "required": true
+    },
+    {
+      "id": "P_pdk_cornerstone",
+      "name": "pdk_cornerstone",
+      "status": "pass",
+      "detail": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1",
+      "required": true
+    },
+    {
+      "id": "P_drc_deck",
+      "name": "drc_deck",
+      "status": "pass",
+      "detail": "C:\\EDA_Codex\\Lab06b\\work\\common\\drc\\cornerstone_Si220_passive.lydrc",
+      "required": true
+    },
+    {
+      "id": "P_klayout_exe",
+      "name": "klayout_exe",
+      "status": "pass",
+      "detail": "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "required": true
+    },
+    {
+      "id": "T1",
+      "name": "IPKISS licensed import",
+      "status": "pass",
+      "detail": "IPKISS 2026.03.3",
+      "required": true
+    },
+    {
+      "id": "T2",
+      "name": "CORNERSTONE MMI ports",
+      "status": "pass",
+      "detail": "MMI ports: ['in1', 'in2', 'out1', 'out2']",
+      "required": true
+    },
+    {
+      "id": "T5",
+      "name": "KLayout batch version",
+      "status": "pass",
+      "detail": "KLayout 0.30.12",
+      "required": true
+    },
+    {
+      "id": "E1a",
+      "name": "Clean GDS outline",
+      "status": "pass",
+      "detail": "outside=0",
+      "required": true
+    },
+    {
+      "id": "E1b",
+      "name": "Injected outside shape",
+      "status": "pass",
+      "detail": "outside=1; expected=1",
+      "required": true
+    },
+    {
+      "id": "E1c",
+      "name": "Clean GDS DRC",
+      "status": "pass",
+      "detail": "{\"status\": \"ran\", \"total\": 0}",
+      "required": true
+    },
+    {
+      "id": "E1d",
+      "name": "F1-F8 injection detected",
+      "status": "pass",
+      "detail": "{\"F1\": 1, \"F2\": 1, \"F3\": 1, \"F4\": 1, \"F5\": 1, \"F7\": 1, \"F8\": 1, \"F6\": 1}",
+      "required": true
+    }
+  ],
+  "core_passed": true,
+  "summary": {
+    "pass": 11,
+    "blocked": 0
+  },
+  "drc_deck_sha256": "79bfac9fd665a4c93d978421f94f360925bcf3ea3278afe1e1cc0d605358f9d2",
+  "deferred_to_m0_s2": [
+    "femwell modal analysis",
+    "Meep field rerun"
+  ],
+  "scope": "This run imports IPKISS/PDK and checks rebuilt GDS/DRC. It does not claim chip-level B7 completion or field simulation."
+}

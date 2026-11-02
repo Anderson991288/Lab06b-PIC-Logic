@@ -1,0 +1,11 @@
+﻿interface,EC,core_port,external_endpoint,facet_x_um,facet_y_um,core_x_um,core_y_um,coupling_loss_db,path_phase_rad
+OPT_IN0,EC_IN0,in0,EXT_DATA_X1,-920.0,440.0,-60.0,0.0,pending,pending
+OPT_IN1,EC_IN1,in1,EXT_DATA_X2,-920.0,190.0,-60.0,-30.0,pending,pending
+OPT_IN2,EC_IN2,in2,EXT_DATA_X3,-920.0,-60.0,-60.0,-60.0,pending,pending
+OPT_IN3,EC_IN3,in3,EXT_DATA_X4,-920.0,-310.0,-60.0,-90.0,pending,pending
+OPT_IN4,EC_IN4,in4,EXT_REFERENCE,-920.0,-560.0,-60.0,-120.0,pending,pending
+OPT_OUT0,EC_OUT0,out0,EXT_LOAD0,2940.0,440.0,2080.0,0.0,pending,pending
+OPT_OUT1,EC_OUT1,out1,PD_PLUS,2940.0,190.0,2080.0,-30.0,pending,pending
+OPT_OUT2,EC_OUT2,out2,EXT_LOAD2,2940.0,-60.0,2080.0,-60.0,pending,pending
+OPT_OUT3,EC_OUT3,out3,PD_MINUS,2940.0,-310.0,2080.0,-90.0,pending,pending
+OPT_OUT4,EC_OUT4,out4,EXT_LOAD4,2940.0,-560.0,2080.0,-120.0,pending,pending

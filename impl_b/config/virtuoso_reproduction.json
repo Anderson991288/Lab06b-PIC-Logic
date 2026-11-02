@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "report": "course/virtuoso_calibre.html",
+  "proof": "work/virtuoso_reproduction/out/reproduction_results.json",
+  "interop_deliverable": {
+    "path": "work/virtuoso_reproduction/out/exports_final/B7_crosscad_final.gds",
+    "sha256": "f6e09bad9fc25cd556772ecbb97cd602a9e3afed5a167a6a4f1d4c1711b247e0",
+    "top": "LAB06B_B7_EC_PAD_CHIP",
+    "cells": 43,
+    "instances": 58,
+    "texts1002": 16,
+    "bbox_um": [
+      -920,
+      -900,
+      2940,
+      740
+    ],
+    "maxVertices": 8191,
+    "annotation_revision": "19 GDS100 annotation clusters scaled 1.3; six physical masks XOR0; 16 GDS1002 texts unchanged",
+    "OA_library": "lab06b_crosscad_20261031",
+    "OA_top": "lab06b_b7_ec_pad_chip",
+    "OA_path": "work/virtuoso_reproduction/work/oa_crosscad/lab06b_crosscad_20261031"
+  },
+  "original_adopted_source": {
+    "path": "work/m2_s6/out/after/b7_ec_pad.gds",
+    "sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "adopted_S6_unchanged": true
+  },
+  "D_writes": false,
+  "package": {
+    "archive": "delivery/Lab06b_Virtuoso_Calibre_reproduction.zip",
+    "sha256": "03c2a74af0a610d2543db7d1c7a810008ea5030f3e30f3b89caee740300d3b63",
+    "bytes": 1046346,
+    "manifest": "delivery/virtuoso_calibre/manifest.json",
+    "files": 138,
+    "verified": true
+  }
+}

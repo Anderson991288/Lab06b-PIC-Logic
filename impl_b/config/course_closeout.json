@@ -1,0 +1,41 @@
+{
+  "schema": "lab06b.course_closeout.v1",
+  "status": "17_teaching_steps_implemented",
+  "timestamp": "2026-10-31T15:11:09.122946+08:00",
+  "steps": 17,
+  "hours": 18,
+  "progress": {
+    "M0_S1": "core toolchain passed; learner submission pending",
+    "M0_S2": "core physics passed; FDTD rerun not performed; learner submission pending",
+    "M0_S3": "shared models and unit tests passed; learner submission pending",
+    "M1_S1": "optical encoding and reference/readout experiments passed; learner submission pending",
+    "M1_S2": "B7 topology and 5x5 transfer matrix passed; learner submission pending",
+    "M1_S3": "weighted complex sums and differential readout passed; learner submission pending",
+    "M1_S4": "five-function 80-case acceptance and signed margins passed; learner submission pending",
+    "M1_S5": "logical spec, phase mapping and portable 80-case replay passed; learner submission pending",
+    "M2_S1": "logical PIC boundary and optical/electrical I/O passed; physical implementation pending; learner submission pending",
+    "M2_S2": "Caphe PDK circuit and all 80 comparisons passed; installed default ideal MMI; learner submission pending",
+    "M2_S3": "initial seven-MZI physical core GDS and independent readback passed; no full DRC or extracted replay; learner submission pending",
+    "M2_S4": "scoped KLayout review and margin-improved revision accepted; before/after retained; full DRC/LVS pending; learner submission pending",
+    "M2_S5": "initial reference EC/PAD/GND geometry and selected GDS connectivity passed; calibration and full validation pending; learner submission pending",
+    "M2_S6": "original full installed pre-DRC zero after label fix; geometric electrical/optical netlist compare passed; foundry qualification pending; learner submission pending",
+    "M2_S7": "teaching delivery packaged; relocated integrity, 400-case uniform-neff core replay and external pre-DRC/geometric recheck passed; physical function unqualified; learner submission pending",
+    "M3_S1": "two clean authored-source builds accepted: timestamp-only GDS digest and all-layer XOR/text exact; interface CSV exact; 400-case replay identical; 4 controls and 10 support tests passed; physical function unqualified; learner submission pending",
+    "M3_S2": "independent gdstk/Shapely six facing-edge minima agree with KLayout; 54 rule outcomes, eight GDS controls, 12 tests and unchanged full pre-DRC zero passed; physical qualification and learner review pending"
+  },
+  "final_lesson": "course/m3_s2.html",
+  "chip_index": "config/m2_current_chip.json",
+  "M2_delivery_index": "config/m2_delivery.json",
+  "rebuild_acceptance_index": "config/m3_acceptance.json",
+  "geometry_crosscheck_index": "config/m3_crosscheck_result.json",
+  "learner_submission": "pending",
+  "instructor_review": "pending",
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "remaining": [
+    "Learner independent observations, modifications, reruns and full delivery; instructor review",
+    "M0 Meep FDTD was not rerun",
+    "Calibrated EC/MMI/waveguide/bend response and heater electrical/thermal/common-ground calibration",
+    "Foundry full signoff, process-qualified LVS and packaging/measurement acceptance"
+  ]
+}

@@ -1,0 +1,12 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>結果一致：兩套 PDK 電路都是 80/80，裕量相同</h3>
+<p>兩套都用 CORNERSTONE 的 2×2 MMI 在 IPKISS／Caphe 組出 B7：7 顆 MZI、9 條連線、10 個埠，MMI 埠到埠 82.5 µm。五個功能的最小裕量完全相同（AND2 2.1154、OR2 2.1205、XOR2 0.2500、AND4 1.4960、OR4 1.4999）。和 NumPy 模型的最大 U 差：主線 1.2×10<sup>−15</sup>，實作 B 2.559×10<sup>−16</sup>。在新位置重跑實作 B 的這一步：80/80，10/10 測試通過。</p>
+
+<h3>兩套的故障注入互補</h3>
+<table><tr><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>7 種接線錯誤，記錄每個功能錯幾列。o1↔o5 對調時 80 列 0 列錯，只有逐元素比較 U 才抓得到。</td><td>以 |U| 差量化：刪掉每顆 MZI 的整體相位 1.967、輸入輸出對調 1.969、θ／φ 對調 1.148、θ 正負號錯 1.354，另加讀取極性反轉。</td></tr>
+<tr><td>波長掃描與臂長規則 ΔL·|Δλ| ≤ 1.84×10<sup>−3</sup> µm²；PDK 波導預設 n<sub>eff</sub>＝1、n<sub>g</sub>＝2 的發現。</td><td>完整 10×10 S 矩陣檢查：S＝S<sup>T</sup>（互易）、S<sup>†</sup>S＝I（無損）；單顆 MZI 在 4 組 (θ, φ) 的誤差 ≤ 1.24×10<sup>−16</sup>。</td></tr></table>
+<p>「刪掉整體相位」值得注意：單顆 MZI 少了整體相位，功率完全不變，但串接後各路相對相位錯了，|U| 差 1.967。只驗單顆元件的功率，抓不到這種錯。</p>
+<figure><img src="figures_b/m2_s2/comparison.png" alt="PDK 電路與參考模型的裕量比較" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>實作 B 的 PDK 電路與參考模型的有號裕量重疊，以及兩者的殘差。由 <a href="../impl_b/work/m2_s2/plot_comparison.py"><code>plot_comparison.py</code></a> 產生。</figcaption></figure>

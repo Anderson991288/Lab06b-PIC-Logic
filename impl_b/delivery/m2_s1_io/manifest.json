@@ -1,0 +1,33 @@
+{
+  "schema": "lab06b.m2_s1_io_manifest.v1",
+  "files": [
+    {
+      "path": "boundary_plan.json",
+      "sha256": "2d6fa11906aaa6f66e57c53eb1cc2b659df925a2561848de745cd8481f3ef1f7"
+    },
+    {
+      "path": "m1_pic_spec.json",
+      "sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d"
+    },
+    {
+      "path": "optical_io.csv",
+      "sha256": "307af6c003523b940ab9935d1b47641ad80d18577588e927b39a847823769d4b"
+    },
+    {
+      "path": "electrical_io.csv",
+      "sha256": "594fa939ab52a5643614f70d9d1eb125d77627dff1cadf6186e276290a7ed07d"
+    },
+    {
+      "path": "system_blocks.csv",
+      "sha256": "91a8eee799291ee40f53fa80e25689fc6afe50e2ceaac2db89aeb5942edd4465"
+    },
+    {
+      "path": "heater_returns.csv",
+      "sha256": "fe01ad1c628f047e8a822776181a1c4e9bc3669c1a2317e7eff9787381dbc589"
+    },
+    {
+      "path": "README.md",
+      "sha256": "47de5bc685c3cd5b4746b8071bb4773faf3d786fa1423bf4d55ffb4b51128047"
+    }
+  ]
+}

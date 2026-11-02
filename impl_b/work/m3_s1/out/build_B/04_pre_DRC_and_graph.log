@@ -1,0 +1,7 @@
+Before: pre-DRC 2 records
+Mask comparison [{'layer': 3, 'identical': True}, {'layer': 4, 'identical': True}, {'layer': 5, 'identical': True}, {'layer': 39, 'identical': True}, {'layer': 41, 'identical': True}, {'layer': 99, 'identical': True}] outside label windows 0
+Label-only correction: 10 physical masks unchanged: True
+After: pre-DRC 0 records
+Connectivity: True electrical nets 15 optical routes 33 missing pairs [] unexpected []
+Connectivity: True electrical nets 15 optical routes 33 missing pairs [] unexpected []
+

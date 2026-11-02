@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "active_files_checked": 16,
+  "old_root_references": [],
+  "raw_field_copies": [
+    {
+      "path": "sources/Lab01a/out/tbu_field_in1_t0.npz",
+      "passed": true
+    },
+    {
+      "path": "sources/Lab01a/out/tbu_field_in1_tpi2.npz",
+      "passed": true
+    },
+    {
+      "path": "sources/Lab01a/out/tbu_field_in12_tpi2.npz",
+      "passed": true
+    }
+  ],
+  "note": "Active course/config/scripts do not use the previous root. Historical source archives retain original text and are for reference only."
+}

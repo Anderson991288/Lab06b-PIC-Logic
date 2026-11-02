@@ -1,0 +1,26 @@
+test_nonadjacent_embedding_and_order (optical_test_module.OpticalModels.test_nonadjacent_embedding_and_order) ... FAIL
+
+======================================================================
+FAIL: test_nonadjacent_embedding_and_order (optical_test_module.OpticalModels.test_nonadjacent_embedding_and_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\EDA_Codex\Lab06b\work\m0_s3\test_optical_models.py", line 114, in test_nonadjacent_embedding_and_order
+    self.assertClose(network.cascade([a,b],3),b@a)
+  File "C:\EDA_Codex\Lab06b\work\m0_s3\test_optical_models.py", line 20, in assertClose
+    self.assertTrue(np.allclose(a,b,rtol=0,atol=tol),f'{a!r} != {b!r}')
+AssertionError: False is not true : array([[-0.35380771+0.2530121j , -0.08888529-0.0134337j ,
+        -0.76381817-0.4683009j ],
+       [-0.73243763+0.52377485j,  0.04293649+0.00648922j,
+         0.36896623+0.22621512j],
+       [ 0.        +0.j        ,  0.29404384+0.95056379j,
+         0.00996671-0.09933467j]]) != array([[-0.35380771+0.2530121j , -0.39166345+0.81080498j,
+         0.        +0.j        ],
+       [-0.07156372-0.05440306j,  0.04293649+0.00648922j,
+        -0.09933467+0.99003329j],
+       [-0.71325018-0.54221592j,  0.42793272+0.06467571j,
+         0.00996671-0.09933467j]])
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

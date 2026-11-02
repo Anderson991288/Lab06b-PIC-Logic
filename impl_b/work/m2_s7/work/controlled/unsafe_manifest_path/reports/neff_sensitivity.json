@@ -1,0 +1,58 @@
+[
+  {
+    "neff_offset": -0.001,
+    "neff": 2.352499831254645,
+    "original_passed": 52,
+    "original_minimum_margin": -8.76125548331705,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.08345845781399805
+  },
+  {
+    "neff_offset": -0.0005,
+    "neff": 2.3529998312546447,
+    "original_passed": 53,
+    "original_minimum_margin": -7.126181848836003,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.19038240578881072
+  },
+  {
+    "neff_offset": -0.0001,
+    "neff": 2.3533998312546447,
+    "original_passed": 53,
+    "original_minimum_margin": -5.640868769348085,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.23858427620265743
+  },
+  {
+    "neff_offset": 0.0,
+    "neff": 2.353499831254645,
+    "original_passed": 53,
+    "original_minimum_margin": -5.255607546379915,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.24999999999963168
+  },
+  {
+    "neff_offset": 0.0001,
+    "neff": 2.353599831254645,
+    "original_passed": 53,
+    "original_minimum_margin": -4.867471452002542,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.2391064209587613
+  },
+  {
+    "neff_offset": 0.0005,
+    "neff": 2.353999831254645,
+    "original_passed": 56,
+    "original_minimum_margin": -3.3136683035873964,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.19904355014872904
+  },
+  {
+    "neff_offset": 0.001,
+    "neff": 2.354499831254645,
+    "original_passed": 63,
+    "original_minimum_margin": -1.4707618474319117,
+    "frozen_candidate_passed": 80,
+    "frozen_candidate_minimum_margin": 0.08219576091645933
+  }
+]

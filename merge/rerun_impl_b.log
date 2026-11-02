@@ -1,0 +1,99 @@
+﻿== run_m1_s4
+M1 S4 tests: {'run': 18, 'passed': 18, 'failures': 0, 'errors': 0, 'successful': True}
+Previous regression: 66 / 66
+AND2 16 /16; signed margin= 2.11537918265
+OR2 16 /16; signed margin= 2.120502406246193
+XOR2 16 /16; signed margin= 0.24999999999994915
+AND4 16 /16; signed margin= 1.496028200858654
+OR4 16 /16; signed margin= 1.4998553450018055
+Unused input groups: 12 /12
+M1 S4 CORE: True
+Rendered main report, complete 17-step plan and M0 S1: PASS
+M0 S2 page rendered; core checks: True
+M0 S3 page rendered; core: True
+M1 S1 page rendered; core: True
+M1 S2 page rendered; core: True
+M1 S3 page rendered; core: True
+M1 S4 page rendered; core: True
+M1 S5 page rendered; core: True
+M2 S1 page rendered; core: True
+M2 S2 page rendered; core: True
+M2 S3 page rendered; core: True
+M2 S4 page rendered; core: True
+M2 S5 page rendered; core: True
+M2 S6 page rendered; core: True
+M2 S7 course rendered; packaged model replay, not physical acceptance
+M3 S1 lesson rendered; source rebuild reproducible, physical qualification pending
+M3 S2 lesson rendered; 17 teaching steps implemented, learner/physical qualification pending
+Rendered current native-CAD reproduction chapter
+Single-page report: 1254496 bytes; 17 steps; 1 native-CAD extension; 2 full appendices; rendering only
+exit=0
+== run_m2_s2
+Obtained license for ipkiss version '2026.03'.
+SOI 220 selected 
+
+
+
+WARNING: Please import a specific technology variant.
+
+AND2 16 /16; max |U_PDK-U_ideal| = 2.482534153247273e-16
+OR2 16 /16; max |U_PDK-U_ideal| = 2.482534153247273e-16
+XOR2 16 /16; max |U_PDK-U_ideal| = 2.5589376332604516e-16
+AND4 16 /16; max |U_PDK-U_ideal| = 1.6782945342419286e-16
+OR4 16 /16; max |U_PDK-U_ideal| = 1.8875832159447664e-16
+M2 S2: 80 /80; tests {'run': 10, 'passed': 10, 'successful': True} ; regressions 114
+CORE True
+Rendered main report, complete 17-step plan and M0 S1: PASS
+M0 S2 page rendered; core checks: True
+M0 S3 page rendered; core: True
+M1 S1 page rendered; core: True
+M1 S2 page rendered; core: True
+M1 S3 page rendered; core: True
+M1 S4 page rendered; core: True
+M1 S5 page rendered; core: True
+M2 S1 page rendered; core: True
+M2 S2 page rendered; core: True
+M2 S3 page rendered; core: True
+M2 S4 page rendered; core: True
+M2 S5 page rendered; core: True
+M2 S6 page rendered; core: True
+M2 S7 course rendered; packaged model replay, not physical acceptance
+M3 S1 lesson rendered; source rebuild reproducible, physical qualification pending
+M3 S2 lesson rendered; 17 teaching steps implemented, learner/physical qualification pending
+Rendered current native-CAD reproduction chapter
+Single-page report: 1254496 bytes; 17 steps; 1 native-CAD extension; 2 full appendices; rendering only
+exit=0
+== run_m3_s2
+Independent gdstk/Shapely: accepted
+Independent gdstk/Shapely: Si_narrow
+Independent gdstk/Shapely: Si_gap
+Independent gdstk/Shapely: HT_narrow
+Independent gdstk/Shapely: HT_gap
+Independent gdstk/Shapely: PAD_narrow
+Independent gdstk/Shapely: PAD_gap
+Independent gdstk/Shapely: Si_margin_equal
+Independent gdstk/Shapely: Si_below_margin
+klayout_measure.py passed 2.69 s
+cornerstone_Si220_passive.lydrc passed 1.91 s
+M3 S2 accepted: 6 measurements, 54 rule comparisons, 8 GDS controls, tests 12
+Independent measurement comparison and six coordinate witnesses exported
+Rendered main report, complete 17-step plan and M0 S1: PASS
+M0 S2 page rendered; core checks: True
+M0 S3 page rendered; core: True
+M1 S1 page rendered; core: True
+M1 S2 page rendered; core: True
+M1 S3 page rendered; core: True
+M1 S4 page rendered; core: True
+M1 S5 page rendered; core: True
+M2 S1 page rendered; core: True
+M2 S2 page rendered; core: True
+M2 S3 page rendered; core: True
+M2 S4 page rendered; core: True
+M2 S5 page rendered; core: True
+M2 S6 page rendered; core: True
+M2 S7 course rendered; packaged model replay, not physical acceptance
+M3 S1 lesson rendered; source rebuild reproducible, physical qualification pending
+M3 S2 lesson rendered; 17 teaching steps implemented, learner/physical qualification pending
+Rendered current native-CAD reproduction chapter
+Single-page report: 1254496 bytes; 17 steps; 1 native-CAD extension; 2 full appendices; rendering only
+exit=0

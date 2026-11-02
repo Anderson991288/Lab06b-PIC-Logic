@@ -1,0 +1,16 @@
+{
+  "schema": "EDA_Codex project v2",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "windows": {
+    "ipkiss_python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+    "python_executable": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+    "pdk_cornerstone": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1",
+    "klayout_exe": "tools/KLayout/klayout-0.30.12-win64/klayout_app.exe",
+    "drc_deck": "work/common/drc/cornerstone_Si220_passive.lydrc",
+    "physics_python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe"
+  },
+  "field_tools": {
+    "femwell": "validated native DLL activation and solve in M0 S2",
+    "meep": "not validated; WSL execution interface denied access; no FDTD rerun"
+  }
+}

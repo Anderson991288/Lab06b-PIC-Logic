@@ -1,0 +1,749 @@
+{
+  "electrical": {
+    "metal_nets": 15,
+    "pad_components": {
+      "PAD_DRV00": [
+        7
+      ],
+      "PAD_DRV01": [
+        1
+      ],
+      "PAD_DRV02": [
+        9
+      ],
+      "PAD_DRV03": [
+        11
+      ],
+      "PAD_DRV04": [
+        5
+      ],
+      "PAD_DRV05": [
+        13
+      ],
+      "PAD_DRV06": [
+        3
+      ],
+      "PAD_DRV07": [
+        6
+      ],
+      "PAD_DRV08": [
+        0
+      ],
+      "PAD_DRV09": [
+        8
+      ],
+      "PAD_DRV10": [
+        10
+      ],
+      "PAD_DRV11": [
+        4
+      ],
+      "PAD_DRV12": [
+        12
+      ],
+      "PAD_DRV13": [
+        2
+      ],
+      "PAD_GND_W": [
+        14
+      ],
+      "PAD_GND_E": [
+        14
+      ]
+    },
+    "connections": [
+      {
+        "channel": "theta1",
+        "pad_id": "PAD_DRV00",
+        "pad_component": [
+          7
+        ],
+        "signal_A_components": [
+          7
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta2",
+        "pad_id": "PAD_DRV01",
+        "pad_component": [
+          1
+        ],
+        "signal_A_components": [
+          1
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta3",
+        "pad_id": "PAD_DRV02",
+        "pad_component": [
+          9
+        ],
+        "signal_A_components": [
+          9
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta4",
+        "pad_id": "PAD_DRV03",
+        "pad_component": [
+          11
+        ],
+        "signal_A_components": [
+          11
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta5",
+        "pad_id": "PAD_DRV04",
+        "pad_component": [
+          5
+        ],
+        "signal_A_components": [
+          5
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta6",
+        "pad_id": "PAD_DRV05",
+        "pad_component": [
+          13
+        ],
+        "signal_A_components": [
+          13
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta7",
+        "pad_id": "PAD_DRV06",
+        "pad_component": [
+          3
+        ],
+        "signal_A_components": [
+          3
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi1",
+        "pad_id": "PAD_DRV07",
+        "pad_component": [
+          6
+        ],
+        "signal_A_components": [
+          6
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi2",
+        "pad_id": "PAD_DRV08",
+        "pad_component": [
+          0
+        ],
+        "signal_A_components": [
+          0
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi3",
+        "pad_id": "PAD_DRV09",
+        "pad_component": [
+          8
+        ],
+        "signal_A_components": [
+          8
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi4",
+        "pad_id": "PAD_DRV10",
+        "pad_component": [
+          10
+        ],
+        "signal_A_components": [
+          10
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi5",
+        "pad_id": "PAD_DRV11",
+        "pad_component": [
+          4
+        ],
+        "signal_A_components": [
+          4
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi6",
+        "pad_id": "PAD_DRV12",
+        "pad_component": [
+          12
+        ],
+        "signal_A_components": [
+          12
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi7",
+        "pad_id": "PAD_DRV13",
+        "pad_component": [
+          2
+        ],
+        "signal_A_components": [
+          2
+        ],
+        "return_B_components": [
+          14
+        ],
+        "passed": true
+      }
+    ],
+    "heater_contact_nets": [
+      {
+        "channel": "theta1",
+        "contacted_metal_components": [
+          7,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta2",
+        "contacted_metal_components": [
+          1,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta3",
+        "contacted_metal_components": [
+          9,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta4",
+        "contacted_metal_components": [
+          11,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta5",
+        "contacted_metal_components": [
+          5,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta6",
+        "contacted_metal_components": [
+          13,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "theta7",
+        "contacted_metal_components": [
+          3,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi1",
+        "contacted_metal_components": [
+          6,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi2",
+        "contacted_metal_components": [
+          0,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi3",
+        "contacted_metal_components": [
+          8,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi4",
+        "contacted_metal_components": [
+          10,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi5",
+        "contacted_metal_components": [
+          4,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi6",
+        "contacted_metal_components": [
+          12,
+          14
+        ],
+        "passed": true
+      },
+      {
+        "channel": "phi7",
+        "contacted_metal_components": [
+          2,
+          14
+        ],
+        "passed": true
+      }
+    ],
+    "checks": [
+      {
+        "name": "sixteen_pad_centers",
+        "passed": true
+      },
+      {
+        "name": "fourteen_independent_signal_nets",
+        "passed": true
+      },
+      {
+        "name": "one_shared_GND_two_pads",
+        "passed": true
+      },
+      {
+        "name": "fifteen_metal_nets",
+        "passed": true
+      },
+      {
+        "name": "all_PAD_A_and_B_GND",
+        "passed": true
+      },
+      {
+        "name": "each_heater_touches_two_correct_nets",
+        "passed": false
+      }
+    ],
+    "passed": false
+  },
+  "optical": {
+    "MZI_instances": 7,
+    "MMI_occurrences": 14,
+    "terminal_count": 66,
+    "route_components": 33,
+    "devices": [
+      {
+        "id": "M3:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M3:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M4:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M4:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M5:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M5:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M6:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M6:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M7:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M7:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M1:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M1:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M2:MMI1",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      },
+      {
+        "id": "M2:MMI2",
+        "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+        "template_identical": true
+      }
+    ],
+    "expected_pairs": [
+      [
+        "EC_IN0:facet",
+        "M1:MMI1:in2"
+      ],
+      [
+        "EC_IN1:facet",
+        "M1:MMI1:in1"
+      ],
+      [
+        "EC_IN2:facet",
+        "M3:MMI1:in1"
+      ],
+      [
+        "EC_IN3:facet",
+        "M2:MMI1:in2"
+      ],
+      [
+        "EC_IN4:facet",
+        "M2:MMI1:in1"
+      ],
+      [
+        "EC_OUT0:facet",
+        "M4:MMI2:out2"
+      ],
+      [
+        "EC_OUT1:facet",
+        "M6:MMI2:out2"
+      ],
+      [
+        "EC_OUT2:facet",
+        "M6:MMI2:out1"
+      ],
+      [
+        "EC_OUT3:facet",
+        "M7:MMI2:out2"
+      ],
+      [
+        "EC_OUT4:facet",
+        "M7:MMI2:out1"
+      ],
+      [
+        "M1:MMI1:out1",
+        "M1:MMI2:in1"
+      ],
+      [
+        "M1:MMI1:out2",
+        "M1:MMI2:in2"
+      ],
+      [
+        "M1:MMI2:out1",
+        "M3:MMI1:in2"
+      ],
+      [
+        "M1:MMI2:out2",
+        "M4:MMI1:in2"
+      ],
+      [
+        "M2:MMI1:out1",
+        "M2:MMI2:in1"
+      ],
+      [
+        "M2:MMI1:out2",
+        "M2:MMI2:in2"
+      ],
+      [
+        "M2:MMI2:out1",
+        "M7:MMI1:in1"
+      ],
+      [
+        "M2:MMI2:out2",
+        "M5:MMI1:in1"
+      ],
+      [
+        "M3:MMI1:out1",
+        "M3:MMI2:in1"
+      ],
+      [
+        "M3:MMI1:out2",
+        "M3:MMI2:in2"
+      ],
+      [
+        "M3:MMI2:out1",
+        "M5:MMI1:in2"
+      ],
+      [
+        "M3:MMI2:out2",
+        "M4:MMI1:in1"
+      ],
+      [
+        "M4:MMI1:out1",
+        "M4:MMI2:in1"
+      ],
+      [
+        "M4:MMI1:out2",
+        "M4:MMI2:in2"
+      ],
+      [
+        "M4:MMI2:out1",
+        "M6:MMI1:in2"
+      ],
+      [
+        "M5:MMI1:out1",
+        "M5:MMI2:in1"
+      ],
+      [
+        "M5:MMI1:out2",
+        "M5:MMI2:in2"
+      ],
+      [
+        "M5:MMI2:out1",
+        "M7:MMI1:in2"
+      ],
+      [
+        "M5:MMI2:out2",
+        "M6:MMI1:in1"
+      ],
+      [
+        "M6:MMI1:out1",
+        "M6:MMI2:in1"
+      ],
+      [
+        "M6:MMI1:out2",
+        "M6:MMI2:in2"
+      ],
+      [
+        "M7:MMI1:out1",
+        "M7:MMI2:in1"
+      ],
+      [
+        "M7:MMI1:out2",
+        "M7:MMI2:in2"
+      ]
+    ],
+    "observed_groups": [
+      [
+        "EC_IN0:facet",
+        "M1:MMI1:in2"
+      ],
+      [
+        "EC_IN1:facet",
+        "M1:MMI1:in1"
+      ],
+      [
+        "EC_IN2:facet",
+        "M3:MMI1:in1"
+      ],
+      [
+        "EC_IN3:facet",
+        "M2:MMI1:in2"
+      ],
+      [
+        "EC_IN4:facet",
+        "M2:MMI1:in1"
+      ],
+      [
+        "EC_OUT0:facet",
+        "M4:MMI2:out2"
+      ],
+      [
+        "EC_OUT1:facet",
+        "M6:MMI2:out2"
+      ],
+      [
+        "EC_OUT2:facet",
+        "M6:MMI2:out1"
+      ],
+      [
+        "EC_OUT3:facet",
+        "M7:MMI2:out2"
+      ],
+      [
+        "EC_OUT4:facet",
+        "M7:MMI2:out1"
+      ],
+      [
+        "M1:MMI1:out1",
+        "M1:MMI2:in1"
+      ],
+      [
+        "M1:MMI1:out2",
+        "M1:MMI2:in2"
+      ],
+      [
+        "M1:MMI2:out1",
+        "M3:MMI1:in2"
+      ],
+      [
+        "M1:MMI2:out2",
+        "M4:MMI1:in2"
+      ],
+      [
+        "M2:MMI1:out1",
+        "M2:MMI2:in1"
+      ],
+      [
+        "M2:MMI1:out2",
+        "M2:MMI2:in2"
+      ],
+      [
+        "M2:MMI2:out1",
+        "M7:MMI1:in1"
+      ],
+      [
+        "M2:MMI2:out2",
+        "M5:MMI1:in1"
+      ],
+      [
+        "M3:MMI1:out1",
+        "M3:MMI2:in1"
+      ],
+      [
+        "M3:MMI1:out2",
+        "M3:MMI2:in2"
+      ],
+      [
+        "M3:MMI2:out1",
+        "M5:MMI1:in2"
+      ],
+      [
+        "M3:MMI2:out2",
+        "M4:MMI1:in1"
+      ],
+      [
+        "M4:MMI1:out1",
+        "M4:MMI2:in1"
+      ],
+      [
+        "M4:MMI1:out2",
+        "M4:MMI2:in2"
+      ],
+      [
+        "M4:MMI2:out1",
+        "M6:MMI1:in2"
+      ],
+      [
+        "M5:MMI1:out1",
+        "M5:MMI2:in1"
+      ],
+      [
+        "M5:MMI1:out2",
+        "M5:MMI2:in2"
+      ],
+      [
+        "M5:MMI2:out1",
+        "M7:MMI1:in2"
+      ],
+      [
+        "M5:MMI2:out2",
+        "M6:MMI1:in1"
+      ],
+      [
+        "M6:MMI1:out1",
+        "M6:MMI2:in1"
+      ],
+      [
+        "M6:MMI1:out2",
+        "M6:MMI2:in2"
+      ],
+      [
+        "M7:MMI1:out1",
+        "M7:MMI2:in1"
+      ],
+      [
+        "M7:MMI1:out2",
+        "M7:MMI2:in2"
+      ]
+    ],
+    "missing_terminals": [],
+    "joint_issues": [],
+    "missing_pairs": [],
+    "unexpected_groups": [],
+    "passed": true,
+    "scope": "Actual GDS material graph with 14 MMI black boxes removed; 33 outside-device connections vs declared B7. Not optical field, phase/loss, EC mode validation or foundry-certified LVS."
+  },
+  "passed": false,
+  "gds_sha256": "ca1bff63731e883f4c8e8f7ae4592946c5628e8d498e854695a090f65ac47828",
+  "engine": "KLayout 0.30.12"
+}

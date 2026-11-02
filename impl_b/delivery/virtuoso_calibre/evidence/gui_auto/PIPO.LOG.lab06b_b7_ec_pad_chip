@@ -1,0 +1,107 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  16:45:50
+User Name : edauser
+Host Name : eda.ic
+Directory : /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa_lower
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+
+Summary of Options :
+library                                 lab06b_crosscad_20261031
+strmFile                                /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/lab06b_b7_ec_pad_chip.calibre.db
+topCell                                 lab06b_b7_ec_pad_chip
+view                                    layout
+runDir                                  /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto/
+logFile                                 PIPO.LOG.lab06b_b7_ec_pad_chip
+summaryFile                             PIPO.SUM.lab06b_b7_ec_pad_chip
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace.
+INFO (XSTRM-223): 2. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition1/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition1.
+INFO (XSTRM-223): 3. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition2/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition2.
+INFO (XSTRM-223): 4. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition3/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition3.
+INFO (XSTRM-223): 5. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition4/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi_transition4.
+INFO (XSTRM-223): 6. Translating cellview lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi/layout as STRUCTURE soi220nm_1550nm_te_strip_2x2_mmi.
+INFO (XSTRM-223): 7. Translating cellview lab06b_crosscad_20261031/mzi_wg0/layout as STRUCTURE mzi_wg0.
+INFO (XSTRM-223): 8. Translating cellview lab06b_crosscad_20261031/mzi_wg1/layout as STRUCTURE mzi_wg1.
+INFO (XSTRM-223): 9. Translating cellview lab06b_crosscad_20261031/mzi_wg2/layout as STRUCTURE mzi_wg2.
+INFO (XSTRM-223): 10. Translating cellview lab06b_crosscad_20261031/mzi_wg3/layout as STRUCTURE mzi_wg3.
+INFO (XSTRM-223): 11. Translating cellview lab06b_crosscad_20261031/mzi_wg4/layout as STRUCTURE mzi_wg4.
+INFO (XSTRM-223): 12. Translating cellview lab06b_crosscad_20261031/mzi_wg5/layout as STRUCTURE mzi_wg5.
+INFO (XSTRM-223): 13. Translating cellview lab06b_crosscad_20261031/lab06b_mzi_core/layout as STRUCTURE lab06b_mzi_core.
+INFO (XSTRM-223): 14. Translating cellview lab06b_crosscad_20261031/wg_byp_l0_r2/layout as STRUCTURE wg_byp_l0_r2.
+INFO (XSTRM-223): 15. Translating cellview lab06b_crosscad_20261031/wg_byp_l1_r0/layout as STRUCTURE wg_byp_l1_r0.
+INFO (XSTRM-223): 16. Translating cellview lab06b_crosscad_20261031/wg_byp_l1_r3/layout as STRUCTURE wg_byp_l1_r3.
+INFO (XSTRM-223): 17. Translating cellview lab06b_crosscad_20261031/wg_byp_l1_r4/layout as STRUCTURE wg_byp_l1_r4.
+INFO (XSTRM-223): 18. Translating cellview lab06b_crosscad_20261031/wg_byp_l2_r4/layout as STRUCTURE wg_byp_l2_r4.
+INFO (XSTRM-223): 19. Translating cellview lab06b_crosscad_20261031/wg_byp_l3_r0/layout as STRUCTURE wg_byp_l3_r0.
+INFO (XSTRM-223): 20. Translating cellview lab06b_crosscad_20261031/wg_in0/layout as STRUCTURE wg_in0.
+INFO (XSTRM-223): 21. Translating cellview lab06b_crosscad_20261031/wg_out0/layout as STRUCTURE wg_out0.
+INFO (XSTRM-223): 22. Translating cellview lab06b_crosscad_20261031/wg_in1/layout as STRUCTURE wg_in1.
+INFO (XSTRM-223): 23. Translating cellview lab06b_crosscad_20261031/wg_out1/layout as STRUCTURE wg_out1.
+INFO (XSTRM-223): 24. Translating cellview lab06b_crosscad_20261031/wg_in2/layout as STRUCTURE wg_in2.
+INFO (XSTRM-223): 25. Translating cellview lab06b_crosscad_20261031/wg_out2/layout as STRUCTURE wg_out2.
+INFO (XSTRM-223): 26. Translating cellview lab06b_crosscad_20261031/wg_in3/layout as STRUCTURE wg_in3.
+INFO (XSTRM-223): 27. Translating cellview lab06b_crosscad_20261031/wg_out3/layout as STRUCTURE wg_out3.
+INFO (XSTRM-223): 28. Translating cellview lab06b_crosscad_20261031/wg_in4/layout as STRUCTURE wg_in4.
+INFO (XSTRM-223): 29. Translating cellview lab06b_crosscad_20261031/wg_out4/layout as STRUCTURE wg_out4.
+INFO (XSTRM-223): 30. Translating cellview lab06b_crosscad_20261031/lab06b_b7_core/layout as STRUCTURE lab06b_b7_core.
+INFO (XSTRM-223): 31. Translating cellview lab06b_crosscad_20261031/lab06b_reference_ec/layout as STRUCTURE lab06b_reference_ec.
+INFO (XSTRM-223): 32. Translating cellview lab06b_crosscad_20261031/fan_in0/layout as STRUCTURE fan_in0.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-65001, -225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 33. Translating cellview lab06b_crosscad_20261031/fan_out0/layout as STRUCTURE fan_out0.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2080000, -225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 34. Translating cellview lab06b_crosscad_20261031/fan_in1/layout as STRUCTURE fan_in1.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-65000, -30225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 35. Translating cellview lab06b_crosscad_20261031/fan_out1/layout as STRUCTURE fan_out1.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2080000, -30225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 36. Translating cellview lab06b_crosscad_20261031/fan_in2/layout as STRUCTURE fan_in2.
+INFO (XSTRM-223): 37. Translating cellview lab06b_crosscad_20261031/fan_out2/layout as STRUCTURE fan_out2.
+INFO (XSTRM-223): 38. Translating cellview lab06b_crosscad_20261031/fan_in3/layout as STRUCTURE fan_in3.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-660000, -310225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 39. Translating cellview lab06b_crosscad_20261031/fan_out3/layout as STRUCTURE fan_out3.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2675000, -310225) on layer '3' is 768. These vertices will be represented using 769 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 40. Translating cellview lab06b_crosscad_20261031/fan_in4/layout as STRUCTURE fan_in4.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (-660000, -560225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 41. Translating cellview lab06b_crosscad_20261031/fan_out4/layout as STRUCTURE fan_out4.
+INFO (XSTRM-275): Number of vertexes in the 'polygon' with starting point (2674999, -560225) on layer '3' is 784. These vertices will be represented using 785 points in the GDS. This number exceeds the maximum limit, 200, defined by 'maxVertices'. The 'polygon' will be chopped into smaller polygons during XStream Out translation.
+INFO (XSTRM-223): 42. Translating cellview lab06b_crosscad_20261031/lab06b_chip_interfaces/layout as STRUCTURE lab06b_chip_interfaces.
+INFO (XSTRM-223): 43. Translating cellview lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout as STRUCTURE lab06b_b7_ec_pad_chip.
+
+Summary of Objects Translated:
+	Scalar Instances:                       58
+	Array Instances:                        0
+	Polygons:                               117
+	Paths:                                  0
+	Rectangles:                             113
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   16
+	TextDisplay:                            0
+	Cells:                                  43
+
+Elapsed Time: 1.7s   User Time: 0.1s   CPU Time: 0.2s   Peak VM: 33300KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

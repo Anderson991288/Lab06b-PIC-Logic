@@ -1,0 +1,9 @@
+{
+  "bits": [1, 0, 0, 0],
+  "reference_amplitude": 3.0,
+  "reference_phase_pi": 0.0,
+  "theta_pi": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+  "phi_pi": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "mzi_loss_db": 0.0,
+  "phase_order": ["M1", "M2", "M3", "M4", "M5", "M6", "M7"]
+}

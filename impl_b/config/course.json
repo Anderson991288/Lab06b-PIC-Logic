@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "planned_root": "C:\\EDA_Codex\\Lab06b",
+  "source_course_actual": "D:\\LAB\\Lab06b\\C01",
+  "source_course_requested": "D:\\LAB\\Lab06b\\.codex\\C01",
+  "source_path_note": "Requested .codex/C01 not found; actual C01 verified read-only.",
+  "architecture": {
+    "macro": "B7",
+    "modes": 5,
+    "mzi_count": 7,
+    "phase_count": 14,
+    "ops_zero_based": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "inputs": [
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "R"
+    ],
+    "readout_zero_based": [
+      1,
+      3
+    ]
+  },
+  "functions": [
+    "AND2",
+    "OR2",
+    "XOR2",
+    "AND4",
+    "OR4"
+  ],
+  "reference_amplitude": 3,
+  "decision": "delta=P(out1)-P(out3); delta>0 => 1; delta<0 => 0; |delta|<=epsilon => boundary",
+  "acceptance": {
+    "patterns_per_function": 16,
+    "total_patterns": 80,
+    "epsilon": 1e-10
+  },
+  "progress": {
+    "M0_S1": "core toolchain passed; learner submission pending",
+    "other_steps": "planned",
+    "M0_S2": "core physics passed; FDTD rerun not performed; learner submission pending",
+    "M0_S3": "shared models and unit tests passed; learner submission pending",
+    "M1_S1": "optical encoding and reference/readout experiments passed; learner submission pending",
+    "M1_S2": "B7 topology and 5x5 transfer matrix passed; learner submission pending",
+    "M1_S3": "weighted complex sums and differential readout passed; learner submission pending",
+    "M1_S4": "five-function 80-case acceptance and signed margins passed; learner submission pending",
+    "M1_S5": "logical spec, phase mapping and portable 80-case replay passed; learner submission pending",
+    "M2_S1": "logical PIC boundary and optical/electrical I/O passed; physical implementation pending; learner submission pending",
+    "M2_S2": "Caphe PDK circuit and all 80 comparisons passed; installed default ideal MMI; learner submission pending",
+    "M2_S3": "initial seven-MZI physical core GDS and independent readback passed; no full DRC or extracted replay; learner submission pending",
+    "M2_S4": "scoped KLayout review and margin-improved revision accepted; before/after retained; full DRC/LVS pending; learner submission pending",
+    "M2_S5": "initial reference EC/PAD/GND geometry and selected GDS connectivity passed; calibration and full validation pending; learner submission pending",
+    "M2_S6": "original full installed pre-DRC zero after label fix; geometric electrical/optical netlist compare passed; foundry qualification pending; learner submission pending",
+    "M2_S7": "teaching delivery packaged; relocated integrity, 400-case uniform-neff core replay and external pre-DRC/geometric recheck passed; physical function unqualified; learner submission pending",
+    "M3_S1": "two clean authored-source builds accepted: timestamp-only GDS digest and all-layer XOR/text exact; interface CSV exact; 400-case replay identical; 4 controls and 10 support tests passed; physical function unqualified; learner submission pending",
+    "M3_S2": "independent gdstk/Shapely six facing-edge minima agree with KLayout; 54 rule outcomes, eight GDS controls, 12 tests and unchanged full pre-DRC zero passed; physical qualification and learner review pending",
+    "course_closeout": "17 teaching steps implemented; learner independent submission and instructor review pending; no foundry or physical-function qualification"
+  },
+  "modules": [
+    "M0",
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "steps": 17,
+  "hours": 18
+}

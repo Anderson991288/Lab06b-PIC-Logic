@@ -1,0 +1,154 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  16:45:50
+User Name : edauser
+Host Name : eda.ic
+Directory : /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa_lower
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+lab06b_crosscad_20261031/fan_in0/layout                         0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_in1/layout                         0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_in2/layout                         0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_in3/layout                         0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_in4/layout                         0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_out0/layout                        0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_out1/layout                        0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_out2/layout                        0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_out3/layout                        0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/fan_out4/layout                        0        0       6        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/lab06b_b7_core/layout                  23       0       49       1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout           2        0       0        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/lab06b_chip_interfaces/layout          20       0       0        82     0      0         16     0             0      0     0     0       0       
+lab06b_crosscad_20261031/lab06b_mzi_core/layout                 8        0       8        10     0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/lab06b_reference_ec/layout             0        0       2        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/mzi_wg0/layout                         0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/mzi_wg1/layout                         0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/mzi_wg2/layout                         0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/mzi_wg3/layout                         0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/mzi_wg4/layout                         0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/mzi_wg5/layout                         0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi/layout                                                                5        0       0        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace/layout                                                  0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition1/layout                                                    0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition2/layout                                                    0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition3/layout                                                    0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition4/layout                                                    0        0       1        0      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_byp_l0_r2/layout                    0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_byp_l1_r0/layout                    0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_byp_l1_r3/layout                    0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_byp_l1_r4/layout                    0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_byp_l2_r4/layout                    0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_byp_l3_r0/layout                    0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_in0/layout                          0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_in1/layout                          0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_in2/layout                          0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_in3/layout                          0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_in4/layout                          0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_out0/layout                         0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_out1/layout                         0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_out2/layout                         0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_out3/layout                         0        0       0        1      0      0         0      0             0      0     0     0       0       
+lab06b_crosscad_20261031/wg_out4/layout                         0        0       0        1      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+--------------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   Stitch   CustVia   StdVia    CdsGenVia
+--------------------------------------------------------------------------------------------------------------------------------------------
+lab06b_crosscad_20261031/fan_in0/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_in1/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_in2/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_in3/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_in4/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_out0/layout                        0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_out1/layout                        0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_out2/layout                        0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_out3/layout                        0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/fan_out4/layout                        0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/lab06b_b7_core/layout                  0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/lab06b_b7_ec_pad_chip/layout           0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/lab06b_chip_interfaces/layout          0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/lab06b_mzi_core/layout                 0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/lab06b_reference_ec/layout             0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/mzi_wg0/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/mzi_wg1/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/mzi_wg2/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/mzi_wg3/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/mzi_wg4/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/mzi_wg5/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi/layout                                                                0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace/layout                                                  0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition1/layout                                                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition2/layout                                                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition3/layout                                                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/soi220nm_1550nm_te_strip_2x2_mmi_transition4/layout                                                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_byp_l0_r2/layout                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_byp_l1_r0/layout                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_byp_l1_r3/layout                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_byp_l1_r4/layout                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_byp_l2_r4/layout                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_byp_l3_r0/layout                    0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_in0/layout                          0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_in1/layout                          0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_in2/layout                          0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_in3/layout                          0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_in4/layout                          0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_out0/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_out1/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_out2/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_out3/layout                         0        0          0          0          0          0     0        0        0         0         0        
+lab06b_crosscad_20261031/wg_out4/layout                         0        0          0          0          0          0     0        0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+L3              drawing         3       0         59       19       0        0        0             0    0   0   0     0      0      
+L5              drawing         5       0         1        0        0        0        0             0    0   0   0     0      0      
+L4              drawing         4       0         0        1        0        0        0             0    0   0   0     0      0      
+L41             drawing         41      0         0        85       0        0        0             0    0   0   0     0      0      
+L99             drawing         99      0         0        2        0        0        0             0    0   0   0     0      0      
+L1002           drawing         1002    0         0        0        0        16       0             0    0   0   0     0      0      
+L100            drawing         100     0         57       0        0        0        0             0    0   0   0     0      0      
+L39             drawing         39      0         0        6        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		58
+	Array Instances:		0
+	Polygons:			117
+	Paths:				0
+	Rectangles:			113
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Stitches:			0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				16
+	TextDisplay:		0
+	Cells:				43
+Design Libraries: 
+
+DEFINE lab06b_crosscad_20261031	/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa_crosscad/lab06b_crosscad_20261031

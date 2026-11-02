@@ -1,0 +1,17 @@
+{
+  "schema": "lab06b.backannotation.v1",
+  "reference_plane": "M1_core_ports",
+  "wavelength_um": 1.55,
+  "neff": 2.353499831254645,
+  "neff_source": "M0 S2 fine-mesh uniform-oxide FEM teaching reference, not a calibrated foundry waveguide",
+  "baseline_loss_db_per_cm": 0.0,
+  "illustrative_loss_db_per_cm": 3.0,
+  "loss_source": "Teaching scenario only; no measured propagation loss assigned",
+  "phase_convention": "exp(+i*2*pi*neff*L/wavelength)",
+  "MMI": "Installed PDK default H retained; no added beta times MMI longitudinal span",
+  "geometry_lengths": "1 nm-grid centerline polyline lengths from bound S4/S5 sidecars; mapped to S6 actual GDS wire components",
+  "excluded": ["EC response and mode conversion", "fanout propagation outside core plane", "MMI calibrated absolute phase and dispersion", "bend-specific loss/index", "heater thermal/electrical calibration", "packaging and foundry signoff"],
+  "compensation": "Analytic per-rail phase tracking; theta/phi offsets independent of truth labels; model-only candidate, not drive voltages",
+  "neff_sweep_offsets": [-0.001, -0.0005, -0.0001, 0.0, 0.0001, 0.0005, 0.001],
+  "physical_function_qualified": false
+}

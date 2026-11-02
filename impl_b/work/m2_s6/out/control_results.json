@@ -1,0 +1,130 @@
+[
+  {
+    "id": "D1_Si_width",
+    "target": "drc",
+    "expected_category_fragment": "GDS3< 350nm",
+    "path": "work\\m2_s6\\work\\faults\\D1_Si_width.gds",
+    "sha256": "ee0f3d0e053ae02ecf7e20ae9a8b975a4d1961f7245039bd12712a30243ca1e6",
+    "detected": true,
+    "drc_records": 1,
+    "drc_counts": {
+      "Minimum feature size violation (GDS3< 350nm)": 1
+    },
+    "electrical_passed": true,
+    "optical_passed": false,
+    "optical_route_count": 34,
+    "metal_net_count": 15,
+    "report": "work\\m2_s6\\out\\controls\\D1_Si_width\\pre_drc.lyrdb"
+  },
+  {
+    "id": "D2_grid",
+    "target": "drc",
+    "expected_category_fragment": "grid violations",
+    "path": "work\\m2_s6\\work\\faults\\D2_grid.gds",
+    "sha256": "a28dae2c80d7ebd7c46cd6c4e44c9d2433418063b21fffce2313c62c19b5cd23",
+    "detected": true,
+    "drc_records": 4,
+    "drc_counts": {
+      "3/0 grid violations": 4
+    },
+    "electrical_passed": true,
+    "optical_passed": false,
+    "optical_route_count": 34,
+    "metal_net_count": 15,
+    "report": "work\\m2_s6\\out\\controls\\D2_grid\\pre_drc.lyrdb"
+  },
+  {
+    "id": "D3_HT_gap",
+    "target": "drc",
+    "expected_category_fragment": "GDS39<10micro",
+    "path": "work\\m2_s6\\work\\faults\\D3_HT_gap.gds",
+    "sha256": "ca1bff63731e883f4c8e8f7ae4592946c5628e8d498e854695a090f65ac47828",
+    "detected": true,
+    "drc_records": 1,
+    "drc_counts": {
+      "Minimum gap violate (GDS39<10micro)": 1
+    },
+    "electrical_passed": false,
+    "optical_passed": true,
+    "optical_route_count": 33,
+    "metal_net_count": 15,
+    "report": "work\\m2_s6\\out\\controls\\D3_HT_gap\\pre_drc.lyrdb"
+  },
+  {
+    "id": "D4_PAD_width",
+    "target": "drc",
+    "expected_category_fragment": "GDS41<2micro",
+    "path": "work\\m2_s6\\work\\faults\\D4_PAD_width.gds",
+    "sha256": "89cc39de29d5522c956e86c863312fb2b7a9bb8433b0a3158a95c72faf7d8a14",
+    "detected": true,
+    "drc_records": 1,
+    "drc_counts": {
+      "Minimum feature size violate (GDS41<2micro)": 1
+    },
+    "electrical_passed": false,
+    "optical_passed": true,
+    "optical_route_count": 33,
+    "metal_net_count": 16,
+    "report": "work\\m2_s6\\out\\controls\\D4_PAD_width\\pre_drc.lyrdb"
+  },
+  {
+    "id": "E1_signal_ground_short",
+    "target": "electrical",
+    "expected_category_fragment": null,
+    "path": "work\\m2_s6\\work\\faults\\E1_signal_ground_short.gds",
+    "sha256": "15d3a876d2dc3df6bedca93162cf43142a719c3a5af17fd2b0dc2e06b3bb7583",
+    "detected": true,
+    "drc_records": 0,
+    "drc_counts": {},
+    "electrical_passed": false,
+    "optical_passed": true,
+    "optical_route_count": 33,
+    "metal_net_count": 14,
+    "report": "work\\m2_s6\\out\\controls\\E1_signal_ground_short\\pre_drc.lyrdb"
+  },
+  {
+    "id": "E2_return_open",
+    "target": "electrical",
+    "expected_category_fragment": null,
+    "path": "work\\m2_s6\\work\\faults\\E2_return_open.gds",
+    "sha256": "ef68e0014ba6b77673e13a91ef599f007499203e5ff6c4dc0927e8d89126363c",
+    "detected": true,
+    "drc_records": 0,
+    "drc_counts": {},
+    "electrical_passed": false,
+    "optical_passed": true,
+    "optical_route_count": 33,
+    "metal_net_count": 16,
+    "report": "work\\m2_s6\\out\\controls\\E2_return_open\\pre_drc.lyrdb"
+  },
+  {
+    "id": "O1_lead_open",
+    "target": "optical",
+    "expected_category_fragment": null,
+    "path": "work\\m2_s6\\work\\faults\\O1_lead_open.gds",
+    "sha256": "0a19f66b7cfa135ebbc83d17dd6a79f1a1bc97db090922bc43908c42b500899e",
+    "detected": true,
+    "drc_records": 0,
+    "drc_counts": {},
+    "electrical_passed": true,
+    "optical_passed": false,
+    "optical_route_count": 34,
+    "metal_net_count": 15,
+    "report": "work\\m2_s6\\out\\controls\\O1_lead_open\\pre_drc.lyrdb"
+  },
+  {
+    "id": "O2_optical_bridge",
+    "target": "optical",
+    "expected_category_fragment": null,
+    "path": "work\\m2_s6\\work\\faults\\O2_optical_bridge.gds",
+    "sha256": "e2a9e36172316907b14096f6588e71c2e7e57eaf824c1b54aa8fea1549b58e43",
+    "detected": true,
+    "drc_records": 0,
+    "drc_counts": {},
+    "electrical_passed": true,
+    "optical_passed": false,
+    "optical_route_count": 32,
+    "metal_net_count": 15,
+    "report": "work\\m2_s6\\out\\controls\\O2_optical_bridge\\pre_drc.lyrdb"
+  }
+]

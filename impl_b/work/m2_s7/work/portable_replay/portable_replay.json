@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "integrity": {
+    "status": "passed",
+    "files": 50,
+    "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+    "physical_function_qualified": false,
+    "foundry_full_signoff": false
+  },
+  "scenarios": {
+    "ideal_baseline": {
+      "passed": 80,
+      "total": 80
+    },
+    "length_original": {
+      "passed": 53,
+      "total": 80
+    },
+    "length_compensated": {
+      "passed": 80,
+      "total": 80
+    },
+    "loss_original": {
+      "passed": 53,
+      "total": 80
+    },
+    "loss_compensated": {
+      "passed": 80,
+      "total": 80
+    }
+  },
+  "max_abs_delta_error": 0.0,
+  "physical_function_qualified": false,
+  "scope": "Verified replay of packaged uniform-neff core-plane teaching model; not calibrated chip acceptance."
+}

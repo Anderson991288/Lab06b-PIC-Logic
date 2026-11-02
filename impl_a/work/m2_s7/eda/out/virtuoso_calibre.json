@@ -1,0 +1,1265 @@
+{
+ "virtuoso": {
+  "oa": {
+   "shapes": {
+    "L41/drawing/rect": {
+     "n": 74,
+     "max_points": 0
+    },
+    "L100/drawing/polygon": {
+     "n": 149,
+     "max_points": 22
+    },
+    "L100/drawing/rect": {
+     "n": 413,
+     "max_points": 0
+    },
+    "L3/drawing/rect": {
+     "n": 23,
+     "max_points": 0
+    },
+    "L4/drawing/rect": {
+     "n": 1,
+     "max_points": 0
+    },
+    "L3/drawing/polygon": {
+     "n": 28,
+     "max_points": 725
+    },
+    "L5/drawing/polygon": {
+     "n": 1,
+     "max_points": 8
+    },
+    "L39/drawing/rect": {
+     "n": 42,
+     "max_points": 0
+    },
+    "L99/drawing/rect": {
+     "n": 1,
+     "max_points": 0
+    }
+   },
+   "cells": 68,
+   "instances": 162,
+   "top": "B7_CHIP",
+   "bbox": "((-1120.0 -650.0) (2756.0 550.0))",
+   "dbu": "1000.0"
+  },
+  "stream_in": {
+   "errors": 0,
+   "warnings": 0,
+   "chopped": []
+  },
+  "out_default": {
+   "errors": 0,
+   "warnings": 0,
+   "chopped": [
+    {
+     "start_dbu": [
+      0,
+      -60225
+     ],
+     "layer": 3,
+     "vertices": 332
+    },
+    {
+     "start_dbu": [
+      489000,
+      -225
+     ],
+     "layer": 3,
+     "vertices": 332
+    },
+    {
+     "start_dbu": [
+      489000,
+      -90225
+     ],
+     "layer": 3,
+     "vertices": 332
+    },
+    {
+     "start_dbu": [
+      489000,
+      -120225
+     ],
+     "layer": 3,
+     "vertices": 332
+    },
+    {
+     "start_dbu": [
+      978000,
+      -120225
+     ],
+     "layer": 3,
+     "vertices": 332
+    },
+    {
+     "start_dbu": [
+      1467000,
+      -225
+     ],
+     "layer": 3,
+     "vertices": 332
+    },
+    {
+     "start_dbu": [
+      -860000,
+      439775
+     ],
+     "layer": 3,
+     "vertices": 468
+    },
+    {
+     "start_dbu": [
+      2016000,
+      -225
+     ],
+     "layer": 3,
+     "vertices": 324
+    },
+    {
+     "start_dbu": [
+      -860000,
+      189775
+     ],
+     "layer": 3,
+     "vertices": 725
+    },
+    {
+     "start_dbu": [
+      2016000,
+      -30225
+     ],
+     "layer": 3,
+     "vertices": 322
+    },
+    {
+     "start_dbu": [
+      -860000,
+      -60225
+     ],
+     "layer": 3,
+     "vertices": 402
+    },
+    {
+     "start_dbu": [
+      -860000,
+      -310225
+     ],
+     "layer": 3,
+     "vertices": 725
+    },
+    {
+     "start_dbu": [
+      2016000,
+      -90225
+     ],
+     "layer": 3,
+     "vertices": 322
+    },
+    {
+     "start_dbu": [
+      -860000,
+      -560225
+     ],
+     "layer": 3,
+     "vertices": 468
+    },
+    {
+     "start_dbu": [
+      2016000,
+      -120225
+     ],
+     "layer": 3,
+     "vertices": 324
+    }
+   ]
+  },
+  "out_8191": {
+   "errors": 0,
+   "warnings": 0,
+   "chopped": []
+  },
+  "version": "IC23.1-64b.ISR15.37",
+  "gds": {
+   "signed": {
+    "cells": 68,
+    "elements": {
+     "sref": 162,
+     "boundary": 732
+    },
+    "polygons_per_layer": {
+     "3": 51,
+     "4": 1,
+     "5": 1,
+     "39": 42,
+     "41": 74,
+     "99": 1,
+     "100": 562
+    },
+    "max_points_per_layer": {
+     "3": 727,
+     "4": 5,
+     "5": 9,
+     "39": 5,
+     "41": 5,
+     "99": 5,
+     "100": 23
+    },
+    "layer_datatypes": [
+     "100/0",
+     "3/0",
+     "39/0",
+     "4/0",
+     "41/0",
+     "5/0",
+     "99/0"
+    ],
+    "texts": []
+   },
+   "out_default": {
+    "cells": 68,
+    "elements": {
+     "boundary": 761,
+     "sref": 162
+    },
+    "polygons_per_layer": {
+     "3": 80,
+     "4": 1,
+     "5": 1,
+     "39": 42,
+     "41": 74,
+     "99": 1,
+     "100": 562
+    },
+    "max_points_per_layer": {
+     "3": 169,
+     "4": 5,
+     "5": 9,
+     "39": 5,
+     "41": 5,
+     "99": 5,
+     "100": 23
+    },
+    "layer_datatypes": [
+     "100/0",
+     "3/0",
+     "39/0",
+     "4/0",
+     "41/0",
+     "5/0",
+     "99/0"
+    ],
+    "texts": []
+   },
+   "out_8191": {
+    "cells": 68,
+    "elements": {
+     "boundary": 732,
+     "sref": 162
+    },
+    "polygons_per_layer": {
+     "3": 51,
+     "4": 1,
+     "5": 1,
+     "39": 42,
+     "41": 74,
+     "99": 1,
+     "100": 562
+    },
+    "max_points_per_layer": {
+     "3": 726,
+     "4": 5,
+     "5": 9,
+     "39": 5,
+     "41": 5,
+     "99": 5,
+     "100": 23
+    },
+    "layer_datatypes": [
+     "100/0",
+     "3/0",
+     "39/0",
+     "4/0",
+     "41/0",
+     "5/0",
+     "99/0"
+    ],
+    "texts": []
+   }
+  }
+ },
+ "geometry": {
+  "default": {
+   "3": {
+    "xor_area": 0.009056999999999999,
+    "xor_count": 20,
+    "polys_a": 270,
+    "polys_b": 299,
+    "merged_a": 81,
+    "merged_b": 81,
+    "area_a": 12644.653046,
+    "area_b": 12644.651935
+   },
+   "4": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 10,
+    "polys_b": 10,
+    "merged_a": 10,
+    "merged_b": 10,
+    "area_a": 46000.0,
+    "area_b": 46000.0
+   },
+   "5": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 10,
+    "polys_b": 10,
+    "merged_a": 10,
+    "merged_b": 10,
+    "area_a": 1542.5,
+    "area_b": 1542.5
+   },
+   "39": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 42,
+    "polys_b": 42,
+    "merged_a": 14,
+    "merged_b": 14,
+    "area_a": 4060.0,
+    "area_b": 4060.0
+   },
+   "41": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 74,
+    "polys_b": 74,
+    "merged_a": 16,
+    "merged_b": 16,
+    "area_a": 223652.0,
+    "area_b": 223652.0
+   },
+   "99": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 1,
+    "polys_b": 1,
+    "merged_a": 1,
+    "merged_b": 1,
+    "area_a": 4651200.0,
+    "area_b": 4651200.0
+   },
+   "100": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 562,
+    "polys_b": 562,
+    "merged_a": 176,
+    "merged_b": 176,
+    "area_a": 3884.47511,
+    "area_b": 3884.47511
+   }
+  },
+  "8191": {
+   "3": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 270,
+    "polys_b": 270,
+    "merged_a": 81,
+    "merged_b": 81,
+    "area_a": 12644.653046,
+    "area_b": 12644.653046
+   },
+   "4": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 10,
+    "polys_b": 10,
+    "merged_a": 10,
+    "merged_b": 10,
+    "area_a": 46000.0,
+    "area_b": 46000.0
+   },
+   "5": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 10,
+    "polys_b": 10,
+    "merged_a": 10,
+    "merged_b": 10,
+    "area_a": 1542.5,
+    "area_b": 1542.5
+   },
+   "39": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 42,
+    "polys_b": 42,
+    "merged_a": 14,
+    "merged_b": 14,
+    "area_a": 4060.0,
+    "area_b": 4060.0
+   },
+   "41": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 74,
+    "polys_b": 74,
+    "merged_a": 16,
+    "merged_b": 16,
+    "area_a": 223652.0,
+    "area_b": 223652.0
+   },
+   "99": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 1,
+    "polys_b": 1,
+    "merged_a": 1,
+    "merged_b": 1,
+    "area_a": 4651200.0,
+    "area_b": 4651200.0
+   },
+   "100": {
+    "xor_area": 0.0,
+    "xor_count": 0,
+    "polys_a": 562,
+    "polys_b": 562,
+    "merged_a": 176,
+    "merged_b": 176,
+    "area_a": 3884.47511,
+    "area_b": 3884.47511
+   }
+  }
+ },
+ "klayout": {
+  "signed": {
+   "total": 0,
+   "counts": {},
+   "n_rules": 30,
+   "sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8"
+  },
+  "virtuoso_default": {
+   "total": 16,
+   "counts": {
+    "Minimum feature size violation (GDS3< 350nm)": 16
+   },
+   "n_rules": 30,
+   "sha256": "321abd51ae51bf4a8eaf5c9d615af915939371f1e1ef86250cd1fb45138ca6f4"
+  },
+  "virtuoso_8191": {
+   "total": 0,
+   "counts": {},
+   "n_rules": 30,
+   "sha256": "0425e490a6f6e6de7356814fc9453ed2cc2342ecddc2472403f7f4e5d258bf49"
+  },
+  "rule_faults": {
+   "total": 12,
+   "counts": {
+    "Minimum feature size violation (GDS3< 350nm)": 1,
+    "Minimum gap violation (GDS3<200nm)": 1,
+    "Minimum feature size violation (GDS4< 200nm)": 1,
+    "Minimum gap violation (GDS4<350nm)": 1,
+    "Minimum feature size violation (GDS5< 250nm)": 1,
+    "Minimum gap violation (GDS5<250nm)": 1,
+    "Minimum feature size violate (GDS39<600nm)": 1,
+    "Minimum gap violate (GDS39<10micro)": 1,
+    "Minimum feature size violate (GDS41<2micro)": 1,
+    "Minimum gap violate (GDS41<10micro)": 1,
+    "Minimum feature size violate (GDS100<250nm)": 1,
+    "Minimum gap violate (GDS100<250nm)": 1
+   },
+   "n_rules": 30,
+   "sha256": "599a015fe5b2e9cdd9ad3809b3d59a966f6d06f0700483c08b72ebff43db1f0e"
+  },
+  "edge_cases": {
+   "total": 9,
+   "counts": {
+    "Minimum feature size violation (GDS3< 350nm)": 3,
+    "Minimum gap violation (GDS3<200nm)": 2,
+    "Minimum gap violate (GDS39<10micro)": 1,
+    "Minimum gap violate (GDS41<10micro)": 3
+   },
+   "n_rules": 26,
+   "sha256": "fee1d9016e04a2deb35d6e473d64d5611b8f3fb525323aa831250e7a59a881d5"
+  },
+  "signed_area_wrong": {
+   "total": 1,
+   "counts": {
+    "Correct design area violation": 1
+   },
+   "n_rules": 30,
+   "sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8"
+  }
+ },
+ "calibre": {
+  "signed": {
+   "counts": {
+    "GRID_3": 0,
+    "GRID_4": 0,
+    "GRID_5": 0,
+    "GRID_39": 0,
+    "GRID_41": 0,
+    "GRID_99": 0,
+    "GRID_100": 0,
+    "AREA_99": 0,
+    "W_3": 0,
+    "S_3": 0,
+    "W_4": 0,
+    "S_4": 0,
+    "W_5": 0,
+    "S_5": 0,
+    "W_39": 0,
+    "S_39": 0,
+    "W_41": 0,
+    "S_41": 0,
+    "W_100": 0,
+    "S_100": 0,
+    "USED_6": 0,
+    "USED_60": 0
+   },
+   "total": 0
+  },
+  "virtuoso_default": {
+   "counts": {
+    "GRID_3": 0,
+    "GRID_4": 0,
+    "GRID_5": 0,
+    "GRID_39": 0,
+    "GRID_41": 0,
+    "GRID_99": 0,
+    "GRID_100": 0,
+    "AREA_99": 0,
+    "W_3": 0,
+    "S_3": 0,
+    "W_4": 0,
+    "S_4": 0,
+    "W_5": 0,
+    "S_5": 0,
+    "W_39": 0,
+    "S_39": 0,
+    "W_41": 0,
+    "S_41": 0,
+    "W_100": 0,
+    "S_100": 0,
+    "USED_6": 0,
+    "USED_60": 0
+   },
+   "total": 0
+  },
+  "virtuoso_8191": {
+   "counts": {
+    "GRID_3": 0,
+    "GRID_4": 0,
+    "GRID_5": 0,
+    "GRID_39": 0,
+    "GRID_41": 0,
+    "GRID_99": 0,
+    "GRID_100": 0,
+    "AREA_99": 0,
+    "W_3": 0,
+    "S_3": 0,
+    "W_4": 0,
+    "S_4": 0,
+    "W_5": 0,
+    "S_5": 0,
+    "W_39": 0,
+    "S_39": 0,
+    "W_41": 0,
+    "S_41": 0,
+    "W_100": 0,
+    "S_100": 0,
+    "USED_6": 0,
+    "USED_60": 0
+   },
+   "total": 0
+  },
+  "rule_faults": {
+   "counts": {
+    "GRID_3": 0,
+    "GRID_4": 0,
+    "GRID_5": 0,
+    "GRID_39": 0,
+    "GRID_41": 0,
+    "GRID_99": 0,
+    "GRID_100": 0,
+    "AREA_99": 0,
+    "W_3": 1,
+    "S_3": 1,
+    "W_4": 1,
+    "S_4": 1,
+    "W_5": 1,
+    "S_5": 1,
+    "W_39": 1,
+    "S_39": 1,
+    "W_41": 1,
+    "S_41": 1,
+    "W_100": 1,
+    "S_100": 1,
+    "USED_6": 0,
+    "USED_60": 0
+   },
+   "total": 12
+  },
+  "edge_cases": {
+   "counts": {
+    "GRID_3": 0,
+    "GRID_4": 0,
+    "GRID_5": 0,
+    "GRID_39": 0,
+    "GRID_41": 0,
+    "GRID_99": 0,
+    "GRID_100": 0,
+    "AREA_99": 0,
+    "W_3": 3,
+    "S_3": 2,
+    "W_4": 0,
+    "S_4": 0,
+    "W_5": 0,
+    "S_5": 0,
+    "W_39": 0,
+    "S_39": 1,
+    "W_41": 0,
+    "S_41": 3,
+    "W_100": 0,
+    "S_100": 0,
+    "USED_6": 0,
+    "USED_60": 0
+   },
+   "total": 9
+  },
+  "signed_area_wrong": {
+   "counts": {
+    "GRID_3": 0,
+    "GRID_4": 0,
+    "GRID_5": 0,
+    "GRID_39": 0,
+    "GRID_41": 0,
+    "GRID_99": 0,
+    "GRID_100": 0,
+    "AREA_99": 1,
+    "W_3": 0,
+    "S_3": 0,
+    "W_4": 0,
+    "S_4": 0,
+    "W_5": 0,
+    "S_5": 0,
+    "W_39": 0,
+    "S_39": 0,
+    "W_41": 0,
+    "S_41": 0,
+    "W_100": 0,
+    "S_100": 0,
+    "USED_6": 0,
+    "USED_60": 0
+   },
+   "total": 1
+  }
+ },
+ "calibre_version": "v2026.1_17.11",
+ "rules": [
+  {
+   "check": "GRID_3",
+   "category": "3/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "GRID_4",
+   "category": "4/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "GRID_5",
+   "category": "5/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "GRID_39",
+   "category": "39/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "GRID_41",
+   "category": "41/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "GRID_99",
+   "category": "99/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "GRID_100",
+   "category": "100/0 grid violations",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "AREA_99",
+   "category": "Correct design area violation",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 1,
+   "kl_signed_area_wrong": 1
+  },
+  {
+   "check": "W_3",
+   "category": "Minimum feature size violation (GDS3< 350nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 16,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 3,
+   "kl_edge_cases": 3,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "S_3",
+   "category": "Minimum gap violation (GDS3<200nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 2,
+   "kl_edge_cases": 2,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "W_4",
+   "category": "Minimum feature size violation (GDS4< 200nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "S_4",
+   "category": "Minimum gap violation (GDS4<350nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "W_5",
+   "category": "Minimum feature size violation (GDS5< 250nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "S_5",
+   "category": "Minimum gap violation (GDS5<250nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "W_39",
+   "category": "Minimum feature size violate (GDS39<600nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "S_39",
+   "category": "Minimum gap violate (GDS39<10micro)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 1,
+   "kl_edge_cases": 1,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "W_41",
+   "category": "Minimum feature size violate (GDS41<2micro)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "S_41",
+   "category": "Minimum gap violate (GDS41<10micro)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 3,
+   "kl_edge_cases": 3,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "W_100",
+   "category": "Minimum feature size violate (GDS100<250nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "S_100",
+   "category": "Minimum gap violate (GDS100<250nm)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 1,
+   "kl_rule_faults": 1,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "USED_6",
+   "category": "GDS6 present (its rules are not translated)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  },
+  {
+   "check": "USED_60",
+   "category": "GDS60 present (its rules are not translated)",
+   "cal_signed": 0,
+   "kl_signed": 0,
+   "cal_virtuoso_default": 0,
+   "kl_virtuoso_default": 0,
+   "cal_virtuoso_8191": 0,
+   "kl_virtuoso_8191": 0,
+   "cal_rule_faults": 0,
+   "kl_rule_faults": 0,
+   "cal_edge_cases": 0,
+   "kl_edge_cases": 0,
+   "cal_signed_area_wrong": 0,
+   "kl_signed_area_wrong": 0
+  }
+ ],
+ "not_translated": [
+  "Minimum feature size vilation (GDS60<60 nm)",
+  "Minimum feature size violation (GDS60 short than max feature length)",
+  "Minimum gap violation (GDS60<60nm)",
+  "Minimum overlap violation (GDS60 in GDS3 <200nm)",
+  "Minimum feature size violation (GDS6< 200nm)",
+  "Minimum feature size violation (GDS6< 350nm and short than max feature length)",
+  "Minimum gap violation (GDS6 < 250 nm)",
+  "Minimum overlap violation (GDS6 in GDS3 <200nm)",
+  "aviode overlapping GDS6 and GDS39",
+  "aviode overlapping GDS6 and GDS41"
+ ],
+ "cases": [
+  {
+   "id": "C1",
+   "desc": "線寬 0.300 µm",
+   "layer": 3,
+   "kind": "width",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  },
+  {
+   "id": "C2",
+   "desc": "線寬 0.349 µm（＝門檻）",
+   "layer": 3,
+   "kind": "width",
+   "expect": false,
+   "klayout": 0,
+   "klayout_m3s2": 0,
+   "calibre": 0,
+   "independent": 0
+  },
+  {
+   "id": "C3",
+   "desc": "線寬 0.348 µm",
+   "layer": 3,
+   "kind": "width",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  },
+  {
+   "id": "C4",
+   "desc": "間距 0.199 µm（＝門檻）",
+   "layer": 3,
+   "kind": "space",
+   "expect": false,
+   "klayout": 0,
+   "klayout_m3s2": 0,
+   "calibre": 0,
+   "independent": 0
+  },
+  {
+   "id": "C5",
+   "desc": "間距 0.150 µm",
+   "layer": 3,
+   "kind": "space",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  },
+  {
+   "id": "C6",
+   "desc": "楔形尖端，頂角 20°",
+   "layer": 3,
+   "kind": "width",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  },
+  {
+   "id": "C7",
+   "desc": "楔形尖端，頂角 60°",
+   "layer": 3,
+   "kind": "width",
+   "expect": null,
+   "klayout": 0,
+   "klayout_m3s2": 0,
+   "calibre": 0,
+   "independent": 0
+  },
+  {
+   "id": "C8",
+   "desc": "同一圖形內的窄縫 0.15 µm（U 形）",
+   "layer": 3,
+   "kind": "space",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  },
+  {
+   "id": "C9",
+   "desc": "金屬方塊對角，角對角 8.49 µm",
+   "layer": 41,
+   "kind": "space",
+   "expect": null,
+   "klayout": 2,
+   "klayout_m3s2": 2,
+   "calibre": 2,
+   "independent": 2
+  },
+  {
+   "id": "C10",
+   "desc": "金屬方塊錯開，平行邊距 9 µm、只重疊 2 µm",
+   "layer": 41,
+   "kind": "space",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  },
+  {
+   "id": "C11",
+   "desc": "TiN 兩條線間距 9.5 µm",
+   "layer": 39,
+   "kind": "space",
+   "expect": true,
+   "klayout": 1,
+   "klayout_m3s2": 1,
+   "calibre": 1,
+   "independent": 1
+  }
+ ],
+ "chop_figure": {
+  "cell": "WG0002",
+  "points": 727,
+  "pieces_default": 6,
+  "pieces_8191": 1,
+  "markers_in_cell": 4
+ },
+ "seam": {
+  "markers": 16,
+  "sites": [
+   [
+    -760.0,
+    -206.3
+   ],
+   [
+    -760.0,
+    69.4
+   ],
+   [
+    -760.0,
+    293.7
+   ],
+   [
+    -660.0,
+    -181.4
+   ],
+   [
+    -660.0,
+    100.6
+   ],
+   [
+    -660.0,
+    318.6
+   ],
+   [
+    2256.0,
+    -340.2
+   ],
+   [
+    2256.0,
+    219.6
+   ]
+  ],
+  "modes": {
+   "flat": {
+    "as_is": 0,
+    "merged": 0,
+    "raw": 16,
+    "fresh_before_raw_call": 0,
+    "after_raw_sized_call": 16
+   },
+   "deep": {
+    "as_is": 0,
+    "merged": 0,
+    "raw": 16,
+    "fresh_before_raw_call": 0,
+    "after_raw_sized_call": 16
+   }
+  },
+  "lengths_um": [
+   0.512,
+   0.583,
+   0.595,
+   0.612,
+   0.613,
+   0.695,
+   0.696
+  ]
+ },
+ "inputs": {
+  "signed": {
+   "file": "b7_chip_checked.gds",
+   "design_area_um": [
+    3876.0,
+    1200.0
+   ]
+  },
+  "virtuoso_default": {
+   "file": "out_default.gds",
+   "design_area_um": [
+    3876.0,
+    1200.0
+   ]
+  },
+  "virtuoso_8191": {
+   "file": "out_8191.gds",
+   "design_area_um": [
+    3876.0,
+    1200.0
+   ]
+  },
+  "rule_faults": {
+   "file": "drc_rules_fault.gds",
+   "design_area_um": [
+    3876.0,
+    1200.0
+   ]
+  },
+  "edge_cases": {
+   "file": "edge_cases.gds",
+   "design_area_um": null
+  },
+  "signed_area_wrong": {
+   "file": "b7_chip_checked.gds",
+   "design_area_um": [
+    3776.0,
+    1200.0
+   ]
+  }
+ },
+ "svrf_sha256": "f549426a5c2a43fe96e2ab12a7bd118665736cf1e661fd64e378aad93e8c10ed",
+ "all_ok": true
+}

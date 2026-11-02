@@ -1,0 +1,18 @@
+# 對照實驗：同一份預設匯出 GDS，GDS 3 線寬檢查在不同模式下的標記數。
+# 最後一組重現規則檔的寫法：先呼叫 layer.raw.sized(...)（規則檔第 116 行），再做線寬檢查。
+# 用法：klayout_app -b -r seam_modes.drc -rd input=<GDS> -rd out=<txt>
+source($input)
+res = []
+[["flat", false], ["deep", true]].each do |mode, d|
+  d ? deep : flat
+  l = polygons(3, 0)
+  res << "#{mode} as_is #{l.width(0.349.um, angle_limit(45)).count}"
+  res << "#{mode} merged #{l.merged.width(0.349.um, angle_limit(45)).count}"
+  res << "#{mode} raw #{l.raw.width(0.349.um, angle_limit(45)).count}"
+  l2 = polygons(3, 0)
+  res << "#{mode} fresh_before_raw_call #{l2.width(0.349.um, angle_limit(45)).count}"
+  l2.raw.sized(0.2.um)
+  res << "#{mode} after_raw_sized_call #{l2.width(0.349.um, angle_limit(45)).count}"
+  res << "#{mode} polygons #{l.count} merged_polygons #{l.merged.count}"
+end
+File.open($out, "w") { |f| f.puts res }

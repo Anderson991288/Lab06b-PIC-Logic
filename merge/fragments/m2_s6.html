@@ -1,0 +1,16 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>主線一次通過；實作 B 抓到真的違規並修正</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>平台 DRC</td><td>30 類規則 0 筆；GDS 不改直接凍結</td><td>31 類（多一個文字層格點類別）。初跑 <b>2 筆</b>：GDS 100 埠標籤的間隙，位置 (−53.5, 2.2) 與 (2065.3, 2.2)。標籤由 4 µm 放大到 5 µm 後 0 筆；六個實體圖層 XOR 為空，證明只改了標籤。</td></tr>
+<tr><td>規則有效性</td><td>12 條用到的規則各注入 1 個違規，12/12 都觸發；設計區宣告錯誤也觸發</td><td>沒有逐條證明</td></tr>
+<tr><td>光路連接</td><td>14 個 MMI、7 顆 MZI、33 條波導、9/9 連線、10/10 埠</td><td>MMI 當黑盒：66 個端點組成 33 條連線（14 條 MZI 內、19 條其他），全部列出</td></tr>
+<tr><td>電氣</td><td>16 個網路；TiN heater 111.11 方塊</td><td>15 個網路（接地設計不同）</td></tr>
+<tr><td>故障 GDS</td><td>6 個都被抓到</td><td>8 個都被抓到，其中 4 個 DRC 是 0 筆（短路、斷路、光路斷、光路橋接）</td></tr></table>
+<p>兩套都得到 33 條光路連線。實作 B 的「4 個故障 DRC 完全看不到」和主線的結論相同：DRC 只管幾何規則，連接錯了要靠 LVS 與電氣檢查。</p>
+
+<h3>值得一起看：真的違規怎麼修</h3>
+<p>實作 B 的修法只動標籤，並用六層 XOR 證明實體圖形沒變，這是「修 DRC 時要證明沒有改到別的東西」的好例子。注意標籤大小是不是要求，取決於平台規則；兩套對這一點的處理不同（主線的標籤一開始就沒有觸發），換平台時要重新確認。</p>
+<figure><img src="figures_b/m2_s6/label_fix.png" alt="標籤修正前後" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>埠標籤修正前後與 DRC 標記位置。由 <a href="../impl_b/work/m2_s6/plot_verification.py"><code>plot_verification.py</code></a> 產生。</figcaption></figure>
+<figure><img src="figures_b/m2_s6/controls.png" alt="8 個故障 GDS 的 DRC 筆數與網表結果" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>8 個故障 GDS：DRC 筆數與網表比對結果。DRC 為 0 的 4 個，都靠網表比對抓到。</figcaption></figure>

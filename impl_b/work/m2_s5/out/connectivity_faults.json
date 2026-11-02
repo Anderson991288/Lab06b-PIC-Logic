@@ -1,0 +1,34 @@
+[
+  {
+    "name": "signal_GND_short",
+    "type": "actual_fault_GDS",
+    "detected": true,
+    "metal_nets": 14,
+    "failed_checks": [
+      "fifteen_metal_nets",
+      "all_PAD_A_and_B_GND",
+      "each_heater_touches_two_correct_nets"
+    ],
+    "gds_sha256": "5f4f3f0bc3ceaf8163f0225549ae4d7d50c36b85479c3c40b44b81b2bcb6bcc8"
+  },
+  {
+    "name": "theta1_return_open",
+    "type": "actual_fault_GDS",
+    "detected": true,
+    "metal_nets": 16,
+    "failed_checks": [
+      "fifteen_metal_nets",
+      "all_PAD_A_and_B_GND",
+      "each_heater_touches_two_correct_nets"
+    ],
+    "gds_sha256": "e54df071d456b9ec08325711a494317065a8df857bbe30db8f2a4446d9027544"
+  },
+  {
+    "name": "theta1_A_B_mapping_swapped",
+    "type": "sidecar_fault_only",
+    "detected": true,
+    "failed_checks": [
+      "all_PAD_A_and_B_GND"
+    ]
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "step": "M2 S2",
+  "timestamp": "2026-11-01T10:09:08.089167+08:00",
+  "root": "C:\\LAB\\Lab06b\\impl_b",
+  "engine": "IPKISS CircuitModel / Caphe get_smatrix(validate_netlist=True)",
+  "wavelength_um": 1.55,
+  "passed": 80,
+  "total": 80,
+  "functions": [
+    {
+      "gate": "AND2",
+      "max_abs_U_error": 2.482534153247273e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 2.2887833992611187e-16,
+      "max_unitarity_error": 1.3322676295501878e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 2.1153791826500017,
+      "worst_pattern": "1000",
+      "max_abs_delta_error": 6.217248937900877e-15
+    },
+    {
+      "gate": "OR2",
+      "max_abs_U_error": 2.482534153247273e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 2.297444613877834e-16,
+      "max_unitarity_error": 1.3322676295501878e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 2.120502406246192,
+      "worst_pattern": "1000",
+      "max_abs_delta_error": 7.105427357601002e-15
+    },
+    {
+      "gate": "XOR2",
+      "max_abs_U_error": 2.5589376332604516e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 3.1401849173675503e-16,
+      "max_unitarity_error": 1.5543122344752192e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 0.24999999999994882,
+      "worst_pattern": "1111",
+      "max_abs_delta_error": 4.440892098500626e-16
+    },
+    {
+      "gate": "AND4",
+      "max_abs_U_error": 1.6782945342419286e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 3.908020529499657e-16,
+      "max_unitarity_error": 1.3322676295501878e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 1.4960282008586585,
+      "worst_pattern": "1101",
+      "max_abs_delta_error": 4.440892098500626e-15
+    },
+    {
+      "gate": "OR4",
+      "max_abs_U_error": 1.8875832159447664e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 2.2887833992611187e-16,
+      "max_unitarity_error": 1.1102230246251565e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 1.4998553450018046,
+      "worst_pattern": "0100",
+      "max_abs_delta_error": 7.105427357601002e-15
+    }
+  ],
+  "max_abs_U_error": 2.5589376332604516e-16,
+  "max_abs_delta_error": 7.105427357601002e-15,
+  "unit_tests": {
+    "run": 10,
+    "passed": 10,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "PDK_cell_and_upper_port",
+      "passed": true
+    },
+    {
+      "name": "MMI_default_H",
+      "passed": true
+    },
+    {
+      "name": "four_single_MZIs",
+      "passed": true
+    },
+    {
+      "name": "five_complex_matrices",
+      "passed": true
+    },
+    {
+      "name": "eighty_truths",
+      "passed": true
+    },
+    {
+      "name": "power_differences",
+      "passed": true
+    },
+    {
+      "name": "power_conservation",
+      "passed": true
+    },
+    {
+      "name": "full_reflection_blocks",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_and_unitary",
+      "passed": true
+    },
+    {
+      "name": "all_eighty_unique",
+      "passed": true
+    },
+    {
+      "name": "CSV_round_trip",
+      "passed": true
+    },
+    {
+      "name": "five_controlled_errors_detected",
+      "passed": true
+    },
+    {
+      "name": "M1_sources_and_zip_unchanged",
+      "passed": true
+    }
+  ],
+  "pdk_audit": {
+    "pdk_version": "2.6.luceda1",
+    "ipkiss_version": "2026.03.3",
+    "python": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+    "pdk_module": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\__init__.py",
+    "cell": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
+    "compact_model": "picazzo3.logical.coupler.cell.Coupler2x2Model",
+    "parameters": {
+      "back_coupling_in": [
+        0.0,
+        0.0
+      ],
+      "back_coupling_out": [
+        0.0,
+        0.0
+      ],
+      "reflection_in1": [
+        0.0,
+        0.0
+      ],
+      "reflection_in2": [
+        0.0,
+        0.0
+      ],
+      "reflection_out1": [
+        0.0,
+        0.0
+      ],
+      "reflection_out2": [
+        0.0,
+        0.0
+      ],
+      "straight_coupling1": [
+        0.7071067811865476,
+        0.0
+      ],
+      "straight_coupling2": [
+        0.7071067811865476,
+        0.0
+      ],
+      "cross_coupling1": [
+        0.0,
+        0.7071067811865476
+      ],
+      "cross_coupling2": [
+        0.0,
+        0.7071067811865476
+      ]
+    },
+    "source_files": [
+      {
+        "path": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1\\ipkiss\\cornerstone\\components\\cornerstone_components220.py",
+        "sha256": "48890a56d3a56da86097ccc1e8ce7d51e45f9c4ff4cf3bab4cb266c872ac88dc"
+      },
+      {
+        "path": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\Lib\\site-packages\\picazzo3\\logical\\coupler\\cell.py",
+        "sha256": "dbaea503a2615266ca0fe4675ec3a4aebdee2d49aac2ba10e34048fd103e117f"
+      }
+    ],
+    "ports": [
+      {
+        "name": "in1",
+        "x_um": -20.0,
+        "y_um": -1.0149999999999975
+      },
+      {
+        "name": "in2",
+        "x_um": -20.0,
+        "y_um": 1.0150000000000023
+      },
+      {
+        "name": "out1",
+        "x_um": 62.5,
+        "y_um": -1.015
+      },
+      {
+        "name": "out2",
+        "x_um": 62.5,
+        "y_um": 1.015
+      }
+    ],
+    "forward_upper_lower": [
+      [
+        [
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          0.0,
+          0.7071067811865476
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.7071067811865476
+        ],
+        [
+          0.7071067811865476,
+          0.0
+        ]
+      ]
+    ],
+    "max_abs_H_error": 1.1102230246251565e-16,
+    "interpretation": "Installed PDK inherits default ideal Coupler2x2Model. Agreement validates circuit semantics, not measured loss, fabrication tolerance, bandwidth or thermal calibration."
+  },
+  "controlled_errors": [
+    {
+      "name": "phi_on_wrong_input",
+      "gate": "XOR2",
+      "max_abs_U_error": 1.96883949695427,
+      "detected": true,
+      "engine": "Caphe"
+    },
+    {
+      "name": "theta_phi_vector_swapped",
+      "gate": "XOR2",
+      "max_abs_U_error": 1.1480331626947191,
+      "detected": true,
+      "engine": "Caphe"
+    },
+    {
+      "name": "theta_sign_reversed",
+      "gate": "XOR2",
+      "max_abs_U_error": 1.3539574802126635,
+      "detected": true,
+      "engine": "Caphe"
+    },
+    {
+      "name": "discard_each_MZI_global_phase",
+      "gate": "XOR2",
+      "max_abs_U_error": 1.9666485383410641,
+      "detected": true,
+      "engine": "NumPy controlled variant"
+    },
+    {
+      "name": "receiver_polarity_reversed",
+      "failed": 80,
+      "detected": true,
+      "engine": "CSV receiver variant"
+    }
+  ],
+  "M1_sources_and_zip_unchanged": true,
+  "source_hashes": {
+    "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+    "work/common/pdk_circuit.py": "ff237fc9a2b6b5d84b84ec8253427c5e1fabff9dc471a13226eb0c2b8c5b4428",
+    "work/m2_s2/run_pdk.py": "1759bebd71dd9a6a55f9f68c922d83567a7d74d8e3170f4695574aadfae20b9a",
+    "work/m2_s2/test_pdk_circuit.py": "bf660aeefe1656d299c0175b35bdd4d370e54d0f0c71723a1b3993499a4ecee5"
+  },
+  "scope": "14 actual CORNERSTONE MMI instances, 14 custom ideal phase cells, zero-length ideal links; default ideal MMI model. No layout propagation, EC, electrical heater calibration, fabrication tolerances, bandwidth or DRC verification.",
+  "core_passed": true
+}

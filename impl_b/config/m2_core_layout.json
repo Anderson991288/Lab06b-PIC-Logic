@@ -1,0 +1,17 @@
+{
+  "schema": "lab06b.m2_core_layout.v1",
+  "m1_spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+  "units": "um",
+  "pitch": 30.0,
+  "s_bend_length": 20.0,
+  "s_bend_stub": 0.5,
+  "s_bend_samples": 41,
+  "phase_region_length": 122.0,
+  "heater_length": 100.0,
+  "heater_width": 0.9,
+  "landing_width": 10.0,
+  "metal_overlap": 1.0,
+  "lead_length": 60.0,
+  "core_frame": [-80.0, -160.0, 2120.0, 60.0],
+  "scope": "Initial B7 core with local heater and contact geometry. No EC, probe PAD fanout, electrical return routing or calibrated heater model."
+}

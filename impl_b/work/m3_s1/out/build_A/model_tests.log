@@ -1,0 +1,17 @@
+test_asymmetric_arm_length_compensation (fresh_model_tests.BackannotationTests.test_asymmetric_arm_length_compensation) ... ok
+test_duplicate_path_rejected (fresh_model_tests.BackannotationTests.test_duplicate_path_rejected) ... ok
+test_exact_one_cm_loss_conversion (fresh_model_tests.BackannotationTests.test_exact_one_cm_loss_conversion) ... ok
+test_gauge_compensation_full_complex_law (fresh_model_tests.BackannotationTests.test_gauge_compensation_full_complex_law) ... ok
+test_lossless_unitarity_with_lengths (fresh_model_tests.BackannotationTests.test_lossless_unitarity_with_lengths) ... ok
+test_missing_path_rejected (fresh_model_tests.BackannotationTests.test_missing_path_rejected) ... ok
+test_nonfinite_path_rejected (fresh_model_tests.BackannotationTests.test_nonfinite_path_rejected) ... ok
+test_passive_loss_does_not_amplify (fresh_model_tests.BackannotationTests.test_passive_loss_does_not_amplify) ... ok
+test_phase_sign_one_quarter_cycle (fresh_model_tests.BackannotationTests.test_phase_sign_one_quarter_cycle) ... ok
+test_physical_qualification_not_inferred (fresh_model_tests.BackannotationTests.test_physical_qualification_not_inferred) ... ok
+test_wrong_reference_plane_rejected (fresh_model_tests.BackannotationTests.test_wrong_reference_plane_rejected) ... ok
+test_zero_propagation_matches_original_complex_matrix (fresh_model_tests.BackannotationTests.test_zero_propagation_matches_original_complex_matrix) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.031s
+
+OK

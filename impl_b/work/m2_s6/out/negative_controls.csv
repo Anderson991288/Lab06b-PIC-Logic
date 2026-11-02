@@ -1,0 +1,9 @@
+﻿case,target,detected,pre_DRC_records,electrical_passed,optical_passed,metal_nets,optical_routes
+D1_Si_width,drc,True,1,True,False,15,34
+D2_grid,drc,True,4,True,False,15,34
+D3_HT_gap,drc,True,1,False,True,15,33
+D4_PAD_width,drc,True,1,False,True,16,33
+E1_signal_ground_short,electrical,True,0,False,True,14,33
+E2_return_open,electrical,True,0,False,True,16,33
+O1_lead_open,optical,True,0,True,False,15,34
+O2_optical_bridge,optical,True,0,True,False,15,32

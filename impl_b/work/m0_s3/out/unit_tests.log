@@ -1,0 +1,23 @@
+test_b7_80_cases_against_boolean_truth_and_saved_complex_U (optical_test_module.OpticalModels.test_b7_80_cases_against_boolean_truth_and_saved_complex_U) ... ok
+test_closed_form_complex_regression (optical_test_module.OpticalModels.test_closed_form_complex_regression) ... ok
+test_complex_phase_periodicity (optical_test_module.OpticalModels.test_complex_phase_periodicity) ... ok
+test_effective_index_phase_and_units (optical_test_module.OpticalModels.test_effective_index_phase_and_units) ... ok
+test_exact_switch_and_split_matrices (optical_test_module.OpticalModels.test_exact_switch_and_split_matrices) ... ok
+test_global_phase_invariance (optical_test_module.OpticalModels.test_global_phase_invariance) ... ok
+test_insertion_loss_is_power_db (optical_test_module.OpticalModels.test_insertion_loss_is_power_db) ... ok
+test_inverse_bar_fraction (optical_test_module.OpticalModels.test_inverse_bar_fraction) ... ok
+test_lower_first_adapter_matches_s2_convention (optical_test_module.OpticalModels.test_lower_first_adapter_matches_s2_convention) ... ok
+test_mmi_quadrature_and_unitarity (optical_test_module.OpticalModels.test_mmi_quadrature_and_unitarity) ... ok
+test_no_input_or_constant_mutation (optical_test_module.OpticalModels.test_no_input_or_constant_mutation) ... ok
+test_nonadjacent_embedding_and_order (optical_test_module.OpticalModels.test_nonadjacent_embedding_and_order) ... ok
+test_parameter_guards (optical_test_module.OpticalModels.test_parameter_guards) ... ok
+test_phi_single_input_power_and_two_input_interference (optical_test_module.OpticalModels.test_phi_single_input_power_and_two_input_interference) ... ok
+test_readout_boundary_has_no_valid_bit (optical_test_module.OpticalModels.test_readout_boundary_has_no_valid_bit) ... ok
+test_scalar_path_replay_matches_matrix (optical_test_module.OpticalModels.test_scalar_path_replay_matches_matrix) ... ok
+test_trace_and_propagation_agree (optical_test_module.OpticalModels.test_trace_and_propagation_agree) ... ok
+test_unitarity_with_coupler_imbalance (optical_test_module.OpticalModels.test_unitarity_with_coupler_imbalance) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.076s
+
+OK

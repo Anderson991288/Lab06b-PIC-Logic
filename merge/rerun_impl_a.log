@@ -1,0 +1,26 @@
+﻿prepared C:\LAB\Lab06b\impl_a\work\m3_s1\out\rebuild 12 archived Meep files
+M0 s2  m0_s2/collect_reference.py       rc=0     0.3s 
+M0 s2  m0_s2/waveguide_modes.py         rc=0   253.9s 
+M0 s2  m0_s2/export_mmi.py              rc=0     1.5s 
+M0 s2  m0_s2/analyze_fields.py          rc=0     3.4s 
+M0 s3  m0_s3/run_tests.py               rc=0     1.2s 
+M1 s1  m1_s1/encode_logic.py            rc=0     1.6s 
+M1 s2  m1_s2/collect_reference.py       rc=0     0.2s 
+M1 s2  m1_s2/build_b7.py                rc=0     1.2s 
+M1 s3  m1_s3/readout_calc.py            rc=0     1.3s 
+M1 s4  m1_s4/collect_phases.py          rc=0     0.2s 
+M1 s4  m1_s4/logic_gates.py             rc=0    52.3s 
+M1 s5  m1_s5/make_spec.py               rc=0     0.7s 
+M1 s5  m1_s5/check_spec.py              rc=0     0.3s 
+M2 s1  m2_s1/pic_boundary.py            rc=0     5.3s 
+M2 s2  m2_s2/simulate.py                rc=0    23.9s 
+M2 s3  m2_s3/build_layout.py            rc=0    27.3s 
+M2 s4  m2_s4/review_layout.py           rc=0     1.8s 
+M2 s5  m2_s5/build_chip.py              rc=0    23.6s 
+M2 s6  m2_s6/verify_chip.py             rc=0    10.0s 
+M2 s7  m2_s7/package.py                 rc=0     5.9s 
+compare {'identical': 70, 'equivalent': 52, 'different': 4} [('work/m0_s2/out/m0_s2_result.json', '/date（2026-10-31 vs 2026-11-01）'), ('work/m0_s2/out/modes.json', '/date（2026-10-31 vs 2026-11-01）'), ('work/m2_s7/out/PIC_delivery/manifest.json', '/files[44]/sha256（8fea7302f260d112f4cd3e19346271b1f397b861 vs 49f3afbc407d79c28e948cc67c6759a694338306）；/files[44]/size（6392 vs 6394）'), ('work/m2_s7/out/PIC_delivery/source/work/m0_s2/out/m0_s2_result.json', '/date（2026-10-31 vs 2026-11-01）')]
+key {'phase_sha_same': True, 'truth_rows': 80, 'truth_max_dp_diff': 0.0, 'truth_bits_same': True, 'chip_rows_ok': 80, 'chip_all_wl': True, 'gds_same': True, 'signoff_ok': True, 'delivery_ok': True, 'new_gds_sha': '36c0b399c55b9ebf4ae79f8ef486536ed6a5e830e0f777099f8590de7977b75a', 'n_eff': 2.353205326025475, 'n_g': 4.146745052102793}
+tamper {'phase_file': {'stopped': True, 'message': 'AssertionError: 相位檔與規格的 SHA-256 不符'}, 'comparator': {'found': ['/rows[37]/delta（0.25000000000002465 vs 0.2500010000000246）']}}
+all_ok False total 418.5 s
+exit=0

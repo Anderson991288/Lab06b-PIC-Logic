@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "fresh_OA": true,
+  "prepared_from": "Original immutable S6 GDS + annotation algorithm + unchanged rules; no existing OA or exported GDS carried into replay",
+  "stage": "clean_replay_20261031_165124",
+  "physical_and_label_geometry": "Final replay matches delivered candidate on all seven layers; original source 8191 XOR0; 200 XOR25744 nm2",
+  "pre_DRC": [
+    {
+      "file": "source_200.gds",
+      "records": 8
+    },
+    {
+      "file": "source_8191.gds",
+      "records": 0
+    },
+    {
+      "file": "final.gds",
+      "records": 0
+    }
+  ],
+  "calibre": [
+    {
+      "name": "source",
+      "checks": 16,
+      "total": 27,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "name": "final",
+      "checks": 16,
+      "total": 0,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 0
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 0
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "negative",
+      "checks": 16,
+      "total": 16,
+      "rules": [
+        {
+          "rule": "CS60_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS60_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS6_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS6_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS3_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS3_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS4_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS4_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS5_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS5_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS39_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS39_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS41_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS41_SPACE",
+          "count": 1
+        },
+        {
+          "rule": "CS100_WIDTH",
+          "count": 1
+        },
+        {
+          "rule": "CS100_SPACE",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "connectivity": {
+    "passed": true,
+    "metal_nets": 15,
+    "heater_branches": 14,
+    "optical_connections": 33
+  },
+  "raw_SHA_equality_required": false,
+  "reason": "Native export/rebuild timestamps vary; geometry/cell-name/TEXT comparison used in addition to retained raw hashes",
+  "D_writes": false
+}

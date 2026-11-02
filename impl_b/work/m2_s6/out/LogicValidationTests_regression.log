@@ -1,0 +1,23 @@
+test_all_80_truths_and_clearance (LogicValidationTests.LogicValidationTests.test_all_80_truths_and_clearance) ... ok
+test_all_patterns_and_display_order (LogicValidationTests.LogicValidationTests.test_all_patterns_and_display_order) ... ok
+test_boundary_is_not_valid_logic (LogicValidationTests.LogicValidationTests.test_boundary_is_not_valid_logic) ... ok
+test_catalog_full_precision_source (LogicValidationTests.LogicValidationTests.test_catalog_full_precision_source) ... ok
+test_catalog_guards (LogicValidationTests.LogicValidationTests.test_catalog_guards) ... ok
+test_class_counts_are_not_four_case_shortcuts (LogicValidationTests.LogicValidationTests.test_class_counts_are_not_four_case_shortcuts) ... ok
+test_energy_all_five_outputs (LogicValidationTests.LogicValidationTests.test_energy_all_five_outputs) ... ok
+test_independent_scalar_replay_all_patterns (LogicValidationTests.LogicValidationTests.test_independent_scalar_replay_all_patterns) ... ok
+test_missing_unused_combinations_cannot_pass (LogicValidationTests.LogicValidationTests.test_missing_unused_combinations_cannot_pass) ... ok
+test_no_mutation_and_invalid_parameters (LogicValidationTests.LogicValidationTests.test_no_mutation_and_invalid_parameters) ... ok
+test_phase_offsets_and_passive_loss (LogicValidationTests.LogicValidationTests.test_phase_offsets_and_passive_loss) ... ok
+test_reference_removal_exposes_failed_truths (LogicValidationTests.LogicValidationTests.test_reference_removal_exposes_failed_truths) ... ok
+test_signed_margin_not_absolute_difference (LogicValidationTests.LogicValidationTests.test_signed_margin_not_absolute_difference) ... ok
+test_summary_requires_epsilon_and_cases (LogicValidationTests.LogicValidationTests.test_summary_requires_epsilon_and_cases) ... ok
+test_swapped_ports_rejected_even_when_unitary (LogicValidationTests.LogicValidationTests.test_swapped_ports_rejected_even_when_unitary) ... ok
+test_truth_from_independent_index_sets (LogicValidationTests.LogicValidationTests.test_truth_from_independent_index_sets) ... ok
+test_unitarity_and_full_saved_complex_U (LogicValidationTests.LogicValidationTests.test_unitarity_and_full_saved_complex_U) ... ok
+test_unused_inputs_all_four_variants (LogicValidationTests.LogicValidationTests.test_unused_inputs_all_four_variants) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.413s
+
+OK

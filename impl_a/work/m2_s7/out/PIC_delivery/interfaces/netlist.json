@@ -1,0 +1,125 @@
+{
+ "note": "由 pic_spec.json 的 OPS 與光學埠自動產生；MZI 局部埠 in0/out0 為上臂（rail p，相位段所在）",
+ "spec_sha256": "044215e04b49d3342ea710c5c71428e66d29d3dc2aa7c2c4f5de1e125ec64de1",
+ "mzi_ports": {
+  "in0": "PDK MMI1 in2（上）經 φ",
+  "in1": "PDK MMI1 in1（下）",
+  "out0": "PDK MMI2 out2（上）",
+  "out1": "PDK MMI2 out1（下）"
+ },
+ "instances": [
+  {
+   "name": "M1",
+   "cell": "MZI",
+   "rails": [
+    0,
+    1
+   ],
+   "layer": 1
+  },
+  {
+   "name": "M2",
+   "cell": "MZI",
+   "rails": [
+    3,
+    4
+   ],
+   "layer": 1
+  },
+  {
+   "name": "M3",
+   "cell": "MZI",
+   "rails": [
+    1,
+    2
+   ],
+   "layer": 2
+  },
+  {
+   "name": "M4",
+   "cell": "MZI",
+   "rails": [
+    0,
+    1
+   ],
+   "layer": 3
+  },
+  {
+   "name": "M5",
+   "cell": "MZI",
+   "rails": [
+    2,
+    3
+   ],
+   "layer": 3
+  },
+  {
+   "name": "M6",
+   "cell": "MZI",
+   "rails": [
+    1,
+    2
+   ],
+   "layer": 4
+  },
+  {
+   "name": "M7",
+   "cell": "MZI",
+   "rails": [
+    3,
+    4
+   ],
+   "layer": 4
+  }
+ ],
+ "links": [
+  [
+   "M1:out1",
+   "M3:in0"
+  ],
+  [
+   "M1:out0",
+   "M4:in0"
+  ],
+  [
+   "M3:out0",
+   "M4:in1"
+  ],
+  [
+   "M3:out1",
+   "M5:in0"
+  ],
+  [
+   "M2:out0",
+   "M5:in1"
+  ],
+  [
+   "M4:out1",
+   "M6:in0"
+  ],
+  [
+   "M5:out0",
+   "M6:in1"
+  ],
+  [
+   "M5:out1",
+   "M7:in0"
+  ],
+  [
+   "M2:out1",
+   "M7:in1"
+  ]
+ ],
+ "external": {
+  "M1:in0": "in0",
+  "M1:in1": "in1",
+  "M2:in0": "in3",
+  "M2:in1": "in4",
+  "M3:in1": "in2",
+  "M4:out0": "out0",
+  "M6:out0": "out1",
+  "M6:out1": "out2",
+  "M7:out0": "out3",
+  "M7:out1": "out4"
+ }
+}

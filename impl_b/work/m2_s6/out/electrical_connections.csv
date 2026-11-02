@@ -1,0 +1,15 @@
+﻿channel,pad,pad_component,A_components,B_components,passed
+theta1,PAD_DRV00,[7],[7],[14],True
+theta2,PAD_DRV01,[1],[1],[14],True
+theta3,PAD_DRV02,[9],[9],[14],True
+theta4,PAD_DRV03,[11],[11],[14],True
+theta5,PAD_DRV04,[5],[5],[14],True
+theta6,PAD_DRV05,[13],[13],[14],True
+theta7,PAD_DRV06,[3],[3],[14],True
+phi1,PAD_DRV07,[6],[6],[14],True
+phi2,PAD_DRV08,[0],[0],[14],True
+phi3,PAD_DRV09,[8],[8],[14],True
+phi4,PAD_DRV10,[10],[10],[14],True
+phi5,PAD_DRV11,[4],[4],[14],True
+phi6,PAD_DRV12,[12],[12],[14],True
+phi7,PAD_DRV13,[2],[2],[14],True

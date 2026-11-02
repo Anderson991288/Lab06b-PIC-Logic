@@ -1,0 +1,2 @@
+Chip readback True metal nets 15 heater regions 14 rules [{'layer': 3, 'width_limit_um': 0.35, 'width_warnings': 0, 'space_limit_um': 0.2, 'space_warnings': 0}, {'layer': 39, 'width_limit_um': 0.6, 'width_warnings': 0, 'space_limit_um': 10, 'space_warnings': 0}, {'layer': 41, 'width_limit_um': 2, 'width_warnings': 0, 'space_limit_um': 10, 'space_warnings': 0}]
+

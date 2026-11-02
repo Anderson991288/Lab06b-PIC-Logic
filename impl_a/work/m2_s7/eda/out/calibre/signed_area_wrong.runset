@@ -1,0 +1,7 @@
+LAYOUT SYSTEM GDSII
+LAYOUT PATH "signed_area_wrong.gds"
+LAYOUT PRIMARY "*"
+DRC RESULTS DATABASE "signed_area_wrong.drc.results" ASCII
+DRC SUMMARY REPORT "signed_area_wrong.drc.summary"
+VARIABLE DESIGN_AREA 4531200
+INCLUDE "rules.svrf"

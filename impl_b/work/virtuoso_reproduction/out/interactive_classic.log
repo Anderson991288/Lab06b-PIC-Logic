@@ -1,0 +1,249 @@
+//  Calibre Interactive - DRC  v2026.1_17.11    Mon Jan 5 16:59:16 PST 2026
+//
+//                   Copyright Siemens 1996-2026
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//          WHICH IS THE PROPERTY OF SIEMENS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Siemens software executing under x86-64 Linux
+//
+//  Running on Linux eda.ic 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Sat Oct 31 16:44:15 2026
+//
+//  Warning: The default Calibre Interactive GUI (DRC/LVS/PERC/PEX) changed from classic Calibre Interactive to new Calibre Interactive, from 2022.1 release.
+//           Please contact your Calibre Application Engineers for information about switching to new Calibre Interactive.
+TITLE Calibre Interactive - nmDRC v2026.1_17.11
+WIDGET .menubar.file CLASS=Menubutton TEXT=File
+WIDGET .menubar.transcript CLASS=Menubutton TEXT=Transcript
+WIDGET .menubar.setup CLASS=Menubutton TEXT=Setup
+WIDGET .menubar.help CLASS=Menubutton TEXT=Help
+WIDGET .menubar.enewci CLASS=Label TEXT=Explore New Calibre Interactive
+WIDGET .left.controlf.rules CLASS=Button TEXT=Rules
+WIDGET .left.controlf.inputs CLASS=Button TEXT=Inputs
+WIDGET .left.controlf.outputs CLASS=Button TEXT=Outputs
+WIDGET .left.controlf.runcontrol CLASS=Button TEXT=Run Control
+WIDGET .left.controlf.transcript CLASS=Button TEXT=Transcript
+WIDGET .left.rundrcf.rundrc CLASS=Button TEXT=Run DRC
+WIDGET .left.runrvef.startrve CLASS=Button TEXT=Start RVE
+WIDGET .right.status.label CLASS=Label TEXT=
+WIDGET .right.content.rules_frame.rffrm.rf.entry CLASS=Entry TEXT=rules
+WIDGET .right.content.rules_frame.rffrm.rf.browsebtn CLASS=Button TEXT=...
+WIDGET .right.content.rules_frame.rffrm.rf.viewbtn CLASS=Button TEXT=View
+WIDGET .right.content.rules_frame.rffrm.rf.loadbtn CLASS=Button TEXT=Load
+WIDGET .right.content.rules_frame.rffrm.recf.label CLASS=Label TEXT=Check Selection Recipe:
+WIDGET .right.content.rules_frame.rffrm.recf.combo_recipe.e CLASS=Entry TEXT=  Checks selected in the rules file
+WIDGET .right.content.rules_frame.rffrm.recf.combo_recipe.a CLASS=ArrowButton TEXT=
+WIDGET .right.content.rules_frame.rffrm.recf.recipe_edit CLASS=Button TEXT=Edit...
+WIDGET .right.content.rules_frame.frameLABEL__1 CLASS=Label TEXT= DRC Rules File 
+WIDGET .right.content.rules_frame.runfrm.runf.rundir CLASS=Entry TEXT=.
+WIDGET .right.content.rules_frame.runfrm.runf.browse CLASS=Button TEXT=...
+WIDGET .right.content.rules_frame.frameLABEL__2 CLASS=Label TEXT= DRC Run Directory 
+WIDGET .right.content.rules_frame.finderFilterLabelF.expandableFrame CLASS=Labelframe TEXT=
+WIDGET .right.content.rules_frame.finderFilterLabelF.expandableFrame.expandableFrameLabel CLASS=Label TEXT= Layer Derivations
+WIDGET .right.content.rules_frame.finderFilterLabelF.expandableFrame.expandableFrameRImage CLASS=Label TEXT=
+WIDGET .msgDlg.top.msg CLASS=Label TEXT=Format error encountered in runset file "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/Lab06b_auto.runset": missing colon on line 3.
+The file is probably not a runset file.
+WIDGET .msgDlg.top.bitmap CLASS=Label TEXT=
+WIDGET .msgDlg.bot.button0 CLASS=Button TEXT=OK
+RUNSET_FUNCTIONS rdrc_run_drc rdrc_RunDRC
+TITLE Calibre Interactive - nmDRC v2026.1_17.11
+WIDGET .menubar.file CLASS=Menubutton TEXT=File
+WIDGET .menubar.transcript CLASS=Menubutton TEXT=Transcript
+WIDGET .menubar.setup CLASS=Menubutton TEXT=Setup
+WIDGET .menubar.help CLASS=Menubutton TEXT=Help
+WIDGET .menubar.enewci CLASS=Label TEXT=Explore New Calibre Interactive
+WIDGET .left.controlf.rules CLASS=Button TEXT=Rules
+WIDGET .left.controlf.inputs CLASS=Button TEXT=Inputs
+WIDGET .left.controlf.outputs CLASS=Button TEXT=Outputs
+WIDGET .left.controlf.runcontrol CLASS=Button TEXT=Run Control
+WIDGET .left.controlf.transcript CLASS=Button TEXT=Transcript
+WIDGET .left.rundrcf.rundrc CLASS=Button TEXT=Run DRC
+WIDGET .left.runrvef.startrve CLASS=Button TEXT=Start RVE
+WIDGET .right.status.label CLASS=Label TEXT=
+WIDGET .right.content.inputs_frame.ph.runFrm.l_run CLASS=Label TEXT=Run:
+WIDGET .right.content.inputs_frame.ph.runFrm.cbox_run CLASS=Menubutton TEXT=DRC (Hierarchical)
+WIDGET .right.content.inputs_frame.ph.icr.runICRMode CLASS=Checkbutton TEXT=Recon
+WIDGET .right.content.inputs_frame.ph.icr.runICRInverseMode CLASS=Checkbutton TEXT=Recon Inverse
+WIDGET .right.content.inputs_frame.ph.icr.runAnalyzeMode CLASS=Checkbutton TEXT=Analyze
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.label CLASS=Label TEXT=Format:
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.fbtn CLASS=Menubutton TEXT=GDSII
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.fromviewer CLASS=Checkbutton TEXT=Export from layout viewer
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.pickfromviewer CLASS=Button TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.lpfrm.label CLASS=Label TEXT=Layout File:
+WIDGET .right.content.inputs_frame.tabs.layout.lpfrm.textf CLASS=Entry TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.lpfrm.browsebtn CLASS=Button TEXT=...
+WIDGET .right.content.inputs_frame.tabs.layout.pcfrm.label CLASS=Label TEXT=Top Cell:
+WIDGET .right.content.inputs_frame.tabs.layout.pcfrm.entry CLASS=Entry TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvlf.libLabel CLASS=Label TEXT=Library Name:
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvlf.libEntry CLASS=Entry TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvvf.viewLabel CLASS=Label TEXT=View Name:
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvvf.viewEntry CLASS=Entry TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.dafrm1.dodrcarea CLASS=Checkbutton TEXT=Area:
+WIDGET .right.content.inputs_frame.tabs.layout.dafrm1.entry CLASS=Entry TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.dafrm1.getareafromviewer CLASS=Button TEXT=...
+WIDGET .msgDlg.top.msg CLASS=Label TEXT=Format error encountered in runset file "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/Lab06b_auto.runset": missing colon on line 3.
+The file is probably not a runset file.
+WIDGET .msgDlg.top.bitmap CLASS=Label TEXT=
+WIDGET .msgDlg.bot.button0 CLASS=Button TEXT=OK
+RUNSET_FUNCTIONS rdrc_run_drc rdrc_RunDRC
+//  mgc_s license acquired (calinteractive requested).
+//  Calibre Interactive authorized.
+VIEWER_CHECK_VAR rdrc_vars(LayoutGetFromViewer) VALUE=0
+RULE_CONFIG /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/rules/cornerstone_basic_draft.svrf DIR=/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/gui_auto
+RUN_CMD rdrc_run_drc . RVE_CMD cmn::onStartRVE drc .
+FILE_MENU 0 New Runset cmn::new_runset .
+FILE_MENU 1 Load Runset... cmn::load_runset .
+FILE_MENU 3 Save Runset cmn::save_runset . 0
+FILE_MENU 4 Save Runset As... cmn::save_runset . 1
+FILE_MENU 6 View Text File... cmn::open_text_file .
+FILE_MENU 7 Control File 
+FILE_MENU 9 Recent Runsets 
+FILE_MENU 11 Exit rdrc_AppExit .
+READY_LAYOUT lab06b_b7_ec_pad_chip.calibre.db TOP=lab06b_b7_ec_pad_chip EXPORT=1
+LAB_GUI_AUTO_RUN_START Sat Oct 31 16:45:50 CST 2026
+LAB_GUI_AUTO_RUN_INVOKED
+TITLE Calibre Interactive - nmDRC v2026.1_17.11
+WIDGET .menubar.file CLASS=Menubutton TEXT=File
+WIDGET .menubar.transcript CLASS=Menubutton TEXT=Transcript
+WIDGET .menubar.setup CLASS=Menubutton TEXT=Setup
+WIDGET .menubar.help CLASS=Menubutton TEXT=Help
+WIDGET .menubar.enewci CLASS=Label TEXT=Explore New Calibre Interactive
+WIDGET .left.controlf.rules CLASS=Button TEXT=Rules
+WIDGET .left.controlf.inputs CLASS=Button TEXT=Inputs
+WIDGET .left.controlf.outputs CLASS=Button TEXT=Outputs
+WIDGET .left.controlf.runcontrol CLASS=Button TEXT=Run Control
+WIDGET .left.controlf.transcript CLASS=Button TEXT=Transcript
+WIDGET .left.rundrcf.rundrc CLASS=Button TEXT=Run DRC
+WIDGET .left.runrvef.startrve CLASS=Button TEXT=Start RVE
+WIDGET .right.status.label CLASS=Label TEXT=
+WIDGET .right.content.run_frame.tabs.txtf.pw.transcriptf.txt CLASS=Text TEXT=
+WIDGET .right.content.run_frame.tabs.txtf.pw.transcriptf.b CLASS=Checkbutton TEXT=
+WIDGET .right.content.run_frame.tabs.txtf.pw.tabs.warning.warning.warninglist CLASS=Text TEXT=
+WIDGET .fileViewer1.mBar.file CLASS=Menubutton TEXT=File
+WIDGET .fileViewer1.mBar.edit CLASS=Menubutton TEXT=Edit
+WIDGET .fileViewer1.mBar.opts CLASS=Menubutton TEXT=Options
+WIDGET .fileViewer1.mBar.layout CLASS=Menubutton TEXT=Windows
+WIDGET .fileViewer1.top.f.t CLASS=Text TEXT=
+WIDGET .fileViewer1.top.f.status_bar.msg CLASS=Label TEXT=
+WIDGET .fileViewer1.top.f.status_bar.mode CLASS=Label TEXT=Edit
+WIDGET .fileViewer1.top.f.status_bar.row_l CLASS=Label TEXT=Row
+WIDGET .fileViewer1.top.f.status_bar.row CLASS=Label TEXT=1
+WIDGET .fileViewer1.top.f.status_bar.col_l CLASS=Label TEXT=Col
+WIDGET .fileViewer1.top.f.status_bar.col CLASS=Label TEXT=1
+RUNSET_FUNCTIONS rdrc_run_drc rdrc_RunDRC
+TITLE Calibre Interactive - nmDRC v2026.1_17.11
+WIDGET .menubar.file CLASS=Menubutton TEXT=File
+WIDGET .menubar.transcript CLASS=Menubutton TEXT=Transcript
+WIDGET .menubar.setup CLASS=Menubutton TEXT=Setup
+WIDGET .menubar.help CLASS=Menubutton TEXT=Help
+WIDGET .menubar.enewci CLASS=Label TEXT=Explore New Calibre Interactive
+WIDGET .left.controlf.rules CLASS=Button TEXT=Rules
+WIDGET .left.controlf.inputs CLASS=Button TEXT=Inputs
+WIDGET .left.controlf.outputs CLASS=Button TEXT=Outputs
+WIDGET .left.controlf.runcontrol CLASS=Button TEXT=Run Control
+WIDGET .left.controlf.transcript CLASS=Button TEXT=Transcript
+WIDGET .left.rundrcf.rundrc CLASS=Button TEXT=Run DRC
+WIDGET .left.runrvef.startrve CLASS=Button TEXT=Start RVE
+WIDGET .right.status.label CLASS=Label TEXT=
+WIDGET .right.content.run_frame.tabs.txtf.pw.transcriptf.txt CLASS=Text TEXT=
+WIDGET .right.content.run_frame.tabs.txtf.pw.transcriptf.b CLASS=Checkbutton TEXT=
+WIDGET .right.content.run_frame.tabs.txtf.pw.tabs.warning.warning.warninglist CLASS=Text TEXT=
+WIDGET .fileViewer1.mBar.file CLASS=Menubutton TEXT=File
+WIDGET .fileViewer1.mBar.edit CLASS=Menubutton TEXT=Edit
+WIDGET .fileViewer1.mBar.opts CLASS=Menubutton TEXT=Options
+WIDGET .fileViewer1.mBar.layout CLASS=Menubutton TEXT=Windows
+WIDGET .fileViewer1.top.f.t CLASS=Text TEXT=
+WIDGET .fileViewer1.top.f.status_bar.msg CLASS=Label TEXT=
+WIDGET .fileViewer1.top.f.status_bar.mode CLASS=Label TEXT=Edit
+WIDGET .fileViewer1.top.f.status_bar.row_l CLASS=Label TEXT=Row
+WIDGET .fileViewer1.top.f.status_bar.row CLASS=Label TEXT=1
+WIDGET .fileViewer1.top.f.status_bar.col_l CLASS=Label TEXT=Col
+WIDGET .fileViewer1.top.f.status_bar.col CLASS=Label TEXT=1
+WIDGET .getSaveFileNameDlg1.top.vc.entry CLASS=Entry TEXT=
+WIDGET .getSaveFileNameDlg1.top.vc.brsbtn CLASS=Button TEXT=...
+WIDGET .getSaveFileNameDlg1.top.frameLABEL__1 CLASS=Label TEXT= File Path 
+WIDGET .getSaveFileNameDlg1.buttons.action CLASS=Button TEXT=OK
+WIDGET .getSaveFileNameDlg1.buttons.close CLASS=Button TEXT=Cancel
+RUNSET_FUNCTIONS rdrc_run_drc rdrc_RunDRC
+LAB_GUI_FIXED_CONFIG EXPORT=0 FILE=/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/exports_final/B7_crosscad_final.gds TOP=LAB06B_B7_EC_PAD_CHIP
+LAB_GUI_FIXED_RUN_START Sat Oct 31 16:47:27 CST 2026
+LAB_GUI_FIXED_RUN_INVOKED
+TITLE Calibre Interactive - nmDRC v2026.1_17.11 : GUI_fixed_saved.runset
+WIDGET .menubar.file CLASS=Menubutton TEXT=File
+WIDGET .menubar.transcript CLASS=Menubutton TEXT=Transcript
+WIDGET .menubar.setup CLASS=Menubutton TEXT=Setup
+WIDGET .menubar.help CLASS=Menubutton TEXT=Help
+WIDGET .menubar.enewci CLASS=Label TEXT=Explore New Calibre Interactive
+WIDGET .left.controlf.rules CLASS=Button TEXT=Rules
+WIDGET .left.controlf.inputs CLASS=Button TEXT=Inputs
+WIDGET .left.controlf.outputs CLASS=Button TEXT=Outputs
+WIDGET .left.controlf.runcontrol CLASS=Button TEXT=Run Control
+WIDGET .left.controlf.transcript CLASS=Button TEXT=Transcript
+WIDGET .left.rundrcf.rundrc CLASS=Button TEXT=Run DRC
+WIDGET .left.runrvef.startrve CLASS=Button TEXT=Start RVE
+WIDGET .right.status.label CLASS=Label TEXT=
+WIDGET .right.content.inputs_frame.ph.runFrm.l_run CLASS=Label TEXT=Run:
+WIDGET .right.content.inputs_frame.ph.runFrm.cbox_run CLASS=Menubutton TEXT=DRC (Hierarchical)
+WIDGET .right.content.inputs_frame.ph.icr.runICRMode CLASS=Checkbutton TEXT=Recon
+WIDGET .right.content.inputs_frame.ph.icr.runICRInverseMode CLASS=Checkbutton TEXT=Recon Inverse
+WIDGET .right.content.inputs_frame.ph.icr.runAnalyzeMode CLASS=Checkbutton TEXT=Analyze
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.label CLASS=Label TEXT=Format:
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.fbtn CLASS=Menubutton TEXT=GDSII
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.fromviewer CLASS=Checkbutton TEXT=Export from layout viewer
+WIDGET .right.content.inputs_frame.tabs.layout.ipfrm.pickfromviewer CLASS=Button TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.lpfrm.label CLASS=Label TEXT=Layout File:
+WIDGET .right.content.inputs_frame.tabs.layout.lpfrm.textf CLASS=Entry TEXT=lab06b_b7_ec_pad_chip.calibre.db
+WIDGET .right.content.inputs_frame.tabs.layout.lpfrm.browsebtn CLASS=Button TEXT=...
+WIDGET .right.content.inputs_frame.tabs.layout.pcfrm.label CLASS=Label TEXT=Top Cell:
+WIDGET .right.content.inputs_frame.tabs.layout.pcfrm.entry CLASS=Entry TEXT=lab06b_b7_ec_pad_chip
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvlf.libLabel CLASS=Label TEXT=Library Name:
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvlf.libEntry CLASS=Entry TEXT=lab06b_crosscad_20261031
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvvf.viewLabel CLASS=Label TEXT=View Name:
+WIDGET .right.content.inputs_frame.tabs.layout.libViewf.lvvf.viewEntry CLASS=Entry TEXT=layout
+WIDGET .right.content.inputs_frame.tabs.layout.dafrm1.dodrcarea CLASS=Checkbutton TEXT=Area:
+WIDGET .right.content.inputs_frame.tabs.layout.dafrm1.entry CLASS=Entry TEXT=
+WIDGET .right.content.inputs_frame.tabs.layout.dafrm1.getareafromviewer CLASS=Button TEXT=...
+WIDGET .fileViewer1.mBar.file CLASS=Menubutton TEXT=File
+WIDGET .fileViewer1.mBar.edit CLASS=Menubutton TEXT=Edit
+WIDGET .fileViewer1.mBar.opts CLASS=Menubutton TEXT=Options
+WIDGET .fileViewer1.mBar.layout CLASS=Menubutton TEXT=Windows
+WIDGET .fileViewer1.top.f.t CLASS=Text TEXT=
+WIDGET .fileViewer1.top.f.status_bar.msg CLASS=Label TEXT=
+WIDGET .fileViewer1.top.f.status_bar.mode CLASS=Label TEXT=Edit
+WIDGET .fileViewer1.top.f.status_bar.row_l CLASS=Label TEXT=Row
+WIDGET .fileViewer1.top.f.status_bar.row CLASS=Label TEXT=1
+WIDGET .fileViewer1.top.f.status_bar.col_l CLASS=Label TEXT=Col
+WIDGET .fileViewer1.top.f.status_bar.col CLASS=Label TEXT=1
+WIDGET .fileViewer2.mBar.file CLASS=Menubutton TEXT=File
+WIDGET .fileViewer2.mBar.edit CLASS=Menubutton TEXT=Edit
+WIDGET .fileViewer2.mBar.opts CLASS=Menubutton TEXT=Options
+WIDGET .fileViewer2.mBar.layout CLASS=Menubutton TEXT=Windows
+WIDGET .fileViewer2.top.f.t CLASS=Text TEXT=
+WIDGET .fileViewer2.top.f.status_bar.msg CLASS=Label TEXT=
+WIDGET .fileViewer2.top.f.status_bar.mode CLASS=Label TEXT=Edit
+WIDGET .fileViewer2.top.f.status_bar.row_l CLASS=Label TEXT=Row
+WIDGET .fileViewer2.top.f.status_bar.row CLASS=Label TEXT=1
+WIDGET .fileViewer2.top.f.status_bar.col_l CLASS=Label TEXT=Col
+WIDGET .fileViewer2.top.f.status_bar.col CLASS=Label TEXT=1
+WIDGET .getSaveFileNameDlg2.top.vc.entry CLASS=Entry TEXT=/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/GUI_auto_saved.runset
+WIDGET .getSaveFileNameDlg2.top.vc.brsbtn CLASS=Button TEXT=...
+WIDGET .getSaveFileNameDlg2.top.frameLABEL__1 CLASS=Label TEXT= File Path 
+WIDGET .getSaveFileNameDlg2.buttons.action CLASS=Button TEXT=OK
+WIDGET .getSaveFileNameDlg2.buttons.close CLASS=Button TEXT=Cancel
+WIDGET .getSaveFileNameDlg3.top.vc.entry CLASS=Entry TEXT=/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/GUI_auto_saved.runset
+WIDGET .getSaveFileNameDlg3.top.vc.brsbtn CLASS=Button TEXT=...
+WIDGET .getSaveFileNameDlg3.top.frameLABEL__1 CLASS=Label TEXT= File Path 
+WIDGET .getSaveFileNameDlg3.buttons.action CLASS=Button TEXT=OK
+WIDGET .getSaveFileNameDlg3.buttons.close CLASS=Button TEXT=Cancel
+WIDGET .msgDlg.top.msg CLASS=Label TEXT=Overwrite file /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/GUI_auto_saved.runset?
+WIDGET .msgDlg.top.bitmap CLASS=Label TEXT=
+WIDGET .msgDlg.bot.button0 CLASS=Button TEXT=Yes
+WIDGET .msgDlg.bot.button1 CLASS=Button TEXT=No
+RUNSET_FUNCTIONS rdrc_run_drc rdrc_RunDRC
+REVIEW_STATE_RESTORED fixed GDS, exportFromViewer=0; saved Runsets untouched

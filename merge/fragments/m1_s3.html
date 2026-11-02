@@ -1,0 +1,21 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>同一個手算，換一組相位</h3>
+<p>主線用示範相位（θ＝π/2）手算 1000 與 1100；實作 B 直接用 <b>AND2 的相位</b>手算同樣兩個輸入：</p>
+<table><tr><th>輸入</th><th>主線：示範相位</th><th>實作 B：AND2 相位</th></tr>
+<tr><td>1000</td><td>ΔP＝+0.4375（判為 1）</td><td>ΔP＝−2.115379（判為 0，AND 的正確答案）</td></tr>
+<tr><td>1100</td><td>ΔP＝2.0</td><td>ΔP＝+2.115379（判為 1）</td></tr></table>
+<p>兩邊各自都對。示範相位不是任何邏輯閘，所以 1000 判成 1 不算錯；換成 AND2 相位，同一個流程就得到 AND 的真值。建議學員兩組都算一次。</p>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>自身項與干涉項分開算：</b>例如 1100 在 out1 的功率＝2.4615（各路自身）＋4.0961（干涉）。干涉項比自身項還大，所以相位一錯，結果就翻轉。</li>
+<li><b>三種常見算錯：</b>
+<ul><li>先取功率再相加：得到 −5.077，連正負號都錯。</li>
+<li>用振幅差代替功率差：得到 0.4531。</li>
+<li>矩陣某一列取了共軛：光場差 4.46，ΔP 卻只差 7.75×10<sup>−9</sup>。只比 ΔP 會以為沒錯，所以檢查要比到光場。</li></ul></li>
+<li><b>邊界規則：</b>|ΔP| ≤ 10<sup>−10</sup> 視為無法判定；例如 10<sup>−12</sup> 就屬於邊界。</li>
+</ul>
+<figure><img src="figures_b/m1_s3/phasor_sums.png" alt="相量相加示意" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>相量相加：各路光場在複數平面上首尾相接，最後的長度平方就是功率。由 <a href="../impl_b/work/m1_s3/run_readout.py"><code>run_readout.py</code></a> 產生。</figcaption></figure>
+<figure><img src="figures_b/m1_s3/power_readout.png" alt="功率分解與 ΔP 對參考光相位" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>功率拆成自身項與干涉項，以及 ΔP 隨參考光相位的變化。</figcaption></figure>

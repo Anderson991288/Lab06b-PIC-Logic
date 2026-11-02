@@ -1,0 +1,15 @@
+﻿pad_id,driver_channel,interface_id,phase_channel,heater,drive_endpoint,return_endpoint,pad_x_um,pad_y_um,A_x_um,A_y_um,B_x_um,B_y_um,heater_x_um,heater_y_um,return_net,voltage_calibration
+PAD_DRV00,DRV00,CTRL_theta1,theta1,H_M1_theta,H_M1_theta.A,H_M1_theta.B,190.0,650.0,258.0,0.0,369.0,0.0,313.5,0.0,GND,pending
+PAD_DRV01,DRV01,CTRL_theta2,theta2,H_M2_theta,H_M2_theta.A,H_M2_theta.B,190.0,-800.0,258.0,-90.0,369.0,-90.0,313.5,-90.0,GND,pending
+PAD_DRV02,DRV02,CTRL_theta3,theta3,H_M3_theta,H_M3_theta.A,H_M3_theta.B,695.0,650.0,763.0,-30.0,874.0,-30.0,818.5,-30.0,GND,pending
+PAD_DRV03,DRV03,CTRL_theta4,theta4,H_M4_theta,H_M4_theta.A,H_M4_theta.B,1200.0,650.0,1268.0,0.0,1379.0,0.0,1323.5,0.0,GND,pending
+PAD_DRV04,DRV04,CTRL_theta5,theta5,H_M5_theta,H_M5_theta.A,H_M5_theta.B,1200.0,-800.0,1268.0,-60.0,1379.0,-60.0,1323.5,-60.0,GND,pending
+PAD_DRV05,DRV05,CTRL_theta6,theta6,H_M6_theta,H_M6_theta.A,H_M6_theta.B,1705.0,650.0,1773.0,-30.0,1884.0,-30.0,1828.5,-30.0,GND,pending
+PAD_DRV06,DRV06,CTRL_theta7,theta7,H_M7_theta,H_M7_theta.A,H_M7_theta.B,1705.0,-800.0,1773.0,-90.0,1884.0,-90.0,1828.5,-90.0,GND,pending
+PAD_DRV07,DRV07,CTRL_phi1,phi1,H_M1_phi,H_M1_phi.A,H_M1_phi.B,-40.0,650.0,5.5,0.0,116.5,0.0,61.0,0.0,GND,pending
+PAD_DRV08,DRV08,CTRL_phi2,phi2,H_M2_phi,H_M2_phi.A,H_M2_phi.B,-40.0,-800.0,5.5,-90.0,116.5,-90.0,61.0,-90.0,GND,pending
+PAD_DRV09,DRV09,CTRL_phi3,phi3,H_M3_phi,H_M3_phi.A,H_M3_phi.B,465.0,650.0,510.5,-30.0,621.5,-30.0,566.0,-30.0,GND,pending
+PAD_DRV10,DRV10,CTRL_phi4,phi4,H_M4_phi,H_M4_phi.A,H_M4_phi.B,970.0,650.0,1015.5,0.0,1126.5,0.0,1071.0,0.0,GND,pending
+PAD_DRV11,DRV11,CTRL_phi5,phi5,H_M5_phi,H_M5_phi.A,H_M5_phi.B,970.0,-800.0,1015.5,-60.0,1126.5,-60.0,1071.0,-60.0,GND,pending
+PAD_DRV12,DRV12,CTRL_phi6,phi6,H_M6_phi,H_M6_phi.A,H_M6_phi.B,1475.0,650.0,1520.5,-30.0,1631.5,-30.0,1576.0,-30.0,GND,pending
+PAD_DRV13,DRV13,CTRL_phi7,phi7,H_M7_phi,H_M7_phi.A,H_M7_phi.B,1475.0,-800.0,1520.5,-90.0,1631.5,-90.0,1576.0,-90.0,GND,pending

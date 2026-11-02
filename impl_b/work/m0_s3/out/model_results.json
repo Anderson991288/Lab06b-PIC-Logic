@@ -1,0 +1,405 @@
+{
+  "step": "M0 S3",
+  "timestamp": "2026-10-31T10:21:15.520750+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "root_matches_plan": true,
+  "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+  "numpy_version": "1.26.4",
+  "convention": {
+    "vector_order": [
+      "upper",
+      "lower"
+    ],
+    "layout_ports": [
+      "in0/out0 = upper",
+      "in1/out1 = lower"
+    ],
+    "formula": "T=a*C2*P_upper(theta)*C1*P_upper(phi)",
+    "phase_unit": "radian",
+    "field_is_complex": true,
+    "bar_power_single_upper": "sin(theta/2)^2",
+    "lower_first_adapter": "P*T*P, P swaps both inputs and outputs"
+  },
+  "unit_tests": {
+    "run": 18,
+    "passed": 18,
+    "failures": 0,
+    "assertion_failures": 0,
+    "errors": 0,
+    "cases": [
+      {
+        "name": "test_b7_80_cases_against_boolean_truth_and_saved_complex_U",
+        "status": "pass"
+      },
+      {
+        "name": "test_closed_form_complex_regression",
+        "status": "pass"
+      },
+      {
+        "name": "test_complex_phase_periodicity",
+        "status": "pass"
+      },
+      {
+        "name": "test_effective_index_phase_and_units",
+        "status": "pass"
+      },
+      {
+        "name": "test_exact_switch_and_split_matrices",
+        "status": "pass"
+      },
+      {
+        "name": "test_global_phase_invariance",
+        "status": "pass"
+      },
+      {
+        "name": "test_insertion_loss_is_power_db",
+        "status": "pass"
+      },
+      {
+        "name": "test_inverse_bar_fraction",
+        "status": "pass"
+      },
+      {
+        "name": "test_lower_first_adapter_matches_s2_convention",
+        "status": "pass"
+      },
+      {
+        "name": "test_mmi_quadrature_and_unitarity",
+        "status": "pass"
+      },
+      {
+        "name": "test_no_input_or_constant_mutation",
+        "status": "pass"
+      },
+      {
+        "name": "test_nonadjacent_embedding_and_order",
+        "status": "pass"
+      },
+      {
+        "name": "test_parameter_guards",
+        "status": "pass"
+      },
+      {
+        "name": "test_phi_single_input_power_and_two_input_interference",
+        "status": "pass"
+      },
+      {
+        "name": "test_readout_boundary_has_no_valid_bit",
+        "status": "pass"
+      },
+      {
+        "name": "test_scalar_path_replay_matches_matrix",
+        "status": "pass"
+      },
+      {
+        "name": "test_trace_and_propagation_agree",
+        "status": "pass"
+      },
+      {
+        "name": "test_unitarity_with_coupler_imbalance",
+        "status": "pass"
+      }
+    ],
+    "baseline_passed": true,
+    "after_mutation_restoration_passed": true
+  },
+  "controlled_mutations": [
+    {
+      "name": "real_coupler",
+      "test": "test_exact_switch_and_split_matrices",
+      "detected": true,
+      "failures": 1,
+      "errors": 0,
+      "reason": "Wrong real coupler remains unitary but changes the optical phase convention.",
+      "scope": "Controlled temporary function replacement; restored in finally block"
+    },
+    {
+      "name": "theta_phi_swapped",
+      "test": "test_closed_form_complex_regression",
+      "detected": true,
+      "failures": 100,
+      "errors": 0,
+      "reason": "Interchanging physical phase locations changes the complex transfer matrix.",
+      "scope": "Controlled temporary function replacement; restored in finally block"
+    },
+    {
+      "name": "power_factor_as_amplitude",
+      "test": "test_insertion_loss_is_power_db",
+      "detected": true,
+      "failures": 1,
+      "errors": 0,
+      "reason": "Using the power attenuation factor on the field doubles the dB loss.",
+      "scope": "Controlled temporary function replacement; restored in finally block"
+    },
+    {
+      "name": "reversed_cascade",
+      "test": "test_nonadjacent_embedding_and_order",
+      "detected": true,
+      "failures": 1,
+      "errors": 0,
+      "reason": "Matrix multiplication must follow physical propagation order.",
+      "scope": "Controlled temporary function replacement; restored in finally block"
+    },
+    {
+      "name": "tie_counted_as_one",
+      "test": "test_readout_boundary_has_no_valid_bit",
+      "detected": true,
+      "failures": 1,
+      "errors": 0,
+      "reason": "A zero-margin result must remain a boundary rather than a valid bit.",
+      "scope": "Controlled temporary function replacement; restored in finally block"
+    }
+  ],
+  "b7_compatibility": {
+    "scope": "Replay of inherited ideal phase settings; no new phase synthesis, PDK simulation or chip validation",
+    "total": 80,
+    "passed": 80,
+    "functions": [
+      {
+        "gate": "AND2",
+        "passed": 16,
+        "total": 16,
+        "minimum_signed_margin": 2.11537918265,
+        "max_complex_U_error": 1.2412670766236366e-15
+      },
+      {
+        "gate": "OR2",
+        "passed": 16,
+        "total": 16,
+        "minimum_signed_margin": 2.120502406246193,
+        "max_complex_U_error": 1.3911054626160788e-15
+      },
+      {
+        "gate": "XOR2",
+        "passed": 16,
+        "total": 16,
+        "minimum_signed_margin": 0.24999999999994915,
+        "max_complex_U_error": 1.1157603309187458e-15
+      },
+      {
+        "gate": "AND4",
+        "passed": 16,
+        "total": 16,
+        "minimum_signed_margin": 1.496028200858654,
+        "max_complex_U_error": 9.155133597044475e-16
+      },
+      {
+        "gate": "OR4",
+        "passed": 16,
+        "total": 16,
+        "minimum_signed_margin": 1.4998553450018055,
+        "max_complex_U_error": 8.252325904466732e-16
+      }
+    ]
+  },
+  "trace_example": {
+    "theta": 1.5707963267948966,
+    "phi": 3.141592653589793,
+    "input_field": [
+      [
+        0.7071067811865475,
+        0
+      ],
+      [
+        0.7071067811865475,
+        0
+      ]
+    ],
+    "loss_db": 0.0,
+    "mmi_errors": [
+      0.0,
+      0.0
+    ],
+    "rows": [
+      {
+        "stage": "input",
+        "field": [
+          [
+            0.7071067811865475,
+            0.0
+          ],
+          [
+            0.7071067811865475,
+            0.0
+          ]
+        ],
+        "power": [
+          0.4999999999999999,
+          0.4999999999999999
+        ],
+        "total_power": 0.9999999999999998
+      },
+      {
+        "stage": "after_phi",
+        "field": [
+          [
+            -0.7071067811865475,
+            8.659560562354932e-17
+          ],
+          [
+            0.7071067811865475,
+            0.0
+          ]
+        ],
+        "power": [
+          0.4999999999999999,
+          0.4999999999999999
+        ],
+        "total_power": 0.9999999999999998
+      },
+      {
+        "stage": "after_MMI1",
+        "field": [
+          [
+            -0.5,
+            0.5000000000000001
+          ],
+          [
+            0.49999999999999994,
+            -0.5
+          ]
+        ],
+        "power": [
+          0.5000000000000001,
+          0.4999999999999999
+        ],
+        "total_power": 1.0
+      },
+      {
+        "stage": "after_theta",
+        "field": [
+          [
+            -0.5000000000000001,
+            -0.49999999999999994
+          ],
+          [
+            0.49999999999999994,
+            -0.5
+          ]
+        ],
+        "power": [
+          0.5000000000000001,
+          0.4999999999999999
+        ],
+        "total_power": 1.0
+      },
+      {
+        "stage": "after_MMI2",
+        "field": [
+          [
+            -5.551115123125783e-17,
+            0.0
+          ],
+          [
+            0.7071067811865475,
+            -0.7071067811865477
+          ]
+        ],
+        "power": [
+          3.0814879110195774e-33,
+          1.0000000000000004
+        ],
+        "total_power": 1.0000000000000004
+      },
+      {
+        "stage": "after_uniform_loss",
+        "field": [
+          [
+            -5.551115123125783e-17,
+            0.0
+          ],
+          [
+            0.7071067811865475,
+            -0.7071067811865477
+          ]
+        ],
+        "power": [
+          3.0814879110195774e-33,
+          1.0000000000000004
+        ],
+        "total_power": 1.0000000000000004
+      }
+    ]
+  },
+  "interactive_samples": [
+    {
+      "input": "single",
+      "theta_pi": 0,
+      "phi_pi": 0,
+      "power": [
+        0.0,
+        1.0000000000000004
+      ]
+    },
+    {
+      "input": "single",
+      "theta_pi": 0.5,
+      "phi_pi": 0.7,
+      "power": [
+        0.5000000000000003,
+        0.5000000000000003
+      ]
+    },
+    {
+      "input": "single",
+      "theta_pi": 1,
+      "phi_pi": 0.3,
+      "power": [
+        1.0000000000000004,
+        3.7493994566546474e-33
+      ]
+    },
+    {
+      "input": "equal",
+      "theta_pi": 0.5,
+      "phi_pi": 0,
+      "power": [
+        1.0000000000000004,
+        0.0
+      ]
+    },
+    {
+      "input": "equal",
+      "theta_pi": 0.5,
+      "phi_pi": 1,
+      "power": [
+        1.540743955509789e-32,
+        1.0000000000000004
+      ]
+    },
+    {
+      "input": "equal",
+      "theta_pi": 0.25,
+      "phi_pi": 0.5,
+      "power": [
+        0.5000000000000002,
+        0.5000000000000001
+      ]
+    },
+    {
+      "input": "equal",
+      "theta_pi": 1.5,
+      "phi_pi": 0,
+      "power": [
+        1.540743955509789e-32,
+        1.0000000000000004
+      ]
+    }
+  ],
+  "s2_connection": {
+    "neff": 2.353499831254645,
+    "wavelength_um": 1.55,
+    "geometrical_length_for_pi_um": 0.3292968156223956,
+    "scope": "Uniform segment geometric phase at the assumed effective index; not heater tuning voltage"
+  },
+  "source_hashes": {
+    "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+    "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+    "work/m0_s3/test_optical_models.py": "3ddcf989d85c6d403b3ca3b243f3869fe74ecea3b598b9c9a5427226639751d6",
+    "work/m0_s3/run_models.py": "b5001c52d63c1e45b76c4ce7c24361af401ded986b1d30593f89932ca93e4b44",
+    "config/m0_s3_reference_phases.json": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e",
+    "config/m0_s3_example.json": "529b4c08ae0f384dc4f134eb9eccdfd925e89390e3da2e793f308526d4f346d0"
+  },
+  "core_passed": true,
+  "scope": "Forward lumped ideal MZI with optional uniform loss and unitary coupler errors. No reflection, dispersion, layout extraction, heater calibration or new FDTD."
+}

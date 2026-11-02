@@ -1,0 +1,7 @@
+{
+  "local_snapshot": "config/m0_s3_reference_phases.json",
+  "source_sha256": "1c4c0ba95f31ae552559c54922a80d19b56f6e9e20e08a7d5e2205d304e1f06e",
+  "catalog": "config/m1_s4_phase_programs.json",
+  "catalog_sha256": "a295abdcebb147e3af1570970b67896e937079032eece37cd1fd1e431694231a",
+  "scope": "Extracted full-precision theta/phi only. No new phase synthesis; historical truth rows/U are not the new truth oracle."
+}

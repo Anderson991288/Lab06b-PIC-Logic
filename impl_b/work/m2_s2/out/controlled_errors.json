@@ -1,0 +1,36 @@
+[
+  {
+    "name": "phi_on_wrong_input",
+    "gate": "XOR2",
+    "max_abs_U_error": 1.96883949695427,
+    "detected": true,
+    "engine": "Caphe"
+  },
+  {
+    "name": "theta_phi_vector_swapped",
+    "gate": "XOR2",
+    "max_abs_U_error": 1.1480331626947191,
+    "detected": true,
+    "engine": "Caphe"
+  },
+  {
+    "name": "theta_sign_reversed",
+    "gate": "XOR2",
+    "max_abs_U_error": 1.3539574802126635,
+    "detected": true,
+    "engine": "Caphe"
+  },
+  {
+    "name": "discard_each_MZI_global_phase",
+    "gate": "XOR2",
+    "max_abs_U_error": 1.9666485383410641,
+    "detected": true,
+    "engine": "NumPy controlled variant"
+  },
+  {
+    "name": "receiver_polarity_reversed",
+    "failed": 80,
+    "detected": true,
+    "engine": "CSV receiver variant"
+  }
+]

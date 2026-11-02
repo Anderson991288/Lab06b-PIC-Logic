@@ -1,0 +1,98 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  16:51:31
+User Name : edauser
+Host Name : eda.ic
+Directory : /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-289): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option.
+
+Summary of Options:
+	library				lab06b_replay_final
+	strmFile			/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/candidate.gds
+	logFile				/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/import_final.log
+	topCell				LAB06B_B7_EC_PAD_CHIP
+	view				layout
+	case				Lower
+	propSeparator			,
+	dbuPerUU			1000
+
+INFO (XSTRM-220): 1. Translating STRUCTURE FAN_out4 as cellView lab06b_replay_final/fan_out4/layout.
+INFO (XSTRM-61): Creating a new layer L3 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L3:drawing' in the technology file.
+INFO (XSTRM-220): 2. Translating STRUCTURE FAN_in4 as cellView lab06b_replay_final/fan_in4/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE FAN_out3 as cellView lab06b_replay_final/fan_out3/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE FAN_in3 as cellView lab06b_replay_final/fan_in3/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE FAN_out2 as cellView lab06b_replay_final/fan_out2/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE FAN_in2 as cellView lab06b_replay_final/fan_in2/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE FAN_out1 as cellView lab06b_replay_final/fan_out1/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE FAN_in1 as cellView lab06b_replay_final/fan_in1/layout.
+INFO (XSTRM-220): 9. Translating STRUCTURE FAN_out0 as cellView lab06b_replay_final/fan_out0/layout.
+INFO (XSTRM-220): 10. Translating STRUCTURE FAN_in0 as cellView lab06b_replay_final/fan_in0/layout.
+INFO (XSTRM-220): 11. Translating STRUCTURE LAB06B_REFERENCE_EC as cellView lab06b_replay_final/lab06b_reference_ec/layout.
+INFO (XSTRM-61): Creating a new layer L5 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L5:drawing' in the technology file.
+INFO (XSTRM-61): Creating a new layer L4 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L4:drawing' in the technology file.
+INFO (XSTRM-220): 12. Translating STRUCTURE LAB06B_CHIP_INTERFACES as cellView lab06b_replay_final/lab06b_chip_interfaces/layout.
+INFO (XSTRM-61): Creating a new layer L41 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L41:drawing' in the technology file.
+INFO (XSTRM-61): Creating a new layer L99 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L99:drawing' in the technology file.
+INFO (XSTRM-61): Creating a new layer L1002 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L1002:drawing' in the technology file.
+INFO (XSTRM-220): 13. Translating STRUCTURE WG_out4 as cellView lab06b_replay_final/wg_out4/layout.
+INFO (XSTRM-220): 14. Translating STRUCTURE WG_in4 as cellView lab06b_replay_final/wg_in4/layout.
+INFO (XSTRM-220): 15. Translating STRUCTURE WG_out3 as cellView lab06b_replay_final/wg_out3/layout.
+INFO (XSTRM-220): 16. Translating STRUCTURE WG_in3 as cellView lab06b_replay_final/wg_in3/layout.
+INFO (XSTRM-220): 17. Translating STRUCTURE WG_out2 as cellView lab06b_replay_final/wg_out2/layout.
+INFO (XSTRM-220): 18. Translating STRUCTURE WG_in2 as cellView lab06b_replay_final/wg_in2/layout.
+INFO (XSTRM-220): 19. Translating STRUCTURE WG_out1 as cellView lab06b_replay_final/wg_out1/layout.
+INFO (XSTRM-220): 20. Translating STRUCTURE WG_in1 as cellView lab06b_replay_final/wg_in1/layout.
+INFO (XSTRM-220): 21. Translating STRUCTURE WG_out0 as cellView lab06b_replay_final/wg_out0/layout.
+INFO (XSTRM-220): 22. Translating STRUCTURE WG_in0 as cellView lab06b_replay_final/wg_in0/layout.
+INFO (XSTRM-220): 23. Translating STRUCTURE WG_BYP_L3_R0 as cellView lab06b_replay_final/wg_byp_l3_r0/layout.
+INFO (XSTRM-220): 24. Translating STRUCTURE WG_BYP_L2_R4 as cellView lab06b_replay_final/wg_byp_l2_r4/layout.
+INFO (XSTRM-220): 25. Translating STRUCTURE WG_BYP_L1_R4 as cellView lab06b_replay_final/wg_byp_l1_r4/layout.
+INFO (XSTRM-220): 26. Translating STRUCTURE WG_BYP_L1_R3 as cellView lab06b_replay_final/wg_byp_l1_r3/layout.
+INFO (XSTRM-220): 27. Translating STRUCTURE WG_BYP_L1_R0 as cellView lab06b_replay_final/wg_byp_l1_r0/layout.
+INFO (XSTRM-220): 28. Translating STRUCTURE WG_BYP_L0_R2 as cellView lab06b_replay_final/wg_byp_l0_r2/layout.
+INFO (XSTRM-220): 29. Translating STRUCTURE MZI_WG5 as cellView lab06b_replay_final/mzi_wg5/layout.
+INFO (XSTRM-220): 30. Translating STRUCTURE MZI_WG4 as cellView lab06b_replay_final/mzi_wg4/layout.
+INFO (XSTRM-220): 31. Translating STRUCTURE MZI_WG3 as cellView lab06b_replay_final/mzi_wg3/layout.
+INFO (XSTRM-220): 32. Translating STRUCTURE MZI_WG2 as cellView lab06b_replay_final/mzi_wg2/layout.
+INFO (XSTRM-220): 33. Translating STRUCTURE MZI_WG1 as cellView lab06b_replay_final/mzi_wg1/layout.
+INFO (XSTRM-220): 34. Translating STRUCTURE MZI_WG0 as cellView lab06b_replay_final/mzi_wg0/layout.
+INFO (XSTRM-220): 35. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4 as cellView lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition4/layout.
+INFO (XSTRM-220): 36. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3 as cellView lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition3/layout.
+INFO (XSTRM-220): 37. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2 as cellView lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition2/layout.
+INFO (XSTRM-220): 38. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1 as cellView lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition1/layout.
+INFO (XSTRM-220): 39. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace as cellView lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace/layout.
+INFO (XSTRM-220): 40. Translating STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI as cellView lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi/layout.
+INFO (XSTRM-220): 41. Translating STRUCTURE LAB06B_MZI_CORE as cellView lab06b_replay_final/lab06b_mzi_core/layout.
+INFO (XSTRM-61): Creating a new layer L100 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L100:drawing' in the technology file.
+INFO (XSTRM-61): Creating a new layer L39 in the technology file.
+INFO (XSTRM-62): Creating a new layer-purpose pair 'L39:drawing' in the technology file.
+INFO (XSTRM-220): 42. Translating STRUCTURE LAB06B_B7_CORE as cellView lab06b_replay_final/lab06b_b7_core/layout.
+INFO (XSTRM-220): 43. Translating STRUCTURE LAB06B_B7_EC_PAD_CHIP as cellView lab06b_replay_final/lab06b_b7_ec_pad_chip/layout.
+
+Summary of Objects Translated:
+	Instances:                              58
+	Arrays:                                 0
+	Polygons:                               77
+	Paths:                                  0
+	PathSegs:                               0
+	Rectangles:                             113
+	Text:                                   16
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  43
+
+Elapsed Time: 0.8s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 11172KB  CPUs Used: 2
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

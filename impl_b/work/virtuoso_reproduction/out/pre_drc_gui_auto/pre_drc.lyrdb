@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC_SOI</description>
+ <original-file/>
+ <generator>drc: script='C:\\EDA_Codex\\Lab06b\\work\\common\\drc\\cornerstone_Si220_passive.lydrc'</generator>
+ <top-cell>lab06b_b7_ec_pad_chip</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>3/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>100/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>39/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>41/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>99/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1002/0 grid violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Correct design area violation</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size vilation (GDS60&lt;60 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS60 short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS60&lt;60nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS60 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS6&lt; 350nm and short than max feature length)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS6 &lt; 250 nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum overlap violation (GDS6 in GDS3 &lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS39</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>aviode overlapping GDS6 and GDS41</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS3&lt; 350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS3&lt;200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS4&lt; 200nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS4&lt;350nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violation (GDS5&lt; 250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violation (GDS5&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS39&lt;600nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS39&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS41&lt;2micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS41&lt;10micro)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum feature size violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Minimum gap violate (GDS100&lt;250nm)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>lab06b_b7_ec_pad_chip</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>lab06b_chip_interfaces</name>
+   <variant/>
+   <layout-name>lab06b_chip_interfaces</layout-name>
+   <references>
+    <ref>
+     <parent>lab06b_b7_ec_pad_chip</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>fan_in0</name>
+   <variant/>
+   <layout-name>fan_in0</layout-name>
+   <references>
+    <ref>
+     <parent>lab06b_b7_ec_pad_chip</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>fan_out0</name>
+   <variant/>
+   <layout-name>fan_out0</layout-name>
+   <references>
+    <ref>
+     <parent>lab06b_b7_ec_pad_chip</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>fan_in4</name>
+   <variant/>
+   <layout-name>fan_in4</layout-name>
+   <references>
+    <ref>
+     <parent>lab06b_b7_ec_pad_chip</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>fan_out4</name>
+   <variant/>
+   <layout-name>fan_out4</layout-name>
+   <references>
+    <ref>
+     <parent>lab06b_b7_ec_pad_chip</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_in0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-360,219.654;-360.349,220.063)|(-360,220.192;-360,219.654)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_in0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-360,219.808;-360,220.346)|(-360,220.346;-359.651,219.937)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_out0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2379.651,219.937;2380,220.346)|(2380,220.346;2380,219.808)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_out0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2380,219.654;2380,220.192)|(2380.349,220.063;2380,219.654)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_in4</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-360.349,-340.063;-360,-339.654)|(-360,-339.654;-360,-340.192)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_in4</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-360,-340.346;-360,-339.808)|(-359.651,-339.937;-360,-340.346)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_out4</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2380,-340.346;2379.651,-339.937)|(2380,-339.808;2380,-340.346)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'Minimum feature size violation (GDS3&lt; 350nm)'</category>
+   <cell>fan_out4</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2380,-340.192;2380,-339.654)|(2380,-339.654;2380.349,-340.063)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

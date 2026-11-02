@@ -1,0 +1,116 @@
+2026/10/31 16:51:34 INFO (/home/EDA/cadence/IC231_ISR15/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 8.10 (Cerulean Leopard) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+INFO (DB-120008): oaSocket connection timeout value was set to 5 seconds.
+*WARNING* LIB lab06b_replay_source from File /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/cds.lib Line 4 redefines
+LIB lab06b_replay_source from the same file (defined earlier.)
+*WARNING* LIB lab06b_replay_final from File /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/cds.lib Line 5 redefines
+LIB lab06b_replay_final from the same file (defined earlier.)
+*WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfTlineLib' does not exist
+	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfTlineLib'.
+*WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/ahdlLib' does not exist
+	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'ahdlLib'.
+*WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfExamples' does not exist
+	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfExamples'.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  16:51:35
+User Name : edauser
+Host Name : eda.ic
+Directory : /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+*WARNING* The directory: '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/samples/artist/rfLib' does not exist
+	but was defined in libFile '/home/EDA/cadence/IC231_ISR15/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib' for Lib 'rfLib'.
+INFO (XSTRM-217): Reading the layer map file, /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/layer.map
+INFO (XSTRM-217): Reading the cell map file, /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/lab06b_replay_final.map
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+
+Summary of Options :
+library                                 lab06b_replay_final
+strmFile                                /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/final.gds
+topCell                                 lab06b_b7_ec_pad_chip
+view                                    layout
+logFile                                 /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/export_final.log
+maxVertices                             8191
+dbuPerUU                                1000
+layerMap                                /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/layer.map
+cellMap                                 /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/lab06b_replay_final.map
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellview lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_mmi_mmi_trace/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace.
+INFO (XSTRM-223): 2. Translating cellview lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition1/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1.
+INFO (XSTRM-223): 3. Translating cellview lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition2/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2.
+INFO (XSTRM-223): 4. Translating cellview lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition3/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3.
+INFO (XSTRM-223): 5. Translating cellview lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi_transition4/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4.
+INFO (XSTRM-223): 6. Translating cellview lab06b_replay_final/soi220nm_1550nm_te_strip_2x2_mmi/layout as STRUCTURE SOI220nm_1550nm_TE_STRIP_2x2_MMI.
+INFO (XSTRM-223): 7. Translating cellview lab06b_replay_final/mzi_wg0/layout as STRUCTURE MZI_WG0.
+INFO (XSTRM-223): 8. Translating cellview lab06b_replay_final/mzi_wg1/layout as STRUCTURE MZI_WG1.
+INFO (XSTRM-223): 9. Translating cellview lab06b_replay_final/mzi_wg2/layout as STRUCTURE MZI_WG2.
+INFO (XSTRM-223): 10. Translating cellview lab06b_replay_final/mzi_wg3/layout as STRUCTURE MZI_WG3.
+INFO (XSTRM-223): 11. Translating cellview lab06b_replay_final/mzi_wg4/layout as STRUCTURE MZI_WG4.
+INFO (XSTRM-223): 12. Translating cellview lab06b_replay_final/mzi_wg5/layout as STRUCTURE MZI_WG5.
+INFO (XSTRM-223): 13. Translating cellview lab06b_replay_final/lab06b_mzi_core/layout as STRUCTURE LAB06B_MZI_CORE.
+INFO (XSTRM-223): 14. Translating cellview lab06b_replay_final/wg_byp_l0_r2/layout as STRUCTURE WG_BYP_L0_R2.
+INFO (XSTRM-223): 15. Translating cellview lab06b_replay_final/wg_byp_l1_r0/layout as STRUCTURE WG_BYP_L1_R0.
+INFO (XSTRM-223): 16. Translating cellview lab06b_replay_final/wg_byp_l1_r3/layout as STRUCTURE WG_BYP_L1_R3.
+INFO (XSTRM-223): 17. Translating cellview lab06b_replay_final/wg_byp_l1_r4/layout as STRUCTURE WG_BYP_L1_R4.
+INFO (XSTRM-223): 18. Translating cellview lab06b_replay_final/wg_byp_l2_r4/layout as STRUCTURE WG_BYP_L2_R4.
+INFO (XSTRM-223): 19. Translating cellview lab06b_replay_final/wg_byp_l3_r0/layout as STRUCTURE WG_BYP_L3_R0.
+INFO (XSTRM-223): 20. Translating cellview lab06b_replay_final/wg_in0/layout as STRUCTURE WG_in0.
+INFO (XSTRM-223): 21. Translating cellview lab06b_replay_final/wg_out0/layout as STRUCTURE WG_out0.
+INFO (XSTRM-223): 22. Translating cellview lab06b_replay_final/wg_in1/layout as STRUCTURE WG_in1.
+INFO (XSTRM-223): 23. Translating cellview lab06b_replay_final/wg_out1/layout as STRUCTURE WG_out1.
+INFO (XSTRM-223): 24. Translating cellview lab06b_replay_final/wg_in2/layout as STRUCTURE WG_in2.
+INFO (XSTRM-223): 25. Translating cellview lab06b_replay_final/wg_out2/layout as STRUCTURE WG_out2.
+INFO (XSTRM-223): 26. Translating cellview lab06b_replay_final/wg_in3/layout as STRUCTURE WG_in3.
+INFO (XSTRM-223): 27. Translating cellview lab06b_replay_final/wg_out3/layout as STRUCTURE WG_out3.
+INFO (XSTRM-223): 28. Translating cellview lab06b_replay_final/wg_in4/layout as STRUCTURE WG_in4.
+INFO (XSTRM-223): 29. Translating cellview lab06b_replay_final/wg_out4/layout as STRUCTURE WG_out4.
+INFO (XSTRM-223): 30. Translating cellview lab06b_replay_final/lab06b_b7_core/layout as STRUCTURE LAB06B_B7_CORE.
+INFO (XSTRM-223): 31. Translating cellview lab06b_replay_final/lab06b_reference_ec/layout as STRUCTURE LAB06B_REFERENCE_EC.
+INFO (XSTRM-223): 32. Translating cellview lab06b_replay_final/fan_in0/layout as STRUCTURE FAN_in0.
+INFO (XSTRM-223): 33. Translating cellview lab06b_replay_final/fan_out0/layout as STRUCTURE FAN_out0.
+INFO (XSTRM-223): 34. Translating cellview lab06b_replay_final/fan_in1/layout as STRUCTURE FAN_in1.
+INFO (XSTRM-223): 35. Translating cellview lab06b_replay_final/fan_out1/layout as STRUCTURE FAN_out1.
+INFO (XSTRM-223): 36. Translating cellview lab06b_replay_final/fan_in2/layout as STRUCTURE FAN_in2.
+INFO (XSTRM-223): 37. Translating cellview lab06b_replay_final/fan_out2/layout as STRUCTURE FAN_out2.
+INFO (XSTRM-223): 38. Translating cellview lab06b_replay_final/fan_in3/layout as STRUCTURE FAN_in3.
+INFO (XSTRM-223): 39. Translating cellview lab06b_replay_final/fan_out3/layout as STRUCTURE FAN_out3.
+INFO (XSTRM-223): 40. Translating cellview lab06b_replay_final/fan_in4/layout as STRUCTURE FAN_in4.
+INFO (XSTRM-223): 41. Translating cellview lab06b_replay_final/fan_out4/layout as STRUCTURE FAN_out4.
+INFO (XSTRM-223): 42. Translating cellview lab06b_replay_final/lab06b_chip_interfaces/layout as STRUCTURE LAB06B_CHIP_INTERFACES.
+INFO (XSTRM-223): 43. Translating cellview lab06b_replay_final/lab06b_b7_ec_pad_chip/layout as STRUCTURE LAB06B_B7_EC_PAD_CHIP.
+
+Summary of Objects Translated:
+	Scalar Instances:                       58
+	Array Instances:                        0
+	Polygons:                               77
+	Paths:                                  0
+	Rectangles:                             113
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   16
+	TextDisplay:                            0
+	Cells:                                  43
+
+Elapsed Time: 1.4s   User Time: 0.1s   CPU Time: 0.2s   Peak VM: 32152KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

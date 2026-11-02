@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>完整規劃與 C 槽路徑方案｜Lab06b</title><link rel="stylesheet" href="../assets/course.css"></head><body><header class="top"><a href="../Lab06b_index.html"><b>LAB06b</b>　PIC Chip 學員實作課程</a><small>2026-10-31 · C 槽版</small></header><div class="layout"><aside><strong>學習與實作入口</strong><a class="" href="../Lab06b_index.html">總覽與報告入口</a><a class="active" href="../course/plan.html">完整規劃與路徑</a><a class="" href="../course/m0_s1.html">M0 S1｜工具鏈實作</a><a class="" href="../analysis/lab01a_7_6.html">Lab01a §7.6 光場分析</a><a class="" href="../course/m0_s1_foundation.html">補充｜理想 MZI 實驗</a><a class="" href="../reference/source_context.html">來源與舊教材</a><strong>本輪狀態</strong><p class="muted">課程 17 步已規劃<br>M0 S1：核心工具鏈通過<br>理想 MZI：5/5 通過</p><a href="../work/m0_s1/out/toolchain_check.json">工具鏈原始證據 JSON</a><a href="../work/m0_s1/out/mzi_drc_result.json">GDS／DRC 原始證據 JSON</a><a href="../course/m0_s2.html">M0 S2｜元件物理與光場</a><a href="../course/m0_s3.html">M0 S3｜共用模型與測試</a><a href="../course/m1_s1.html">M1 S1｜光編碼與判讀</a><a href="../course/m1_s2.html">M1 S2｜B7 與矩陣</a><a href="../course/m1_s3.html">M1 S3｜加權和與判讀</a><a href="../course/m1_s4.html">M1 S4｜五功能與 80 筆驗收</a><a href="../course/m1_s5.html">M1 S5｜規格與相位交接</a><a href="../course/m2_s1.html">M2 S1｜PIC 邊界與 I/O</a><a href="../course/m2_s2.html">M2 S2｜PDK 電路與 80 筆</a><a href="../course/m2_s3.html">M2 S3｜core 版圖與 GDS</a><a href="../course/m2_s4.html">M2 S4｜KLayout 檢視與修改</a><a href="../course/m2_s5.html">M2 S5｜EC／PAD／GND</a><a href="../course/m2_s6.html">M2 S6｜規則與連通驗證</a><a href="../course/m2_s7.html">M2 S7｜封裝、回註與重播</a><a href="../course/m3_s1.html">M3 S1｜從零重建與驗收</a><a href="../course/m3_s2.html">M3 S2｜獨立幾何與交叉驗證</a></aside><main><button class="print" onclick="window.print()">列印／另存 PDF</button><div class="hero"><div class="eyebrow">LEARN → BUILD → VERIFY</div><h1>完整規劃與 C 槽路徑方案</h1><!-- CROOT:POLICY --><div class="callout"><b>正式工作位置：</b>C:\EDA_Codex\Lab06b。之後只在 C:\EDA_Codex 修改課程；D 槽唯讀。<a href="../evidence/c_path_verification.json">C 槽重跑及 D 槽還原紀錄</a></div><!-- /CROOT:POLICY --><p class="lead">四個模組、17 個步驟，建議 18 小時；每一步都有操作、成果、依賴與驗收。</p><span class="tag">17 步 · 建議 18 小時</span><span class="tag">單顆 B7／7 MZIs</span></div><h2 id="paths">一、C:\EDA_Codex\Lab06b 路徑方案</h2><p>使用本專案根目錄的 EDA_paths.json；工具引用實際安裝位置，可攜工具放 tools/。專案檔案為實體檔案，程式以自身位置求相對路徑。原課程來源為 D:/LAB/Lab06b/C01，已封存於 sources/ 並提供 reference/ 閱讀版；日常操作使用本 C 槽專案。</p><pre><code>C:\EDA_Codex\Lab06b\
+├─ Lab06b_index.html          # 整份可讀報告入口
+├─ EDA_paths.json             # 本專案工具位置設定
+├─ course\                   # 每步教材、完整規劃、版圖圖片
+├─ analysis\                 # Lab01a 7.6 完整圖文分析
+├─ assets\                   # 共用樣式、五張原始場圖
+├─ config\                   # B7 規格、步驟定義
+├─ scripts\                  # 一鍵執行 M0 S1、由證據產生報告
+├─ work\common\              # PDK、GDS、DRC 共用程式與 deck
+├─ work\m0_s1\out\           # 本輪 GDS、DRC、工具鏈 JSON 與 log
+├─ tools\KLayout\            # 本專案可攜式工具
+├─ evidence\                 # 理想模型、場圖數值、驗證、來源雜湊
+├─ learner\                  # 學員記錄與作答
+├─ results\ / delivery\      # 後續 B7 模擬／Chip／交付成果
+├─ reference\ / sources\     # 舊教材閱讀版、原始封存與 NPZ
+├─ history\                  # 更新前備份與變更紀錄
+└─ C01\                      # 原課程，保持原位</code></pre><h2>二、HTML 與教學優化</h2><ol><li>根目錄入口串接短頁面、原圖、程式與 JSON，方便逐步學習。</li><li>每步保留「先預測、再操作、看結果、能解釋」；不用已完成的歷史結果替代學員實作。</li><li>工具鏈與版圖結果由 JSON 產生頁面；場圖數字附 NPZ 來源與計算方法。</li><li>分開標示實算、引用、未執行與待驗證；圖的顏色不直接當作損耗。</li><li>備份原頁面、記錄 SHA-256；支援本機相對連結、手機與列印閱讀。</li></ol><h2>三、完整課程</h2><h2 id="plan">完整規劃</h2>
+<p>四個模組、17 步，建議約 18 小時（M0 3.5 h、M1 5 h、M2 8 h、M3 1.5 h）。每一步固定六段：<b>這一步要回答 → 白話範例 → 學員操作 → 檢查結果（由證據產生）→ 驗收條件 → 程式、檔案與歷史</b>。主作業固定單顆 B7；C01 的 B7×2 晶片只作講師參考。</p>
+
+<h3 id="m0">M0　環境與元件基礎（3.5 h）</h3>
+<div class="scroll"><table><caption>課程步驟表 1</caption><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th><th>來源</th></tr>
+<tr><td>M0 s1<br>1 h</td><td>工具能否從一份路徑設定叫得到，且真的能執行？</td><td>填好 <code>EDA_paths.json</code>；執行 <code>check_toolchain.py</code>；建立 MZI 正常版／故障注入版 GDS 並跑 KLayout DRC。</td><td><code>toolchain_check.json</code>、MZI GDS、正常版 0 違規、故障版 F1–F8 全命中。</td><td>Lab06a M0 s1；<code>common/pdk.py</code>、<code>drc.py</code></td></tr>
+<tr><td>M0 s2<br>1.5 h</td><td>光在 MMI、MZI 裡怎麼走？θ 如何決定切換、分光、合光？</td><td>femwell 算 strip 波導模態；讀 Meep 光場圖並填判讀表；有 Meep 時用 B7 的 MZI 參數重跑一張 TBU 場圖。</td><td>模態圖、光場判讀表、穿透／分光比與 sin²(θ/2) 理論對照。</td><td>Lab01a §7.6、§7.6.1（見<a href="../analysis/lab01a_7_6.html">光場分析頁</a>）</td></tr>
+<tr><td>M0 s3<br>1 h</td><td>同一顆 MZI 怎麼寫成 2×2 矩陣 T(θ,φ)？</td><td>寫 <code>mzi.py</code>，單元測試：么正性、θ=0／π 切換、θ=π/2 分光，與 M0 s2 場圖數值互相對照。</td><td>測試報告 JSON、θ 掃描圖。</td><td>C01 M1 s3；Lab06a <code>common/mzi.py</code></td></tr></table></div>
+
+<h3 id="m1">M1　用一群 MZI 實現邏輯（5 h）</h3>
+<div class="scroll"><table><caption>課程步驟表 2</caption><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th><th>來源</th></tr>
+<tr><td><a href="m1_s1.html">M1 s1</a><br>0.5 h</td><td>位元怎麼變成光？輸入、混合、讀取各在哪裡？</td><td>在 B7 圖上標出 x1–x4、R、o2／o4；說明光場與光功率的差別。</td><td>標註圖、口述三步。</td><td>C01 M1 s1</td></tr>
+<tr><td><a href="m1_s2.html">M1 s2</a><br>1 h</td><td>7 顆 MZI、5 條波導、4 層怎麼組成 B7？</td><td>依 <code>OPS</code> 逐層追蹤接線；寫出 <code>b7.py</code> 由 7 個 T 組成 5×5 的 U。</td><td>B7 接線圖、U 的么正性測試。</td><td>C01 M1 s2；Lab06a <code>macro4.py</code></td></tr>
+<tr><td><a href="m1_s3.html">M1 s3</a><br>1 h</td><td>v → y=Uv → 功率 → ΔP → 0／1 怎麼算？</td><td>代入 1000、1100、R=3，手算 y2、y4 的加權和，再由程式核對。</td><td>逐步計算表（振幅加總 vs 功率讀取）。</td><td>C01 M1 s3</td></tr>
+<tr><td><a href="m1_s4.html">M1 s4</a><br>1.5 h</td><td>同一組光路，換相位就能變 AND／OR／XOR？</td><td>載入已驗證的 14 相位，跑 五種函數各跑完整 16 組四路輸入，共 80 筆；AND2／OR2／XOR2 的未作用輸入也要測。</td><td>80 筆真值表、最小 |ΔP| 邊界餘裕。</td><td>C01 <code>evidence/m1_s4_logic.json</code></td></tr>
+<tr><td><a href="m1_s5.html">M1 s5</a><br>1 h</td><td>功能設定怎麼和固定光路分開交給 M2？</td><td>產生 <code>pic_spec.json</code>（埠位、相位通道、讀取規則）與相位設定檔。</td><td>規格檔＋真值表，M2 共用。</td><td>C01 <code>pic_spec.json</code></td></tr></table></div>
+
+<h3 id="m2">M2　矽光子 PIC 實作（8 h）</h3>
+<div class="scroll"><table><caption>課程步驟表 3</caption><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th><th>來源</th></tr>
+<tr><td><a href="m2_s1.html">M2 s1</a><br>0.5 h</td><td>PIC 上做什麼、外部設備做什麼？</td><td>畫 PIC 邊界：雷射／調變、B7、接收比較、heater 驅動。</td><td>功能方塊圖、I/O 表。</td><td>C01 M2 s1</td></tr>
+<tr><td><a href="m2_s2.html">M2 s2</a><br>1 h</td><td>用 PDK MMI 組的電路模型，真值表還對嗎？</td><td>IPKISS／Caphe 以 CORNERSTONE 2×2 MMI 建 B7 電路，重跑 80 筆。</td><td>電路模擬真值表；與 M1 模型差異。</td><td>C01 <code>m2_cornerstone_simulate.py</code></td></tr>
+<tr><td><a href="m2_s3.html">M2 s3</a><br>1.5 h</td><td>電路連接怎麼變成實體幾何？</td><td>IPKISS 放置 7 顆 MZI、波導繞線、heater，輸出單 B7 GDS。</td><td><code>b7_core.gds</code>、埠位對照表。</td><td>C01 <code>m2_layout.py</code></td></tr>
+<tr><td><a href="m2_s4.html">M2 s4</a><br>1 h</td><td>佈局哪裡有問題？</td><td>在 KLayout 依清單檢查埠序、彎道、間距、交叉；改 Python 參數重出。</td><td>Review 清單、修改前後圖。</td><td>C01 <code>m2_layout_review.py</code></td></tr>
+<tr><td><a href="m2_s5.html">M2 s5</a><br>1.5 h</td><td>光纖和電線怎麼接上晶片？</td><td>配置 EC 光學 I/O（左右）、heater PAD 與 GND（上下），建 PAD↔heater↔θ／φ 表。</td><td>晶片 GDS、光學 I/O 表、PAD 表。</td><td>C01 <code>m2_chip_layout.py</code>；Lab01a EC</td></tr>
+<tr><td><a href="m2_s6.html">M2 s6</a><br>1.5 h</td><td>幾何、光路、電路連接都對嗎？</td><td>KLayout DRC；Shapely 光路連通、電氣短路／開路、PAD 名稱檢查；修正重跑。</td><td>DRC 報告、連接檢查 JSON。</td><td>C01 <code>m2_drc.py</code>；Lab06a <code>verify.py</code></td></tr>
+<tr><td><a href="m2_s7.html">M2 s7</a><br>1 h</td><td>交付包是否一致、可重現？</td><td>回填佈局路徑重跑功能檢查；打包 GDS、規格、表格、報告與 SHA-256。</td><td>PIC 設計資料包。</td><td>C01 <code>package_pic.py</code></td></tr></table></div>
+
+<h3 id="m3">M3　驗收與延伸（1.5 h）</h3>
+<div class="scroll"><table><caption>課程步驟表 4</caption><tr><th>步驟</th><th>這一步要回答</th><th>學員實作</th><th>成果與證據</th></tr>
+<tr><td><a href="m3_s1.html">M3 s1</a><br>1 h</td><td>別人能從零重做出同一顆晶片嗎？</td><td>一鍵重建 <code>rebuild_all.py</code>；比對 GDS 雜湊與 80 筆真值表。</td><td>重建紀錄、驗收清單。</td></tr>
+<tr><td><a href="m3_s2.html">M3 s2</a><br>0.5 h</td><td>換一種方法檢查，結論一樣嗎？</td><td>用 Python／Shapely 回讀最終 GDS，獨立量測波導最小線寬與間距、heater 間距，與 KLayout DRC 結果逐項對照。</td><td>兩種檢查的差異說明。</td></tr></table></div>
+
+<div class="scroll"><table><caption>表｜關卡與交接</caption><thead><tr><th>關卡</th><th>通過條件</th><th>未通過時</th></tr></thead><tbody><tr><td>G0 工具鏈</td><td>IPKISS／PDK 實測、正常 MZI DRC 0 違規、F1–F8 故障命中、原始 log 留存</td><td>確認實際路徑、授權、deck 與版本，修正後重跑。</td></tr><tr><td>G1 邏輯</td><td>固定 B7 OPS、埠序與判讀；AND2／OR2／XOR2／AND4／OR4 各 16 組，共 80 組</td><td>核對輸入編碼、相位與上下埠；零附近功率差視為邊界。</td></tr><tr><td>G2 版圖</td><td>模型和 GDS 共用埠名與相位標籤；EC、PAD、共地與未讀取輸出皆有去向</td><td>保留問題座標與前後圖，修改 Python 參數。</td></tr><tr><td>G3 幾何與連接</td><td>指定 deck 之適用規則通過；光學接線、電氣開短路與 PAD 命名另外驗證</td><td>幾何 DRC 不替代電路連接檢查。</td></tr><tr><td>G4 交付</td><td>路徑回填後功能重跑，GDS、相位、埠／PAD 表、工具版本與 manifest 一致</td><td>缺少真實傳播／元件模型時，記錄限制；製造送件仍依平台簽核。</td></tr></tbody></table></div><h2>最終交付內容</h2><p>重建入口、Python 原始碼、工具與功能設定、最終 GDS、光學／PAD CSV、相位設定、80 筆真值表、DRC deck hash 與報告、連接檢查、故障注入、修正記錄及 manifest。這是 PIC 設計資料包；實體製造、封裝與量測在另行實作後才加入。</p><p><a class="button" href="m0_s1.html">開始 M0 S1 →</a></p><footer>正式根目錄：<code>C:\EDA_Codex\Lab06b</code>。教材、程式、設定與結果保存於本專案；原 C01 保留作來源。<br>M0 三步依各步實算與學員作答驗收；後續 B7 電路、Chip 版圖與最終交付依關卡進行。學員作答需本人完成。</footer></main></div></body></html>

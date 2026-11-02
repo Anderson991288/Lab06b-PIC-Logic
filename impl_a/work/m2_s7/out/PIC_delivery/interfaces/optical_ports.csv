@@ -1,0 +1,11 @@
+﻿port,signal,side,facet_x_um,facet_y_um,core_port,role
+fiber_in0,x1,left,-1120.0,440.0,in0,input
+fiber_in1,x2,left,-1120.0,190.0,in1,input
+fiber_in2,x3,left,-1120.0,-60.0,in2,input
+fiber_in3,x4,left,-1120.0,-310.0,in3,input
+fiber_in4,R,left,-1120.0,-560.0,in4,input
+fiber_out0,o1,right,2756.0,440.0,out0,monitor
+fiber_out1,o2,right,2756.0,190.0,out1,readout
+fiber_out2,o3,right,2756.0,-60.0,out2,monitor
+fiber_out3,o4,right,2756.0,-310.0,out3,readout
+fiber_out4,o5,right,2756.0,-560.0,out4,monitor

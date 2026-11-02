@@ -1,0 +1,168 @@
+{
+  "edges": [
+    {
+      "source": "B7:in0",
+      "destination": "M1:in0",
+      "mode": 0
+    },
+    {
+      "source": "B7:in1",
+      "destination": "M1:in1",
+      "mode": 1
+    },
+    {
+      "source": "B7:in3",
+      "destination": "M2:in0",
+      "mode": 3
+    },
+    {
+      "source": "B7:in4",
+      "destination": "M2:in1",
+      "mode": 4
+    },
+    {
+      "source": "M1:out1",
+      "destination": "M3:in0",
+      "mode": 1
+    },
+    {
+      "source": "B7:in2",
+      "destination": "M3:in1",
+      "mode": 2
+    },
+    {
+      "source": "M1:out0",
+      "destination": "M4:in0",
+      "mode": 0
+    },
+    {
+      "source": "M3:out0",
+      "destination": "M4:in1",
+      "mode": 1
+    },
+    {
+      "source": "M3:out1",
+      "destination": "M5:in0",
+      "mode": 2
+    },
+    {
+      "source": "M2:out0",
+      "destination": "M5:in1",
+      "mode": 3
+    },
+    {
+      "source": "M4:out1",
+      "destination": "M6:in0",
+      "mode": 1
+    },
+    {
+      "source": "M5:out0",
+      "destination": "M6:in1",
+      "mode": 2
+    },
+    {
+      "source": "M5:out1",
+      "destination": "M7:in0",
+      "mode": 3
+    },
+    {
+      "source": "M2:out1",
+      "destination": "M7:in1",
+      "mode": 4
+    },
+    {
+      "source": "M4:out0",
+      "destination": "B7:out0",
+      "mode": 0
+    },
+    {
+      "source": "M6:out0",
+      "destination": "B7:out1",
+      "mode": 1
+    },
+    {
+      "source": "M6:out1",
+      "destination": "B7:out2",
+      "mode": 2
+    },
+    {
+      "source": "M7:out0",
+      "destination": "B7:out3",
+      "mode": 3
+    },
+    {
+      "source": "M7:out1",
+      "destination": "B7:out4",
+      "mode": 4
+    }
+  ],
+  "links": [
+    [
+      "M1:out1",
+      "M3:in0"
+    ],
+    [
+      "M1:out0",
+      "M4:in0"
+    ],
+    [
+      "M3:out0",
+      "M4:in1"
+    ],
+    [
+      "M3:out1",
+      "M5:in0"
+    ],
+    [
+      "M2:out0",
+      "M5:in1"
+    ],
+    [
+      "M4:out1",
+      "M6:in0"
+    ],
+    [
+      "M5:out0",
+      "M6:in1"
+    ],
+    [
+      "M5:out1",
+      "M7:in0"
+    ],
+    [
+      "M2:out1",
+      "M7:in1"
+    ]
+  ],
+  "external_port_names": {
+    "M1:in0": "in0",
+    "M1:in1": "in1",
+    "M2:in0": "in3",
+    "M2:in1": "in4",
+    "M3:in1": "in2",
+    "M4:out0": "out0",
+    "M6:out0": "out1",
+    "M6:out1": "out2",
+    "M7:out0": "out3",
+    "M7:out1": "out4"
+  },
+  "mzi_count": 7,
+  "pdk_mmi_instances": 14,
+  "ideal_phase_instances": 14,
+  "bypass_by_layer": [
+    [
+      2
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      4
+    ],
+    [
+      0
+    ]
+  ]
+}

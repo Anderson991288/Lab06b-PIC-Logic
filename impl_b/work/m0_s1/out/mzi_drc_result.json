@@ -1,0 +1,195 @@
+{
+ "step": "M0 s1 E1",
+ "date": "2026-10-31",
+ "rules": {
+  "WG_min_width": 0.35,
+  "WG_min_gap": 0.2,
+  "HT_min_width": 0.6,
+  "HT_min_gap": 10.0,
+  "PAD_min_width": 2.0,
+  "PAD_min_gap": 10.0,
+  "LBL_min_width": 0.25,
+  "LBL_min_gap": 0.25,
+  "grid": 0.001,
+  "bend_min_radius": 5.0
+ },
+ "klayout": {
+  "found": true,
+  "exe": "klayout_app.exe"
+ },
+ "params": {
+  "RAIL_P": 30.0,
+  "SB_L": 20.0,
+  "HT_W": 0.9,
+  "HT_L": 100.0,
+  "LAND_W": 10.0,
+  "LAND_M": 1.0,
+  "PS_LEN": 122.0,
+  "WIRE_W": 8.0,
+  "PAD": 80.0,
+  "WG_W": 0.45,
+  "BLOCK_UM": [
+   580.0,
+   260.0
+  ]
+ },
+ "mzi": {
+  "mmi_len": 82.5,
+  "mmi_x": [
+   162.0,
+   406.5
+  ],
+  "length": 509.0,
+  "path_upper_um": 530.1329183700088,
+  "path_lower_um": 530.1329183700088,
+  "contacts": {
+   "phi_a": [
+    5.5,
+    15.0
+   ],
+   "phi_b": [
+    116.5,
+    15.0
+   ],
+   "theta_a": [
+    250.0,
+    15.0
+   ],
+   "theta_b": [
+    361.0,
+    15.0
+   ]
+  },
+  "arm_between_mmi_upper_um": 172.5664591850044,
+  "arm_between_mmi_lower_um": 172.5664591850044,
+  "sbend_len_um": 25.283229592502188,
+  "sbend_dy": 13.984999999999998,
+  "sbend_Rmin_numeric_snapped": 5.448566501042321,
+  "sbend_Rmin_numeric_raw": {
+   "41": 5.32516821417656,
+   "201": 5.234654885797581,
+   "1001": 5.231033590541002
+  },
+  "sbend_Rmin_analytic": 5.230882702164311,
+  "heater_squares": 111.11111111111111,
+  "mmi_ports": {
+   "in1": [
+    -20.0,
+    -1.015
+   ],
+   "in2": [
+    -20.0,
+    1.015
+   ],
+   "out1": [
+    62.5,
+    -1.015
+   ],
+   "out2": [
+    62.5,
+    1.015
+   ]
+  },
+  "outline_um": [
+   -58.0,
+   -75.0,
+   522.0,
+   185.0
+  ]
+ },
+ "drc_clean": {
+  "status": "ran",
+  "total": 0,
+  "counts": {},
+  "n_rules": 28,
+  "outside": 0,
+  "design_area_um": [
+   580.0,
+   260.0
+  ],
+  "design_area_source": "declared",
+  "gds": "work/m0_s1/out/MZI_HT.gds"
+ },
+ "drc_fault": {
+  "status": "ran",
+  "total": 7,
+  "counts": {
+   "Correct design area violation": 1,
+   "Minimum feature size violation (GDS3< 350nm)": 1,
+   "Minimum gap violation (GDS3<200nm)": 1,
+   "Minimum feature size violate (GDS39<600nm)": 1,
+   "Minimum gap violate (GDS39<10micro)": 1,
+   "Minimum feature size violate (GDS41<2micro)": 1,
+   "Minimum gap violate (GDS41<10micro)": 1
+  },
+  "outside": 1,
+  "expected": [
+   [
+    "F1",
+    "GDS 39 線寬 0.5 < 0.6 µm"
+   ],
+   [
+    "F2",
+    "GDS 41 間距 6 < 10 µm"
+   ],
+   [
+    "F3",
+    "GDS 3 線寬 0.30 < 0.35 µm"
+   ],
+   [
+    "F4",
+    "GDS 39 間距 5 < 10 µm"
+   ],
+   [
+    "F7",
+    "GDS 3 間距 0.15 < 0.20 µm"
+   ],
+   [
+    "F8",
+    "GDS 41 線寬 1.5 < 2 µm"
+   ],
+   [
+    "F5",
+    "設計區宣告 560×350 與外框 580×350 不符"
+   ],
+   [
+    "F6",
+    "一個波導圖形在外框外"
+   ]
+  ],
+  "hit": {
+   "F1": 1,
+   "F2": 1,
+   "F3": 1,
+   "F4": 1,
+   "F5": 1,
+   "F7": 1,
+   "F8": 1,
+   "F6": 1
+  },
+  "all_caught": true,
+  "unexpected": [],
+  "gds": "work/m0_s1/out/MZI_HT_FAULT.gds"
+ },
+ "rules_relevant": [
+  "39/0 grid violations",
+  "41/0 grid violations",
+  "100/0 grid violations",
+  "99/0 grid violations",
+  "3/0 grid violations",
+  "Correct design area violation",
+  "Minimum feature size violation (GDS3< 350nm)",
+  "Minimum gap violation (GDS3<200nm)",
+  "Minimum feature size violate (GDS39<600nm)",
+  "Minimum gap violate (GDS39<10micro)",
+  "Minimum feature size violate (GDS41<2micro)",
+  "Minimum gap violate (GDS41<10micro)",
+  "Minimum feature size violate (GDS100<250nm)",
+  "Minimum gap violate (GDS100<250nm)"
+ ],
+ "figs": [
+  "course/figures/m0_s1/mzi_layout.png",
+  "course/figures/m0_s1/fault_layout.png"
+ ],
+ "runtime_s": 9.5
+}

@@ -1,0 +1,270 @@
+{
+  "before": {
+    "engine": "Shapely 2.1.2",
+    "tested_pairs": 1653,
+    "permitted_shared_endpoints": [
+      {
+        "a": "M1:WG0",
+        "b": "WG_in0",
+        "intersection": "POINT (0 0)"
+      },
+      {
+        "a": "M1:WG1",
+        "b": "WG_in1",
+        "intersection": "POINT (0 -30)"
+      },
+      {
+        "a": "M1:WG4",
+        "b": "WG_BYP_L1_R0",
+        "intersection": "POINT (489 0)"
+      },
+      {
+        "a": "M1:WG5",
+        "b": "M3:WG0",
+        "intersection": "POINT (489 -30)"
+      },
+      {
+        "a": "M2:WG0",
+        "b": "WG_in3",
+        "intersection": "POINT (0 -90)"
+      },
+      {
+        "a": "M2:WG1",
+        "b": "WG_in4",
+        "intersection": "POINT (0 -120)"
+      },
+      {
+        "a": "M2:WG4",
+        "b": "WG_BYP_L1_R3",
+        "intersection": "POINT (489 -90)"
+      },
+      {
+        "a": "M2:WG5",
+        "b": "WG_BYP_L1_R4",
+        "intersection": "POINT (489 -120)"
+      },
+      {
+        "a": "M3:WG1",
+        "b": "WG_BYP_L0_R2",
+        "intersection": "POINT (489 -60)"
+      },
+      {
+        "a": "M3:WG4",
+        "b": "M4:WG1",
+        "intersection": "POINT (978 -30)"
+      },
+      {
+        "a": "M3:WG5",
+        "b": "M5:WG0",
+        "intersection": "POINT (978 -60)"
+      },
+      {
+        "a": "M4:WG0",
+        "b": "WG_BYP_L1_R0",
+        "intersection": "POINT (978 0)"
+      },
+      {
+        "a": "M4:WG4",
+        "b": "WG_BYP_L3_R0",
+        "intersection": "POINT (1467 0)"
+      },
+      {
+        "a": "M4:WG5",
+        "b": "M6:WG0",
+        "intersection": "POINT (1467 -30)"
+      },
+      {
+        "a": "M5:WG1",
+        "b": "WG_BYP_L1_R3",
+        "intersection": "POINT (978 -90)"
+      },
+      {
+        "a": "M5:WG4",
+        "b": "M6:WG1",
+        "intersection": "POINT (1467 -60)"
+      },
+      {
+        "a": "M5:WG5",
+        "b": "M7:WG0",
+        "intersection": "POINT (1467 -90)"
+      },
+      {
+        "a": "M6:WG4",
+        "b": "WG_out1",
+        "intersection": "POINT (1956 -30)"
+      },
+      {
+        "a": "M6:WG5",
+        "b": "WG_out2",
+        "intersection": "POINT (1956 -60)"
+      },
+      {
+        "a": "M7:WG1",
+        "b": "WG_BYP_L2_R4",
+        "intersection": "POINT (1467 -120)"
+      },
+      {
+        "a": "M7:WG4",
+        "b": "WG_out3",
+        "intersection": "POINT (1956 -90)"
+      },
+      {
+        "a": "M7:WG5",
+        "b": "WG_out4",
+        "intersection": "POINT (1956 -120)"
+      },
+      {
+        "a": "WG_BYP_L0_R2",
+        "b": "WG_in2",
+        "intersection": "POINT (0 -60)"
+      },
+      {
+        "a": "WG_BYP_L1_R4",
+        "b": "WG_BYP_L2_R4",
+        "intersection": "POINT (978 -120)"
+      },
+      {
+        "a": "WG_BYP_L3_R0",
+        "b": "WG_out0",
+        "intersection": "POINT (1956 0)"
+      }
+    ],
+    "unexpected_intersections": [],
+    "passed": true,
+    "scope": "Outside-MMI centerlines from the generated sidecar only; excludes intended mixing inside MMI and does not extract topology from GDS."
+  },
+  "after": {
+    "engine": "Shapely 2.1.2",
+    "tested_pairs": 1653,
+    "permitted_shared_endpoints": [
+      {
+        "a": "M1:WG0",
+        "b": "WG_in0",
+        "intersection": "POINT (0 0)"
+      },
+      {
+        "a": "M1:WG1",
+        "b": "WG_in1",
+        "intersection": "POINT (0 -30)"
+      },
+      {
+        "a": "M1:WG4",
+        "b": "WG_BYP_L1_R0",
+        "intersection": "POINT (505 0)"
+      },
+      {
+        "a": "M1:WG5",
+        "b": "M3:WG0",
+        "intersection": "POINT (505 -30)"
+      },
+      {
+        "a": "M2:WG0",
+        "b": "WG_in3",
+        "intersection": "POINT (0 -90)"
+      },
+      {
+        "a": "M2:WG1",
+        "b": "WG_in4",
+        "intersection": "POINT (0 -120)"
+      },
+      {
+        "a": "M2:WG4",
+        "b": "WG_BYP_L1_R3",
+        "intersection": "POINT (505 -90)"
+      },
+      {
+        "a": "M2:WG5",
+        "b": "WG_BYP_L1_R4",
+        "intersection": "POINT (505 -120)"
+      },
+      {
+        "a": "M3:WG1",
+        "b": "WG_BYP_L0_R2",
+        "intersection": "POINT (505 -60)"
+      },
+      {
+        "a": "M3:WG4",
+        "b": "M4:WG1",
+        "intersection": "POINT (1010 -30)"
+      },
+      {
+        "a": "M3:WG5",
+        "b": "M5:WG0",
+        "intersection": "POINT (1010 -60)"
+      },
+      {
+        "a": "M4:WG0",
+        "b": "WG_BYP_L1_R0",
+        "intersection": "POINT (1010 0)"
+      },
+      {
+        "a": "M4:WG4",
+        "b": "WG_BYP_L3_R0",
+        "intersection": "POINT (1515 0)"
+      },
+      {
+        "a": "M4:WG5",
+        "b": "M6:WG0",
+        "intersection": "POINT (1515 -30)"
+      },
+      {
+        "a": "M5:WG1",
+        "b": "WG_BYP_L1_R3",
+        "intersection": "POINT (1010 -90)"
+      },
+      {
+        "a": "M5:WG4",
+        "b": "M6:WG1",
+        "intersection": "POINT (1515 -60)"
+      },
+      {
+        "a": "M5:WG5",
+        "b": "M7:WG0",
+        "intersection": "POINT (1515 -90)"
+      },
+      {
+        "a": "M6:WG4",
+        "b": "WG_out1",
+        "intersection": "POINT (2020 -30)"
+      },
+      {
+        "a": "M6:WG5",
+        "b": "WG_out2",
+        "intersection": "POINT (2020 -60)"
+      },
+      {
+        "a": "M7:WG1",
+        "b": "WG_BYP_L2_R4",
+        "intersection": "POINT (1515 -120)"
+      },
+      {
+        "a": "M7:WG4",
+        "b": "WG_out3",
+        "intersection": "POINT (2020 -90)"
+      },
+      {
+        "a": "M7:WG5",
+        "b": "WG_out4",
+        "intersection": "POINT (2020 -120)"
+      },
+      {
+        "a": "WG_BYP_L0_R2",
+        "b": "WG_in2",
+        "intersection": "POINT (0 -60)"
+      },
+      {
+        "a": "WG_BYP_L1_R4",
+        "b": "WG_BYP_L2_R4",
+        "intersection": "POINT (1010 -120)"
+      },
+      {
+        "a": "WG_BYP_L3_R0",
+        "b": "WG_out0",
+        "intersection": "POINT (2020 0)"
+      }
+    ],
+    "unexpected_intersections": [],
+    "passed": true,
+    "scope": "Outside-MMI centerlines from the generated sidecar only; excludes intended mixing inside MMI and does not extract topology from GDS."
+  }
+}

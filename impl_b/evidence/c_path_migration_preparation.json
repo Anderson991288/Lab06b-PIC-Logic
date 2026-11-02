@@ -1,0 +1,32 @@
+{
+  "target": "C:\\EDA_Codex\\Lab06b",
+  "source": "D:\\LAB\\Lab06b",
+  "code_paths_updated": [
+    "scripts/env_audit.py",
+    "scripts/render_course.py",
+    "scripts/render_m0_s2.py",
+    "scripts/render_m0_s3.py",
+    "scripts/render_m1_s1.py",
+    "scripts/render_m1_s2.py",
+    "scripts/render_m1_s3.py",
+    "work/m0_s1/build_mzi_drc.py",
+    "work/m0_s1/check_toolchain.py",
+    "work/m0_s2/physics_lab.py",
+    "work/m0_s3/run_models.py",
+    "work/m1_s1/run_experiments.py",
+    "work/m1_s2/run_b7.py",
+    "work/m1_s3/run_readout.py",
+    "course/m0_s1.html",
+    "course/m0_s1_foundation.html",
+    "course/m0_s2.html",
+    "course/m0_s3.html",
+    "course/m1_s1.html",
+    "course/m1_s2.html",
+    "course/m1_s3.html",
+    "course/plan.html",
+    "analysis/lab01a_7_6.html"
+  ],
+  "original_source_paths_preserved": true,
+  "tool_copy": "project-local KLayout distribution",
+  "scope": "All course steps through M1 S3; actual C-root reruns are required after installation."
+}

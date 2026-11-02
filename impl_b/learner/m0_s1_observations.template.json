@@ -1,0 +1,13 @@
+{
+  "learner_name": "",
+  "date": "",
+  "python_executable": "",
+  "actual_course_root": "",
+  "smoke_cases_passed": null,
+  "field_vs_power_explanation": "",
+  "theta_zero_output_port": "",
+  "pi_input_phase_combines_to": "",
+  "eda_missing_items": [],
+  "evidence_paths": [],
+  "instructor_review": "pending"
+}

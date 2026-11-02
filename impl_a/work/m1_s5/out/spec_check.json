@@ -1,0 +1,120 @@
+{
+ "checks": [
+  {
+   "id": "C1",
+   "desc": "OPS 合法：相鄰兩條波導、同一層的 MZI 不共用波導、MZI 數與 OPS 一致",
+   "ok": true
+  },
+  {
+   "id": "C2",
+   "desc": "光學埠：輸入、輸出各 n_modes 個，名稱不重複，每條 rail 剛好一個",
+   "ok": true
+  },
+  {
+   "id": "C3",
+   "desc": "讀取埠：剛好 2 個，存在於輸出埠且角色為 readout",
+   "ok": true
+  },
+  {
+   "id": "C4",
+   "desc": "相位通道：每顆 MZI 剛好 θ、φ 各一，名稱唯一，rail、層號、索引與 OPS 一致",
+   "ok": true
+  },
+  {
+   "id": "C5",
+   "desc": "相位檔的 SHA-256 與規格記錄相同",
+   "ok": true
+  },
+  {
+   "id": "C6",
+   "desc": "相位檔：每種功能都有 7 個 θ、7 個 φ，且為有限值",
+   "ok": true
+  },
+  {
+   "id": "C7",
+   "desc": "真值表：每種功能 16 組、不重複，目標與功能定義一致",
+   "ok": true
+  },
+  {
+   "id": "C8",
+   "desc": "從規格重建 B7 重算 80 筆：ΔP 與真值表相同、判定等於目標",
+   "ok": true
+  },
+  {
+   "id": "C9",
+   "desc": "參考光振幅：輸入埠表與模型一致",
+   "ok": true
+  },
+  {
+   "id": "C10",
+   "desc": "驗收餘裕：規格記錄的理想餘裕與重算的最小 |ΔP| 一致",
+   "ok": true
+  }
+ ],
+ "n_pass": 10,
+ "n_checks": 10,
+ "mutants": [
+  {
+   "id": "S1",
+   "fault": "通道名稱重複：M3_phi 寫成 M3_theta",
+   "failed_checks": [
+    "C4"
+   ],
+   "detected": true
+  },
+  {
+   "id": "S2",
+   "fault": "讀取埠寫成 out1、out2",
+   "failed_checks": [
+    "C3"
+   ],
+   "detected": true
+  },
+  {
+   "id": "S3",
+   "fault": "相位檔被手改（XOR2 的 φ3 +0.001 rad），規格未更新",
+   "failed_checks": [
+    "C5",
+    "C8"
+   ],
+   "detected": true
+  },
+  {
+   "id": "S4",
+   "fault": "OPS 抄錯：M3 放到第 1 層，與 M1 共用波導",
+   "failed_checks": [
+    "C1",
+    "C4"
+   ],
+   "detected": true
+  },
+  {
+   "id": "S5",
+   "fault": "R 的振幅寫成 9（功率）",
+   "failed_checks": [
+    "C9"
+   ],
+   "detected": true
+  },
+  {
+   "id": "S6",
+   "fault": "真值表抄錯一列的目標",
+   "failed_checks": [
+    "C7",
+    "C8"
+   ],
+   "detected": true
+  },
+  {
+   "id": "S7",
+   "fault": "輸出埠名重複（兩個 out1）",
+   "failed_checks": [
+    "C2",
+    "C3"
+   ],
+   "detected": true
+  }
+ ],
+ "n_detected": 7,
+ "n_mutants": 7
+}

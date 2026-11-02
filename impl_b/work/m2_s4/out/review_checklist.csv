@@ -1,0 +1,11 @@
+﻿id,topic,status,evidence
+R1,埠序與接收極性,passed,port_changes.csv：10 個角色與朝向不變，out1 正／out3 負。
+R2,七顆放置與六段直通,passed,兩版 GDS readback 皆核對 7 個 MZI 引用、14 MMI、6 段直通。
+R3,接縫與路徑覆蓋,passed,兩版皆核對十埠、81 個接點；另取樣全部波導中心線頂點與線段中點。
+R4,彎道裕量,improved,連續解析半徑 5.230883 → 7.665199 µm；課程目標 7.5，既有規劃值 5。
+R5,Si／HT／局部金屬線寬與間距,passed,KLayout 六項局部篩查皆零警示；不是完整 foundry deck。
+R6,交叉與非預期接觸,passed_with_scope,58 段中心線的 1653 對組合沒有非預期交集；僅檢查 sidecar，不是從 GDS 抽取完整拓樸。
+R7,heater／局部落墊,passed,14 個 HT 與 28 個局部金屬區保留；A/B 座標按名稱更新。
+R8,EC／外部 PAD／共地,pending_M2_S5,尚未配置；28 個局部接觸不是最終外部 PAD 數。
+R9,完整 DRC／LVS／製程驗證,pending_M2_S6,本步局部篩查不替代完整驗證。
+R10,光學損耗與相位回註,pending_M2_S7,長度改變，尚未計算實體傳播相位或重新調整相位；M1 80/80 仍只作基準。

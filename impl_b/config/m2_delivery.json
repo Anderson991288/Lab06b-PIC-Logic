@@ -1,0 +1,28 @@
+{
+  "schema": "lab06b.m2_delivery.v1",
+  "step": "M2 S7",
+  "kind": "teaching_design_review_and_model_replay",
+  "source_chip_index": "config/m2_current_chip.json",
+  "source_chip_step": "M2 S6",
+  "zip": "delivery/Lab06b_M2_PIC_delivery.zip",
+  "zip_sha256": "df8188958e9629f9a65960a2e308d43641846b9bdadf33eb7f34b4c7a242baa3",
+  "manifest": "delivery/m2_pic_delivery/manifest.json",
+  "manifest_sha256": "e59f73524fa0190ae857ef91e4b234872a7063bbc9098f461c7c90797f249700",
+  "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+  "model": "config/m2_backannotation.json",
+  "model_sha256": "5ac23e6e013dfd2f4cde2c190e670b9df7e491d334a4bdf6fad535a6989affee",
+  "candidate": "work/m2_s7/out/phase_settings_backannotated.json",
+  "candidate_sha256": "2e18ca66b4065bfebc7dc6aa39c516422c74fff266b6b29402bba24c4d70c5eb",
+  "reference_plane": "M1_core_ports",
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "limitations": [
+    "EC response and mode conversion",
+    "fanout propagation outside core plane",
+    "MMI calibrated absolute phase and dispersion",
+    "bend-specific loss/index",
+    "heater thermal/electrical calibration",
+    "packaging and foundry signoff"
+  ],
+  "next_step": "M3 S1"
+}

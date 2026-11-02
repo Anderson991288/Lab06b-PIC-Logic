@@ -1,0 +1,240 @@
+{
+ "gds": "b7_chip.gds",
+ "sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8",
+ "optical": {
+  "ok": true,
+  "n_bodies": 14,
+  "n_wires": 33,
+  "n_marks": 80,
+  "n_mzi": 7,
+  "n_links": 9,
+  "n_ext": 10,
+  "n_heaters": 14,
+  "links_match": true,
+  "ext_match": true,
+  "heaters_match": true,
+  "problems": []
+ },
+ "electrical": {
+  "ok": true,
+  "n_nets": 16,
+  "n_pads": 16,
+  "rows": [
+   {
+    "channel": "M1_phi",
+    "signal_pad": [
+     "M1_phi"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M1_theta",
+    "signal_pad": [
+     "M1_theta"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M2_phi",
+    "signal_pad": [
+     "M2_phi"
+    ],
+    "ground": [
+     "GND_B"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M2_theta",
+    "signal_pad": [
+     "M2_theta"
+    ],
+    "ground": [
+     "GND_B"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M3_phi",
+    "signal_pad": [
+     "M3_phi"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M3_theta",
+    "signal_pad": [
+     "M3_theta"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M4_phi",
+    "signal_pad": [
+     "M4_phi"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M4_theta",
+    "signal_pad": [
+     "M4_theta"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M5_phi",
+    "signal_pad": [
+     "M5_phi"
+    ],
+    "ground": [
+     "GND_B"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M5_theta",
+    "signal_pad": [
+     "M5_theta"
+    ],
+    "ground": [
+     "GND_B"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M6_phi",
+    "signal_pad": [
+     "M6_phi"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M6_theta",
+    "signal_pad": [
+     "M6_theta"
+    ],
+    "ground": [
+     "GND_T"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M7_phi",
+    "signal_pad": [
+     "M7_phi"
+    ],
+    "ground": [
+     "GND_B"
+    ],
+    "ok": true
+   },
+   {
+    "channel": "M7_theta",
+    "signal_pad": [
+     "M7_theta"
+    ],
+    "ground": [
+     "GND_B"
+    ],
+    "ok": true
+   }
+  ],
+  "problems": [],
+  "heater_squares": [
+   111.11,
+   111.11
+  ]
+ },
+ "faults": {
+  "flip": {
+   "desc": "M6 上下翻轉（heater 在下臂）",
+   "lvs_ok": false,
+   "lvs_problems": [
+    "heater 在 (1528, -60) 不在任何 MZI 的上臂",
+    "heater 在 (1772, -60) 不在任何 MZI 的上臂",
+    "heater 通道與規格不同（找到 12 個）"
+   ],
+   "elec_ok": false,
+   "elec_problems": [
+    "M6_phi：金屬網 2 個，訊號接墊 []，回流 []",
+    "M6_theta：金屬網 2 個，訊號接墊 []，回流 []"
+   ]
+  },
+  "wrong_rail": {
+   "desc": "M3 放到 rail 2–3",
+   "lvs_ok": false,
+   "lvs_problems": [
+    "一條導線接了 4 個端點（應為 2），位置約 (795, -90)",
+    "一條導線接了 1 個端點（應為 2），位置約 (1070, -26)",
+    "一條導線接了 1 個端點（應為 2），位置約 (465, -19)"
+   ],
+   "elec_ok": false,
+   "elec_problems": [
+    "M3_phi：金屬網 2 個，訊號接墊 []，回流 []",
+    "M3_theta：金屬網 2 個，訊號接墊 []，回流 []"
+   ]
+  },
+  "offset": {
+   "desc": "M5 錯位 0.1 µm",
+   "lvs_ok": false,
+   "lvs_problems": [
+    "一條導線接了 1 個端點（應為 2），位置約 (704, -97)",
+    "一條導線接了 1 個端點（應為 2），位置約 (1070, -86)",
+    "一條導線接了 1 個端點（應為 2），位置約 (1070, -64)"
+   ],
+   "elec_ok": true,
+   "elec_problems": []
+  },
+  "open": {
+   "desc": "M4_theta 訊號線開路",
+   "lvs_ok": true,
+   "lvs_problems": [],
+   "elec_ok": false,
+   "elec_problems": [
+    "M4_theta：金屬網 2 個，訊號接墊 []，回流 ['GND_T']"
+   ]
+  },
+  "short": {
+   "desc": "M3_phi 訊號線碰到回流匯流排",
+   "lvs_ok": true,
+   "lvs_problems": [],
+   "elec_ok": false,
+   "elec_problems": [
+    "M3_phi：金屬網 1 個，訊號接墊 []，回流 ['GND_T']",
+    "接墊共用同一金屬網（短路）：['GND_T', 'M3_phi']"
+   ]
+  },
+  "pad_swap": {
+   "desc": "接墊對照表 M1 兩個名稱寫反",
+   "lvs_ok": true,
+   "lvs_problems": [],
+   "elec_ok": false,
+   "elec_problems": [
+    "M1_phi：金屬網 2 個，訊號接墊 ['M1_theta']，回流 ['GND_T']",
+    "M1_theta：金屬網 2 個，訊號接墊 ['M1_phi']，回流 ['GND_T']"
+   ]
+  }
+ }
+}

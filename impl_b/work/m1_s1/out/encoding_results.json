@@ -1,0 +1,2053 @@
+{
+  "step": "M1 S1",
+  "timestamp": "2026-10-31T10:21:18.253762+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "root_matches_plan": true,
+  "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+  "numpy_version": "1.26.4",
+  "unit_tests": {
+    "run": 16,
+    "passed": 16,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "m0_s3_regression": {
+    "run": 18,
+    "passed": 18,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "baseline": {
+    "AND2": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "input_power": 0.0,
+        "output_powers": [
+          0.0,
+          0.0
+        ],
+        "output_total_power": 0.0,
+        "readout": {
+          "positive_power": 0.0,
+          "negative_power": 0.0,
+          "delta": 0.0,
+          "margin": -1.0,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": 1.0,
+        "correct": true
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            0.5000000000000001,
+            -0.5000000000000001
+          ]
+        ],
+        "input_power": 1.0,
+        "output_powers": [
+          0.5000000000000002,
+          0.5000000000000002
+        ],
+        "output_total_power": 1.0000000000000004,
+        "readout": {
+          "positive_power": 0.5000000000000002,
+          "negative_power": 0.5000000000000002,
+          "delta": 0.0,
+          "margin": -1.0,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": 1.0,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ]
+        ],
+        "input_power": 1.0,
+        "output_powers": [
+          0.5000000000000002,
+          0.5000000000000002
+        ],
+        "output_total_power": 1.0000000000000004,
+        "readout": {
+          "positive_power": 0.5000000000000002,
+          "negative_power": 0.5000000000000002,
+          "delta": 0.0,
+          "margin": -1.0,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": 1.0,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -1.0000000000000002,
+            1.0000000000000002
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "input_power": 2.0,
+        "output_powers": [
+          2.000000000000001,
+          0.0
+        ],
+        "output_total_power": 2.000000000000001,
+        "readout": {
+          "positive_power": 2.000000000000001,
+          "negative_power": 0.0,
+          "delta": 2.000000000000001,
+          "margin": 1.0000000000000009,
+          "bit": 1,
+          "boundary": false
+        },
+        "signed_margin": 1.0000000000000009,
+        "correct": true
+      }
+    ],
+    "NAND2": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            2.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.9428090415820636,
+            0.6666666666666667
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.3333333333333337,
+            -0.9428090415820636
+          ]
+        ],
+        "input_power": 4.0,
+        "output_powers": [
+          1.3333333333333337,
+          0.0,
+          2.6666666666666674
+        ],
+        "output_total_power": 4.000000000000001,
+        "readout": {
+          "power": 1.3333333333333337,
+          "margin": 1.166666666666667,
+          "bit": 1
+        },
+        "signed_margin": 1.166666666666667,
+        "correct": true
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            2.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.4714045207910316,
+            0.3333333333333332
+          ],
+          [
+            0.5000000000000001,
+            -0.5000000000000001
+          ],
+          [
+            1.6666666666666672,
+            -1.1785113019775795
+          ]
+        ],
+        "input_power": 5.0,
+        "output_powers": [
+          0.33333333333333315,
+          0.5000000000000002,
+          4.166666666666669
+        ],
+        "output_total_power": 5.000000000000002,
+        "readout": {
+          "power": 0.33333333333333315,
+          "margin": 0.1666666666666665,
+          "bit": 1
+        },
+        "signed_margin": 0.1666666666666665,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            2.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.4714045207910316,
+            0.3333333333333332
+          ],
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            1.6666666666666672,
+            -1.1785113019775795
+          ]
+        ],
+        "input_power": 5.0,
+        "output_powers": [
+          0.33333333333333315,
+          0.5000000000000002,
+          4.166666666666669
+        ],
+        "output_total_power": 5.000000000000002,
+        "readout": {
+          "power": 0.33333333333333315,
+          "margin": 0.1666666666666665,
+          "bit": 1
+        },
+        "signed_margin": 0.1666666666666665,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            2.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            3.3306690738754696e-16,
+            -3.3306690738754696e-16
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            2.000000000000001,
+            -1.4142135623730954
+          ]
+        ],
+        "input_power": 6.0,
+        "output_powers": [
+          2.218671295934096e-31,
+          0.0,
+          6.0000000000000036
+        ],
+        "output_total_power": 6.0000000000000036,
+        "readout": {
+          "power": 2.218671295934096e-31,
+          "margin": -0.16666666666666666,
+          "bit": 0
+        },
+        "signed_margin": 0.16666666666666666,
+        "correct": true
+      }
+    ]
+  },
+  "perturbations": {
+    "AND2_relative_phase_pi": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "input_power": 0.0,
+        "output_powers": [
+          0.0,
+          0.0
+        ],
+        "output_total_power": 0.0,
+        "readout": {
+          "positive_power": 0.0,
+          "negative_power": 0.0,
+          "delta": 0.0,
+          "margin": -1.0,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": 1.0,
+        "correct": true
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1.0,
+            1.2246467991473532e-16
+          ]
+        ],
+        "output_field": [
+          [
+            0.5,
+            -0.5000000000000002
+          ],
+          [
+            -0.5,
+            0.5000000000000002
+          ]
+        ],
+        "input_power": 1.0,
+        "output_powers": [
+          0.5000000000000002,
+          0.5000000000000002
+        ],
+        "output_total_power": 1.0000000000000004,
+        "readout": {
+          "positive_power": 0.5000000000000002,
+          "negative_power": 0.5000000000000002,
+          "delta": 0.0,
+          "margin": -1.0,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": 1.0,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ]
+        ],
+        "input_power": 1.0,
+        "output_powers": [
+          0.5000000000000002,
+          0.5000000000000002
+        ],
+        "output_total_power": 1.0000000000000004,
+        "readout": {
+          "positive_power": 0.5000000000000002,
+          "negative_power": 0.5000000000000002,
+          "delta": 0.0,
+          "margin": -1.0,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": 1.0,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            1.2246467991473532e-16
+          ]
+        ],
+        "output_field": [
+          [
+            -6.123233995736767e-17,
+            -6.123233995736767e-17
+          ],
+          [
+            -1.0000000000000002,
+            1.0000000000000002
+          ]
+        ],
+        "input_power": 2.0,
+        "output_powers": [
+          7.498798913309292e-33,
+          2.000000000000001
+        ],
+        "output_total_power": 2.000000000000001,
+        "readout": {
+          "positive_power": 7.498798913309292e-33,
+          "negative_power": 2.000000000000001,
+          "delta": -2.000000000000001,
+          "margin": -3.000000000000001,
+          "bit": 0,
+          "boundary": false
+        },
+        "signed_margin": -3.000000000000001,
+        "correct": false
+      }
+    ],
+    "NAND2_reference_off": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "input_power": 0.0,
+        "output_powers": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_total_power": 0.0,
+        "readout": {
+          "power": 0.0,
+          "margin": -0.16666666666666666,
+          "bit": 0
+        },
+        "signed_margin": -0.16666666666666666,
+        "correct": false
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            0.47140452079103196,
+            -0.33333333333333354
+          ],
+          [
+            0.5000000000000001,
+            -0.5000000000000001
+          ],
+          [
+            0.33333333333333354,
+            -0.23570226039551595
+          ]
+        ],
+        "input_power": 1.0,
+        "output_powers": [
+          0.3333333333333337,
+          0.5000000000000002,
+          0.16666666666666685
+        ],
+        "output_total_power": 1.0000000000000009,
+        "readout": {
+          "power": 0.3333333333333337,
+          "margin": 0.16666666666666705,
+          "bit": 1
+        },
+        "signed_margin": 0.16666666666666705,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            0.47140452079103196,
+            -0.33333333333333354
+          ],
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            0.33333333333333354,
+            -0.23570226039551595
+          ]
+        ],
+        "input_power": 1.0,
+        "output_powers": [
+          0.3333333333333337,
+          0.5000000000000002,
+          0.16666666666666685
+        ],
+        "output_total_power": 1.0000000000000009,
+        "readout": {
+          "power": 0.3333333333333337,
+          "margin": 0.16666666666666705,
+          "bit": 1
+        },
+        "signed_margin": 0.16666666666666705,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            0.9428090415820639,
+            -0.6666666666666671
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.6666666666666671,
+            -0.4714045207910319
+          ]
+        ],
+        "input_power": 2.0,
+        "output_powers": [
+          1.3333333333333348,
+          0.0,
+          0.6666666666666674
+        ],
+        "output_total_power": 2.000000000000002,
+        "readout": {
+          "power": 1.3333333333333348,
+          "margin": 1.166666666666668,
+          "bit": 1
+        },
+        "signed_margin": -1.166666666666668,
+        "correct": false
+      }
+    ],
+    "NAND2_reference_phase_pi": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -2.0,
+            2.4492935982947064e-16
+          ]
+        ],
+        "output_field": [
+          [
+            0.9428090415820635,
+            -0.6666666666666669
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1.3333333333333335,
+            0.9428090415820637
+          ]
+        ],
+        "input_power": 4.0,
+        "output_powers": [
+          1.3333333333333337,
+          0.0,
+          2.6666666666666674
+        ],
+        "output_total_power": 4.000000000000001,
+        "readout": {
+          "power": 1.3333333333333337,
+          "margin": 1.166666666666667,
+          "bit": 1
+        },
+        "signed_margin": 1.166666666666667,
+        "correct": true
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            -2.0,
+            2.4492935982947064e-16
+          ]
+        ],
+        "output_field": [
+          [
+            1.4142135623730956,
+            -1.0000000000000004
+          ],
+          [
+            0.5000000000000001,
+            -0.5000000000000001
+          ],
+          [
+            -1.0,
+            0.7071067811865478
+          ]
+        ],
+        "input_power": 5.0,
+        "output_powers": [
+          3.0000000000000018,
+          0.5000000000000002,
+          1.5000000000000002
+        ],
+        "output_total_power": 5.000000000000002,
+        "readout": {
+          "power": 3.0000000000000018,
+          "margin": 2.8333333333333353,
+          "bit": 1
+        },
+        "signed_margin": 2.8333333333333353,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -2.0,
+            2.4492935982947064e-16
+          ]
+        ],
+        "output_field": [
+          [
+            1.4142135623730956,
+            -1.0000000000000004
+          ],
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            -1.0,
+            0.7071067811865478
+          ]
+        ],
+        "input_power": 5.0,
+        "output_powers": [
+          3.0000000000000018,
+          0.5000000000000002,
+          1.5000000000000002
+        ],
+        "output_total_power": 5.000000000000002,
+        "readout": {
+          "power": 3.0000000000000018,
+          "margin": 2.8333333333333353,
+          "bit": 1
+        },
+        "signed_margin": 2.8333333333333353,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            -2.0,
+            2.4492935982947064e-16
+          ]
+        ],
+        "output_field": [
+          [
+            1.8856180831641276,
+            -1.3333333333333341
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.6666666666666665,
+            0.47140452079103184
+          ]
+        ],
+        "input_power": 6.0,
+        "output_powers": [
+          5.333333333333339,
+          0.0,
+          0.6666666666666665
+        ],
+        "output_total_power": 6.000000000000005,
+        "readout": {
+          "power": 5.333333333333339,
+          "margin": 5.166666666666672,
+          "bit": 1
+        },
+        "signed_margin": -5.166666666666672,
+        "correct": false
+      }
+    ],
+    "NAND2_reference_amplitude_3": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            3.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -1.4142135623730954,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            2.0000000000000004,
+            -1.4142135623730954
+          ]
+        ],
+        "input_power": 9.0,
+        "output_powers": [
+          3.0000000000000013,
+          0.0,
+          6.000000000000001
+        ],
+        "output_total_power": 9.000000000000002,
+        "readout": {
+          "power": 3.0000000000000013,
+          "margin": 2.833333333333335,
+          "bit": 1
+        },
+        "signed_margin": 2.833333333333335,
+        "correct": true
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            3.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.9428090415820634,
+            0.6666666666666665
+          ],
+          [
+            0.5000000000000001,
+            -0.5000000000000001
+          ],
+          [
+            2.333333333333334,
+            -1.6499158227686113
+          ]
+        ],
+        "input_power": 10.0,
+        "output_powers": [
+          1.3333333333333333,
+          0.5000000000000002,
+          8.166666666666668
+        ],
+        "output_total_power": 10.000000000000002,
+        "readout": {
+          "power": 1.3333333333333333,
+          "margin": 1.1666666666666665,
+          "bit": 1
+        },
+        "signed_margin": 1.1666666666666665,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "expected": 1,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            3.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.9428090415820634,
+            0.6666666666666665
+          ],
+          [
+            -0.5000000000000001,
+            0.5000000000000001
+          ],
+          [
+            2.333333333333334,
+            -1.6499158227686113
+          ]
+        ],
+        "input_power": 10.0,
+        "output_powers": [
+          1.3333333333333333,
+          0.5000000000000002,
+          8.166666666666668
+        ],
+        "output_total_power": 10.000000000000002,
+        "readout": {
+          "power": 1.3333333333333333,
+          "margin": 1.1666666666666665,
+          "bit": 1
+        },
+        "signed_margin": 1.1666666666666665,
+        "correct": true
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "expected": 0,
+        "input_field": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            3.0,
+            0.0
+          ]
+        ],
+        "output_field": [
+          [
+            -0.47140452079103146,
+            0.3333333333333329
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            2.6666666666666674,
+            -1.8856180831641272
+          ]
+        ],
+        "input_power": 11.0,
+        "output_powers": [
+          0.33333333333333276,
+          0.0,
+          10.66666666666667
+        ],
+        "output_total_power": 11.000000000000002,
+        "readout": {
+          "power": 0.33333333333333276,
+          "margin": 0.1666666666666661,
+          "bit": 1
+        },
+        "signed_margin": -0.1666666666666661,
+        "correct": false
+      }
+    ]
+  },
+  "b7_input_encodings": [
+    {
+      "pattern_index_lsb_x1": 0,
+      "bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 9.0
+    },
+    {
+      "pattern_index_lsb_x1": 1,
+      "bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 10.0
+    },
+    {
+      "pattern_index_lsb_x1": 2,
+      "bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 10.0
+    },
+    {
+      "pattern_index_lsb_x1": 3,
+      "bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 11.0
+    },
+    {
+      "pattern_index_lsb_x1": 4,
+      "bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 10.0
+    },
+    {
+      "pattern_index_lsb_x1": 5,
+      "bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 11.0
+    },
+    {
+      "pattern_index_lsb_x1": 6,
+      "bits": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 11.0
+    },
+    {
+      "pattern_index_lsb_x1": 7,
+      "bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 12.0
+    },
+    {
+      "pattern_index_lsb_x1": 8,
+      "bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 10.0
+    },
+    {
+      "pattern_index_lsb_x1": 9,
+      "bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 11.0
+    },
+    {
+      "pattern_index_lsb_x1": 10,
+      "bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 11.0
+    },
+    {
+      "pattern_index_lsb_x1": 11,
+      "bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 12.0
+    },
+    {
+      "pattern_index_lsb_x1": 12,
+      "bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 11.0
+    },
+    {
+      "pattern_index_lsb_x1": 13,
+      "bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 12.0
+    },
+    {
+      "pattern_index_lsb_x1": 14,
+      "bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "field": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 12.0
+    },
+    {
+      "pattern_index_lsb_x1": 15,
+      "bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "total_power": 13.0
+    }
+  ],
+  "incoherent_phase_average_powers": [
+    1.0000000000000004,
+    1.0000000000000007
+  ],
+  "student_example": {
+    "config": {
+      "bits": [
+        1,
+        1
+      ],
+      "and_relative_phase_pi": 0.0,
+      "and_threshold": 1.0,
+      "and_loss_db": 0.0,
+      "nand_reference_amplitude": 2.0,
+      "nand_reference_phase_pi": 0.0,
+      "nand_threshold": 0.16666666666666666,
+      "power_unit_w": 1e-06,
+      "responsivity_a_per_w": 0.8,
+      "transimpedance_v_per_a": 10000.0
+    },
+    "AND2": {
+      "bits": [
+        1,
+        1
+      ],
+      "expected": 1,
+      "input_field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "output_field": [
+        [
+          -1.0000000000000002,
+          1.0000000000000002
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "input_power": 2.0,
+      "output_powers": [
+        2.000000000000001,
+        0.0
+      ],
+      "output_total_power": 2.000000000000001,
+      "readout": {
+        "positive_power": 2.000000000000001,
+        "negative_power": 0.0,
+        "delta": 2.000000000000001,
+        "margin": 1.0000000000000009,
+        "bit": 1,
+        "boundary": false
+      },
+      "signed_margin": 1.0000000000000009,
+      "correct": true
+    },
+    "NAND2": {
+      "bits": [
+        1,
+        1
+      ],
+      "expected": 0,
+      "input_field": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0
+        ]
+      ],
+      "output_field": [
+        [
+          3.3306690738754696e-16,
+          -3.3306690738754696e-16
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.000000000000001,
+          -1.4142135623730954
+        ]
+      ],
+      "input_power": 6.0,
+      "output_powers": [
+        2.218671295934096e-31,
+        0.0,
+        6.0000000000000036
+      ],
+      "output_total_power": 6.0000000000000036,
+      "readout": {
+        "power": 2.218671295934096e-31,
+        "margin": -0.16666666666666666,
+        "bit": 0
+      },
+      "signed_margin": 0.16666666666666666,
+      "correct": true
+    },
+    "receiver": {
+      "positive_power": 2.000000000000001,
+      "negative_power": 0.0,
+      "delta": 2.000000000000001,
+      "margin": 1.0000000000000009,
+      "bit": 1,
+      "boundary": false,
+      "positive_current_a": 1.6000000000000008e-06,
+      "negative_current_a": 0.0,
+      "differential_current_a": 1.6000000000000008e-06,
+      "differential_voltage_v": 0.016000000000000007,
+      "threshold_voltage_v": 0.008,
+      "voltage_margin_v": 0.008000000000000007
+    }
+  },
+  "checks": [
+    {
+      "name": "AND2_fixed_truth",
+      "passed": true
+    },
+    {
+      "name": "NAND2_fixed_truth",
+      "passed": true
+    },
+    {
+      "name": "all_outputs_conserve_power",
+      "passed": true
+    },
+    {
+      "name": "B7_16_input_encodings",
+      "passed": true
+    },
+    {
+      "name": "incoherent_phase_average",
+      "passed": true
+    },
+    {
+      "name": "reference_off_exposes_zero_input_limit",
+      "passed": true
+    },
+    {
+      "name": "relative_phase_error_exposed",
+      "passed": true
+    },
+    {
+      "name": "reference_phase_error_exposed",
+      "passed": true
+    }
+  ],
+  "interactive_samples": [
+    {
+      "kind": "AND2",
+      "bits": [
+        0,
+        0
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        0.0,
+        0.0
+      ],
+      "readout": {
+        "positive_power": 0.0,
+        "negative_power": 0.0,
+        "delta": 0.0,
+        "margin": -1.0,
+        "bit": 0,
+        "boundary": false
+      }
+    },
+    {
+      "kind": "AND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        2.000000000000001,
+        0.0
+      ],
+      "readout": {
+        "positive_power": 2.000000000000001,
+        "negative_power": 0.0,
+        "delta": 2.000000000000001,
+        "margin": 1.0000000000000009,
+        "bit": 1,
+        "boundary": false
+      }
+    },
+    {
+      "kind": "AND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 0.5,
+      "output_powers": [
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "readout": {
+        "positive_power": 1.0000000000000004,
+        "negative_power": 1.0000000000000004,
+        "delta": 0.0,
+        "margin": -1.0,
+        "bit": 0,
+        "boundary": false
+      }
+    },
+    {
+      "kind": "AND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 1.0,
+      "output_powers": [
+        7.498798913309292e-33,
+        2.000000000000001
+      ],
+      "readout": {
+        "positive_power": 7.498798913309292e-33,
+        "negative_power": 2.000000000000001,
+        "delta": -2.000000000000001,
+        "margin": -3.000000000000001,
+        "bit": 0,
+        "boundary": false
+      }
+    },
+    {
+      "kind": "NAND2",
+      "bits": [
+        0,
+        0
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        1.3333333333333337,
+        0.0,
+        2.6666666666666674
+      ],
+      "readout": {
+        "power": 1.3333333333333337,
+        "margin": 1.166666666666667,
+        "bit": 1
+      }
+    },
+    {
+      "kind": "NAND2",
+      "bits": [
+        0,
+        1
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        0.33333333333333315,
+        0.5000000000000002,
+        4.166666666666669
+      ],
+      "readout": {
+        "power": 0.33333333333333315,
+        "margin": 0.1666666666666665,
+        "bit": 1
+      }
+    },
+    {
+      "kind": "NAND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        2.218671295934096e-31,
+        0.0,
+        6.0000000000000036
+      ],
+      "readout": {
+        "power": 2.218671295934096e-31,
+        "margin": -0.16666666666666666,
+        "bit": 0
+      }
+    },
+    {
+      "kind": "NAND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 0.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        1.3333333333333348,
+        0.0,
+        0.6666666666666674
+      ],
+      "readout": {
+        "power": 1.3333333333333348,
+        "margin": 1.166666666666668,
+        "bit": 1
+      }
+    },
+    {
+      "kind": "NAND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 2.0,
+      "phase_pi": 1.0,
+      "output_powers": [
+        5.333333333333339,
+        0.0,
+        0.6666666666666665
+      ],
+      "readout": {
+        "power": 5.333333333333339,
+        "margin": 5.166666666666672,
+        "bit": 1
+      }
+    },
+    {
+      "kind": "NAND2",
+      "bits": [
+        1,
+        1
+      ],
+      "amplitude": 3.0,
+      "phase_pi": 0.0,
+      "output_powers": [
+        0.33333333333333276,
+        0.0,
+        10.66666666666667
+      ],
+      "readout": {
+        "power": 0.33333333333333276,
+        "margin": 0.1666666666666661,
+        "bit": 1
+      }
+    }
+  ],
+  "source_hashes": {
+    "work/common/encoding.py": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87",
+    "work/common/photodetection.py": "372ff14c2e7aeac66a8362f8b8e36aa0a65fccc4806ee2652aedfcb55e20626b",
+    "work/common/mzi.py": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a",
+    "work/common/linear_network.py": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058",
+    "work/m1_s1/experiments.py": "2188f0f1c9c4c8b491330e6aa04a6908560f6b5f8eca3f94ee120ddd479830d2",
+    "work/m1_s1/test_encoding_readout.py": "3f177a5cdd7fd98f92ae87995ec164dc4d2f067fb29c9bcd795c53c16b1124e4",
+    "work/m1_s1/run_experiments.py": "a00488a797021c213c74af8b1ec24692de776e508ccb27856a6d25fc2e5a7211",
+    "config/m1_s1_example.json": "da62ed701f22e79e6a584beba120ecf57718030e3f3e72134dae67fb78fd4819"
+  },
+  "core_passed": true,
+  "scope": "New ideal optical encoding and two/three-mode experiments; no B7 phase synthesis, PDK, dynamic receiver or chip validation."
+}

@@ -1,0 +1,276 @@
+//  Calibre v2026.1_17.11    Mon Jan 5 16:59:16 PST 2026
+//  Calibre Utility Library   v0-10_13-2017-1    Fri Sep 19 09:11:48 PDT 2025
+//  Litho Libraries v2026.1_17.11  Mon Jan 5 16:59:16 PST 2026
+//
+//                   Copyright Siemens 1996-2026
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//          WHICH IS THE PROPERTY OF SIEMENS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Siemens software executing under x86-64 Linux
+//
+//  Running on Linux eda.ic (192.168.126.200) 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Oct 29 22:38:22 CST 2026 x86_64 glibc 2.28/NPTL 2.28
+//  OS: AlmaLinux release 8.10 (Cerulean Leopard)[6.6.114.1-microsoft-standard-WSL2]
+//  hypervisor detected
+//  Current active profile: virtual-guest
+//  net.netfilter.nf_conntrack_max: 262144
+//  vm.max_map_count: 65530
+//  vm.overcommit_memory: 0
+//  kernel.numa_balancing: 0
+//  kernel.pid_max: 32768
+//
+WARNING: Please increase descriptors limit for best performance (10240)
+//
+//  Processor AMD Ryzen 7 5800X3D 8-Core Processor            [25332] (4th generation)
+//  64 bit virtual addressing enabled
+//  Running aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre -interactive -drc -help
+//  Process ID: 6201
+//
+//  Starting time: Sat Oct 31 16:37:08 2026
+//
+
+--- CALIBRE_* ENVIRONMENT VARIABLES:
+
+CALIBRE_ATOMIC_LVHEAP=0
+CALIBRE_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/pvt/calibre  -interactive -drc -help'
+CALIBRE_HOME=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11
+CALIBRE_INITIAL_CMD_LINE='/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/bin/calibre -interactive -drc -help'
+CALIBRE_MTFLEX_LOGTAG=eda.ic.6201.2026_1031_1637
+CALIBRE_READDB_LD_LIBRARY_PATH=/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib/julia:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv/julia/1.5/lib:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/shared/pkgs/icv/tools/calibre_client/lib/64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/calibre_base/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_lib/lib64:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_qt5_comp/plugins:/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_oa/22.41p004/lib/linux_rhel68_gcc44x_64/opt
+CALIBRE_SKIP_OS_CHECKS=
+
+ERROR: -interactive is invalid invocation option.
+
+Usage: calibre [ -lvs {  [ { -tl || -ts } <cnet_file_name> ]
+                         [ -nonames ]
+                         [ -dblayers "name1,..." ]
+                         [ -bpf [no-extents] ] [ -nl ] [ -cb ]
+                      } || { [ -hier [ { -automatch | -genhcells[=tvf_script | select] [-gh_patterns <path>] } ] ] } || { [ -flatten ] }
+                      [ -ixf ] [ -nxf ]
+               ]
+               [ [ -spice <spice_file_name> ] || [ -layout <spice_file_name> ] ]
+               [ -hcell <cell_correspondence_file_name> ] [ -xcell <xcell_file_name> ]
+               [ -siggen ]
+               [ -nowait | -wait n | -lmretry <retry_args> ]
+               [ -lmconfig <licensing_config_file_name> ]
+               [ {  { -turbo [ <number_of_processors> ] [ -turbo_all ] [ -lvs_supplement [ <number_of_processors> ] ] }
+                 } [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] [ -remotedata [ <size> ] [ { -recoveroff | -recoverremote } ] ] ] [ -hyper [ pathchk ] [ remote ] [ cmp ] ] ]
+               [ -cmp_host <hostname> | -cmp_remotefile <filename> ]
+               [ -waiver <waiver-setup-file-name> ]
+               [ -E <svrf_output_from_tvf> ]
+               [ -tvfarg <tvf_argument> ]
+               [ -tvf_prerun <filename> ]
+               <rule_file_name>
+
+       calibre -recon { [ -si[=all|pg|io|db|tvf_script] ] [-softchk] | -erc | -si[=all|pg|io|db|tvf_script] -softchk -erc } [-hier] 
+               [ { { -turbo [ <number_of_processors> ] [ -turbo_all ] } }
+                 [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] [ -remotedata [ <size> ] [ { -recoveroff | -recoverremote } ] ] ]
+                  [ -hyper [ pathchk ] [ remote ] ] ]
+               [ -hcell <cell_correspondence_file_name> ]
+               [ -E <svrf_output_from_tvf> ]
+               [ -tvfarg <tvf_argument> ]
+               [ -tvf_prerun <filename> ]
+               <rule_file_name>
+
+       calibre -recon -si[=all|pg|io|tvf_script]
+                     [ -turbo 
+                       [ { [ <number_of_processors> ] || -turbo_all } ]
+                       [ { -remote <host,host,...> ||
+                           -remotefile <filename> ||  
+                           -remotecommand <filename> <count> } ] ]
+                     {-svdb <svdb_dir>}
+
+       calibre -recon
+               [-turbo [{ [ <number_of_processors> ] || -turbo_all } ]]
+               { { -erc=<svrf_file> | -softchk[=<qs_tcl_file>] } {-svdb <svdb_dir> [topcell]} } |
+               { -erc [-svdb <svdb_dir> [topcell]] -exec <qs_tcl_file> [arg_list] } 
+
+       calibre -perc [ { -spice <spice_file_name> [ -hier [ -automatch ] [ -hcell <cell_correspondence_file_name> ] ] ||
+                         -layout <spice_file_name> [ -hier [ [ -automatch ] -hcell <cell_correspondence_file_name> ] ] ] } ] 
+                     [ -nowait || -wait <n> || -lmretry <retry_args> ]
+                     [ -lmconfig <licensing_config_file_name> ]
+                     [ -turbo 
+                       [ { [ <number_of_processors> ] [ -lvs_supplement <number_of_processors> ] || -turbo_all } ]
+                       [ { -remote <host,host,...> ||
+                           -remotefile <filename> ||  
+                           -remotecommand <filename> <count> }
+                           [ -remotedata [ <size> ] [ { -recoveroff || -recoverremote } ] ] ] 
+                       [ -hyper [ remote ] ] ]
+                     <rule_file_name>
+
+       calibre -perc -ldl -hier 
+                     [ -automatch ] [-hcell <cell_correspondence_file_name> ] 
+                     [ -soc [ -cell_info_file <cell_gds_file> ] ] } ]
+                     [ -nowait || -wait <n> || -lmretry <retry_args> ]
+                     [ -hold_lic <license_names> ]
+                     [ -lmconfig <licensing_config_file_name> ]
+                     [ -turbo 
+                       [ { [ <number_of_processors> ] [ -lvs_supplement <number_of_processors> ] || -turbo_all } ]
+                       [ { -remote <host,host,...> ||
+                           -remotefile <filename> ||  
+                           -remotecommand <filename> <count> }
+                           [ -remotedata [ <size> ] [ { -recoveroff || -recoverremote } ] ] ] 
+                       [ -hyper [ remote ] [ -ys_hyper [ remote ] ] ]
+                     <rule_file_name>
+
+       calibre { -lvs | -perc } { -cs [ ALL | <number> ] || -cl [ ALL | <number> ] } 
+                     [ -nowait || -wait n || -lmretry <retry_args> ]
+                     [ -lmconfig <licensing_config_file_name> ]
+                     [ -cb ] [ -E <svrf_output_from_tvf> ] [ -tvfarg <tvf_argument> ] [ -tvf_prerun <filename> ]
+                     <rule_file_name>
+
+       calibre -xrc {  -phdb
+                         [ -cb  || [ -lbd @<state_filename> ] -turbo [ <number_of_processors> ] [ -turbo_all ][ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] ] ]
+                         [ -noasic ] 
+                         [ -hcell <cell_correspondence_file_name> ] }
+                 || {  -pdb
+                         [ -c || -r || -rc || -rcc || -adms || -l || -lm || -rl || -rcl || -rccl || -rlm || -rclm || -rcclm ]
+                         [ -cb || [ -lbd @<state_filename> ] -turbo [ <number_of_processors> ] [ -turbo_all ] ]
+                         [ -xcell <xcell_file_name> [ -full || -incontext ] ]
+                         [ -select || -cselect ] 
+                         [ -asic || -noasic ] 
+                         [ -corner <corner1> ]
+                         [ -nocheck ] 
+                         [ -pdb_info ] }
+                 || {  -fmt
+                         {    [ [ -c || -r || -rc || -rcc || -adms || -l || -m || -lm || -rl || -rcl || -rccl || -rlm || -rclm || -rcclm || -all || -simple ] [ -g ] ]
+                           || [ -netmodel ] }
+                         [ -cb || -lbd @<state_filename> ]
+                         [ -full || -incontext ]
+                         [ -corner <corner1,corner2,...> || -corner all ]
+                         [ -report [none || all || only] ][-noreport]
+                         [ -fmt_warnings ] [ -fmt_info ]
+                         [ -nocheck ] }
+                  [ -E <svrf_output_from_tvf> ] [ -tvfarg <tvf_argument> ] [ -tvf_prerun <filename> ] <rule_file_name> 
+
+       calibre -xact {  
+                     { -simple  [ -turbo [ <number_of_processors> ] [ -turbo_all ] [ -pdb_info ] }
+                  || { [ -r || -c  || -rc || -rcc || -l || -rl || -rcl || -rccl ] [[-g] [ -turbo [ <number_of_processors> ] [ -turbo_all ]
+                       [ -nocheck ]  [-xcell <xcell_file_name>]  }
+                  || {  -phdb
+                         [ -turbo [ <number_of_processors> ] [ -turbo_all ]
+                                  [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] ] ]
+                         [ -noasic ]
+                         [ -hcell <cell_correspondence_file_name> ] }
+                  || { [ -3dselect [ -r || -c || -rc || -rcc ]
+                         [ -xcell <xcell_file_name> ]
+                         [ -turbo [ <number_of_processors> ] [ -turbo_all ]
+                           [ -pdb_info ] 
+                         [ -hcell <cell_correspondence_file_name> ] 
+                         [ -corner <corner1> ] }
+                  || { [ -3d [ -r || -c || -rc || -rcc ]
+                         [ -xcell <xcell_file_name> ]
+                         [ -turbo [ <number_of_processors> ] [ -turbo_all ]
+                           [ -pdb_info ] 
+                         [ -hcell <cell_correspondence_file_name> ] }
+                  || { [ -3d -pdb [ -rc || -rcc || -rcl || -rccl || -rclm || -rcclm ]
+                        || -r || -l || -lm || -rl || -rlm || -erc ]
+                         [ -turbo [ <number_of_processors> ] [ -turbo_all ]
+                                  [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] ] ]
+                         [ -hybrid ]
+                         [ -xcell <xcell_file_name> [ -full ] ]
+                         [ -select || -cselect ]
+                         [ -noasic ]
+                         [ -corner <corner1> ]
+                         [ -nocheck ]
+                         [ -pdb_info ] }
+                  || { -fmt
+                         { [ [ -c || -r || -rc || -rcc || -l || -m || -lm || -rl || -rcl || -rccl || -rlm || -rclm || -rcclm || -all || -simple ] [ -g ] ]
+                           || [ -netmodel ] }
+                         [ -full || -incontext ]
+                         [ -corner <corner1,corner2,...> || -corner all ]
+                         [ -report [none || all || only] ][-noreport]
+                         [ -fmt_warnings ] [ -fmt_info ]
+                         [ -nocheck ] }
+                     }  
+                  <rule_file_name>
+
+       calibre {  -drc [ -cb ]
+               || -drc -hier [ -recon [inverse] ] [ -rhdb save|restore <filename> ] [ -fx ] [ {  { -turbo [ <number_of_processors> ] [ -turbo_all ] }
+                               || { -turbo_litho [ <number_of_processors> ] }
+                               || { -turbo [ <number_of_processors> ] [ -turbo_all ] -turbo_litho [ <number_of_processors> ] }
+                               } [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] [ -remotedata [ <size> ] [ { -recoveroff | -recoverremote } ] ] ] [ -hyper [ remote ] [ connect ] ] [ { -hdbflex || -hdbflex_acquire } ] ]
+               [ -waiver <waiver-setup-file-name> ]
+               [ -analyze [results|spacing] ]
+               [ -runfile <runfile_name> ]
+               [ -nowait | -wait n | -lmretry <retry_args> ] [ -lmconfig <licensing_config_file_name> ]
+               [ -E <svrf_output_from_tvf> ] [ -tvfarg <tvf_argument> ] [ -tvf_prerun <filename> ] <rule_file_name>
+               || -mtflex <host connection>
+               }
+
+       calibre [ -pto | -pxs ] [ -turbo [ <number_of_processors> ] [ -turbo_all ]
+                      [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] [ -remotedata [ <size> ] [ { -recoveroff | -recoverremote } ] ] ] ] <rule_file_name>
+
+
+       calibre -dfm -hier [ -dfmdb <dfm_database> ] [ -hcell <cell_file_name> ] [ -xcell <xcell_file_name> ]
+                          [ -rhdb save|restore <filename> ]
+                          [ {  { -turbo [ <number_of_processors> ] [ -turbo_all ] }
+                            || { -turbo_litho [ <number_of_processors> ] }
+                            || { -turbo [ <number_of_processors> ] [ -turbo_all ] -turbo_litho [ <number_of_processors> ] }
+                            } [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] [ -remotedata [ <size> ] [ { -recoveroff | -recoverremote } ] ] ] [ -hyper [ remote ] ]  ]
+                          [ -E <svrf_output_from_tvf> ] [ -tvfarg <tvf_argument> ] [ -tvf_prerun <filename> ] <rule_file_name> [ -nowait | -wait n ] [ -lmconfig <licensing_config_file_name> ]
+            || -dfm <dfm_args> -ys [ <ys_args> ]
+
+       calibre -ys [ -lfd ] [ -dfmdb <dfm_database> [ -rev <revision_name> ] ] [-autostart] 
+                          [ {  { -turbo [ <number_of_processors> ] [ -turbo_all ] }
+                            || { -turbo_litho [ <number_of_processors> ] }
+                            || { -turbo [ <number_of_processors> ] [ -turbo_all ] -turbo_litho [ <number_of_processors> ] }
+                            } [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] ] [ -ys_hyper [ remote ] ]  ]
+                         [ -exec <script_file_name> [arg list] ]
+
+       calibre [ -cb ] -qs [ -turbo [ <number_of_processors> ] [ -turbo_all ] ] [ -svdb <svdb_directory> [ -rev <rev_name> ] [ <top_cell> ] ] [ -exec <command_file> [arg list] ] 
+
+       calibre [ -cb ] [ -nowait | -wait n ] [ -lmconfig <licensing_config_file_name> ] [ -query_input <query_file> ] -query <svdb_directory> [ <layout_primary> ] 
+
+       calibre [ -cb ] [ -nowait | -wait n ] -rve [ { [ -lvs ] || -perc || -pex <svdb_directory> [ <layout_primary> ]
+                                                      || -drc <drc_error_database...>
+                                                      || -drc { <drc_error_database...> || -input <db_to_layout_map_file> }
+                                                          -report <report.ini> -outputdir <output_dir> [ -summaryfile <drc_summary_rpt> ] [ -display <display> ]
+                                                      || -drc <drc_error_database...> -createcto -rules <rule_file> [-ctotype CD] [-layermap <layer_map_file>] [-category [group][,layer]]
+                                                           [-comments] [-noshowlayers|-reduceshowlayers] [-output <output_cto_file> | -outputdir <output_directory_for_cto> [-warnOverwrite] ]
+                                                      || -drc <drc_error_database> -output_csv <csv_output_file> [ -write_check_text ] [ -write_top_coords ] [ -calculate_properties ]
+                                                           [ -classify_shapes ] [ -include_cols <column list> | -exclude_cols <column list> ]
+                                                      || -drc <drc_error_database> -convert_to <format> -output_file <output_file [ -checks <checks> ]
+                                                           [ -cell <cell...> ] [ -check_map_file <mapping_file ] [ -precision <precision> ] [ -offset <offset> ]
+                                                           [ -side_rdb <YES|NO> ] [-min_feature <min_feature_size> ]
+                                                      || -dfm <dfmdb_directory> [ -cmp ] [ -report <report.ini> -outputdir <output_dir> [ -display <display> ] ]
+                                                      || -dfm <dfmdb_directory> [ -cmp ] [ -rdb <rdbFile...> ]
+                                                      || -lvs <svdb_directory> [ <layout_primary> ] -rdb <rdbFile...>
+                                                      || -pex <svdb_directory> [ <layout_primary> ] -rdb <rdbFile...>
+                                                      || -perc <svdb_directory> [ <layout_primary> ] -rdb <rdbFile...>
+                                                      || -perc <svdb_directory> [ <layout_primary> ] [-output_csv <csv_output_file> [-info_results] [-include_cols <column list> | -exclude_cols <column list>]]
+                                                      || -perc <svdb_directory> -input <db_to_layout_map_file> }
+                                                          -report <report.ini> -outputdir <output_dir> [ -display <display> ]
+                                                      || -spice <spice_file> [-top <topcell>] [-script <tcl_script>] 
+                                                      || -help
+                                                    } ] [ -turbo [ <number_of_processors> ] ] [ -win_title <main_window_title> ]
+
+       calibre -gui [ -drc | -dfm | -lvs | -pex | -perc | -3dstack | -mpower | -xact [ -nowait | -wait n ] [ [-runset] <file> ] [ -custom <file> ] [-config <file>] [ -batch ]]
+                    [ -jobs [ -setup <job_setup_file> ] [ -batch ]]
+
+       calibre -version 
+
+       calibre {  -lfd -hier [ {  { -turbo [ <number_of_processors> ] [ -turbo_all ] }
+                               || { -turbo_litho [ <number_of_processors> ] }
+                               || { -turbo [ <number_of_processors> ] [ -turbo_all ] -turbo_litho [ <number_of_processors> ] }
+                               } [ { -remote <host,host,...> || -remotefile <filename> || -remotecommand <filename> <count> } [ -primary_limit <n> ] ] [ -hyper ]  ]
+                       <rule_file_name> [ -nowait | -wait n | -lmretry <retry_args> ] [ -lmconfig <licensing_config_file_name> ]
+               }
+
+       calibre -3dstack { { [ -turbo [ <processor-count> ] [ -hyper [ <hyper-count> ]
+                              [ -remote <host,host,...> || -remotefile <filename>
+                              || -remotecommand <filename> <count> ] ] ]
+                            [ -system <GDS | OASIS> ]
+                            [ [ -create_assembly <assembly-name> ]
+                              || [ -use_assembly <assembly-file-path> ]
+                              || [ -assembly <assembly-name> ] ]
+                          } || -precheck
+                            || [-enable_interdie_drc || -generate_markers_only]
+                        } [ -run_dir <directory-name> ] [ -compile_only ] <rule_file_name>
+
+       calibre -thermal { [ -c ] || [ -create_powermap ] || [ -effp ] || [ -report ] || [ -annotated_spice ] || [ -measured_data ] || [ -temperaure_csv ] }
+

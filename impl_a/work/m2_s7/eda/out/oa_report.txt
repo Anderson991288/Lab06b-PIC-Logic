@@ -1,0 +1,14 @@
+cells 68
+instances 162
+top B7_CHIP
+shapes L41/drawing/rect 74 0
+shapes L100/drawing/polygon 149 22
+shapes L100/drawing/rect 413 0
+shapes L3/drawing/rect 23 0
+shapes L4/drawing/rect 1 0
+shapes L3/drawing/polygon 28 725
+shapes L5/drawing/polygon 1 8
+shapes L39/drawing/rect 42 0
+shapes L99/drawing/rect 1 0
+bbox ((-1120.0 -650.0) (2756.0 550.0))
+dbu 1000.0

@@ -1,0 +1,17 @@
+{
+  "step": "M0 S3",
+  "learner_name": "",
+  "canonical_port_order": [
+    "upper",
+    "lower"
+  ],
+  "prediction_phi_change": "",
+  "observed_field_and_power": "",
+  "loss_db_power_vs_amplitude": "",
+  "matrix_cascade_order_explanation": "",
+  "mutation_case_analysis": "",
+  "lower_first_adapter": "",
+  "unit_test_result": "",
+  "example_config_restored": false,
+  "instructor_review": "pending"
+}

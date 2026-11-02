@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-10-31T10:10:22.816000+08:00",
+  "root": "D:\\LAB\\Lab06b",
+  "step": "M1 S3",
+  "status": "passed",
+  "core_result": "work/m1_s3/out/readout_results.json",
+  "unit_tests": {
+    "run": 15,
+    "passed": 15,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    }
+  },
+  "readout_checks": [
+    {
+      "name": "two_worked_truth_cases",
+      "passed": true
+    },
+    {
+      "name": "saved_U_compatibility",
+      "passed": true
+    },
+    {
+      "name": "unitarity",
+      "passed": true
+    },
+    {
+      "name": "all_output_energy",
+      "passed": true
+    },
+    {
+      "name": "row_sums_match_matrix",
+      "passed": true
+    },
+    {
+      "name": "power_self_plus_interference",
+      "passed": true
+    },
+    {
+      "name": "quadratic_form_matches_readout",
+      "passed": true
+    },
+    {
+      "name": "boundary_not_valid_one",
+      "passed": true
+    },
+    {
+      "name": "wrong_power_sum_exposed",
+      "passed": true
+    },
+    {
+      "name": "wrong_amplitude_difference_exposed",
+      "passed": true
+    },
+    {
+      "name": "wrong_conjugation_exposed",
+      "passed": true
+    }
+  ],
+  "worked_cases": [
+    {
+      "pattern": "1000",
+      "expected": 0,
+      "positive_power": 3.6923104086741168,
+      "negative_power": 5.8076895913241176,
+      "delta": -2.115379182650001,
+      "bit": 0
+    },
+    {
+      "pattern": "1100",
+      "expected": 1,
+      "positive_power": 6.557689591325027,
+      "negative_power": 4.442310408674985,
+      "delta": 2.1153791826500417,
+      "bit": 1
+    }
+  ],
+  "controlled_calculation_errors": [
+    {
+      "name": "sum_powers_before_fields",
+      "value": -5.07691003836004,
+      "correct_delta": 2.1153791826500417,
+      "error": 7.192289221010082
+    },
+    {
+      "name": "amplitude_difference_as_power_difference",
+      "value": 0.45311970874975627,
+      "correct_delta": 2.1153791826500417,
+      "error": 1.6622594739002854
+    },
+    {
+      "name": "conjugating_matrix_row",
+      "field_max_error": 4.460877673322625,
+      "delta_error": 7.748069741353447e-09
+    }
+  ],
+  "local_html_files": 13,
+  "local_links": 607,
+  "interactive_cases": 24,
+  "exact_boundary_verified": true,
+  "worksheet_verified": true,
+  "source_C01_study_outline_unchanged": true,
+  "predecessor_shared_models_unchanged": true,
+  "source_hashes_verified": true,
+  "architecture_hash_verified": true,
+  "backup": "D:\\LAB\\Lab06b\\history\\before_m1_s3_20261031_100928",
+  "learner_submission": "pending",
+  "next_step": "M1 S4"
+}

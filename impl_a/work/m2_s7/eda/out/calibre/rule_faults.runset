@@ -1,0 +1,7 @@
+LAYOUT SYSTEM GDSII
+LAYOUT PATH "rule_faults.gds"
+LAYOUT PRIMARY "*"
+DRC RESULTS DATABASE "rule_faults.drc.results" ASCII
+DRC SUMMARY REPORT "rule_faults.drc.summary"
+VARIABLE DESIGN_AREA 4651200
+INCLUDE "rules.svrf"

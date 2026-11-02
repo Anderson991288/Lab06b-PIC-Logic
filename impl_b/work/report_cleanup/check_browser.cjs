@@ -1,0 +1,15 @@
+const {chromium}=require('C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1029-1117-0_26.1029.1117.0_x64__3k8sg7r9htsxt/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path'),{pathToFileURL}=require('url');
+const root='C:/EDA_Codex/Lab06b';
+(async()=>{const browser=await chromium.launchPersistentContext(path.resolve('work/browser-profile'),{headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'}),page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(String(e)));
+const files=['Lab06b_index.html',...fs.readdirSync(path.join(root,'course')).filter(n=>n.endsWith('.html')).map(n=>'course/'+n),'analysis/lab01a_7_6.html','reference/source_context.html'];
+let interactions=0;
+for(const file of files){await page.setViewportSize({width:1440,height:1000});await page.goto(pathToFileURL(path.join(root,file)).href);await page.waitForLoadState('load');
+ const state=await page.evaluate(()=>({forms:[...document.querySelectorAll('section')].filter(s=>s.textContent.includes('學員姓名')).length,submit:!!document.querySelector('h2#submit'),headings:[...document.querySelectorAll('h2')].filter(x=>/學員.*(?:驗收|交付|記錄)/.test(x.textContent)).map(x=>x.textContent),badImages:[...document.images].filter(x=>!x.complete||!x.naturalWidth).length,overflow:document.documentElement.scrollWidth>innerWidth+1}));
+ if(state.forms||state.submit||state.headings.length||state.badImages||state.overflow)errors.push(file+' '+JSON.stringify(state));
+ const selectIds=await page.locator('select[id]').evaluateAll(xs=>xs.map(x=>x.id));
+ for(const id of selectIds){const options=await page.locator('[id="'+id+'"]').locator('option').evaluateAll(xs=>xs.map((x,i)=>({i,disabled:x.disabled})));for(const o of options){if(o.disabled)continue;await page.locator('[id="'+id+'"]').selectOption({index:o.i});interactions++;}}
+ await page.setViewportSize({width:390,height:844});const mobile=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);if(mobile)errors.push(file+' mobile overflow');checks.push({file,...state,mobile_overflow:mobile,selects:selectIds.length});
+ if(file==='course/m2_s1.html'){await page.screenshot({path:'out/m2s1-mobile.png',fullPage:true});await page.setViewportSize({width:1440,height:1000});await page.locator('footer').scrollIntoViewIfNeeded();await page.screenshot({path:'out/m2s1-ending.png'});}
+}
+const result={status:errors.length?'failed':'passed',scope:'Reader pages after learner acceptance/submission removal; all remaining select options exercised, desktop/mobile layout, images, JS errors',pages:files.length,select_option_changes:interactions,checks,errors};fs.writeFileSync(path.join(root,'evidence/report_cleanup_browser.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({status:result.status,pages:files.length,interactions,errors},null,2));await browser.close();if(errors.length)process.exitCode=1;})().catch(e=>{console.error(e);process.exitCode=1;});

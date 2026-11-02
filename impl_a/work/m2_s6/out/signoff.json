@@ -1,0 +1,60 @@
+{
+ "gds": "b7_chip_checked.gds",
+ "sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8",
+ "die_um": [
+  3876.0,
+  1200.0
+ ],
+ "items": [
+  {
+   "item": "DRC（CORNERSTONE pre-DRC 規則檔）",
+   "step": "M2 s6",
+   "result": "0 違規、外框外 0",
+   "ok": true
+  },
+  {
+   "item": "DRC 規則本身會觸發",
+   "step": "M2 s6",
+   "result": "12/12 條＋設計區",
+   "ok": true
+  },
+  {
+   "item": "光學 LVS（只讀 GDS）",
+   "step": "M2 s6",
+   "result": "7 MZI、9 連線、10 外部埠、14 heater 與規格一致",
+   "ok": true
+  },
+  {
+   "item": "電氣連接（只讀 GDS）",
+   "step": "M2 s6",
+   "result": "14 通道各接 1 訊號接墊＋回流；16 個金屬網",
+   "ok": true
+  },
+  {
+   "item": "核心與已審查版本相同",
+   "step": "M2 s5",
+   "result": "逐多邊形相同",
+   "ok": true
+  },
+  {
+   "item": "核心審查 8 項",
+   "step": "M2 s4",
+   "result": "全部通過",
+   "ok": true
+  },
+  {
+   "item": "晶片電路 80 筆（1530–1570 nm）",
+   "step": "M2 s5",
+   "result": "80/80，不需重新校正",
+   "ok": true
+  },
+  {
+   "item": "核心佈局抽連接表",
+   "step": "M2 s3",
+   "result": "與規格一致",
+   "ok": true
+  }
+ ],
+ "scope": "pre-DRC：規則檔註明完整 DRC 由 CORNERSTONE 執行；LVS 只比對拓樸與 heater 位置，不含 EC 模態與損耗",
+ "all_ok": true
+}

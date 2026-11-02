@@ -1,0 +1,5 @@
+SOFTINCLUDE /home/EDA/cadence/IC231_ISR15/share/cdssetup/cds.lib
+DEFINE lab06b_replay_source /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/lab06b_replay_source
+DEFINE lab06b_replay_final /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/lab06b_replay_final
+DEFINE lab06b_replay_source /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/lab06b_replay_source
+DEFINE lab06b_replay_final /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/lab06b_replay_final

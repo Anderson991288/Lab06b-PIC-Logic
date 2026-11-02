@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pre_DRC_records": 0,
+  "metal_nets": 15,
+  "optical_connections": 33,
+  "foundry_full_signoff": false
+}
+

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" font-family="sans-serif">
+<title>邊緣耦合（inverse taper）與光纖陣列的耦合方式（側視示意，未按比例）</title>
+<defs>
+<marker id="eb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#185FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ek" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="760" height="420" fill="#ffffff"/>
+<!-- 晶片：上層 SiO2 / Si 波導 / BOX / 基板 -->
+<rect x="40" y="125" width="420" height="78" fill="#DCE6F3" stroke="#85B7EB" stroke-width="0.5"/>
+<rect x="40" y="209" width="420" height="50" fill="#C3D4EA" stroke="#85B7EB" stroke-width="0.5"/>
+<rect x="40" y="259" width="420" height="76" fill="#8A8A82" stroke="#6E6D68" stroke-width="0.5"/>
+<rect x="40" y="203" width="420" height="6" fill="#3C6DB4"/>
+<!-- 模場在 taper 段張大（示意） -->
+<path d="M300 206 L460 172 L460 240 Z" fill="#E8C68E" fill-opacity="0.75"/>
+<!-- 端面 -->
+<line x1="460" y1="112" x2="460" y2="345" stroke="#2C2C2A" stroke-width="2"/>
+<!-- 折射率匹配膠 -->
+<rect x="461" y="125" width="30" height="134" fill="#F3E6C8"/>
+<!-- 光纖陣列（平放）與纖芯 -->
+<rect x="494" y="118" width="230" height="148" fill="#E6E2DA" stroke="#B4B2A9" stroke-width="1"/>
+<rect x="494" y="200" width="230" height="12" fill="#E0A04A"/>
+<line x1="500" y1="206" x2="716" y2="206" stroke="#5F5E5A" stroke-width="1" marker-end="url(#ek)"/>
+<!-- 晶片內文字 -->
+<text x="90" y="155" font-size="13" fill="#1F3A60">Si 波導：光由晶片內部傳來</text>
+<line x1="90" y1="178" x2="250" y2="178" stroke="#185FA5" stroke-width="1.6" marker-end="url(#eb)"/>
+<text x="335" y="155" font-size="13" fill="#1F3A60">上層 SiO2</text>
+<text x="240" y="239" font-size="13" fill="#2C4A70" text-anchor="middle">BOX</text>
+<text x="240" y="302" font-size="13" fill="#F1EFE8" text-anchor="middle">Si 基板</text>
+<!-- 引線標註 -->
+<g stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3" fill="none">
+<line x1="100" y1="100" x2="100" y2="203"/>
+<line x1="395" y1="52" x2="458" y2="114"/>
+<line x1="500" y1="92" x2="476" y2="150"/>
+<line x1="640" y1="52" x2="640" y2="118"/>
+<line x1="380" y1="214" x2="380" y2="352"/>
+<line x1="620" y1="212" x2="620" y2="300"/>
+</g>
+<text x="56" y="94" font-size="13" fill="#2C2C2A">Si 波導（220 nm）</text>
+<text x="250" y="46" font-size="13" fill="#2C2C2A">切割／拋光端面（facet）</text>
+<text x="480" y="86" font-size="13" fill="#2C2C2A">折射率匹配膠</text>
+<text x="590" y="46" font-size="13" fill="#2C2C2A">光纖陣列（平放）</text>
+<text x="560" y="318" font-size="13" fill="#2C2C2A">單模光纖芯（~10 µm）</text>
+<text x="260" y="372" font-size="13" fill="#2C2C2A">模場從 ~0.5 µm 脹大到 ~3–10 µm</text>
+<text x="200" y="396" font-size="13" fill="#2C2C2A">inverse taper：Si 寬度往端面漸縮到 ~150 nm</text>
+</svg>

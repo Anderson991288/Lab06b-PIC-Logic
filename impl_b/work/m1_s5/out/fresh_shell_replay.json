@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "bundle": "C:\\EDA_Codex\\validation\\m1_s5_20261031_105638_360909",
+  "python": "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+  "loaded_model": "C:\\EDA_Codex\\validation\\m1_s5_20261031_105638_360909\\model\\common\\handoff.py",
+  "files_verified": true,
+  "csv_max_error": 0.0,
+  "truth_passed": 80,
+  "truth_total": 80,
+  "summaries": {
+    "AND2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 2.11537918265,
+      "minimum_clearance": 2.11537918255,
+      "minimum_abs_delta": 2.11537918265,
+      "worst_pattern": "1010",
+      "confusion_actual_by_predicted": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "accepted": true
+    },
+    "OR2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 2.120502406246193,
+      "minimum_clearance": 2.120502406146193,
+      "minimum_abs_delta": 2.120502406246193,
+      "worst_pattern": "0100",
+      "confusion_actual_by_predicted": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "accepted": true
+    },
+    "XOR2": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 0.24999999999994915,
+      "minimum_clearance": 0.24999999989994914,
+      "minimum_abs_delta": 0.24999999999994915,
+      "worst_pattern": "1111",
+      "confusion_actual_by_predicted": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "accepted": true
+    },
+    "AND4": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 1.496028200858654,
+      "minimum_clearance": 1.496028200758654,
+      "minimum_abs_delta": 1.496028200858654,
+      "worst_pattern": "1101",
+      "confusion_actual_by_predicted": [
+        [
+          15,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "accepted": true
+    },
+    "OR4": {
+      "total": 16,
+      "passed": 16,
+      "boundaries": 0,
+      "minimum_signed_margin": 1.4998553450018055,
+      "minimum_clearance": 1.4998553449018055,
+      "minimum_abs_delta": 1.4998553450018055,
+      "worst_pattern": "0100",
+      "confusion_actual_by_predicted": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          15
+        ]
+      ],
+      "accepted": true
+    }
+  },
+  "example": {
+    "gate": "OR4",
+    "pattern": "0000",
+    "positive_power": 3.750072327499078,
+    "negative_power": 5.249927672500929,
+    "delta": -1.4998553450018512,
+    "bit": 0,
+    "expected": 0
+  }
+}

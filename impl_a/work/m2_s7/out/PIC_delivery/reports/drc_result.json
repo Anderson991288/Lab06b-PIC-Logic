@@ -1,0 +1,67 @@
+{
+ "gds": "b7_chip.gds",
+ "sha256": "5fc163e51a18717d73994170299e4b4644bc82cb4209a277de3f960dcdfe73e8",
+ "design_area_um": [
+  3876.0,
+  1200.0
+ ],
+ "clean": {
+  "total": 0,
+  "counts": {},
+  "rules": [
+   "41/0 grid violations",
+   "100/0 grid violations",
+   "99/0 grid violations",
+   "5/0 grid violations",
+   "3/0 grid violations",
+   "4/0 grid violations",
+   "39/0 grid violations",
+   "Correct design area violation",
+   "Minimum feature size vilation (GDS60<60 nm)",
+   "Minimum feature size violation (GDS60 short than max feature length)",
+   "Minimum gap violation (GDS60<60nm)",
+   "Minimum overlap violation (GDS60 in GDS3 <200nm)",
+   "Minimum feature size violation (GDS6< 200nm)",
+   "Minimum feature size violation (GDS6< 350nm and short than max feature length)",
+   "Minimum gap violation (GDS6 < 250 nm)",
+   "Minimum overlap violation (GDS6 in GDS3 <200nm)",
+   "aviode overlapping GDS6 and GDS39",
+   "aviode overlapping GDS6 and GDS41",
+   "Minimum feature size violation (GDS3< 350nm)",
+   "Minimum gap violation (GDS3<200nm)",
+   "Minimum feature size violation (GDS4< 200nm)",
+   "Minimum gap violation (GDS4<350nm)",
+   "Minimum feature size violation (GDS5< 250nm)",
+   "Minimum gap violation (GDS5<250nm)",
+   "Minimum feature size violate (GDS39<600nm)",
+   "Minimum gap violate (GDS39<10micro)",
+   "Minimum feature size violate (GDS41<2micro)",
+   "Minimum gap violate (GDS41<10micro)",
+   "Minimum feature size violate (GDS100<250nm)",
+   "Minimum gap violate (GDS100<250nm)"
+  ],
+  "outside": 0,
+  "n_rules": 30
+ },
+ "rule_faults": {
+  "hit": {
+   "GDS3 線寬": 1,
+   "GDS3 間距": 1,
+   "GDS4 線寬": 1,
+   "GDS4 間距": 1,
+   "GDS5 線寬": 1,
+   "GDS5 間距": 1,
+   "GDS39 線寬": 1,
+   "GDS39 間距": 1,
+   "GDS41 線寬": 1,
+   "GDS41 間距": 1,
+   "GDS100 線寬": 1,
+   "GDS100 間距": 1
+  },
+  "unexpected": [],
+  "total": 12,
+  "area_wrong_hit": 1,
+  "all_caught": true
+ },
+ "fault_gds": "drc_rules_fault.gds"
+}

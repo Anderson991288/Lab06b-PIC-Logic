@@ -1,0 +1,36 @@
+# ---- 工具與大型二進位 ----
+# KLayout 可攜版執行檔（684 MB），請自行安裝 KLayout 0.30.x
+impl_b/tools/
+# Meep 光場原始資料（每檔 3–19 MB，可用 run_fields.sh 重算；圖已存成 PNG）
+*.npz
+
+# ---- 第三方原版教材（非本課程原創，不公開） ----
+impl_b/reference/C01/
+impl_b/sources/C01_original.zip
+
+# ---- 過程備份與重建副本 ----
+impl_b/history/
+impl_a/work/m3_s1/out/rebuild/
+impl_b/work/m3_s1/work/
+impl_b/work/virtuoso_reproduction/work/
+
+# ---- 瀏覽器截圖（頁面檢查用，非課程內容） ----
+impl_b/work/*/work/*-desktop.png
+impl_b/work/*/work/*-mobile.png
+impl_b/work/*/work/*-desktop-*.png
+impl_b/work/*/work/*-mobile-*.png
+
+# ---- 執行期暫存 ----
+__pycache__/
+*.pyc
+.matplotlib/
+*.pid
+*.cdslck
+*.cdslck.*
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+# Calibre RVE 資料庫（WSL 特殊檔，Windows 無法讀取）
+.cgidrcdb

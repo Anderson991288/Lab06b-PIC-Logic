@@ -1,0 +1,149 @@
+{
+ "tests": [
+  {
+   "name": "test_bar_cross_power",
+   "passed": true,
+   "doc": "任意 θ、φ：直通功率 sin²(θ/2)、交叉功率 cos²(θ/2)。"
+  },
+  {
+   "name": "test_cascade_unitary",
+   "passed": true,
+   "doc": "多顆 MZI 嵌入 5 條波導後相乘仍么正（M1 的 B7 就是這樣組成）。"
+  },
+  {
+   "name": "test_closed_form",
+   "passed": true,
+   "doc": "逐段相乘與解析展開一致。"
+  },
+  {
+   "name": "test_coherent_combine",
+   "passed": true,
+   "doc": "兩路等幅同相輸入、θ＝π/2：φ＝0 時全部合到索引 0，φ＝π 時全部到索引 1（相干性）。"
+  },
+  {
+   "name": "test_embed",
+   "passed": true,
+   "doc": ""
+  },
+  {
+   "name": "test_layout_mapping",
+   "passed": true,
+   "doc": "M0 s2 的佈局約定（相位段在埠 2 的臂）換算後等於本模型 T(θ, 0)。"
+  },
+  {
+   "name": "test_loss",
+   "passed": true,
+   "doc": "每顆 0.9 dB：T†T = a²·I，總功率乘 10^(−0.09)。"
+  },
+  {
+   "name": "test_mmi_error",
+   "passed": true,
+   "doc": "分光比誤差 ε：耦合器仍么正、直通功率 1/2＋ε。"
+  },
+  {
+   "name": "test_phi_only_phase",
+   "passed": true,
+   "doc": "φ 只改變輸入相對相位：|T| 與 φ 無關。"
+  },
+  {
+   "name": "test_split_state",
+   "passed": true,
+   "doc": "θ＝π/2：單一埠入射時兩個輸出各一半。"
+  },
+  {
+   "name": "test_switch_states",
+   "passed": true,
+   "doc": "θ＝0 全交叉、θ＝π 全直通（兩個入射埠都成立，φ 任意）。"
+  },
+  {
+   "name": "test_theta_for_bar_inverse",
+   "passed": true,
+   "doc": ""
+  },
+  {
+   "name": "test_unitary",
+   "passed": true,
+   "doc": "理想 MZI 么正：T†T = I（能量守恆）。"
+  }
+ ],
+ "n_pass": 13,
+ "n_total": 13,
+ "mutants": [
+  {
+   "id": "F1",
+   "fault": "耦合器寫成實數矩陣 [[1,1],[1,−1]]/√2（少了跨接的 90°）",
+   "caught_by": [
+    "test_bar_cross_power",
+    "test_closed_form",
+    "test_coherent_combine",
+    "test_layout_mapping",
+    "test_switch_states"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F2",
+   "fault": "耦合器忘了除以 √2",
+   "caught_by": [
+    "test_bar_cross_power",
+    "test_cascade_unitary",
+    "test_closed_form",
+    "test_coherent_combine",
+    "test_layout_mapping",
+    "test_loss",
+    "test_split_state",
+    "test_switch_states",
+    "test_unitary"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F3",
+   "fault": "直通功率寫成 sin²θ（少了 /2）",
+   "caught_by": [
+    "test_bar_cross_power",
+    "test_theta_for_bar_inverse"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F4",
+   "fault": "損耗把 dB 當功率乘在振幅上（10^(−dB/10)）",
+   "caught_by": [
+    "test_loss"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F5",
+   "fault": "θ 相位段放到另一條臂",
+   "caught_by": [
+    "test_closed_form",
+    "test_coherent_combine",
+    "test_layout_mapping"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F6",
+   "fault": "φ 相位段放到輸出端（第二個耦合器之後）",
+   "caught_by": [
+    "test_closed_form",
+    "test_coherent_combine"
+   ],
+   "detected": true
+  },
+  {
+   "id": "F7",
+   "fault": "嵌入大矩陣時把 2×2 轉置",
+   "caught_by": [
+    "test_embed"
+   ],
+   "detected": true
+  }
+ ],
+ "n_detected": 7,
+ "n_mutants": 7,
+ "numpy": "2.3.5",
+ "python": "3.14.3"
+}

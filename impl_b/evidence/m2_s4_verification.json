@@ -1,0 +1,224 @@
+{
+  "timestamp": "2026-10-31T12:05:57.446647+08:00",
+  "step": "M2 S4",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "review_decision": "accept_margin_improved_core",
+  "metrics": [
+    {
+      "metric": "S_bend_horizontal",
+      "before": 20.0,
+      "after": 24.0,
+      "delta": 4.0,
+      "unit": "um"
+    },
+    {
+      "metric": "continuous_min_radius",
+      "before": 5.230882702164311,
+      "after": 7.6651993059416075,
+      "delta": 2.4343166037772965,
+      "unit": "um"
+    },
+    {
+      "metric": "column_length",
+      "before": 489.0,
+      "after": 505.0,
+      "delta": 16.0,
+      "unit": "um"
+    },
+    {
+      "metric": "core_optical_span_x",
+      "before": 2076.0,
+      "after": 2140.0,
+      "delta": 64.0,
+      "unit": "um"
+    },
+    {
+      "metric": "upper_singlemode_waveguide_per_MZI",
+      "before": 345.1329183700088,
+      "after": 358.3113022350362,
+      "delta": 13.1783838650274,
+      "unit": "um"
+    },
+    {
+      "metric": "inter_MMI_upper",
+      "before": 172.5664591850044,
+      "after": 179.1556511175181,
+      "delta": 6.5891919325137,
+      "unit": "um"
+    },
+    {
+      "metric": "design_frame_x",
+      "before": 2200.0,
+      "after": 2200.0,
+      "delta": 0.0,
+      "unit": "um"
+    }
+  ],
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "both_GDS_readbacks",
+      "passed": true
+    },
+    {
+      "name": "both_scoped_rule_screens",
+      "passed": true
+    },
+    {
+      "name": "both_route_coverage_samples",
+      "passed": true
+    },
+    {
+      "name": "both_centerline_crossing_reviews",
+      "passed": true
+    },
+    {
+      "name": "three_actual_fault_GDS_detected",
+      "passed": true
+    },
+    {
+      "name": "radius_course_target_achieved",
+      "passed": true
+    },
+    {
+      "name": "channel_names_and_counts_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_regression",
+      "passed": true
+    },
+    {
+      "name": "S3_baseline_unchanged",
+      "passed": true
+    },
+    {
+      "name": "M1_immutable_and_baseline_replay",
+      "passed": true
+    },
+    {
+      "name": "twentyfour_native_images",
+      "passed": true
+    }
+  ],
+  "accepted_core_index": {
+    "schema": "lab06b.current_core.v1",
+    "accepted_at_step": "M2 S4",
+    "m1_spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "layout_config": "config/m2_review_layout.json",
+    "layout_config_sha256": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+    "files": {
+      "work/m2_s4/out/after/b7_core.gds": "efe916411cc3cd5378090d0dc17fca4a053569fa0029cf96d0e0cb3b406e4385",
+      "work/m2_s4/out/after/mzi_core.gds": "3d17ed0ead602d279d77969a6c368c8739a93b870bce150ab7fe18b63eb82c46",
+      "work/m2_s4/out/after/layout_info.json": "2ad44087ab81b102f5e75de7fc7c57f610c7ec96b1c2b97375e95c6caee3e023"
+    },
+    "review_result": "work/m2_s4/out/review_results.json",
+    "pending": [
+      "EC/PAD/GND",
+      "full DRC and connectivity",
+      "thermal calibration",
+      "layout phase backannotation and replay"
+    ]
+  },
+  "native_image_hashes": {
+    "before_overview_combined.png": "1e3ae17e0d6b06b31b5236101a8aa2330edd9449b2a44b9e356871fe9cfd569e",
+    "before_overview_optical.png": "c3fc25a55b7ce6d20c551f05e9de8438212fa70f89f7fd346516f185b7f568e2",
+    "before_overview_thermal.png": "9ed56643b9699e3095e5930f4ac350eccff11e31325a5884456035c22b624f46",
+    "before_bend_combined.png": "1466d56feacb4d4db587731c7ee909f32ad88c0cf2f873c0b04dc766433efb34",
+    "before_bend_optical.png": "cf3c400fad38e7e456b9d744ccd88fc302f4df307530389e0a2db0610c04559a",
+    "before_bend_thermal.png": "110281e79a914f4e7f0f547bce62a8bf006c956ef6596dc22622b42d771b1901",
+    "before_mmi_combined.png": "b3ff39daa1f5bc7058eb5643ae6010fd526b9b19b1bd16313724442657c88525",
+    "before_mmi_optical.png": "b3ff39daa1f5bc7058eb5643ae6010fd526b9b19b1bd16313724442657c88525",
+    "before_mmi_thermal.png": "606cba0c7c903987cd94a95859e9619340cc3a4aacfc36477f6b0e1560f2a031",
+    "before_heater_combined.png": "75287464688db59b9e9eea0dece4f0c609aabedba39c159143c060cfaaacfd8d",
+    "before_heater_optical.png": "e621abb4b436841e41307d556dc13040fc35ff46c363c421b390ac79c682255c",
+    "before_heater_thermal.png": "5d047ad19ae293ac884e222a14de90f4317d23138ce91cb64fd62b202be553e2",
+    "after_overview_combined.png": "b26b0e6eb4b54f263d8592b30f97c2bfdfa437350c9f90f66f647d950c0b7c8d",
+    "after_overview_optical.png": "fbecaaa949938586daaa7127d5f15747b789dc8d0fc37244b60f9d5f8d40fcd6",
+    "after_overview_thermal.png": "835db0ea8702989706246131fef00573a7edba894f9077429348bbd26a171357",
+    "after_bend_combined.png": "ead769d1c0d3cf3461cec396a71b41063d97fbffd247c3949b24f0099cc4c958",
+    "after_bend_optical.png": "232406a02f866ab414dbaf06a65c92b4243394e634ea73a3fba85070f9991265",
+    "after_bend_thermal.png": "110281e79a914f4e7f0f547bce62a8bf006c956ef6596dc22622b42d771b1901",
+    "after_mmi_combined.png": "f6e3f454e2a13b34f4e8bfc800441f0f6bbb8c182f3bc2340bbe9043ae7e7be7",
+    "after_mmi_optical.png": "f6e3f454e2a13b34f4e8bfc800441f0f6bbb8c182f3bc2340bbe9043ae7e7be7",
+    "after_mmi_thermal.png": "606cba0c7c903987cd94a95859e9619340cc3a4aacfc36477f6b0e1560f2a031",
+    "after_heater_combined.png": "8c99e78375636a31967699d129ff98514870393266fa2709dc73d56359593fe4",
+    "after_heater_optical.png": "691492273fe9ff53bdc7224052514009df3af414516b41e5212a3459dc3687dd",
+    "after_heater_thermal.png": "5d047ad19ae293ac884e222a14de90f4317d23138ce91cb64fd62b202be553e2"
+  },
+  "source_hashes": {
+    "config/m2_review_layout.json": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+    "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+    "work/m2_s4/run_review.py": "d07b05a310cc45d7f67e0b34a8db2a9a61161a7a9a8e4b0362e377109efc4d94",
+    "work/m2_s4/klayout_review.py": "1da1a4d55dd384c6fac8d42b8a0de683bdb25212842b5b34673537763312f4e5",
+    "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+    "work/m2_s4/analyze_paths.py": "72f338fce111e5c4897cdc83c0bd68d3112d83a25a46490dca74b6850e5c6e9a",
+    "work/m2_s4/summarize_review.py": "320c2f075c0885455631f1366f60ea4b048718e0ef071f333135e45ff2ad6652",
+    "scripts/run_m2_s4.ps1": "96e2aaf3e03e37e087c10d3679d4112894a5d5622c8b7f802ac594f89b12fecf",
+    "scripts/render_m2_s4.py": "3c0c4a7a15c5ca641c0706ab9783ae24a97ea54e325c1d0b8847c5aee1b2c2fb",
+    "scripts/render_course.py": "abf7c3710abf2992fc908c5725d89295b17d68079b705b1de8f5cc86d779e6aa",
+    "work/m2_s4/plot_review.py": "dff43e43a0e9e0500cf6f843c4b874fd6d3cbf4b4f7bc031bc58b1ccbc4c8d04",
+    "work/m2_s4/browser_qa.cjs": "0c9f98aebd5d6af0c6e3869a02be0ec1752954746ec9bf2fa3fd8bfb50b6adbd"
+  },
+  "source_hashes_verified": true,
+  "S3_originals_unchanged": true,
+  "M1_source_files_and_zip_unchanged": true,
+  "prior_files_verified": 55,
+  "M1_baseline_replay_passed": 80,
+  "browser_views": 24,
+  "worksheet_verified": true,
+  "html_files": 19,
+  "local_links": 890,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s4_20261031_115518",
+  "learner_submission": "pending",
+  "scope": "Scoped KLayout visual/geometry review, design-margin improvement and revision evidence. No full foundry DRC/LVS, EC/PAD/GND fanout, thermal calibration, measured bend loss or layout-extracted truth acceptance.",
+  "next_step": "M2 S5"
+}

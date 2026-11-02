@@ -1,0 +1,530 @@
+{
+  "schema": "lab06b.m2_boundary.v1",
+  "m1_spec_sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+  "stage": "logical_boundary_only",
+  "system_blocks": [
+    {
+      "id": "B7_CORE",
+      "domain": "PIC",
+      "function": "seven_MZI_core",
+      "implementation_status": "pending_physical_implementation"
+    },
+    {
+      "id": "OPTICAL_INTERFACES",
+      "domain": "PIC",
+      "function": "ten_planned_edge_couplers",
+      "implementation_status": "pending_physical_implementation"
+    },
+    {
+      "id": "HEATERS",
+      "domain": "PIC",
+      "function": "fourteen_phase_actuators",
+      "implementation_status": "pending_physical_implementation"
+    },
+    {
+      "id": "ELECTRICAL_ROUTING",
+      "domain": "PIC",
+      "function": "drive_and_return_routing",
+      "implementation_status": "pending_physical_implementation"
+    },
+    {
+      "id": "LASER_0",
+      "domain": "external",
+      "function": "shared_coherent_source",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "DATA_MODULATORS",
+      "domain": "external",
+      "function": "four_channel_optical_OOK",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "REFERENCE_CONDITIONER",
+      "domain": "external",
+      "function": "reference_amplitude_and_phase",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "PHASE_ALIGNMENT",
+      "domain": "external",
+      "function": "relative_phase_control",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "HEATER_DRIVERS",
+      "domain": "external",
+      "function": "fourteen_calibrated_bias_channels",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "PD_PAIR",
+      "domain": "external",
+      "function": "two_readout_photodiodes",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "TIA_COMPARATOR",
+      "domain": "external",
+      "function": "calibrated_differential_readout",
+      "implementation_status": "external_requirement"
+    },
+    {
+      "id": "OUTPUT_LOADS",
+      "domain": "external",
+      "function": "unread_output_monitor_or_load",
+      "implementation_status": "external_requirement"
+    }
+  ],
+  "optical_io": [
+    {
+      "interface_id": "OPT_IN0",
+      "core_port": "in0",
+      "mode_index": 0,
+      "direction": "in",
+      "role": "x1",
+      "proposed_side": "left",
+      "proposed_coupler_id": "EC_IN0",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_DATA_X1",
+      "source_laser": "LASER_0"
+    },
+    {
+      "interface_id": "OPT_IN1",
+      "core_port": "in1",
+      "mode_index": 1,
+      "direction": "in",
+      "role": "x2",
+      "proposed_side": "left",
+      "proposed_coupler_id": "EC_IN1",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_DATA_X2",
+      "source_laser": "LASER_0"
+    },
+    {
+      "interface_id": "OPT_IN2",
+      "core_port": "in2",
+      "mode_index": 2,
+      "direction": "in",
+      "role": "x3",
+      "proposed_side": "left",
+      "proposed_coupler_id": "EC_IN2",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_DATA_X3",
+      "source_laser": "LASER_0"
+    },
+    {
+      "interface_id": "OPT_IN3",
+      "core_port": "in3",
+      "mode_index": 3,
+      "direction": "in",
+      "role": "x4",
+      "proposed_side": "left",
+      "proposed_coupler_id": "EC_IN3",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_DATA_X4",
+      "source_laser": "LASER_0"
+    },
+    {
+      "interface_id": "OPT_IN4",
+      "core_port": "in4",
+      "mode_index": 4,
+      "direction": "in",
+      "role": "R",
+      "proposed_side": "left",
+      "proposed_coupler_id": "EC_IN4",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_REFERENCE",
+      "source_laser": "LASER_0"
+    },
+    {
+      "interface_id": "OPT_OUT0",
+      "core_port": "out0",
+      "mode_index": 0,
+      "direction": "out",
+      "role": "unread_output",
+      "proposed_side": "right",
+      "proposed_coupler_id": "EC_OUT0",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_LOAD0",
+      "source_laser": null
+    },
+    {
+      "interface_id": "OPT_OUT1",
+      "core_port": "out1",
+      "mode_index": 1,
+      "direction": "out",
+      "role": "positive_readout",
+      "proposed_side": "right",
+      "proposed_coupler_id": "EC_OUT1",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "PD_PLUS",
+      "source_laser": null
+    },
+    {
+      "interface_id": "OPT_OUT2",
+      "core_port": "out2",
+      "mode_index": 2,
+      "direction": "out",
+      "role": "unread_output",
+      "proposed_side": "right",
+      "proposed_coupler_id": "EC_OUT2",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_LOAD2",
+      "source_laser": null
+    },
+    {
+      "interface_id": "OPT_OUT3",
+      "core_port": "out3",
+      "mode_index": 3,
+      "direction": "out",
+      "role": "negative_readout",
+      "proposed_side": "right",
+      "proposed_coupler_id": "EC_OUT3",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "PD_MINUS",
+      "source_laser": null
+    },
+    {
+      "interface_id": "OPT_OUT4",
+      "core_port": "out4",
+      "mode_index": 4,
+      "direction": "out",
+      "role": "unread_output",
+      "proposed_side": "right",
+      "proposed_coupler_id": "EC_OUT4",
+      "physical_cell": null,
+      "physical_position_um": null,
+      "external_endpoint": "EXT_LOAD4",
+      "source_laser": null
+    }
+  ],
+  "electrical_io": [
+    {
+      "interface_id": "CTRL_theta1",
+      "kind": "phase_drive",
+      "phase_channel": "theta1",
+      "instance": "M1",
+      "heater_logical_id": "H_M1_theta",
+      "driver_channel": "DRV00",
+      "drive_endpoint": "H_M1_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_theta2",
+      "kind": "phase_drive",
+      "phase_channel": "theta2",
+      "instance": "M2",
+      "heater_logical_id": "H_M2_theta",
+      "driver_channel": "DRV01",
+      "drive_endpoint": "H_M2_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_theta3",
+      "kind": "phase_drive",
+      "phase_channel": "theta3",
+      "instance": "M3",
+      "heater_logical_id": "H_M3_theta",
+      "driver_channel": "DRV02",
+      "drive_endpoint": "H_M3_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_theta4",
+      "kind": "phase_drive",
+      "phase_channel": "theta4",
+      "instance": "M4",
+      "heater_logical_id": "H_M4_theta",
+      "driver_channel": "DRV03",
+      "drive_endpoint": "H_M4_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_theta5",
+      "kind": "phase_drive",
+      "phase_channel": "theta5",
+      "instance": "M5",
+      "heater_logical_id": "H_M5_theta",
+      "driver_channel": "DRV04",
+      "drive_endpoint": "H_M5_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_theta6",
+      "kind": "phase_drive",
+      "phase_channel": "theta6",
+      "instance": "M6",
+      "heater_logical_id": "H_M6_theta",
+      "driver_channel": "DRV05",
+      "drive_endpoint": "H_M6_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_theta7",
+      "kind": "phase_drive",
+      "phase_channel": "theta7",
+      "instance": "M7",
+      "heater_logical_id": "H_M7_theta",
+      "driver_channel": "DRV06",
+      "drive_endpoint": "H_M7_theta.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi1",
+      "kind": "phase_drive",
+      "phase_channel": "phi1",
+      "instance": "M1",
+      "heater_logical_id": "H_M1_phi",
+      "driver_channel": "DRV07",
+      "drive_endpoint": "H_M1_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi2",
+      "kind": "phase_drive",
+      "phase_channel": "phi2",
+      "instance": "M2",
+      "heater_logical_id": "H_M2_phi",
+      "driver_channel": "DRV08",
+      "drive_endpoint": "H_M2_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi3",
+      "kind": "phase_drive",
+      "phase_channel": "phi3",
+      "instance": "M3",
+      "heater_logical_id": "H_M3_phi",
+      "driver_channel": "DRV09",
+      "drive_endpoint": "H_M3_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi4",
+      "kind": "phase_drive",
+      "phase_channel": "phi4",
+      "instance": "M4",
+      "heater_logical_id": "H_M4_phi",
+      "driver_channel": "DRV10",
+      "drive_endpoint": "H_M4_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi5",
+      "kind": "phase_drive",
+      "phase_channel": "phi5",
+      "instance": "M5",
+      "heater_logical_id": "H_M5_phi",
+      "driver_channel": "DRV11",
+      "drive_endpoint": "H_M5_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi6",
+      "kind": "phase_drive",
+      "phase_channel": "phi6",
+      "instance": "M6",
+      "heater_logical_id": "H_M6_phi",
+      "driver_channel": "DRV12",
+      "drive_endpoint": "H_M6_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "CTRL_phi7",
+      "kind": "phase_drive",
+      "phase_channel": "phi7",
+      "instance": "M7",
+      "heater_logical_id": "H_M7_phi",
+      "driver_channel": "DRV13",
+      "drive_endpoint": "H_M7_phi.A",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    },
+    {
+      "interface_id": "GND",
+      "kind": "common_return",
+      "phase_channel": null,
+      "instance": null,
+      "heater_logical_id": null,
+      "driver_channel": "DRV_RETURN",
+      "drive_endpoint": "GND",
+      "return_net": "GND",
+      "pad_id": null,
+      "drive_value": null,
+      "drive_unit": null,
+      "calibration": null
+    }
+  ],
+  "return_connections": [
+    {
+      "heater_logical_id": "H_M1_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M2_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M3_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M4_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M5_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M6_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M7_theta",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M1_phi",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M2_phi",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M3_phi",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M4_phi",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M5_phi",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M6_phi",
+      "terminal": "B",
+      "net": "GND"
+    },
+    {
+      "heater_logical_id": "H_M7_phi",
+      "terminal": "B",
+      "net": "GND"
+    }
+  ],
+  "core_field_targets": {
+    "data_one_amplitude": 1,
+    "reference_amplitude": 3,
+    "reference_power": 9,
+    "data_phase_rad": 0,
+    "reference_phase_rad": 0,
+    "power_unit_w": null
+  },
+  "data_encoding_location": "external_optical_modulators",
+  "heater_role": "fixed_function_phase_programming",
+  "reference_plane": "M1_core_ports_after_input_coupling_before_output_coupling",
+  "receiver": {
+    "location": "external",
+    "positive_interface": "OPT_OUT1",
+    "negative_interface": "OPT_OUT3",
+    "comparison": "equivalent_core_power_difference",
+    "threshold": 0,
+    "epsilon": 1e-10,
+    "optical_path_calibration": "pending",
+    "gain_and_offset_calibration": "pending",
+    "physical_receiver_spec": null
+  },
+  "grounding": {
+    "logical_return_net": "GND",
+    "strategy": "shared_return_logical_plan",
+    "physical_pad_count": null,
+    "common_impedance_validation": "pending"
+  },
+  "physical_validation": {
+    "PDK_circuit": "pending",
+    "layout": "pending",
+    "PAD_mapping": "pending",
+    "heater_calibration": "pending",
+    "DRC_connectivity": "pending"
+  }
+}

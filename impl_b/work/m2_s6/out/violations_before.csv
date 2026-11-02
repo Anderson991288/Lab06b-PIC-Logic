@@ -1,0 +1,3 @@
+﻿id,category,cell,multiplicity,bbox_um,marker
+1,Minimum gap violate (GDS100<250nm),LAB06B_B7_CORE,1,"[-53.501, 2.171, -53.293, 2.416]","edge-pair: (-53.395,2.171;-53.293,2.272)|(-53.437,2.416;-53.501,2.416)"
+2,Minimum gap violate (GDS100<250nm),LAB06B_B7_CORE,1,"[2065.299, 2.171, 2065.507, 2.416]","edge-pair: (2065.405,2.171;2065.507,2.272)|(2065.363,2.416;2065.299,2.416)"

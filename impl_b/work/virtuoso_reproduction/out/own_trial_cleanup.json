@@ -1,0 +1,40 @@
+{
+  "stopped": [
+    {
+      "pid": 834,
+      "app": "virtuoso",
+      "scope": "Own obsolete launch / completed review smoke only"
+    },
+    {
+      "pid": 2270,
+      "app": "virtuoso",
+      "scope": "Own obsolete launch / completed review smoke only"
+    },
+    {
+      "pid": 6793,
+      "app": "calibrerve",
+      "scope": "Own obsolete launch / completed review smoke only"
+    },
+    {
+      "pid": 7062,
+      "app": "calibrerve",
+      "scope": "Own obsolete launch / completed review smoke only"
+    },
+    {
+      "pid": 8685,
+      "app": "calibrerve",
+      "scope": "Own obsolete launch / completed review smoke only"
+    },
+    {
+      "pid": 8828,
+      "app": "calibrerve",
+      "scope": "Own obsolete launch / completed review smoke only"
+    },
+    {
+      "pid": 15619,
+      "app": "virtuoso",
+      "scope": "Own obsolete launch / completed review smoke only"
+    }
+  ],
+  "preserved": "Controlled current-design Virtuoso, classic Interactive and final RVE; no user apps or services targeted"
+}

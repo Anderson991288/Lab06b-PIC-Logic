@@ -1,0 +1,9 @@
+[
+  {
+    "id": "S6-LABEL-01",
+    "trigger": "Two GDS100 gap markers at in0/out0 in original pre-DRC report",
+    "action": "Scale all ten port labels 4 to 5 um; keep original anchors and 1 nm output grid",
+    "verification": "Original deck unchanged; 2 records to 0; six physical layers XOR equal; optical/electrical graph pairs unchanged",
+    "status": "closed"
+  }
+]

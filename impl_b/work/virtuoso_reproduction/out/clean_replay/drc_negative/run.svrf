@@ -1,0 +1,6 @@
+LAYOUT SYSTEM GDSII
+LAYOUT PATH "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/negative.gds"
+LAYOUT PRIMARY "LAB06B_NEGATIVE_16"
+DRC RESULTS DATABASE "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/drc_negative/results.db" ASCII
+DRC SUMMARY REPORT "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/drc_negative/summary.txt"
+INCLUDE "/mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/clean_replay_20261031_165124/cornerstone_basic_draft.svrf"

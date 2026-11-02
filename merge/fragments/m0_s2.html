@@ -1,0 +1,25 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>做法差異</h3>
+<table><tr><th>項目</th><th>主線（實作 A）</th><th>實作 B</th></tr>
+<tr><td>波導模態</td><td>femwell，開放邊界，四周包層各 2.5 µm</td><td>femwell，金屬邊界（PEC），計算區 ±1.5 × ±1.0 µm</td></tr>
+<tr><td>MMI 光場</td><td>Meep 2D FDTD，用 PDK 的真實 MMI 多邊形，16／24／32 px/µm</td><td>純量模態展開（20 個模態、n<sub>core</sub>＝2.85、6 µm 寬的均勻本體、沒有錐形段）</td></tr>
+<tr><td>MZI 光場</td><td>自己跑 24 px/µm 的 FDTD，四種狀態</td><td>沒有跑 FDTD（執行環境拒絕存取 WSL），改回讀舊的 16 px/µm 光場資料</td></tr></table>
+
+<h3>數字對照</h3>
+<table><tr><th>量</th><th>主線</th><th>實作 B</th><th>判讀</th></tr>
+<tr><td>TE0 有效折射率 n<sub>eff</sub></td><td>2.3532</td><td>2.353500</td><td>差約 3×10<sup>−4</sup>，來自邊界條件與計算區大小不同；對後面的相位設計影響可忽略。</td></tr>
+<tr><td>TE 偏振比例</td><td>0.976</td><td>0.976415</td><td>一致。</td></tr>
+<tr><td>EIM 核心折射率</td><td>2.8478（算出）</td><td>2.85（假設）</td><td>接近。</td></tr>
+<tr><td>MZI 消光比</td><td>θ＝π：25.0 dB（自己跑）</td><td>θ＝0：24.996 dB（舊資料）</td><td>數字很像，但<b>不是同一個情境</b>，不能當作互相驗證。實作 B 的數字等於本頁「參考研究」那一欄。</td></tr></table>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>網格與計算區收斂：</b>粗／中／細網格（1440／1836／2400 個三角形）n<sub>eff</sub> 變化 3.571×10<sup>−5</sup>；擴大計算區變化 2.020×10<sup>−5</sup>。說明 2.3535 這個數字的有效位數。</li>
+<li><b>線寬掃描：</b>0.35／0.45／0.55 µm → n<sub>eff</sub> 2.054099／2.353500／2.514407。線寬誤差 ±0.1 µm 就讓 n<sub>eff</sub> 變動約 0.15～0.3，這是相位對製程敏感的原因。</li>
+<li><b>三種折射率的區分：</b>材料的 n<sub>Si</sub>、波導的 n<sub>eff</sub>、EIM 平板的 n<sub>core</sub>，初學最容易混用。</li>
+<li><b>手算：</b>100 µm 長的移相段要得到 π，需要 Δn<sub>eff</sub>＝λ/(2L)＝0.00775。</li>
+</ul>
+<figure><img src="figures_b/m0_s2/strip_mode.png" alt="條狀波導 TE0 模態與 femwell 網格" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>實作 B 的 450 × 220 nm 條狀波導 TE0 模態（Poynting 能流密度）與實際 FEM 網格。由 <a href="../impl_b/work/m0_s2/physics_lab.py"><code>physics_lab.py</code></a> 產生。</figcaption></figure>
+<figure><img src="figures_b/m0_s2/mmi_modal_field.png" alt="純量模態展開的 MMI 自成像" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>純量模態展開得到的 MMI 自成像示意。計算很快、適合建立直覺，但它不是 PDK 的真實幾何：在 z＝42.5 µm 上半部只占 0.4467，不是 0.5。要量真實分光比，仍要用本頁主線的 FDTD。</figcaption></figure>

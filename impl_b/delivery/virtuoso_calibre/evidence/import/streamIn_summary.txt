@@ -1,0 +1,95 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version IC23.1-64b 07/08/2025 22:22 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR15.37 
+Started at: 31-Oct-2026  16:09:49
+User Name : edauser
+Host Name : eda.ic
+Directory : /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/work/oa
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics 
+---------------------------------------------------------------------------------------------------------------
+Library/Cell/View                                  Instance Array    Polygon  Rect     Path     Text     Node    
+---------------------------------------------------------------------------------------------------------------
+ LAB06B_REPRO_20261031/LAB06B_CHIP_INTERFACES/layout                                                  20       0        0        82       0        16       0       
+ LAB06B_REPRO_20261031/FAN_out4/layout              0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/FAN_in4/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/FAN_out3/layout              0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/FAN_out1/layout              0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/LAB06B_B7_EC_PAD_CHIP/layout                                                   2        0        0        0        0        0        0       
+ LAB06B_REPRO_20261031/LAB06B_REFERENCE_EC/layout   0        0        2        1        0        0        0       
+ LAB06B_REPRO_20261031/LAB06B_B7_CORE/layout        23       0        49       1        0        0        0       
+ LAB06B_REPRO_20261031/FAN_in3/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/FAN_out2/layout              0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/FAN_out0/layout              0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/MZI_WG5/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/WG_in0/layout                0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/FAN_in1/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/MZI_WG3/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/FAN_in0/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/MZI_WG2/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/WG_out0/layout               0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/LAB06B_MZI_CORE/layout       8        0        5        38       0        0        0       
+ LAB06B_REPRO_20261031/WG_out2/layout               0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION4/layout                            0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/MZI_WG1/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/WG_BYP_L2_R4/layout          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION2/layout                            0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/WG_out4/layout               0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/FAN_in2/layout               0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/MZI_WG4/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/SOI220nm_1550nm_TE_STRIP_2x2_MMI_MMI_mmi_trace/layout                          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/SOI220nm_1550nm_TE_STRIP_2x2_MMI/layout                                        5        0        0        0        0        0        0       
+ LAB06B_REPRO_20261031/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION1/layout                            0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/WG_in1/layout                0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/MZI_WG0/layout               0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/SOI220nm_1550nm_TE_STRIP_2x2_MMI_TRANSITION3/layout                            0        0        1        0        0        0        0       
+ LAB06B_REPRO_20261031/WG_BYP_L0_R2/layout          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_out1/layout               0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_BYP_L1_R0/layout          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_in3/layout                0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_BYP_L1_R3/layout          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_BYP_L1_R4/layout          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_BYP_L3_R0/layout          0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_in2/layout                0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_in4/layout                0        0        0        1        0        0        0       
+ LAB06B_REPRO_20261031/WG_out3/layout               0        0        0        1        0        0        0       
+---------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+-------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     PathSeg  Text     Node    
+-------------------------------------------------------------------------------------------------------------
+L3              drawing         3       0         19       19       0        0        0        0   
+L100            drawing         100     0         54       28       0        0        0        0   
+L39             drawing         39      0         0        6        0        0        0        0   
+L41             drawing         41      0         0        85       0        0        0        0   
+L99             drawing         99      0         0        2        0        0        0        0   
+L5              drawing         5       0         1        0        0        0        0        0   
+L4              drawing         4       0         0        1        0        0        0        0   
+L1002           drawing         1002    0         0        0        0        0        16       0   
+-------------------------------------------------------------------------------------------------------------
+
+
+Summary of Objects Translated:
+
+	Instances:	58
+	Arrays:		0
+	Polygons:	74
+	Paths:		0
+	PathSegs:	0
+	Rectangles:	141
+	Text:		16
+	Node:		0
+	Line:		0
+	Cells:		43
+
+
+Design Libraries: 
+
+DEFINE LAB06B_REPRO_20261031       LAB06B_REPRO_20261031

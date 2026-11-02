@@ -1,0 +1,15 @@
+﻿heater_logical_id,terminal,net
+H_M1_theta,B,GND
+H_M2_theta,B,GND
+H_M3_theta,B,GND
+H_M4_theta,B,GND
+H_M5_theta,B,GND
+H_M6_theta,B,GND
+H_M7_theta,B,GND
+H_M1_phi,B,GND
+H_M2_phi,B,GND
+H_M3_phi,B,GND
+H_M4_phi,B,GND
+H_M5_phi,B,GND
+H_M6_phi,B,GND
+H_M7_phi,B,GND

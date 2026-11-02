@@ -1,0 +1,62 @@
+{
+  "schema": "lab06b.handoff_manifest.v1",
+  "package_kind": "M1 logical core handoff to M2",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f120c44e3a5cdaeee9fc0c5db2c61f057e919593ffeeadbaa70a216c02d579c4"
+    },
+    {
+      "path": "acceptance_truth.csv",
+      "sha256": "5ef36c830865aa3311042266e72dc1ca1b076794e68537df00ad34ea8ec900f4"
+    },
+    {
+      "path": "model/common/__init__.py",
+      "sha256": "5c22e854a84f60f8db840deab9f0967b8531e8ac0da49a91af36aa1b6f207e1b"
+    },
+    {
+      "path": "model/common/b7.py",
+      "sha256": "a4271954d2ad7c9869bfa95b5c2d8ca016c0c20207dd278851bf11f6120fd028"
+    },
+    {
+      "path": "model/common/encoding.py",
+      "sha256": "ca5315fa38e538f64a9bff39ec8e59b2fb4c232665aa263959bf275eb6ebfe87"
+    },
+    {
+      "path": "model/common/handoff.py",
+      "sha256": "71af49778b11b2317132c803f45e66d96bed7d88b223fcc6bad2cce6aa8ec3c5"
+    },
+    {
+      "path": "model/common/linear_network.py",
+      "sha256": "95310f1e3267b5deab1fcca19783e06b42b6861e90a70a466031fbf92bcd4058"
+    },
+    {
+      "path": "model/common/logic_validation.py",
+      "sha256": "e36cd57696d74bf41b7a79de2d109f5bf22421e944fd92bf97afa1e45cb0cc5f"
+    },
+    {
+      "path": "model/common/mzi.py",
+      "sha256": "ac3d6e2536c4f271ecacc06fcbd28fc50cfa5f62037d3d40135845e7cb37769a"
+    },
+    {
+      "path": "optical_ports.csv",
+      "sha256": "b6596284457f6d1ff09e9be0aa32a4e31ca60a050e36956b1ea48cddb3890e9f"
+    },
+    {
+      "path": "phase_channels.csv",
+      "sha256": "a037f40e5509accc135e601b158f15326e8ac6acd78687d61fd92dce1373715c"
+    },
+    {
+      "path": "phase_settings.json",
+      "sha256": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6"
+    },
+    {
+      "path": "pic_spec.json",
+      "sha256": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d"
+    },
+    {
+      "path": "replay_handoff.py",
+      "sha256": "21bda07a705be7ccf5a93af9fb0eadf2e3ab0e708d353c6a28b9d6abd19232c6"
+    }
+  ]
+}

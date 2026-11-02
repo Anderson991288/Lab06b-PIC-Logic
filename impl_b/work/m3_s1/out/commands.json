@@ -1,0 +1,192 @@
+[
+  {
+    "build": "A",
+    "stage": "01_core",
+    "seconds": 7.094,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "work/m3_s1/build_core.py"
+    ],
+    "log": "work/m3_s1/out/build_A/01_core.log"
+  },
+  {
+    "build": "A",
+    "stage": "02_core_readback",
+    "seconds": 5.968,
+    "returncode": 0,
+    "command": [
+      "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "-b",
+      "-r",
+      "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m2_s3\\verify_gds.py",
+      "-rd",
+      "input_gds=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m2_s4\\out\\after\\b7_core.gds",
+      "-rd",
+      "info_json=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m2_s4\\out\\after\\layout_info.json",
+      "-rd",
+      "output_json=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m2_s4\\out\\after\\gds_readback.json"
+    ],
+    "log": "work/m3_s1/out/build_A/02_core_readback.log"
+  },
+  {
+    "build": "A",
+    "stage": "03_interfaces",
+    "seconds": 55.391,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "work/m2_s5/build_chip.py"
+    ],
+    "log": "work/m3_s1/out/build_A/03_interfaces.log"
+  },
+  {
+    "build": "A",
+    "stage": "04_pre_DRC_and_graph",
+    "seconds": 30.687,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+      "work/m2_s6/run_verification.py"
+    ],
+    "log": "work/m3_s1/out/build_A/04_pre_DRC_and_graph.log"
+  },
+  {
+    "build": "A",
+    "stage": "05_lengths",
+    "seconds": 5.719,
+    "returncode": 0,
+    "command": [
+      "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "-b",
+      "-r",
+      "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m2_s7\\extract_lengths.py"
+    ],
+    "log": "work/m3_s1/out/build_A/05_lengths.log"
+  },
+  {
+    "build": "A",
+    "stage": "06_replay",
+    "seconds": 1.281,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+      "work/m3_s1/replay_rebuilt.py"
+    ],
+    "log": "work/m3_s1/out/build_A/06_replay.log"
+  },
+  {
+    "build": "A",
+    "stage": "07_reference_XOR",
+    "seconds": 5.672,
+    "returncode": 0,
+    "command": [
+      "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "-b",
+      "-r",
+      "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m3_s1\\compare_gds.py",
+      "-rd",
+      "reference_gds=C:\\EDA_Codex\\Lab06b\\work\\m2_s6\\out\\after\\b7_ec_pad.gds",
+      "-rd",
+      "rebuilt_gds=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\A\\work\\m2_s6\\out\\after\\b7_ec_pad.gds",
+      "-rd",
+      "output_json=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\out\\build_A\\gds_comparison.json"
+    ],
+    "log": "work/m3_s1/out/build_A/07_reference_XOR.log"
+  },
+  {
+    "build": "B",
+    "stage": "01_core",
+    "seconds": 7.141,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "work/m3_s1/build_core.py"
+    ],
+    "log": "work/m3_s1/out/build_B/01_core.log"
+  },
+  {
+    "build": "B",
+    "stage": "02_core_readback",
+    "seconds": 6.0,
+    "returncode": 0,
+    "command": [
+      "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "-b",
+      "-r",
+      "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m2_s3\\verify_gds.py",
+      "-rd",
+      "input_gds=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m2_s4\\out\\after\\b7_core.gds",
+      "-rd",
+      "info_json=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m2_s4\\out\\after\\layout_info.json",
+      "-rd",
+      "output_json=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m2_s4\\out\\after\\gds_readback.json"
+    ],
+    "log": "work/m3_s1/out/build_B/02_core_readback.log"
+  },
+  {
+    "build": "B",
+    "stage": "03_interfaces",
+    "seconds": 55.235,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe",
+      "work/m2_s5/build_chip.py"
+    ],
+    "log": "work/m3_s1/out/build_B/03_interfaces.log"
+  },
+  {
+    "build": "B",
+    "stage": "04_pre_DRC_and_graph",
+    "seconds": 30.313,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+      "work/m2_s6/run_verification.py"
+    ],
+    "log": "work/m3_s1/out/build_B/04_pre_DRC_and_graph.log"
+  },
+  {
+    "build": "B",
+    "stage": "05_lengths",
+    "seconds": 5.593,
+    "returncode": 0,
+    "command": [
+      "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "-b",
+      "-r",
+      "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m2_s7\\extract_lengths.py"
+    ],
+    "log": "work/m3_s1/out/build_B/05_lengths.log"
+  },
+  {
+    "build": "B",
+    "stage": "06_replay",
+    "seconds": 1.11,
+    "returncode": 0,
+    "command": [
+      "C:\\luceda\\luceda_2026033\\envs\\device_sim\\python.exe",
+      "work/m3_s1/replay_rebuilt.py"
+    ],
+    "log": "work/m3_s1/out/build_B/06_replay.log"
+  },
+  {
+    "build": "B",
+    "stage": "07_reference_XOR",
+    "seconds": 5.75,
+    "returncode": 0,
+    "command": [
+      "C:\\EDA_Codex\\Lab06b\\tools\\KLayout\\klayout-0.30.12-win64\\klayout_app.exe",
+      "-b",
+      "-r",
+      "C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m3_s1\\compare_gds.py",
+      "-rd",
+      "reference_gds=C:\\EDA_Codex\\Lab06b\\work\\m2_s6\\out\\after\\b7_ec_pad.gds",
+      "-rd",
+      "rebuilt_gds=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\work\\clean build 測試\\20261031_135959_653141\\B\\work\\m2_s6\\out\\after\\b7_ec_pad.gds",
+      "-rd",
+      "output_json=C:\\EDA_Codex\\Lab06b\\work\\m3_s1\\out\\build_B\\gds_comparison.json"
+    ],
+    "log": "work/m3_s1/out/build_B/07_reference_XOR.log"
+  }
+]

@@ -1,0 +1,25 @@
+<h2 id="alt">對照：另一套獨立實作</h2>
+<div class="bridge"><p><b>這一節是什麼：</b>同一份課程另有一套獨立完成的實作（以下稱實作 B，檔案在 <code>impl_b/</code>）。兩套各自寫程式、各自跑結果。本頁其他各節是課程主線（實作 A）。</p></div>
+
+<h3>主線只審查，實作 B 審查後還改了佈局</h3>
+<p>主線的 Review 不修改 GDS。實作 B 審查時認為 S 彎太急，把它從 20 µm 拉長到 24 µm：</p>
+<table><tr><th>項目</th><th>修改前（＝主線）</th><th>實作 B 修改後</th></tr>
+<tr><td>S 彎長度</td><td>20 µm</td><td>24 µm</td></tr>
+<tr><td>最小曲率半徑</td><td>5.230883 µm</td><td>7.665199 µm</td></tr>
+<tr><td>每欄長度</td><td>489 µm</td><td>505 µm</td></tr>
+<tr><td>光路總跨度</td><td>2076 µm</td><td>2140 µm</td></tr>
+<tr><td>單模段臂長</td><td>345.133 µm</td><td>358.311 µm</td></tr>
+<tr><td>旁路</td><td>主線：等長</td><td>仍是直線，每欄短 18.31 µm</td></tr></table>
+<p><b>怎麼看這個修改：</b>曲率半徑越大，彎道損耗和對製程的敏感度通常越低，代價是晶片變長。實作 B 用的目標 7.5 µm 是課程自訂的目標，不是代工廠規則；兩套都沒有彎道損耗的模擬或量測，所以「5.23 µm 夠不夠」目前沒有數據能回答。主線維持 5.23 µm（PDK DRC 通過），把這一點列為待驗證項目。若之後要改成 24 µm 的 S 彎，必須連旁路一起補長，並從 M2 s3 重跑整條流程。</p>
+
+<h3>結果一致</h3>
+<p>金屬間距兩邊相同：TiN 50 µm、Ti/AL 48 µm（實作 B 修改後量到 50.000–50.001 與 48.000–48.001 µm）。</p>
+
+<h3>實作 B 才有、值得一起看的內容</h3>
+<ul>
+<li><b>24 張 KLayout 原生畫面：</b>修改前後 × 全圖／彎道／MMI／heater × 合併／光層／熱層。</li>
+<li><b>10 項審查紀錄 R1–R10</b>，把「已通過」和「待驗證」分開寫。</li>
+<li><b>3 個真實故障 GDS 都被抓到：</b>0.2 µm 的 Si 細條、金屬距落墊只有 2 µm、in0 上切了 2 µm 的缺口。</li>
+</ul>
+<figure><img src="figures_b/m2_s4/bend_comparison.png" alt="S 彎 20 µm 與 24 µm 的比較" style="max-width:100%;height:auto"><figcaption><b>圖 對照-1。</b>S 彎 20 µm 與 24 µm 的形狀與曲率比較。由 <a href="../impl_b/work/m2_s4/plot_review.py"><code>plot_review.py</code></a> 產生。</figcaption></figure>
+<figure><img src="figures_b/m2_s4/margin_tradeoff.png" alt="曲率半徑與長度的取捨" style="max-width:100%;height:auto"><figcaption><b>圖 對照-2。</b>S 彎長度、最小曲率半徑與晶片長度的取捨。</figcaption></figure>

@@ -1,0 +1,2153 @@
+{
+  "step": "M2 S4",
+  "timestamp": "2026-10-31T12:03:49.722246+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "review_decision": "accept_margin_improved_core",
+  "course_radius_target_um": 7.5,
+  "target_authority": "Course design margin target, not a foundry rule",
+  "metrics": [
+    {
+      "metric": "S_bend_horizontal",
+      "before": 20.0,
+      "after": 24.0,
+      "delta": 4.0,
+      "unit": "um"
+    },
+    {
+      "metric": "continuous_min_radius",
+      "before": 5.230882702164311,
+      "after": 7.6651993059416075,
+      "delta": 2.4343166037772965,
+      "unit": "um"
+    },
+    {
+      "metric": "column_length",
+      "before": 489.0,
+      "after": 505.0,
+      "delta": 16.0,
+      "unit": "um"
+    },
+    {
+      "metric": "core_optical_span_x",
+      "before": 2076.0,
+      "after": 2140.0,
+      "delta": 64.0,
+      "unit": "um"
+    },
+    {
+      "metric": "upper_singlemode_waveguide_per_MZI",
+      "before": 345.1329183700088,
+      "after": 358.3113022350362,
+      "delta": 13.1783838650274,
+      "unit": "um"
+    },
+    {
+      "metric": "inter_MMI_upper",
+      "before": 172.5664591850044,
+      "after": 179.1556511175181,
+      "delta": 6.5891919325137,
+      "unit": "um"
+    },
+    {
+      "metric": "design_frame_x",
+      "before": 2200.0,
+      "after": 2200.0,
+      "delta": 0.0,
+      "unit": "um"
+    }
+  ],
+  "review_checklist": [
+    {
+      "id": "R1",
+      "topic": "埠序與接收極性",
+      "status": "passed",
+      "evidence": "port_changes.csv：10 個角色與朝向不變，out1 正／out3 負。"
+    },
+    {
+      "id": "R2",
+      "topic": "七顆放置與六段直通",
+      "status": "passed",
+      "evidence": "兩版 GDS readback 皆核對 7 個 MZI 引用、14 MMI、6 段直通。"
+    },
+    {
+      "id": "R3",
+      "topic": "接縫與路徑覆蓋",
+      "status": "passed",
+      "evidence": "兩版皆核對十埠、81 個接點；另取樣全部波導中心線頂點與線段中點。"
+    },
+    {
+      "id": "R4",
+      "topic": "彎道裕量",
+      "status": "improved",
+      "evidence": "連續解析半徑 5.230883 → 7.665199 µm；課程目標 7.5，既有規劃值 5。"
+    },
+    {
+      "id": "R5",
+      "topic": "Si／HT／局部金屬線寬與間距",
+      "status": "passed",
+      "evidence": "KLayout 六項局部篩查皆零警示；不是完整 foundry deck。"
+    },
+    {
+      "id": "R6",
+      "topic": "交叉與非預期接觸",
+      "status": "passed_with_scope",
+      "evidence": "58 段中心線的 1653 對組合沒有非預期交集；僅檢查 sidecar，不是從 GDS 抽取完整拓樸。"
+    },
+    {
+      "id": "R7",
+      "topic": "heater／局部落墊",
+      "status": "passed",
+      "evidence": "14 個 HT 與 28 個局部金屬區保留；A/B 座標按名稱更新。"
+    },
+    {
+      "id": "R8",
+      "topic": "EC／外部 PAD／共地",
+      "status": "pending_M2_S5",
+      "evidence": "尚未配置；28 個局部接觸不是最終外部 PAD 數。"
+    },
+    {
+      "id": "R9",
+      "topic": "完整 DRC／LVS／製程驗證",
+      "status": "pending_M2_S6",
+      "evidence": "本步局部篩查不替代完整驗證。"
+    },
+    {
+      "id": "R10",
+      "topic": "光學損耗與相位回註",
+      "status": "pending_M2_S7",
+      "evidence": "長度改變，尚未計算實體傳播相位或重新調整相位；M1 80/80 仍只作基準。"
+    }
+  ],
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    }
+  },
+  "versions": {
+    "before": {
+      "radius_um": 5.230882702164311,
+      "optical_span_um": [
+        2076.0,
+        120.0
+      ],
+      "scoped_rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 0,
+          "boxes_um": []
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 0,
+        "examples": [],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gap_bounds": {
+        "HT": {
+          "lower_bound_um": 50.0,
+          "upper_bound_um": 50.001
+        },
+        "local_metal": {
+          "lower_bound_um": 48.0,
+          "upper_bound_um": 48.001
+        }
+      },
+      "readback": {
+        "engine": "KLayout independent GDS readback",
+        "version": "KLayout 0.30.12",
+        "gds": "C:\\EDA_Codex\\Lab06b\\work\\m2_s4\\out\\before\\b7_core.gds",
+        "gds_sha256": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+        "top_cell": "LAB06B_B7_CORE",
+        "dbu_um": 0.001,
+        "cell_count": 30,
+        "actual_mzi_instances": 7,
+        "mmi_instances_per_mzi": 2,
+        "actual_pdk_mmi_occurrences": 14,
+        "actual_heater_regions": 14,
+        "actual_local_metal_regions": 28,
+        "silicon_connected_regions": 1,
+        "geometry_outside_frame": 0,
+        "ports": [
+          {
+            "port": "in0",
+            "covered": true
+          },
+          {
+            "port": "in1",
+            "covered": true
+          },
+          {
+            "port": "in2",
+            "covered": true
+          },
+          {
+            "port": "in3",
+            "covered": true
+          },
+          {
+            "port": "in4",
+            "covered": true
+          },
+          {
+            "port": "out0",
+            "covered": true
+          },
+          {
+            "port": "out1",
+            "covered": true
+          },
+          {
+            "port": "out2",
+            "covered": true
+          },
+          {
+            "port": "out3",
+            "covered": true
+          },
+          {
+            "port": "out4",
+            "covered": true
+          }
+        ],
+        "joints": [
+          {
+            "id": "M1:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "lead_in0",
+            "covered": true
+          },
+          {
+            "id": "lead_out0",
+            "covered": true
+          },
+          {
+            "id": "lead_in1",
+            "covered": true
+          },
+          {
+            "id": "lead_out1",
+            "covered": true
+          },
+          {
+            "id": "lead_in2",
+            "covered": true
+          },
+          {
+            "id": "lead_out2",
+            "covered": true
+          },
+          {
+            "id": "lead_in3",
+            "covered": true
+          },
+          {
+            "id": "lead_out3",
+            "covered": true
+          },
+          {
+            "id": "lead_in4",
+            "covered": true
+          },
+          {
+            "id": "lead_out4",
+            "covered": true
+          },
+          {
+            "id": "column1_rail0",
+            "covered": true
+          },
+          {
+            "id": "column1_rail1",
+            "covered": true
+          },
+          {
+            "id": "column1_rail2",
+            "covered": true
+          },
+          {
+            "id": "column1_rail3",
+            "covered": true
+          },
+          {
+            "id": "column1_rail4",
+            "covered": true
+          },
+          {
+            "id": "column2_rail0",
+            "covered": true
+          },
+          {
+            "id": "column2_rail1",
+            "covered": true
+          },
+          {
+            "id": "column2_rail2",
+            "covered": true
+          },
+          {
+            "id": "column2_rail3",
+            "covered": true
+          },
+          {
+            "id": "column2_rail4",
+            "covered": true
+          },
+          {
+            "id": "column3_rail0",
+            "covered": true
+          },
+          {
+            "id": "column3_rail1",
+            "covered": true
+          },
+          {
+            "id": "column3_rail2",
+            "covered": true
+          },
+          {
+            "id": "column3_rail3",
+            "covered": true
+          },
+          {
+            "id": "column3_rail4",
+            "covered": true
+          }
+        ],
+        "checks": [
+          {
+            "name": "top_cell",
+            "passed": true
+          },
+          {
+            "name": "one_nm_dbu",
+            "passed": true
+          },
+          {
+            "name": "seven_actual_mzi_refs",
+            "passed": true
+          },
+          {
+            "name": "two_mmis_per_unit",
+            "passed": true
+          },
+          {
+            "name": "mzi_placements_match",
+            "passed": true
+          },
+          {
+            "name": "six_actual_bypasses",
+            "passed": true
+          },
+          {
+            "name": "ten_actual_leads",
+            "passed": true
+          },
+          {
+            "name": "fourteen_heater_regions",
+            "passed": true
+          },
+          {
+            "name": "twentyeight_local_contacts",
+            "passed": true
+          },
+          {
+            "name": "ten_port_covers",
+            "passed": true
+          },
+          {
+            "name": "all_joint_corridors_covered",
+            "passed": true
+          },
+          {
+            "name": "inside_declared_frame",
+            "passed": true
+          },
+          {
+            "name": "frame_matches_declaration",
+            "passed": true
+          },
+          {
+            "name": "single_mzi_preview_geometry",
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "scope": "Counts, placements and local geometry coverage only; not LVS, foundry DRC, global optical topology extraction or phase replay."
+      },
+      "crossings": {
+        "engine": "Shapely 2.1.2",
+        "tested_pairs": 1653,
+        "permitted_shared_endpoints": [
+          {
+            "a": "M1:WG0",
+            "b": "WG_in0",
+            "intersection": "POINT (0 0)"
+          },
+          {
+            "a": "M1:WG1",
+            "b": "WG_in1",
+            "intersection": "POINT (0 -30)"
+          },
+          {
+            "a": "M1:WG4",
+            "b": "WG_BYP_L1_R0",
+            "intersection": "POINT (489 0)"
+          },
+          {
+            "a": "M1:WG5",
+            "b": "M3:WG0",
+            "intersection": "POINT (489 -30)"
+          },
+          {
+            "a": "M2:WG0",
+            "b": "WG_in3",
+            "intersection": "POINT (0 -90)"
+          },
+          {
+            "a": "M2:WG1",
+            "b": "WG_in4",
+            "intersection": "POINT (0 -120)"
+          },
+          {
+            "a": "M2:WG4",
+            "b": "WG_BYP_L1_R3",
+            "intersection": "POINT (489 -90)"
+          },
+          {
+            "a": "M2:WG5",
+            "b": "WG_BYP_L1_R4",
+            "intersection": "POINT (489 -120)"
+          },
+          {
+            "a": "M3:WG1",
+            "b": "WG_BYP_L0_R2",
+            "intersection": "POINT (489 -60)"
+          },
+          {
+            "a": "M3:WG4",
+            "b": "M4:WG1",
+            "intersection": "POINT (978 -30)"
+          },
+          {
+            "a": "M3:WG5",
+            "b": "M5:WG0",
+            "intersection": "POINT (978 -60)"
+          },
+          {
+            "a": "M4:WG0",
+            "b": "WG_BYP_L1_R0",
+            "intersection": "POINT (978 0)"
+          },
+          {
+            "a": "M4:WG4",
+            "b": "WG_BYP_L3_R0",
+            "intersection": "POINT (1467 0)"
+          },
+          {
+            "a": "M4:WG5",
+            "b": "M6:WG0",
+            "intersection": "POINT (1467 -30)"
+          },
+          {
+            "a": "M5:WG1",
+            "b": "WG_BYP_L1_R3",
+            "intersection": "POINT (978 -90)"
+          },
+          {
+            "a": "M5:WG4",
+            "b": "M6:WG1",
+            "intersection": "POINT (1467 -60)"
+          },
+          {
+            "a": "M5:WG5",
+            "b": "M7:WG0",
+            "intersection": "POINT (1467 -90)"
+          },
+          {
+            "a": "M6:WG4",
+            "b": "WG_out1",
+            "intersection": "POINT (1956 -30)"
+          },
+          {
+            "a": "M6:WG5",
+            "b": "WG_out2",
+            "intersection": "POINT (1956 -60)"
+          },
+          {
+            "a": "M7:WG1",
+            "b": "WG_BYP_L2_R4",
+            "intersection": "POINT (1467 -120)"
+          },
+          {
+            "a": "M7:WG4",
+            "b": "WG_out3",
+            "intersection": "POINT (1956 -90)"
+          },
+          {
+            "a": "M7:WG5",
+            "b": "WG_out4",
+            "intersection": "POINT (1956 -120)"
+          },
+          {
+            "a": "WG_BYP_L0_R2",
+            "b": "WG_in2",
+            "intersection": "POINT (0 -60)"
+          },
+          {
+            "a": "WG_BYP_L1_R4",
+            "b": "WG_BYP_L2_R4",
+            "intersection": "POINT (978 -120)"
+          },
+          {
+            "a": "WG_BYP_L3_R0",
+            "b": "WG_out0",
+            "intersection": "POINT (1956 0)"
+          }
+        ],
+        "unexpected_intersections": [],
+        "passed": true,
+        "scope": "Outside-MMI centerlines from the generated sidecar only; excludes intended mixing inside MMI and does not extract topology from GDS."
+      }
+    },
+    "after": {
+      "radius_um": 7.6651993059416075,
+      "optical_span_um": [
+        2140.0,
+        120.0
+      ],
+      "scoped_rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 0,
+          "boxes_um": []
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 0,
+        "examples": [],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gap_bounds": {
+        "HT": {
+          "lower_bound_um": 50.0,
+          "upper_bound_um": 50.001
+        },
+        "local_metal": {
+          "lower_bound_um": 48.0,
+          "upper_bound_um": 48.001
+        }
+      },
+      "readback": {
+        "engine": "KLayout independent GDS readback",
+        "version": "KLayout 0.30.12",
+        "gds": "C:\\EDA_Codex\\Lab06b\\work\\m2_s4\\out\\after\\b7_core.gds",
+        "gds_sha256": "efe916411cc3cd5378090d0dc17fca4a053569fa0029cf96d0e0cb3b406e4385",
+        "top_cell": "LAB06B_B7_CORE",
+        "dbu_um": 0.001,
+        "cell_count": 30,
+        "actual_mzi_instances": 7,
+        "mmi_instances_per_mzi": 2,
+        "actual_pdk_mmi_occurrences": 14,
+        "actual_heater_regions": 14,
+        "actual_local_metal_regions": 28,
+        "silicon_connected_regions": 1,
+        "geometry_outside_frame": 0,
+        "ports": [
+          {
+            "port": "in0",
+            "covered": true
+          },
+          {
+            "port": "in1",
+            "covered": true
+          },
+          {
+            "port": "in2",
+            "covered": true
+          },
+          {
+            "port": "in3",
+            "covered": true
+          },
+          {
+            "port": "in4",
+            "covered": true
+          },
+          {
+            "port": "out0",
+            "covered": true
+          },
+          {
+            "port": "out1",
+            "covered": true
+          },
+          {
+            "port": "out2",
+            "covered": true
+          },
+          {
+            "port": "out3",
+            "covered": true
+          },
+          {
+            "port": "out4",
+            "covered": true
+          }
+        ],
+        "joints": [
+          {
+            "id": "M1:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M1:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M2:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M3:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M4:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M5:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M6:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:in2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:out2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:in1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI1:out1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:in2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:out2",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:in1",
+            "covered": true
+          },
+          {
+            "id": "M7:MMI2:out1",
+            "covered": true
+          },
+          {
+            "id": "lead_in0",
+            "covered": true
+          },
+          {
+            "id": "lead_out0",
+            "covered": true
+          },
+          {
+            "id": "lead_in1",
+            "covered": true
+          },
+          {
+            "id": "lead_out1",
+            "covered": true
+          },
+          {
+            "id": "lead_in2",
+            "covered": true
+          },
+          {
+            "id": "lead_out2",
+            "covered": true
+          },
+          {
+            "id": "lead_in3",
+            "covered": true
+          },
+          {
+            "id": "lead_out3",
+            "covered": true
+          },
+          {
+            "id": "lead_in4",
+            "covered": true
+          },
+          {
+            "id": "lead_out4",
+            "covered": true
+          },
+          {
+            "id": "column1_rail0",
+            "covered": true
+          },
+          {
+            "id": "column1_rail1",
+            "covered": true
+          },
+          {
+            "id": "column1_rail2",
+            "covered": true
+          },
+          {
+            "id": "column1_rail3",
+            "covered": true
+          },
+          {
+            "id": "column1_rail4",
+            "covered": true
+          },
+          {
+            "id": "column2_rail0",
+            "covered": true
+          },
+          {
+            "id": "column2_rail1",
+            "covered": true
+          },
+          {
+            "id": "column2_rail2",
+            "covered": true
+          },
+          {
+            "id": "column2_rail3",
+            "covered": true
+          },
+          {
+            "id": "column2_rail4",
+            "covered": true
+          },
+          {
+            "id": "column3_rail0",
+            "covered": true
+          },
+          {
+            "id": "column3_rail1",
+            "covered": true
+          },
+          {
+            "id": "column3_rail2",
+            "covered": true
+          },
+          {
+            "id": "column3_rail3",
+            "covered": true
+          },
+          {
+            "id": "column3_rail4",
+            "covered": true
+          }
+        ],
+        "checks": [
+          {
+            "name": "top_cell",
+            "passed": true
+          },
+          {
+            "name": "one_nm_dbu",
+            "passed": true
+          },
+          {
+            "name": "seven_actual_mzi_refs",
+            "passed": true
+          },
+          {
+            "name": "two_mmis_per_unit",
+            "passed": true
+          },
+          {
+            "name": "mzi_placements_match",
+            "passed": true
+          },
+          {
+            "name": "six_actual_bypasses",
+            "passed": true
+          },
+          {
+            "name": "ten_actual_leads",
+            "passed": true
+          },
+          {
+            "name": "fourteen_heater_regions",
+            "passed": true
+          },
+          {
+            "name": "twentyeight_local_contacts",
+            "passed": true
+          },
+          {
+            "name": "ten_port_covers",
+            "passed": true
+          },
+          {
+            "name": "all_joint_corridors_covered",
+            "passed": true
+          },
+          {
+            "name": "inside_declared_frame",
+            "passed": true
+          },
+          {
+            "name": "frame_matches_declaration",
+            "passed": true
+          },
+          {
+            "name": "single_mzi_preview_geometry",
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "scope": "Counts, placements and local geometry coverage only; not LVS, foundry DRC, global optical topology extraction or phase replay."
+      },
+      "crossings": {
+        "engine": "Shapely 2.1.2",
+        "tested_pairs": 1653,
+        "permitted_shared_endpoints": [
+          {
+            "a": "M1:WG0",
+            "b": "WG_in0",
+            "intersection": "POINT (0 0)"
+          },
+          {
+            "a": "M1:WG1",
+            "b": "WG_in1",
+            "intersection": "POINT (0 -30)"
+          },
+          {
+            "a": "M1:WG4",
+            "b": "WG_BYP_L1_R0",
+            "intersection": "POINT (505 0)"
+          },
+          {
+            "a": "M1:WG5",
+            "b": "M3:WG0",
+            "intersection": "POINT (505 -30)"
+          },
+          {
+            "a": "M2:WG0",
+            "b": "WG_in3",
+            "intersection": "POINT (0 -90)"
+          },
+          {
+            "a": "M2:WG1",
+            "b": "WG_in4",
+            "intersection": "POINT (0 -120)"
+          },
+          {
+            "a": "M2:WG4",
+            "b": "WG_BYP_L1_R3",
+            "intersection": "POINT (505 -90)"
+          },
+          {
+            "a": "M2:WG5",
+            "b": "WG_BYP_L1_R4",
+            "intersection": "POINT (505 -120)"
+          },
+          {
+            "a": "M3:WG1",
+            "b": "WG_BYP_L0_R2",
+            "intersection": "POINT (505 -60)"
+          },
+          {
+            "a": "M3:WG4",
+            "b": "M4:WG1",
+            "intersection": "POINT (1010 -30)"
+          },
+          {
+            "a": "M3:WG5",
+            "b": "M5:WG0",
+            "intersection": "POINT (1010 -60)"
+          },
+          {
+            "a": "M4:WG0",
+            "b": "WG_BYP_L1_R0",
+            "intersection": "POINT (1010 0)"
+          },
+          {
+            "a": "M4:WG4",
+            "b": "WG_BYP_L3_R0",
+            "intersection": "POINT (1515 0)"
+          },
+          {
+            "a": "M4:WG5",
+            "b": "M6:WG0",
+            "intersection": "POINT (1515 -30)"
+          },
+          {
+            "a": "M5:WG1",
+            "b": "WG_BYP_L1_R3",
+            "intersection": "POINT (1010 -90)"
+          },
+          {
+            "a": "M5:WG4",
+            "b": "M6:WG1",
+            "intersection": "POINT (1515 -60)"
+          },
+          {
+            "a": "M5:WG5",
+            "b": "M7:WG0",
+            "intersection": "POINT (1515 -90)"
+          },
+          {
+            "a": "M6:WG4",
+            "b": "WG_out1",
+            "intersection": "POINT (2020 -30)"
+          },
+          {
+            "a": "M6:WG5",
+            "b": "WG_out2",
+            "intersection": "POINT (2020 -60)"
+          },
+          {
+            "a": "M7:WG1",
+            "b": "WG_BYP_L2_R4",
+            "intersection": "POINT (1515 -120)"
+          },
+          {
+            "a": "M7:WG4",
+            "b": "WG_out3",
+            "intersection": "POINT (2020 -90)"
+          },
+          {
+            "a": "M7:WG5",
+            "b": "WG_out4",
+            "intersection": "POINT (2020 -120)"
+          },
+          {
+            "a": "WG_BYP_L0_R2",
+            "b": "WG_in2",
+            "intersection": "POINT (0 -60)"
+          },
+          {
+            "a": "WG_BYP_L1_R4",
+            "b": "WG_BYP_L2_R4",
+            "intersection": "POINT (1010 -120)"
+          },
+          {
+            "a": "WG_BYP_L3_R0",
+            "b": "WG_out0",
+            "intersection": "POINT (2020 0)"
+          }
+        ],
+        "unexpected_intersections": [],
+        "passed": true,
+        "scope": "Outside-MMI centerlines from the generated sidecar only; excludes intended mixing inside MMI and does not extract topology from GDS."
+      }
+    }
+  },
+  "changed_ports": 5,
+  "changed_phase_centers": 12,
+  "controlled_faults": [
+    {
+      "name": "narrow_Si",
+      "expected": "layer3_width",
+      "detected": true,
+      "rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 1,
+          "boxes_um": [
+            [
+              10.0,
+              -145.0,
+              30.0,
+              -144.8
+            ]
+          ]
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 0,
+          "boxes_um": []
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 0,
+        "examples": [],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gds_sha256": "8796afcfd8fc86c181117c9e24222a5c323d760d5070d18b8d462824501f55e6"
+    },
+    {
+      "name": "close_metal",
+      "expected": "layer41_space",
+      "detected": true,
+      "rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 1,
+          "boxes_um": [
+            [
+              11.0,
+              -6.0,
+              13.0,
+              6.0
+            ]
+          ]
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 0,
+        "examples": [],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gds_sha256": "9f0857568cb34d56c0fff750ea6556a2429f151fcf480fc6b5f8d01e29ef5ee9"
+    },
+    {
+      "name": "gapped_input",
+      "expected": "route_coverage",
+      "detected": true,
+      "rules": [
+        {
+          "layer": 3,
+          "kind": "width",
+          "limit_um": 0.35,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 3,
+          "kind": "space",
+          "limit_um": 0.2,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "width",
+          "limit_um": 0.6,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 39,
+          "kind": "space",
+          "limit_um": 10,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "width",
+          "limit_um": 2.0,
+          "violations": 0,
+          "boxes_um": []
+        },
+        {
+          "layer": 41,
+          "kind": "space",
+          "limit_um": 10.0,
+          "violations": 0,
+          "boxes_um": []
+        }
+      ],
+      "route_coverage": {
+        "samples": 4850,
+        "uncovered": 1,
+        "examples": [
+          {
+            "path": "WG_in0",
+            "point_um": [
+              -30.0,
+              0.0
+            ]
+          }
+        ],
+        "scope": "2 nm boxes at vertices and segment midpoints, not a continuous global topology extraction"
+      },
+      "gds_sha256": "a0f59c75b66d5d3ce319a2053caaaa389a9484a49fe9fb727fc5ebc088d29781"
+    }
+  ],
+  "native_images": [
+    {
+      "version": "before",
+      "scene": "overview",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "before_overview_combined.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "before",
+      "scene": "overview",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "before_overview_optical.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "before",
+      "scene": "overview",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "before_overview_thermal.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "before",
+      "scene": "bend",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "before_bend_combined.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "before",
+      "scene": "bend",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "before_bend_optical.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "before",
+      "scene": "bend",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "before_bend_thermal.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "before",
+      "scene": "mmi",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "before_mmi_combined.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "before",
+      "scene": "mmi",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "before_mmi_optical.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "before",
+      "scene": "mmi",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "before_mmi_thermal.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "before",
+      "scene": "heater",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "before_heater_combined.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "before",
+      "scene": "heater",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "before_heater_optical.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "before",
+      "scene": "heater",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "before_heater_thermal.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "overview",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "after_overview_combined.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "after",
+      "scene": "overview",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "after_overview_optical.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "after",
+      "scene": "overview",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -100,
+        -170,
+        2150,
+        70
+      ],
+      "file": "after_overview_thermal.png",
+      "width_px": 2000,
+      "height_px": 330
+    },
+    {
+      "version": "after",
+      "scene": "bend",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "after_bend_combined.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "after",
+      "scene": "bend",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "after_bend_optical.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "after",
+      "scene": "bend",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        115,
+        -23,
+        153,
+        5
+      ],
+      "file": "after_bend_thermal.png",
+      "width_px": 1100,
+      "height_px": 700
+    },
+    {
+      "version": "after",
+      "scene": "mmi",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "after_mmi_combined.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "mmi",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "after_mmi_optical.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "mmi",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        135,
+        -24,
+        237,
+        -6
+      ],
+      "file": "after_mmi_thermal.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "heater",
+      "mode": "combined",
+      "layers": [
+        3,
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "after_heater_combined.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "heater",
+      "mode": "optical",
+      "layers": [
+        3
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "after_heater_optical.png",
+      "width_px": 1500,
+      "height_px": 400
+    },
+    {
+      "version": "after",
+      "scene": "heater",
+      "mode": "thermal",
+      "layers": [
+        39,
+        41
+      ],
+      "requested_box_um": [
+        -2,
+        -10,
+        124,
+        12
+      ],
+      "file": "after_heater_thermal.png",
+      "width_px": 1500,
+      "height_px": 400
+    }
+  ],
+  "checks": [
+    {
+      "name": "both_GDS_readbacks",
+      "passed": true
+    },
+    {
+      "name": "both_scoped_rule_screens",
+      "passed": true
+    },
+    {
+      "name": "both_route_coverage_samples",
+      "passed": true
+    },
+    {
+      "name": "both_centerline_crossing_reviews",
+      "passed": true
+    },
+    {
+      "name": "three_actual_fault_GDS_detected",
+      "passed": true
+    },
+    {
+      "name": "radius_course_target_achieved",
+      "passed": true
+    },
+    {
+      "name": "channel_names_and_counts_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_regression",
+      "passed": true
+    },
+    {
+      "name": "S3_baseline_unchanged",
+      "passed": true
+    },
+    {
+      "name": "M1_immutable_and_baseline_replay",
+      "passed": true
+    },
+    {
+      "name": "twentyfour_native_images",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "config/m2_review_layout.json": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+    "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+    "work/m2_s4/run_review.py": "d07b05a310cc45d7f67e0b34a8db2a9a61161a7a9a8e4b0362e377109efc4d94",
+    "work/m2_s4/klayout_review.py": "1da1a4d55dd384c6fac8d42b8a0de683bdb25212842b5b34673537763312f4e5",
+    "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3",
+    "work/m2_s4/analyze_paths.py": "72f338fce111e5c4897cdc83c0bd68d3112d83a25a46490dca74b6850e5c6e9a",
+    "work/m2_s4/summarize_review.py": "320c2f075c0885455631f1366f60ea4b048718e0ef071f333135e45ff2ad6652"
+  },
+  "S3_baseline_hashes": {
+    "b7_core.gds": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+    "mzi_core.gds": "3125ffd7d0b5642f97f775d4434325ba8a1c009470faa5f5bad7f3ef8536a1d1",
+    "layout_info.json": "cd254c4ab6f3a0228d4e5808f2411231fd72fbeb5bb7620e5f05264de3f58fb5"
+  },
+  "S3_baseline_unchanged": true,
+  "M1_sources_and_zip_unchanged": true,
+  "M1_baseline_replay_passed": 80,
+  "core_passed": true,
+  "scope": "Scoped KLayout visual/geometry review, design-margin improvement and revision evidence. No full foundry DRC/LVS, EC/PAD/GND fanout, thermal calibration, measured bend loss or layout-extracted truth acceptance."
+}

@@ -1,0 +1,11 @@
+﻿port,mode,direction,role,x_um,y_um,angle_deg,EC_cell
+in0,0,in,x1,-60.0,0.0,180,pending_M2_S5
+in1,1,in,x2,-60.0,-30.0,180,pending_M2_S5
+in2,2,in,x3,-60.0,-60.0,180,pending_M2_S5
+in3,3,in,x4,-60.0,-90.0,180,pending_M2_S5
+in4,4,in,R,-60.0,-120.0,180,pending_M2_S5
+out0,0,out,external_load,2016.0,0.0,0,pending_M2_S5
+out1,1,out,PD_PLUS,2016.0,-30.0,0,pending_M2_S5
+out2,2,out,external_load,2016.0,-60.0,0,pending_M2_S5
+out3,3,out,PD_MINUS,2016.0,-90.0,0,pending_M2_S5
+out4,4,out,external_load,2016.0,-120.0,0,pending_M2_S5

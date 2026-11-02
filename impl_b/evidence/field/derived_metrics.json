@@ -1,0 +1,44 @@
+{
+  "scope": "new arithmetic derived from inherited NPZ; no new EM simulation",
+  "cases": [
+    {
+      "case": "in1_t0",
+      "theta_rad": 0.0,
+      "number_of_sources": 1,
+      "output_power": [
+        0.0024884053811137963,
+        0.7861294302313687
+      ],
+      "total_transmission": 0.7886178356124826,
+      "out1_fraction_of_transmitted": 0.0031554008402322887,
+      "extinction_db": 24.995729233869838,
+      "source_sha256": "704261cd0c097335c0cd8236407945d83568b610fc6686d325afda0bf40375a6"
+    },
+    {
+      "case": "in1_tpi2",
+      "theta_rad": 1.5707963267948966,
+      "number_of_sources": 1,
+      "output_power": [
+        0.38247540476434577,
+        0.39019126538317506
+      ],
+      "total_transmission": 0.7726666701475209,
+      "out1_fraction_of_transmitted": 0.4950069927195409,
+      "extinction_db": 0.0867403037386929,
+      "source_sha256": "cd224113e7174c31774ebc00b78f4fb41b228f650441cb561c1715423cc23e93"
+    },
+    {
+      "case": "in12_tpi2",
+      "theta_rad": 1.5707963267948966,
+      "number_of_sources": 2,
+      "output_power": [
+        0.7705489346585128,
+        0.001869266766818563
+      ],
+      "total_transmission": 0.7724182014253314,
+      "out1_fraction_of_transmitted": 0.9975799809437825,
+      "extinction_db": 26.1512893949534,
+      "source_sha256": "718aeb4b94df9b1f894c0a9d8ed8be20417b9e235256b17b2628283054a18da5"
+    }
+  ]
+}

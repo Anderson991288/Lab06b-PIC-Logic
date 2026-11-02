@@ -1,0 +1,133 @@
+{
+  "step": "M0 s1",
+  "time": "2026-10-31T10:15:55",
+  "python": "3.14.3",
+  "summary": {
+    "pass": 15,
+    "fail": 0,
+    "missing": 0,
+    "blocked": 0
+  },
+  "items": [
+    {
+      "id": "P",
+      "name": "路徑：IPKISS Python",
+      "status": "pass",
+      "detail": "windows.ipkiss_python 存在",
+      "fix": "",
+      "path": "C:\\luceda\\luceda_2026033\\envs\\ipkiss3\\python.exe"
+    },
+    {
+      "id": "P",
+      "name": "路徑：conda",
+      "status": "pass",
+      "detail": "windows.conda 存在",
+      "fix": "",
+      "path": "C:\\luceda\\luceda_2026033\\condabin\\conda.bat"
+    },
+    {
+      "id": "P",
+      "name": "路徑：device_sim 環境",
+      "status": "pass",
+      "detail": "windows.device_sim_env 存在",
+      "fix": "",
+      "path": "C:\\luceda\\luceda_2026033\\envs\\device_sim"
+    },
+    {
+      "id": "P",
+      "name": "路徑：CORNERSTONE PDK",
+      "status": "pass",
+      "detail": "windows.pdk_cornerstone 存在",
+      "fix": "",
+      "path": "C:\\Users\\yangc\\luceda\\libraries\\cornerstone_2.6.luceda1"
+    },
+    {
+      "id": "P",
+      "name": "路徑：DRC deck",
+      "status": "pass",
+      "detail": "windows.drc_deck 存在",
+      "fix": "",
+      "path": "C:\\EDA_Claude\\work\\common\\drc\\cornerstone_Si220_passive.lydrc"
+    },
+    {
+      "id": "P",
+      "name": "路徑：課程根目錄",
+      "status": "pass",
+      "detail": "course.path 存在，含 work/common",
+      "fix": "",
+      "path": "C:\\EDA_Claude"
+    },
+    {
+      "id": "T1",
+      "name": "IPKISS 3 匯入與授權",
+      "status": "pass",
+      "detail": "IPKISS 2026.03.3",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "T2",
+      "name": "CORNERSTONE PDK 載入（2×2 MMI）",
+      "status": "pass",
+      "detail": "MMI ports ['in1', 'in2', 'out1', 'out2']",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "T4",
+      "name": "device_sim 環境（femwell）",
+      "status": "pass",
+      "detail": "femwell 0.1.12 skfem 12.0.2 numpy 1.26.4",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "T5",
+      "name": "KLayout 批次模式",
+      "status": "pass",
+      "detail": "KLayout 0.30.12",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "T7",
+      "name": "WSL Ubuntu（yangpc）：Meep FDTD",
+      "status": "pass",
+      "detail": "meep 1.35.0",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "E1a",
+      "name": "MZI 正常版 GDS 與外框檢查",
+      "status": "pass",
+      "detail": "長 509.0 µm；外框外圖形 0",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "E1b",
+      "name": "故障版 F6（外框外圖形）",
+      "status": "pass",
+      "detail": "外框外圖形 1（預期 1）",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "E1c",
+      "name": "正常版 KLayout DRC",
+      "status": "pass",
+      "detail": "28 條規則，違規 0",
+      "fix": "",
+      "path": null
+    },
+    {
+      "id": "E1d",
+      "name": "故障注入命中",
+      "status": "pass",
+      "detail": "各故障 {'F1': 1, 'F2': 1, 'F3': 1, 'F4': 1, 'F5': 1, 'F7': 1, 'F8': 1, 'F6': 1}；意外的規則 []",
+      "fix": "",
+      "path": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "step": "M2 S4",
+  "timestamp": "2026-10-31T12:03:46.883472+08:00",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S2": {
+      "run": 10,
+      "passed": 10,
+      "successful": true
+    },
+    "M2_S3": {
+      "run": 12,
+      "passed": 12,
+      "successful": true
+    }
+  },
+  "M1_sources_and_zip_unchanged": true,
+  "M1_baseline_replay_passed": 80,
+  "S3_baseline_hashes": {
+    "b7_core.gds": "5596fa562fff9554748a2765f8a556615fc267b32f8298a763644b6fe673cd16",
+    "mzi_core.gds": "3125ffd7d0b5642f97f775d4434325ba8a1c009470faa5f5bad7f3ef8536a1d1",
+    "layout_info.json": "cd254c4ab6f3a0228d4e5808f2411231fd72fbeb5bb7620e5f05264de3f58fb5"
+  },
+  "S3_baseline_unchanged": true,
+  "source_hashes": {
+    "config/m2_review_layout.json": "dbfe0731fa214c37b2e919e2d6808681fd3331fe4254cbbaa7b3883db1cde83e",
+    "work/common/core_layout.py": "7043e4178510a4c192b7ccb91bb1b5f1823418dea687023d247ebb49c07134bd",
+    "work/m2_s4/run_review.py": "d07b05a310cc45d7f67e0b34a8db2a9a61161a7a9a8e4b0362e377109efc4d94",
+    "work/m2_s4/klayout_review.py": "1da1a4d55dd384c6fac8d42b8a0de683bdb25212842b5b34673537763312f4e5",
+    "work/m2_s3/verify_gds.py": "adb0d8af2d21599324846f5d094028b1188f925e49094fec5375ff254e32d3d3"
+  }
+}

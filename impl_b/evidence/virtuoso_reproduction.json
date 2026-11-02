@@ -1,0 +1,30 @@
+{
+  "schema": "lab06b.native_CAD_report_verification.v1",
+  "timestamp": "2026-10-31T17:02:29.823221+08:00",
+  "status": "passed",
+  "course_steps": 17,
+  "native_CAD_extension": 1,
+  "appendices": 2,
+  "source_sections": 20,
+  "images": 55,
+  "report_sha256": "5529b6a0a5a5180925cf4f3304454305754dd03d7b55b261f359b1d2d08e0993",
+  "report": "Lab06b_index.html",
+  "chapter": "course/virtuoso_calibre.html",
+  "proof": "work/virtuoso_reproduction/out/reproduction_results.json",
+  "browser": "evidence/virtuoso_report_browser.json",
+  "links": "evidence/report_checks.json",
+  "package": {
+    "archive": "delivery/Lab06b_Virtuoso_Calibre_reproduction.zip",
+    "sha256": "03c2a74af0a610d2543db7d1c7a810008ea5030f3e30f3b89caee740300d3b63",
+    "bytes": 1046346,
+    "manifest": "delivery/virtuoso_calibre/manifest.json",
+    "files": 138,
+    "verified": true
+  },
+  "previous_technical_files_unchanged": 1127,
+  "previous_19_source_pages_unchanged": true,
+  "original_S6_spec_phase_M1_M2_ZIP_unchanged": true,
+  "native_review_launcher_smoke": "opened read-only layout; no SKILL error; expected auto-tech/XL warnings retained in log",
+  "D_writes": false,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_virtuoso_report_20261031_165139"
+}

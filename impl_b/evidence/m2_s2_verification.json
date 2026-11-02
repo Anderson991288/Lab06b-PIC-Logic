@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-10-31T11:36:12.105535+08:00",
+  "step": "M2 S2",
+  "status": "passed",
+  "root": "C:\\EDA_Codex\\Lab06b",
+  "D_writes": false,
+  "engine": "IPKISS CircuitModel / Caphe get_smatrix(validate_netlist=True)",
+  "pdk_version": "2.6.luceda1",
+  "ipkiss_version": "2026.03.3",
+  "passed": 80,
+  "total": 80,
+  "max_abs_U_error": 2.5589376332604516e-16,
+  "max_abs_delta_error": 7.105427357601002e-15,
+  "functions": [
+    {
+      "gate": "AND2",
+      "max_abs_U_error": 2.482534153247273e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 2.2887833992611187e-16,
+      "max_unitarity_error": 1.3322676295501878e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 2.1153791826500017,
+      "worst_pattern": "1000",
+      "max_abs_delta_error": 6.217248937900877e-15
+    },
+    {
+      "gate": "OR2",
+      "max_abs_U_error": 2.482534153247273e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 2.297444613877834e-16,
+      "max_unitarity_error": 1.3322676295501878e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 2.120502406246192,
+      "worst_pattern": "1000",
+      "max_abs_delta_error": 7.105427357601002e-15
+    },
+    {
+      "gate": "XOR2",
+      "max_abs_U_error": 2.5589376332604516e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 3.1401849173675503e-16,
+      "max_unitarity_error": 1.5543122344752192e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 0.24999999999994882,
+      "worst_pattern": "1111",
+      "max_abs_delta_error": 4.440892098500626e-16
+    },
+    {
+      "gate": "AND4",
+      "max_abs_U_error": 1.6782945342419286e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 3.908020529499657e-16,
+      "max_unitarity_error": 1.3322676295501878e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 1.4960282008586585,
+      "worst_pattern": "1101",
+      "max_abs_delta_error": 4.440892098500626e-15
+    },
+    {
+      "gate": "OR4",
+      "max_abs_U_error": 1.8875832159447664e-16,
+      "max_reflection_block": 0.0,
+      "max_output_reflection_block": 0.0,
+      "max_reciprocity_error": 2.2887833992611187e-16,
+      "max_unitarity_error": 1.1102230246251565e-15,
+      "passed": 16,
+      "total": 16,
+      "minimum_signed_margin": 1.4998553450018046,
+      "worst_pattern": "0100",
+      "max_abs_delta_error": 7.105427357601002e-15
+    }
+  ],
+  "unit_tests": {
+    "run": 10,
+    "passed": 10,
+    "successful": true
+  },
+  "regression": {
+    "M0_S3": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S1": {
+      "run": 16,
+      "passed": 16,
+      "successful": true
+    },
+    "M1_S2": {
+      "run": 17,
+      "passed": 17,
+      "successful": true
+    },
+    "M1_S3": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M1_S4": {
+      "run": 18,
+      "passed": 18,
+      "successful": true
+    },
+    "M1_S5": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    },
+    "M2_S1": {
+      "run": 15,
+      "passed": 15,
+      "successful": true
+    }
+  },
+  "checks": [
+    {
+      "name": "PDK_cell_and_upper_port",
+      "passed": true
+    },
+    {
+      "name": "MMI_default_H",
+      "passed": true
+    },
+    {
+      "name": "four_single_MZIs",
+      "passed": true
+    },
+    {
+      "name": "five_complex_matrices",
+      "passed": true
+    },
+    {
+      "name": "eighty_truths",
+      "passed": true
+    },
+    {
+      "name": "power_differences",
+      "passed": true
+    },
+    {
+      "name": "power_conservation",
+      "passed": true
+    },
+    {
+      "name": "full_reflection_blocks",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_and_unitary",
+      "passed": true
+    },
+    {
+      "name": "all_eighty_unique",
+      "passed": true
+    },
+    {
+      "name": "CSV_round_trip",
+      "passed": true
+    },
+    {
+      "name": "five_controlled_errors_detected",
+      "passed": true
+    },
+    {
+      "name": "M1_sources_and_zip_unchanged",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "pic_spec.json": "da612690039406afd78800e1845114789a19864d7b05750c8f8bd9e422640b5d",
+    "phase_settings.json": "d6048062b3895b2bf49c092abe50aea7c42fb0c07091eb5ddd775abb08aad8c6",
+    "work/common/pdk_circuit.py": "ff237fc9a2b6b5d84b84ec8253427c5e1fabff9dc471a13226eb0c2b8c5b4428",
+    "work/m2_s2/run_pdk.py": "1759bebd71dd9a6a55f9f68c922d83567a7d74d8e3170f4695574aadfae20b9a",
+    "work/m2_s2/test_pdk_circuit.py": "bf660aeefe1656d299c0175b35bdd4d370e54d0f0c71723a1b3993499a4ecee5",
+    "scripts/run_m2_s2.ps1": "cb4f4a001d0fc473e9d9dbbba374b584fa6faec604886cbaff3773258168a526",
+    "scripts/render_m2_s2.py": "7d1ae9d5cfe2ff842bd62ab87bec68048c1e451930d3608a1001c3c28d9b0783",
+    "scripts/render_course.py": "8ec1090975a010185a0ad77433070f2b7b6c54193542093eb88941fca1738822",
+    "work/m2_s2/plot_comparison.py": "dbd600b0b2b94009b9dcf28ce8e8f0e8f2febb83d1f2f07ff0645919438c0098",
+    "work/m2_s2/browser_qa.cjs": "27f074a12e376ce1bd709d98004de116b0910eeadcc79d38c78df55cff530332"
+  },
+  "source_hashes_verified": true,
+  "M1_source_files_and_zip_unchanged": true,
+  "html_files": 17,
+  "local_links": 788,
+  "browser_cases": 80,
+  "learner_worksheet_verified": true,
+  "backup": "C:\\EDA_Codex\\Lab06b\\history\\before_m2_s2_20261031_112819",
+  "learner_submission": "pending",
+  "scope": "14 actual CORNERSTONE MMI instances, 14 custom ideal phase cells, zero-length ideal links; default ideal MMI model. No layout propagation, EC, electrical heater calibration, fabrication tolerances, bandwidth or DRC verification.",
+  "next_step": "M2 S3"
+}

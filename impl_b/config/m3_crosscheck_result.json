@@ -1,0 +1,31 @@
+{
+  "schema": "lab06b.independent_geometry_result.v1",
+  "step": "M3 S2",
+  "status": "selected_independent_geometry_crosscheck_passed",
+  "source_chip_index": "config/m2_current_chip.json",
+  "gds_sha256": "0a8bece1fddd9e10a5cac8369ac57259f5775735b4f5ef6758ab76ceddc23963",
+  "result": "work/m3_s2/out/crosscheck_results.json",
+  "result_sha256": "2a999ebd0f8ad1e072ee738d7de832edfe8da5984d8b63a70634d68158b9931f",
+  "comparison": "delivery/m3_s2_crosscheck/comparison_54.csv",
+  "comparison_sha256": "37ce8081f170680f46a92c4a26b62f5c0e9926c5ee167e7f8226a9d05954e906",
+  "selected_measurements": 6,
+  "rule_comparisons": 54,
+  "GDS_controls": 8,
+  "tests": 12,
+  "original_pre_DRC_records": 0,
+  "original_pre_DRC_categories": 31,
+  "control_files": {
+    "delivery/m3_s2_crosscheck/controls/Si_narrow.gds": "a933b1137c3ba09e6d727fb79461e5a440a758bbb1353fb6bc94a27d45d0ae7e",
+    "delivery/m3_s2_crosscheck/controls/Si_gap.gds": "10ad5b4b63dc080e94eed18730135c45b8e526f11f4de883094f0297c8d224ec",
+    "delivery/m3_s2_crosscheck/controls/HT_narrow.gds": "864846276d8f31dad01a39c6ff3ff1747063fe9c21d110fdbbd30c9f8fb5f1fb",
+    "delivery/m3_s2_crosscheck/controls/HT_gap.gds": "04caa566f7473c5a2ca52d617dbf5f22f355614f34581bb3791c087b9002d580",
+    "delivery/m3_s2_crosscheck/controls/PAD_narrow.gds": "de75feb4c593eae6b91f73e608696f9687a5747d622bb8c47cf332a663a70a25",
+    "delivery/m3_s2_crosscheck/controls/PAD_gap.gds": "1bfcb4e8df5a62598f447409f3df1459f67caa62d01a2c24f2e82baaafb4f1dc",
+    "delivery/m3_s2_crosscheck/controls/Si_margin_equal.gds": "9f78ead34810de8cf591c787284570470be38c449ad5a385b03330f4a1ca9ca5",
+    "delivery/m3_s2_crosscheck/controls/Si_below_margin.gds": "cb009c170fc6b13a6e8773a6040da1dae2ede76bb678a1c859b54c43e65144b6"
+  },
+  "physical_function_qualified": false,
+  "foundry_full_signoff": false,
+  "learner_submission": "pending",
+  "scope": "Six width/space facing-edge measurements on GDS 3/39/41, independent gdstk/Shapely vs KLayout Euclidian/45-degree measurements and selected original pre-DRC outcomes. Not all 31 categories, connectivity, calibrated optical response or foundry signoff."
+}

@@ -1,0 +1,135 @@
+
+xwininfo: Window id: 0x438 (the root window) (has no name)
+
+  Root window id: 0x438 (the root window) (has no name)
+  Parent window id: 0x0 (none)
+     31 children:
+     0x20083c (has no name): ()  876x697+840+346  +840+346
+        1 child:
+        0xc00006 "Calibre Interactive - nmDRC v2026.1_17.11 : /mnt/c/EDA_Codex…b06b_auto.runset *": ("calibrerve" "Calibre_Interactive")  800x600+38+59  +878+405
+     0xc00008 "Qt Client Leader Window": ()  1x1+0+0  +0+0
+     0xc00004 "Qt Selection Owner for Calibre_Interactive": ()  3x3+0+0  +0+0
+     0x20002a (has no name): ()  871x290+605+994  +605+994
+        1 child:
+        0x800010 "Virtuoso® Studio IC23.1 - Log: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/virtuoso_CDS.log": ("virtuoso" "virtuoso")  795x193+38+59  +643+1053
+     0x2000fb (has no name): ()  871x290+473+1117  +473+1117
+        1 child:
+        0x1200010 "Virtuoso® Studio IC23.1 - Log: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/virtuoso_lower_CDS.log": ("virtuoso" "virtuoso")  795x193+38+59  +511+1176
+     0x200234 (has no name): ()  871x290+435+1056  +435+1056
+        1 child:
+        0x1c00010 "Virtuoso® Studio IC23.1 - Log: /mnt/c/EDA_Codex/Lab06b/work/virtuoso_reproduction/out/virtuoso_controlled_CDS.log": ("virtuoso" "virtuoso")  795x193+38+59  +473+1115
+     0x20043f (has no name): ()  1876x1097+54+112  +54+112
+        1 child:
+        0x1c00310 "Virtuoso® Studio Layout Suite XL Reading: lab06b_crosscad_20261031 lab06b_b7_ec_pad_chip layout": ("virtuoso" "virtuoso")  1800x1000+38+59  +92+171
+           55 children:
+           0x1c004bb "virtuoso": ("virtuoso" "virtuoso")  250x30+375+62  +467+233
+           0x1c00457 "virtuoso": ("virtuoso" "virtuoso")  100x30+-600+-530  +-508+-359
+           0x1c00453 "virtuoso": ("virtuoso" "virtuoso")  100x30+-600+-530  +-508+-359
+           0x1c00451 "virtuoso": ("virtuoso" "virtuoso")  100x30+-600+-530  +-508+-359
+           0x1c0044f "virtuoso": ("virtuoso" "virtuoso")  100x30+-600+-530  +-508+-359
+           0x1c0044d "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00436 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+              3 children:
+              0x1c0043c "virtuoso": ("virtuoso" "virtuoso")  150x150+0+1193  +92+1364
+                 3 children:
+                 0x1c00442 "virtuoso": ("virtuoso" "virtuoso")  150x96+0+32  +92+1396
+                    1 child:
+                    0x1c00444 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+1396
+                 0x1c00440 "virtuoso": ("virtuoso" "virtuoso")  150x22+0+128  +92+1492
+                 0x1c0043e "virtuoso": ("virtuoso" "virtuoso")  150x32+0+0  +92+1364
+              0x1c0043a "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+              0x1c00438 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00434 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00432 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00430 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c0042e "virtuoso": ("virtuoso" "virtuoso")  175x778+0+92  +92+263
+           0x1c0042c "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c0042a "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00428 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00426 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00424 "virtuoso": ("virtuoso" "virtuoso")  640x480+0+0  +92+171
+           0x1c00422 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00420 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c0041e "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c0041c "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c0041a "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00418 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00416 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00414 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00412 "virtuoso": ("virtuoso" "virtuoso")  941x30+859+32  +951+203
+           0x1c00410 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c0040e "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c0040a "virtuoso": ("virtuoso" "virtuoso")  572x30+1228+62  +1320+233
+           0x1c00408 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00406 "virtuoso": ("virtuoso" "virtuoso")  1800x30+0+870  +92+1041
+           0x1c00404 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00402 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c00400 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003fe "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003fc "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003fa "virtuoso": ("virtuoso" "virtuoso")  1800x30+0+900  +92+1071
+           0x1c003f8 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003f6 "virtuoso": ("virtuoso" "virtuoso")  1800x30+0+930  +92+1101
+           0x1c003f4 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003f2 "virtuoso": ("virtuoso" "virtuoso")  603x30+625+62  +717+233
+           0x1c003f0 "virtuoso": ("virtuoso" "virtuoso")  375x30+0+62  +92+233
+           0x1c003ee "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003ec "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003ea "virtuoso": ("virtuoso" "virtuoso")  126x30+453+32  +545+203
+           0x1c003e8 "virtuoso": ("virtuoso" "virtuoso")  62x30+579+32  +671+203
+           0x1c003e6 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003e4 "virtuoso": ("virtuoso" "virtuoso")  352x30+101+32  +193+203
+           0x1c003e2 "virtuoso": ("virtuoso" "virtuoso")  101x30+0+32  +92+203
+           0x1c003e0 "virtuoso": ("virtuoso" "virtuoso")  218x30+641+32  +733+203
+           0x1c003de "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003dc "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +92+171
+           0x1c003da "virtuoso": ("virtuoso" "virtuoso")  1800x18+0+960  +92+1131
+           0x1c00316 "virtuoso": ("virtuoso" "virtuoso")  1619x778+181+92  +273+263
+              2 children:
+              0x1c003d8 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +273+263
+              0x1c00318 "virtuoso": ("virtuoso" "virtuoso")  1619x778+0+0  +273+263
+                 1 child:
+                 0x1c0031a "virtuoso": ("virtuoso" "virtuoso")  1619x778+0+0  +273+263
+                    1 child:
+                    0x1c0031c "virtuoso": ("virtuoso" "virtuoso")  1619x776+0+2  +273+265
+                       3 children:
+                       0x1c00322 "virtuoso": ("virtuoso" "virtuoso")  1619x776+0+0  +273+265
+                          1 child:
+                          0x1c00324 "virtuoso": ("virtuoso" "virtuoso")  1619x776+0+0  +273+265
+                       0x1c00320 "virtuoso": ("virtuoso" "virtuoso")  100x22+0+0  +273+265
+                       0x1c0031e "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +273+265
+           0x1c00314 "virtuoso": ("virtuoso" "virtuoso")  1800x22+0+978  +92+1149
+           0x1c00312 "virtuoso": ("virtuoso" "virtuoso")  1800x32+0+0  +92+171
+     0x1c00449 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +0+0
+     0x1c00446 "virtuoso": ("virtuoso" "virtuoso")  100x30+0+0  +0+0
+     0x2200008 "libSelect": ()  1x1+0+0  +0+0
+     0x2200006 "Library Select": ("libSelect" "libSelect")  602x491+0+0  +0+0
+        1 child:
+        0x220000a (has no name): ()  17000x7000+-100+-100  +-100+-100
+     0x2200004 "Qt Selection Owner for libSelect": ()  3x3+0+0  +0+0
+     0x1e00004 "Qt Selection Owner for pvsgui": ()  3x3+0+0  +0+0
+     0x1c00008 "virtuoso": ()  1x1+0+0  +0+0
+     0x1c00004 "Qt Selection Owner for virtuoso": ()  3x3+0+0  +0+0
+     0x20019d (has no name): ()  648x223+1392+585  +1392+585
+        1 child:
+        0x12002a4 "Layout XL": ("virtuoso" "virtuoso")  572x126+38+59  +1430+644
+     0x1800008 "libSelect": ()  1x1+0+0  +0+0
+     0x1800006 "Library Select": ("libSelect" "libSelect")  602x491+0+0  +0+0
+        1 child:
+        0x180000a (has no name): ()  17000x7000+-100+-100  +-100+-100
+     0x1800004 "Qt Selection Owner for libSelect": ()  3x3+0+0  +0+0
+     0x1400004 "Qt Selection Owner for pvsgui": ()  3x3+0+0  +0+0
+     0x1200008 "virtuoso": ()  1x1+0+0  +0+0
+     0x1200004 "Qt Selection Owner for virtuoso": ()  3x3+0+0  +0+0
+     0xe00008 "libSelect": ()  1x1+0+0  +0+0
+     0xe00006 "Library Select": ("libSelect" "libSelect")  602x491+0+0  +0+0
+        1 child:
+        0xe0000a (has no name): ()  17000x7000+-100+-100  +-100+-100
+     0xe00004 "Qt Selection Owner for libSelect": ()  3x3+0+0  +0+0
+     0xa00004 "Qt Selection Owner for pvsgui": ()  3x3+0+0  +0+0
+     0x800008 "virtuoso": ()  1x1+0+0  +0+0
+     0x800004 "Qt Selection Owner for virtuoso": ()  3x3+0+0  +0+0
+     0x200027 "Weston WM": ()  10x10+0+0  +0+0
+     0x200002 (has no name): ()  8192x8192+0+0  +0+0
+     0x200001 (has no name): ()  10x10+0+0  +0+0
+
