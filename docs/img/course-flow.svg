@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="960" height="420" font-family="'Microsoft JhengHei','Noto Sans TC','PingFang TC',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5f6368"/>
+    </marker>
+  </defs>
+  <rect width="960" height="420" rx="12" fill="#ffffff"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#1d1f21">Lab06b 課程流程：四個模組、17 步，每一步以證據 JSON 驗收</text>
+
+  <!-- M0 -->
+  <rect x="20" y="60" width="215" height="200" rx="8" fill="#eef4fb" stroke="#2f6fb5"/>
+  <path d="M28,60 h199 a8,8 0 0 1 8,8 v32 h-215 v-32 a8,8 0 0 1 8,-8 z" fill="#2f6fb5"/>
+  <text x="127" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">M0 環境與元件 · 3.5 h</text>
+  <g font-size="14" fill="#1d1f21">
+    <text x="34" y="125">s1 EDA 工具鏈</text>
+    <text x="34" y="144">s2 元件物理與光場</text>
+    <text x="34" y="163">s3 共用光學模型 T(θ,φ)</text>
+  </g>
+
+  <!-- M1 -->
+  <rect x="255" y="60" width="215" height="200" rx="8" fill="#e6f4ec" stroke="#1e7f4f"/>
+  <path d="M263,60 h199 a8,8 0 0 1 8,8 v32 h-215 v-32 a8,8 0 0 1 8,-8 z" fill="#1e7f4f"/>
+  <text x="362" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">M1 光訊號做邏輯 · 5 h</text>
+  <g font-size="14" fill="#1d1f21">
+    <text x="269" y="125">s1 光訊號與邏輯</text>
+    <text x="269" y="144">s2 B7 組成（5×5 矩陣 U）</text>
+    <text x="269" y="163">s3 B7 讀取計算 ΔP</text>
+    <text x="269" y="182">s4 可程式邏輯（80 筆）</text>
+    <text x="269" y="201">s5 功能規格交接</text>
+  </g>
+
+  <!-- M2 -->
+  <rect x="490" y="60" width="215" height="200" rx="8" fill="#fbefe6" stroke="#b5642f"/>
+  <path d="M498,60 h199 a8,8 0 0 1 8,8 v32 h-215 v-32 a8,8 0 0 1 8,-8 z" fill="#b5642f"/>
+  <text x="597" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">M2 PIC 實作 · 8 h</text>
+  <g font-size="14" fill="#1d1f21">
+    <text x="504" y="125">s1 PIC 邊界</text>
+    <text x="504" y="144">s2 電路模擬（Caphe）</text>
+    <text x="504" y="163">s3 核心佈局（IPKISS）</text>
+    <text x="504" y="182">s4 Layout Review</text>
+    <text x="504" y="201">s5 晶片介面：EC、接墊</text>
+    <text x="504" y="220">s6 DRC 與光學 LVS</text>
+    <text x="504" y="239">s7 交付包</text>
+  </g>
+
+  <!-- M3 -->
+  <rect x="725" y="60" width="215" height="200" rx="8" fill="#f0ecf7" stroke="#6b4fa0"/>
+  <path d="M733,60 h199 a8,8 0 0 1 8,8 v32 h-215 v-32 a8,8 0 0 1 8,-8 z" fill="#6b4fa0"/>
+  <text x="832" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">M3 驗收與延伸 · 1.5 h</text>
+  <g font-size="14" fill="#1d1f21">
+    <text x="739" y="125">s1 從零重建</text>
+    <text x="739" y="144">s2 獨立幾何檢查</text>
+  </g>
+
+  <!-- module arrows -->
+  <g stroke="#5f6368" stroke-width="2" marker-end="url(#arr)">
+    <line x1="236" y1="160" x2="253" y2="160"/>
+    <line x1="471" y1="160" x2="488" y2="160"/>
+    <line x1="706" y1="160" x2="723" y2="160"/>
+  </g>
+
+  <!-- gates -->
+  <g font-size="13" font-weight="bold">
+    <rect x="20" y="272" width="215" height="28" rx="14" fill="#e8f0fa"/>
+    <text x="127" y="291" text-anchor="middle" fill="#2f6fb5">G0 工具鏈：DRC 0 + 故障命中</text>
+    <rect x="255" y="272" width="215" height="28" rx="14" fill="#e6f4ec"/>
+    <text x="362" y="291" text-anchor="middle" fill="#1e7f4f">G1 邏輯：5 種功能 80/80</text>
+    <rect x="490" y="272" width="215" height="28" rx="14" fill="#fbefe6"/>
+    <text x="597" y="291" text-anchor="middle" fill="#b5642f">G2 版圖 · G3 DRC/LVS · G4 交付</text>
+    <rect x="725" y="272" width="215" height="28" rx="14" fill="#f0ecf7"/>
+    <text x="832" y="291" text-anchor="middle" fill="#6b4fa0">GDS 多邊形相同、重驗通過</text>
+  </g>
+
+  <!-- evidence pipeline -->
+  <text x="20" y="324" font-size="14" font-weight="bold" fill="#5f6368">每一步的產生方式：先證據、後頁面</text>
+  <g font-size="13" fill="#1d1f21" text-anchor="middle">
+    <rect x="20" y="336" width="160" height="56" rx="6" fill="#f3f3ee" stroke="#d9d9d4"/>
+    <text x="100" y="360" font-weight="bold">程式</text>
+    <text x="100" y="380" fill="#5f6368">work/&lt;step&gt;/*.py</text>
+    <rect x="210" y="336" width="160" height="56" rx="6" fill="#f3f3ee" stroke="#d9d9d4"/>
+    <text x="290" y="360" font-weight="bold">證據</text>
+    <text x="290" y="380" fill="#5f6368">out/*.json · GDS · 圖</text>
+    <rect x="400" y="336" width="160" height="56" rx="6" fill="#f3f3ee" stroke="#d9d9d4"/>
+    <text x="480" y="360" font-weight="bold">主線頁（實作 A）</text>
+    <text x="480" y="380" fill="#5f6368">build_page.py</text>
+    <rect x="590" y="336" width="160" height="56" rx="6" fill="#f3f3ee" stroke="#d9d9d4"/>
+    <text x="670" y="360" font-weight="bold">對照（實作 B）</text>
+    <text x="670" y="380" fill="#5f6368">merge/fragments</text>
+    <rect x="780" y="336" width="160" height="56" rx="6" fill="#f3f3ee" stroke="#d9d9d4"/>
+    <text x="860" y="360" font-weight="bold">合併課程頁</text>
+    <text x="860" y="380" fill="#5f6368">build_course.py</text>
+  </g>
+  <g stroke="#5f6368" stroke-width="2" marker-end="url(#arr)">
+    <line x1="181" y1="364" x2="208" y2="364"/>
+    <line x1="371" y1="364" x2="398" y2="364"/>
+    <line x1="561" y1="364" x2="588" y2="364"/>
+    <line x1="751" y1="364" x2="778" y2="364"/>
+  </g>
+</svg>

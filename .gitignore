@@ -20,6 +20,10 @@ impl_b/work/*/work/*-mobile.png
 impl_b/work/*/work/*-desktop-*.png
 impl_b/work/*/work/*-mobile-*.png
 
+# ---- HTML 頁面（由程式產生，不上傳；merge/fragments 是產生頁面用的原始段落，保留） ----
+*.html
+!merge/fragments/*.html
+
 # ---- 執行期暫存 ----
 __pycache__/
 *.pyc

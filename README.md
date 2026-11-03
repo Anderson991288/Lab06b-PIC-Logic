@@ -7,7 +7,13 @@ Lab06b 是一套以 **CORNERSTONE Si220 被動製程 PDK** 為平台的矽光子
 與原版課程的差別：原版是講師把既有結果整理成教材；本課程每一步都要學員**在自己的電腦重新執行**，
 由程式產生證據 JSON，再由證據產生頁面。沒有重跑的內容一律標「引用」。
 
-課程入口：[`Lab06b_index.html`](Lab06b_index.html)（總目錄）→ [`course/`](course/) 17 個步驟頁。
+![B7 晶片全圖：左側 5 個 EC 輸入經等長扇入進入 B7 核心，上下排為 heater 接墊與回流匯流排，右側扇出到 5 個 EC](course/figures/m2_s5/chip_overview.png)
+
+課程頁（HTML）不放在 repo 裡；圖都在 [`course/figures/`](course/figures/)（主線）與 [`course/figures_b/`](course/figures_b/)（實作 B），頁面可依[重跑方式](#重跑方式)在本機產生。
+
+## 課程流程
+
+![課程流程：M0 環境與元件 → M1 光訊號做邏輯 → M2 PIC 實作 → M3 驗收與延伸，各模組有 G0–G4 關卡；每一步由程式產生證據 JSON，再產生頁面](docs/img/course-flow.svg)
 
 ## 四個模組
 
@@ -20,6 +26,44 @@ Lab06b 是一套以 **CORNERSTONE Si220 被動製程 PDK** 為平台的矽光子
 
 每一步固定六段：**這一步要回答 → 白話範例 → 學員操作 → 檢查結果（由證據產生）→ 驗收條件 → 程式、檔案與歷史**。
 主作業固定單顆 B7；原版的 B7×2 晶片只作講師參考。
+
+## 原理：用 MZI 做邏輯
+
+### MZI 怎麼切換光（M0 s2）
+
+每顆 MZI 由兩個 2×2 MMI 與兩臂組成；上臂的 heater 改變相位 θ，就能讓光交叉、直通、分光，或把兩路相干光合成一路。
+下圖是 Meep 2D FDTD 重跑的四種狀態，消光比 25–29 dB。
+
+![MZI 四種狀態的光場：θ=0 切換到 out2、θ=π 直通到 out1、θ=π/2 分光、兩路相差 180° 時合光到 out1](course/figures/m0_s2/mzi_fields.png)
+
+### B7：7 顆 MZI 組成可程式邏輯（M1 s1–s3）
+
+四路資料光 x1–x4（振幅 0／1）與參考光 R（振幅 3）進入 4 層、7 顆 MZI 干涉，
+讀取 o2、o4 兩個輸出的功率差 ΔP = P(o2) − P(o4)：ΔP > 0 為 1、ΔP < 0 為 0。
+
+![B7 架構：輸入編碼、7 顆 MZI 混合、讀取 o2 與 o4 的功率差](course/figures/m1_s1/b7_io.png)
+
+### 換 14 個相位就換功能（M1 s4）
+
+同一組光路只換 θ、φ 共 14 個相位，就能做 AND2／OR2／XOR2／AND4／OR4，各 16 組輸入全部正確；
+XOR2 的最小裕量 0.25 最小，AND2、OR2 約 2.1。最下面一列 NAND2 是學員自己用最佳化求出的相位。
+
+![五種功能加 NAND2 的 ΔP 真值表：綠色為目標 1、紅色為目標 0，全部 16/16 正確](course/figures/m1_s4/truth_tables.png)
+
+## 從電路到晶片
+
+### 核心佈局（M2 s3）
+
+IPKISS 以 CORNERSTONE PDK 的 2×2 MMI 放置 7 顆 MZI，四欄 × 五條 rail；不經過 MZI 的 rail 走**等長旁路**（同樣的 S 彎），
+讓佈局後的電路不改相位就是 80/80，且 1530–1570 nm 都不用重新校正。
+
+![B7 核心 GDS：上為全圖，下為放大第 2 欄，M3 在 rail 1–2，其餘 rail 走等長旁路](course/figures/m2_s3/b7_core.png)
+
+### 簽核：只讀 GDS 的光學 LVS（M2 s6）
+
+不看產生佈局的程式，只從 GDS 辨認出 14 個 MMI 與 33 條導線，重建連接表後與規格比對；DRC 0 違規，且用到的規則都以故障注入確認會觸發。
+
+![光學 LVS 從 GDS 抽出的元件：黑色是 14 個 MMI 本體，其餘每條導線一種顏色，共 33 條](course/figures/m2_s6/lvs_extract.png)
 
 ## 晶片規格（主線）
 
@@ -80,8 +124,8 @@ IPKISS 與 CORNERSTONE PDK 需自行取得授權，本 repo 不含這兩者。
 
 | 路徑 | 內容 |
 |---|---|
-| `Lab06b_index.html` | 課程總目錄：規劃、進度、所有步驟入口 |
-| `course/` | 17 步合併頁（單檔，圖已嵌入）；`course.css`；`figures/`（主線）、`figures_b/`（實作 B） |
+| `docs/img/` | README 用的說明圖 |
+| `course/` | 課程頁的圖：`figures/`（主線）、`figures_b/`（實作 B）；`course.css` |
 | `impl_a/` | 主線（實作 A）的程式與證據：`EDA_paths.json`、`env/`、`sources/`、`spec/`、`work/<step>/out/` |
 | `impl_a/work/common/` | 共用模型（`mzi.py`、`b7.py`、`runtime.py`）與 DRC deck |
 | `impl_b/` | 實作 B 的程式與證據：`scripts/`、`work/`、`config/`、`evidence/`、`learner/`、`delivery/` |
@@ -98,6 +142,7 @@ IPKISS 與 CORNERSTONE PDK 需自行取得授權，本 repo 不含這兩者。
 | `*.npz`（Meep 光場） | 每檔 3–19 MB | `impl_a/work/m0_s2/run_fields.sh` 重算（約 4 h／案例）；圖已存成 PNG |
 | 原版課程教材（`impl_b/reference/C01/`、`C01_original.zip`） | 非本課程原創 | — |
 | `impl_b/history/`、重建副本、瀏覽器截圖 | 過程備份 | — |
+| HTML 課程頁（`Lab06b_index.html`、`course/*.html` 等） | 由程式產生 | 依下方重跑方式在本機產生；`merge/fragments/` 是產生頁面用的原始段落，保留 |
 
 ## 重跑方式
 
@@ -147,3 +192,4 @@ python merge/build_index.py
 | v2 | 2026-10-31 | 實作 A／B 各自完成 M0–M3；Virtuoso／Calibre 交叉比對 |
 | v3 | 2026-11-01 | 兩套實作合併成一份課程，主線 + 對照 |
 | v3.1 | 2026-11-02 | 上傳 GitHub：補 README、AGENT.md、`.gitignore` |
+| v3.2 | 2026-11-03 | README 加入說明圖與課程流程圖；HTML 頁面改為不上傳 |
