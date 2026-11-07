@@ -31,7 +31,7 @@
 | PDK、CORNERSTONE | Process Design Kit | 代工廠提供的「設計套件」：有哪些層、元件長什麼樣、哪些幾何不能畫。本設計用英國 CORNERSTONE 的 Si220 被動製程。 |
 | IPKISS、Caphe | Luceda 的光子設計軟體 | IPKISS 用 Python 畫版圖；Caphe 是它附的電路模擬器，用來在佈局前後算整個光路的行為。 |
 | GDS | GDSII 檔案格式 | 晶片版圖的標準交換格式，裡面是一層層的多邊形。交給代工廠的就是這個檔。 |
-| DRC | Design Rule Check，設計規則檢查 | 檢查版圖有沒有違反製程的幾何限制（最小線寬、最小間距等）。0 違規是送件的基本門檻。 |
+| DRC | Design Rule Check，設計規則檢查 | 檢查版圖有沒有違反製程的幾何限制（最小線寬、最小間距等）。 |
 | 光學 LVS | Layout vs. Schematic，版圖對電路 | 只看 GDS，把元件和導線辨認出來，重建出連接表，再和原本的規格比對，確認「畫出來的」和「設計的」是同一個電路。 |
 | EC | Edge Coupler，邊緣耦合器 | 晶片邊緣讓光纖對接的結構。本設計用薄矽尖端，10 個（5 進 5 出）。 |
 | 接墊、PAD | bond pad | 讓探針或打線接上的金屬方塊，用來給加熱器通電。 |
