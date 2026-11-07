@@ -5,7 +5,7 @@
     </marker>
   </defs>
   <rect width="960" height="420" rx="12" fill="#ffffff"/>
-  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#1d1f21">Lab06b 課程流程：四個模組、17 步，每一步以證據 JSON 驗收</text>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#1d1f21">流程：四個階段、17 步，每一步由程式產生證據檔再驗收</text>
 
   <!-- M0 -->
   <rect x="20" y="60" width="215" height="200" rx="8" fill="#eef4fb" stroke="#2f6fb5"/>
@@ -72,7 +72,7 @@
   </g>
 
   <!-- evidence pipeline -->
-  <text x="20" y="324" font-size="14" font-weight="bold" fill="#5f6368">每一步的產生方式：先證據、後頁面</text>
+  <text x="20" y="324" font-size="14" font-weight="bold" fill="#5f6368">每一步的產生方式：先有證據檔，再由證據檔產生頁面</text>
   <g font-size="13" fill="#1d1f21" text-anchor="middle">
     <rect x="20" y="336" width="160" height="56" rx="6" fill="#f3f3ee" stroke="#d9d9d4"/>
     <text x="100" y="360" font-weight="bold">程式</text>
